@@ -1,0 +1,5 @@
+{
+  "_comment": "Instagram publishing limits. Default 1 post per Asia/Bangkok day. The launch burst (approved by Artem 28.10.2026) allows 3/day with >= 3h between posts until the date below, to fill the first 9-post grid; after that the default applies automatically.",
+  "perDay": 1,
+  "burst": { "until": "2026-10-30", "perDay": 3, "minHoursBetween": 3 }
+}

@@ -8,7 +8,7 @@
 //   node scripts/publish.mjs --no-notify        # skip Telegram
 //
 // Guards (all hard):
-//   * max 1 post per Asia/Bangkok calendar day (content/state.json) — no override flag
+//   * max posts per Asia/Bangkok day from config/limits.json (default 1; dated launch burst 3/day, >=3h apart) — no override flag
 //   * idempotency: slugs in state.published are never re-posted; before media_publish we also
 //     look at the account's recent media for a post with the same first caption line (crash recovery)
 //   * validate-carousel.mjs must pass; slides must exist in out/<slug>/ and be live at
@@ -47,9 +47,17 @@ const state = await loadState();
 state.published ||= {};
 state.skipped ||= {};
 const saveState = () => writeFile(STATE_FILE, JSON.stringify(state, null, 2) + '\n');
-const postedToday = Object.entries(state.published).find(([, p]) => p.bangkokDate === today);
-if (postedToday) {
-  console.log(`✓ already posted today (${today}, Asia/Bangkok): ${postedToday[0]} — 1 post/day max, nothing to do`);
+const limits = JSON.parse(await readFile(new URL('../config/limits.json', import.meta.url), 'utf8'));
+const inBurst = Boolean(limits.burst?.until && today <= limits.burst.until);
+const maxToday = inBurst ? limits.burst.perDay : limits.perDay;
+const minGapMs = (inBurst ? limits.burst.minHoursBetween : 0) * 3600e3;
+const todays = Object.entries(state.published).filter(([, p]) => p.bangkokDate === today);
+const lastAt = Math.max(0, ...Object.values(state.published).map((p) => Date.parse(p.publishedAt) || 0));
+let blocked = null;
+if (todays.length >= maxToday) blocked = `already posted ${todays.length} today (${today}, Asia/Bangkok) — ${maxToday}/day max`;
+else if (minGapMs && Date.now() - lastAt < minGapMs) blocked = `last post was ${((Date.now() - lastAt) / 3600e3).toFixed(1)}h ago — burst needs ${limits.burst.minHoursBetween}h between posts`;
+if (blocked) {
+  console.log(`✓ ${blocked}, nothing to do`);
   if (!DRY) process.exit(0);
   console.log('  (dry-run continues for preview only)');
 }

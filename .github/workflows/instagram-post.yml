@@ -1,10 +1,15 @@
 name: Instagram post
 
-# Publishes the next ready carousel. Max 1 post per Asia/Bangkok day (guarded twice:
-# git log below + content/state.json inside publish.mjs). No Claude here: deterministic node.
+# Publishes the next ready carousel. Daily limit from config/limits.json (guarded twice:
+# the guard step below + content/state.json inside publish.mjs). No Claude here: deterministic node.
 on:
   schedule:
     - cron: '7 13 * * 1-5' # 20:07 Asia/Bangkok, Mon–Fri (= 09:07 New York, 14:07 London)
+    # Launch burst 28–30 Oct 2026 (config/limits.json: 3/day, >=3h apart). Outside the burst window
+    # the publisher's own limit makes these no-ops; remove them after the launch grid is out.
+    - cron: '35 13 28 10 *'  # 28 Oct 20:35 Bangkok
+    - cron: '50 16 28 10 *'  # 28 Oct 23:50 Bangkok
+    - cron: '0 3,7,11 29,30 10 *' # 29–30 Oct 10:00, 14:00, 18:00 Bangkok
   workflow_dispatch:
     inputs:
       dry_run:
@@ -37,14 +42,19 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Guard — already posted today (Asia/Bangkok)?
+      - name: Guard — daily limit reached (Asia/Bangkok)?
         id: guard
         run: |
-          last=$(git log -1 --format=%cI --grep='^social: published' || true)
-          skip=false
-          if [ -n "$last" ] && [ "$(TZ=Asia/Bangkok date -d "$last" +%F)" = "$(TZ=Asia/Bangkok date +%F)" ]; then
-            skip=true; echo "already published today ($last) — skipping"
-          fi
+          skip=$(node -e '
+            const fs=require("fs");const L=JSON.parse(fs.readFileSync("config/limits.json","utf8"));
+            const S=JSON.parse(fs.readFileSync("content/state.json","utf8")).published||{};
+            const today=new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Bangkok"}).format(new Date());
+            const burst=L.burst&&today<=L.burst.until; const max=burst?L.burst.perDay:L.perDay;
+            const n=Object.values(S).filter(p=>p.bangkokDate===today).length;
+            const last=Math.max(0,...Object.values(S).map(p=>Date.parse(p.publishedAt)||0));
+            const gapOk=!burst||Date.now()-last>=L.burst.minHoursBetween*3600e3;
+            console.log(n>=max||!gapOk?"true":"false");')
+          echo "guard: skip=$skip"
           echo "skip=$skip" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-node@v4
