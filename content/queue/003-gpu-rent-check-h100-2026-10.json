@@ -3,7 +3,7 @@
   "format": "gpu-rent-check",
   "status": "ready",
   "created": "2026-10-28",
-  "publishBy": "2026-11-11",
+  "publishBy": "2026-11-25",
   "topic": "GPU Rent Check: H100 median $3.49/hr, model ladder, Vera Rubin GA on Oracle",
   "sources": [
     {
@@ -12,7 +12,9 @@
       "title": "Nvidia Vera Rubin and Vera CPUs now generally available on Oracle",
       "url": "https://www.datacenterdynamics.com/en/news/nvidia-vera-rubin-and-vera-cpus-now-generally-available-on-oracle/",
       "date": "2026-10-27",
-      "facts": ["Headline: Nvidia Vera Rubin and Vera CPUs now generally available on Oracle (OCI). Standfirst: other AI hardware deployments soon to arrive."]
+      "facts": [
+        "Headline: Nvidia Vera Rubin and Vera CPUs now generally available on Oracle (OCI). Standfirst: other AI hardware deployments soon to arrive."
+      ]
     }
   ],
   "dataHooks": [
@@ -48,8 +50,14 @@
       "type": "cover",
       "kicker": "GPU Rent Check",
       "headline": "What does an H100 hour cost right now?",
-      "figure": { "value": "$3.49/hr", "label": "Median on-demand price, NVIDIA H100 80GB, per GPU-hour" },
-      "refs": ["gpu"]
+      "figure": {
+        "value": "$3.49",
+        "label": "per GPU-hour: median on-demand price of one NVIDIA H100 80GB"
+      },
+      "refs": [
+        "gpu"
+      ],
+      "layout": "poster"
     },
     {
       "type": "chart",
@@ -57,20 +65,56 @@
       "title": "From $8 to $1.95, now back to $3.49",
       "unit": "H100 on-demand median · USD per GPU-hour",
       "data": [
-        { "label": "Jun 23", "value": 8 },
-        { "label": "Jan 24", "value": 4.7 },
-        { "label": "Jul 24", "value": 3.2 },
-        { "label": "Jan 25", "value": 2.6 },
-        { "label": "Jun 25", "value": 2.15 },
-        { "label": "Oct 25", "value": 1.95 },
-        { "label": "Mar 26", "value": 3.1 },
-        { "label": "Aug 26", "value": 3.3 },
-        { "label": "Sep 26", "value": 3.29 },
-        { "label": "Oct 26", "value": 3.49 }
+        {
+          "label": "Jun 23",
+          "value": 8
+        },
+        {
+          "label": "Jan 24",
+          "value": 4.7
+        },
+        {
+          "label": "Jul 24",
+          "value": 3.2
+        },
+        {
+          "label": "Jan 25",
+          "value": 2.6
+        },
+        {
+          "label": "Jun 25",
+          "value": 2.15
+        },
+        {
+          "label": "Oct 25",
+          "value": 1.95
+        },
+        {
+          "label": "Mar 26",
+          "value": 3.1
+        },
+        {
+          "label": "Aug 26",
+          "value": 3.3
+        },
+        {
+          "label": "Sep 26",
+          "value": 3.29
+        },
+        {
+          "label": "Oct 26",
+          "value": 3.49
+        }
       ],
-      "valueFormat": { "prefix": "$", "decimals": 2, "tickDecimals": 0 },
+      "valueFormat": {
+        "prefix": "$",
+        "decimals": 2,
+        "tickDecimals": 0
+      },
       "caption": "The 2025 floor did not hold: the median has risen since late 2025.",
-      "refs": ["gpu-hist"]
+      "refs": [
+        "gpu-hist"
+      ]
     },
     {
       "type": "chart",
@@ -78,31 +122,79 @@
       "title": "One GPU-hour, eight chips",
       "unit": "On-demand median · USD per GPU-hour",
       "data": [
-        { "label": "GB200", "value": 13.25 },
-        { "label": "MI355X", "value": 7 },
-        { "label": "B200", "value": 6.25 },
-        { "label": "H200", "value": 4.4 },
-        { "label": "H100", "value": 3.49 },
-        { "label": "MI300X", "value": 2.99 },
-        { "label": "A100", "value": 1.75 },
-        { "label": "L40S", "value": 1.53 }
+        {
+          "label": "GB200",
+          "value": 13.25
+        },
+        {
+          "label": "MI355X",
+          "value": 7
+        },
+        {
+          "label": "B200",
+          "value": 6.25
+        },
+        {
+          "label": "H200",
+          "value": 4.4
+        },
+        {
+          "label": "H100",
+          "value": 3.49
+        },
+        {
+          "label": "MI300X",
+          "value": 2.99
+        },
+        {
+          "label": "A100",
+          "value": 1.75
+        },
+        {
+          "label": "L40S",
+          "value": 1.53
+        }
       ],
       "highlight": "H100",
-      "valueFormat": { "prefix": "$", "decimals": 2 },
-      "refs": ["gpu"]
+      "valueFormat": {
+        "prefix": "$",
+        "decimals": 2
+      },
+      "refs": [
+        "gpu"
+      ]
     },
     {
       "type": "list",
       "title": "Same chip, very different bills",
       "unit": "Lowest vs highest on-demand listing · $/GPU-hr",
       "rows": [
-        { "label": "H100 80GB", "value": "$1.30–12.29", "note": "median $3.49", "highlight": true },
-        { "label": "H200 141GB", "value": "$2.09–13.78", "note": "median $4.40" },
-        { "label": "B200 180GB", "value": "$3.69–16.11", "note": "median $6.25" },
-        { "label": "GB200 NVL72", "value": "$8.00–27.04", "note": "median $13.25" }
+        {
+          "label": "H100 80GB",
+          "value": "$1.30–12.29",
+          "note": "median $3.49",
+          "highlight": true
+        },
+        {
+          "label": "H200 141GB",
+          "value": "$2.09–13.78",
+          "note": "median $4.40"
+        },
+        {
+          "label": "B200 180GB",
+          "value": "$3.69–16.11",
+          "note": "median $6.25"
+        },
+        {
+          "label": "GB200 NVL72",
+          "value": "$8.00–27.04",
+          "note": "median $13.25"
+        }
       ],
       "footnote": "Spread = cheapest and most expensive public on-demand listing in the index.",
-      "refs": ["gpu"]
+      "refs": [
+        "gpu"
+      ]
     },
     {
       "type": "stat",
@@ -111,7 +203,9 @@
       "unit": "per GPU-hour, vs $3.49 on-demand median",
       "context": "Committing for a year buys a small discount on H100. Terms are individual and vary by provider and cluster size.",
       "accent": false,
-      "refs": ["gpu"]
+      "refs": [
+        "gpu"
+      ]
     },
     {
       "type": "stat",
@@ -120,7 +214,10 @@
       "unit": "Nvidia's next GPU generation is now generally available on OCI.",
       "context": "No public per-hour rate yet, so it is not in the Coloprice index. We will add it when a list price is published.",
       "accent": false,
-      "refs": ["dcd-rubin", "gpu"]
+      "refs": [
+        "dcd-rubin",
+        "gpu"
+      ]
     },
     {
       "type": "closing",
@@ -129,8 +226,18 @@
     }
   ],
   "caption": "$3.49 an hour: the median on-demand price of one NVIDIA H100 GPU today.\n\nThat is up from a $1.95 low in October 2025, but far below the $8 median of mid-2023. The spread between the cheapest and the most expensive H100 listing is still almost 10x, so where you rent matters more than when.\n\nAlso this week: Nvidia's Vera Rubin went generally available on Oracle Cloud. No public hourly price yet.\n\nData: Coloprice GPU Rental Price Index, 16 Oct 2026. News: DCD, 27 Oct 2026. All sources on the last slide.\n\nWhich GPU should we add to the next Rent Check?\n\nFull table + filters: link in bio · coloprice.com",
-  "hashtags": ["#GPU", "#AIinfrastructure", "#datacenter", "#H100", "#cloudcomputing"],
+  "hashtags": [
+    "#GPU",
+    "#AIinfrastructure",
+    "#datacenter",
+    "#H100",
+    "#cloudcomputing"
+  ],
   "derived": [
-    { "value": "10", "how": "H100 high $12.29 / low $1.30 = 9.45, i.e. 'almost 10x'" }
-  ]
+    {
+      "value": "10",
+      "how": "H100 high $12.29 / low $1.30 = 9.45, i.e. 'almost 10x'"
+    }
+  ],
+  "theme": "dark"
 }

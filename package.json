@@ -15,7 +15,9 @@
     "publish:dry": "node scripts/publish.mjs --dry-run",
     "publish": "node scripts/publish.mjs",
     "queue": "node scripts/queue-status.mjs",
-    "test": "node --test scripts/*.test.mjs"
+    "test": "node --test scripts/*.test.mjs",
+    "pdf": "node scripts/make-pdf.mjs",
+    "grid": "node scripts/grid-preview.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "5.11.2",

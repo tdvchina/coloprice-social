@@ -116,13 +116,43 @@ npm run data -- --local="/Users/misscarol/Artem Claude/colocationindex/src/data"
 node scripts/validate-carousel.mjs --all
 node scripts/render-carousel.mjs <slug>            # → out/<slug>/01.jpg…
 npm run queue                                      # что в очереди и что опубликовано
+npm run grid                                       # превью сетки профиля → out/grid-preview.jpg
+npm run pdf -- <slug>                              # PDF для LinkedIn → out/<slug>/<slug>.pdf (--all — все)
 SLIDES_BASE_URL=… node scripts/publish.mjs --dry-run
 npm test
 ```
 Реальная публикация с ноутбука — `node scripts/publish.mjs` при заполненном `.env.local` (шаблон — `.env.example`). Обычно это не нужно: публикует воркфлоу.
 
+## Дизайн: темы, шаблоны, сетка профиля
+- **Темы** (`theme` у карусели или у слайда): `dark` — основа ленты; `paper` — светлый фон #f3f4f1, лайм только маркером-выделителем под ключевой цифрой; `lime` — лаймовая плитка-акцент, не чаще 1 обложки из 5. Логотип на светлых фонах — в тёмной плашке (фавикон), чтобы лаймовый столбик не терялся.
+- **Обложки** (`cover.layout`): `standard`, `poster` (одна гигантская цифра), `split` (два тона: `rows` — заголовок сверху/цифра снизу, `cols` — заголовок слева/панель с цифрой справа), `compare` (две цифры рядом), `map` (точечная карта мира с пузырями МВт), `quote` (типографское утверждение). Новые типы слайдов: `compare`, `map`, `quote`. Схема — [content/FORMAT.md](content/FORMAT.md).
+- **Карта** — равнопромежуточная проекция и маска суши Natural Earth 1:110m (public domain, `assets/geo/`, лицензия там же). Никаких тайлов и чужих карт, всё рисуется локально.
+- **Сетка профиля**: новый пост встаёт в левый верхний угол, поэтому первый опубликованный оказывается справа внизу. `npm run grid` собирает `out/grid-preview.jpg` (плитки 4:5); `--ratio=3:4 --guides` показывает обрезку сетки приложения и безопасную зону.
+
+### Стартовая сетка (9 постов, по одному в день, 001 → 009)
+Порядок публикации = номер файла в `content/queue/`. Все девять — `publishBy: 2026-11-25`, так что publisher не отбросит их как просроченные минимум до этой даты.
+
+| | столбец 1 | столбец 2 | столбец 3 |
+|---|---|---|---|
+| ряд 1 (новые) | 009 метод индекса — dark/lime split | 008 Index — paper compare | 007 Map — dark map |
+| ряд 2 | 006 Outage — paper split cols | 005 Ranked — **lime** poster | 004 Explainer — paper quote |
+| ряд 3 (первые) | 003 GPU — dark poster | 002 Deal Sheet — paper | 001 Megawatt Watch — dark/lime split |
+
+Тёмные и светлые плитки идут шахматкой, лайм — по диагонали. `coloprice.com` в подписи — у 003, 006, 009 (раз в три поста).
+
+## LinkedIn: PDF-карусели
+Покупатели и брокеры сидят в LinkedIn, а там карусель — это «документ» (PDF). `scripts/make-pdf.mjs` склеивает слайды `out/<slug>/NN.jpg` в `out/<slug>/<slug>.pdf` без зависимостей (JPEG вкладываются как есть, страница 1080×1350). Воркфлоу `carousel-writer.yml` пересобирает PDF после каждого рендера; вручную — `npm run pdf -- --all`.
+
+Как выложить (руками, API LinkedIn не подключён):
+1. Взять PDF: из репозитория (`out/<slug>/<slug>.pdf`, кнопка Download на GitHub) или локально после `npm run pdf -- <slug>`.
+2. LinkedIn → «Начать публикацию» → значок «+»/«Ещё» → **Добавить документ** → выбрать PDF.
+3. Ввести **название документа** (обязательно, его видно в ленте) — заголовок обложки, например «How the Coloprice index is built».
+4. Текст поста — подпись из `caption` карусели; в LinkedIn ссылку можно ставить прямо в текст (`https://coloprice.com/...`), хэштеги — 3–5 из `hashtags`.
+5. Публиковать с личного профиля Артёма или со страницы Coloprice — не чаще 1 документа в день, лучше в будни утром по Европе/США.
+
 ## Данные Coloprice (data hooks)
 - **В CI** `data-hooks.mjs` читает только публичные эндпоинты coloprice.com: `/data/colocation-price-index.json`, `/data/gpu-price-index.json`, `/api/history/{colo-index,gpu-prices}.json`, `/data/data-center-pipeline.csv`, `/data/transactions.csv`, `/data/data-center-incidents.csv`. Всё под CC BY 4.0, в репозиторий `colocationindex` ничего не пишется.
+- **Пайплайн** в снимке хранится целиком (все страны, не топ-25): региональные суммы по урезанному списку занижали Европу.
 - **Capacity Watch** (`capacity-watch.json`) публичного JSON-эндпоинта не имеет. Его подтягивает только локальный экспорт с `--local=…/colocationindex/src/data`, и в снимке он остаётся с исходным `asOf` и пометкой `staleNote`. Чтобы обновлять его в облаке, нужно либо иногда запускать экспорт на Mac и коммитить `content/data/coloprice-latest.json`, либо добавить в Coloprice эндпоинт `/data/capacity-watch.json` (это правка `colocationindex` — см. «Открытые вопросы»).
 
 ## Ленты новостей (config/feeds.json, проверены 28.10.2026)

@@ -141,7 +141,8 @@ await step('pipeline', async () => {
     page: `${BASE}/pipeline/`,
     asOf: new Date().toISOString().slice(0, 10),
     note: csvComment(text),
-    rows: rows.filter((r) => r.level === 'total' || r.level === 'country').slice(0, 25),
+    // all countries: a top-N cut made regional totals look smaller than they are
+    rows: rows.filter((r) => r.level === 'total' || r.level === 'country'),
   };
 });
 

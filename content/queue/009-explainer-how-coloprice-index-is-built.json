@@ -1,0 +1,171 @@
+{
+  "slug": "explainer-how-coloprice-index-is-built",
+  "format": "explainer",
+  "status": "ready",
+  "created": "2026-10-28",
+  "publishBy": "2026-11-25",
+  "theme": "dark",
+  "topic": "Explainer: how the Coloprice Colocation Index is built (sources, unit, citations, history, CC BY)",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "method",
+      "dataset": "Coloprice index methodology",
+      "url": "https://coloprice.com/index/",
+      "asOf": "2026-10-01",
+      "facts": [
+        "v1 aggregates published market data (CBRE, JLL, operator disclosures); quarterly updates; each data point links to its source",
+        "Wholesale = committed IT load, USD per kW per month, excluding metered power",
+        "Retail = per-rack (3–5 kW) monthly range"
+      ]
+    },
+    {
+      "id": "colo-oct",
+      "dataset": "Coloprice Colocation Index",
+      "url": "https://coloprice.com/index/releases/2026-10/",
+      "asOf": "2026-10-26",
+      "facts": [
+        "October 2026 release: 23 markets, median $200 per kW per month",
+        "Source per market: CBRE Global Data Center Trends 2026 — Singapore, Chicago, Frankfurt, Tokyo, Hong Kong, Sydney, Querétaro, Santiago, Bogotá, São Paulo, London, Amsterdam, Paris; CBRE North America Data Center Trends H1 2026 — Northern Virginia, Dallas–Fort Worth, Houston, Los Angeles, Phoenix, Atlanta, Silicon Valley, Hillsboro, New York Tri-State; CBRE North America Data Center Trends H2 2025 — North America (avg)"
+      ]
+    },
+    {
+      "id": "history",
+      "dataset": "Coloprice price history",
+      "url": "https://coloprice.com/history/",
+      "asOf": "2026-10-28",
+      "facts": [
+        "Tracking since 2023-06 · 302 data points (colocation and GPU price series)",
+        "Every refresh of the price data appends a point; if a value has not moved, no duplicate point is written until a week has passed; past points are never rewritten",
+        "Series that start before August 2026 are seeded from published third-party indices"
+      ]
+    },
+    {
+      "id": "methodology",
+      "dataset": "Coloprice methodology",
+      "url": "https://coloprice.com/methodology/",
+      "asOf": "2026-10-28",
+      "facts": [
+        "Every figure on Coloprice is reproducible; if a number is not published by a primary source, it is left empty — nothing is estimated silently",
+        "Compiled data is free under CC BY 4.0 — cite Coloprice with a link"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "split",
+      "split": "rows",
+      "tones": [
+        "dark",
+        "lime"
+      ],
+      "kicker": "Explainer",
+      "headline": "How the Coloprice index is built",
+      "figure": {
+        "value": "23 markets",
+        "label": "one unit: USD per kW of committed IT load per month"
+      },
+      "refs": [
+        "colo-oct",
+        "method"
+      ]
+    },
+    {
+      "type": "quote",
+      "label": "Step 1 · Collect",
+      "text": "Every price starts in a **published source**: CBRE and JLL market research and operator disclosures.",
+      "attribution": "Each market on the index links to the report it comes from.",
+      "refs": [
+        "method"
+      ]
+    },
+    {
+      "type": "stat",
+      "label": "Step 2 · Normalise",
+      "value": "$/kW/mo",
+      "unit": "USD per kW of committed IT load per month",
+      "context": "Metered electricity is excluded, so markets compare like for like. Retail racks (3–5 kW) are tracked separately, as a monthly range.",
+      "refs": [
+        "method"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Step 3 · Cite every market",
+      "unit": "Markets per source report · October release",
+      "rows": [
+        {
+          "label": "CBRE Global Data Center Trends 2026",
+          "value": "13",
+          "note": "Singapore to Paris"
+        },
+        {
+          "label": "CBRE North America Trends H1 2026",
+          "value": "9",
+          "note": "US metros, Ashburn to Hillsboro"
+        },
+        {
+          "label": "CBRE North America Trends H2 2025",
+          "value": "1",
+          "note": "North America average"
+        }
+      ],
+      "footnote": "23 markets in total. Missing data stays empty: nothing is estimated silently.",
+      "refs": [
+        "colo-oct",
+        "methodology"
+      ]
+    },
+    {
+      "type": "stat",
+      "label": "Step 4 · Keep the history",
+      "value": "302",
+      "unit": "data points in the price history since June 2023",
+      "context": "Each refresh appends a point. Unchanged values are not repeated within a week, and past points are never rewritten.",
+      "accent": false,
+      "refs": [
+        "history"
+      ]
+    },
+    {
+      "type": "quote",
+      "label": "Step 5 · Publish it openly",
+      "text": "The compiled data is **free under CC BY 4.0**. Cite Coloprice with a link.",
+      "attribution": "Monthly releases and raw JSON series are public, so anyone can check the numbers.",
+      "refs": [
+        "methodology"
+      ]
+    },
+    {
+      "type": "closing",
+      "text": "Every figure on Coloprice is reproducible and sourced.",
+      "cta": "Follow for the weekly index."
+    }
+  ],
+  "caption": "23 markets, one unit: how the Coloprice Colocation Index turns market research into a comparable price per kW.\n\nEvery value starts in a published source, mostly CBRE and JLL research and operator disclosures. It is normalised to USD per kW of committed IT load per month, with metered power excluded, and each market links to its report. Missing data stays empty.\n\nThe price history holds 302 data points since June 2023, and past points are never rewritten. The data is free under CC BY 4.0.\n\nData: Coloprice index, history and methodology pages, Oct 2026. Sources on the last slide.\n\nWhat would make the index more useful to you?\n\nMethodology and raw data: link in bio · coloprice.com",
+  "hashtags": [
+    "#colocation",
+    "#datacenter",
+    "#opendata",
+    "#datacenterpricing"
+  ],
+  "derived": [
+    {
+      "value": "13",
+      "how": "count of markets citing CBRE Global Data Center Trends 2026: Singapore, Chicago, Frankfurt, Tokyo, Hong Kong, Sydney, Querétaro, Santiago, Bogotá, São Paulo, London, Amsterdam, Paris"
+    },
+    {
+      "value": "9",
+      "how": "count of markets citing CBRE North America Data Center Trends H1 2026: Northern Virginia, Dallas–Fort Worth, Houston, Los Angeles, Phoenix, Atlanta, Silicon Valley, Hillsboro, New York Tri-State"
+    },
+    {
+      "value": "1",
+      "how": "North America (avg) cites CBRE North America Data Center Trends H2 2025"
+    },
+    {
+      "value": "Steps 1, 2, 3, 4, 5",
+      "how": "step numbers of the explainer: labels, not data"
+    }
+  ]
+}

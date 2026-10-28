@@ -3,7 +3,7 @@
   "format": "megawatt-watch",
   "status": "ready",
   "created": "2026-10-28",
-  "publishBy": "2026-11-04",
+  "publishBy": "2026-11-25",
   "topic": "Megawatt Watch 27-28 Oct: Crusoe Paraguay, ARC x Compal MOU, STT GDC Tokyo, CoreWeave Denmark, SoleCrypt Tunisia",
   "sources": [
     {
@@ -84,8 +84,23 @@
       "type": "cover",
       "kicker": "Megawatt Watch",
       "headline": "Five projects in two days. How big are they?",
-      "figure": { "value": "480 MW", "label": "Headline capacity across five announcements, 27–28 Oct, as each party states it" },
-      "refs": ["wm-crusoe", "wm-arc", "wm-stt", "wm-coreweave", "dcd-solecrypt"]
+      "figure": {
+        "value": "480 MW",
+        "label": "Headline capacity across five announcements, 27–28 Oct, as each party states it"
+      },
+      "refs": [
+        "wm-crusoe",
+        "wm-arc",
+        "wm-stt",
+        "wm-coreweave",
+        "dcd-solecrypt"
+      ],
+      "layout": "split",
+      "split": "rows",
+      "tones": [
+        "dark",
+        "lime"
+      ]
     },
     {
       "type": "chart",
@@ -93,16 +108,39 @@
       "title": "This week's megawatts, ranked",
       "unit": "Headline capacity · MW",
       "data": [
-        { "label": "Crusoe × Araico · Paraguay", "value": 280 },
-        { "label": "ARC Cloud × Compal · US (MOU)", "value": 100 },
-        { "label": "STT GDC · Tokyo", "value": 70.8 },
-        { "label": "CoreWeave × atNorth · Copenhagen", "value": 22.5 },
-        { "label": "SoleCrypt · Bizerte, first phase", "value": 7 }
+        {
+          "label": "Crusoe × Araico · Paraguay",
+          "value": 280
+        },
+        {
+          "label": "ARC Cloud × Compal · US (MOU)",
+          "value": 100
+        },
+        {
+          "label": "STT GDC · Tokyo",
+          "value": 70.8
+        },
+        {
+          "label": "CoreWeave × atNorth · Copenhagen",
+          "value": 22.5
+        },
+        {
+          "label": "SoleCrypt · Bizerte, first phase",
+          "value": 7
+        }
       ],
       "highlight": 0,
-      "valueFormat": { "suffix": " MW" },
+      "valueFormat": {
+        "suffix": " MW"
+      },
       "caption": "Figures as announced. Includes a long-term option and an MOU, not only firm builds.",
-      "refs": ["wm-crusoe", "wm-arc", "wm-stt", "wm-coreweave", "dcd-solecrypt"]
+      "refs": [
+        "wm-crusoe",
+        "wm-arc",
+        "wm-stt",
+        "wm-coreweave",
+        "dcd-solecrypt"
+      ]
     },
     {
       "type": "stat",
@@ -110,7 +148,9 @@
       "value": "280 MW",
       "unit": "Long-term option next to the Itaipú dam substation",
       "context": "The first phase is due online in mid-2027, with a path to 106 MW of IT capacity. It is Crusoe's first AI cloud site in Latin America.",
-      "refs": ["wm-crusoe"]
+      "refs": [
+        "wm-crusoe"
+      ]
     },
     {
       "type": "stat",
@@ -119,7 +159,9 @@
       "unit": "IT capacity at DEN01, live in Q4 2026",
       "context": "NVIDIA Blackwell systems. Surplus heat goes to Copenhagen's district heating network. CoreWeave now counts 9 European sites in 5 countries.",
       "accent": false,
-      "refs": ["wm-coreweave"]
+      "refs": [
+        "wm-coreweave"
+      ]
     },
     {
       "type": "stat",
@@ -128,22 +170,44 @@
       "unit": "Upper end of a US roadmap the two will explore",
       "context": "An MOU signed at the OCP Global Summit. No financial terms, timeline or committed capacity were disclosed.",
       "accent": false,
-      "refs": ["wm-arc"]
+      "refs": [
+        "wm-arc"
+      ]
     },
     {
       "type": "list",
       "title": "Where megawatts are actually being built",
       "unit": "MW under construction · published capacity only",
       "rows": [
-        { "label": "United States", "value": "33,387" },
-        { "label": "Indonesia", "value": "2,646" },
-        { "label": "India", "value": "2,604" },
-        { "label": "Japan", "value": "1,433" },
-        { "label": "Malaysia", "value": "1,402" },
-        { "label": "Canada", "value": "1,327" }
+        {
+          "label": "United States",
+          "value": "33,387"
+        },
+        {
+          "label": "Indonesia",
+          "value": "2,646"
+        },
+        {
+          "label": "India",
+          "value": "2,604"
+        },
+        {
+          "label": "Japan",
+          "value": "1,433"
+        },
+        {
+          "label": "Malaysia",
+          "value": "1,402"
+        },
+        {
+          "label": "Canada",
+          "value": "1,327"
+        }
       ],
       "footnote": "World total: 50,635 MW under construction across 584 tracked projects.",
-      "refs": ["pipeline"]
+      "refs": [
+        "pipeline"
+      ]
     },
     {
       "type": "closing",
@@ -152,8 +216,17 @@
     }
   ],
   "caption": "480 MW of new data center capacity was announced in two days, across five projects.\n\nThe biggest number, 280 MW next to Paraguay's Itaipú dam, is a long-term option; the first phases have a path to 106 MW of IT capacity. The 100 MW from ARC Cloud and Compal is an MOU. The firmest builds are smaller: 70.8 MW in Tokyo and 22.5 MW in Copenhagen.\n\nHeadline megawatts are not all equal, so we label options and MOUs.\n\nData: Coloprice pipeline tracker, 28 Oct 2026. Sources: W.Media (27–28 Oct), DCD (27 Oct). Full list on the last slide.\n\nWhich of these do you expect to be live first?\n\nFull table: link in bio.",
-  "hashtags": ["#datacenter", "#colocation", "#AIinfrastructure", "#hyperscale"],
+  "hashtags": [
+    "#datacenter",
+    "#colocation",
+    "#AIinfrastructure",
+    "#hyperscale"
+  ],
   "derived": [
-    { "value": "480", "how": "280 + 100 + 70.8 + 22.5 + 7 = 480.3 MW, rounded" }
-  ]
+    {
+      "value": "480",
+      "how": "280 + 100 + 70.8 + 22.5 + 7 = 480.3 MW, rounded"
+    }
+  ],
+  "theme": "dark"
 }

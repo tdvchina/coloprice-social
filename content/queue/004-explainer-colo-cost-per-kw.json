@@ -1,0 +1,208 @@
+{
+  "slug": "explainer-colo-cost-per-kw",
+  "format": "explainer",
+  "status": "ready",
+  "created": "2026-10-28",
+  "publishBy": "2026-11-25",
+  "theme": "paper",
+  "topic": "Explainer: what colocation costs per kW and why ($200 median, 250 kW example, power on top)",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "colo-oct",
+      "dataset": "Coloprice Colocation Index",
+      "url": "https://coloprice.com/index/releases/2026-10/",
+      "asOf": "2026-10-26",
+      "facts": [
+        "October 2026 release: 23 markets, median $200 per kW per month (wholesale, USD per kW of committed IT load per month)",
+        "Singapore $403; Tokyo $280; Frankfurt $250; London $213; Northern Virginia (Ashburn) $173; São Paulo $160 (USD per kW per month)"
+      ]
+    },
+    {
+      "id": "colo-def",
+      "dataset": "Coloprice index methodology",
+      "url": "https://coloprice.com/index/",
+      "asOf": "2026-10-01",
+      "facts": [
+        "Wholesale = committed IT load, USD per kW per month, excluding metered power",
+        "Retail = per-rack (3–5 kW) monthly range",
+        "Underlying CBRE benchmarks: most metros are asking rates for 250–500 kW; Northern Virginia is quoted for 10MW+ blocks"
+      ]
+    },
+    {
+      "id": "power",
+      "dataset": "Coloprice electricity benchmarks",
+      "url": "https://coloprice.com/energy/",
+      "asOf": "2026-09-25",
+      "facts": [
+        "Indicative commercial/industrial rates: US Virginia $0.117/kWh; Singapore $0.27/kWh"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "quote",
+      "kicker": "Explainer",
+      "statement": "In colocation you rent **power**, not floor space.",
+      "figure": {
+        "value": "$200",
+        "label": "per kW per month: the median wholesale price across 23 markets"
+      },
+      "refs": [
+        "colo-oct"
+      ]
+    },
+    {
+      "type": "quote",
+      "label": "What the unit means",
+      "text": "**$/kW/month** is one kilowatt of committed IT load, for one month. Metered electricity comes on top.",
+      "attribution": "Coloprice index definition of wholesale colocation.",
+      "refs": [
+        "colo-def"
+      ]
+    },
+    {
+      "type": "stat",
+      "label": "Worked example · 250 kW suite",
+      "value": "$50,000",
+      "unit": "a month at the $200/kW median, before electricity",
+      "context": "Most wholesale benchmarks are asking rates for blocks of 250–500 kW. Bigger commitments, like 10 MW+ blocks, price lower per kW.",
+      "refs": [
+        "colo-oct",
+        "colo-def"
+      ]
+    },
+    {
+      "type": "chart",
+      "kind": "bar",
+      "title": "Same kW, five cities",
+      "unit": "Wholesale · USD per kW per month",
+      "data": [
+        {
+          "label": "Singapore",
+          "value": 403
+        },
+        {
+          "label": "Tokyo",
+          "value": 280
+        },
+        {
+          "label": "Frankfurt",
+          "value": 250
+        },
+        {
+          "label": "London",
+          "value": 213
+        },
+        {
+          "label": "N. Virginia",
+          "value": 173
+        }
+      ],
+      "highlight": "Singapore",
+      "valueFormat": {
+        "prefix": "$",
+        "decimals": 0
+      },
+      "caption": "Where power-ready space is scarce, each kW costs more. Northern Virginia is a 10 MW+ block rate.",
+      "refs": [
+        "colo-oct",
+        "colo-def"
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Then the power bill: 1 kW running all month uses 730 kWh",
+      "unit": "Electricity for 730 kWh at indicative rates",
+      "items": [
+        {
+          "label": "Virginia · $0.117/kWh",
+          "value": "$85",
+          "note": "per kW, per month, on top of the colo price"
+        },
+        {
+          "label": "Singapore · $0.27/kWh",
+          "value": "$197",
+          "note": "per kW, per month, on top of the colo price",
+          "highlight": true
+        }
+      ],
+      "verdict": {
+        "value": "2.3×",
+        "text": "Singapore's power price vs Virginia's"
+      },
+      "refs": [
+        "power"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Three lines to find in any colo quote",
+      "unit": "Compare quotes on the same basis",
+      "rows": [
+        {
+          "label": "Price per kW of IT load",
+          "value": "$/kW",
+          "note": "the committed capacity, billed monthly"
+        },
+        {
+          "label": "Metered electricity",
+          "value": "$/kWh",
+          "note": "billed on top of the kW price"
+        },
+        {
+          "label": "Committed block size",
+          "value": "kW",
+          "note": "bigger blocks price lower per kW"
+        }
+      ],
+      "footnote": "Wholesale benchmarks exclude metered power. Retail racks (3–5 kW) are priced per rack.",
+      "refs": [
+        "colo-def"
+      ]
+    },
+    {
+      "type": "closing",
+      "text": "Published colocation, GPU and power prices. Every figure sourced.",
+      "cta": "Follow for weekly explainers and price moves."
+    }
+  ],
+  "caption": "$200 a month: the median wholesale price of one kilowatt of colocation across 23 markets.\n\nColocation is priced by power, not floor space. A 250 kW suite at that median costs $50,000 a month, and metered electricity comes on top. One kW running all month draws 730 kWh: about $85 in Virginia and $197 in Singapore at indicative rates.\n\nLocation moves the kW price too, from $403 in Singapore to $173 in Northern Virginia.\n\nData: Coloprice Colocation Index (26 Oct 2026) and power benchmarks (25 Sep 2026). Sources on the last slide.\n\nWhat else should every colo quote spell out?\n\nFull price table: link in bio.",
+  "hashtags": [
+    "#colocation",
+    "#datacenter",
+    "#AIinfrastructure",
+    "#cloudinfrastructure"
+  ],
+  "derived": [
+    {
+      "value": "$50,000",
+      "how": "250 kW × $200 per kW per month (October median) = $50,000 per month"
+    },
+    {
+      "value": "250",
+      "how": "suite size chosen inside the 250–500 kW benchmark band"
+    },
+    {
+      "value": "730 kWh",
+      "how": "1 kW × 24 h × 365 days / 12 months = 730 kWh per month"
+    },
+    {
+      "value": "1 kW",
+      "how": "unit of the example"
+    },
+    {
+      "value": "$85",
+      "how": "730 kWh × $0.117/kWh = $85.41, rounded"
+    },
+    {
+      "value": "$197",
+      "how": "730 kWh × $0.27/kWh = $197.10, rounded"
+    },
+    {
+      "value": "2.3×",
+      "how": "$0.27 / $0.117 = 2.31, rounded"
+    }
+  ]
+}

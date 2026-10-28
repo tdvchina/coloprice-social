@@ -13,7 +13,7 @@ The canonical schema for the writer routine, and for anyone editing the queue by
 | `index-weekly-move` | Coloprice Index: Weekly Move | `datasets.colo`, `coloHistory` | cover with $/kW → bar of metros → line history → stat of the biggest mover |
 | `gpu-rent-check` | GPU Rent Check | `datasets.gpu`, `gpuHistory` | cover with $/GPU-hr → line history → bar ladder of chips → list of spreads |
 | `megawatt-watch` | Megawatt Watch | news + `capacityWatch` + `pipeline` | cover with total MW → hbar ranking → one stat per project → pipeline list |
-| `map-of-the-week` | Map of the Week | `pipeline`, facilities | *no map template yet*: use an hbar/list by country or metro |
+| `map-of-the-week` | Map of the Week | `pipeline`, facilities | map cover (dot-grid world + MW bubbles) → hbar → regional `map` slides → compare |
 | `ranked` | Ranked | colo index / pipeline / gpu | cover → list top-6 or bar top-8 → stats on #1 and a surprise |
 | `deal-sheet` | Deal Sheet | news + `transactions` + `capacityWatch` | cover → list of deals → one stat per deal → pipeline chart |
 | `outage-files` | Outage Files | news + `incidents` | cover → stat timeline points → cause list → closing |
@@ -25,7 +25,8 @@ Weekly rhythm (Mon–Fri, max 1 post/day): Mon Index · Tue GPU · Wed Megawatt 
 
 ```jsonc
 {
-  "slug": "megawatt-watch-2026-10-28",     // kebab-case; the file is NNN-<slug>.json (NNN = next number)
+  "slug": "megawatt-watch-2026-10-28",     // kebab-case; the file is NNN-<slug>.json (NNN = next number = publishing order)
+  "theme": "dark",                         // optional: dark (default) | paper | lime — see "Themes and the grid"
   "format": "megawatt-watch",              // one of the formats above
   "status": "ready",                       // "ready" = publishable, "draft" = never published
   "created": "2026-10-28",                 // Asia/Bangkok date
@@ -49,15 +50,39 @@ Weekly rhythm (Mon–Fri, max 1 post/day): Mon Index · Tue GPU · Wed Megawatt 
 ### The no-invented-numbers rule
 Every number on a slide must appear in the `facts` of the sources or data hooks that the slide lists in `refs`, or in `derived[]`. A derived value must include the arithmetic in `how`. The validator skips years, model names (H100, Q4, TYO1) and dates written like "27 Oct" or "Jun 23". Every number in the caption must appear in the facts of some source or data hook. Never round a cited figure differently from the source unless the rounding is listed in `derived`.
 
+## Themes and the grid
+Three grounds, one brand. `theme` on the carousel sets every slide; `theme` on a slide overrides it.
+
+| theme | Ground / ink | Lime is… | Use |
+|---|---|---|---|
+| `dark` | void #08090a / paper | the key figure and highlighted bars | default, the backbone of the feed |
+| `paper` | #f3f4f1 / void | only a highlighter marker behind the key figure or `**marked**` words (never lime text) | alternate with dark |
+| `lime` | lime / void | the ground itself | the accent tile: at most 1 cover in 5, usually only the cover (`slide.theme`) |
+
+The profile grid shows the newest post top-left, so the FIRST post published ends up bottom-right. Plan covers in threes: alternate dark and paper and keep lime rare (launch grid: dark/paper checkerboard, lime on the diagonal). Check with `node scripts/grid-preview.mjs` (4:5 tiles; `--ratio=3:4 --guides` shows the crop the app grid uses). Keep the headline and hook figure inside the centre-safe area (the renderer's margins already do, as long as you do not move them).
+
 ## Slide types (all except `closing` need `refs: [...]`)
 
 | type | Fields | Limits (enforced by layout check) |
 |---|---|---|
-| `cover` | `kicker` (format name), `headline`, `figure: {value, label}`, `deck?` | headline ≤ 2 lines at 60–92px (~45 chars); figure.value 1 line (~8 chars at full size) |
+| `cover` | `layout?` (below), `kicker` (format name), `headline`, `figure: {value, label}`, `deck?` | headline ≤ 2 lines at 60–92px (~45 chars); figure.value 1 line (~8 chars at full size) |
 | `stat` | `label`, `value`, `unit?`, `delta?: {value, dir: up\|down\|flat}`, `context?`, `accent?` (false = white instead of lime) | value 1 line; context ≤ 6 lines. **Lime only for the key figure**: set `accent:false` on secondary stats |
 | `list` | `title`, `unit?`, `rows: [{label, value, note?, delta?, highlight?}]` (2–6), `footnote?` | label and note 1 line each |
 | `chart` | `kind: bar\|hbar\|line`, `title`, `unit?`, `data: [{label, value}]`, `highlight?` (index or label), `valueFormat?: {prefix, suffix, decimals, tickDecimals}`, `caption?` | bar/hbar ≤ 8 points (hbar for long labels), line ≤ 24; short bar labels |
+| `compare` | `title`, `unit?`, `items: [{label, value, note?, highlight?}]` (exactly 2), `verdict?: {value, text}`, `caption?` | side by side when both values fit, else stacked; highlight at most one item |
+| `map` | `title`, `unit?`, `region` (world, europe, asia, apac, north-america, latin-america, middle-east) or `bbox: [west, south, east, north]`, `points: [{label, value, lat, lon, highlight?, showLabel?}]` (2–60), `labels?` (how many to label, default 6), `maxRadius?`, `stdParallel?`, `valueFormat?`, `caption?` | bubbles are area-proportional to `value` (a number that must be in the facts); lat/lon are positions only, never printed. Dot-grid land from Natural Earth 1:110m (public domain, `assets/geo/`) |
+| `quote` | `label?`, `text` (≤ 6 lines; `**words**` get the highlight), `attribution?` | a large typographic statement; no numbers unless sourced |
 | `closing` | `text?`, `cta?` | no figures; the sources card is built automatically from sources/dataHooks (max 6) |
+
+### Cover layouts (`cover.layout`)
+| layout | What it is | Extra fields |
+|---|---|---|
+| `standard` (default) | headline, big figure, label | — |
+| `poster` | one giant number filling the slide (≤ ~5 characters stay huge: `$403`, `$3.49`) | figure required |
+| `split` | two tones: `split: "rows"` = headline panel on top, figure panel below; `"cols"` = headline left, figure panel right | `tones: ["dark","lime"]` (two different themes), figure required |
+| `compare` | headline + two big numbers side by side | `items` (2), `verdict?` — as the `compare` slide |
+| `map` | headline + dot map + hook figure | `points`, `region`/`bbox` … — as the `map` slide |
+| `quote` | a large statement (≤ 4 lines) + optional small figure row | `statement` (instead of `headline`) |
 
 Footers print the source and date of each slide automatically. The header prints the post date and the counter.
 

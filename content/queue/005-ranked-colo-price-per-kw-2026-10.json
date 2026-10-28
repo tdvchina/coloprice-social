@@ -1,0 +1,97 @@
+{
+  "slug": "ranked-colo-price-per-kw-2026-10",
+  "format": "ranked",
+  "status": "ready",
+  "created": "2026-10-28",
+  "publishBy": "2026-11-25",
+  "theme": "dark",
+  "topic": "Ranked: most and least expensive colocation metros per kW (Singapore $403 vs São Paulo $160)",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "colo-oct",
+      "dataset": "Coloprice Colocation Index",
+      "url": "https://coloprice.com/index/releases/2026-10/",
+      "asOf": "2026-10-26",
+      "facts": [
+        "October 2026 release, wholesale USD per kW per month: Singapore $403; Hong Kong $295; Tokyo $280; Querétaro $260; Frankfurt $250; Silicon Valley $238; Chicago $215; London $213; Los Angeles (Southern California) $213; New York Tri-State $213; Hillsboro (Portland) $205; Santiago $200; North America (avg) $196; Phoenix $195; Atlanta $193; Bogotá $190; Paris $190; Sydney $188; Amsterdam $180; Houston $180; Northern Virginia (Ashburn) $173; Dallas–Fort Worth $173; São Paulo $160",
+        "Min $160 (São Paulo), max $403 (Singapore), median $200, 23 markets",
+        "Northern Virginia benchmark is for 10MW+ blocks (CBRE H1 2026); most other metros are 250–500 kW asking rates"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "poster",
+      "theme": "lime",
+      "kicker": "Ranked",
+      "headline": "The most expensive kW of colocation we track",
+      "figure": { "value": "$403", "label": "Singapore, wholesale, per kW per month. The cheapest metro, São Paulo: $160." },
+      "refs": ["colo-oct"]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "The eight priciest metros per kW",
+      "unit": "Wholesale · USD per kW per month · Oct 2026",
+      "data": [
+        { "label": "Singapore", "value": 403 },
+        { "label": "Hong Kong", "value": 295 },
+        { "label": "Tokyo", "value": 280 },
+        { "label": "Querétaro, Mexico", "value": 260 },
+        { "label": "Frankfurt", "value": 250 },
+        { "label": "Silicon Valley", "value": 238 },
+        { "label": "Chicago", "value": 215 },
+        { "label": "London", "value": 213 }
+      ],
+      "highlight": 0,
+      "valueFormat": { "prefix": "$", "decimals": 0 },
+      "caption": "Los Angeles and New York tie with London at $213.",
+      "refs": ["colo-oct"]
+    },
+    {
+      "type": "list",
+      "title": "The five cheapest",
+      "unit": "Wholesale · USD per kW per month",
+      "rows": [
+        { "label": "São Paulo", "value": "$160", "highlight": true },
+        { "label": "Northern Virginia", "value": "$173", "note": "10 MW+ blocks" },
+        { "label": "Dallas–Fort Worth", "value": "$173" },
+        { "label": "Amsterdam", "value": "$180" },
+        { "label": "Houston", "value": "$180" }
+      ],
+      "footnote": "Most metros are asking rates for 250–500 kW; Northern Virginia is quoted for 10 MW+ blocks.",
+      "refs": ["colo-oct"]
+    },
+    {
+      "type": "compare",
+      "title": "Top vs bottom of the table",
+      "unit": "Wholesale · USD per kW per month",
+      "items": [
+        { "label": "Singapore", "value": "$403", "highlight": true, "note": "most expensive" },
+        { "label": "São Paulo", "value": "$160", "note": "cheapest" }
+      ],
+      "verdict": { "value": "2.5×", "text": "the price of the same kW in Singapore vs São Paulo" },
+      "refs": ["colo-oct"]
+    },
+    {
+      "type": "stat",
+      "label": "The surprise · Querétaro, Mexico",
+      "value": "$260",
+      "unit": "per kW per month, above Frankfurt at $250",
+      "context": "Querétaro ranks fourth among the metros we track, ahead of Frankfurt and every US market, Silicon Valley included.",
+      "refs": ["colo-oct"]
+    },
+    {
+      "type": "closing",
+      "text": "Published colocation prices for 23 markets, each with its source.",
+      "cta": "Follow for the monthly index ranking."
+    }
+  ],
+  "caption": "$403 per kW per month: Singapore is the most expensive colocation metro in our index.\n\nThe cheapest is São Paulo at $160, so the same kW costs about 2.5× more in Singapore. Hong Kong ($295) and Tokyo ($280) follow, then a surprise: Querétaro, Mexico, at $260, ahead of Frankfurt and every US metro.\n\nNorthern Virginia sits near the bottom at $173, but that rate is for 10 MW+ blocks.\n\nData: Coloprice Colocation Index, October 2026 release. Sources on the last slide.\n\nWhich market's rank surprised you most?\n\nFull ranking: link in bio.",
+  "hashtags": ["#colocation", "#datacenter", "#Singapore", "#datacenterpricing"],
+  "derived": [
+    { "value": "2.5×", "how": "$403 / $160 = 2.52, rounded" }
+  ]
+}

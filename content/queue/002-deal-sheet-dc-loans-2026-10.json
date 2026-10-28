@@ -3,7 +3,7 @@
   "format": "deal-sheet",
   "status": "ready",
   "created": "2026-10-28",
-  "publishBy": "2026-11-06",
+  "publishBy": "2026-11-25",
   "topic": "Deal Sheet: four data center loans in five weeks (DayOne, AirTrunk, STT GDC, VIRTUS)",
   "sources": [
     {
@@ -72,20 +72,47 @@
       "type": "cover",
       "kicker": "Deal Sheet",
       "headline": "Four data center loans in five weeks",
-      "figure": { "value": "$7.2B", "label": "DayOne's upsized Johor financing, up from $3.5B in May 2025" },
-      "refs": ["pr-dayone"]
+      "figure": {
+        "value": "$7.2B",
+        "label": "DayOne's upsized Johor financing, up from $3.5B in May 2025"
+      },
+      "refs": [
+        "pr-dayone"
+      ]
     },
     {
       "type": "list",
       "title": "The deal sheet",
       "unit": "Newest first · native currency, not converted",
       "rows": [
-        { "label": "AirTrunk · Sydney SYD3", "value": "A$4.25B", "note": "27 Oct · green loan" },
-        { "label": "STT GDC · Tokyo", "value": "$590M", "note": "27 Oct · green loan, 70.8 MW" },
-        { "label": "DayOne · Johor", "value": "$7.2B", "note": "14 Oct · seven lenders", "highlight": true },
-        { "label": "VIRTUS · UK", "value": "£2.45B", "note": "24 Sep · 13 banks" }
+        {
+          "label": "AirTrunk · Sydney SYD3",
+          "value": "A$4.25B",
+          "note": "27 Oct · green loan"
+        },
+        {
+          "label": "STT GDC · Tokyo",
+          "value": "$590M",
+          "note": "27 Oct · green loan, 70.8 MW"
+        },
+        {
+          "label": "DayOne · Johor",
+          "value": "$7.2B",
+          "note": "14 Oct · seven lenders",
+          "highlight": true
+        },
+        {
+          "label": "VIRTUS · UK",
+          "value": "£2.45B",
+          "note": "24 Sep · 13 banks"
+        }
       ],
-      "refs": ["dcd-airtrunk", "wm-stt", "pr-dayone", "idc-virtus"]
+      "refs": [
+        "dcd-airtrunk",
+        "wm-stt",
+        "pr-dayone",
+        "idc-virtus"
+      ]
     },
     {
       "type": "stat",
@@ -93,7 +120,9 @@
       "value": "1 GW+",
       "unit": "contracted IT capacity now billing",
       "context": "Up from 121 MW at the end of 2024. Bookings stood at about 2.3 GW in September. The loan funds the Johor platform.",
-      "refs": ["pr-dayone"]
+      "refs": [
+        "pr-dayone"
+      ]
     },
     {
       "type": "stat",
@@ -102,7 +131,9 @@
       "unit": "green loan for the SYD3 campus",
       "context": "DCD reports the current SYD3 expansion phase is due live in 2028.",
       "accent": false,
-      "refs": ["dcd-airtrunk"]
+      "refs": [
+        "dcd-airtrunk"
+      ]
     },
     {
       "type": "stat",
@@ -111,7 +142,9 @@
       "unit": "across TYO1 and TYO2, funded by a $590M green loan",
       "context": "The loan requires a design PUE of 1.3 or below. Standard Chartered led; Mizuho, OCBC, Société Générale and UOB joined.",
       "accent": false,
-      "refs": ["wm-stt"]
+      "refs": [
+        "wm-stt"
+      ]
     },
     {
       "type": "stat",
@@ -120,7 +153,9 @@
       "unit": "from 13 banks, incl. a £1.2B green capex facility",
       "context": "Funds the 78 MW Saunderton campus in Buckinghamshire, more investment at LONDON19 in Slough and growth in Europe.",
       "accent": false,
-      "refs": ["idc-virtus"]
+      "refs": [
+        "idc-virtus"
+      ]
     },
     {
       "type": "chart",
@@ -128,14 +163,30 @@
       "title": "Where the money lands: MW under construction",
       "unit": "Coloprice pipeline · MW, published capacity only",
       "data": [
-        { "label": "Japan", "value": 1433 },
-        { "label": "Malaysia", "value": 1402 },
-        { "label": "Australia", "value": 1010 },
-        { "label": "UK", "value": 500 }
+        {
+          "label": "Japan",
+          "value": 1433
+        },
+        {
+          "label": "Malaysia",
+          "value": 1402
+        },
+        {
+          "label": "Australia",
+          "value": 1010
+        },
+        {
+          "label": "UK",
+          "value": 500
+        }
       ],
       "highlight": "Malaysia",
-      "valueFormat": { "decimals": 0 },
-      "refs": ["pipeline"]
+      "valueFormat": {
+        "decimals": 0
+      },
+      "refs": [
+        "pipeline"
+      ]
     },
     {
       "type": "closing",
@@ -144,5 +195,11 @@
     }
   ],
   "caption": "$7.2B: DayOne's upsized Malaysia financing leads four data center loans signed in five weeks.\n\nAirTrunk raised A$4.25B for its SYD3 campus in Sydney. STT GDC closed a $590M green loan for 70.8 MW in Greater Tokyo. In the UK, VIRTUS secured £2.45B from 13 banks.\n\nThree of the four include green-labelled debt.\n\nData: Coloprice pipeline tracker, 28 Oct 2026. Sources: PR Newswire, DCD, W.Media, Intelligent Data Centres. Details on the last slide.\n\nWhich market do you think gets the next big loan?\n\nFull deal list: link in bio.",
-  "hashtags": ["#datacenter", "#colocation", "#infrastructurefinance", "#greenfinance"]
+  "hashtags": [
+    "#datacenter",
+    "#colocation",
+    "#infrastructurefinance",
+    "#greenfinance"
+  ],
+  "theme": "paper"
 }

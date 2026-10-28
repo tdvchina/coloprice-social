@@ -16,7 +16,9 @@ import { existsSync } from 'node:fs';
 import { resolve, basename } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { QUEUE_DIR, STATE_FILE, parseArgs, loadEnv, bangkokDate } from './lib/env.mjs';
-import { buildSlide, slideContext } from './lib/slides.mjs';
+import { buildSlide, slideContext, stripMarks, COVER_LAYOUTS } from './lib/slides.mjs';
+import { THEMES } from '../config/brand.mjs';
+import { REGIONS } from './lib/map.mjs';
 import { FONTS, unsupportedChars } from './lib/text.mjs';
 
 export const FORMATS = {
@@ -29,7 +31,7 @@ export const FORMATS = {
   'outage-files': { label: 'Outage Files', needsNews: true },
   explainer: { label: 'Explainer' },
 };
-const SLIDE_TYPES = ['cover', 'stat', 'list', 'chart', 'closing'];
+const SLIDE_TYPES = ['cover', 'stat', 'list', 'chart', 'compare', 'map', 'quote', 'closing'];
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const BANNED_TAGS = ['#explore', '#reels', '#tech', '#fyp', '#viral', '#instagood', '#follow', '#like4like', '#explorepage'];
 
@@ -68,11 +70,31 @@ const same = (a, b) => Math.abs(a - b) < 1e-9 || Math.abs(a - b) / Math.max(Math
 
 function slideTexts(s) {
   const t = [];
-  const push = (v) => v != null && v !== '' && t.push(String(v));
+  const push = (v) => v != null && v !== '' && t.push(stripMarks(v));
+  const compareTexts = () => {
+    for (const it of s.items || []) push(it.label), push(it.value), push(it.note);
+    if (s.verdict) push(s.verdict.value), push(s.verdict.text);
+  };
+  const mapTexts = () => {
+    for (const p of s.points || []) push(p.label), push(p.valueLabel);
+  };
   switch (s.type) {
     case 'cover':
-      push(s.kicker), push(s.headline), push(s.deck);
+      push(s.kicker), push(s.headline), push(s.deck), push(s.statement);
       if (s.figure) push(s.figure.value), push(s.figure.label);
+      if (s.layout === 'compare') compareTexts();
+      if (s.layout === 'map') mapTexts();
+      break;
+    case 'compare':
+      push(s.title), push(s.unit), push(s.caption);
+      compareTexts();
+      break;
+    case 'map':
+      push(s.title), push(s.unit), push(s.caption);
+      mapTexts();
+      break;
+    case 'quote':
+      push(s.label), push(s.text), push(s.attribution);
       break;
     case 'stat':
       push(s.label), push(s.value), push(s.unit), push(s.context), push(s.delta?.value);
@@ -106,6 +128,7 @@ export function validateCarousel(def, { file, state = {}, env = process.env, fit
   if (!DATE.test(def.created || '')) E('created: YYYY-MM-DD');
   if (def.publishBy != null && (!DATE.test(def.publishBy) || def.publishBy < def.created)) E('publishBy: YYYY-MM-DD on/after created');
   if (!def.topic) E('topic: short internal label required');
+  if (def.theme != null && !THEMES[def.theme]) E(`theme must be one of: ${Object.keys(THEMES).join(', ')}`);
 
   // ── sources & data hooks ──
   const ids = new Set();
@@ -160,8 +183,35 @@ export function validateCarousel(def, { file, state = {}, env = process.env, fit
     const needsRefs = s.type !== 'closing';
     if (needsRefs && !refs.length) E(`${at}: refs[] required — every data slide names its source(s)`);
     // required fields
-    if (s.type === 'cover' && !s.headline) E(`${at}: headline required`);
-    if (s.type === 'cover' && !s.figure) W(`${at}: no figure — the hook should be one big number`);
+    if (s.theme != null && !THEMES[s.theme]) E(`${at}: theme must be one of: ${Object.keys(THEMES).join(', ')}`);
+    if (s.type === 'cover') {
+      const layout = s.layout || 'standard';
+      if (!COVER_LAYOUTS.includes(layout)) E(`${at}: layout must be one of: ${COVER_LAYOUTS.join(', ')}`);
+      if (layout === 'quote' ? !s.statement : !s.headline) E(`${at}: ${layout === 'quote' ? 'statement' : 'headline'} required`);
+      if (!s.figure && layout !== 'compare') W(`${at}: no figure — the hook should be one big number`);
+      if (['poster', 'split'].includes(layout) && !s.figure?.value) E(`${at}: layout ${layout} needs figure.value`);
+      if (layout === 'split') {
+        if (s.tones && (!Array.isArray(s.tones) || s.tones.length !== 2 || s.tones.some((t) => !THEMES[t]) || s.tones[0] === s.tones[1])) E(`${at}: tones = two different themes, e.g. ["dark","lime"]`);
+        if (s.split && !['rows', 'cols'].includes(s.split)) E(`${at}: split rows|cols`);
+      }
+    }
+    if (s.type === 'compare' || (s.type === 'cover' && s.layout === 'compare')) {
+      if ((s.items || []).length !== 2) E(`${at}: compare needs exactly 2 items`);
+      (s.items || []).forEach((it, j) => (!it.label || it.value == null || it.value === '') && E(`${at}: items[${j}] needs label + value`));
+      if ((s.items || []).filter((it) => it.highlight).length > 1) E(`${at}: highlight at most one compare item (one accent per slide)`);
+    }
+    if (s.type === 'map' || (s.type === 'cover' && s.layout === 'map')) {
+      if (s.bbox != null && !(Array.isArray(s.bbox) && s.bbox.length === 4 && s.bbox.every(Number.isFinite) && s.bbox[0] < s.bbox[2] && s.bbox[1] < s.bbox[3])) E(`${at}: bbox = [west, south, east, north]`);
+      if (s.bbox == null && s.region != null && !REGIONS[s.region]) E(`${at}: region must be one of: ${Object.keys(REGIONS).join(', ')}`);
+      const n = (s.points || []).length;
+      if (n < 2 || n > 60) E(`${at}: map needs 2–60 points`);
+      (s.points || []).forEach((p, j) => {
+        if (!p.label || !Number.isFinite(p.lat) || !Number.isFinite(p.lon) || Math.abs(p.lat) > 90 || Math.abs(p.lon) > 180) E(`${at}: points[${j}] needs label + lat/lon`);
+        if (typeof p.value !== 'number' || !Number.isFinite(p.value) || p.value < 0) E(`${at}: points[${j}] needs a numeric value ≥ 0`);
+      });
+    }
+    if (s.type === 'quote' && !s.text) E(`${at}: text required`);
+    if ((s.type === 'compare' || s.type === 'map') && !s.title) E(`${at}: title required`);
     if (s.type === 'stat' && !s.value) E(`${at}: value required`);
     if (s.type === 'list') {
       if (!s.title) E(`${at}: title required`);
@@ -187,7 +237,13 @@ export function validateCarousel(def, { file, state = {}, env = process.env, fit
     // numbers must come from cited facts
     if (s.type !== 'closing') {
       const corpus = [...refs.flatMap((r) => (refFacts[r] || []).flatMap((f) => numbersIn(f, { skipLetterPrefixed: false, stripDates: false }))), ...derivedNums];
-      const shown = [...slideTexts(s).flatMap((t) => numbersIn(t)), ...(s.type === 'chart' ? (s.data || []).map((d) => d.value) : [])];
+      const isMap = s.type === 'map' || (s.type === 'cover' && s.layout === 'map');
+      const shown = [
+        ...slideTexts(s).flatMap((t) => numbersIn(t)),
+        ...(s.type === 'chart' ? (s.data || []).map((d) => d.value) : []),
+        // map bubble sizes are data too (lat/lon are positions, never printed)
+        ...(isMap ? (s.points || []).map((p) => p.value) : []),
+      ];
       const missing = [...new Set(shown.filter((v) => !corpus.some((c) => same(c, v))))];
       if (missing.length) E(`${at}: number(s) ${missing.join(', ')} not found in the facts of its refs (${refs.join(', ') || 'none'}) or in derived[] — no invented numbers`);
     } else if (slideTexts(s).some((t) => numbersIn(t).length)) {

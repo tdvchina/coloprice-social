@@ -65,6 +65,8 @@ jobs:
         run: |
           node scripts/validate-carousel.mjs --all
           node scripts/render-carousel.mjs
+          # LinkedIn document PDFs (out/<slug>/<slug>.pdf). Rendering wipes out/<slug>/, so rebuild after it.
+          node scripts/make-pdf.mjs --all
 
       - name: Commit and push
         run: |

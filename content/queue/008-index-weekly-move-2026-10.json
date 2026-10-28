@@ -1,0 +1,194 @@
+{
+  "slug": "index-weekly-move-2026-10",
+  "format": "index-weekly-move",
+  "status": "ready",
+  "created": "2026-10-28",
+  "publishBy": "2026-11-25",
+  "theme": "paper",
+  "topic": "Index Weekly Move: North America avg $148 → $196/kW (+32%), October release flat, 11 metros added, Chicago +14.7% YoY",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "colo-oct",
+      "dataset": "Coloprice Colocation Index",
+      "url": "https://coloprice.com/index/releases/2026-10/",
+      "asOf": "2026-10-26",
+      "facts": [
+        "October 2026 release: 23 markets, median $200 per kW per month; 0 markets changed vs the previous month; 11 markets added",
+        "North America metros, USD per kW per month: Silicon Valley $238; Chicago $215; New York Tri-State $213; Los Angeles (Southern California) $213; Hillsboro (Portland) $205; Phoenix $195; Atlanta $193; Houston $180; Northern Virginia (Ashburn) $173; Dallas–Fort Worth $173; North America (avg) $196",
+        "Added in October: Silicon Valley, London, Los Angeles, New York, Hillsboro, Phoenix, Atlanta, Paris, Amsterdam, Houston, Dallas"
+      ]
+    },
+    {
+      "id": "colo-hist",
+      "dataset": "Coloprice price history",
+      "url": "https://coloprice.com/history/",
+      "asOf": "2026-10-21",
+      "facts": [
+        "North America (average) wholesale, USD per kW per month: 2023-12 148; 2024-06 163; 2024-12 174; 2025-06 184; 2025-12 196; 2026-10 196",
+        "North America (average): $148 → $196, from 2023-12 to 2026-10 (+32%)"
+      ]
+    },
+    {
+      "id": "colo-yoy",
+      "dataset": "Coloprice Colocation Index",
+      "url": "https://coloprice.com/data/colocation-price-index.json",
+      "asOf": "2026-10-01",
+      "facts": [
+        "Chicago: wholesale $215/kW/month, +14.7% YoY (underlying source: CBRE, Global Data Center Trends 2026)",
+        "Tokyo +0% YoY; Sydney +0% YoY; São Paulo +0% YoY; North America (avg) +6.5% YoY",
+        "Northern Virginia (Ashburn): $173, CBRE H1 2026, 10MW+ blocks; most other metros are 250–500 kW asking rates"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "compare",
+      "kicker": "Coloprice Index",
+      "headline": "A kW of colo in North America, then and now",
+      "items": [
+        {
+          "label": "Dec 2023",
+          "value": "$148",
+          "note": "per kW per month"
+        },
+        {
+          "label": "Oct 2026",
+          "value": "$196",
+          "note": "per kW per month",
+          "highlight": true
+        }
+      ],
+      "verdict": {
+        "value": "+32%",
+        "text": "North America average, wholesale colocation"
+      },
+      "refs": [
+        "colo-hist"
+      ]
+    },
+    {
+      "type": "chart",
+      "kind": "line",
+      "title": "Two years up, then a plateau",
+      "unit": "North America average · USD per kW per month",
+      "data": [
+        {
+          "label": "Dec 23",
+          "value": 148
+        },
+        {
+          "label": "Jun 24",
+          "value": 163
+        },
+        {
+          "label": "Dec 24",
+          "value": 174
+        },
+        {
+          "label": "Jun 25",
+          "value": 184
+        },
+        {
+          "label": "Dec 25",
+          "value": 196
+        },
+        {
+          "label": "Oct 26",
+          "value": 196
+        }
+      ],
+      "valueFormat": {
+        "prefix": "$",
+        "decimals": 0
+      },
+      "caption": "Flat since December 2025 at $196.",
+      "refs": [
+        "colo-hist"
+      ]
+    },
+    {
+      "type": "stat",
+      "label": "October release · 23 markets",
+      "value": "$200",
+      "unit": "median per kW per month, no price changes",
+      "context": "No market moved since September. The release added 11 metros, from Silicon Valley and Los Angeles to London, Paris and Amsterdam.",
+      "refs": [
+        "colo-oct"
+      ]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "North America, metro by metro",
+      "unit": "Wholesale · USD per kW per month · Oct 2026",
+      "data": [
+        {
+          "label": "Silicon Valley",
+          "value": 238
+        },
+        {
+          "label": "Chicago",
+          "value": 215
+        },
+        {
+          "label": "New York Tri-State",
+          "value": 213
+        },
+        {
+          "label": "Los Angeles",
+          "value": 213
+        },
+        {
+          "label": "Hillsboro (Portland)",
+          "value": 205
+        },
+        {
+          "label": "Houston",
+          "value": 180
+        },
+        {
+          "label": "Dallas–Fort Worth",
+          "value": 173
+        },
+        {
+          "label": "Northern Virginia",
+          "value": 173
+        }
+      ],
+      "highlight": "Chicago",
+      "valueFormat": {
+        "prefix": "$",
+        "decimals": 0
+      },
+      "caption": "Northern Virginia's $173 is a 10 MW+ block rate; most metros are 250–500 kW.",
+      "refs": [
+        "colo-oct",
+        "colo-yoy"
+      ]
+    },
+    {
+      "type": "stat",
+      "label": "Biggest yearly rise · Chicago",
+      "value": "+14.7%",
+      "unit": "year on year, to $215 per kW per month",
+      "context": "The largest year-on-year move of any market with a published YoY figure. Tokyo, Sydney and São Paulo were flat.",
+      "refs": [
+        "colo-yoy"
+      ]
+    },
+    {
+      "type": "closing",
+      "text": "Published colocation prices for 23 markets, each with its source.",
+      "cta": "Follow for the weekly index move."
+    }
+  ],
+  "caption": "$196 per kW per month: North America's average wholesale colocation price, up from $148 in December 2023.\n\nThat is +32% in under three years, though the average has been flat since December 2025. The October release changed no prices but added 11 metros, taking the index to 23 markets with a $200 median.\n\nThe biggest yearly rise: Chicago, +14.7% to $215.\n\nData: Coloprice Colocation Index, 26 Oct 2026. Sources on the last slide.\n\nWhich metro should we add next?\n\nFull index: link in bio.",
+  "hashtags": [
+    "#colocation",
+    "#datacenter",
+    "#datacenterpricing",
+    "#Chicago"
+  ]
+}

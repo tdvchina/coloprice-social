@@ -1,0 +1,628 @@
+{
+  "slug": "map-of-the-week-pipeline-2026-10",
+  "format": "map-of-the-week",
+  "status": "ready",
+  "created": "2026-10-28",
+  "publishBy": "2026-11-25",
+  "theme": "dark",
+  "topic": "Map of the Week: where 50,635 MW of data centers is under construction (US two-thirds; APAC 11,083 MW; all of Europe 2,757 MW vs Indonesia 2,646 MW)",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "pipeline",
+      "dataset": "Coloprice pipeline tracker",
+      "url": "https://coloprice.com/data/data-center-pipeline.csv",
+      "asOf": "2026-10-28",
+      "facts": [
+        "World: 584 projects, 50635 MW under construction, 34515 MW announced (published capacity only)",
+        "MW under construction by country: United States 33387; Indonesia 2646; India 2604; Japan 1433; Malaysia 1402; Canada 1327; Brazil 1094; Australia 1010; Finland 850; Thailand 695; United Kingdom 500; South Korea 492; Vietnam 490; United Arab Emirates 430; Germany 367; Norway 272; Italy 207; Spain 190; Kazakhstan 157; Philippines 102; Ireland 99; Singapore 90; Taiwan 87; France 82; Denmark 72; Bahrain 60; Saudi Arabia 59; Chile 53; Poland 48; Kenya 44; Turkey 42; South Africa 40; Nigeria 38; Sweden 30; Switzerland 27; Egypt 25; Hong Kong 20; Uzbekistan 12; Iraq 12; Netherlands 8; China 8; Israel 8; Tanzania 6; Romania 5; Guam 4; Georgia 2; Mexico 2 (all other tracked countries: 0)",
+        "Australia: 1010 MW under construction, 6247 MW announced; 22 projects"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "map",
+      "kicker": "Map of the Week",
+      "headline": "Where the world's data centers are being built",
+      "bbox": [
+        -138,
+        -42,
+        154,
+        66
+      ],
+      "points": [
+        {
+          "label": "United States",
+          "value": 33387,
+          "lat": 38.5,
+          "lon": -97.0,
+          "highlight": true
+        },
+        {
+          "label": "Indonesia",
+          "value": 2646,
+          "lat": -6.2,
+          "lon": 106.8
+        },
+        {
+          "label": "India",
+          "value": 2604,
+          "lat": 19.1,
+          "lon": 72.9
+        },
+        {
+          "label": "Japan",
+          "value": 1433,
+          "lat": 35.7,
+          "lon": 139.7
+        },
+        {
+          "label": "Malaysia",
+          "value": 1402,
+          "lat": 3.1,
+          "lon": 101.7
+        },
+        {
+          "label": "Canada",
+          "value": 1327,
+          "lat": 51.0,
+          "lon": -73.0
+        },
+        {
+          "label": "Brazil",
+          "value": 1094,
+          "lat": -23.5,
+          "lon": -46.6
+        },
+        {
+          "label": "Australia",
+          "value": 1010,
+          "lat": -33.9,
+          "lon": 151.2
+        },
+        {
+          "label": "Finland",
+          "value": 850,
+          "lat": 60.2,
+          "lon": 24.9
+        },
+        {
+          "label": "Thailand",
+          "value": 695,
+          "lat": 13.8,
+          "lon": 100.5
+        },
+        {
+          "label": "United Kingdom",
+          "value": 500,
+          "lat": 51.5,
+          "lon": -0.1
+        },
+        {
+          "label": "South Korea",
+          "value": 492,
+          "lat": 37.6,
+          "lon": 127.0
+        },
+        {
+          "label": "Vietnam",
+          "value": 490,
+          "lat": 10.8,
+          "lon": 106.7
+        },
+        {
+          "label": "UAE",
+          "value": 430,
+          "lat": 25.2,
+          "lon": 55.3
+        },
+        {
+          "label": "Germany",
+          "value": 367,
+          "lat": 50.1,
+          "lon": 8.7
+        },
+        {
+          "label": "Norway",
+          "value": 272,
+          "lat": 59.9,
+          "lon": 10.8
+        },
+        {
+          "label": "Italy",
+          "value": 207,
+          "lat": 45.5,
+          "lon": 9.2
+        },
+        {
+          "label": "Spain",
+          "value": 190,
+          "lat": 40.4,
+          "lon": -3.7
+        },
+        {
+          "label": "Kazakhstan",
+          "value": 157,
+          "lat": 43.2,
+          "lon": 76.9
+        },
+        {
+          "label": "Philippines",
+          "value": 102,
+          "lat": 14.6,
+          "lon": 121.0
+        },
+        {
+          "label": "Ireland",
+          "value": 99,
+          "lat": 53.3,
+          "lon": -6.3
+        },
+        {
+          "label": "Singapore",
+          "value": 90,
+          "lat": 1.35,
+          "lon": 103.8
+        },
+        {
+          "label": "Taiwan",
+          "value": 87,
+          "lat": 25.0,
+          "lon": 121.5
+        },
+        {
+          "label": "France",
+          "value": 82,
+          "lat": 48.9,
+          "lon": 2.35
+        },
+        {
+          "label": "Denmark",
+          "value": 72,
+          "lat": 55.7,
+          "lon": 12.6
+        },
+        {
+          "label": "Bahrain",
+          "value": 60,
+          "lat": 26.2,
+          "lon": 50.6
+        },
+        {
+          "label": "Saudi Arabia",
+          "value": 59,
+          "lat": 24.7,
+          "lon": 46.7
+        },
+        {
+          "label": "Chile",
+          "value": 53,
+          "lat": -33.4,
+          "lon": -70.6
+        },
+        {
+          "label": "Poland",
+          "value": 48,
+          "lat": 52.2,
+          "lon": 21.0
+        },
+        {
+          "label": "Kenya",
+          "value": 44,
+          "lat": -1.3,
+          "lon": 36.8
+        },
+        {
+          "label": "Turkey",
+          "value": 42,
+          "lat": 41.0,
+          "lon": 28.9
+        },
+        {
+          "label": "South Africa",
+          "value": 40,
+          "lat": -26.2,
+          "lon": 28.0
+        },
+        {
+          "label": "Nigeria",
+          "value": 38,
+          "lat": 6.5,
+          "lon": 3.4
+        },
+        {
+          "label": "Sweden",
+          "value": 30,
+          "lat": 59.3,
+          "lon": 18.1
+        },
+        {
+          "label": "Switzerland",
+          "value": 27,
+          "lat": 47.4,
+          "lon": 8.5
+        },
+        {
+          "label": "Egypt",
+          "value": 25,
+          "lat": 30.0,
+          "lon": 31.2
+        },
+        {
+          "label": "Hong Kong",
+          "value": 20,
+          "lat": 22.3,
+          "lon": 114.2
+        },
+        {
+          "label": "Uzbekistan",
+          "value": 12,
+          "lat": 41.3,
+          "lon": 69.2
+        },
+        {
+          "label": "Iraq",
+          "value": 12,
+          "lat": 33.3,
+          "lon": 44.4
+        }
+      ],
+      "labels": 3,
+      "maxRadius": 78,
+      "valueFormat": {
+        "suffix": " MW"
+      },
+      "figure": {
+        "value": "50,635 MW",
+        "label": "under construction in 584 tracked projects, published capacity only"
+      },
+      "refs": [
+        "pipeline"
+      ],
+      "stdParallel": 40
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "Eight countries, one giant",
+      "unit": "MW under construction · published capacity only",
+      "data": [
+        {
+          "label": "United States",
+          "value": 33387
+        },
+        {
+          "label": "Indonesia",
+          "value": 2646
+        },
+        {
+          "label": "India",
+          "value": 2604
+        },
+        {
+          "label": "Japan",
+          "value": 1433
+        },
+        {
+          "label": "Malaysia",
+          "value": 1402
+        },
+        {
+          "label": "Canada",
+          "value": 1327
+        },
+        {
+          "label": "Brazil",
+          "value": 1094
+        },
+        {
+          "label": "Australia",
+          "value": 1010
+        }
+      ],
+      "highlight": 0,
+      "valueFormat": {
+        "decimals": 0
+      },
+      "caption": "The US alone accounts for about two-thirds of the world total.",
+      "refs": [
+        "pipeline"
+      ]
+    },
+    {
+      "type": "stat",
+      "label": "United States · share of the world",
+      "value": "66%",
+      "unit": "of all MW under construction",
+      "context": "33,387 MW of the 50,635 MW we track. Indonesia (2,646 MW) and India (2,604 MW) come next.",
+      "refs": [
+        "pipeline"
+      ]
+    },
+    {
+      "type": "map",
+      "title": "Asia-Pacific: the second front",
+      "unit": "MW under construction · published capacity only",
+      "bbox": [
+        66,
+        -42,
+        156,
+        44
+      ],
+      "points": [
+        {
+          "label": "Indonesia",
+          "value": 2646,
+          "lat": -6.2,
+          "lon": 106.8,
+          "highlight": true
+        },
+        {
+          "label": "India",
+          "value": 2604,
+          "lat": 19.1,
+          "lon": 72.9
+        },
+        {
+          "label": "Japan",
+          "value": 1433,
+          "lat": 35.7,
+          "lon": 139.7
+        },
+        {
+          "label": "Malaysia",
+          "value": 1402,
+          "lat": 3.1,
+          "lon": 101.7
+        },
+        {
+          "label": "Australia",
+          "value": 1010,
+          "lat": -33.9,
+          "lon": 151.2
+        },
+        {
+          "label": "Thailand",
+          "value": 695,
+          "lat": 13.8,
+          "lon": 100.5
+        },
+        {
+          "label": "South Korea",
+          "value": 492,
+          "lat": 37.6,
+          "lon": 127.0
+        },
+        {
+          "label": "Vietnam",
+          "value": 490,
+          "lat": 10.8,
+          "lon": 106.7
+        },
+        {
+          "label": "Philippines",
+          "value": 102,
+          "lat": 14.6,
+          "lon": 121.0
+        },
+        {
+          "label": "Singapore",
+          "value": 90,
+          "lat": 1.35,
+          "lon": 103.8
+        },
+        {
+          "label": "Taiwan",
+          "value": 87,
+          "lat": 25.0,
+          "lon": 121.5
+        },
+        {
+          "label": "Hong Kong",
+          "value": 20,
+          "lat": 22.3,
+          "lon": 114.2
+        },
+        {
+          "label": "China",
+          "value": 8,
+          "lat": 31.2,
+          "lon": 121.5
+        },
+        {
+          "label": "Guam",
+          "value": 4,
+          "lat": 13.4,
+          "lon": 144.8
+        }
+      ],
+      "labels": 6,
+      "maxRadius": 60,
+      "valueFormat": {
+        "suffix": " MW"
+      },
+      "caption": "14 Asia-Pacific markets add up to 11,083 MW, led by Indonesia and India.",
+      "refs": [
+        "pipeline"
+      ],
+      "stdParallel": 12
+    },
+    {
+      "type": "map",
+      "title": "All of Europe builds about as much as Indonesia",
+      "unit": "MW under construction · published capacity only",
+      "bbox": [
+        -14,
+        35,
+        34,
+        66
+      ],
+      "points": [
+        {
+          "label": "Finland",
+          "value": 850,
+          "lat": 60.2,
+          "lon": 24.9,
+          "highlight": true
+        },
+        {
+          "label": "UK",
+          "value": 500,
+          "lat": 51.5,
+          "lon": -0.1
+        },
+        {
+          "label": "Germany",
+          "value": 367,
+          "lat": 50.1,
+          "lon": 8.7
+        },
+        {
+          "label": "Norway",
+          "value": 272,
+          "lat": 59.9,
+          "lon": 10.8
+        },
+        {
+          "label": "Italy",
+          "value": 207,
+          "lat": 45.5,
+          "lon": 9.2
+        },
+        {
+          "label": "Spain",
+          "value": 190,
+          "lat": 40.4,
+          "lon": -3.7
+        },
+        {
+          "label": "Ireland",
+          "value": 99,
+          "lat": 53.3,
+          "lon": -6.3
+        },
+        {
+          "label": "France",
+          "value": 82,
+          "lat": 48.9,
+          "lon": 2.35
+        },
+        {
+          "label": "Denmark",
+          "value": 72,
+          "lat": 55.7,
+          "lon": 12.6
+        },
+        {
+          "label": "Poland",
+          "value": 48,
+          "lat": 52.2,
+          "lon": 21.0
+        },
+        {
+          "label": "Sweden",
+          "value": 30,
+          "lat": 59.3,
+          "lon": 18.1
+        },
+        {
+          "label": "Switzerland",
+          "value": 27,
+          "lat": 47.4,
+          "lon": 8.5
+        },
+        {
+          "label": "Netherlands",
+          "value": 8,
+          "lat": 52.4,
+          "lon": 4.9
+        },
+        {
+          "label": "Romania",
+          "value": 5,
+          "lat": 44.4,
+          "lon": 26.1
+        }
+      ],
+      "labels": 7,
+      "maxRadius": 54,
+      "valueFormat": {
+        "suffix": " MW"
+      },
+      "caption": "14 European countries: 2,757 MW combined, vs 2,646 MW in Indonesia alone.",
+      "refs": [
+        "pipeline"
+      ],
+      "stdParallel": 42
+    },
+    {
+      "type": "compare",
+      "title": "Plans vs cranes: Australia",
+      "unit": "Published capacity · MW",
+      "items": [
+        {
+          "label": "Announced",
+          "value": "6,247 MW",
+          "note": "projects on paper"
+        },
+        {
+          "label": "Under construction",
+          "value": "1,010 MW",
+          "note": "actually being built",
+          "highlight": true
+        }
+      ],
+      "verdict": {
+        "value": "6×",
+        "text": "more capacity announced than under construction"
+      },
+      "refs": [
+        "pipeline"
+      ]
+    },
+    {
+      "type": "closing",
+      "text": "Every megawatt with a source and a date. Published capacity only.",
+      "cta": "Follow for the Map of the Week."
+    }
+  ],
+  "caption": "50,635 MW of data center capacity is under construction worldwide, and two-thirds of it is in the US.\n\nThe United States accounts for 33,387 MW. Indonesia (2,646 MW) and India (2,604 MW) come next. All European countries in the tracker add up to 2,757 MW, barely more than Indonesia alone.\n\nAustralia has the biggest gap in megawatts between plans and building: 6,247 MW announced, 1,010 MW under construction.\n\nData: Coloprice pipeline tracker, 28 Oct 2026. Published capacity only. Sources on the last slide.\n\nWhich market do you think is undercounted?\n\nFull tracker: link in bio.",
+  "hashtags": [
+    "#datacenter",
+    "#AIinfrastructure",
+    "#hyperscale",
+    "#Indonesia"
+  ],
+  "derived": [
+    {
+      "value": "66%",
+      "how": "33,387 / 50,635 = 65.9%, rounded; 'two-thirds' in text"
+    },
+    {
+      "value": "6×",
+      "how": "6,247 / 1,010 = 6.19, rounded down"
+    },
+    {
+      "value": "14",
+      "how": "count of Asia-Pacific markets with MW under construction: Indonesia, India, Japan, Malaysia, Australia, Thailand, South Korea, Vietnam, Philippines, Singapore, Taiwan, Hong Kong, China, Guam"
+    },
+    {
+      "value": "11,083 MW",
+      "how": "2646 + 2604 + 1433 + 1402 + 1010 + 695 + 492 + 490 + 102 + 90 + 87 + 20 + 8 + 4 = 11083"
+    },
+    {
+      "value": "14",
+      "how": "count of European countries with MW under construction: Finland, United Kingdom, Germany, Norway, Italy, Spain, France, Denmark, Sweden, Ireland, Poland, Switzerland, Netherlands, Romania"
+    },
+    {
+      "value": "2,757 MW",
+      "how": "850 + 500 + 367 + 272 + 207 + 190 + 82 + 72 + 30 + 99 + 48 + 27 + 8 + 5 = 2757"
+    },
+    {
+      "value": "biggest gap",
+      "how": "announced minus under construction: Australia 6,247 - 1,010 = 5,237 MW, the largest of any country in the tracker (India 2,167; US negative)"
+    }
+  ]
+}

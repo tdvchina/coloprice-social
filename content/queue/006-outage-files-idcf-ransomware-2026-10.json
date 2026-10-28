@@ -1,0 +1,187 @@
+{
+  "slug": "outage-files-idcf-ransomware-2026-10",
+  "format": "outage-files",
+  "status": "ready",
+  "created": "2026-10-28",
+  "publishBy": "2026-11-25",
+  "theme": "paper",
+  "topic": "Outage Files: ransomware takes IDCF Cloud East Japan Region 1 offline (495 customers), vs physical causes in the incident database",
+  "sources": [
+    {
+      "id": "bc",
+      "publisher": "BleepingComputer",
+      "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+      "date": "2026-10-08",
+      "facts": [
+        "The attack started on October 7 at 3:40 AM local time, forcing a shutdown of the network and system",
+        "IDC Frontier (a SoftBank Group subsidiary) said a disruption in East Japan Region 1 was caused by a ransomware attack by a third party",
+        "The attack impacts 495 companies and local governments using its cloud service",
+        "IDC Frontier isolated and shut down impacted systems in East Japan Region 1; IDCF Cloud disabled customer access to management consoles for all regions",
+        "The company is working to identify and block the intrusion route and check security in other regions"
+      ]
+    },
+    {
+      "id": "sdx",
+      "publisher": "SDxCentral",
+      "title": "SoftBank national cloud arm attacked in 'seven minutes,' taking Japan infrastructure offline",
+      "url": "https://www.sdxcentral.com/news/softbank-national-cloud-arm-attacked-in-seven-minutes-taking-japan-infrastructure-offline/",
+      "date": "2026-10-09",
+      "facts": [
+        "Virtual servers in four availability zones had stopped and could not restart",
+        "IDC Frontier said it would be difficult to retrieve or restore customer data from the affected infrastructure; customers may have to restore from their own backups",
+        "Customer notice: 'we are advising you to prepare a separate environment and rebuild your system'"
+      ]
+    }
+  ],
+  "dataHooks": [
+    {
+      "id": "incidents",
+      "dataset": "Coloprice incident database",
+      "url": "https://coloprice.com/incidents/",
+      "asOf": "2026-10-22",
+      "facts": [
+        "141 incidents logged since 2015; 35 of them in 2026",
+        "By cause: power 32; fire 28; cooling 25; weather 7; flood/water 6; fire suppression 6; grid 2; software 2; other 2; no published cause 31",
+        "The IDC Frontier ransomware attack (7 Oct 2026) is filed under cause 'other'"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "split",
+      "split": "cols",
+      "tones": [
+        "paper",
+        "dark"
+      ],
+      "kicker": "Outage Files",
+      "headline": "Ransomware took a cloud region dark",
+      "deck": "IDC Frontier's IDCF Cloud, East Japan Region 1, from 7 Oct 2026.",
+      "figure": {
+        "value": "495",
+        "label": "companies and local governments use the affected service"
+      },
+      "refs": [
+        "bc"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "What happened, in order",
+      "unit": "IDCF Cloud · East Japan Region 1",
+      "rows": [
+        {
+          "label": "Attack begins",
+          "value": "3:40 AM",
+          "note": "7 Oct, local time",
+          "highlight": true
+        },
+        {
+          "label": "Region isolated",
+          "value": "Shut down",
+          "note": "network and systems taken offline"
+        },
+        {
+          "label": "Virtual servers",
+          "value": "4 zones",
+          "note": "stopped and could not restart"
+        },
+        {
+          "label": "Customer consoles",
+          "value": "Off",
+          "note": "disabled for every region as a precaution"
+        }
+      ],
+      "footnote": "The intrusion route was still under investigation at the time of reporting.",
+      "refs": [
+        "bc",
+        "sdx"
+      ]
+    },
+    {
+      "type": "quote",
+      "label": "IDC Frontier's advice to customers",
+      "text": "Prepare a **separate environment** and **rebuild** your system.",
+      "attribution": "Customer notice, as reported by SDxCentral. Data in the region may be difficult to recover.",
+      "refs": [
+        "sdx"
+      ]
+    },
+    {
+      "type": "chart",
+      "kind": "bar",
+      "title": "Most incidents we log are physical",
+      "unit": "Coloprice incident database · by cause",
+      "data": [
+        {
+          "label": "Power",
+          "value": 32
+        },
+        {
+          "label": "Fire",
+          "value": 28
+        },
+        {
+          "label": "Cooling",
+          "value": 25
+        },
+        {
+          "label": "Weather",
+          "value": 7
+        },
+        {
+          "label": "Flood",
+          "value": 6
+        },
+        {
+          "label": "Fire supp.",
+          "value": 6
+        },
+        {
+          "label": "Other",
+          "value": 2
+        }
+      ],
+      "highlight": "Other",
+      "valueFormat": {
+        "decimals": 0
+      },
+      "caption": "141 incidents logged, 31 without a published cause. This attack is filed under other.",
+      "refs": [
+        "incidents"
+      ]
+    },
+    {
+      "type": "stat",
+      "label": "The lesson for buyers",
+      "value": "Off-site",
+      "unit": "backups, outside the region that hosts the workload",
+      "context": "Customers were told data in the affected region may be difficult to recover, and that they may have to restore from their own backups.",
+      "accent": false,
+      "refs": [
+        "sdx"
+      ]
+    },
+    {
+      "type": "closing",
+      "text": "Data center incidents, logged with causes and sources.",
+      "cta": "Follow for the Outage Files."
+    }
+  ],
+  "caption": "495 companies and local governments were on the cloud region a ransomware attack took offline on 7 Oct.\n\nThe attack on IDC Frontier's IDCF Cloud began at 3:40 AM local time. The company isolated East Japan Region 1, virtual servers in four zones stopped, and customers were told their data may be difficult to recover.\n\nMost incidents in our database are physical: power (32), fire (28), cooling (25). Cyber events are rare there, but this one took out a whole region.\n\nSources: BleepingComputer (8 Oct), SDxCentral (9 Oct), Coloprice incident database. Details on the last slide.\n\nWhere does your backup of the backup live?\n\nIncident database: link in bio · coloprice.com",
+  "hashtags": [
+    "#datacenter",
+    "#cybersecurity",
+    "#ransomware",
+    "#cloudcomputing",
+    "#Japan"
+  ],
+  "derived": [
+    {
+      "value": "4 zones",
+      "how": "SDxCentral: 'virtual servers in four availability zones had stopped' — 'four' written as a numeral"
+    }
+  ]
+}

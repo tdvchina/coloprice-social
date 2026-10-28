@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T08:42:51.672Z",
+ "generated": "2026-10-28T09:34:40.277Z",
  "base": "https://coloprice.com",
  "mode": "local+remote",
  "license": "Coloprice data: CC BY 4.0 (own data). Read-only snapshot.",
@@ -1317,6 +1317,314 @@
      "projects": 7,
      "underConstructionMw": 102,
      "announcedMw": 100
+    },
+    {
+     "level": "country",
+     "name": "Kenya",
+     "projects": 3,
+     "underConstructionMw": 44,
+     "announcedMw": 153
+    },
+    {
+     "level": "country",
+     "name": "Kazakhstan",
+     "projects": 7,
+     "underConstructionMw": 157,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Turkey",
+     "projects": 3,
+     "underConstructionMw": 42,
+     "announcedMw": 100
+    },
+    {
+     "level": "country",
+     "name": "Egypt",
+     "projects": 3,
+     "underConstructionMw": 25,
+     "announcedMw": 100
+    },
+    {
+     "level": "country",
+     "name": "Ireland",
+     "projects": 7,
+     "underConstructionMw": 99,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Taiwan",
+     "projects": 2,
+     "underConstructionMw": 87,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Bahrain",
+     "projects": 1,
+     "underConstructionMw": 60,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Chile",
+     "projects": 4,
+     "underConstructionMw": 53,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Poland",
+     "projects": 1,
+     "underConstructionMw": 48,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Qatar",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 44
+    },
+    {
+     "level": "country",
+     "name": "New Zealand",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 40
+    },
+    {
+     "level": "country",
+     "name": "South Africa",
+     "projects": 2,
+     "underConstructionMw": 40,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Nigeria",
+     "projects": 3,
+     "underConstructionMw": 38,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Switzerland",
+     "projects": 3,
+     "underConstructionMw": 27,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Hong Kong",
+     "projects": 1,
+     "underConstructionMw": 20,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Portugal",
+     "projects": 2,
+     "underConstructionMw": 0,
+     "announcedMw": 16
+    },
+    {
+     "level": "country",
+     "name": "Greece",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 13
+    },
+    {
+     "level": "country",
+     "name": "Uzbekistan",
+     "projects": 2,
+     "underConstructionMw": 12,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Iraq",
+     "projects": 1,
+     "underConstructionMw": 12,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Netherlands",
+     "projects": 3,
+     "underConstructionMw": 8,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Austria",
+     "projects": 2,
+     "underConstructionMw": 0,
+     "announcedMw": 8
+    },
+    {
+     "level": "country",
+     "name": "China",
+     "projects": 7,
+     "underConstructionMw": 8,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Israel",
+     "projects": 2,
+     "underConstructionMw": 8,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Tanzania",
+     "projects": 1,
+     "underConstructionMw": 6,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Romania",
+     "projects": 1,
+     "underConstructionMw": 5,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Guam",
+     "projects": 1,
+     "underConstructionMw": 4,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Georgia",
+     "projects": 1,
+     "underConstructionMw": 2,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Mexico",
+     "projects": 3,
+     "underConstructionMw": 2,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Guyana",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 1
+    },
+    {
+     "level": "country",
+     "name": "Armenia",
+     "projects": 2,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Azerbaijan",
+     "projects": 3,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Colombia",
+     "projects": 5,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Lithuania",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Jordan",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Bangladesh",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Nepal",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Cyprus",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Peru",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Fiji",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Malawi",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Greenland",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Vanuatu",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Kyrgyzstan",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Cambodia",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 0
     }
    ]
   },
