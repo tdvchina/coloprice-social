@@ -10,6 +10,6 @@
     "perDay": 2,
     "minHoursBetween": 4,
     "maxAgeDays": 10,
-    "reply": true
+    "reply": false
   }
 }
