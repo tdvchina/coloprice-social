@@ -94,6 +94,24 @@ Footers print the source and date of each slide automatically. The header prints
 - No URLs and no other domains. The plain text `coloprice.com` may appear in at most one of every 3 posts (the validator checks history and queue order).
 - Hashtags go in `hashtags[]`, never in the caption text.
 
+## X (Twitter) cross-post (optional `x` field)
+After a carousel is live on Instagram, `scripts/publish-x.mjs` posts it to X: a text of at most 280 weighted characters, up to 4 slide images with alt text, and one reply with the coloprice.com link. Nothing is needed in the queue file: the post is derived automatically.
+
+- **Text** = caption line 1 (the hook) + the first caption sentence with a number that is not already in the hook + `Data: <datasets>, <publishers>`. No URL and no domain in the main post (X cuts the reach of posts with links, and a post with a URL is billed about 13 times more), no hashtags, no "link in bio".
+- **Images** = the cover + the 3 most informative inner slides (chart/map, then compare/list, then the key stat), in carousel order; never the closing slide. Alt text comes from each slide's headline, figure and data.
+- **Reply** = `Full table + sources: coloprice.com/<page>`: the page behind the first data hook (`data-center-pipeline.csv` → `/pipeline/`, the index JSON → `/index/`, GPU → `/gpu/`, transactions → `/transactions/`, incidents → `/incidents/`), else a `coloprice.com/...` page named on the closing slide, else the home page.
+
+Override only when the derived version is weak:
+```jsonc
+"x": {
+  "text": "…",            // full main-post text; same rules: ≤ 280, every number in the facts, no URL/domain
+  "slides": [1, 2, 4, 6], // 1–4 slide numbers, 1-based as in out/<slug>/NN.jpg
+  "replyPath": "/pipeline/", // coloprice.com page for the reply
+  "skip": true            // never cross-post this one
+}
+```
+The validator checks the `x` field when it is present (errors are prefixed `x:`). Preview any carousel with `node scripts/publish-x.mjs --dry-run --slug=<slug>`.
+
 ## Never
 - Client names, Coloprice/Dream View deal pipeline, negotiations, NDAs (also checked against the `CONTENT_DENYLIST` secret).
 - Investment advice or buy/sell framing. REIT and stock facts are allowed only as plain facts.

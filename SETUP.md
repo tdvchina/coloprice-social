@@ -12,6 +12,10 @@ coloprice.com JSON ──► content/data/coloprice-latest.json ─┤
           instagram-post.yml (без Claude, пн–пт 20:07 по Бангкоку)
           publish.mjs: проверки → Graph API (контейнер на слайд → карусель → publish)
           → content/state.json → Telegram
+                                                           ▼
+          x-post.yml (без Claude, пн–пт 22:30 по Бангкоку, ВЫКЛЮЧЕН до получения ключей X)
+          publish-x.mjs: следующая карусель, уже вышедшая в Instagram → текст ≤ 280 + 4 слайда
+          → ответ со ссылкой на coloprice.com → content/state.json (x) → Telegram
 ```
 
 **Почему отдельный репозиторий.** Coloprice на Vercel платит за минуты сборки и выкатывается окнами деплоя. Каждая карусель — это 7–8 JPEG (~0,8 МБ). Если коммитить их в `colocationindex`, каждый коммит будит сборку. Здесь Vercel вообще не участвует: слайды раздаёт сам GitHub из публичного репозитория.
@@ -119,6 +123,7 @@ npm run queue                                      # что в очереди и
 npm run grid                                       # превью сетки профиля → out/grid-preview.jpg
 npm run pdf -- <slug>                              # PDF для LinkedIn → out/<slug>/<slug>.pdf (--all — все)
 SLIDES_BASE_URL=… node scripts/publish.mjs --dry-run
+node scripts/publish-x.mjs --dry-run                # X: точный текст, слайды, alt-тексты и ответ (ключи не нужны)
 npm test
 ```
 Реальная публикация с ноутбука — `node scripts/publish.mjs` при заполненном `.env.local` (шаблон — `.env.example`). Обычно это не нужно: публикует воркфлоу.
@@ -161,8 +166,70 @@ DCD, Data Center Frontier, Data Center Knowledge, Data Center POST, Data Centre 
 Не работают для ботов: RSS Digital Realty, CoreWeave, Vertiv и Supermicro (403), hpcwire (403), datacentremagazine (403), старый RSS Data Center Frontier (404). Страницы статей DCD отдают 403 и curl, и WebFetch, хотя сама лента DCD открыта. Поэтому рутина проверяет факт по второму источнику или берёт только заголовок и подзаголовок из ленты DCD.
 
 ## Ограничения API и правила
-- Graph API позволяет до 50 публикаций через API за 24 часа; мы делаем 1 в день — жёстко, без флага-обхода (дата по Asia/Bangkok, `content/state.json` плюс guard по git log).
+- Graph API позволяет до 50 публикаций через API за 24 часа; мы делаем 1 в день — жёстко, без флага-обхода (дата по Asia/Bangkok; лимит проверяют шаг-guard воркфлоу и `publish.mjs`, оба читают `content/state.json`, а не git log).
 - Карусель — 2–10 слайдов, только JPEG.
 - Подпись ≤ 2200 знаков, хэштегов ≤ 5 (лимит Instagram с декабря 2025; мы ставим 3–5).
 - Формат очереди, 7 рубрик и правила контента описаны в [content/FORMAT.md](content/FORMAT.md). Главное: каждая цифра со слайда должна найтись в `facts` процитированного источника или данных; никаких клиентов, сделок, инвестсоветов и «гарантий».
 - Идемпотентность: опубликованный slug повторно не постится никогда. Перед `media_publish` скрипт ещё сверяет первую строку подписи с последними постами аккаунта, чтобы после сбоя не задвоить пост.
+
+## X (Twitter)
+
+Второй канал для тех же каруселей. Воркфлоу `x-post.yml` в будни в 22:30 по Бангкоку (примерно через 2,5 часа после Instagram) берёт самую старую карусель, которая уже вышла в Instagram (`content/state.json → published`), но ещё не вышла в X (`→ x`), и публикует её так:
+
+- **основной пост**: хук из первой строки подписи, один подтверждающий факт (предложение подписи с цифрой) и строка `Data: …`, всего ≤ 280 знаков. Ссылки в основном посте нет: X режет охват постов со ссылками, а пост с URL ещё и стоит примерно в 13 раз дороже (см. ниже). Все цифры проверяются по `facts` так же, как в валидаторе Instagram, плюс проверка `CONTENT_DENYLIST`;
+- **4 картинки**: обложка и 3 самых информативных слайда (график или карта, затем сравнение или список, затем ключевая цифра), у каждой alt-текст из заголовка и цифр слайда;
+- **один ответ** под постом: `Full table + sources: coloprice.com/<страница>`, где страница — та, что стоит за data hook (pipeline → `/pipeline/`, индекс → `/index/`, GPU → `/gpu/`…); по умолчанию — главная.
+
+Переопределить текст, набор слайдов или страницу для ответа можно полем `x` в JSON карусели (схема — [content/FORMAT.md](content/FORMAT.md), раздел «X (Twitter) cross-post»). Предпросмотр: `node scripts/publish-x.mjs --dry-run` (ключи не нужны) или `--dry-run --slug=<slug>` для любой карусели.
+
+**Лимиты** (`config/limits.json → x`): не больше 1 поста за запуск, `perDay` 2 в сутки по Бангкоку, `minHoursBetween` 4 часа, `maxAgeDays` 10 дней (старше X не догоняет, потому что `prune-out.mjs` через 14 дней убирает слайды из рабочего дерева), `reply: true`. Чтобы отказаться от платного ответа со ссылкой, достаточно поставить `"reply": false` и дать ссылку в шапке профиля.
+
+**Идемпотентность.** Запись `state.x[slug]` появляется сразу после основного поста, ещё до ответа. Если ответ не ушёл, следующий запуск дописывает только его. Если X отклоняет пост как дубль (после сбоя), скрипт находит его среди последних постов аккаунта и чинит состояние без повтора. Коммит воркфлоу — `social: x posted <slug>`. Guard Instagram такие коммиты не путают: и он, и `publish.mjs` считают посты только по `state.json → published`, git log никто не читает.
+
+### Что Артём делает руками (один раз)
+Названия пунктов в консоли X меняются; если что-то называется иначе, ищи по смыслу.
+
+1. **Аккаунт X.** Создать **@coloprice** (если имя занято — `@colopricecom` или `@coloprice_data`; тогда поправить `X_HANDLE` в `.env`). Аватар и шапка — как в Instagram, в bio — «The price tag of the internet», в поле Website — `coloprice.com`: ссылка в профиле бесплатна и охват не режет.
+2. **Developer-аккаунт.** Войти на [console.x.com](https://console.x.com) (бывший developer.x.com) **именно под @coloprice**: Access Token, выпущенный в консоли, принадлежит аккаунту-владельцу приложения, и посты пойдут от его имени. Принять Developer Agreement и описать задачу честно, например: *«Scheduled posting of our own data-centre price charts and sourced industry figures to our own account @coloprice. No reading, analysis or resale of other users' data.»*
+3. **Кредиты.** Billing → купить кредиты (минимум $5) и поставить **Spending limit** (например, $10 в месяц). Карту вводит Артём сам. Наш объём — около $5 в месяц (расчёт ниже).
+4. **Приложение.** Создать App (New App). Если консоль просит Project — создать Project «Coloprice social» и приложение в нём.
+5. **Права до токенов (важно).** App → **User authentication settings** → Set up:
+   - **App permissions: Read and write** (без DM);
+   - Type of App: **Web App, Automated App or Bot**;
+   - Callback URI: `https://coloprice.com/`, Website URL: `https://coloprice.com` (они обязательны, хотя наш скрипт ими не пользуется) → Save.
+   
+   Это нужно сделать **до** генерации Access Token. Токен, выпущенный раньше, остаётся read-only даже после смены прав, и публикация падает с 403 (скрипт пишет об этом в Telegram). Если токен уже был выпущен, нажать **Regenerate**.
+6. **Ключи.** App → Keys and tokens:
+   - **API Key and Secret** (Consumer Keys) → `X_API_KEY`, `X_API_SECRET`;
+   - **Access Token and Secret** → Generate (рядом должно быть «Read and Write») → `X_ACCESS_TOKEN`, `X_ACCESS_SECRET`.
+   
+   Ключи показываются один раз: сразу в менеджер паролей, **в чат не вставлять**.
+7. **В `.env`** (строки `X_API_KEY=` … `X_ACCESS_SECRET=` уже есть внизу файла) вставить значения после `=`, затем в своём терминале:
+   ```bash
+   cd "/Users/misscarol/Artem Claude/coloprice-social" && scripts/push-secrets.sh
+   ```
+   Скрипт копирует ключи X в секреты GitHub, если они заполнены (пустые пропускает молча), и выставляет переменную `X_HANDLE`. Значения не печатаются.
+8. **Сказать Claude «включи X».** Claude выполнит `gh workflow enable "X post" -R tdvchina/coloprice-social`, запустит Actions → **X post** с `dry_run` = true (текст, слайды, alt-тексты, ответ), затем с `dry_run` = false — первый реальный пост. В Telegram придёт «🐦 Coloprice X: опубликован пост … <ссылка>», в репозиторий — коммит `social: x posted <slug>`.
+
+До этого момента воркфлоу **выключен** в Actions. Если его включить без ключей, живой запуск всё равно сразу выходит с сообщением «X posting is not configured…» и ничего не публикует.
+
+### Почему без библиотеки (OAuth 1.0a своими руками)
+Нужны четыре вызова: загрузка медиа, alt-текст, пост и ответ. OAuth 1.0a — это ~40 строк HMAC-SHA1 на `node:crypto` (`scripts/lib/oauth1.mjs`); подпись проверяется тестом на эталонном примере из документации X. Проверено 28.10.2026: `twitter-api-v2` (1.31.0) живой и надёжный, официальный `@xdevplatform/xdk` пока 0.x. Но у публичного репозитория с ключами на запись каждая зависимость — лишняя поверхность атаки через цепочку поставок, а выигрыша на четырёх эндпоинтах нет. Если X сломает протокол загрузки, переход на `twitter-api-v2` займёт полчаса: `publish-x.mjs` обращается к API в одном месте.
+
+### API X и цены — проверено по docs.x.com 28.10.2026
+- **Эндпоинты.** Медиа — v2 chunked: `POST /2/media/upload/initialize` → `POST /2/media/upload/{id}/append` (multipart) → `POST /2/media/upload/{id}/finalize` (→ `GET /2/media/upload?command=STATUS`, если идёт обработка). Alt-текст — `POST /2/media/metadata`, пост и ответ — `POST /2/tweets`. Все принимают OAuth 1.0a user context (схема `UserToken` в OpenAPI) или OAuth 2.0 со scope `media.write`/`tweet.write`. Фолбэк на v1.1 `upload.twitter.com` не нужен. Лимит картинки — 5 МБ (наши слайды по ~0,1 МБ), в посте до 4 фото.
+- **Тарифы.** С 6 февраля 2026 года X API для новых разработчиков работает по **pay-per-use**: предоплаченные кредиты, без подписки. Бесплатного уровня для новых аккаунтов в документации больше нет: бывшим пользователям Legacy Free дали разовый ваучер $10. Basic и Pro «остаются доступными» для действующих подписчиков; можно ли их купить новому аккаунту, по документации понять нельзя — **не проверено**. Есть разовые бонусы: $20 после первой покупки кредитов картой и, вдобавок, сумма первого авто-пополнения, но не больше $50. Бонусы сгорают через 3 месяца.
+- **Цены с 20.04.2026:** Post: Create — **$0,015**, Post: Create **с URL — $0,20**, Media Metadata (alt-текст) — $0,005 за запрос, Owned Reads (свои посты) — $0,001, User: Read — $0,01. Отдельной цены за саму загрузку медиа в таблице нет, так что она, видимо, не тарифицируется — **не проверено**. Неудачные запросы не списываются.
+- **Наш расход:** пост + 4 alt-текста + ответ со ссылкой ≈ $0,015 + $0,02 + $0,20 = **≈ $0,235 за карусель**. При 5 постах в неделю (~22 в месяц) это **≈ $5 в месяц**, без ответа со ссылкой (`reply: false`) — ≈ $0,8 в месяц.
+- **Rate limits** с огромным запасом: `POST /2/tweets` — 100 за 15 минут на пользователя и 10 000 за 24 часа на приложение, загрузка медиа — сотни в 15 минут. Ограничение для нас только наше собственное: 2 поста в день.
+- Источники: [Pricing](https://docs.x.com/x-api/getting-started/pricing), [Free credits](https://docs.x.com/x-api/getting-started/free-credits), [Changelog](https://docs.x.com/changelog) (запуск pay-per-use 06.02.2026, цены 16.04.2026), [Rate limits](https://docs.x.com/x-api/fundamentals/rate-limits), [Chunked upload](https://docs.x.com/x-api/media/quickstart/media-upload-chunked), [Media metadata](https://docs.x.com/x-api/media/create-media-metadata), [Create Post](https://docs.x.com/x-api/posts/create-post), [Getting access](https://docs.x.com/x-api/getting-started/getting-access). Цены меняются — актуальные всегда в Developer Console.
+
+### Ошибки и что они значат (скрипт пишет их в Telegram)
+| Ответ X | Причина | Что делать |
+|---|---|---|
+| 401 | ключи неверны, перевыпущены или отозваны | перевыпустить в console.x.com → `.env` → `scripts/push-secrets.sh` |
+| 403 «oauth1 app permissions» | токен выпущен до включения «Read and write» | Regenerate Access Token/Secret → секреты |
+| 403 «client-not-enrolled» | приложение не привязано к проекту или плану | проверить App/Project в консоли |
+| 402 / «credits» | кончились кредиты или достигнут Spending limit | пополнить Billing |
+| 429 | rate limit | ничего: повтор при следующем запуске, время сброса — в сообщении |
+| 403 «duplicate content» | пост уже есть (повтор после сбоя) | ничего: состояние чинится само |

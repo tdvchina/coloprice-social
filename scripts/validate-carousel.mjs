@@ -20,6 +20,10 @@ import { buildSlide, slideContext, stripMarks, COVER_LAYOUTS } from './lib/slide
 import { THEMES } from '../config/brand.mjs';
 import { REGIONS } from './lib/map.mjs';
 import { FONTS, unsupportedChars } from './lib/text.mjs';
+import { numbersIn, same, derivedNumbers, factNumbers, missingNumbers, safetyErrors } from './lib/rules.mjs';
+import { xPostErrors } from './lib/xpost.mjs';
+
+export { numbersIn }; // kept here for older imports (tests, routines)
 
 export const FORMATS = {
   'index-weekly-move': { label: 'Coloprice Index: Weekly Move', needsData: true },
@@ -34,39 +38,6 @@ export const FORMATS = {
 const SLIDE_TYPES = ['cover', 'stat', 'list', 'chart', 'compare', 'map', 'quote', 'closing'];
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const BANNED_TAGS = ['#explore', '#reels', '#tech', '#fyp', '#viral', '#instagood', '#follow', '#like4like', '#explorepage'];
-
-const INVEST =
-  /\b(buy|sell|short|go long on)\s+(the\s+)?(stock|stocks|shares|equity|reit)\b|\b(strong buy|price target|investment advice|financial advice|you should invest|time to invest|guaranteed returns?|can'?t lose|to the moon|undervalued stock|overweight rating)\b/i;
-const CLIENT = /\b(our (client|customer)s?|a client of ours|we('| a)re (brokering|negotiating)|under nda|signed an nda|loi with us|exclusive mandate|our deal pipeline|deal we('| a)re working)\b/i;
-const GUARANTEE = /\bguarantee[ds]?\b/i;
-
-// ── number extraction ──
-const MONTH = '(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\\.?';
-const DATE_PATTERNS = [
-  /\b(19|20)\d{2}-\d{2}(-\d{2})?\b/g,
-  new RegExp(`\\b${MONTH}\\s+'?\\d{2}(\\d{2})?\\b`, 'gi'),
-  new RegExp(`\\b\\d{1,2}(st|nd|rd|th)?\\s+${MONTH}(\\s+\\d{4})?`, 'gi'),
-  new RegExp(`\\b${MONTH}\\s+\\d{1,2},?\\s+\\d{4}`, 'gi'),
-];
-export function numbersIn(text, { skipLetterPrefixed = true, stripDates = true } = {}) {
-  let s = String(text ?? '');
-  if (stripDates) for (const re of DATE_PATTERNS) s = s.replace(re, ' ');
-  const out = [];
-  const re = /\d[\d,]*(?:\.\d+)?/g;
-  let m;
-  while ((m = re.exec(s))) {
-    const before = s[m.index - 1] || '';
-    if (skipLetterPrefixed && /[A-Za-z]/.test(before)) continue; // H100, Q4, TYO1, MI300X
-    if (/\d/.test(before)) continue;
-    const raw = m[0].replace(/,(?=\d{3}\b)/g, '').replace(/,$/, '');
-    const v = Number(raw.replace(/,/g, ''));
-    if (!Number.isFinite(v)) continue;
-    if (Number.isInteger(v) && v >= 1990 && v <= 2039 && !raw.includes('.')) continue; // years
-    out.push(v);
-  }
-  return out;
-}
-const same = (a, b) => Math.abs(a - b) < 1e-9 || Math.abs(a - b) / Math.max(Math.abs(a), Math.abs(b)) < 1e-6;
 
 function slideTexts(s) {
   const t = [];
@@ -163,10 +134,8 @@ export function validateCarousel(def, { file, state = {}, env = process.env, fit
     const newest = (def.sources || []).map((s) => s.date).sort().pop();
     if (newest && (Date.parse(def.created) - Date.parse(newest)) / 86400000 > 7) W(`newest news source is ${newest} — older than 7 days for a news format`);
   }
-  const derivedNums = (def.derived || []).flatMap((d) => {
-    if (!d.value || !d.how) E('derived[]: each needs value + how (the arithmetic, from cited facts)');
-    return numbersIn(d.value, { skipLetterPrefixed: false, stripDates: false });
-  });
+  for (const d of def.derived || []) if (!d.value || !d.how) E('derived[]: each needs value + how (the arithmetic, from cited facts)');
+  const derivedNums = derivedNumbers(def);
 
   // ── slides ──
   const slides = def.slides || [];
@@ -273,8 +242,7 @@ export function validateCarousel(def, { file, state = {}, env = process.env, fit
   const foreign = domains.filter((d) => d.toLowerCase() !== 'coloprice.com');
   if (foreign.length) E(`caption: no domains other than coloprice.com (${foreign.join(', ')})`);
   {
-    const corpus = [...Object.values(refFacts).flat().flatMap((f) => numbersIn(f, { skipLetterPrefixed: false, stripDates: false })), ...derivedNums];
-    const missing = [...new Set(numbersIn(cap).filter((v) => !corpus.some((c) => same(c, v))))];
+    const missing = missingNumbers(cap, factNumbers(def));
     if (missing.length) E(`caption: number(s) ${missing.join(', ')} not found in any source/data-hook facts or derived[]`);
   }
   if (!/link in bio/i.test(cap)) E('caption: must say "link in bio"');
@@ -296,14 +264,10 @@ export function validateCarousel(def, { file, state = {}, env = process.env, fit
 
   // ── content safety ──
   const allText = [cap, ...slides.flatMap(slideTexts)].join('\n');
-  if (INVEST.test(allText)) E('content reads as investment advice — facts only, no buy/sell framing');
-  if (CLIENT.test(allText)) E('content mentions clients/deals of our own — never publish client names or deal info');
-  if (GUARANTEE.test(allText)) E('no "guarantee" claims (prices/terms are individual)');
-  const deny = String(env.CONTENT_DENYLIST || '').split(',').map((x) => x.trim().toLowerCase()).filter(Boolean);
-  deny.forEach((term, i) => {
-    // never echo the term: CI logs of a public repo are public
-    if (allText.toLowerCase().includes(term)) E(`content matches CONTENT_DENYLIST entry #${i + 1} (client/deal name) — remove it`);
-  });
+  safetyErrors(allText, env).forEach(E);
+
+  // ── optional X (Twitter) overrides: x.text / x.slides / x.replyPath (see FORMAT.md) ──
+  if (def.x != null) xPostErrors(def, { env }).forEach((m) => E(`x: ${m}`));
 
   // ── layout fit (same engine as the renderer) ──
   if (fit && !errors.some((e) => e.includes('unknown type'))) {

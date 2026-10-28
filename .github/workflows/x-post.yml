@@ -1,0 +1,122 @@
+name: X post
+
+# Cross-posts the next carousel that is already on Instagram to X (Twitter): text + up to 4 slides,
+# then one reply with the coloprice.com link. Deterministic node, no Claude.
+# Limits: config/limits.json → x (perDay, minHoursBetween, maxAgeDays, reply); 1 post per run.
+#
+# DISABLED BY DEFAULT: the workflow is switched off in Actions until Artem has the X keys
+# (SETUP.md → «X (Twitter)»). Even when enabled, a live run without the X_* secrets exits early.
+on:
+  schedule:
+    - cron: '30 15 * * 1-5' # 22:30 Asia/Bangkok, Mon–Fri — ~2.5 h after the Instagram slot (20:07)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (print the post, images, alt texts and reply; send nothing)'
+        type: boolean
+        default: true
+      slug:
+        description: 'Optional: a specific carousel slug'
+        type: string
+        default: ''
+
+concurrency:
+  group: x-post
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      X_API_KEY: ${{ secrets.X_API_KEY }}
+      X_API_SECRET: ${{ secrets.X_API_SECRET }}
+      X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+      X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+      X_HANDLE: ${{ vars.X_HANDLE }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      CONTENT_DENYLIST: ${{ secrets.CONTENT_DENYLIST }}
+    steps:
+      - name: Guard — X keys configured?
+        id: guard
+        run: |
+          dry=false
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then dry=true; fi
+          echo "dry=$dry" >> "$GITHUB_OUTPUT"
+          if [ "$dry" != "true" ] && { [ -z "$X_API_KEY" ] || [ -z "$X_API_SECRET" ] || [ -z "$X_ACCESS_TOKEN" ] || [ -z "$X_ACCESS_SECRET" ]; }; then
+            msg="X posting is not configured: one or more of X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET is missing in repo secrets. See SETUP.md → «X (Twitter)». Nothing was posted."
+            echo "::notice::$msg"
+            echo "$msg" >> "$GITHUB_STEP_SUMMARY"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.guard.outputs.skip != 'true'
+
+      - uses: actions/setup-node@v4
+        if: steps.guard.outputs.skip != 'true'
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+        if: steps.guard.outputs.skip != 'true'
+
+      - name: Post to X (or dry run)
+        id: post
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          SLUG: ${{ inputs.slug }}
+        run: |
+          flags=""
+          [ "${{ steps.guard.outputs.dry }}" = "true" ] && flags="--dry-run"
+          [ -n "$SLUG" ] && flags="$flags --slug=$SLUG"
+          node scripts/publish-x.mjs $flags
+
+      # Only content/state.json → x changes here. The Instagram run writes the same file
+      # (→ published), so on a push race we re-apply our x entries onto the newest main
+      # instead of a text rebase that could conflict.
+      - name: Commit state
+        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.dry != 'true'
+        env:
+          SLUG: ${{ steps.post.outputs.slug }}
+          ACTION: ${{ steps.post.outputs.action }}
+        run: |
+          if git diff --quiet -- content/state.json; then echo "no state change"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp content/state.json "$RUNNER_TEMP/state.mine.json"
+          case "$ACTION" in
+            posted|duplicate) msg="social: x posted ${SLUG}" ;;
+            reply) msg="social: x reply ${SLUG}" ;;
+            *) msg="social: x skipped ${SLUG:-state}" ;;
+          esac
+          for i in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            node -e '
+              const fs=require("fs");
+              const mine=JSON.parse(fs.readFileSync(process.argv[1],"utf8"));
+              const cur=JSON.parse(fs.readFileSync("content/state.json","utf8"));
+              cur.x={...(cur.x||{}),...(mine.x||{})};
+              fs.writeFileSync("content/state.json",JSON.stringify(cur,null,2)+"\n");' "$RUNNER_TEMP/state.mine.json"
+            git add content/state.json
+            if git diff --cached --quiet; then echo "state already on main"; exit 0; fi
+            git commit -q -m "$msg"
+            if git push -q origin HEAD:main; then echo "pushed: $msg"; exit 0; fi
+            sleep $((i * 5))
+          done
+          echo "could not push state after 3 attempts"; exit 1
+
+      - name: Telegram on failure
+        if: failure()
+        run: |
+          # publish-x.mjs already sent a precise alert if it got that far (marker file)
+          [ -f "$RUNNER_TEMP/x-notified" ] && exit 0
+          node scripts/notify.mjs "⚠️ Coloprice X: воркфлоу X post упал — ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

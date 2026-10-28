@@ -1,5 +1,15 @@
 {
-  "_comment": "Instagram publishing limits. Default 1 post per Asia/Bangkok day. The launch burst (approved by Artem 28.10.2026) allows 3/day with >= 3h between posts until the date below, to fill the first 9-post grid; after that the default applies automatically.",
+  "_comment": "Instagram publishing limits. Default 1 post per Asia/Bangkok day. The launch burst (approved by Artem 28.10.2026) allows 3/day with >= 3h between posts until the date below, to fill the first 9-post grid; after that the default applies automatically. The x block is for X (Twitter), scripts/publish-x.mjs: perDay main posts per Asia/Bangkok day, minHoursBetween posts, maxAgeDays = only carousels published on Instagram within this many days are cross-posted (keep it below prune-out's 14 days, after which the slides leave the working tree), reply = post the coloprice.com link as a reply (Post: Create with a URL is billed ~13x a plain post).",
   "perDay": 1,
-  "burst": { "until": "2026-10-30", "perDay": 3, "minHoursBetween": 3 }
+  "burst": {
+    "until": "2026-10-30",
+    "perDay": 3,
+    "minHoursBetween": 3
+  },
+  "x": {
+    "perDay": 2,
+    "minHoursBetween": 4,
+    "maxAgeDays": 10,
+    "reply": true
+  }
 }
