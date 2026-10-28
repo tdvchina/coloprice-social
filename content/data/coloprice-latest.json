@@ -1,0 +1,1957 @@
+{
+ "generated": "2026-10-28T08:42:51.672Z",
+ "base": "https://coloprice.com",
+ "mode": "local+remote",
+ "license": "Coloprice data: CC BY 4.0 (own data). Read-only snapshot.",
+ "errors": [],
+ "datasets": {
+  "colo": {
+   "title": "Coloprice Colocation Price Index (wholesale, USD per kW per month)",
+   "citeAs": "Coloprice Colocation Price Index",
+   "url": "https://coloprice.com/data/colocation-price-index.json",
+   "page": "https://coloprice.com/index/",
+   "asOf": "2026-10-01",
+   "period": "H2 2025 – Q2 2026",
+   "markets": [
+    {
+     "slug": "north-america",
+     "name": "North America (avg)",
+     "wholesaleUsdKwMo": 196,
+     "wholesaleRange": null,
+     "retailRackUsdMo": [
+      500,
+      1500
+     ],
+     "yoyPct": 6.5,
+     "source": {
+      "label": "CBRE, North America Data Center Trends H2 2025",
+      "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h2-2025"
+     }
+    },
+    {
+     "slug": "northern-virginia",
+     "name": "Northern Virginia (Ashburn)",
+     "wholesaleUsdKwMo": 173,
+     "wholesaleRange": [
+      160,
+      185
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": 1.5,
+     "source": {
+      "label": "CBRE, North America Data Center Trends H1 2026 (10MW+ blocks)",
+      "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026"
+     }
+    },
+    {
+     "slug": "singapore",
+     "name": "Singapore",
+     "wholesaleUsdKwMo": 403,
+     "wholesaleRange": [
+      330,
+      475
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": null,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "chicago",
+     "name": "Chicago",
+     "wholesaleUsdKwMo": 215,
+     "wholesaleRange": [
+      200,
+      230
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": 14.7,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026 (17 June 2026)",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "frankfurt",
+     "name": "Frankfurt",
+     "wholesaleUsdKwMo": 250,
+     "wholesaleRange": [
+      235,
+      265
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": null,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026 (17 June 2026)",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "tokyo",
+     "name": "Tokyo",
+     "wholesaleUsdKwMo": 280,
+     "wholesaleRange": null,
+     "retailRackUsdMo": null,
+     "yoyPct": 0,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026 (17 June 2026)",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "hong-kong",
+     "name": "Hong Kong",
+     "wholesaleUsdKwMo": 295,
+     "wholesaleRange": null,
+     "retailRackUsdMo": null,
+     "yoyPct": null,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026 (17 June 2026)",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "sydney",
+     "name": "Sydney",
+     "wholesaleUsdKwMo": 188,
+     "wholesaleRange": null,
+     "retailRackUsdMo": null,
+     "yoyPct": 0,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026 (17 June 2026)",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "queretaro",
+     "name": "Querétaro",
+     "wholesaleUsdKwMo": 260,
+     "wholesaleRange": [
+      250,
+      270
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": 0,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026 (17 June 2026)",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "santiago",
+     "name": "Santiago",
+     "wholesaleUsdKwMo": 200,
+     "wholesaleRange": [
+      190,
+      210
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": 0,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026 (17 June 2026)",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "bogota",
+     "name": "Bogotá",
+     "wholesaleUsdKwMo": 190,
+     "wholesaleRange": [
+      150,
+      230
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": 0,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026 (17 June 2026)",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "sao-paulo",
+     "name": "São Paulo",
+     "wholesaleUsdKwMo": 160,
+     "wholesaleRange": [
+      130,
+      190
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": 0,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026 (17 June 2026)",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "london",
+     "name": "London",
+     "wholesaleUsdKwMo": 213,
+     "wholesaleRange": [
+      195,
+      230
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": null,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026 (17 June 2026), Fig. 5 — Q1 2026, 250–500 kW",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "amsterdam",
+     "name": "Amsterdam",
+     "wholesaleUsdKwMo": 180,
+     "wholesaleRange": [
+      165,
+      195
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": null,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026 (17 June 2026), Fig. 5 — Q1 2026, 250–500 kW",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "paris",
+     "name": "Paris",
+     "wholesaleUsdKwMo": 190,
+     "wholesaleRange": [
+      175,
+      205
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": null,
+     "source": {
+      "label": "CBRE, Global Data Center Trends 2026 (17 June 2026), Fig. 5 — Q1 2026, 250–500 kW",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+     }
+    },
+    {
+     "slug": "dallas",
+     "name": "Dallas–Fort Worth",
+     "wholesaleUsdKwMo": 173,
+     "wholesaleRange": [
+      160,
+      185
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": 0,
+     "source": {
+      "label": "CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 1 — 250–500 kW asking rates",
+      "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026"
+     }
+    },
+    {
+     "slug": "houston",
+     "name": "Houston",
+     "wholesaleUsdKwMo": 180,
+     "wholesaleRange": [
+      165,
+      195
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": null,
+     "source": {
+      "label": "CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 2 — secondary markets, 250–500 kW",
+      "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026"
+     }
+    },
+    {
+     "slug": "los-angeles",
+     "name": "Los Angeles (Southern California)",
+     "wholesaleUsdKwMo": 213,
+     "wholesaleRange": [
+      175,
+      250
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": null,
+     "source": {
+      "label": "CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 2 — secondary markets, 250–500 kW",
+      "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026"
+     }
+    },
+    {
+     "slug": "phoenix",
+     "name": "Phoenix",
+     "wholesaleUsdKwMo": 195,
+     "wholesaleRange": [
+      175,
+      215
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": null,
+     "source": {
+      "label": "CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 1 — 250–500 kW asking rates",
+      "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026"
+     }
+    },
+    {
+     "slug": "atlanta",
+     "name": "Atlanta",
+     "wholesaleUsdKwMo": 193,
+     "wholesaleRange": [
+      185,
+      200
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": 2,
+     "source": {
+      "label": "CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 1 — 250–500 kW asking rates",
+      "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026"
+     }
+    },
+    {
+     "slug": "silicon-valley",
+     "name": "Silicon Valley",
+     "wholesaleUsdKwMo": 238,
+     "wholesaleRange": [
+      200,
+      275
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": null,
+     "source": {
+      "label": "CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 1 — 250–500 kW asking rates",
+      "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026"
+     }
+    },
+    {
+     "slug": "hillsboro",
+     "name": "Hillsboro (Portland)",
+     "wholesaleUsdKwMo": 205,
+     "wholesaleRange": [
+      185,
+      225
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": null,
+     "source": {
+      "label": "CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 1 — 250–500 kW asking rates",
+      "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026"
+     }
+    },
+    {
+     "slug": "new-york",
+     "name": "New York Tri-State",
+     "wholesaleUsdKwMo": 213,
+     "wholesaleRange": [
+      190,
+      235
+     ],
+     "retailRackUsdMo": null,
+     "yoyPct": null,
+     "source": {
+      "label": "CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 1 — 250–500 kW asking rates",
+      "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026"
+     }
+    }
+   ],
+   "facts": [
+    "North America (avg): wholesale $196/kW/month, +6.5% YoY (underlying source: CBRE, North America Data Center Trends H2 2025)",
+    "Northern Virginia (Ashburn): wholesale $173/kW/month, +1.5% YoY (underlying source: CBRE, North America Data Center Trends H1 2026 (10MW+ blocks))",
+    "Singapore: wholesale $403/kW/month (underlying source: CBRE, Global Data Center Trends 2026)",
+    "Chicago: wholesale $215/kW/month, +14.7% YoY (underlying source: CBRE, Global Data Center Trends 2026 (17 June 2026))",
+    "Frankfurt: wholesale $250/kW/month (underlying source: CBRE, Global Data Center Trends 2026 (17 June 2026))",
+    "Tokyo: wholesale $280/kW/month, +0% YoY (underlying source: CBRE, Global Data Center Trends 2026 (17 June 2026))",
+    "Hong Kong: wholesale $295/kW/month (underlying source: CBRE, Global Data Center Trends 2026 (17 June 2026))",
+    "Sydney: wholesale $188/kW/month, +0% YoY (underlying source: CBRE, Global Data Center Trends 2026 (17 June 2026))",
+    "Querétaro: wholesale $260/kW/month, +0% YoY (underlying source: CBRE, Global Data Center Trends 2026 (17 June 2026))",
+    "Santiago: wholesale $200/kW/month, +0% YoY (underlying source: CBRE, Global Data Center Trends 2026 (17 June 2026))",
+    "Bogotá: wholesale $190/kW/month, +0% YoY (underlying source: CBRE, Global Data Center Trends 2026 (17 June 2026))",
+    "São Paulo: wholesale $160/kW/month, +0% YoY (underlying source: CBRE, Global Data Center Trends 2026 (17 June 2026))",
+    "London: wholesale $213/kW/month (underlying source: CBRE, Global Data Center Trends 2026 (17 June 2026), Fig. 5 — Q1 2026, 250–500 kW)",
+    "Amsterdam: wholesale $180/kW/month (underlying source: CBRE, Global Data Center Trends 2026 (17 June 2026), Fig. 5 — Q1 2026, 250–500 kW)",
+    "Paris: wholesale $190/kW/month (underlying source: CBRE, Global Data Center Trends 2026 (17 June 2026), Fig. 5 — Q1 2026, 250–500 kW)",
+    "Dallas–Fort Worth: wholesale $173/kW/month, +0% YoY (underlying source: CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 1 — 250–500 kW asking rates)",
+    "Houston: wholesale $180/kW/month (underlying source: CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 2 — secondary markets, 250–500 kW)",
+    "Los Angeles (Southern California): wholesale $213/kW/month (underlying source: CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 2 — secondary markets, 250–500 kW)",
+    "Phoenix: wholesale $195/kW/month (underlying source: CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 1 — 250–500 kW asking rates)",
+    "Atlanta: wholesale $193/kW/month, +2% YoY (underlying source: CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 1 — 250–500 kW asking rates)",
+    "Silicon Valley: wholesale $238/kW/month (underlying source: CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 1 — 250–500 kW asking rates)",
+    "Hillsboro (Portland): wholesale $205/kW/month (underlying source: CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 1 — 250–500 kW asking rates)",
+    "New York Tri-State: wholesale $213/kW/month (underlying source: CBRE, North America Data Center Trends H1 2026 (27 Aug 2026), Fig. 1 — 250–500 kW asking rates)"
+   ]
+  },
+  "gpu": {
+   "title": "Coloprice GPU Rental Price Index (USD per GPU-hour)",
+   "citeAs": "Coloprice GPU Rental Price Index",
+   "url": "https://coloprice.com/data/gpu-price-index.json",
+   "page": "https://coloprice.com/gpu/",
+   "asOf": "2026-10-16",
+   "gpus": [
+    {
+     "model": "NVIDIA GB200 (per GPU, NVL72)",
+     "vramGb": 186,
+     "median": 13.25,
+     "min": 8,
+     "max": 27.04,
+     "contract1y": 10.58
+    },
+    {
+     "model": "NVIDIA B200 (180GB)",
+     "vramGb": 180,
+     "median": 6.25,
+     "min": 3.69,
+     "max": 16.11,
+     "contract1y": null
+    },
+    {
+     "model": "AMD MI355X (288GB)",
+     "vramGb": 288,
+     "median": 7,
+     "min": 5.99,
+     "max": 8.6,
+     "contract1y": 4.25
+    },
+    {
+     "model": "NVIDIA H200 (141GB)",
+     "vramGb": 141,
+     "median": 4.4,
+     "min": 2.09,
+     "max": 13.78,
+     "contract1y": 3.4
+    },
+    {
+     "model": "NVIDIA H100 (80GB)",
+     "vramGb": 80,
+     "median": 3.49,
+     "min": 1.3,
+     "max": 12.29,
+     "contract1y": 3.26
+    },
+    {
+     "model": "AMD MI300X (192GB)",
+     "vramGb": 192,
+     "median": 2.99,
+     "min": 1.71,
+     "max": 12,
+     "contract1y": 1.91
+    },
+    {
+     "model": "NVIDIA A100 (80GB)",
+     "vramGb": 80,
+     "median": 1.75,
+     "min": 0.53,
+     "max": 5.07,
+     "contract1y": 1.59
+    },
+    {
+     "model": "NVIDIA L40S (48GB)",
+     "vramGb": 48,
+     "median": 1.53,
+     "min": 0.38,
+     "max": 3.77,
+     "contract1y": 1.09
+    },
+    {
+     "model": "NVIDIA RTX 5090 (32GB)",
+     "vramGb": 32,
+     "median": 0.67,
+     "min": 0.25,
+     "max": 1.09,
+     "contract1y": null
+    },
+    {
+     "model": "NVIDIA RTX 4090 (24GB)",
+     "vramGb": 24,
+     "median": 0.42,
+     "min": 0.13,
+     "max": 0.74,
+     "contract1y": 0.27
+    }
+   ],
+   "facts": [
+    "NVIDIA GB200 (per GPU, NVL72): on-demand median $13.25/GPU-hr, low $8, high $27.04, 1-year contract $10.58",
+    "NVIDIA B200 (180GB): on-demand median $6.25/GPU-hr, low $3.69, high $16.11, 1-year contract n/a",
+    "AMD MI355X (288GB): on-demand median $7/GPU-hr, low $5.99, high $8.6, 1-year contract $4.25",
+    "NVIDIA H200 (141GB): on-demand median $4.4/GPU-hr, low $2.09, high $13.78, 1-year contract $3.4",
+    "NVIDIA H100 (80GB): on-demand median $3.49/GPU-hr, low $1.3, high $12.29, 1-year contract $3.26",
+    "AMD MI300X (192GB): on-demand median $2.99/GPU-hr, low $1.71, high $12, 1-year contract $1.91",
+    "NVIDIA A100 (80GB): on-demand median $1.75/GPU-hr, low $0.53, high $5.07, 1-year contract $1.59",
+    "NVIDIA L40S (48GB): on-demand median $1.53/GPU-hr, low $0.38, high $3.77, 1-year contract $1.09",
+    "NVIDIA RTX 5090 (32GB): on-demand median $0.67/GPU-hr, low $0.25, high $1.09, 1-year contract n/a",
+    "NVIDIA RTX 4090 (24GB): on-demand median $0.42/GPU-hr, low $0.13, high $0.74, 1-year contract $0.27"
+   ]
+  },
+  "gpuHistory": {
+   "title": "GPU rental price history",
+   "asOf": "2026-10-21",
+   "url": "https://coloprice.com/api/history/gpu-prices.json",
+   "format": [
+    "date",
+    "median",
+    "min",
+    "max",
+    "contract1y"
+   ],
+   "unit": "USD per GPU-hour",
+   "series": {
+    "NVIDIA H100 (80GB)": [
+     [
+      "2023-06-01",
+      8,
+      4.25,
+      12,
+      null
+     ],
+     [
+      "2024-01-01",
+      4.7,
+      2.5,
+      8,
+      null
+     ],
+     [
+      "2024-07-01",
+      3.2,
+      1.99,
+      6.98,
+      null
+     ],
+     [
+      "2025-01-01",
+      2.6,
+      1.65,
+      6.98,
+      2.5
+     ],
+     [
+      "2025-06-01",
+      2.15,
+      1.49,
+      6.98,
+      1.99
+     ],
+     [
+      "2025-10-01",
+      1.95,
+      1.29,
+      6.98,
+      1.7
+     ],
+     [
+      "2026-03-01",
+      3.1,
+      1.49,
+      6.98,
+      2.35
+     ],
+     [
+      "2026-08-28",
+      3.3,
+      1.49,
+      14.19,
+      2.35
+     ],
+     [
+      "2026-09-28",
+      3.29,
+      1.3,
+      12.29,
+      3.26
+     ],
+     [
+      "2026-10-16",
+      3.49,
+      1.3,
+      12.29,
+      3.26
+     ]
+    ],
+    "NVIDIA H200 (141GB)": [
+     [
+      "2025-03-01",
+      3.79,
+      2.49,
+      6.87,
+      null
+     ],
+     [
+      "2025-10-01",
+      3.4,
+      2.19,
+      6.87,
+      3.2
+     ],
+     [
+      "2026-03-01",
+      4.29,
+      2.3,
+      6.87,
+      3.72
+     ],
+     [
+      "2026-08-26",
+      4.47,
+      2.3,
+      13.78,
+      3.72
+     ],
+     [
+      "2026-09-28",
+      4.4,
+      2.09,
+      13.78,
+      3.4
+     ],
+     [
+      "2026-10-21",
+      4.4,
+      2.09,
+      13.78,
+      3.4
+     ]
+    ],
+    "NVIDIA B200 (180GB)": [
+     [
+      "2025-06-01",
+      8.9,
+      5.5,
+      16,
+      null
+     ],
+     [
+      "2025-12-01",
+      6.9,
+      4.2,
+      14,
+      null
+     ],
+     [
+      "2026-08-28",
+      6.5,
+      3.75,
+      16.11,
+      null
+     ],
+     [
+      "2026-09-28",
+      6.25,
+      3.69,
+      16.11,
+      null
+     ],
+     [
+      "2026-10-21",
+      6.25,
+      3.69,
+      16.11,
+      null
+     ]
+    ],
+    "NVIDIA GB200 (per GPU, NVL72)": [
+     [
+      "2026-02-01",
+      18.5,
+      12,
+      27.04,
+      null
+     ],
+     [
+      "2026-08-28",
+      18.79,
+      10.5,
+      27.04,
+      null
+     ],
+     [
+      "2026-09-28",
+      13.25,
+      8,
+      27.04,
+      10.58
+     ],
+     [
+      "2026-10-21",
+      13.25,
+      8,
+      27.04,
+      10.58
+     ]
+    ],
+    "NVIDIA A100 (80GB)": [
+     [
+      "2024-01-01",
+      3.2,
+      1.89,
+      5.07,
+      null
+     ],
+     [
+      "2025-01-01",
+      2.3,
+      1.35,
+      5.07,
+      null
+     ],
+     [
+      "2026-08-28",
+      1.8,
+      0.53,
+      5.07,
+      1.59
+     ],
+     [
+      "2026-09-25",
+      1.75,
+      0.53,
+      5.07,
+      1.59
+     ],
+     [
+      "2026-10-16",
+      1.75,
+      0.53,
+      5.07,
+      1.59
+     ]
+    ],
+    "NVIDIA L40S (48GB)": [
+     [
+      "2025-06-01",
+      1.7,
+      0.99,
+      2.25,
+      null
+     ],
+     [
+      "2026-08-28",
+      1.05,
+      0.38,
+      3.7,
+      1.09
+     ],
+     [
+      "2026-09-28",
+      1.53,
+      0.38,
+      3.77,
+      1.09
+     ],
+     [
+      "2026-10-21",
+      1.53,
+      0.38,
+      3.77,
+      1.09
+     ]
+    ],
+    "AMD MI300X (192GB)": [
+     [
+      "2025-01-01",
+      4.2,
+      2.49,
+      7.86,
+      null
+     ],
+     [
+      "2025-10-01",
+      3.4,
+      1.99,
+      7.86,
+      2.2
+     ],
+     [
+      "2026-08-26",
+      3.2,
+      1.71,
+      12,
+      1.91
+     ],
+     [
+      "2026-09-25",
+      2.99,
+      1.71,
+      12,
+      1.91
+     ],
+     [
+      "2026-10-16",
+      2.99,
+      1.71,
+      12,
+      1.91
+     ]
+    ],
+    "AMD MI355X (288GB)": [
+     [
+      "2025-10-01",
+      1.49,
+      1.2,
+      4.5,
+      null
+     ],
+     [
+      "2026-08-28",
+      7.15,
+      4.5,
+      8.6,
+      4.25
+     ],
+     [
+      "2026-09-25",
+      7,
+      5.99,
+      8.6,
+      4.25
+     ],
+     [
+      "2026-10-16",
+      7,
+      5.99,
+      8.6,
+      4.25
+     ]
+    ],
+    "NVIDIA RTX 5090 (32GB)": [
+     [
+      "2025-06-01",
+      0.79,
+      0.45,
+      1.2,
+      null
+     ],
+     [
+      "2026-08-24",
+      0.6,
+      0.25,
+      0.99,
+      null
+     ],
+     [
+      "2026-09-28",
+      0.67,
+      0.25,
+      1.09,
+      null
+     ],
+     [
+      "2026-10-21",
+      0.67,
+      0.25,
+      1.09,
+      null
+     ]
+    ],
+    "NVIDIA RTX 4090 (24GB)": [
+     [
+      "2024-06-01",
+      0.69,
+      0.34,
+      1.1,
+      null
+     ],
+     [
+      "2026-08-26",
+      0.44,
+      0.13,
+      1.61,
+      null
+     ],
+     [
+      "2026-09-25",
+      0.42,
+      0.13,
+      0.74,
+      0.27
+     ],
+     [
+      "2026-10-16",
+      0.42,
+      0.13,
+      0.74,
+      0.27
+     ]
+    ]
+   }
+  },
+  "coloHistory": {
+   "title": "Wholesale colocation price history",
+   "asOf": "2026-10-21",
+   "url": "https://coloprice.com/api/history/colo-index.json",
+   "format": [
+    "date",
+    "usdPerKwMonth"
+   ],
+   "unit": "USD per kW per month",
+   "series": {
+    "north-america": [
+     [
+      "2023-12-01",
+      148
+     ],
+     [
+      "2024-06-01",
+      163
+     ],
+     [
+      "2024-12-01",
+      174
+     ],
+     [
+      "2025-06-01",
+      184
+     ],
+     [
+      "2025-12-01",
+      196
+     ],
+     [
+      "2026-08-26",
+      196
+     ],
+     [
+      "2026-09-25",
+      196
+     ],
+     [
+      "2026-10-16",
+      196
+     ]
+    ],
+    "northern-virginia": [
+     [
+      "2023-12-01",
+      152
+     ],
+     [
+      "2024-06-01",
+      167
+     ],
+     [
+      "2024-12-01",
+      181
+     ],
+     [
+      "2025-06-01",
+      198
+     ],
+     [
+      "2025-12-01",
+      215
+     ],
+     [
+      "2026-08-26",
+      215
+     ],
+     [
+      "2026-09-25",
+      173
+     ],
+     [
+      "2026-10-16",
+      173
+     ]
+    ],
+    "singapore": [
+     [
+      "2024-06-01",
+      340
+     ],
+     [
+      "2024-12-01",
+      366
+     ],
+     [
+      "2025-06-01",
+      385
+     ],
+     [
+      "2025-12-01",
+      403
+     ],
+     [
+      "2026-08-26",
+      403
+     ],
+     [
+      "2026-09-25",
+      403
+     ],
+     [
+      "2026-10-16",
+      403
+     ]
+    ],
+    "chicago": [
+     [
+      "2026-09-28",
+      215
+     ],
+     [
+      "2026-10-21",
+      215
+     ]
+    ],
+    "frankfurt": [
+     [
+      "2026-09-28",
+      250
+     ],
+     [
+      "2026-10-21",
+      250
+     ]
+    ],
+    "tokyo": [
+     [
+      "2026-09-28",
+      280
+     ],
+     [
+      "2026-10-21",
+      280
+     ]
+    ],
+    "hong-kong": [
+     [
+      "2026-09-28",
+      295
+     ],
+     [
+      "2026-10-21",
+      295
+     ]
+    ],
+    "sydney": [
+     [
+      "2026-09-28",
+      188
+     ],
+     [
+      "2026-10-21",
+      188
+     ]
+    ],
+    "queretaro": [
+     [
+      "2026-09-28",
+      260
+     ],
+     [
+      "2026-10-21",
+      260
+     ]
+    ],
+    "santiago": [
+     [
+      "2026-09-28",
+      200
+     ],
+     [
+      "2026-10-21",
+      200
+     ]
+    ],
+    "bogota": [
+     [
+      "2026-09-28",
+      190
+     ],
+     [
+      "2026-10-21",
+      190
+     ]
+    ],
+    "sao-paulo": [
+     [
+      "2026-09-28",
+      160
+     ],
+     [
+      "2026-10-21",
+      160
+     ]
+    ],
+    "london": [
+     [
+      "2026-10-21",
+      213
+     ]
+    ],
+    "amsterdam": [
+     [
+      "2026-10-21",
+      180
+     ]
+    ],
+    "paris": [
+     [
+      "2026-10-21",
+      190
+     ]
+    ],
+    "dallas": [
+     [
+      "2026-10-21",
+      173
+     ]
+    ],
+    "houston": [
+     [
+      "2026-10-21",
+      180
+     ]
+    ],
+    "los-angeles": [
+     [
+      "2026-10-21",
+      213
+     ]
+    ],
+    "phoenix": [
+     [
+      "2026-10-21",
+      195
+     ]
+    ],
+    "atlanta": [
+     [
+      "2026-10-21",
+      193
+     ]
+    ],
+    "silicon-valley": [
+     [
+      "2026-10-21",
+      238
+     ]
+    ],
+    "hillsboro": [
+     [
+      "2026-10-21",
+      205
+     ]
+    ],
+    "new-york": [
+     [
+      "2026-10-21",
+      213
+     ]
+    ]
+   }
+  },
+  "pipeline": {
+   "title": "Coloprice data center construction pipeline (published capacity only)",
+   "citeAs": "Coloprice pipeline tracker",
+   "url": "https://coloprice.com/data/data-center-pipeline.csv",
+   "page": "https://coloprice.com/pipeline/",
+   "asOf": "2026-10-28",
+   "note": "Coloprice — Data Center Construction Pipeline · published capacity only · CC BY 4.0 · cite coloprice.com/pipeline/",
+   "rows": [
+    {
+     "level": "total",
+     "name": "World",
+     "projects": 584,
+     "underConstructionMw": 50635,
+     "announcedMw": 34515
+    },
+    {
+     "level": "country",
+     "name": "United States",
+     "projects": 178,
+     "underConstructionMw": 33387,
+     "announcedMw": 14348
+    },
+    {
+     "level": "country",
+     "name": "India",
+     "projects": 55,
+     "underConstructionMw": 2604,
+     "announcedMw": 4771
+    },
+    {
+     "level": "country",
+     "name": "Australia",
+     "projects": 22,
+     "underConstructionMw": 1010,
+     "announcedMw": 6247
+    },
+    {
+     "level": "country",
+     "name": "Indonesia",
+     "projects": 20,
+     "underConstructionMw": 2646,
+     "announcedMw": 1448
+    },
+    {
+     "level": "country",
+     "name": "Malaysia",
+     "projects": 26,
+     "underConstructionMw": 1402,
+     "announcedMw": 1292
+    },
+    {
+     "level": "country",
+     "name": "Thailand",
+     "projects": 26,
+     "underConstructionMw": 695,
+     "announcedMw": 1326
+    },
+    {
+     "level": "country",
+     "name": "Canada",
+     "projects": 9,
+     "underConstructionMw": 1327,
+     "announcedMw": 420
+    },
+    {
+     "level": "country",
+     "name": "United Kingdom",
+     "projects": 13,
+     "underConstructionMw": 500,
+     "announcedMw": 1169
+    },
+    {
+     "level": "country",
+     "name": "Japan",
+     "projects": 19,
+     "underConstructionMw": 1433,
+     "announcedMw": 32
+    },
+    {
+     "level": "country",
+     "name": "Brazil",
+     "projects": 21,
+     "underConstructionMw": 1094,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Vietnam",
+     "projects": 8,
+     "underConstructionMw": 490,
+     "announcedMw": 400
+    },
+    {
+     "level": "country",
+     "name": "Finland",
+     "projects": 3,
+     "underConstructionMw": 850,
+     "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "South Korea",
+     "projects": 8,
+     "underConstructionMw": 492,
+     "announcedMw": 350
+    },
+    {
+     "level": "country",
+     "name": "United Arab Emirates",
+     "projects": 9,
+     "underConstructionMw": 430,
+     "announcedMw": 238
+    },
+    {
+     "level": "country",
+     "name": "Germany",
+     "projects": 20,
+     "underConstructionMw": 367,
+     "announcedMw": 276
+    },
+    {
+     "level": "country",
+     "name": "Spain",
+     "projects": 13,
+     "underConstructionMw": 190,
+     "announcedMw": 238
+    },
+    {
+     "level": "country",
+     "name": "Norway",
+     "projects": 4,
+     "underConstructionMw": 272,
+     "announcedMw": 145
+    },
+    {
+     "level": "country",
+     "name": "France",
+     "projects": 11,
+     "underConstructionMw": 82,
+     "announcedMw": 305
+    },
+    {
+     "level": "country",
+     "name": "Sweden",
+     "projects": 3,
+     "underConstructionMw": 30,
+     "announcedMw": 300
+    },
+    {
+     "level": "country",
+     "name": "Denmark",
+     "projects": 2,
+     "underConstructionMw": 72,
+     "announcedMw": 250
+    },
+    {
+     "level": "country",
+     "name": "Saudi Arabia",
+     "projects": 3,
+     "underConstructionMw": 59,
+     "announcedMw": 258
+    },
+    {
+     "level": "country",
+     "name": "Italy",
+     "projects": 7,
+     "underConstructionMw": 207,
+     "announcedMw": 8
+    },
+    {
+     "level": "country",
+     "name": "Singapore",
+     "projects": 5,
+     "underConstructionMw": 90,
+     "announcedMw": 120
+    },
+    {
+     "level": "country",
+     "name": "Philippines",
+     "projects": 7,
+     "underConstructionMw": 102,
+     "announcedMw": 100
+    }
+   ]
+  },
+  "transactions": {
+   "title": "Coloprice data center M&A tracker",
+   "citeAs": "Coloprice M&A tracker",
+   "url": "https://coloprice.com/data/transactions.csv",
+   "page": "https://coloprice.com/transactions/",
+   "asOf": "2026-10-02",
+   "deals": [
+    {
+     "target": "Aligned Data Centers",
+     "buyer": "BlackRock / Global Infrastructure Partners (AIP) + MGX",
+     "seller": "Macquarie Asset Management and co-investors",
+     "valueUsdB": 40,
+     "type": "acquisition",
+     "announced": "2025-10",
+     "closed": null,
+     "assets": "US and LatAm hyperscale platform; the largest data center deal on record",
+     "source": {
+      "label": "DCD — Biggest data center acquisitions",
+      "url": "https://www.datacenterdynamics.com/en/analysis/biggest-data-center-acquisitions-10-billion-dollar-data-center-deals/"
+     }
+    },
+    {
+     "target": "AirTrunk",
+     "buyer": "Blackstone + CPP Investments",
+     "seller": "Macquarie Asset Management / PSP Investments",
+     "valueUsdB": 16.1,
+     "type": "acquisition",
+     "announced": "2024-09",
+     "closed": "2024-12",
+     "assets": "APAC hyperscale platform: Australia, Japan, Malaysia, Singapore, Hong Kong",
+     "source": {
+      "label": "Blackstone — Behind the deal: AirTrunk",
+      "url": "https://www.blackstone.com/insights/article/behind-the-deal-airtrunk/"
+     }
+    },
+    {
+     "target": "CyrusOne",
+     "buyer": "KKR + Global Infrastructure Partners",
+     "seller": "public shareholders (NASDAQ: CONE)",
+     "valueUsdB": 15,
+     "type": "take-private",
+     "announced": "2021-11",
+     "closed": "2022-03",
+     "assets": "US + European hyperscale portfolio",
+     "source": {
+      "label": "DCD — Biggest data center acquisitions",
+      "url": "https://www.datacenterdynamics.com/en/analysis/biggest-data-center-acquisitions-10-billion-dollar-data-center-deals/"
+     }
+    },
+    {
+     "target": "Switch Inc.",
+     "buyer": "DigitalBridge + IFM Investors",
+     "seller": "public shareholders (NYSE: SWCH)",
+     "valueUsdB": 11,
+     "type": "take-private",
+     "announced": "2022-05",
+     "closed": "2022-12",
+     "assets": "US wholesale campuses (Las Vegas, Reno, Atlanta, Grand Rapids)",
+     "source": {
+      "label": "DCD — Biggest data center acquisitions",
+      "url": "https://www.datacenterdynamics.com/en/analysis/biggest-data-center-acquisitions-10-billion-dollar-data-center-deals/"
+     }
+    },
+    {
+     "target": "CoreSite",
+     "buyer": "American Tower",
+     "seller": "public shareholders (NYSE: COR)",
+     "valueUsdB": 10.1,
+     "type": "acquisition",
+     "announced": "2021-11",
+     "closed": "2021-12",
+     "assets": "US interconnection-dense retail colocation portfolio",
+     "source": {
+      "label": "DCD — Biggest data center acquisitions",
+      "url": "https://www.datacenterdynamics.com/en/analysis/biggest-data-center-acquisitions-10-billion-dollar-data-center-deals/"
+     }
+    },
+    {
+     "target": "QTS Realty Trust",
+     "buyer": "Blackstone",
+     "seller": "public shareholders (NYSE: QTS)",
+     "valueUsdB": 10,
+     "type": "take-private",
+     "announced": "2021-06",
+     "closed": "2021-08",
+     "assets": "US hyperscale and hybrid colocation platform",
+     "source": {
+      "label": "DCD — Biggest data center acquisitions",
+      "url": "https://www.datacenterdynamics.com/en/analysis/biggest-data-center-acquisitions-10-billion-dollar-data-center-deals/"
+     }
+    },
+    {
+     "target": "Vantage Data Centers",
+     "buyer": "DigitalBridge-led investor consortia",
+     "seller": null,
+     "valueUsdB": 9.2,
+     "type": "equity-investment",
+     "announced": "2024-06",
+     "closed": null,
+     "assets": "Growth equity for North America and EMEA expansion",
+     "source": {
+      "label": "Synergy Research — 2024 record M&A",
+      "url": "https://www.srgresearch.com/articles/its-official-data-center-ma-deals-broke-all-records-in-2024"
+     }
+    },
+    {
+     "target": "Chindata Group",
+     "buyer": "Bain Capital",
+     "seller": "public shareholders (NASDAQ: CD)",
+     "valueUsdB": 3.16,
+     "type": "take-private",
+     "announced": "2023-08",
+     "closed": "2023-12",
+     "assets": "China + APAC hyperscale campuses (now WinTriX)",
+     "source": {
+      "label": "DCD — Biggest data center acquisitions",
+      "url": "https://www.datacenterdynamics.com/en/analysis/biggest-data-center-acquisitions-10-billion-dollar-data-center-deals/"
+     }
+    },
+    {
+     "target": "ST Telemedia Global Data Centres",
+     "buyer": "KKR + Singtel",
+     "seller": "ST Telemedia",
+     "valueUsdB": 5,
+     "type": "take-private",
+     "announced": "2026-02",
+     "closed": null,
+     "assets": "APAC platform across Singapore, Thailand, India, UK",
+     "source": {
+      "label": "CNBC — KKR and Singtel to take full ownership of STT GDC",
+      "url": "https://www.cnbc.com/2026/02/04/kkr-and-singtel-stake-in-stt-gdc-for-over-5-billion.html"
+     }
+    },
+    {
+     "target": "atNorth",
+     "buyer": "Equinix + CPP Investments",
+     "seller": "Partners Group and co-investors",
+     "valueUsdB": 4,
+     "type": "acquisition",
+     "announced": "2026",
+     "closed": null,
+     "assets": "Nordic campuses (Iceland, Sweden, Finland, Denmark)",
+     "source": {
+      "label": "Data Centre Magazine — Top 10 data centre M&As 2026",
+      "url": "https://datacentremagazine.com/top10/top-10-data-centre-m-as-2026"
+     }
+    },
+    {
+     "target": "Interxion",
+     "buyer": "Digital Realty",
+     "seller": "public shareholders (NYSE: INXN)",
+     "valueUsdB": 8.4,
+     "type": "acquisition",
+     "announced": "2019-10",
+     "closed": "2020-03",
+     "assets": "European interconnection platform — became Digital Realty EMEA",
+     "source": {
+      "label": "dataXconnect — Data centre M&A insights",
+      "url": "https://dataxconnect.com/insights-data-centre-m-and-a/"
+     }
+    },
+    {
+     "target": "Compass Datacenters",
+     "buyer": "Brookfield Infrastructure + Ontario Teachers'",
+     "seller": "RedBird / Azrieli and co-investors",
+     "valueUsdB": 5.5,
+     "type": "acquisition",
+     "announced": "2023-06",
+     "closed": null,
+     "assets": "US hyperscale build-to-suit platform",
+     "source": {
+      "label": "dataXconnect — Data centre M&A insights",
+      "url": "https://dataxconnect.com/insights-data-centre-m-and-a/"
+     }
+    },
+    {
+     "target": "Cumulus Data Center Campus",
+     "buyer": "Amazon Web Services",
+     "seller": "Talen Energy",
+     "valueUsdB": 0.65,
+     "type": "acquisition",
+     "announced": "2024-03",
+     "closed": null,
+     "assets": "Nuclear-adjacent campus at Susquehanna, PA — single-asset deal",
+     "source": {
+      "label": "dataXconnect — Data centre M&A insights",
+      "url": "https://dataxconnect.com/insights-data-centre-m-and-a/"
+     }
+    },
+    {
+     "target": "SK Horizon",
+     "buyer": "KKR + IMM Investment-Stonebridge consortium",
+     "seller": null,
+     "valueUsdB": 2.2,
+     "type": "equity-investment",
+     "announced": "2026-08",
+     "closed": null,
+     "assets": "Spin-off of SK Broadband's AI data center and submarine cable operations: 318MW across eight operating facilities in Korea plus two under construction (Ulsan, Guro)",
+     "source": {
+      "label": "SK Telecom (PR Newswire) — SK Telecom Launches AI Data Center Infrastructure Company 'SK Horizon'",
+      "url": "https://www.prnewswire.com/news-releases/sk-telecom-launches-ai-data-center-infrastructure-company-sk-horizon-and-secures-investments-from-kkr-and-imm-302861694.html"
+     }
+    },
+    {
+     "target": "Helix Digital Infrastructure",
+     "buyer": "Samsung Electronics and five Samsung affiliates",
+     "seller": null,
+     "valueUsdB": 1,
+     "type": "equity-investment",
+     "announced": "2026-09",
+     "closed": null,
+     "assets": "AI infrastructure platform founded by KKR (June 2026); hyperscale data centers, power and fiber. No capacity or valuation disclosed; >$10B previously committed by KKR, KIA, NVIDIA and Vistra",
+     "source": {
+      "label": "KKR / Business Wire — Samsung Commits $1 Billion to Helix (via StockTitan)",
+      "url": "https://www.stocktitan.net/news/KKR/samsung-commits-1-billion-to-helix-digital-infrastructure-to-support-c2c4q8rscaky.html"
+     }
+    },
+    {
+     "target": "DigitalBridge Group",
+     "buyer": "SoftBank Group",
+     "seller": "public shareholders (NYSE: DBRG)",
+     "valueUsdB": 3.1,
+     "type": "take-private",
+     "announced": "2025-12",
+     "closed": "2026-09",
+     "assets": "Digital-infrastructure investment manager (data centers, fiber, towers, edge); continues as a separately managed platform under Marc Ganzi",
+     "source": {
+      "label": "SoftBank Group: Completion of Acquisition of DigitalBridge",
+      "url": "https://group.softbank/en/news/press/20260930"
+     }
+    }
+   ]
+  },
+  "incidents": {
+   "title": "Coloprice data center incident database",
+   "citeAs": "Coloprice incident database",
+   "url": "https://coloprice.com/data/data-center-incidents.csv",
+   "page": "https://coloprice.com/incidents/",
+   "asOf": "2026-10-13",
+   "recent": [
+    {
+     "date": "2026-10-08",
+     "title": "Google Cloud Storage write errors in us-central1 last about 12.5 hours",
+     "operator": "Google Cloud",
+     "location": "us-central1 (Iowa), United States",
+     "cause": "software",
+     "durationHours": 12.5,
+     "impact": "From 11:00 UTC to 23:30 UTC on October 8, 2026, Cloud Storage upload and write operations in us-central1 saw elevated latency and error rates, and a smaller share of reads was slow or failing. Google gave a preliminary cause: a traffic sorting optimization meant to ease localized capacity shortfalls exhausted resources on specific backend storage nodes, with a separate database service issue adding metadata errors for part of the window. A full root cause analysis was still pending.",
+     "source": {
+      "label": "Google Cloud — Service health incident",
+      "url": "https://status.cloud.google.com/incidents/mSFVt6PiP557bjRyYsut"
+     }
+    },
+    {
+     "date": "2026-10-07",
+     "title": "Ransomware forces IDC Frontier to isolate its East Japan Region 1 data center",
+     "operator": "IDC Frontier (IDCF Cloud)",
+     "location": "Shirakawa, Fukushima, Japan",
+     "cause": "other",
+     "durationHours": null,
+     "impact": "Unauthorized access began around 03:40 JST on October 7, 2026. IDC Frontier confirmed a third-party ransomware attack, then isolated and halted the East Japan Region 1 data center. Contracts tied to that region cover 495 companies and local governments, and some customers were told data recovery could be difficult. The intrusion method and whether data was stolen had not been disclosed.",
+     "source": {
+      "label": "BleepingComputer / ITmedia report on IDCF Cloud ransomware",
+      "url": "https://shattered.io/idc-frontier-idcf-cloud-ransomware-attack-2026"
+     }
+    },
+    {
+     "date": "2026-09-30",
+     "title": "Azure gateway outage cuts ExpressRoute, VPN and Firewall connectivity across 18 regions",
+     "operator": "Microsoft Azure",
+     "location": "Multi-region (18 Azure regions, incl. West US, North Europe, Southeast Asia, Japan West, South Africa North)",
+     "cause": "software",
+     "durationHours": 5.75,
+     "impact": "From 20:30 UTC on September 30 to about 02:15 UTC on October 1, 2026 (roughly 5 h 45 min), Azure ExpressRoute Gateway, VPN Gateway, Firewall, Application Gateway/WAF and Azure VMware Solution customers saw degraded or lost network connectivity. Microsoft's status history said the timing correlated with infrastructure operating system servicing activity, which was paused. No final post-incident review was available at the time of writing.",
+     "source": {
+      "label": "Microsoft — Azure status history",
+      "url": "https://azure.status.microsoft/en-us/status/history/"
+     }
+    },
+    {
+     "date": "2026-09-30",
+     "title": "West Java halts construction of BDx 640 MW CGK4 AI campus eight days after groundbreaking",
+     "operator": "BDx Data Centers",
+     "location": "Jatiluhur, Purwakarta, West Java, Indonesia",
+     "durationHours": null,
+     "impact": "On September 30, 2026, West Java Governor Dedi Mulyadi ordered work stopped at BDx's CGK4 campus, which had broken ground on September 22. The governor said two permits had not been issued — the environmental impact assessment (AMDAL) and the building approval (PBG) — and raised public concerns about water use from the Jatiluhur reservoir, noise and wastewater. CGK4 is planned as a 640 MW, six-building campus with 845 MVA of grid supply from PLN; Building 1 (120 MW) was targeted for early 2027. Reporting did not include a BDx statement, and the length of the stoppage is not known.",
+     "source": {
+      "label": "TNGlobal — Indonesia's West Java asks Singapore's BDx to halt data center 1 week after groundbreaking",
+      "url": "https://technode.global/2026/09/30/indonesias-west-java-asks-singapores-bdx-to-halt-data-center-1-week-after-groundbreaking"
+     }
+    },
+    {
+     "date": "2026-09-29",
+     "title": "Fire: STT Seoul 1 (Gasan-dong)",
+     "operator": "ST Telemedia Global Data Centres",
+     "location": "Seoul, South Korea",
+     "cause": "fire",
+     "durationHours": null,
+     "impact": "A fire believed to have started in a transformer in a UPS room was reported at 11:55 and extinguished by 15:13. STT GDC said an electrical component failed while new equipment was being tested in an environment separate from customer systems. 105 people were evacuated; the operator said customer systems and data center operations were not affected.",
+     "source": {
+      "label": "DatacenterDynamics — Fire at data center in Seoul, South Korea, sees 100 people evacuated",
+      "url": "https://www.datacenterdynamics.com/en/news/fire-at-data-center-in-seoul-south-korea-sees-100-people-evacuated/"
+     }
+    },
+    {
+     "date": "2026-09-21",
+     "title": "Subsea cable faults between Australia and Singapore degrade Asia-Pacific capacity; Cloudflare reports congestion",
+     "operator": "Vocus (ASC); SUBCO consortium (Indigo West/Central); Cloudflare",
+     "location": "Perth–Singapore corridor, Indonesian waters off Anyer, Java",
+     "durationHours": null,
+     "impact": "Indigo West and Indigo Central suffered electrical shunt faults near Perth on August 8–9, 2026, and the Australia-Singapore Cable (operated by Vocus) was severed in Indonesian waters off Anyer on September 4. Per Submarine Networks, the faults removed all direct low-latency Perth–Singapore paths (about 100 Tbps), pushing round-trip times from roughly 60 ms to 300–400 ms as traffic rerouted via Guam, Japan or the transpacific. Cloudflare's status page reported multiple subsea outages causing congestion between its Tokyo and Singapore data centers from September 21 at 02:20 UTC and a regional performance degradation in Asia-Pacific from September 23. Repair of ASC was awaiting the cable ship CS Lodbrog, with delays attributed to Indonesian permitting and security approvals.",
+     "source": {
+      "label": "Submarine Networks — Perth–Singapore subsea outages deep-dive",
+      "url": "https://www.submarinenetworks.com/en/nv/insights/a-deep-dive-analysis-of-the-perth%E2%80%93singapore-subsea-outages"
+     }
+    },
+    {
+     "date": "2026-09-19",
+     "title": "Russian strikes hit Kyiv data centers — BeMobile/UCloud and De Novo facilities targeted",
+     "operator": "UCloud (BeMobile); De Novo",
+     "location": "Kyiv, Ukraine",
+     "durationHours": null,
+     "impact": "Russian forces struck at least two commercial data center facilities in Kyiv within a five-day span in mid-September 2026. On September 15, an attack hit the BeMobile facility operated by UCloud; the company did not disclose the extent of physical damage but confirmed some hosted websites, including Ukraine's National Paralympic Committee site, were temporarily knocked offline and expected to be restored within hours. On September 17, a broader wave of missile and drone strikes damaged energy and telecommunications infrastructure across the capital and injured more than 20 people, according to Ukrainian officials. On September 19, Russia's TASS state news agency said strikes had hit De Novo, one of Ukraine's largest commercial data centers — a Tier III-compliant, 360-rack facility that hosts major Ukrainian banks and the country's largest Infrastructure-as-a-Service cloud platform. Russian officials characterized De Novo as supporting Ukrainian military data processing; De Novo describes itself publicly as a sovereign-cloud and AI provider serving mission-critical civilian and commercial systems. Neither company has published a full damage assessment or restoration timeline, and the extent of physical destruction at either site has not been independently verified.",
+     "source": {
+      "label": "DataCenterDynamics — Russia claims strikes on De Novo data center in Kyiv, Ukraine",
+      "url": "https://www.datacenterdynamics.com/en/news/russia-claims-strikes-on-de-novo-data-center-in-kyiv-ukraine/"
+     }
+    },
+    {
+     "date": "2026-09-16",
+     "title": "Salesforce global platform outage disrupts Hyperforce instances during Dreamforce",
+     "operator": "Salesforce",
+     "location": "Global — Hyperforce instances across multiple regions, including the US, Japan, India, the UK, France and Germany",
+     "durationHours": null,
+     "impact": "On September 16, 2026 — the second day of Salesforce's own Dreamforce conference in San Francisco — a global outage hit hundreds of customer instances from roughly 08:30 to 19:20 UTC (about 10.5 hours). Salesforce said requests were stalling while waiting on a response from an internal legacy login service, which consumed available server resources and limited the platform's capacity to process incoming requests; first-party GovCloud environments were largely unaffected. Customers reported severe delays, intermittent errors and inability to access some services, including support-case creation and scheduled job execution. Salesforce rolled out region-by-region fixes, and some customers needed manual session resets or cache clears after the fix before declaring the incident resolved at 19:20 UTC.",
+     "source": {
+      "label": "The Register — Salesforce staggers back to feet after global outage",
+      "url": "https://www.theregister.com/saas/2026/09/16/salesforce-staggers-back-to-feet-after-global-outage/5296800"
+     }
+    },
+    {
+     "date": "2026-09-16",
+     "title": "Microsoft 365 sign-in failures lock users out worldwide",
+     "operator": "Microsoft (Microsoft 365 / Entra ID authentication)",
+     "location": "Global, with concentrated user reports in the US and UK",
+     "durationHours": null,
+     "impact": "Starting around 13:22 UTC on September 16, 2026, Microsoft tracked a spike in Microsoft 365 sign-in failures (incident MO1472904) accompanied by 5xx server errors on its authentication layer. Users with an already-active session could often keep working, but anyone forced through a fresh sign-in, token refresh, MFA prompt, portal session renewal or new-device enrollment could fail to authenticate. Microsoft said it was reviewing service telemetry and user reports to isolate the root cause and was checking whether upstream dependencies contributed; some affected customers saw service return as the review continued, but Microsoft had not published a confirmed root cause or final duration at last report. This is a separate, later incident from the larger Microsoft 365/Exchange Online authentication outage of August 31 – September 3, 2026 (IDs EX1464935/MO1465074).",
+     "source": {
+      "label": "Cyber Security News — Microsoft 365 hit by new outage as users report widespread 502 and 503 errors",
+      "url": "https://cybersecuritynews.com/microsoft-365-hit-by-new-outage/"
+     }
+    },
+    {
+     "date": "2026-09-15",
+     "title": "AWS confirms permanent customer data loss in Bahrain and UAE regions after Iran-linked strikes on facilities",
+     "operator": "Amazon Web Services (AWS)",
+     "location": "Middle East (Bahrain) region and Middle East (UAE) region, mec1-az2 availability zone",
+     "durationHours": null,
+     "impact": "In a September 15, 2026 update to its Health Dashboard, AWS said damage from drone/missile strikes earlier in the year on facilities supporting its Middle East (Bahrain) and Middle East (UAE) regions spanned multiple Availability Zones and \"exceeded what our regional and multi-AZ services are designed to withstand.\" AWS concluded it cannot restore access to resources and data hosted exclusively in the Bahrain region, and reached the same conclusion for the mec1-az2 Availability Zone in the UAE region; work continues on remaining UAE zones (mec1-az1, mec1-az3). The permanent loss affects only customers whose sole data copy sat inside the damaged infrastructure — those with cross-region replication or backups elsewhere could rebuild — but AWS has not publicly quantified the number of affected customers or the volume of data lost. The episode is a rare confirmed case of physical destruction overwhelming cloud multi-AZ redundancy design assumptions.",
+     "source": {
+      "label": "Help Net Security — AWS Middle East outage: permanent data loss in Bahrain, UAE",
+      "url": "https://www.helpnetsecurity.com/2026/09/17/aws-middle-east-outage-permanent-data-loss-bahrain-uae/"
+     }
+    },
+    {
+     "date": "2026-09-03",
+     "title": "xAI Memphis compute center outage cascades into simultaneous ChatGPT, Claude and Grok disruptions",
+     "operator": "xAI / OpenAI / Anthropic",
+     "location": "Memphis, Tennessee, USA (xAI compute center), plus OpenAI and Anthropic serving infrastructure",
+     "durationHours": null,
+     "impact": "Around 7:43am PT on September 3, 2026, three unrelated AI chat services — ChatGPT, Claude and Grok — went down within the same roughly 90-minute window, an anomaly given each is normally on a separate failure path. OpenAI told The Register that \"a routing error\" made ChatGPT and Codex unavailable for some users starting at 7:43am PT. Separately, xAI said an outage at its Memphis, Tennessee compute center that morning took down Grok and also disrupted service for unspecified \"compute partners,\" which xAI/SpaceX identified as including Anthropic; Anthropic's status page confirmed a 3-hour-6-minute partial outage with elevated error rates on Claude.ai, Claude Code, Claude Cowork and the Claude API, restored by 16:16 UTC. Google's Gemini was unaffected throughout, since it runs on separate Google Cloud infrastructure. The episode illustrates how concentrated AI compute supply chains can turn one facility's outage into a multi-vendor incident.",
+     "source": {
+      "label": "The Register — ChatGPT, Claude, and Grok all had outages at the same time",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/03/chatgpt-claude-and-grok-all-had-outages-at-the-same-time/5294322"
+     }
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Google Cloud: network degradation in us-central1-b takes down 15 products for up to 4h08m",
+     "operator": "Google Cloud",
+     "location": "us-central1-b (Council Bluffs, Iowa)",
+     "durationHours": null,
+     "impact": "On September 1, 2026, Google's own Service Health dashboard logged incident J5ia5t9p3g9Q5Wi7r8Ev: multiple products running in the us-central1-b zone experienced network service degradation. Affected services included Compute Engine, Google Kubernetes Engine, Cloud SQL, BigQuery, Cloud Bigtable, Cloud Spanner, Cloud Run, App Engine, AlloyDB for PostgreSQL, Apigee, Cloud Filestore, Cloud Dataflow, Hybrid Connectivity, Looker and Virtual Private Cloud. Impact duration varied by product, from about 14 minutes for VPC to 4 hours 8 minutes for Cloud Run and App Engine. Google did not publish a root-cause explanation alongside the status update.",
+     "source": {
+      "label": "Google Cloud Service Health — incident summary",
+      "url": "https://status.cloud.google.com/summary"
+     }
+    },
+    {
+     "date": "2026-08-31",
+     "title": "Microsoft 365: authentication-configuration fault disrupts Exchange Online, Teams, SharePoint and Defender XDR for multiple days",
+     "operator": "Microsoft",
+     "location": "Global (Microsoft 365 cloud services)",
+     "durationHours": null,
+     "impact": "Starting around 5:30pm UTC on August 31, 2026, Microsoft opened incident EX1464935 after users reported failed authentication, delayed mail delivery, broken mailbox search and admin-portal problems in Exchange Online. Microsoft's follow-up incident MO1465074 confirmed the disruption spread to Teams, SharePoint Online, OneDrive for Business, Microsoft Graph, Purview, the Microsoft 365 Admin Center, Copilot and Defender XDR because the services share an authentication component. Microsoft identified the root cause as a fault in a core authentication configuration and rolled out a phased remediation. Mailbox connectivity returned to expected thresholds within about 24 hours, but search functionality and full recovery of Exchange Online, Universal Print, OneDrive for Business and SharePoint Online remained impacted as of September 2, roughly 48 hours after the incident began.",
+     "source": {
+      "label": "Microsoft 365 Status (official) — incident update",
+      "url": "https://x.com/MSFT365Status/status/2094455556454920701"
+     }
+    },
+    {
+     "date": "2026-08-27",
+     "title": "Proton: total cooling failure at Frankfurt datacenter takes down Mail, VPN, Drive and Pass for 2h18m",
+     "operator": "Proton AG",
+     "location": "Frankfurt, Germany (Proton-operated datacenter)",
+     "durationHours": null,
+     "impact": "Between 00:09 and 02:27 CEST on August 27, 2026, nearly all Proton services — Mail, VPN, Calendar, Drive, Pass, SimpleLogin, Wallet and the Lumo assistant — became unreachable. Proton engineers identified the cause at 00:38 CEST as what CEO Andy Yen publicly described as an \"unprecedented total cooling failure\" at the company's Frankfurt datacenter, which required manual intervention and a shift of traffic to backup sites rather than automated failover. Recovery began around 01:37 CEST, with full resolution by 02:27 CEST. Yen stated that no user data was exposed, deleted or compromised, since the failure was physical and facility-level rather than a breach or software defect, and Proton's end-to-end encryption was unaffected.",
+     "source": {
+      "label": "Andy Yen (Proton CEO) — public incident statement",
+      "url": "https://x.com/andyyen/status/2092797856880975887"
+     }
+    },
+    {
+     "date": "2026-08-20",
+     "title": "Google Cloud us-west1 (Oregon) region: multi-service degradation for about 3h40m",
+     "operator": "Google Cloud",
+     "location": "us-west1 region (The Dalles, Oregon)",
+     "durationHours": null,
+     "impact": "From roughly 08:40 to 12:20 Pacific time on August 20, 2026, customers in Google Cloud's us-west1 region experienced timeouts, degraded service and elevated error rates across more than 20 products, including Compute Engine, GKE, Cloud SQL, BigQuery, Cloud Storage, Pub/Sub, Bigtable, Dataflow, Cloud Run and IAM. Google's Service Health dashboard tracked the incident through mitigation and recovery; services outside us-west1 were not affected. Google had not published a detailed root-cause explanation as of this writing.",
+     "source": {
+      "label": "Google Cloud Service Health — incident report",
+      "url": "https://status.cloud.google.com/incidents/utF3FMFdQfwBzJcGG6vf"
+     }
+    }
+   ],
+   "total": 140
+  },
+  "capacityWatch": {
+   "title": "Coloprice Capacity Watch (public MW statements)",
+   "citeAs": "Coloprice Capacity Watch",
+   "url": "https://coloprice.com/capacity-watch/",
+   "page": "https://coloprice.com/capacity-watch/",
+   "asOf": "2026-10-15",
+   "note": "Public capacity statements only: press releases, regulator decisions, exchange filings and operator announcements, each with a source URL. Figures are quoted as stated by the party; nothing is estimated and private correspondence is never used. MW values are the party's own headline number (IT or grid capacity as they state it).",
+   "statements": [
+    {
+     "date": "2026-10-14",
+     "party": "DayOne",
+     "country": "malaysia",
+     "market": "Johor",
+     "kind": "financing",
+     "mw": 1000,
+     "unit": "billings: contracted IT power generating income (company definition, over 1GW, all markets)",
+     "statement": "DayOne upsized its Malaysia syndicated financing to about $7.2B and reported billings above 1GW and bookings of about 2.3GW.",
+     "source": {
+      "label": "PR Newswire via Manila Times — DayOne Upsizes Malaysia Financing to US$7.2 Billion",
+      "url": "https://manilatimes.net/2026/10/14/tmt-newswire/pr-newswire/dayone-upsizes-malaysia-financing-to-us72-billion-total-billings-surpass-1gw-and-bookings-reach-23gw/2445453"
+     }
+    },
+    {
+     "date": "2026-09-24",
+     "party": "VIRTUS Data Centres",
+     "country": "uk",
+     "market": "Buckinghamshire / Slough",
+     "kind": "financing",
+     "mw": 78,
+     "unit": "Saunderton campus (AI-ready, planned)",
+     "statement": "13-bank consortium led by BNP Paribas, Crédit Agricole CIB, Societe Generale and Standard Chartered committed a £2.45B ($3.24B) package, including a £1.2B green capex facility, to fund the 78MW Saunderton campus, further investment at LONDON19 in Slough, and wider European expansion.",
+     "source": {
+      "label": "Intelligent Data Centres — VIRTUS secures £2.45 billion financing package to support continued growth",
+      "url": "https://www.intelligentdatacentres.com/2026/09/24/virtus-secures-2-45-billion-financing-package-to-support-continued-growth/"
+     }
+    },
+    {
+     "date": "2026-09-24",
+     "party": "Oracle / Stack Infrastructure",
+     "country": "usa",
+     "market": "Doña Ana County, New Mexico",
+     "kind": "delay",
+     "mw": 2450,
+     "unit": "campus (planned)",
+     "statement": "Oracle notified Stack Infrastructure it may defer rent on the 2.45 GW Project Jupiter campus under force majeure if a stalled gas pipeline delays power; the pipeline slips to 2027.",
+     "source": {
+      "label": "El Paso Matters — Project Jupiter rent force majeure",
+      "url": "https://elpasomatters.org/2026/09/24/project-jupiter-rent-force-majeure-new-mexico-oracle-ai-el-paso-data-center/"
+     }
+    },
+    {
+     "date": "2026-09-21",
+     "party": "New Era Energy & Digital / Vistra",
+     "country": "usa",
+     "market": "Texas",
+     "kind": "power",
+     "mw": 207,
+     "unit": "PPA, phase 1 of a 1.4 GW campus",
+     "statement": "20-year power purchase agreement for up to 207 MW with Vistra's Luminant for Phase 1 of the Texas Critical Data Center project (1.4 GW planned).",
+     "source": {
+      "label": "GlobeNewswire — New Era Energy & Digital secures 20-year 207 MW PPA with Vistra",
+      "url": "https://www.globenewswire.com/news-release/2026/09/21/3365358/0/en/new-era-energy-digital-secures-20-year-207-mw-ppa-with-vistra.html"
+     }
+    },
+    {
+     "date": "2026-09-18",
+     "party": "CleanSpark / Meta (Anviranda)",
+     "country": "usa",
+     "market": "Sandersville, Georgia",
+     "kind": "financing",
+     "mw": 175,
+     "unit": "campus leased to Meta",
+     "statement": "CSDC Finance priced $2.276B of 7.875% senior secured notes to fund a 175 MW Georgia campus leased to a Meta subsidiary.",
+     "source": {
+      "label": "SEC EDGAR — CleanSpark 8-K exhibit 99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000827876/000119312526302448/clsk-ex99_1.htm"
+     }
+    },
+    {
+     "date": "2026-09-16",
+     "party": "Blockfusion / CoreWeave",
+     "country": "usa",
+     "market": "Niagara Falls, New York",
+     "kind": "lease",
+     "mw": null,
+     "unit": null,
+     "statement": "Definitive 15-year anchor lease signed with CoreWeave for the hydro-powered Niagara Falls AI campus; capacity of the leased phase not stated in the release.",
+     "source": {
+      "label": "GlobeNewswire — Blockfusion signs 15-year anchor lease with CoreWeave",
+      "url": "https://www.globenewswire.com/news-release/2026/09/16/3363071/0/en/blockfusion-signs-15-year-anchor-lease-with-coreweave-at-niagara-falls-ai-campus.html"
+     }
+    },
+    {
+     "date": "2026-09-09",
+     "party": "Zankore (Ooredoo-backed)",
+     "country": "indonesia",
+     "market": "Indonesia",
+     "kind": "financing",
+     "mw": 100,
+     "unit": "AI infrastructure, scaling toward 1 GW",
+     "statement": "$3.1B senior term loan closed to fund 100 MW of Nvidia AI infrastructure in Indonesia, with a stated path toward 1 GW.",
+     "source": {
+      "label": "Zawya — Ooredoo Group scales its AI compute ambitions through investment in Zankore",
+      "url": "https://www.zawya.com/en/press-release/companies-news/ooredoo-group-scales-its-ai-compute-ambitions-through-investment-in-zankore-alongside-indosat-ooredoo-hutchison-nokia-and-nvidia-423859"
+     }
+    },
+    {
+     "date": "2026-09-08",
+     "party": "Government of Singapore (IMDA)",
+     "country": "singapore",
+     "market": "Singapore",
+     "kind": "regulation",
+     "mw": 10,
+     "unit": "licensing threshold",
+     "statement": "Digital Infrastructure Bill tabled: data centers at or above 10 MW and major cloud providers will need IMDA licenses; a 3 MW energy-efficiency tier applies.",
+     "source": {
+      "label": "AsiaOne — Security and sustainability of data centres, cloud services strengthened under proposed bill",
+      "url": "https://www.asiaone.com/singapore/security-and-sustainability-data-centres-cloud-service-strengthen-under-proposed-bill"
+     }
+    },
+    {
+     "date": "2026-09-03",
+     "party": "Meta",
+     "country": "usa",
+     "market": "Kuna, Idaho",
+     "kind": "live",
+     "mw": null,
+     "unit": "$1.2B, 750,000 sq ft; 645 MW of new solar contracted",
+     "statement": "Kuna, Idaho campus activated — a $1.2B, 750,000 sq ft facility with closed-loop cooling and 645 MW of new solar to match its load; IT capacity not published.",
+     "source": {
+      "label": "East Idaho News — Meta turns on its $1.2B Idaho data center",
+      "url": "https://www.eastidahonews.com/2026/09/meta-turns-on-its-1-2b-idaho-data-center-with-promise-of-water-efficiency/"
+     }
+    },
+    {
+     "date": "2026-08-26",
+     "party": "Georgia Public Service Commission / Georgia Power / OpenAI",
+     "country": "usa",
+     "market": "Effingham County, Georgia",
+     "kind": "approval",
+     "mw": 3200,
+     "unit": "grid supply, 25-year contract",
+     "statement": "PSC approved a 25-year contract letting Georgia Power supply up to 3,200 MW to an OpenAI data center; OpenAI pays full infrastructure cost and makes up to 1,000 MW of demand flexible.",
+     "source": {
+      "label": "Georgia Power — Georgia Power's contract with OpenAI approved",
+      "url": "https://www.georgiapower.com/news-hub/press-releases/georgia-power-to-serve-openai-project-in-effingham-county.html"
+     }
+    },
+    {
+     "date": "2026-08-21",
+     "party": "EDB / IMDA (Singapore)",
+     "country": "singapore",
+     "market": "Jurong Island, Singapore",
+     "kind": "allocation",
+     "mw": 200,
+     "unit": "DC-CFA2, 50 MW each to four operators",
+     "statement": "200 MW provisionally allocated under DC-CFA2 to Digital Realty, Equinix, Keppel and ST Telemedia (50 MW each), conditional on >50% low-carbon power and liquid cooling, at a new Jurong Island park.",
+     "source": {
+      "label": "DCD — Singapore gov't allocates 200MW of power for four data center developers on Jurong Island",
+      "url": "https://www.datacenterdynamics.com/en/news/singapore-govt-allocates-200mw-of-power-for-four-data-center-developers-on-jurong-island/"
+     }
+    },
+    {
+     "date": "2026-08-14",
+     "party": "CVC DIF / firstcolo",
+     "country": "germany",
+     "market": "Frankfurt",
+     "kind": "announcement",
+     "mw": 24,
+     "unit": "planned expansion (FRA7)",
+     "statement": "CVC DIF acquired a majority stake in firstcolo, backing a planned 24 MW AI-ready expansion in Frankfurt.",
+     "source": {
+      "label": "CVC — CVC DIF to acquire leading German data centre operator firstcolo",
+      "url": "https://www.cvc.com/media/news/2026/cvc-dif-to-acquire-leading-german-data-centre-operator-firstcolo-from-cube-infrastructure-managers/"
+     }
+    },
+    {
+     "date": "2026-08-13",
+     "party": "Nvidia / SB Energy / OpenAI",
+     "country": "usa",
+     "market": "Pike County, Ohio",
+     "kind": "announcement",
+     "mw": 8000,
+     "unit": "single-tenant campus (planned)",
+     "statement": "Nvidia to invest $1.5B in SB Energy and guarantee AI compute for an 8 GW single-tenant campus leased to OpenAI in Pike County, Ohio.",
+     "source": {
+      "label": "NVIDIA Newsroom — NVIDIA guarantees SB Energy's Ports Pike Technology Campus in Ohio",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute"
+     }
+    },
+    {
+     "date": "2026-08-07",
+     "party": "DayOne / TNB Power Generation",
+     "country": "malaysia",
+     "market": "Sepang, Selangor",
+     "kind": "power",
+     "mw": 1500,
+     "unit": "on-site generation explored (MOU)",
+     "statement": "MOU to explore up to 1.5 GW of dedicated on-site generation for DayOne's planned Sepang, Selangor campus.",
+     "source": {
+      "label": "PR Newswire via Manila Times — DayOne and TNB explore up to 1.5 GW of on-site power generation",
+      "url": "https://www.manilatimes.net/2026/09/01/tmt-newswire/pr-newswire/dayone-and-tnb-explore-up-to-15-gw-of-on-site-power-generation-to-advance-malaysias-energy-resilience-and-digital-economy/2415804"
+     }
+    }
+   ]
+  }
+ }
+}

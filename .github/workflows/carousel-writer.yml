@@ -1,0 +1,87 @@
+name: Carousel writer
+
+# News intake (RSS) + Coloprice data snapshot -> Claude writes ONE carousel JSON,
+# validates and renders it -> commit content/queue + out/ (slides are served from this
+# public repo via SLIDES_BASE_URL). Claude runs only when fewer than 2 carousels are ready.
+on:
+  schedule:
+    - cron: '25 2 * * 1-5' # 09:25 Asia/Bangkok, Mon–Fri (posting is 20:07 the same day)
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Run Claude even if the queue already has 2+ ready carousels'
+        type: boolean
+        default: false
+
+concurrency:
+  group: coloprice-social-content
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      CONTENT_DENYLIST: ${{ secrets.CONTENT_DENYLIST }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: News intake (public RSS)
+        run: node scripts/intake-news.mjs --hours=72
+
+      - name: Coloprice data hooks (public endpoints, read-only)
+        run: node scripts/data-hooks.mjs
+
+      - name: Queue status
+        id: queue
+        run: node scripts/queue-status.mjs
+
+      - name: Write carousel with Claude
+        if: steps.queue.outputs.ready < 2 || inputs.force
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          claude -p "$(cat .github/routines/write-carousel.md)" \
+            --dangerously-skip-permissions \
+            --output-format text
+
+      - name: Validate + render everything unpublished (hard gate before commit)
+        run: |
+          node scripts/validate-carousel.mjs --all
+          node scripts/render-carousel.mjs
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/queue content/inbox content/data out
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          if git diff --cached --name-only | grep -q '^content/queue/'; then msg="social: new carousel (auto)"; else msg="social: intake + data refresh (auto)"; fi
+          git commit -m "$msg"
+          git pull --rebase origin main
+          git push
+
+      - name: Telegram
+        if: always()
+        run: |
+          if [ "${{ job.status }}" != "success" ]; then
+            node scripts/notify.mjs "⚠️ Coloprice IG: carousel-writer упал — ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          elif [ -s /tmp/announce.txt ]; then
+            node scripts/notify.mjs --file=/tmp/announce.txt
+          fi

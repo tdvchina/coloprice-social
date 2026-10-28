@@ -1,0 +1,589 @@
+{
+  "generated": "2026-10-28T08:42:51.364Z",
+  "windowHours": 96,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 1
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 3
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 15
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 2
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 2
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 4
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 3
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 88,
+      "kept": 0
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 0
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 1
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 8
+    }
+  ],
+  "items": [
+    {
+      "id": "7a48f281a87a",
+      "title": "STTGDC secures $590m green loan for Tokyo data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/sttgdc-secures-590m-green-loan-for-tokyo-data-centers",
+      "date": "2026-10-27T15:00:48.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Funds to finance the fit-out and operation of 70MW campus",
+      "figures": [
+        "$590m",
+        "70MW"
+      ],
+      "score": 13
+    },
+    {
+      "id": "6ef3554e42e2",
+      "title": "STTGDC secures US$ 590 million green loan for expansion of Tokyo DC campus",
+      "url": "https://w.media/sttgdc-secures-us-590-million-green-loan-for-expansion-of-tokyo-dc-campus",
+      "date": "2026-10-27T09:59:26.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "STTGDC, a global colocation data center provider, has announced that it has secured a US$ 590 million green loan facility to finance the fit-out and subsequent operation of STTGDC TYO1 and STTGDC TYO2, the two buildings comprising its data center campus in Japan. Located in Goodman Business Park in Inzai City, in the Greater Tokyo area, […]",
+      "figures": [
+        "$ 590 million"
+      ],
+      "score": 12
+    },
+    {
+      "id": "c7a0ab1ea571",
+      "title": "SoleCrypt ups size of planned data center campus in Bizerte, Tunisia",
+      "url": "https://www.datacenterdynamics.com/en/news/solecrypt-ups-size-of-planned-data-center-campus-in-bizerte-tunisia",
+      "date": "2026-10-27T15:20:31.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "First 7MW phase due live in early 2028, to host Vera Rubin GPUs",
+      "figures": [
+        "7MW"
+      ],
+      "score": 11
+    },
+    {
+      "id": "cfba2a849076",
+      "title": "The New Playbook for Responsible AI Infrastructure Growth",
+      "url": "https://datacenterpost.com/the-new-playbook-for-responsible-ai-infrastructure-growth",
+      "date": "2026-10-27T17:00:52.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Structured Workload and Power Planning: Sustainable growth requires a disciplined seven-step sequence that aligns specific computing needs directly with grid operators and utility interconnection plans. Maximizing Facilities and Hardware: Operators can optimize existing capacity by repurposing suitable industrial buildings, adopting direct-to-chip liquid cooling for dense racks, and extending server lifespans to curb electronic waste. […] The post The New Playbook for Responsible AI Infrastructure Growth appeared first on Data Center POST .",
+      "figures": [],
+      "score": 9
+    },
+    {
+      "id": "453ad047ea4b",
+      "title": "AirTrunk secures AU$4.25 billion green loan for Sydney data center campus",
+      "url": "https://www.datacenterdynamics.com/en/news/airtrunk-secures-au425-billion-green-loan-for-sydney-data-center-campus",
+      "date": "2026-10-27T14:50:36.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Current expansion phase for SYD3 site due live in 2028",
+      "figures": [
+        "$4.25 billion"
+      ],
+      "score": 9
+    },
+    {
+      "id": "04e3b2135676",
+      "title": "CoreWeave deploys AI infrastructure in Denmark",
+      "url": "https://w.media/coreweave-deploys-ai-infrastructure-in-denmark",
+      "date": "2026-10-28T05:21:15.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "CoreWeave, an American cloud computing company, has marked its first deployment in Denmark by partnering with atNorth, a Nordic data center company, to host 22.5 MW IT capacity at the DEN01 data center in Copenhagen. According to a CoreWeave press release, the deployment is scheduled to come online in Q4 2026, with a full network […]",
+      "figures": [
+        "22.5 MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "b6fe5f26456b",
+      "title": "Crusoe and Araico to build 280 MW AI data center near Paraguay’s Itaipú Dam",
+      "url": "https://w.media/crusoe-and-araico-to-build-280-mw-ai-data-center-near-paraguays-itaipu-dam",
+      "date": "2026-10-27T12:04:05.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Crusoe, an artificial intelligence infrastructure and cloud platform builder and operator, has announced a strategic partnership with Paraguayan energy and infrastructure developer Araico to build high-performance AI compute infrastructure powered by the Itaipú Hydroelectric Dam. An initial deployment will come online in mid-2027 with a path to scale to 106 MW of IT capacity and […]",
+      "figures": [
+        "280 MW",
+        "106 MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "12fcd5991fc2",
+      "title": "ARC Cloud and Compal sign MOU eyeing 100 MW of AI data center capacity",
+      "url": "https://w.media/arc-cloud-and-compal-sign-mou-eyeing-100-mw-of-ai-data-center-capacity",
+      "date": "2026-10-27T09:02:50.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Accelerated Research Computing (ARC Cloud), a neocloud company specializing in the investment, development, and operation of large-scale artificial intelligence computing infrastructure, has signed a memorandum of understanding (MOU) with Compal Electronics, Inc., a manufacturer of computers and smart devices, to advance their strategic collaboration in large-scale AI infrastructure. The companies will explore opportunities related to […]",
+      "figures": [
+        "100 MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "56e82f550aa3",
+      "title": "Australia proposes firm energy contracting obligation for data centres",
+      "url": "https://w.media/australia-proposes-firm-energy-contracting-obligation-for-data-centres",
+      "date": "2026-10-28T01:48:18.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Australia’s energy minister Chris Bowen has asked the Australian Energy Market Commission (AEMC) to consider a rule change that would require qualifying data centres to back their electricity consumption with firmed energy, as the government seeks to limit the impact of rapidly growing digital infrastructure demand on power prices and grid reliability. The rule change […]",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "4058949258d2",
+      "title": "ITW Asia 2026: 8 sessions to watch in Singapore",
+      "url": "https://capacityglobal.com/news/itw-asia-2026-8-sessions-to-watch-in-singapore",
+      "date": "2026-10-27T12:39:22.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Power, capital and resilience dominate the agenda as more than 1,700 connectivity and data centre leaders head to Singapore for ITW Asia and Datacloud Asia, 1-3 December 2026. The post ITW Asia 2026: 8 sessions to watch in Singapore appeared first on Capacity .",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "b0ff4227bafd",
+      "title": "NVIDIA's DSX POD Pushes AI Factory Construction Toward the Assembly Line",
+      "url": "https://www.datacenterfrontier.com/machine-learning/article/55414295/nvidias-dsx-pod-pushes-ai-factory-construction-toward-the-assembly-line",
+      "date": "2026-10-26T14:20:07.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "As NVIDIA targets two-week deployment of factory-integrated Vera Rubin infrastructure, announcements from Armada, Crusoe, Schneider Electric, Vertiv and other partners reveal the manufacturing capacity, engineering changes and real-world projects behind the industry's shift toward industrialized AI data center construction.",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "d32cc71a0d13",
+      "title": "Thailand’s new draft law on data center to be submitted to Cabinet for consideration",
+      "url": "https://w.media/thailands-new-draft-law-on-data-center-to-be-submitted-to-cabinet-for-consideration",
+      "date": "2026-10-28T04:56:20.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Thailand’s Data Center (DC) Policy Committee yesterday approved the draft policy on data center governance which will be submitted to the Cabinet for consideration soon, according to local reports. The draft policy establishes a regulatory framework for investment and operation of data centers with the goal of ensuring the efficient and sustainable development of the […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "82784fb5bb46",
+      "title": "Malaysia affirms 30 per cent minimum renewable energy mandate for data centers",
+      "url": "https://w.media/malaysia-affirms-30-per-cent-minimum-renewable-energy-mandate-for-data-centers",
+      "date": "2026-10-28T02:52:16.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "The Malaysian government has approved a minimum 30 per cent renewable energy requirement for data centers based on either total capacity or energy consumption, Deputy Prime Minister Datuk Seri Fadillah Yusof told Parliament yesterday. He added that the Energy Commission is drafting a comprehensive framework and guidelines on the mechanism for fulfilling the 30 per […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "eb0a567e9401",
+      "title": "What Elastomer Seals Bring to Liquid Cooling Loops",
+      "url": "https://datacenterpost.com/what-elastomer-seals-bring-to-liquid-cooling-loops",
+      "date": "2026-10-27T18:00:27.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Standard elastomer seal qualifications cover material compatibility, but they ignore surface contamination like deflashing grit, oils, and bioburden. Tight thermal resistance budgets in narrowing microchannels make loops vulnerable to partial blockages and thermal excursions. Initial commissioning flushes cannot remove debris hidden within seal glands, and outdated filtration standards let fine particles circulate. Direct-to-chip liquid […] The post What Elastomer Seals Bring to Liquid Cooling Loops appeared first on Data Center POST .",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "09d25a50a14b",
+      "title": "BitFuFu considers abandoning 80MW Ethiopian Bitcoin mine acquisition",
+      "url": "https://www.datacenterdynamics.com/en/news/bitfufu-considers-abandoning-80mw-ethiopian-bitcoin-mine-acquisition",
+      "date": "2026-10-27T16:32:44.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Dispute between current operator and local electricity supplier could kibosh deal",
+      "figures": [
+        "80MW"
+      ],
+      "score": 5
+    },
+    {
+      "id": "fbf42ffe90ea",
+      "title": "At 7x24 Exchange, AI Data Center Growth Confronts New Realities of Power, Grid Reliability and Community Trust",
+      "url": "https://www.datacenterfrontier.com/machine-learning/article/55414626/at-7x24-exchange-ai-data-center-growth-confronts-new-realities-of-power-grid-reliability-and-community-trust",
+      "date": "2026-10-27T14:47:15.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "From agentic AI and volatile power loads to grid disturbances and neighborhood opposition, the opening day of 7x24 Exchange's Fall 2026 Conference examined how traditional data center practices are being tested by the scale and demands of AI infrastructure.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "1c8b167eb15a",
+      "title": "DCD Studio: Who decides the future of AI compute? with Piotr Tomasik, TensorWave",
+      "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-who-decides-the-future-of-ai-compute-with-piotr-tomasik-tensorwave",
+      "date": "2026-10-27T14:37:47.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Piotr Tomasik of Tensorwave speaks with DCD's Kat Sullivan on AMD-powered NeoCloud infrastructure, AI compute demands, memory and power requirements, and the challenges shaping investment in AI infrastructure",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "f34ba64c3eda",
+      "title": "Beyond the Building Boom, Digital Infrastructure Faces a Reality Check",
+      "url": "https://datacenterpost.com/beyond-the-building-boom-digital-infrastructure-faces-a-reality-check",
+      "date": "2026-10-27T12:00:02.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Yotta 2026 highlighted the challenges of turning digital infrastructure investment into operational capacity as power availability, construction timelines, and community opposition complicate development. Project delays and cancellations underscored the importance of realistic planning, financial discipline, and stronger coordination among developers, investors, and utilities. Modular construction and new deployment models emerged as potential strategies for […] The post Beyond the Building Boom, Digital Infrastructure Faces a Reality Check appeared first on Data Center POST .",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "7647cb7e62f4",
+      "title": "The Power Challenge Behind Hyperscale AI Expansion",
+      "url": "https://www.datacenterknowledge.com/energy-power-supply/the-power-challenge-behind-hyperscale-ai-expansion",
+      "date": "2026-10-27T09:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "The number of new AI data center projects being announced continues to far outpace the number delayed by local opposition.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "63a8a06a46f3",
+      "title": "From Ocean Floors to Data Centers, Connectivity Strategies Are Evolving",
+      "url": "https://datacenterpost.com/from-ocean-floors-to-data-centers-connectivity-strategies-are-evolving",
+      "date": "2026-10-26T18:00:49.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Artificial intelligence (AI) is increasing demand for submarine cable capacity, accelerating interest in new transmission technologies and more efficient network architectures. Growing concerns about cable damage, sabotage, and geopolitical tensions are making subsea security and infrastructure resilience increasingly important. The relationship between submarine networks, cable landing stations, and data centers is evolving as operators […] The post From Ocean Floors to Data Centers, Connectivity Strategies Are Evolving appeared first on Data Center POST .",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "57b631069fef",
+      "title": "Why data centres must prove their power systems can fail safely",
+      "url": "https://datacentrereview.com/2026/10/why-data-centres-must-prove-their-power-systems-can-fail-safely",
+      "date": "2026-10-26T09:23:03.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "As data centre power demand grows, Mike Torbitt of Cressall Resistors examines why effective fault protection is fundamental to genuine resilience.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "22ee8999c2f8",
+      "title": "Oracle will offer Google’s TPU AI chip via OCI",
+      "url": "https://www.datacenterdynamics.com/en/news/oracle-will-offer-googles-tpu-ai-chip-via-oci",
+      "date": "2026-10-27T17:57:17.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Will be the first hyperscaler to offer Google’s TPU outside of Google",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "bf01eca710eb",
+      "title": "Amazon settles legal battle against AWS managers accused of data center deal kickbacks",
+      "url": "https://www.datacenterdynamics.com/en/news/amazon-settles-legal-battle-against-aws-managers-accused-of-data-center-deal-kickbacks",
+      "date": "2026-10-27T17:17:49.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The long-running case will continue with Northstar Commercial Partners as defendant",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "2dc82e86dc77",
+      "title": "La Caisse snaps up 49.9% stake in Bell Canada's tower unit",
+      "url": "https://www.datacenterdynamics.com/en/news/la-caisse-snaps-up-499-stake-in-bell-canadas-tower-unit",
+      "date": "2026-10-27T17:08:55.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Raises CAD$2.45bn for newly-formed tower business",
+      "figures": [
+        "$2.45bn"
+      ],
+      "score": 4
+    },
+    {
+      "id": "51571b372a7f",
+      "title": "Google data center hearing in Hermantown, Minnesota, shut down due to protests",
+      "url": "https://www.datacenterdynamics.com/en/news/google-data-center-hearing-in-hermantown-minnesota-shut-down-by-protesters",
+      "date": "2026-10-27T16:44:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Hearing pushed back a day, but project faces lawsuits and other challenges",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "c6bad47d8280",
+      "title": "Nidec anounces 3.2MW in-row CDU",
+      "url": "https://www.datacenterdynamics.com/en/news/nidec-anounces-32mw-in-row-cdu",
+      "date": "2026-10-27T15:38:36.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "New unit to enter mass production next year",
+      "figures": [
+        "3.2MW"
+      ],
+      "score": 4
+    },
+    {
+      "id": "a40955f7610a",
+      "title": "First building at Project Jupiter data center campus in New Mexico topped out",
+      "url": "https://www.datacenterdynamics.com/en/news/first-building-at-project-jupiter-data-center-campus-in-new-mexico-topped-out",
+      "date": "2026-10-27T14:50:36.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Structural work on first building complete, three more to go",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "a9860536644e",
+      "title": "DCD Studio: Building data centers in the US with Jan Jenisch, Amrize",
+      "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-building-data-centers-in-the-us-with-jan-jenisch-amrize",
+      "date": "2026-10-27T14:46:49.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Seb Moss of DCD speaks with Jan Jenisch of Amrize about supplying data center materials, remote-site challenges, and sustainable roofing solutions that improve energy efficiency and climate control",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "5b063502d702",
+      "title": "Slough pushes data centre operators to contribute more to local communities",
+      "url": "https://datacentrereview.com/2026/10/slough-pushes-data-centre-operators-to-contribute-more-to-local-communities",
+      "date": "2026-10-27T12:01:06.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "The council is reportedly seeking payments of up to £1 million a year from data centre operators.",
+      "figures": [
+        "1 million"
+      ],
+      "score": 4
+    },
+    {
+      "id": "0b456b94dd57",
+      "title": "UK ministers had plenty of time for AI datacenter bosses, but none for environmental groups",
+      "url": "https://www.theregister.com/on-prem/2026/10/27/uk-ministers-had-plenty-of-time-for-ai-datacenter-bosses-but-none-for-environmental-groups/5305654",
+      "date": "2026-10-27T11:00:00.000Z",
+      "publisher": "The Register (On-Prem)",
+      "feed": "register",
+      "kind": "general",
+      "summary": "Investigation finds businesses dominated govt meetings while communities were left out of decisions about AI Growth Zones",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "d636e9fbfb31",
+      "title": "CDC says it achieved 2030 net-zero target four years early",
+      "url": "https://w.media/cdc-says-it-achieved-2030-net-zero-target-four-years-early",
+      "date": "2026-10-27T09:34:14.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "CDC Data Centres says it achieved its 2030 net-zero target four years ahead of schedule, according to its response to a federal parliamentary inquiry. In its response to the Joint Select Committee on Artificial Intelligence, the data centre operator said it achieved the target in FY26 across its defined emissions target boundary, which covers Scope […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "1f865874a5ae",
+      "title": "The future of AI infrastructure: Midgard Infra and Ciena Interview at Capacity Europe 2026",
+      "url": "https://capacityglobal.com/news/the-future-of-ai-infrastructure-midgard-infra-and-ciena-interview-at-capacity-europe-2026",
+      "date": "2026-10-27T09:00:00.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Saf Malik from Capacity speaks with Chris Kelly from Midgard Infra and Will Rhodes from Ciena about AI infrastructure growth, connectivity demands, and the Nordics' rise as a data centre hub. The post The future of AI infrastructure: Midgard Infra and Ciena Interview at Capacity Europe 2026 appeared first on Capacity .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "fed244d44d03",
+      "title": "Data Centers Bring Boom Times, But Will Gains Last?",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/data-centers-bring-boom-times-but-will-gains-last-",
+      "date": "2026-10-26T16:47:16.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Data center projects can bring major capital investment to smaller markets, but lasting economic returns depend on realistic job expectations and protection against public cost exposure.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "17fd311a4eeb",
+      "title": "Government misses deadline for data centre planning consultation",
+      "url": "https://datacentrereview.com/2026/10/government-misses-deadline-for-data-centre-planning-consultation",
+      "date": "2026-10-26T14:26:50.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "The UK Government has missed its own timetable for consulting on new national planning policy for data centres.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "86d942bece21",
+      "title": "Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps",
+      "date": "2026-10-27T23:31:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) now supports GPU sharing with NVIDIA Multi-Process Service (MPS), enabling you to run multiple Amazon ECS tasks concurrently on a single NVIDIA GPU. GPU sharing helps you increase GPU utilization and reduce infrastructure costs for workloads that use only part of a GPU's capacity, such as small-model inference, AV/ADAS simulations, embedding generation, and multi-model serving. With GPU sharing, you can pack more workloads onto each GPU instance without changing your application code. You define the GPU memory each container needs and can optionall",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "ac00fe229ec8",
+      "title": "Nvidia Vera Rubin and Vera CPUs now generally available on Oracle",
+      "url": "https://www.datacenterdynamics.com/en/news/nvidia-vera-rubin-and-vera-cpus-now-generally-available-on-oracle",
+      "date": "2026-10-27T20:41:25.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "And other AI hardware deployments soon to arrive",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "8ca9d47fe50c",
+      "title": "Broadcom organizes $63bn deal with Bank of America, Blackstone, Citigroup, and Morgan Stanley to fund Anthropic chip purchases",
+      "url": "https://www.datacenterdynamics.com/en/news/broadcom-organizes-63bn-deal-with-bank-of-america-blackstone-citigroup-and-morgan-stanley-to-fund-anthropic-chip-purchases",
+      "date": "2026-10-27T15:00:48.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Project North Star will finance the purchase of Broadcom-developed Google TPUs",
+      "figures": [
+        "$63bn"
+      ],
+      "score": 3
+    },
+    {
+      "id": "4fbc35846972",
+      "title": "Nvidia to invest $3bn in Meta’s $97.5bn equity offering, as social media giant plans to deploy more Nvidia hardware",
+      "url": "https://www.datacenterdynamics.com/en/news/nvidia-to-invest-3bn-in-metas-975bn-equity-offering-as-social-media-giant-plans-to-deploy-more-nvidia-hardware",
+      "date": "2026-10-27T14:22:38.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Agreement centers around Meta’s Muse AI agents",
+      "figures": [
+        "$3bn",
+        "$97.5bn"
+      ],
+      "score": 3
+    },
+    {
+      "id": "33cf9878e726",
+      "title": "80% of neoclouds could lose independence by 2030: Neocloud consolidation explained",
+      "url": "https://capacityglobal.com/news/neolcoud-consolidation-explained",
+      "date": "2026-10-27T14:15:19.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Tighter credit and rising interest bills are pushing the specialist GPU cloud market towards a shakeout. Here is what is happening and who it affects. The post 80% of neoclouds could lose independence by 2030: Neocloud consolidation explained appeared first on Capacity .",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}

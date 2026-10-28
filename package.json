@@ -1,0 +1,25 @@
+{
+  "name": "coloprice-social",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Coloprice Instagram carousel pipeline: news intake -> carousel JSON -> SVG/sharp render -> Instagram Graph API publish",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "intake": "node scripts/intake-news.mjs",
+    "data": "node scripts/data-hooks.mjs",
+    "validate": "node scripts/validate-carousel.mjs --all",
+    "render": "node scripts/render-carousel.mjs",
+    "publish:dry": "node scripts/publish.mjs --dry-run",
+    "publish": "node scripts/publish.mjs",
+    "queue": "node scripts/queue-status.mjs",
+    "test": "node --test scripts/*.test.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.11.2",
+    "opentype.js": "1.3.4",
+    "sharp": "0.35.5"
+  }
+}

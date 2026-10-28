@@ -1,0 +1,19 @@
+{
+  "_comment": "Public RSS/Atom feeds for news intake. Each URL verified 2026-10-28 (HTTP 200 + items). kind=general feeds are keyword-filtered (must mention data centers/AI infra). Rejected at check time: datacenterfrontier.com/rss (404), theregister data_centre feed (404), datacentremagazine.com/rss (403), Digital Realty / CoreWeave / Vertiv / Supermicro IR feeds (403 to non-browser clients), hpcwire.com/feed (403).",
+  "feeds": [
+    { "id": "dcd", "name": "DCD", "url": "https://www.datacenterdynamics.com/en/rss/", "kind": "trade" },
+    { "id": "dcf", "name": "Data Center Frontier", "url": "https://www.datacenterfrontier.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22home%22%7D", "kind": "trade" },
+    { "id": "dck", "name": "Data Center Knowledge", "url": "https://www.datacenterknowledge.com/rss.xml", "kind": "trade" },
+    { "id": "dcpost", "name": "Data Center POST", "url": "https://datacenterpost.com/feed/", "kind": "trade" },
+    { "id": "dcr", "name": "Data Centre Review", "url": "https://datacentrereview.com/feed/", "kind": "trade" },
+    { "id": "wmedia", "name": "W.Media", "url": "https://www.w.media/feed/", "kind": "trade" },
+    { "id": "capacity", "name": "Capacity Media", "url": "https://www.capacitymedia.com/rss", "kind": "general" },
+    { "id": "uptime", "name": "Uptime Institute Journal", "url": "https://journal.uptimeinstitute.com/feed/", "kind": "trade" },
+    { "id": "nextplatform", "name": "The Next Platform", "url": "https://www.nextplatform.com/feed/", "kind": "general" },
+    { "id": "sth", "name": "ServeTheHome", "url": "https://www.servethehome.com/feed/", "kind": "general" },
+    { "id": "register", "name": "The Register (On-Prem)", "url": "https://www.theregister.com/on_prem/headlines.atom", "kind": "general" },
+    { "id": "nvidia", "name": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/releases.xml", "kind": "press" },
+    { "id": "equinix", "name": "Equinix (press releases)", "url": "https://investor.equinix.com/rss/news-releases.xml", "kind": "press" },
+    { "id": "aws", "name": "AWS What's New", "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/", "kind": "general" }
+  ]
+}

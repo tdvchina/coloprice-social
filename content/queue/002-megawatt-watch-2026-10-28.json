@@ -1,0 +1,159 @@
+{
+  "slug": "megawatt-watch-2026-10-28",
+  "format": "megawatt-watch",
+  "status": "ready",
+  "created": "2026-10-28",
+  "publishBy": "2026-11-04",
+  "topic": "Megawatt Watch 27-28 Oct: Crusoe Paraguay, ARC x Compal MOU, STT GDC Tokyo, CoreWeave Denmark, SoleCrypt Tunisia",
+  "sources": [
+    {
+      "id": "wm-crusoe",
+      "publisher": "W.Media",
+      "title": "Crusoe and Araico to build 280 MW AI data center near Paraguay's Itaipú Dam",
+      "url": "https://w.media/crusoe-and-araico-to-build-280-mw-ai-data-center-near-paraguays-itaipu-dam/",
+      "date": "2026-10-27",
+      "facts": [
+        "Crusoe and Araico will build AI compute next to the Itaipú substation in Paraguay, powered by the Itaipú hydroelectric dam",
+        "Initial deployment slated to come online in mid-2027",
+        "Path to 106 MW of IT capacity; options to expand to approximately 280 MW",
+        "Crusoe's first AI cloud deployment in Latin America; serves US and Latin American customers via Crusoe Cloud"
+      ]
+    },
+    {
+      "id": "wm-arc",
+      "publisher": "W.Media",
+      "title": "ARC Cloud and Compal sign MOU eyeing 100 MW of AI data center capacity",
+      "url": "https://w.media/arc-cloud-and-compal-sign-mou-eyeing-100-mw-of-ai-data-center-capacity/",
+      "date": "2026-10-27",
+      "facts": [
+        "ARC Cloud (Accelerated Research Computing) and Compal Electronics signed an MOU at the 2026 OCP Global Summit",
+        "They will explore opportunities related to a data center development roadmap of up to 100 MW",
+        "No financial terms, timeline or committed capacity disclosed; ARC Cloud plans AI infrastructure investment across the United States"
+      ]
+    },
+    {
+      "id": "wm-coreweave",
+      "publisher": "W.Media",
+      "title": "CoreWeave deploys AI infrastructure in Denmark",
+      "url": "https://w.media/coreweave-deploys-ai-infrastructure-in-denmark/",
+      "date": "2026-10-28",
+      "facts": [
+        "CoreWeave's first Denmark deployment, with atNorth, hosts 22.5 MW of IT capacity at the DEN01 data center in Copenhagen",
+        "Scheduled to go live in Q4 2026; NVIDIA Blackwell systems with Quantum-X800 InfiniBand",
+        "CoreWeave will supply surplus heat to Copenhagen's district heating network",
+        "CoreWeave Europe: 9 data centers across 5 countries"
+      ]
+    },
+    {
+      "id": "wm-stt",
+      "publisher": "W.Media",
+      "title": "STTGDC secures US$ 590 million green loan for expansion of Tokyo DC campus",
+      "url": "https://w.media/sttgdc-secures-us-590-million-green-loan-for-expansion-of-tokyo-dc-campus/",
+      "date": "2026-10-27",
+      "facts": [
+        "STT GDC secured a US$590 million green loan to fit out and operate STTGDC TYO1 and TYO2, Goodman Business Park, Inzai City, Greater Tokyo",
+        "The campus will provide a combined 70.8 MW of IT capacity"
+      ]
+    },
+    {
+      "id": "dcd-solecrypt",
+      "publisher": "DCD",
+      "title": "SoleCrypt ups size of planned data center campus in Bizerte, Tunisia",
+      "url": "https://www.datacenterdynamics.com/en/news/solecrypt-ups-size-of-planned-data-center-campus-in-bizerte-tunisia/",
+      "date": "2026-10-27",
+      "facts": [
+        "Headline: SoleCrypt ups size of planned data center campus in Bizerte, Tunisia",
+        "Standfirst: first 7MW phase due live in early 2028, to host Vera Rubin GPUs"
+      ]
+    }
+  ],
+  "dataHooks": [
+    {
+      "id": "pipeline",
+      "dataset": "Coloprice pipeline tracker",
+      "url": "https://coloprice.com/data/data-center-pipeline.csv",
+      "asOf": "2026-10-28",
+      "facts": [
+        "World: 584 projects, 50635 MW under construction, 34515 MW announced (published capacity only)",
+        "MW under construction: United States 33387; Indonesia 2646; India 2604; Japan 1433; Malaysia 1402; Canada 1327"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Megawatt Watch",
+      "headline": "Five projects in two days. How big are they?",
+      "figure": { "value": "480 MW", "label": "Headline capacity across five announcements, 27–28 Oct, as each party states it" },
+      "refs": ["wm-crusoe", "wm-arc", "wm-stt", "wm-coreweave", "dcd-solecrypt"]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "This week's megawatts, ranked",
+      "unit": "Headline capacity · MW",
+      "data": [
+        { "label": "Crusoe × Araico · Paraguay", "value": 280 },
+        { "label": "ARC Cloud × Compal · US (MOU)", "value": 100 },
+        { "label": "STT GDC · Tokyo", "value": 70.8 },
+        { "label": "CoreWeave × atNorth · Copenhagen", "value": 22.5 },
+        { "label": "SoleCrypt · Bizerte, first phase", "value": 7 }
+      ],
+      "highlight": 0,
+      "valueFormat": { "suffix": " MW" },
+      "caption": "Figures as announced. Includes a long-term option and an MOU, not only firm builds.",
+      "refs": ["wm-crusoe", "wm-arc", "wm-stt", "wm-coreweave", "dcd-solecrypt"]
+    },
+    {
+      "type": "stat",
+      "label": "Crusoe × Araico · Paraguay",
+      "value": "280 MW",
+      "unit": "Long-term option next to the Itaipú dam substation",
+      "context": "The first phase is due online in mid-2027, with a path to 106 MW of IT capacity. It is Crusoe's first AI cloud site in Latin America.",
+      "refs": ["wm-crusoe"]
+    },
+    {
+      "type": "stat",
+      "label": "CoreWeave × atNorth · Copenhagen",
+      "value": "22.5 MW",
+      "unit": "IT capacity at DEN01, live in Q4 2026",
+      "context": "NVIDIA Blackwell systems. Surplus heat goes to Copenhagen's district heating network. CoreWeave now counts 9 European sites in 5 countries.",
+      "accent": false,
+      "refs": ["wm-coreweave"]
+    },
+    {
+      "type": "stat",
+      "label": "ARC Cloud × Compal · MOU",
+      "value": "100 MW",
+      "unit": "Upper end of a US roadmap the two will explore",
+      "context": "An MOU signed at the OCP Global Summit. No financial terms, timeline or committed capacity were disclosed.",
+      "accent": false,
+      "refs": ["wm-arc"]
+    },
+    {
+      "type": "list",
+      "title": "Where megawatts are actually being built",
+      "unit": "MW under construction · published capacity only",
+      "rows": [
+        { "label": "United States", "value": "33,387" },
+        { "label": "Indonesia", "value": "2,646" },
+        { "label": "India", "value": "2,604" },
+        { "label": "Japan", "value": "1,433" },
+        { "label": "Malaysia", "value": "1,402" },
+        { "label": "Canada", "value": "1,327" }
+      ],
+      "footnote": "World total: 50,635 MW under construction across 584 tracked projects.",
+      "refs": ["pipeline"]
+    },
+    {
+      "type": "closing",
+      "text": "Every megawatt with a source and a date. Published capacity only.",
+      "cta": "Follow for the weekly Megawatt Watch."
+    }
+  ],
+  "caption": "480 MW of new data center capacity was announced in two days, across five projects.\n\nThe biggest number, 280 MW next to Paraguay's Itaipú dam, is a long-term option; the first phases have a path to 106 MW of IT capacity. The 100 MW from ARC Cloud and Compal is an MOU. The firmest builds are smaller: 70.8 MW in Tokyo and 22.5 MW in Copenhagen.\n\nHeadline megawatts are not all equal, so we label options and MOUs.\n\nData: Coloprice pipeline tracker, 28 Oct 2026. Sources: W.Media (27–28 Oct), DCD (27 Oct). Full list on the last slide.\n\nWhich of these do you expect to be live first?\n\nFull table: link in bio.",
+  "hashtags": ["#datacenter", "#colocation", "#AIinfrastructure", "#hyperscale"],
+  "derived": [
+    { "value": "480", "how": "280 + 100 + 70.8 + 22.5 + 7 = 480.3 MW, rounded" }
+  ]
+}

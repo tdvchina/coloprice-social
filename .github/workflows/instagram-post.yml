@@ -1,0 +1,84 @@
+name: Instagram post
+
+# Publishes the next ready carousel. Max 1 post per Asia/Bangkok day (guarded twice:
+# git log below + content/state.json inside publish.mjs). No Claude here: deterministic node.
+on:
+  schedule:
+    - cron: '7 13 * * 1-5' # 20:07 Asia/Bangkok, Mon–Fri (= 09:07 New York, 14:07 London)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (check everything, post nothing)'
+        type: boolean
+        default: true
+
+concurrency:
+  group: instagram-post
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SLIDES_BASE_URL: ${{ vars.SLIDES_BASE_URL }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      GRAPH_API_VERSION: ${{ vars.GRAPH_API_VERSION }}
+      IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      CONTENT_DENYLIST: ${{ secrets.CONTENT_DENYLIST }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Guard — already posted today (Asia/Bangkok)?
+        id: guard
+        run: |
+          last=$(git log -1 --format=%cI --grep='^social: published' || true)
+          skip=false
+          if [ -n "$last" ] && [ "$(TZ=Asia/Bangkok date -d "$last" +%F)" = "$(TZ=Asia/Bangkok date +%F)" ]; then
+            skip=true; echo "already published today ($last) — skipping"
+          fi
+          echo "skip=$skip" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-node@v4
+        if: steps.guard.outputs.skip != 'true'
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+        if: steps.guard.outputs.skip != 'true'
+
+      - name: Publish (or dry run)
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+            node scripts/publish.mjs --dry-run
+          else
+            node scripts/publish.mjs --wait
+          fi
+
+      - name: Commit state
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          node scripts/prune-out.mjs --days=14
+          git add -A content/state.json out
+          if git diff --cached --quiet; then echo "no state change"; exit 0; fi
+          slug=$(node -e "const s=require('./content/state.json').published||{};const e=Object.entries(s).sort((a,b)=>String(b[1].publishedAt).localeCompare(String(a[1].publishedAt)))[0];console.log(e?e[0]:'state')")
+          git commit -m "social: published ${slug}"
+          git pull --rebase origin main
+          git push
+
+      - name: Telegram on failure
+        if: failure()
+        run: |
+          node scripts/notify.mjs "⚠️ Coloprice IG: воркфлоу публикации упал — ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
