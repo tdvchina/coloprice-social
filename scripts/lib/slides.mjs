@@ -1,6 +1,6 @@
 // Slide templates (Coloprice style, DESIGN.md).
-//   types:   cover · stat · list · chart · compare · map · quote · closing
-//   covers:  layout standard | poster | split | compare | map | quote
+//   types:   cover · stat · list · chart · compare · map · quote · photo · closing
+//   covers:  layout standard | poster | split | compare | map | quote | photo
 //   themes:  dark | paper | lime  (def.theme = carousel default, slide.theme = override;
 //            split covers take slide.tones = [first panel, second panel])
 // Every template returns { svg, issues } — issues are layout overflows that the
@@ -8,13 +8,14 @@
 import { COLORS as C, SLIDE, LOGO_BARS, SITE, THEMES } from '../../config/brand.mjs';
 import { FONTS, fitText, textPath, textBlock, measure, ellipsize, wrapLines } from './text.mjs';
 import { REGIONS, projection, landDots } from './map.mjs';
+import { libraryImage } from './library.mjs';
 
 const { W, H, PAD } = SLIDE;
 const CW = W - PAD * 2; // content width 920
 const CONTENT_TOP = 210;
 const CONTENT_BOTTOM = 1196; // nothing below this except the footer
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-export const COVER_LAYOUTS = ['standard', 'poster', 'split', 'compare', 'map', 'quote'];
+export const COVER_LAYOUTS = ['standard', 'poster', 'split', 'compare', 'map', 'quote', 'photo'];
 let uid = 0;
 
 export function fmtDate(iso) {
@@ -258,7 +259,7 @@ function kicker(text, x, y, T, issues, maxW = CW) {
 
 function cover(s, ctx) {
   const layout = s.layout || 'standard';
-  const fn = { standard: coverStandard, poster: coverPoster, split: coverSplit, compare: coverCompare, map: coverMap, quote: coverQuote }[layout];
+  const fn = { standard: coverStandard, poster: coverPoster, split: coverSplit, compare: coverCompare, map: coverMap, quote: coverQuote, photo: coverPhoto }[layout];
   if (!fn) return { svg: null, issues: [`unknown cover layout "${layout}"`] };
   return fn(s, ctx);
 }
@@ -1070,7 +1071,91 @@ function closing(s, ctx) {
   return { svg: wrapSvg(out), issues };
 }
 
-export const TEMPLATES = { cover, stat, list, chart, compare, map: mapSlide, quote, closing };
+
+// ── photo (assets/library) ──
+// A licensed photo from the media library fills the slide; text sits on a dark scrim, always in the dark
+// palette. The footer carries the licence attribution (required by CC BY / BY-SA) instead of the source label.
+
+function photoLayer(s, issues) {
+  const img = libraryImage(s.image);
+  if (!img.ok) { issues.push(`photo: ${img.error}`); return { svg: `<rect x="0" y="0" width="${W}" height="${H}" fill="${C.void}"/>`, credit: '' }; }
+  const align = { top: 'xMidYMin', bottom: 'xMidYMax', center: 'xMidYMid' }[s.focus || 'center'] || 'xMidYMid';
+  const id = `p${++uid}`;
+  const scrim = `<defs>
+    <linearGradient id="${id}t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${C.void}" stop-opacity="0.78"/><stop offset="1" stop-color="${C.void}" stop-opacity="0"/></linearGradient>
+    <linearGradient id="${id}b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${C.void}" stop-opacity="0"/><stop offset="0.45" stop-color="${C.void}" stop-opacity="0.72"/><stop offset="1" stop-color="${C.void}" stop-opacity="0.94"/></linearGradient>
+  </defs>`;
+  return {
+    svg: `<image href="data:image/jpeg;base64,${img.base64}" x="0" y="0" width="${W}" height="${H}" preserveAspectRatio="${align} slice"/>${scrim}
+    <rect x="0" y="0" width="${W}" height="280" fill="url(#${id}t)"/>
+    <rect x="0" y="${Math.round(H * 0.38)}" width="${W}" height="${H - Math.round(H * 0.38)}" fill="url(#${id}b)"/>`,
+    credit: img.entry.attribution,
+  };
+}
+
+function photoFooter(credit, T, issues) {
+  const site = textPath(SITE, { font: FONTS.sansMedium, size: 26, x: PAD, y: 1290, fill: T.body });
+  let cr = '';
+  if (credit) {
+    const maxWidth = CW - site.width - 48;
+    const lines = (fitText(credit, { font: FONTS.mono, maxSize: 18, minSize: 16, maxWidth, maxLines: 2 }).lines || [credit]).slice(0, 2);
+    if (measure(lines.join(' '), { font: FONTS.mono, size: 16 }) > maxWidth * 2) issues.push('photo: attribution too long for the footer');
+    cr = lines.map((l, i) => textPath(ellipsize(l, { font: FONTS.mono, size: 18, maxWidth }), { font: FONTS.mono, size: 18, x: W - PAD, y: (lines.length > 1 ? 1276 : 1288) + i * 26, fill: T.muted, anchor: 'end' }).svg).join('');
+  } else issues.push('photo: no attribution');
+  return `<line x1="${PAD}" y1="1232" x2="${W - PAD}" y2="1232" stroke="${T.hair}" stroke-width="1.5"/>${site.svg}${cr}`;
+}
+
+/** Inner photo slide: photo + headline + caption at the bottom. */
+function photo(s, ctx) {
+  const issues = [];
+  const T = THEMES.dark;
+  const bg = photoLayer(s, issues);
+  let out = bg.svg + header(T, counter(ctx));
+  const parts = [];
+  let h = 0;
+  const hl = s.headline ? block(s.headline, { font: FONTS.sansMedium, maxSize: 72, minSize: 50, maxLines: 3, tracking: -0.02, top: 0, fill: T.ink, lineHeight: 1.1 }, issues, 'headline') : null;
+  const cp = s.caption ? block(s.caption, { font: FONTS.sans, maxSize: 34, minSize: 28, maxLines: 3, top: 0, fill: T.body, lineHeight: 1.32 }, issues, 'caption') : null;
+  if (hl) { parts.push({ b: hl, gap: cp ? 28 : 0 }); h += hl.height + (cp ? 28 : 0); }
+  if (cp) { parts.push({ b: cp, gap: 0 }); h += cp.height; }
+  let y = 1180 - h;
+  if (y < 640) issues.push('photo: text block taller than the lower half — shorten headline or caption');
+  for (const { b, gap } of parts) { out += `<g transform="translate(0 ${y.toFixed(1)})">${b.svg}</g>`; y += b.height + gap; }
+  out += photoFooter(bg.credit, T, issues);
+  return { svg: wrapSvg(out), issues };
+}
+
+/** Photo cover: photo + kicker, headline and an optional hook figure on the lower scrim. */
+function coverPhoto(s, ctx) {
+  const issues = [];
+  const T = THEMES.dark;
+  const bg = photoLayer(s, issues);
+  let out = bg.svg + header(T, ctx.dateLabel || '');
+  const blocks = [];
+  if (s.kicker) blocks.push({ kind: 'kicker', h: 52 + 36 });
+  const hl = block(s.headline, { font: FONTS.sansMedium, maxSize: 88, minSize: 58, maxLines: 3, tracking: -0.022, top: 0, fill: T.ink, lineHeight: 1.08 }, issues, 'headline');
+  blocks.push({ kind: 'svg', b: hl, h: hl.height + (s.figure ? 44 : 0) });
+  let vf = null;
+  let lb = null;
+  if (s.figure) {
+    vf = fitText(s.figure.value, { font: FONTS.monoMedium, maxSize: 190, minSize: 100, maxWidth: CW, maxLines: 1, tracking: -0.04 });
+    if (!vf.ok) issues.push('figure.value: too wide even at 100px');
+    blocks.push({ kind: 'figure', h: vf.size * 0.86 + (s.figure.label ? 26 : 0) });
+    if (s.figure.label) { lb = block(s.figure.label, { font: FONTS.sans, maxSize: 34, minSize: 28, maxLines: 2, top: 0, fill: T.body, lineHeight: 1.3 }, issues, 'figure.label'); blocks.push({ kind: 'svg', b: lb, h: lb.height }); }
+  }
+  const total = blocks.reduce((a, b) => a + b.h, 0);
+  let y = 1150 - total;
+  if (y < 520) issues.push('cover photo: text block too tall — shorten the headline or drop the label');
+  for (const b of blocks) {
+    if (b.kind === 'kicker') out += kicker(s.kicker, PAD, y, T, issues).svg;
+    else if (b.kind === 'figure') out += figure(vf.lines[0], { size: vf.size, x: PAD - vf.size * 0.03, top: y, T }).svg;
+    else out += `<g transform="translate(0 ${y.toFixed(1)})">${b.b.svg}</g>`;
+    y += b.h;
+  }
+  out += photoFooter(bg.credit, T, issues);
+  return { svg: wrapSvg(out), issues };
+}
+
+export const TEMPLATES = { cover, stat, list, chart, compare, map: mapSlide, quote, photo, closing };
 
 /** Build one slide. ctx = { index, total, def, refs, dateLabel } */
 export function buildSlide(slide, ctx) {

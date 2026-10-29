@@ -47,7 +47,7 @@ export const FORMATS = {
   'outage-files': { label: 'Outage Files', needsNews: true },
   explainer: { label: 'Explainer' },
 };
-const SLIDE_TYPES = ['cover', 'stat', 'list', 'chart', 'compare', 'map', 'quote', 'closing'];
+const SLIDE_TYPES = ['cover', 'stat', 'list', 'chart', 'compare', 'map', 'quote', 'photo', 'closing'];
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const BANNED_TAGS = ['#explore', '#reels', '#tech', '#fyp', '#viral', '#instagood', '#follow', '#like4like', '#explorepage'];
 
@@ -78,6 +78,9 @@ function slideTexts(s) {
       break;
     case 'quote':
       push(s.label), push(s.text), push(s.attribution);
+      break;
+    case 'photo':
+      push(s.headline), push(s.caption);
       break;
     case 'stat':
       push(s.label), push(s.value), push(s.unit), push(s.context), push(s.delta?.value);
@@ -161,7 +164,10 @@ export function validateCarousel(def, { file, state = {}, env = process.env, fit
     if (i > 0 && i < slides.length - 1 && (s.type === 'cover' || s.type === 'closing')) E(`${at}: cover/closing only first/last`);
     const refs = s.refs || [];
     refs.forEach((r) => (ids.has(r) ? used.add(r) : E(`${at}: ref "${r}" not in sources/dataHooks`)));
-    const needsRefs = s.type !== 'closing';
+    // A photo slide with no figures cites the photo itself (attribution in its footer), not a data source.
+    const photoNoFigures = (s.type === 'photo' || (s.type === 'cover' && s.layout === 'photo' && !s.figure)) && !numbersIn(slideTexts(s).join(' ')).length;
+    const needsRefs = s.type !== 'closing' && !photoNoFigures;
+    if ((s.type === 'photo' || (s.type === 'cover' && s.layout === 'photo')) && !s.image) E(`${at}: image (an assets/library id) required`);
     if (needsRefs && !refs.length) E(`${at}: refs[] required — every data slide names its source(s)`);
     // required fields
     if (s.theme != null && !THEMES[s.theme]) E(`${at}: theme must be one of: ${Object.keys(THEMES).join(', ')}`);

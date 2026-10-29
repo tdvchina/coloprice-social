@@ -1,0 +1,3007 @@
+[
+ {
+  "id": "dc-111-eighth-avenue-new-york",
+  "file": "images/dc-111-eighth-avenue-new-york.jpg",
+  "title": "111 Eighth Avenue carrier hotel, Chelsea, New York City",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix",
+    "Digital Realty",
+    "DataBank",
+    "Colocation America"
+   ],
+   "facilitySlugs": [
+    "equinix-ny9-new-york",
+    "digital-realty-jfk10-new-york",
+    "databank-lga2-new-york",
+    "colocation-america-nyc-8th-ave"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "New York"
+   ]
+  },
+  "license": {
+   "code": "PD",
+   "name": "Public domain",
+   "url": null
+  },
+  "author": "Scott Roy Atwood",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:111_Eighth_Avenue.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/111_Eighth_Avenue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Scott Roy Atwood, public domain, via Wikimedia Commons",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1085,
+  "taken": "2013-06",
+  "notes": "Multi-tenant carrier hotel (former Port Authority building, owned by Google); Google lettering is building signage, not an overlay. Slugs = catalogue facilities at this address."
+ },
+ {
+  "id": "dc-151-front-street-west-toronto",
+  "file": "images/dc-151-front-street-west-toronto.jpg",
+  "title": "151 Front Street West carrier hotel, Toronto",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix",
+    "Cologix",
+    "Telehouse",
+    "eStruxture",
+    "Digital Realty",
+    "Beanfield Metroconnect"
+   ],
+   "facilitySlugs": [
+    "equinix-tr1-toronto",
+    "cologix-tor1-toronto",
+    "telehouse-151-front-toronto",
+    "estruxture-tor1-toronto",
+    "digital-realty-yyz12-toronto",
+    "beanfield-151-front-toronto"
+   ],
+   "countries": [
+    "canada"
+   ],
+   "cities": [
+    "Toronto"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Raysonho @ Open Grid Scheduler / Grid Engine",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:151FrontStreet.JPG",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/a/a1/151FrontStreet.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Raysonho @ Open Grid Scheduler / Grid Engine / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1060,
+  "taken": "2014-04",
+  "notes": "Multi-tenant carrier hotel; slugs = catalogue facilities at this address. Pedestrians small in frame, not the subject."
+ },
+ {
+  "id": "dc-equinix-tr2-toronto",
+  "file": "images/dc-equinix-tr2-toronto.jpg",
+  "title": "Equinix TR2 data center, 45 Parliament Street, Toronto",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix"
+   ],
+   "facilitySlugs": [
+    "equinix-tr2-toronto"
+   ],
+   "countries": [
+    "canada"
+   ],
+   "cities": [
+    "Toronto"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Geo Swan from Toronto, Canada",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:45_Parliament,_a_data_center,_2024_03_13_(53585719594).jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/a/a6/45_Parliament%2C_a_data_center%2C_2024_03_13_%2853585719594%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Geo Swan from Toronto, Canada / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1205,
+  "taken": "2024-03",
+  "notes": "Matched by address 45 Parliament Street."
+ },
+ {
+  "id": "dc-aws-us-west-2-oregon-aerial-1",
+  "file": "images/dc-aws-us-west-2-oregon-aerial-1.jpg",
+  "title": "Amazon Web Services us-west-2 data center buildings, eastern Oregon (aerial)",
+  "subjects": [
+   "data-center",
+   "aerial",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Amazon Web Services"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": []
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Tedder",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Amazon_AWS_us-west-2_beach_AZ.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Amazon_AWS_us-west-2_beach_AZ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Tedder / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1067,
+  "taken": "2023-08",
+  "notes": "Commons: part of the AWS us-west-2 availability zone ('beach' AZ), eastern Oregon; exact site not in catalogue."
+ },
+ {
+  "id": "dc-aws-us-west-2-oregon-aerial-2",
+  "file": "images/dc-aws-us-west-2-oregon-aerial-2.jpg",
+  "title": "Amazon Web Services us-west-2 data centers with one under construction, Morrow County, Oregon (aerial)",
+  "subjects": [
+   "data-center",
+   "aerial",
+   "campus",
+   "construction"
+  ],
+  "entities": {
+   "operators": [
+    "Amazon Web Services"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": []
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Tedder",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Amazon_AWS_us-west-2_morrow_east_AZ_01.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/Amazon_AWS_us-west-2_morrow_east_AZ_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Tedder / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1067,
+  "taken": "2023-08",
+  "notes": "Commons: AWS us-west-2 'morrow east' AZ, three data centers plus a fourth under construction."
+ },
+ {
+  "id": "dc-ashburn-data-center-alley-aerial",
+  "file": "images/dc-ashburn-data-center-alley-aerial.jpg",
+  "title": "Data centers in Ashburn, Loudoun County, Virginia (aerial)",
+  "subjects": [
+   "data-center",
+   "aerial",
+   "campus"
+  ],
+  "entities": {
+   "operators": [],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Ashburn"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Theodore Christopher",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Data_centers_in_Ashburn.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/5/57/Data_centers_in_Ashburn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Theodore Christopher / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1021,
+  "taken": "2025-11",
+  "notes": "Aerial through an airliner window (slight haze, window edge top-left). Multiple operators, none individually identified."
+ },
+ {
+  "id": "dc-cyrusone-cin2-cincinnati",
+  "file": "images/dc-cyrusone-cin2-cincinnati.jpg",
+  "title": "CyrusOne CIN2 data center, 229 West 7th Street, Cincinnati",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "CyrusOne"
+   ],
+   "facilitySlugs": [
+    "cyrusone-cin2-cincinnati"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Cincinnati"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Warren LeMay from Cincinnati, OH, United States",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Cyrus_One_Building,_Cincinnati,_OH_(33477357138).jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Cyrus_One_Building%2C_Cincinnati%2C_OH_%2833477357138%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Warren LeMay from Cincinnati, OH, United States / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1200,
+  "height": 1600,
+  "taken": "2019-03",
+  "notes": "Commons title 'Cyrus One Building' (downtown Cincinnati); tower with CyrusOne lettering = catalogue CIN2 at 229 W 7th St. Portrait image saved at 1200 px wide to stay under 450 KB."
+ },
+ {
+  "id": "dc-equinix-silicon-valley-aerial-2026",
+  "file": "images/dc-equinix-silicon-valley-aerial-2026.jpg",
+  "title": "Equinix Silicon Valley data center (aerial, 2026)",
+  "subjects": [
+   "data-center",
+   "aerial"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": []
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Equinix, Inc.",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Equinix_-_Silicon_Valley_Data_Center_(2026).jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Equinix_-_Silicon_Valley_Data_Center_%282026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Equinix, Inc. / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2026-08",
+  "notes": "Photo provided by Equinix, CC BY-SA 4.0 permission confirmed via VRTS ticket. Building/campus not named in source, so no slug or city."
+ },
+ {
+  "id": "dc-equinix-da11-dallas",
+  "file": "images/dc-equinix-da11-dallas.jpg",
+  "title": "Equinix DA11 data center, Dallas",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix"
+   ],
+   "facilitySlugs": [
+    "equinix-da11-dallas"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Dallas"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Andrew nyr",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Equinix_DA11_Exterior.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/1/17/Equinix_DA11_Exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Andrew nyr / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2024-04",
+  "notes": "DOUBT: file title says DA11 but the Commons description says DA3. DA3 is a suite inside the Infomart; the photo shows a new standalone Equinix building next to it (GPS 32.7995,-96.8213), which fits DA11 at 1990 N Stemmons. Equinix logo is building signage."
+ },
+ {
+  "id": "dc-equinix-san-jose-campus-1",
+  "file": "images/dc-equinix-san-jose-campus-1.jpg",
+  "title": "Equinix San Jose (Great Oaks) campus building",
+  "subjects": [
+   "data-center",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "San Jose"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Cristiano Tomás",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Equinix_San_Jose_Campus_2210.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/7/73/Equinix_San_Jose_Campus_2210.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Cristiano Tomás / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2021-04",
+  "notes": "Commons category 'Equinix San Jose Campus'; specific SV building not identified."
+ },
+ {
+  "id": "dc-equinix-san-jose-campus-2",
+  "file": "images/dc-equinix-san-jose-campus-2.jpg",
+  "title": "Equinix San Jose (Great Oaks) campus, building with skybridge",
+  "subjects": [
+   "data-center",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "San Jose"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Cristiano Tomás",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Equinix_San_Jose_Campus_2213.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/3/32/Equinix_San_Jose_Campus_2213.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Cristiano Tomás / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2021-04",
+  "notes": "Commons category 'Equinix San Jose Campus'; building number 7 visible but SV code not confirmed."
+ },
+ {
+  "id": "dc-infomart-dallas",
+  "file": "images/dc-infomart-dallas.jpg",
+  "title": "Dallas Infomart carrier hotel (Equinix DA1/DA2/DA3/DA6), Dallas",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix",
+    "Cologix",
+    "DataBank",
+    "Flexential"
+   ],
+   "facilitySlugs": [
+    "equinix-da1-dallas",
+    "equinix-da2-dallas",
+    "equinix-da3-dallas",
+    "equinix-da6-dallas",
+    "cologix-dal1-dallas",
+    "cologix-dal2-dallas",
+    "cologix-dal3-dallas",
+    "databank-dfw5-dallas",
+    "flexential-dallas-downtown"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Dallas"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Andrew nyr",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Infomart_Dallas_Exterior.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Infomart_Dallas_Exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Andrew nyr / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2024-04",
+  "notes": "Infomart building at 1950 N Stemmons Fwy, owned by Equinix; slugs = catalogue suites at this address."
+ },
+ {
+  "id": "dc-flexential-hillsboro-2-night",
+  "file": "images/dc-flexential-hillsboro-2-night.jpg",
+  "title": "Flexential Hillsboro data center at 5737 NE Huffman Drive, Oregon (night)",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Flexential"
+   ],
+   "facilitySlugs": [
+    "flexential-portland-hillsboro2-pdx02"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Hillsboro"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "M.O. Stevens",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Flexential_Brookwood_Data_Center_-_Hillsboro,_Oregon.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/9/90/Flexential_Brookwood_Data_Center_-_Hillsboro%2C_Oregon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: M.O. Stevens / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1071,
+  "taken": "2018-07",
+  "notes": "Commons title 'Flexential Brookwood Data Center'; street number 5737 visible on the facade matches catalogue PDX02 address."
+ },
+ {
+  "id": "dc-digital-realty-hillsboro",
+  "file": "images/dc-digital-realty-hillsboro.jpg",
+  "title": "Digital Realty data center, Hillsboro, Oregon",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Digital Realty"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Hillsboro"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "M.O. Stevens",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Digital_Realty_data_center_-_Hillsboro,_Oregon.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Digital_Realty_data_center_-_Hillsboro%2C_Oregon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: M.O. Stevens / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1359,
+  "taken": "2018-08",
+  "notes": "Tanasbourne area per Commons category; building code not confirmed (PDX10 plausible but not verified)."
+ },
+ {
+  "id": "dc-stack-hillsboro",
+  "file": "images/dc-stack-hillsboro.jpg",
+  "title": "STACK Infrastructure data center at Brookwood and Evergreen, Hillsboro, Oregon",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "STACK Infrastructure"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Hillsboro"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "M.O. Stevens",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Stack_Infrastructure_data_center_-_Hillsboro,_Oregon.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Stack_Infrastructure_data_center_-_Hillsboro%2C_Oregon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: M.O. Stevens / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1007,
+  "taken": "2018-08",
+  "notes": "No STACK Hillsboro record in catalogue."
+ },
+ {
+  "id": "dc-meta-prineville",
+  "file": "images/dc-meta-prineville.jpg",
+  "title": "Meta (Facebook) data center, Prineville, Oregon",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Meta"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Prineville"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-4.0",
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "author": "Gary Halvorson, Oregon State Archives",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Facebook,_Highway_126,_Prineville_-_DPLA_-_fd9c0cae95b43c5864c55d3eef1bf5a6.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Facebook%2C_Highway_126%2C_Prineville_-_DPLA_-_fd9c0cae95b43c5864c55d3eef1bf5a6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Gary Halvorson, Oregon State Archives / Wikimedia Commons, CC BY 4.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1068,
+  "taken": "2014-07",
+  "notes": "Commons (via DPLA): Facebook server farm west of Prineville off Highway 126. Not in catalogue."
+ },
+ {
+  "id": "dc-google-the-dalles",
+  "file": "images/dc-google-the-dalles.jpg",
+  "title": "Google data center, The Dalles, Oregon",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Google"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "The Dalles"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-2.0",
+   "name": "CC BY 2.0",
+   "url": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  "author": "Tony Webster from Minneapolis, Minnesota, United States",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Google_Datacenter_-_The_Dalles,_Oregon_(17832143871).jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Google_Datacenter_-_The_Dalles%2C_Oregon_%2817832143871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Tony Webster from Minneapolis, Minnesota, United States / Wikimedia Commons, CC BY 2.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1014,
+  "taken": "2015-05",
+  "notes": "Not in catalogue."
+ },
+ {
+  "id": "dc-google-pryor-aerial",
+  "file": "images/dc-google-pryor-aerial.jpg",
+  "title": "Google data center campus, Pryor (Mayes County), Oklahoma (aerial)",
+  "subjects": [
+   "data-center",
+   "aerial",
+   "campus",
+   "construction"
+  ],
+  "entities": {
+   "operators": [
+    "Google"
+   ],
+   "facilitySlugs": [
+    "google-pryor-ok"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Pryor"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Xpda",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Google_Mayes_County_P0004974a.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Google_Mayes_County_P0004974a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Xpda / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 809,
+  "taken": "2019-06",
+  "notes": "Aerial; new building under construction in the foreground."
+ },
+ {
+  "id": "dc-google-council-bluffs-aerial",
+  "file": "images/dc-google-council-bluffs-aerial.jpg",
+  "title": "Google data center, Council Bluffs, Iowa (aerial at sunset)",
+  "subjects": [
+   "data-center",
+   "aerial"
+  ],
+  "entities": {
+   "operators": [
+    "Google"
+   ],
+   "facilitySlugs": [
+    "google-council-bluffs-ia"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Council Bluffs"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-2.0",
+   "name": "CC BY 2.0",
+   "url": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  "author": "Chad Davis",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Google_Data_Center,_Council_Bluffs_Iowa_(49062863796).jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Google_Data_Center%2C_Council_Bluffs_Iowa_%2849062863796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Chad Davis / Wikimedia Commons, CC BY 2.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 900,
+  "taken": "2017-02",
+  "notes": ""
+ },
+ {
+  "id": "dc-microsoft-azure-wenatchee-aerial",
+  "file": "images/dc-microsoft-azure-wenatchee-aerial.jpg",
+  "title": "Microsoft Azure data centers, Pangborn, Wenatchee, Washington (aerial)",
+  "subjects": [
+   "data-center",
+   "aerial",
+   "construction"
+  ],
+  "entities": {
+   "operators": [
+    "Microsoft"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Wenatchee"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-4.0",
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "author": "Tedder",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Wenatchee_washington_azure_datacenter_aerial_1.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/6/65/Wenatchee_washington_azure_datacenter_aerial_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Tedder / Wikimedia Commons, CC BY 4.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2025-08",
+  "notes": "Not in catalogue."
+ },
+ {
+  "id": "dc-microsoft-azure-wenatchee-aerial-2",
+  "file": "images/dc-microsoft-azure-wenatchee-aerial-2.jpg",
+  "title": "Microsoft Azure data centers under construction, Pangborn, Wenatchee, Washington (aerial)",
+  "subjects": [
+   "data-center",
+   "aerial",
+   "construction",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Microsoft"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Wenatchee"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-4.0",
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "author": "Tedder",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Wenatchee_washington_azure_datacenter_aerial_3.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/8/83/Wenatchee_washington_azure_datacenter_aerial_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Tedder / Wikimedia Commons, CC BY 4.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2025-08",
+  "notes": "Not in catalogue."
+ },
+ {
+  "id": "dc-databank-dfw1-dallas",
+  "file": "images/dc-databank-dfw1-dallas.jpg",
+  "title": "DataBank DFW1 data center in the former Federal Reserve Bank building, Dallas",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "DataBank"
+   ],
+   "facilitySlugs": [
+    "databank-dfw1-dallas"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Dallas"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-2.0",
+   "name": "CC BY 2.0",
+   "url": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  "author": "Wamploid Cthulhuloid",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Old_Federal_Reserve_Bank_of_Dallas_building,_2022.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Old_Federal_Reserve_Bank_of_Dallas_building%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Wamploid Cthulhuloid / Wikimedia Commons, CC BY 2.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 900,
+  "taken": "2022-02",
+  "notes": "Commons: former Federal Reserve Bank of Dallas building, now DataBank DFW1 (400 S Akard)."
+ },
+ {
+  "id": "dc-one-wilshire-los-angeles",
+  "file": "images/dc-one-wilshire-los-angeles.jpg",
+  "title": "One Wilshire carrier hotel, downtown Los Angeles",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "CoreSite",
+    "DataBank",
+    "Colocation America"
+   ],
+   "facilitySlugs": [
+    "coresite-la1-los-angeles",
+    "databank-lax1-los-angeles",
+    "colocation-america-one-wilshire"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Los Angeles"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Benoît Prieur",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Immeuble_One_Wilshire_depuis_la_Grand_Avenue_(Los_Angeles).JPG",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Immeuble_One_Wilshire_depuis_la_Grand_Avenue_%28Los_Angeles%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Benoît Prieur / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 2133,
+  "taken": "2022-07",
+  "notes": "One Wilshire tower (624 S Grand Ave) seen up Grand Avenue with a street scene in the foreground."
+ },
+ {
+  "id": "dc-equinix-mi1-miami",
+  "file": "images/dc-equinix-mi1-miami.jpg",
+  "title": "Equinix MI1 (NAP of the Americas), Miami",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix"
+   ],
+   "facilitySlugs": [
+    "equinix-mi1-miami"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Miami"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-3.0",
+   "name": "CC BY-SA 3.0",
+   "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "author": "Pietro",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Miami_-_NAP_of_the_Americas.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Miami_-_NAP_of_the_Americas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Pietro / Wikimedia Commons, CC BY-SA 3.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2014-04",
+  "notes": "Commons title 'NAP of the Americas'; catalogue MI1 is the former NAP of the Americas at 50 NE 9th St."
+ },
+ {
+  "id": "dc-digital-realty-yyz10-markham",
+  "file": "images/dc-digital-realty-yyz10-markham.jpg",
+  "title": "Digital Realty YYZ10 data center, 371 Gough Road, Markham, Ontario",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Digital Realty"
+   ],
+   "facilitySlugs": [
+    "digital-realty-yyz10-markham"
+   ],
+   "countries": [
+    "canada"
+   ],
+   "cities": [
+    "Markham"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Raysonho @ Open Grid Scheduler / Scalable Grid Engine",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:DigitalRealtyDatacenterMarkham1.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/6/69/DigitalRealtyDatacenterMarkham1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Raysonho @ Open Grid Scheduler / Scalable Grid Engine / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1060,
+  "taken": "2020-04",
+  "notes": "Matched by address in Commons description."
+ },
+ {
+  "id": "dc-equinix-am3-am4-amsterdam",
+  "file": "images/dc-equinix-am3-am4-amsterdam.jpg",
+  "title": "Equinix AM3 (low-rise) and AM4 (tower), Amsterdam Science Park",
+  "subjects": [
+   "data-center",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix"
+   ],
+   "facilitySlugs": [
+    "equinix-am3-amsterdam",
+    "equinix-am4-amsterdam"
+   ],
+   "countries": [
+    "netherlands"
+   ],
+   "cities": [
+    "Amsterdam"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Choinowski",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Datacenter_Equinix_AM3_%26_AM4_Amsterdam.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/4/49/Datacenter_Equinix_AM3_%26_AM4_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Choinowski / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1067,
+  "taken": "2020-05",
+  "notes": "Commons: AM3 low-rise, AM4 high-rise; design Benthem Crouwel."
+ },
+ {
+  "id": "dc-equinix-am4-amsterdam-bridge",
+  "file": "images/dc-equinix-am4-amsterdam-bridge.jpg",
+  "title": "Equinix AM4 tower behind the Amsterdamsebrug, Amsterdam",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix"
+   ],
+   "facilitySlugs": [
+    "equinix-am4-amsterdam"
+   ],
+   "countries": [
+    "netherlands"
+   ],
+   "cities": [
+    "Amsterdam"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-4.0",
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "author": "Rob Oo from NL",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Curve_and_cube_-_Flickr_-_Rob_Oo.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/1/13/Curve_and_cube_-_Flickr_-_Rob_Oo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Rob Oo from NL / Wikimedia Commons, CC BY 4.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1067,
+  "taken": "2025-06",
+  "notes": "Commons: 'Datacenter Equinix AM4', Benthem Crouwel 2017; bridge and boats in the foreground."
+ },
+ {
+  "id": "dc-digital-realty-marseille-port",
+  "file": "images/dc-digital-realty-marseille-port.jpg",
+  "title": "Digital Realty MRS2, MRS3 and MRS4 data centers at the Port of Marseille",
+  "subjects": [
+   "data-center",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Digital Realty (Interxion)"
+   ],
+   "facilitySlugs": [
+    "digital-realty-mrs2-marseille",
+    "digital-realty-mrs3-marseille",
+    "digital-realty-mrs4-marseille"
+   ],
+   "countries": [
+    "france"
+   ],
+   "cities": [
+    "Marseille"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "LaMèreVeille",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Digital_Realty_MRS2_MRS3_MSR4_Marseille.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Digital_Realty_MRS2_MRS3_MSR4_Marseille.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: LaMèreVeille / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2024-11",
+  "notes": "Wide view over the port; the buildings occupy the middle band of the frame (not a close-up). Identification from the Commons description."
+ },
+ {
+  "id": "dc-equinix-fr2-frankfurt",
+  "file": "images/dc-equinix-fr2-frankfurt.jpg",
+  "title": "Equinix data center on Kruppstrasse (FR2), Frankfurt am Main",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix"
+   ],
+   "facilitySlugs": [
+    "equinix-fr2-frankfurt"
+   ],
+   "countries": [
+    "germany"
+   ],
+   "cities": [
+    "Frankfurt"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Simsalabimbam",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Equinix-Kruppstrasse-2015-Ffm-661-663.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Equinix-Kruppstrasse-2015-Ffm-661-663.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Simsalabimbam / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 703,
+  "taken": "2015-04",
+  "notes": "Commons: Equinix data center, Kruppstrasse (2015); catalogue FR2 is Equinix at Kruppstrasse 121-127."
+ },
+ {
+  "id": "dc-equinix-fr2-frankfurt-gate",
+  "file": "images/dc-equinix-fr2-frankfurt-gate.jpg",
+  "title": "Equinix FR2 entrance, Kruppstrasse 121-127, Frankfurt am Main",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix"
+   ],
+   "facilitySlugs": [
+    "equinix-fr2-frankfurt"
+   ],
+   "countries": [
+    "germany"
+   ],
+   "cities": [
+    "Frankfurt"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Bish~dewiki",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:DE-CIX5.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/b/b5/DE-CIX5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Bish~dewiki / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1049,
+  "taken": "2016-03",
+  "notes": "Commons: DE-CIX5, Kruppstrasse 121-127; matches catalogue FR2 address."
+ },
+ {
+  "id": "dc-equinix-fr7-frankfurt",
+  "file": "images/dc-equinix-fr7-frankfurt.jpg",
+  "title": "Data center at Gutleutstrasse 310 (Equinix FR7), Frankfurt am Main",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix"
+   ],
+   "facilitySlugs": [
+    "equinix-fr7-frankfurt"
+   ],
+   "countries": [
+    "germany"
+   ],
+   "cities": [
+    "Frankfurt"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Bish~dewiki",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:DE-CIX3.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/6/69/DE-CIX3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Bish~dewiki / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1030,
+  "taken": "2016-03",
+  "notes": "Commons gives only the address (2016 photo, a DE-CIX site); matched to catalogue Equinix FR7 at Gutleutstrasse 310. The building may have carried earlier branding in 2016."
+ },
+ {
+  "id": "dc-ntt-frankfurt-1",
+  "file": "images/dc-ntt-frankfurt-1.jpg",
+  "title": "Data center at Eschborner Landstrasse 100 (NTT Frankfurt 1), Frankfurt am Main",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "NTT Global Data Centers"
+   ],
+   "facilitySlugs": [
+    "ntt-frankfurt-1"
+   ],
+   "countries": [
+    "germany"
+   ],
+   "cities": [
+    "Frankfurt"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Bish~dewiki",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:DE-CIX10.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/d/d3/DE-CIX10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Bish~dewiki / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 869,
+  "taken": "2016-03",
+  "notes": "Commons gives only the address (2016 photo, DE-CIX site); matched to catalogue NTT Frankfurt 1 at Eschborner Landstrasse 100."
+ },
+ {
+  "id": "dc-digital-realty-fra4-frankfurt",
+  "file": "images/dc-digital-realty-fra4-frankfurt.jpg",
+  "title": "Data center at Weismüllerstrasse 19 (Digital Realty FRA4), Frankfurt am Main",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Digital Realty (Interxion)"
+   ],
+   "facilitySlugs": [
+    "digital-realty-fra4-frankfurt"
+   ],
+   "countries": [
+    "germany"
+   ],
+   "cities": [
+    "Frankfurt"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Bish~dewiki",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:DE-CIX2.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/9/90/DE-CIX2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Bish~dewiki / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1581,
+  "height": 1080,
+  "taken": "2016-03",
+  "notes": "Commons gives only the address (DE-CIX site); matched to catalogue FRA4 at Weismüllerstrasse 19."
+ },
+ {
+  "id": "dc-itenos-teleporthaus-frankfurt",
+  "file": "images/dc-itenos-teleporthaus-frankfurt.jpg",
+  "title": "ITENOS Teleporthaus, Kleyerstrasse, Frankfurt am Main",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "ITENOS"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "germany"
+   ],
+   "cities": [
+    "Frankfurt"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Bish~dewiki",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:DE-CIX7.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/8/83/DE-CIX7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Bish~dewiki / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1324,
+  "height": 1080,
+  "taken": "2016-03",
+  "notes": "Commons: DE-CIX7, Kleyerstrasse 82/90. ITENOS (Deutsche Telekom group) lettering on the facade; not in catalogue (Equinix FR5 at Kleyerstrasse 90 is a different building). Original width only 1324 px."
+ },
+ {
+  "id": "dc-frankfurt-kleyerstrasse",
+  "file": "images/dc-frankfurt-kleyerstrasse.jpg",
+  "title": "Former Telefonbau und Normalzeit works on Kleyerstrasse, now a data center, Frankfurt-Gallus",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [],
+   "facilitySlugs": [],
+   "countries": [
+    "germany"
+   ],
+   "cities": [
+    "Frankfurt"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Asdrubal",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Kleyerstrasse.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/7/79/Kleyerstrasse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Asdrubal / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1067,
+  "taken": "2019-10",
+  "notes": "Commons: former T&N Werk II on Kleyerstrasse, today a data center. Operator not stated (Telehouse and Equinix FR5 are both on Kleyerstrasse), so no operator or slug."
+ },
+ {
+  "id": "dc-global-switch-london-east",
+  "file": "images/dc-global-switch-london-east.jpg",
+  "title": "Global Switch London East data centre, Docklands, London",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Global Switch"
+   ],
+   "facilitySlugs": [
+    "global-switch-london-east"
+   ],
+   "countries": [
+    "uk"
+   ],
+   "cities": [
+    "London"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-4.0",
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "author": "Russss",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Global_Switch_London_East.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/0/08/Global_Switch_London_East.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Russss / Wikimedia Commons, CC BY 4.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1506,
+  "taken": "2026-02",
+  "notes": ""
+ },
+ {
+  "id": "dc-paris-digital-park-la-courneuve",
+  "file": "images/dc-paris-digital-park-la-courneuve.jpg",
+  "title": "Paris Digital Park data center campus, La Courneuve",
+  "subjects": [
+   "data-center",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Digital Realty (Interxion)"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "france"
+   ],
+   "cities": [
+    "La Courneuve"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Guallendra",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Paris_Digital_Park_ou_data_center_de_La_Courneuve_10.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Paris_Digital_Park_ou_data_center_de_La_Courneuve_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Guallendra / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2026-10",
+  "notes": "Commons names only 'Paris Digital Park ou data center de La Courneuve'. Paris Digital Park is Digital Realty's La Courneuve campus (catalogue PAR7-PAR11); the specific building is not stated, so no slug."
+ },
+ {
+  "id": "dc-paris-digital-park-la-courneuve-2",
+  "file": "images/dc-paris-digital-park-la-courneuve-2.jpg",
+  "title": "Paris Digital Park data center seen from the adjoining park, La Courneuve",
+  "subjects": [
+   "data-center",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Digital Realty (Interxion)"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "france"
+   ],
+   "cities": [
+    "La Courneuve"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Guallendra",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Paris_Digital_Park_ou_data_center_de_La_Courneuve_12.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Paris_Digital_Park_ou_data_center_de_La_Courneuve_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Guallendra / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2026-10",
+  "notes": "Same building and caveat as dc-paris-digital-park-la-courneuve."
+ },
+ {
+  "id": "dc-ovhcloud-roubaix",
+  "file": "images/dc-ovhcloud-roubaix.jpg",
+  "title": "OVHcloud site on Rue Kellermann, Roubaix",
+  "subjects": [
+   "data-center",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "OVHcloud"
+   ],
+   "facilitySlugs": [
+    "ovhcloud-roubaix"
+   ],
+   "countries": [
+    "france"
+   ],
+   "cities": [
+    "Roubaix"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Velvet",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Roubaix_OVH_cloud_rue_kellermann.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Roubaix_OVH_cloud_rue_kellermann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Velvet / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1175,
+  "taken": "2023-12",
+  "notes": "Commons calls the building the OVHcloud headquarters on Rue Kellermann; catalogue record is the multi-building Roubaix campus at the HQ. OVHcloud logo is building signage."
+ },
+ {
+  "id": "dc-data4-mad01-alcobendas",
+  "file": "images/dc-data4-mad01-alcobendas.jpg",
+  "title": "Data4 data center campus, Alcobendas, Madrid",
+  "subjects": [
+   "data-center",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Data4"
+   ],
+   "facilitySlugs": [
+    "data4-mad01-alcobendas-madrid"
+   ],
+   "countries": [
+    "spain"
+   ],
+   "cities": [
+    "Alcobendas"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Zarateman",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Alcobendas_-_DATA4_Espa%C3%B1a,_Campus_de_Centros_de_Datos_@_Madrid_-_Alcobendas_1.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/1/10/Alcobendas_-_DATA4_Espa%C3%B1a%2C_Campus_de_Centros_de_Datos_%40_Madrid_-_Alcobendas_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Zarateman / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 602,
+  "taken": "2025-06",
+  "notes": ""
+ },
+ {
+  "id": "dc-templus-mad03-madrid",
+  "file": "images/dc-templus-mad03-madrid.jpg",
+  "title": "Edificio America III, home of Templus MAD03 data center, Calle Albasanz 65, Madrid",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Templus"
+   ],
+   "facilitySlugs": [
+    "templus-mad03-madrid"
+   ],
+   "countries": [
+    "spain"
+   ],
+   "cities": [
+    "Madrid"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Zarateman",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Madrid_-_Edificio_Am%C3%A9rica_III_(Calle_Albasanz_65,_Grupo_Aire,_Templus_MAD03_Data_Center_y_Elecnor_Medio_Ambiente).jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Madrid_-_Edificio_Am%C3%A9rica_III_%28Calle_Albasanz_65%2C_Grupo_Aire%2C_Templus_MAD03_Data_Center_y_Elecnor_Medio_Ambiente%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Zarateman / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1485,
+  "taken": "2026-10",
+  "notes": "Commons description names Templus MAD03 in this building (shared with Grupo Aire offices, whose logo is on the facade)."
+ },
+ {
+  "id": "dc-interdominios-madrid",
+  "file": "images/dc-interdominios-madrid.jpg",
+  "title": "Interdominios data center, Madrid",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Interdominios"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "spain"
+   ],
+   "cities": [
+    "Madrid"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Ledguer",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:CPD_Interdominios.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/5/5b/CPD_Interdominios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Ledguer / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 981,
+  "taken": null,
+  "notes": "Commons: CPD of Spanish hosting company Interdominios. Not in catalogue."
+ },
+ {
+  "id": "dc-merlin-bilbao-arasur",
+  "file": "images/dc-merlin-bilbao-arasur.jpg",
+  "title": "Merlin Properties Data Center Bilbao Arasur, Rivabellosa (Álava)",
+  "subjects": [
+   "data-center",
+   "construction"
+  ],
+  "entities": {
+   "operators": [
+    "Merlin Properties"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "spain"
+   ],
+   "cities": [
+    "Rivabellosa"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Zarateman",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Rivabellosa_-_Data_Center_Merlin_Properties_1.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Rivabellosa_-_Data_Center_Merlin_Properties_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Zarateman / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 604,
+  "taken": "2024-04",
+  "notes": "Site works still visible around the building. Not in catalogue (catalogue only has Merlin Getafe)."
+ },
+ {
+  "id": "dc-hetzner-falkenstein-construction",
+  "file": "images/dc-hetzner-falkenstein-construction.jpg",
+  "title": "Hetzner Data Center Park Falkenstein under construction",
+  "subjects": [
+   "data-center",
+   "construction",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Hetzner Online"
+   ],
+   "facilitySlugs": [
+    "hetzner-falkenstein"
+   ],
+   "countries": [
+    "germany"
+   ],
+   "cities": [
+    "Falkenstein"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-3.0",
+   "name": "CC BY 3.0",
+   "url": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "author": "Jöeg Frister",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Datacenterpark_Falkenstein_2.JPG",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/3/35/Datacenterpark_Falkenstein_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Jöeg Frister / Wikimedia Commons, CC BY 3.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2012-08",
+  "notes": "Construction phase (early build-out of the park)."
+ },
+ {
+  "id": "dc-meta-lulea",
+  "file": "images/dc-meta-lulea.jpg",
+  "title": "Meta (Facebook) data center building, Luleå, Sweden",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Meta"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "sweden"
+   ],
+   "cities": [
+    "Luleå"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-4.0",
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "author": "Christopher Down",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Lulea_Facebook_datacenter_building.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/Lulea_Facebook_datacenter_building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Christopher Down / Wikimedia Commons, CC BY 4.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2016-09",
+  "notes": "Not in catalogue."
+ },
+ {
+  "id": "dc-meta-lulea-aerial",
+  "file": "images/dc-meta-lulea-aerial.jpg",
+  "title": "Meta (Facebook) data center, Luleå, Sweden (aerial)",
+  "subjects": [
+   "data-center",
+   "aerial"
+  ],
+  "entities": {
+   "operators": [
+    "Meta"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "sweden"
+   ],
+   "cities": [
+    "Luleå"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-3.0",
+   "name": "CC BY-SA 3.0",
+   "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "author": "Tortap",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Facebook_Serverhall.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/2/29/Facebook_Serverhall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Tortap / Wikimedia Commons, CC BY-SA 3.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1068,
+  "taken": "2013-10",
+  "notes": "Not in catalogue."
+ },
+ {
+  "id": "dc-google-eemshaven-aerial",
+  "file": "images/dc-google-eemshaven-aerial.jpg",
+  "title": "Google data center among wind turbines, Eemshaven, Netherlands (aerial)",
+  "subjects": [
+   "data-center",
+   "aerial",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Google"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "netherlands"
+   ],
+   "cities": [
+    "Eemshaven"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Wvdp",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Google_data_center_and_wind_turbines_in_Eemshaven.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Google_data_center_and_wind_turbines_in_Eemshaven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Wvdp / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 900,
+  "taken": "2023-01",
+  "notes": "Not in catalogue (the catalogue's QTS Eemshaven is a different site)."
+ },
+ {
+  "id": "dc-microsoft-middenmeer",
+  "file": "images/dc-microsoft-middenmeer.jpg",
+  "title": "Microsoft data center, Middenmeer (Agriport), Netherlands",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Microsoft"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "netherlands"
+   ],
+   "cities": [
+    "Middenmeer"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-4.0",
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "author": "Hay Kranen",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Microsoft_Data_Center_Middenmeer,_the_Netherlands_-_1_(cropped).jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/1/14/Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_1_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Hay Kranen / Wikimedia Commons, CC BY 4.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 870,
+  "taken": "2023-09",
+  "notes": "Cropped version of a 2023 Commons photo. Not in catalogue."
+ },
+ {
+  "id": "dc-microsoft-middenmeer-2",
+  "file": "images/dc-microsoft-middenmeer-2.jpg",
+  "title": "Microsoft data center halls along the road, Middenmeer, Netherlands",
+  "subjects": [
+   "data-center",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Microsoft"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "netherlands"
+   ],
+   "cities": [
+    "Middenmeer"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-4.0",
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "author": "Hay Kranen",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Microsoft_Data_Center_Middenmeer,_the_Netherlands_-_2.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Hay Kranen / Wikimedia Commons, CC BY 4.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2023-09",
+  "notes": "Not in catalogue."
+ },
+ {
+  "id": "dc-bytesnet-groningen",
+  "file": "images/dc-bytesnet-groningen.jpg",
+  "title": "Bytesnet data center d'Root, Professor Uilkensweg, Groningen",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Bytesnet"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "netherlands"
+   ],
+   "cities": [
+    "Groningen"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-2.0",
+   "name": "CC BY 2.0",
+   "url": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  "author": "Sjaak Kempe",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:20190922_03_Groningen_-_Professor_Uilkensweg_-_Bytesnet_datacenter_d%27Root.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/e/ec/20190922_03_Groningen_-_Professor_Uilkensweg_-_Bytesnet_datacenter_d%27Root.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Sjaak Kempe / Wikimedia Commons, CC BY 2.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1150,
+  "taken": "2019-09",
+  "notes": "Not in catalogue."
+ },
+ {
+  "id": "dc-exea-torun",
+  "file": "images/dc-exea-torun.jpg",
+  "title": "EXEA Data Center, Toruń",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "TARR Centrum Innowacyjności sp. z o.o."
+   ],
+   "facilitySlugs": [
+    "exea-data-center-torun",
+    "tarr-centrum-innowacyjnosci-exea-data-center-toru-324-kujawsko-pomorskie"
+   ],
+   "countries": [
+    "poland"
+   ],
+   "cities": [
+    "Toruń"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Mateuszgdynia",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Exea_Data_Center_w_Toruniu.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/2/25/Exea_Data_Center_w_Toruniu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Mateuszgdynia / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2015-05",
+  "notes": "The catalogue lists this facility twice."
+ },
+ {
+  "id": "dc-green-datacenter-lupfig",
+  "file": "images/dc-green-datacenter-lupfig.jpg",
+  "title": "Green Datacenter campus, Industriestrasse, Lupfig (Zurich West)",
+  "subjects": [
+   "data-center",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Green Datacenter"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "switzerland"
+   ],
+   "cities": [
+    "Lupfig"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Ralph Plennert",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Green_Datacenter_AG.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Green_Datacenter_AG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Ralph Plennert / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 721,
+  "taken": "2022-10",
+  "notes": "Commons gives Industriestrasse 31; catalogue records use Industriestrasse 33 (two records), so no slug assigned."
+ },
+ {
+  "id": "dc-kazakhtelecom-pavlodar",
+  "file": "images/dc-kazakhtelecom-pavlodar.jpg",
+  "title": "Kazakhtelecom data center, Pavlodar, Kazakhstan",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Kazakhtelecom"
+   ],
+   "facilitySlugs": [
+    "kazakhtelecom-pavlodar-data-center"
+   ],
+   "countries": [
+    "kazakhstan"
+   ],
+   "cities": [
+    "Pavlodar"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Djenalinov",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0_%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD,_%D0%B3._%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B4%D0%B0%D1%80._%D0%A6%D0%9E%D0%94_%D0%90%D0%9E_%22%D0%9A%D0%B0%D0%B7%D0%B0%D0%BA%D0%A2%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%22._%D0%92%D0%B8%D0%B4_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83.JPG",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0_%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%2C_%D0%B3._%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B4%D0%B0%D1%80._%D0%A6%D0%9E%D0%94_%D0%90%D0%9E_%22%D0%9A%D0%B0%D0%B7%D0%B0%D0%BA%D0%A2%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%22._%D0%92%D0%B8%D0%B4_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Djenalinov / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1067,
+  "taken": "2013-04",
+  "notes": "Elevated view; Kazakhtelecom lettering is building signage."
+ },
+ {
+  "id": "dc-60-hudson-street-new-york",
+  "file": "images/dc-60-hudson-street-new-york.jpg",
+  "title": "60 Hudson Street carrier hotel (former Western Union Building), Tribeca, New York City",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Digital Realty",
+    "DataBank",
+    "DataGryd",
+    "NYI (New York Internet)"
+   ],
+   "facilitySlugs": [
+    "digital-realty-jfk12-new-york",
+    "databank-lga1-new-york",
+    "datagryd-60-hudson-new-york",
+    "nyi-60-hudson-new-york"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "New York"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Kidfly182",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:60_Hudson_Street_July_2022.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/9/97/60_Hudson_Street_July_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Kidfly182 / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2022-07",
+  "notes": "Multi-tenant carrier hotel; slugs = catalogue facilities at this address. Upward view of the facade."
+ },
+ {
+  "id": "dc-60-hudson-street-new-york-2",
+  "file": "images/dc-60-hudson-street-new-york-2.jpg",
+  "title": "Upper floors of 60 Hudson Street carrier hotel, Tribeca, New York City",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Digital Realty",
+    "DataBank",
+    "DataGryd",
+    "NYI (New York Internet)"
+   ],
+   "facilitySlugs": [
+    "digital-realty-jfk12-new-york",
+    "databank-lga1-new-york",
+    "datagryd-60-hudson-new-york",
+    "nyi-60-hudson-new-york"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "New York"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-4.0",
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "author": "Kidfly182",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:60_Hudson_Street_002.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/1/1e/60_Hudson_Street_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Kidfly182 / Wikimedia Commons, CC BY 4.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 719,
+  "taken": "2025-01",
+  "notes": "Multi-tenant carrier hotel; slugs = catalogue facilities at this address. Steam plume from rooftop plant visible."
+ },
+ {
+  "id": "dc-westin-building-seattle",
+  "file": "images/dc-westin-building-seattle.jpg",
+  "title": "Westin Building Exchange carrier hotel, 2001 Sixth Avenue, Seattle",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix",
+    "DataBank",
+    "Digital Realty"
+   ],
+   "facilitySlugs": [
+    "equinix-se2-seattle",
+    "databank-sea1-seattle",
+    "digital-realty-sea10-seattle"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Seattle"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "SounderBruce",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Westin_Building_from_Lenora_Street.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Westin_Building_from_Lenora_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: SounderBruce / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 2402,
+  "taken": "2018-01",
+  "notes": "Multi-tenant carrier hotel; slugs = catalogue facilities at 2001 Sixth Ave."
+ },
+ {
+  "id": "dc-lakeside-technology-center-chicago",
+  "file": "images/dc-lakeside-technology-center-chicago.jpg",
+  "title": "Lakeside Technology Center (former R. R. Donnelley Calumet Plant), 350 East Cermak Road, Chicago",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Equinix",
+    "Digital Realty"
+   ],
+   "facilitySlugs": [
+    "equinix-ch1-chicago",
+    "equinix-ch2-chicago",
+    "equinix-ch4-chicago",
+    "digital-realty-ord10-chicago"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "Chicago"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-2.0",
+   "name": "CC BY-SA 2.0",
+   "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "author": "Teemu008 from Palatine, Illinois",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Calumet_Plant,_R._R._Donnelly_%26_Sons_Company_(10556760306).jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Calumet_Plant%2C_R._R._Donnelly_%26_Sons_Company_%2810556760306%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Teemu008 from Palatine, Illinois / Wikimedia Commons, CC BY-SA 2.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1328,
+  "taken": "2013-10",
+  "notes": "Commons title names the historic Calumet Plant (2013 photo); the building at 350 E Cermak is the Lakeside Technology Center carrier hotel. Slugs = catalogue facilities at this address."
+ },
+ {
+  "id": "dc-375-pearl-street-new-york",
+  "file": "images/dc-375-pearl-street-new-york.jpg",
+  "title": "375 Pearl Street (former Verizon Building), Lower Manhattan",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Sabey Data Centers"
+   ],
+   "facilitySlugs": [
+    "sabey-sdc-manhattan-375-pearl"
+   ],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "New York"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Beyond My Ken",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:375_Pearl_Street.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/d/d9/375_Pearl_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Beyond My Ken / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 2373,
+  "taken": "2013-04",
+  "notes": "Tight crop of the tower top. Building houses Sabey's Intergate.Manhattan data center."
+ },
+ {
+  "id": "dc-google-the-dalles-entrance",
+  "file": "images/dc-google-the-dalles-entrance.jpg",
+  "title": "Google data center campus entrance, The Dalles, Oregon",
+  "subjects": [
+   "data-center",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Google"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "usa"
+   ],
+   "cities": [
+    "The Dalles"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Lambtron",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Google_data_center.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/Google_data_center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Lambtron / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1169,
+  "taken": "2020-06",
+  "notes": "Google campus sign in the foreground (signage, not an overlay). Not in catalogue."
+ },
+ {
+  "id": "dc-at-tokyo-toyosu",
+  "file": "images/dc-at-tokyo-toyosu.jpg",
+  "title": "AT TOKYO Chuo Center data center, Toyosu, Tokyo",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "AT TOKYO"
+   ],
+   "facilitySlugs": [
+    "at-tokyo-cc1-chuo"
+   ],
+   "countries": [
+    "japan"
+   ],
+   "cities": [
+    "Tokyo"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-2.0",
+   "name": "CC BY 2.0",
+   "url": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  "author": "Guilhem Vellut from Annecy, France",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:@Tokyo_Data_Center_@_Toyosu_(9654238698).jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/2/21/%40Tokyo_Data_Center_%40_Toyosu_%289654238698%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Guilhem Vellut from Annecy, France / Wikimedia Commons, CC BY 2.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2013-09",
+  "notes": "DOUBT (mild): Commons only says '@Tokyo Data Center @ Toyosu'. Matched to catalogue CC1, described as the flagship Chuo Center in Toyosu (CC2 is a smaller adjacent 11-storey building)."
+ },
+ {
+  "id": "dc-at-tokyo-toyosu-dusk",
+  "file": "images/dc-at-tokyo-toyosu-dusk.jpg",
+  "title": "AT TOKYO Chuo Center data center at golden hour, Toyosu, Tokyo",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "AT TOKYO"
+   ],
+   "facilitySlugs": [
+    "at-tokyo-cc1-chuo"
+   ],
+   "countries": [
+    "japan"
+   ],
+   "cities": [
+    "Tokyo"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-2.0",
+   "name": "CC BY 2.0",
+   "url": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  "author": "Guilhem Vellut from Annecy, France",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:@tokyo_data_center_@_Bridge_from_Toyosu_Island_to_Harumi_Island_(11753122296).jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/7/7e/%40tokyo_data_center_%40_Bridge_from_Toyosu_Island_to_Harumi_Island_%2811753122296%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Guilhem Vellut from Annecy, France / Wikimedia Commons, CC BY 2.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2014-01",
+  "notes": "Same building as dc-at-tokyo-toyosu; same matching caveat."
+ },
+ {
+  "id": "dc-ntt-telepark-dojima-osaka",
+  "file": "images/dc-ntt-telepark-dojima-osaka.jpg",
+  "title": "NTT Telepark Dojima Building 2, Osaka",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [],
+   "facilitySlugs": [],
+   "countries": [
+    "japan"
+   ],
+   "cities": [
+    "Osaka"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-2.5",
+   "name": "CC BY 2.5",
+   "url": "https://creativecommons.org/licenses/by/2.5/"
+  },
+  "author": "Oilstreet",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:NTT_Telepark_Dojima_Osaka_Japan02-r.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/4/47/NTT_Telepark_Dojima_Osaka_Japan02-r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Oilstreet / Wikimedia Commons, CC BY 2.5",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 2395,
+  "taken": "2015-01",
+  "notes": "Commons: NTT Telepark Dojima Building 2 (NTT West telecom/data center complex). Catalogue has Building 1 and AT TOKYO DC12 inside the complex, so no slug; operator left empty because the building owner (NTT West) is not a catalogue operator. Dual-licensed GFDL / CC BY 2.5; CC BY 2.5 used."
+ },
+ {
+  "id": "dc-ntt-data-mitaka-east",
+  "file": "images/dc-ntt-data-mitaka-east.jpg",
+  "title": "NTT DATA Mitaka Data Center EAST, Mitaka, Tokyo",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "NTT DATA (Global Data Centers)"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "japan"
+   ],
+   "cities": [
+    "Mitaka"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-2.0",
+   "name": "CC BY-SA 2.0",
+   "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "author": "nakashi",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:NTT_DATA_Corporation_Mitaka_Data_Center_East_-_Nov_14,_2020.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/5/57/NTT_DATA_Corporation_Mitaka_Data_Center_East_-_Nov_14%2C_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: nakashi / Wikimedia Commons, CC BY-SA 2.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2020-11",
+  "notes": "Commons: NTT DATA Mitaka Data Center EAST. Not in catalogue. Overhead wires in frame."
+ },
+ {
+  "id": "dc-ctc-nagoya-marunouchi",
+  "file": "images/dc-ctc-nagoya-marunouchi.jpg",
+  "title": "CTC (ITOCHU Techno-Solutions) Nagoya Marunouchi data center",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "CTC (ITOCHU Techno-Solutions)"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "japan"
+   ],
+   "cities": [
+    "Nagoya"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "円周率３パーセント",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Ctc_Data_Center_Nagoya_Marunouchi_20140824.JPG",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Ctc_Data_Center_Nagoya_Marunouchi_20140824.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: 円周率３パーセント / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 2133,
+  "taken": "2014-08",
+  "notes": "Not in catalogue. CTC lettering is building signage."
+ },
+ {
+  "id": "dc-hkcolo-tseung-kwan-o",
+  "file": "images/dc-hkcolo-tseung-kwan-o.jpg",
+  "title": "HKCOLO data centre, Tseung Kwan O Industrial Estate, Hong Kong",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "HKCOLO"
+   ],
+   "facilitySlugs": [
+    "hkcolo-ccc-tseung-kwan-o-hong-kong"
+   ],
+   "countries": [
+    "hong-kong"
+   ],
+   "cities": [
+    "Hong Kong"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Exploringlife",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:HKCOLO_Data_Centre.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/4/4c/HKCOLO_Data_Centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Exploringlife / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1194,
+  "taken": "2015-04",
+  "notes": "Commons: HKCOLO Data Centre in Tseung Kwan O; catalogue CCC is HKCOLO's only TKO site."
+ },
+ {
+  "id": "dc-ntt-hong-kong-financial-data-centre",
+  "file": "images/dc-ntt-hong-kong-financial-data-centre.jpg",
+  "title": "NTT Hong Kong Financial Data Centre campus, Tai Chik Sha, Tseung Kwan O",
+  "subjects": [
+   "data-center",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "NTT Global Data Centers"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "hong-kong"
+   ],
+   "cities": [
+    "Hong Kong"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Prosperity Horizons",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:NTT_Communications_Hong_Kong_Financial_Data_Centre_(revised).jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/4/44/NTT_Communications_Hong_Kong_Financial_Data_Centre_%28revised%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Prosperity Horizons / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1057,
+  "taken": "2018",
+  "notes": "Commons: NTT Communications Financial Data Centre (2018). Catalogue only has FDC2; which tower(s) are in frame is not stated, so no slug."
+ },
+ {
+  "id": "dc-tgt-hong-kong-data-centre-2",
+  "file": "images/dc-tgt-hong-kong-data-centre-2.jpg",
+  "title": "Towngas Telecommunications (TGT) Hong Kong Data Centre 2, Tai Chik Sha",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Towngas Telecommunications"
+   ],
+   "facilitySlugs": [
+    "tgt-hong-kong-data-centre-2"
+   ],
+   "countries": [
+    "hong-kong"
+   ],
+   "cities": [
+    "Hong Kong"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Prosperity Horizons",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:TGT_Hong_Kong_Data_Centre_2.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/1/11/TGT_Hong_Kong_Data_Centre_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Prosperity Horizons / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1050,
+  "taken": "2017",
+  "notes": "TGT signage on the building; a passer-by is small in frame."
+ },
+ {
+  "id": "dc-chunghwa-keelung-baifu",
+  "file": "images/dc-chunghwa-keelung-baifu.jpg",
+  "title": "Chunghwa Telecom Keelung Baifu data center, Keelung, Taiwan",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Chunghwa Telecom"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "taiwan"
+   ],
+   "cities": [
+    "Keelung"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Solomon203",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Chunghwa_Telecom_Keelung_Baifu_Data_Center_20231008.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/9/90/Chunghwa_Telecom_Keelung_Baifu_Data_Center_20231008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Solomon203 / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 2133,
+  "taken": "2023-10",
+  "notes": "Overhead wires cross the lower left. Not in catalogue."
+ },
+ {
+  "id": "dc-google-changhua-taiwan",
+  "file": "images/dc-google-changhua-taiwan.jpg",
+  "title": "Main gate of Google's Taiwan data center, Xianxi, Changhua",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Google"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "taiwan"
+   ],
+   "cities": [
+    "Changhua"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Kai3952",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_the_main_gate,_Google%27s_Taiwan_data_center_in_Xianxi,_Changhua,_as_taken_on_7_March_2021.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Exterior_view_of_the_main_gate%2C_Google%27s_Taiwan_data_center_in_Xianxi%2C_Changhua%2C_as_taken_on_7_March_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Kai3952 / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2021-03",
+  "notes": "Gate with Google sign in the foreground, data center buildings behind. Not in catalogue."
+ },
+ {
+  "id": "dc-nextdc-p2-perth",
+  "file": "images/dc-nextdc-p2-perth.jpg",
+  "title": "NEXTDC P2 data centre, Perth",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "NEXTDC"
+   ],
+   "facilitySlugs": [
+    "nextdc-p2-perth"
+   ],
+   "countries": [
+    "australia"
+   ],
+   "cities": [
+    "Perth"
+   ]
+  },
+  "license": {
+   "code": "CC0",
+   "name": "CC0 1.0",
+   "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "author": "Samuel Wiki",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:NEXTDC_P2,_Perth.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/0/09/NEXTDC_P2%2C_Perth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Samuel Wiki / Wikimedia Commons, CC0 1.0",
+  "uses": {
+   "site": true,
+   "social": true
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2021-03",
+  "notes": "NEXTDC logos are building signage."
+ },
+ {
+  "id": "dc-sify-hyderabad-gachibowli",
+  "file": "images/dc-sify-hyderabad-gachibowli.jpg",
+  "title": "Sify data centre, Gachibowli, Hyderabad",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Sify Technologies"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "india"
+   ],
+   "cities": [
+    "Hyderabad"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Timothy A. Gonsalves",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:SIFY_Gachibowli_Hyderabad_India_Nov22_A7C_04695.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/9/93/SIFY_Gachibowli_Hyderabad_India_Nov22_A7C_04695.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Timothy A. Gonsalves / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2022-11",
+  "notes": "Commons: Sify Data Centre building, Gachibowli. Catalogue has nearby Sify Nanakramguda/Financial District records but the match is not confirmed, so no slug."
+ },
+ {
+  "id": "dc-teraco-isando-construction",
+  "file": "images/dc-teraco-isando-construction.jpg",
+  "title": "Teraco data centre under construction, Isando Campus, Johannesburg",
+  "subjects": [
+   "data-center",
+   "construction",
+   "campus"
+  ],
+  "entities": {
+   "operators": [
+    "Teraco (Digital Realty)"
+   ],
+   "facilitySlugs": [],
+   "countries": [
+    "south-africa"
+   ],
+   "cities": [
+    "Johannesburg"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Ossewa",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Isando_data_centre.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/4/40/Isando_data_centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Ossewa / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1091,
+  "taken": "2025-09",
+  "notes": "Photo Sept 2025 with tower crane; Commons only says Teraco Isando Campus. Possibly JB7 (40 MW, under construction) but not confirmed, so no slug."
+ },
+ {
+  "id": "dc-cologix-mtl8-montreal",
+  "file": "images/dc-cologix-mtl8-montreal.jpg",
+  "title": "Cologix MTL8 data center, 7350 Frederick-Banting, Montreal",
+  "subjects": [
+   "data-center"
+  ],
+  "entities": {
+   "operators": [
+    "Cologix"
+   ],
+   "facilitySlugs": [
+    "cologix-mtl8-montreal"
+   ],
+   "countries": [
+    "canada"
+   ],
+   "cities": [
+    "Montreal"
+   ]
+  },
+  "license": {
+   "code": "CC-BY-SA-4.0",
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "author": "Jeangagnon",
+  "source": {
+   "page": "https://commons.wikimedia.org/wiki/File:Centre_de_donnees_MTL8-S_-_2025-04-09_-_02.jpg",
+   "original": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Centre_de_donnees_MTL8-S_-_2025-04-09_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "attribution": "Photo: Jeangagnon / Wikimedia Commons, CC BY-SA 4.0",
+  "uses": {
+   "site": true,
+   "social": false
+  },
+  "width": 1600,
+  "height": 1200,
+  "taken": "2025-04",
+  "notes": "Matched by address in Commons description (MTL8-S, Technoparc)."
+ }
+]

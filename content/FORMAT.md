@@ -75,6 +75,14 @@ The profile grid shows the newest post top-left, so the FIRST post published end
 | `quote` | `label?`, `text` (≤ 6 lines; `**words**` get the highlight), `attribution?` | a large typographic statement; no numbers unless sourced |
 | `closing` | `text?`, `cta?` | no figures; the sources card is built automatically from sources/dataHooks (max 6) |
 
+### Photos (`photo` slide, `photo` cover layout)
+Real, licensed photos from the media library (`assets/library/catalog.json`, see its README): identifiable data centers, substations, transmission lines, plants, land.
+- `{ "type": "photo", "image": "<library id>", "headline": "…", "caption": "…", "focus": "top|center|bottom" }` — photo fills the slide, text on a dark scrim at the bottom (headline ≤ 3 lines, caption ≤ 3 lines). A cover can use `"layout": "photo"` with `image`, `kicker`, `headline`, optional `figure`.
+- Only ids with `uses.social: true` (public domain, CC0, CC BY); the validator refuses the rest. The footer prints the photo's attribution automatically.
+- At most 2 photo slides per carousel, and a photo must show what the slide talks about (the named facility, that market's grid, that plant). No decorative photos, no generic server aisles.
+- A photo slide without figures needs no `refs`; any number in its headline/caption must be in the facts, as everywhere.
+- Pick with `node scripts/library.mjs find --operator="Equinix" --social` or `node scripts/library.mjs sheet --subject=transmission --country=usa --social` and look at `out/library-sheet.jpg`.
+
 ### Cover layouts (`cover.layout`)
 | layout | What it is | Extra fields |
 |---|---|---|
@@ -84,6 +92,7 @@ The profile grid shows the newest post top-left, so the FIRST post published end
 | `compare` | headline + two big numbers side by side | `items` (2), `verdict?` — as the `compare` slide |
 | `map` | headline + dot map + hook figure | `points`, `region`/`bbox` … — as the `map` slide |
 | `quote` | a large statement (≤ 4 lines) + optional small figure row | `statement` (instead of `headline`) |
+| `photo` | library photo full-bleed, kicker + headline + optional figure on the lower scrim | `image` (library id), `focus?` |
 
 Footers print the source and date of each slide automatically. The header prints the post date and the counter.
 

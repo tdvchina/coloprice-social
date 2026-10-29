@@ -174,6 +174,8 @@ export function altText(s) {
       return clip(parts(`Map: ${s.title}${u}`, pointsText(s), s.caption));
     case 'quote':
       return clip(parts(s.label, s.text, s.attribution));
+    case 'photo':
+      return clip(parts(s.headline, s.caption));
     case 'closing':
       return clip(parts(s.text, s.cta));
     default:
