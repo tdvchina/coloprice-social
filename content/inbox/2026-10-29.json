@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T06:04:16.761Z",
+  "generated": "2026-10-29T08:39:29.939Z",
   "windowHours": 72,
   "feeds": [
     {
@@ -42,7 +42,7 @@
       "id": "dcr",
       "ok": true,
       "items": 10,
-      "kept": 3
+      "kept": 4
     },
     {
       "id": "equinix",
@@ -101,6 +101,34 @@
       "score": 11
     },
     {
+      "id": "3205fba4589f",
+      "title": "Malaysia could attract data center investment amid Middle East conflict",
+      "url": "https://w.media/malaysia-could-attract-data-center-investment-amid-middle-east-conflict",
+      "date": "2026-10-29T06:10:25.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Malaysia could see increased data center investment as the US-Iran war raises security concerns in the Middle East. In a recent interview with Bloomberg, Mohd Haris Mohd Arshad, President and Group CEO, SD Guthrie Bhd, said, “If you’re going to build data centres for US$ 10 billion, you’re not going to put it in a […]",
+      "figures": [
+        "$ 10 billion"
+      ],
+      "score": 10
+    },
+    {
+      "id": "edd0cf93023c",
+      "title": "Anant Raj inks Haryana data center MOU as quarterly revenue hits US$ 69.46 million",
+      "url": "https://w.media/anant-raj-inks-haryana-data-center-mou-as-quarterly-revenue-hits-us-69-46-million",
+      "date": "2026-10-29T08:29:04.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Anant Raj Limited, an Indian real estate and infrastructure developer, has signed a memorandum of understanding (MOU) with the Government of Haryana and Orange Business Services Singapore to promote the state as a global hub for data center, sovereign cloud, and AI infrastructure. The agreement was disclosed alongside Anant Raj’s financial results for the quarter […]",
+      "figures": [
+        "$ 69.46 million"
+      ],
+      "score": 9
+    },
+    {
       "id": "e78c9f67dfdc",
       "title": "coNEXA to invest AU$250m in recycled water network to supply NextDC’s S4 Sydney",
       "url": "https://w.media/conexa-to-invest-au250m-in-recycled-water-network-to-supply-nextdcs-s4-sydney",
@@ -145,6 +173,18 @@
         "11 million"
       ],
       "score": 9
+    },
+    {
+      "id": "f20e22d7accb",
+      "title": "The risks of armchair commissioning",
+      "url": "https://datacentrereview.com/2026/10/the-risks-of-armchair-commissioning",
+      "date": "2026-10-29T08:00:00.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "When commissioning becomes a paperwork exercise, data centres pay the price, warns Ashley Buckland, Managing Partner at JB Associates.",
+      "figures": [],
+      "score": 7
     },
     {
       "id": "fe979aaacf44",
