@@ -51,7 +51,7 @@ jobs:
         run: node scripts/queue-status.mjs
 
       - name: Write carousel with Claude
-        if: steps.queue.outputs.ready < 2 || inputs.force
+        if: steps.queue.outputs.ready < 2 || steps.queue.outputs.top_needed == 'true' || inputs.force
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

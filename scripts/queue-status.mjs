@@ -26,4 +26,9 @@ else {
   for (const r of rows) console.log(`${r.status.padEnd(9)} ${r.format.padEnd(18)} ${r.file}${r.publishBy ? `  (publish by ${r.publishBy})` : ''}`);
   console.log(`→ ${ready.length} ready to publish; last formats: ${lastFormats.join(', ') || '—'}`);
 }
-if (process.env.GITHUB_OUTPUT) await appendFile(process.env.GITHUB_OUTPUT, `ready=${ready.length}\n`);
+// Thursday (Asia/Bangkok) is the fixed Coloprice Top slot: the writer must run if none is queued, however full the queue.
+const thursday = new Date(`${today}T12:00:00Z`).getUTCDay() === 4;
+const topQueued = ready.some((r) => r.format === 'coloprice-top');
+const topNeeded = thursday && !topQueued;
+if (topNeeded) console.log('→ Thursday: no Coloprice Top in the queue — the writer will write one');
+if (process.env.GITHUB_OUTPUT) await appendFile(process.env.GITHUB_OUTPUT, `ready=${ready.length}\ntop_needed=${topNeeded}\n`);
