@@ -22,6 +22,17 @@ import { REGIONS } from './lib/map.mjs';
 import { FONTS, unsupportedChars } from './lib/text.mjs';
 import { numbersIn, same, derivedNumbers, factNumbers, missingNumbers, safetyErrors } from './lib/rules.mjs';
 import { xPostErrors } from './lib/xpost.mjs';
+import { readFileSync } from 'node:fs';
+
+// Official Instagram/X accounts of operators (config/handles.json, each with evidence). Mentions and
+// user tags may only use handles from this file: a guessed handle can tag an impostor account.
+const HANDLES_FILE = new URL('../config/handles.json', import.meta.url);
+export function loadHandles() {
+  try { return JSON.parse(readFileSync(HANDLES_FILE, 'utf8')).operators || {}; } catch { return {}; }
+}
+export const MENTION_RE = /(^|[\s(])@([A-Za-z0-9._]{1,30})/g;
+const MAX_MENTIONS = 8;
+const MAX_USER_TAGS = 6;
 
 export { numbersIn }; // kept here for older imports (tests, routines)
 
@@ -31,6 +42,7 @@ export const FORMATS = {
   'megawatt-watch': { label: 'Megawatt Watch', needsNews: true },
   'map-of-the-week': { label: 'Map of the Week', needsData: true },
   ranked: { label: 'Ranked' },
+  'coloprice-top': { label: 'Coloprice Top', needsData: true },
   'deal-sheet': { label: 'Deal Sheet', needsNews: true },
   'outage-files': { label: 'Outage Files', needsNews: true },
   explainer: { label: 'Explainer' },
@@ -242,12 +254,39 @@ export function validateCarousel(def, { file, state = {}, env = process.env, fit
   const foreign = domains.filter((d) => d.toLowerCase() !== 'coloprice.com');
   if (foreign.length) E(`caption: no domains other than coloprice.com (${foreign.join(', ')})`);
   {
-    const missing = missingNumbers(cap, factNumbers(def));
+    const missing = missingNumbers(cap.replace(MENTION_RE, '$1'), factNumbers(def)); // digits inside @handles are not figures
     if (missing.length) E(`caption: number(s) ${missing.join(', ')} not found in any source/data-hook facts or derived[]`);
   }
   if (!/link in bio/i.test(cap)) E('caption: must say "link in bio"');
   if (!/^(data|sources?)\s*:/im.test(cap)) E('caption: needs a line starting with "Data:" or "Sources:"');
   if (/#\w/.test(cap)) E('caption: hashtags go in hashtags[], not in the caption text');
+  // ── mentions & user tags (official accounts only) ──
+  {
+    const handles = loadHandles();
+    const byIg = new Map(Object.entries(handles).filter(([, h]) => h.instagram).map(([name, h]) => [h.instagram.toLowerCase(), name]));
+    const slideCorpus = slides.flatMap(slideTexts).join('\n').toLowerCase();
+    const named = (name) => slideCorpus.includes(name.toLowerCase()) || slideCorpus.includes(name.toLowerCase().replace(/\s*\(.*\)$/, ''));
+    const mentions = [...cap.matchAll(MENTION_RE)].map((m) => m[2].replace(/\.$/, '').toLowerCase()).filter((h) => h !== 'coloprice');
+    if (mentions.length > MAX_MENTIONS) E(`caption: ${mentions.length} @mentions > ${MAX_MENTIONS}`);
+    if (new Set(mentions).size !== mentions.length) E('caption: an @mention is repeated');
+    for (const h of mentions) {
+      const name = byIg.get(h);
+      if (!name) E(`caption: @${h} is not an official account in config/handles.json — never guess handles`);
+      else if (!named(name)) E(`caption: @${h} (${name}) is mentioned but ${name} does not appear on any slide`);
+    }
+    const tags = def.userTags ?? [];
+    if (!Array.isArray(tags)) E('userTags: array of {username, slide?}');
+    else {
+      if (tags.length > MAX_USER_TAGS) E(`userTags: at most ${MAX_USER_TAGS}`);
+      for (const t of tags) {
+        const u = String(t?.username || '').toLowerCase();
+        const name = byIg.get(u);
+        if (!name) E(`userTags: "${t?.username}" is not an official account in config/handles.json`);
+        else if (!named(name)) E(`userTags: ${name} does not appear on any slide`);
+        if (t?.slide != null && (!Number.isInteger(t.slide) || t.slide < 1 || t.slide > slides.length)) E(`userTags: slide for ${t?.username} must be 1..${slides.length}`);
+      }
+    }
+  }
   if (/coloprice\.com/i.test(cap)) {
     const recent = Object.values(state.published || {}).sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt))).slice(0, 2);
     if (recent.some((p) => p.mentionsDomain)) E('caption: coloprice.com may appear at most once every 3 posts — one of the last 2 already had it; use "link in bio" only');

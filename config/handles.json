@@ -1,0 +1,1074 @@
+{
+  "note": "Official X and Instagram accounts of operators, for @mentions/tags in Coloprice posts. Add a handle only with evidence (company site link or verified badge + bio link). Re-check every 6 months.",
+  "updated": "2026-10-29",
+  "operators": {
+    "Equinix": {
+      "x": "Equinix",
+      "instagram": "lifeatequinix",
+      "website": "equinix.com",
+      "evidence": {
+        "x": "https://www.equinix.com/ (footer); verified badge, last post 2026-10-28",
+        "instagram": "https://careers.equinix.com/ (footer); last post 2026-10-27"
+      },
+      "checked": "2026-10-29",
+      "notes": "Instagram: @lifeatequinix is Equinix's employer-brand account linked from its careers site. The main @equinix Instagram has 0 posts, no verified badge and no link from equinix.com, so it is not used."
+    },
+    "Digital Realty": {
+      "x": "digitalrealty",
+      "instagram": null,
+      "website": "digitalrealty.com",
+      "evidence": {
+        "x": "https://www.digitalrealty.com/ (footer); last post 2026-10-27",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No Instagram link on digitalrealty.com. @digitalrealty on Instagram exists but is unverified and its last post is 2022-01-20, so it is not used."
+    },
+    "NTT Global Data Centers": {
+      "x": "nttdata",
+      "instagram": "nttdata",
+      "website": "nttdata.com",
+      "evidence": {
+        "x": "https://www.nttdata.com/global/en/services/data-center (footer); verified badge, last post 2026-10-28",
+        "instagram": "https://www.nttdata.com/global/en/services/data-center (footer); last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": "Corporate NTT DATA accounts (NTT Global Data Centers is a division of NTT DATA, Inc.). No standalone NTT GDC account found (@NTT_GDC does not exist). Regional @NTTDATA_APAC (X) / @nttdata_apac (IG) exist but are small."
+    },
+    "DataBank": {
+      "x": null,
+      "instagram": "databank.ltd",
+      "website": "databank.com",
+      "evidence": {
+        "x": null,
+        "instagram": "https://www.databank.com/ (footer); verified badge, last post 2026-10-27"
+      },
+      "checked": "2026-10-29",
+      "notes": "X @databank_ltd is linked from the site and verified but has not posted since 2024-12-16.",
+      "inactive": {
+        "x": {
+          "handle": "databank_ltd",
+          "last_post": "2024-12-16",
+          "evidence": "https://www.databank.com/ (footer)"
+        }
+      }
+    },
+    "EdgeConneX": {
+      "x": null,
+      "instagram": null,
+      "website": "edgeconnex.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site footer links only LinkedIn and YouTube. X @EdgeConneX exists but is unverified, not linked from the site, last post 2025-03-25. Instagram @edgeconnex is a handle squatter. Do not tag it."
+    },
+    "STACK Infrastructure": {
+      "x": null,
+      "instagram": null,
+      "website": "stackinfra.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn and YouTube. X @STACKinfra exists but last posted 2020-04-23 and is not linked from the site."
+    },
+    "Cologix": {
+      "x": "Cologix4Colo",
+      "instagram": null,
+      "website": "cologix.com",
+      "evidence": {
+        "x": "https://cologix.com/ (footer + JSON-LD sameAs); last post 2026-10-21",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "French-language account @Cologix_FR is also linked from the site (last post 2026-09-11). No Instagram link on the site. Instagram @cologix is an empty squatter account."
+    },
+    "Iron Mountain": {
+      "x": "ironmountain",
+      "instagram": null,
+      "website": "ironmountain.com",
+      "evidence": {
+        "x": "https://www.ironmountain.com/ (footer); last post 2026-10-28",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Corporate Iron Mountain account; no separate Iron Mountain Data Centers account exists (@IronMountainDC does not exist). No Instagram link on the site. Instagram @ironmountainofficial (bio link ironmountain.com, 18 posts) is unverified and not linked from the site, so it was not accepted. @ironmountain on Instagram is an unrelated 2-post account."
+    },
+    "CyrusOne": {
+      "x": null,
+      "instagram": "cyrusonedatacenters",
+      "website": "cyrusone.com",
+      "evidence": {
+        "x": null,
+        "instagram": "https://www.cyrusone.com/ (footer); last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": "No X link on the site; @CyrusOne on X is suspended."
+    },
+    "Colt DCS": {
+      "x": null,
+      "instagram": "coltdatacentres",
+      "website": "coltdatacentres.net",
+      "evidence": {
+        "x": null,
+        "instagram": "https://www.coltdatacentres.net/en-GB (footer); last post 2026-10-08"
+      },
+      "checked": "2026-10-29",
+      "notes": "X @ColtDataCentres is linked from the site but last posted 2024-12-02.",
+      "inactive": {
+        "x": {
+          "handle": "ColtDataCentres",
+          "last_post": "2024-12-02",
+          "evidence": "https://www.coltdatacentres.net/en-GB (footer)"
+        }
+      }
+    },
+    "Flexential": {
+      "x": "flexential",
+      "instagram": null,
+      "website": "flexential.com",
+      "evidence": {
+        "x": "https://www.flexential.com/ (footer); last post 2026-10-08",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No Instagram link on the site. Instagram @flexential (4 posts, unverified) exists but is not linked from the site."
+    },
+    "ST Telemedia Global Data Centres": {
+      "x": null,
+      "instagram": null,
+      "website": "sttelemediagdc.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site (sttgdc.com) links only LinkedIn. X @STTGDC exists with bio link to sttelemediagdc.com but is unverified and not linked from the site."
+    },
+    "QTS Data Centers": {
+      "x": "DataCenters_QTS",
+      "instagram": "qts_data_centers",
+      "website": "q.com",
+      "evidence": {
+        "x": "https://q.com/ (footer; qtsdatacenters.com redirects here); verified badge, last post 2026-10-26",
+        "instagram": "https://q.com/ (footer); last post 2026-10-27"
+      },
+      "checked": "2026-10-29",
+      "notes": "QTS website moved from qtsdatacenters.com to q.com."
+    },
+    "Vantage Data Centers": {
+      "x": "vantagedc",
+      "instagram": "lifeatvantage",
+      "website": "vantage-dc.com",
+      "evidence": {
+        "x": "https://vantage-dc.com/ (footer); last post 2026-10-28",
+        "instagram": "https://vantage-dc.com/ (footer); last post 2026-10-22"
+      },
+      "checked": "2026-10-29",
+      "notes": "Instagram @lifeatvantage is Vantage's employer-brand account (the only Instagram linked from the site). A second link in the site's code, @vantagedcpeople, points to an account that does not exist."
+    },
+    "TierPoint": {
+      "x": "tierpoint",
+      "instagram": null,
+      "website": "tierpoint.com",
+      "evidence": {
+        "x": "https://www.tierpoint.com/ (footer); verified badge, last post 2026-10-28",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Instagram @tierpoint is linked from the site but last posted 2022-11-23.",
+      "inactive": {
+        "instagram": {
+          "handle": "tierpoint",
+          "last_post": "2022-11-23",
+          "evidence": "https://www.tierpoint.com/ (footer)"
+        }
+      }
+    },
+    "Aligned Data Centers": {
+      "x": null,
+      "instagram": "aligneddc",
+      "website": "aligneddc.com",
+      "evidence": {
+        "x": null,
+        "instagram": "https://aligneddc.com/ (footer); last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": "No X link on the site. X @AlignedDC (bio link aligneddc.com, active) exists but is unverified, so it was not accepted. Re-check if Aligned adds it to its site."
+    },
+    "China Telecom": {
+      "x": "chinateleglobal",
+      "instagram": null,
+      "website": "chinatelecomglobal.com",
+      "evidence": {
+        "x": "https://www.chinatelecomglobal.com/ (footer); last post 2026-10-27",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "China Telecom Global (CTG), the international English-language arm. Alternative: China Telecom Americas @ChinaTelecomUS (verified, active, linked from https://www.ctamericas.com/) for US-specific posts. China Telecom Europe's site was under maintenance and showed no links. No Instagram found."
+    },
+    "Ascenty": {
+      "x": null,
+      "instagram": null,
+      "website": "ascenty.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only Facebook, LinkedIn and YouTube. X @Ascenty exists but is unverified, not linked from the site, last post 2023-07-28."
+    },
+    "Csquare": {
+      "x": null,
+      "instagram": null,
+      "website": "csquare.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn."
+    },
+    "Khazna Data Centers": {
+      "x": "khazna_dc",
+      "instagram": "khazna_data_centers",
+      "website": "khaznadatacenters.com",
+      "evidence": {
+        "x": "https://khaznadatacenters.com/ (JSON-LD sameAs); last post 2026-10-23",
+        "instagram": "https://khaznadatacenters.com/ (footer); last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": "khazna.ae redirects to khaznadatacenters.com."
+    },
+    "H5 Data Centers": {
+      "x": "h5_datacenters",
+      "instagram": "h5datacenters",
+      "website": "h5datacenters.com",
+      "evidence": {
+        "x": "https://h5datacenters.com/ (footer); last post 2026-01-14",
+        "instagram": "https://h5datacenters.com/ (footer); last post 2026-07-24"
+      },
+      "checked": "2026-10-29",
+      "notes": "Both accounts post infrequently (X last 2026-01-14), still within 12 months."
+    },
+    "Telehouse": {
+      "x": null,
+      "instagram": null,
+      "website": "telehouse.net",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Both linked X accounts are dormant: @TelehouseEurope (from telehouse.net, last post 2024-07-16) and Telehouse America @telehouse (from https://www.telehouse.com/, last post 2024-09-19). No Instagram found.",
+      "inactive": {
+        "x": {
+          "handle": "TelehouseEurope",
+          "last_post": "2024-07-16",
+          "evidence": "https://www.telehouse.net/ (footer)"
+        }
+      }
+    },
+    "Scala Data Centers": {
+      "x": null,
+      "instagram": null,
+      "website": "scaladatacenters.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn. Instagram @scaladatacenters (450 posts, name Scala Data Centers) exists but is unverified and not linked from the site, so it was not accepted. Strong candidate if Scala adds it to its site."
+    },
+    "CoreSite": {
+      "x": null,
+      "instagram": null,
+      "website": "coresite.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn. X @CoreSite exists but is unverified, not linked from the site, last post 2025-02-24. Instagram @coresite is an unrelated Iranian shop."
+    },
+    "NorthC": {
+      "x": null,
+      "instagram": null,
+      "website": "northcdatacenters.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn."
+    },
+    "NEXTDC": {
+      "x": "nextdc",
+      "instagram": null,
+      "website": "nextdc.com",
+      "evidence": {
+        "x": "https://www.nextdc.com/ (footer); last post 2026-05-02",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No Instagram link on the site. Instagram @nextdc is NOT NEXTDC (bio links to an agency, linktr.ee/nextdcagency). Do not tag it."
+    },
+    "Cogent Communications": {
+      "x": "cogentco",
+      "instagram": null,
+      "website": "cogentco.com",
+      "evidence": {
+        "x": "https://www.cogentco.com/en/ (footer); last post 2026-10-14",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No Instagram link on the site."
+    },
+    "Nxtra Data": {
+      "x": null,
+      "instagram": null,
+      "website": "nxtra.in",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "The site's JSON-LD links twitter.com/nxtrabyairtel, but that account does not exist. Otherwise only LinkedIn."
+    },
+    "Keppel DC REIT": {
+      "x": null,
+      "instagram": "keppelltd",
+      "website": "keppeldcreit.com",
+      "evidence": {
+        "x": null,
+        "instagram": "https://www.keppel.com/ (footer); verified badge, last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": "No accounts for Keppel DC REIT itself (site links only LinkedIn). Instagram is the parent Keppel Ltd corporate account. No Keppel X account linked anywhere."
+    },
+    "Keppel Data Centres": {
+      "x": null,
+      "instagram": "keppelltd",
+      "website": "keppeldatacentres.com",
+      "evidence": {
+        "x": null,
+        "instagram": "https://www.keppel.com/ (footer); verified badge, last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": "No accounts for Keppel Data Centres itself. Instagram is the parent Keppel Ltd corporate account."
+    },
+    "365 Data Centers": {
+      "x": "365datacenters",
+      "instagram": null,
+      "website": "365datacenters.com",
+      "evidence": {
+        "x": "https://365datacenters.com/ (JSON-LD sameAs); verified badge, last post 2026-10-28",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No Instagram link on the site."
+    },
+    "KIO Networks": {
+      "x": null,
+      "instagram": "kio.tech",
+      "website": "kio.tech",
+      "evidence": {
+        "x": null,
+        "instagram": "https://www.kio.tech/ (footer); last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": "No X link on the site."
+    },
+    "Princeton Digital Group": {
+      "x": null,
+      "instagram": null,
+      "website": "princetondg.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn."
+    },
+    "CABASE": {
+      "x": "CabaseAr",
+      "instagram": "cabasearg",
+      "website": "cabase.org.ar",
+      "evidence": {
+        "x": "https://www.cabase.org.ar/en/home/ (footer); last post 2026-10-28",
+        "instagram": "https://www.cabase.org.ar/en/home/ (footer); last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": "Cámara Argentina de Internet, an industry association, not a company."
+    },
+    "Google": {
+      "x": "googlecloud",
+      "instagram": "googlecloud",
+      "website": "cloud.google.com",
+      "evidence": {
+        "x": "https://cloud.google.com/ (footer); verified badge, last post 2026-10-28",
+        "instagram": "https://cloud.google.com/ (footer); verified badge, last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": "Google Cloud accounts, used for data center topics. datacenters.google has no social links. Localized accounts (@GoogleCloud_DE, _FR, _JP etc.) also exist."
+    },
+    "OVHcloud": {
+      "x": "OVHcloud",
+      "instagram": null,
+      "website": "ovhcloud.com",
+      "evidence": {
+        "x": "https://x.com/OVHcloud (verified badge + bio link to ovhcloud.com); last post 2026-10-20",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "The site footer rendered no social links, so X is accepted on badge plus bio link. Instagram @ovhcloud is an unrelated personal account. Do not tag it."
+    },
+    "CDC Data Centres": {
+      "x": null,
+      "instagram": null,
+      "website": "cdc.com.au",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn."
+    },
+    "GDS Holdings": {
+      "x": null,
+      "instagram": null,
+      "website": "gds-services.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No social links on gds-services.com."
+    },
+    "euNetworks": {
+      "x": "euNetworks",
+      "instagram": null,
+      "website": "eunetworks.com",
+      "evidence": {
+        "x": "https://eunetworks.com/ (footer); last post 2026-10-28",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No Instagram link on the site."
+    },
+    "Prime Data Centers": {
+      "x": null,
+      "instagram": null,
+      "website": "primedatacenters.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn."
+    },
+    "nLighten": {
+      "x": null,
+      "instagram": null,
+      "website": "nlighten.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn. X @nLighten belongs to an unrelated private person."
+    },
+    "Cirion Technologies": {
+      "x": "ciriontech",
+      "instagram": "cirion_technologies",
+      "website": "ciriontechnologies.com",
+      "evidence": {
+        "x": "https://www.ciriontechnologies.com/en/ (footer); last post 2026-02-24",
+        "instagram": "https://www.ciriontechnologies.com/en/ (footer); last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": ""
+    },
+    "GlobalConnect": {
+      "x": null,
+      "instagram": null,
+      "website": "globalconnect.no",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No group-level accounts. The country sites link regional Instagram accounts only: @globalconnect_norge (globalconnect.no, last post 2026-02-13) and @globalconnect_sverige (globalconnect.se, last post 2026-01-15). Use them only for posts about Norway or Sweden. No X account."
+    },
+    "Global Switch": {
+      "x": null,
+      "instagram": null,
+      "website": "globalswitch.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No social links besides LinkedIn on the site. X @GlobalSwitch exists but is not linked from the site and last posted 2024-12-04."
+    },
+    "AtlasEdge": {
+      "x": null,
+      "instagram": null,
+      "website": "atlasedge.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Instagram @atlasedge_ is linked from the site but last posted 2025-01-28. No X link.",
+      "inactive": {
+        "instagram": {
+          "handle": "atlasedge_",
+          "last_post": "2025-01-28",
+          "evidence": "https://atlasedge.com/ (JSON-LD sameAs)"
+        }
+      }
+    },
+    "Compass Datacenters": {
+      "x": "compassdcs",
+      "instagram": "compassdatacenters",
+      "website": "compassdatacenters.com",
+      "evidence": {
+        "x": "https://www.compassdatacenters.com/ (footer); last post 2026-10-20",
+        "instagram": "https://www.compassdatacenters.com/ (footer); last post 2026-10-27"
+      },
+      "checked": "2026-10-29",
+      "notes": ""
+    },
+    "AirTrunk": {
+      "x": null,
+      "instagram": "airtrunk.official",
+      "website": "airtrunk.com",
+      "evidence": {
+        "x": null,
+        "instagram": "https://airtrunk.com/ (footer); last post 2026-10-27"
+      },
+      "checked": "2026-10-29",
+      "notes": "No X link on the site. X @AirTrunk (bio link airtrunk.com, last post 2026-09-15) exists but is unverified, so it was not accepted."
+    },
+    "atNorth": {
+      "x": null,
+      "instagram": null,
+      "website": "atnorth.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn."
+    },
+    "Soluna": {
+      "x": "SolunaHoldings",
+      "instagram": null,
+      "website": "solunacomputing.com",
+      "evidence": {
+        "x": "https://www.solunacomputing.com/ (footer); verified badge, last post 2026-10-26",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Soluna Holdings. No Instagram link on the site."
+    },
+    "Data4": {
+      "x": null,
+      "instagram": null,
+      "website": "data4group.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn. X @data4_group exists but is not linked from the site and last posted 2019-03-06."
+    },
+    "Ada Infrastructure": {
+      "x": null,
+      "instagram": null,
+      "website": "adainfrastructure.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "The site footer links twitter.com/adainfra, but that account does not exist. Otherwise only LinkedIn."
+    },
+    "IREN": {
+      "x": "IREN_Ltd",
+      "instagram": null,
+      "website": "iren.com",
+      "evidence": {
+        "x": "https://iren.com/ (JSON-LD sameAs + contact page); verified badge, last post 2026-10-23",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No Instagram link on the site."
+    },
+    "EdgeCore Digital Infrastructure": {
+      "x": null,
+      "instagram": null,
+      "website": "edgecore.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn. X @EdgeCoreDC exists but is not linked from the site and last posted 2022-11-11."
+    },
+    "Switch": {
+      "x": "switch",
+      "instagram": null,
+      "website": "switch.com",
+      "evidence": {
+        "x": "https://www.switch.com/ (footer + JSON-LD); verified badge, last post 2026-10-26",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Switch, Inc. (US). Not Switch Datacenters NL (@switchdatacenters). No Instagram link on switch.com. Instagram @switch is a different company (verified, bio joinswitch.com). Do not tag it."
+    },
+    "AdaniConneX": {
+      "x": null,
+      "instagram": "lifeatadaniconnex",
+      "website": "adaniconnex.com",
+      "evidence": {
+        "x": null,
+        "instagram": "https://www.adaniconnex.com/ (footer); last post 2026-10-24"
+      },
+      "checked": "2026-10-29",
+      "notes": "Instagram @lifeatadaniconnex is the employer-brand account (the only Instagram on the site). X @AdaniConneX exists but is unverified, has no bio link and is not linked from the site."
+    },
+    "Hut 8": {
+      "x": "Hut8Corp",
+      "instagram": null,
+      "website": "hut8.com",
+      "evidence": {
+        "x": "https://www.hut8.com/ (footer); verified badge, last post 2026-10-28",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No Instagram link on the site."
+    },
+    "Nebius": {
+      "x": "nebiusai",
+      "instagram": null,
+      "website": "nebius.com",
+      "evidence": {
+        "x": "https://nebius.com/ (footer + JSON-LD); verified badge, last post 2026-10-28",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No Instagram link on the site."
+    },
+    "Crusoe": {
+      "x": "crusoeai",
+      "instagram": "crusoe.ai",
+      "website": "crusoe.ai",
+      "evidence": {
+        "x": "https://www.crusoe.ai/ (footer); verified badge, last post 2026-10-29",
+        "instagram": "https://www.crusoe.ai/ (footer); last post 2026-10-29"
+      },
+      "checked": "2026-10-29",
+      "notes": ""
+    },
+    "OpenAI": {
+      "x": "OpenAI",
+      "instagram": "openai",
+      "website": "openai.com",
+      "evidence": {
+        "x": "https://openai.com/ (footer, checked in browser); verified badge, last post 2026-10-26",
+        "instagram": "https://openai.com/ (footer, checked in browser); verified badge, last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": ""
+    },
+    "Galaxy Digital": {
+      "x": "GalaxyHQ",
+      "instagram": "galaxydigitalhq",
+      "website": "galaxy.com",
+      "evidence": {
+        "x": "https://www.galaxy.com/ (footer); verified badge, last post 2026-10-27",
+        "instagram": "https://www.galaxy.com/ (footer); verified badge, last post 2026-10-23"
+      },
+      "checked": "2026-10-29",
+      "notes": ""
+    },
+    "Zerra DC": {
+      "x": null,
+      "instagram": null,
+      "website": "zerradc.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site (zerradc.com) links only LinkedIn."
+    },
+    "Meta": {
+      "x": "Meta",
+      "instagram": "datacentersatmeta",
+      "website": "meta.com",
+      "evidence": {
+        "x": "https://www.meta.com/about/ (footer); verified badge, last post 2026-10-12",
+        "instagram": "https://datacenters.atmeta.com/ (footer); verified badge, last post 2026-09-04"
+      },
+      "checked": "2026-10-29",
+      "notes": "X is the corporate @Meta account; no Meta Data Centers X account linked. Instagram is the dedicated Data Centers at Meta account. Corporate Instagram @meta is linked from meta.com."
+    },
+    "Microsoft": {
+      "x": "azure",
+      "instagram": "microsoftazure",
+      "website": "azure.microsoft.com",
+      "evidence": {
+        "x": "https://azure.microsoft.com/en-us/blog/ (footer); verified badge, last post 2026-10-27",
+        "instagram": "https://azure.microsoft.com/en-us/blog/ (footer); verified badge, last post 2026-10-23"
+      },
+      "checked": "2026-10-29",
+      "notes": "Microsoft Azure accounts. Corporate @Microsoft is the alternative."
+    },
+    "Amazon Web Services": {
+      "x": "awscloud",
+      "instagram": "amazonwebservices",
+      "website": "aws.amazon.com",
+      "evidence": {
+        "x": "https://aws.amazon.com/ (footer); verified badge, last post 2026-10-28",
+        "instagram": "https://aws.amazon.com/ (footer); verified badge, last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": ""
+    },
+    "Oracle": {
+      "x": "OracleCloud",
+      "instagram": null,
+      "website": "oracle.com",
+      "evidence": {
+        "x": "https://x.com/OracleCloud (verified badge + bio link to oracle.com/cloud); last post 2026-10-28",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "OCI account. Corporate X @oracle (verified, active) is the one linked from the https://www.oracle.com/ footer. Instagram: @oracle is verified and active (last post 2026-10-28), but its bio links only to Oracle's ora.cl shortener, not oracle.com, and oracle.com does not link it, so it is left null. A one-line manual approval would let you add it. https://www.oracle.com/careers/ links @oraclecareers (careers account)."
+    },
+    "Viettel IDC": {
+      "x": null,
+      "instagram": null,
+      "website": "viettelidc.com.vn",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "X @viettelidc is linked from the site but last posted 2022-08-02.",
+      "inactive": {
+        "x": {
+          "handle": "viettelidc",
+          "last_post": "2022-08-02",
+          "evidence": "https://viettelidc.com.vn/ (footer, rendered in browser)"
+        }
+      }
+    },
+    "VNPT": {
+      "x": null,
+      "instagram": null,
+      "website": "vnpt.com.vn",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No X or Instagram links on vnpt.com.vn."
+    },
+    "FPT": {
+      "x": null,
+      "instagram": "fpt.telecom",
+      "website": "fpt.vn",
+      "evidence": {
+        "x": null,
+        "instagram": "https://fpt.vn/vi (footer); last post 2026-02-14"
+      },
+      "checked": "2026-10-29",
+      "notes": "Instagram is FPT Telecom, the Vietnamese ISP brand, posting in Vietnamese. FPT Smart Cloud (fptcloud.com) links only LinkedIn. X @FPTSmartCloud exists but is not linked from the site and last posted 2023-12-11."
+    },
+    "CMC Telecom": {
+      "x": null,
+      "instagram": null,
+      "website": "cmctelecom.vn",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No X or Instagram links on cmctelecom.vn."
+    },
+    "Yondr": {
+      "x": null,
+      "instagram": null,
+      "website": "yondrgroup.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn."
+    },
+    "Pure DC": {
+      "x": null,
+      "instagram": null,
+      "website": "puredc.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn."
+    },
+    "Stack EMEA": {
+      "x": null,
+      "instagram": null,
+      "website": "stackinfra.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Not a separate brand online: STACK EMEA is part of stackinfra.com, which links only LinkedIn and YouTube. See STACK Infrastructure."
+    },
+    "Africa Data Centers": {
+      "x": "africa_dc",
+      "instagram": null,
+      "website": "africadatacentres.com",
+      "evidence": {
+        "x": "https://www.africadatacentres.com/ (JSON-LD sameAs, URL malformed as twitter.com/https://twitter.com/africa_dc); bio link to africadatacentres.com; last post 2026-10-27",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Brand spelling is 'Africa Data Centres'. No Instagram link on the site."
+    },
+    "Teraco": {
+      "x": "TeracoDC",
+      "instagram": null,
+      "website": "teraco.co.za",
+      "evidence": {
+        "x": "https://www.teraco.co.za/ (footer); last post 2026-10-27",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Instagram @teracodc is linked from the site but last posted 2022-04-05.",
+      "inactive": {
+        "instagram": {
+          "handle": "teracodc",
+          "last_post": "2022-04-05",
+          "evidence": "https://www.teraco.co.za/ (footer)"
+        }
+      }
+    },
+    "Raxio": {
+      "x": null,
+      "instagram": null,
+      "website": "raxiogroup.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn. X @Raxio_Group (bio link raxiogroup.com, active 2026-10-28) exists but is unverified, so it was not accepted."
+    },
+    "Sify": {
+      "x": "SifyTech",
+      "instagram": null,
+      "website": "sifytechnologies.com",
+      "evidence": {
+        "x": "https://www.sifytechnologies.com/ (footer); last post 2026-08-14",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Sify Technologies corporate account. No Instagram link on the site."
+    },
+    "CtrlS": {
+      "x": null,
+      "instagram": null,
+      "website": "ctrls.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "X @CtrlSDC is linked from the site but last posted 2022-12-14.",
+      "inactive": {
+        "x": {
+          "handle": "CtrlSDC",
+          "last_post": "2022-12-14",
+          "evidence": "https://www.ctrls.com/ (footer)"
+        }
+      }
+    },
+    "Yotta": {
+      "x": "YottaInfra",
+      "instagram": null,
+      "website": "yotta.com",
+      "evidence": {
+        "x": "https://yotta.com/ (footer); verified badge, last post 2026-10-28",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No Instagram link on the site."
+    },
+    "BDx Data Centers": {
+      "x": "bdxworld",
+      "instagram": null,
+      "website": "bdxworld.com",
+      "evidence": {
+        "x": "https://www.bdxworld.com/ (JSON-LD sameAs); last post 2026-09-16",
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No Instagram link on the site."
+    },
+    "Bridge Data Centres": {
+      "x": null,
+      "instagram": null,
+      "website": "bridgedatacentres.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn."
+    },
+    "DayOne": {
+      "x": null,
+      "instagram": null,
+      "website": "dayonedc.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn."
+    },
+    "Digital Edge": {
+      "x": null,
+      "instagram": null,
+      "website": "digitaledgedc.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn. X @DigitalEdgeDC exists with bio link to digitaledgedc.com but is unverified and not linked from the site."
+    },
+    "AIMS Data Centre": {
+      "x": null,
+      "instagram": null,
+      "website": "aims.com.my",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Site links only LinkedIn. The site blocks automated fetches; checked in a real browser."
+    },
+    "Chindata": {
+      "x": null,
+      "instagram": null,
+      "website": "chindatagroup.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No social links on chindatagroup.com. X @ChindataGroup exists but is not linked from the site and last posted 2024-11-28."
+    },
+    "VNET": {
+      "x": null,
+      "instagram": null,
+      "website": "vnet.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No social links on vnet.com (Chinese site)."
+    },
+    "Telstra": {
+      "x": "telstra",
+      "instagram": "telstra",
+      "website": "telstra.com.au",
+      "evidence": {
+        "x": "https://www.telstra.com.au/ (JSON-LD sameAs); last post 2026-07-27",
+        "instagram": "https://www.telstra.com.au/ (footer); verified badge, last post 2026-10-23"
+      },
+      "checked": "2026-10-29",
+      "notes": "Telstra corporate (telco) accounts."
+    },
+    "Macquarie Data Centres": {
+      "x": null,
+      "instagram": null,
+      "website": "macquariedatacentres.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No social links on the site. X @MacquarieDC exists but is not linked from the site and last posted 2023-05-29."
+    },
+    "CDC": {
+      "x": null,
+      "instagram": null,
+      "website": "cdc.com.au",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Same company as CDC Data Centres. Site links only LinkedIn."
+    },
+    "Canberra Data Centres": {
+      "x": null,
+      "instagram": null,
+      "website": "cdc.com.au",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "Former name of CDC Data Centres. Site links only LinkedIn."
+    },
+    "ODATA": {
+      "x": null,
+      "instagram": "odata_datacenter",
+      "website": "odatadc.com",
+      "evidence": {
+        "x": null,
+        "instagram": "https://odatadc.com/ (footer); last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": "ODATA is part of Aligned Data Centers. No X link on the site."
+    },
+    "Elea Data Centers": {
+      "x": null,
+      "instagram": "eleadatacenters",
+      "website": "eleadatacenters.com",
+      "evidence": {
+        "x": null,
+        "instagram": "https://eleadatacenters.com/ (footer); last post 2026-10-28"
+      },
+      "checked": "2026-10-29",
+      "notes": "elea.com is an unrelated company; the correct domain is eleadatacenters.com. No X link on the site."
+    },
+    "Templus": {
+      "x": null,
+      "instagram": null,
+      "website": "templus.com",
+      "evidence": {
+        "x": null,
+        "instagram": null
+      },
+      "checked": "2026-10-29",
+      "notes": "No social links on templus.com (checked in a browser)."
+    }
+  }
+}

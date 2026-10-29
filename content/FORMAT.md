@@ -15,11 +15,12 @@ The canonical schema for the writer routine, and for anyone editing the queue by
 | `megawatt-watch` | Megawatt Watch | news + `capacityWatch` + `pipeline` | cover with total MW → hbar ranking → one stat per project → pipeline list |
 | `map-of-the-week` | Map of the Week | `pipeline`, facilities | map cover (dot-grid world + MW bubbles) → hbar → regional `map` slides → compare |
 | `ranked` | Ranked | colo index / pipeline / gpu | cover → list top-6 or bar top-8 → stats on #1 and a surprise |
+| `coloprice-top` | Coloprice Top | `datasets.rankings` (operator rankings) + `config/handles.json` | cover with #1's figure → hbar top-8 → list with countries/MW → stat on a surprise (fast riser, a country leader) → closing; tags the operators' official accounts |
 | `deal-sheet` | Deal Sheet | news + `transactions` + `capacityWatch` | cover → list of deals → one stat per deal → pipeline chart |
 | `outage-files` | Outage Files | news + `incidents` | cover → stat timeline points → cause list → closing |
 | `explainer` | Explainer (alternates with Outage Files) | any | cover → 3–5 stats/lists → closing |
 
-Weekly rhythm (Mon–Fri, max 1 post/day): Mon Index · Tue GPU · Wed Megawatt Watch · Thu Map/Ranked · Fri Deal Sheet or Outage Files/Explainer. Don't repeat the format of the last published post unless the queue would otherwise be empty.
+Weekly rhythm (Mon–Fri, max 1 post/day): Mon Index · Tue GPU · Wed Megawatt Watch · Thu Coloprice Top (alternate weeks with Map/Ranked) · Fri Deal Sheet or Outage Files/Explainer. Don't repeat the format of the last published post unless the queue would otherwise be empty.
 
 ## Top-level fields
 
@@ -93,6 +94,14 @@ Footers print the source and date of each slide automatically. The header prints
 - End with a question that invites expert comments, then the literal text "link in bio".
 - No URLs and no other domains. The plain text `coloprice.com` may appear in at most one of every 3 posts (the validator checks history and queue order).
 - Hashtags go in `hashtags[]`, never in the caption text.
+
+## Coloprice Top: rankings with official accounts tagged
+A top list from Coloprice's own rankings (`datasets.rankings`: largest operators worldwide by tracked facilities or by published MW, or the leaders of one country). One ranking per post; cite it as a data hook with its `asOf`.
+
+- **Mentions.** Add one caption line `Featured: @handle @handle …` (after the `Data:` line) for the ranked operators that have an `instagram` handle in `config/handles.json` — at most 8, in ranking order. Never guess a handle and never use one that is not in that file: a wrong handle tags an impostor. Operators without a handle are simply named on the slides. The validator rejects unknown handles and handles of operators that do not appear on a slide.
+- **User tags** (optional `userTags: [{ "username": "equinix", "slide": 2 }]`): tag up to 6 of the listed operators on the slide that shows the ranking (usually the hbar slide). Same handle rule. If Instagram refuses a tag, the slide is posted without it.
+- **Tone.** A ranking is a fact from the catalogue, not an endorsement: "largest by tracked facilities", "by published MW (n of N sites publish MW)". No "best", no promotional adjectives, no claims about service quality.
+- **X.** No @mentions in the automated X post (X automation rules forbid automated unsolicited mentions); the X text names the companies in plain text. Artem can quote-post with tags by hand.
 
 ## X (Twitter) cross-post (optional `x` field)
 After a carousel is live on Instagram, `scripts/publish-x.mjs` posts it to X: a text of at most 280 weighted characters, up to 4 slide images with alt text, and one reply with the coloprice.com link. Nothing is needed in the queue file: the post is derived automatically.

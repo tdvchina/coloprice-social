@@ -74,7 +74,7 @@ export const replyText = (def) => `Full table + sources: ${displayUrl(replyUrl(d
 
 // ── text ──
 const lines = (cap) => String(cap || '').split('\n').map((l) => l.trim());
-const isMeta = (l) => /^(data|sources?)\s*:/i.test(l) || /link in bio/i.test(l) || /\?\s*$/.test(l) || /#\w/.test(l);
+const isMeta = (l) => /^(data|sources?|featured)\s*:/i.test(l) || /link in bio/i.test(l) || /\?\s*$/.test(l) || /#\w/.test(l) || /(^|\s)@[A-Za-z0-9_]/.test(l);
 const sentences = (para) => para.split(/(?<=[.!;])\s+(?=[A-Z0-9“"'(])/).map((x) => x.trim()).filter(Boolean);
 
 /** Caption sentences that carry a number (supporting-fact candidates), in caption order. */
@@ -213,6 +213,8 @@ export function xPostErrors(def, { env = process.env, post = buildXPost(def) } =
   if (len > X_MAX) E.push(`post is ${len} weighted chars > ${X_MAX}`);
   if (hasLink(text)) E.push('no URL or domain in the main post (links cut reach on X) — the link goes in the reply');
   if (/link in bio/i.test(text)) E.push('"link in bio" is Instagram wording — not for X');
+  // X automation rules forbid automated unsolicited @mentions: operators are named in plain text on X.
+  if (/(^|[\s(])@[A-Za-z0-9_]/.test(text)) E.push('no @mentions in automated X posts (X automation rules) — name the company in plain text');
   if (/#\w/.test(text) && x.text == null) E.push('derived text must not carry hashtags');
   const corpus = factNumbers(def);
   const miss = missingNumbers(text, corpus);

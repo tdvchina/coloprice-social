@@ -4,7 +4,8 @@
 //   remote (default, works in CI): public CC BY endpoints on coloprice.com
 //     /data/colocation-price-index.json, /data/gpu-price-index.json,
 //     /api/history/colo-index.json, /api/history/gpu-prices.json,
-//     /data/data-center-pipeline.csv, /data/transactions.csv, /data/data-center-incidents.csv
+//     /data/data-center-pipeline.csv, /data/transactions.csv, /data/data-center-incidents.csv,
+//     /data/operator-rankings.json
 //   local (--local=<colocationindex/src/data> or COLOPRICE_DATA_DIR): the site's own data files —
 //     adds capacity-watch.json (no public JSON endpoint yet) and richer incident/deal fields.
 //
@@ -171,6 +172,19 @@ await step('incidents', async () => {
   }
   list.sort((a, b) => String(b.date).localeCompare(String(a.date)));
   return { title: 'Coloprice data center incident database', citeAs: 'Coloprice incident database', url: `${BASE}/data/data-center-incidents.csv`, page: `${BASE}/incidents/`, asOf, recent: list.slice(0, 15), total: list.length };
+});
+
+// Operator rankings (Coloprice Top rubric): /data/operator-rankings.json — one operator = one canonical name.
+await step('rankings', async () => {
+  const d = await getJson('/data/operator-rankings.json');
+  const line = (o) => `#${o.rank} ${o.name}: ${o.facilities} tracked facilities in ${o.countries} ${o.countries === 1 ? 'country' : 'countries'}${o.mw ? `, ${o.mw.toLocaleString('en-US')} MW published (${o.mwCount} of ${o.facilities} sites publish MW)` : ''}`;
+  const facts = [
+    `Catalogue: ${d.totals.operators} operators, ${d.totals.facilities} facilities in ${d.totals.countries} countries (as of ${d.asOf})`,
+    ...d.global.byFacilities.slice(0, 10).map((o) => `Largest by tracked facilities — ${line(o)}`),
+    ...d.global.byMw.slice(0, 10).map((o) => `Largest by published MW — ${line(o)}`),
+  ];
+  for (const [slug, c] of Object.entries(d.byCountry)) facts.push(...c.operators.slice(0, 5).map((o) => `${c.countryName} (${c.facilities} facilities, ${c.operators.length >= 5 ? 'top 5' : 'leaders'}) — ${line(o)}`));
+  return { ...d, facts };
 });
 
 // local-only: capacity watch (public page exists, no JSON endpoint)

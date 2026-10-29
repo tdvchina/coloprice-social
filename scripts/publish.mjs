@@ -139,6 +139,7 @@ if (DRY) {
   console.log('\n— DRY RUN — nothing sent to Instagram');
   console.log('Slides:\n  ' + urls.join('\n  '));
   console.log(`\nCaption (${caption.length} chars):\n${caption}`);
+  if ((def.userTags || []).length) console.log(`User tags: ${def.userTags.map((t) => `@${t.username} (slide ${t.slide ?? 1})`).join(', ')}`);
   process.exit(0);
 }
 
@@ -210,11 +211,30 @@ try {
   const quota = await api(`${igUser}/content_publishing_limit`, { params: { fields: 'quota_usage,config' } }).catch(() => null);
   if (quota?.data?.[0]) console.log(`  quota: ${quota.data[0].quota_usage}/${quota.data[0].config?.quota_total ?? '?'} in 24h`);
 
+  // userTags (official accounts from config/handles.json, checked by the validator): tags on carousel images,
+  // spread along the bottom of the slide. If Instagram refuses a tag (account not taggable), the slide is
+  // posted without tags rather than failing the post.
+  const tagsBySlide = new Map();
+  for (const t of def.userTags || []) {
+    const i = (t.slide ?? 1) - 1;
+    tagsBySlide.set(i, [...(tagsBySlide.get(i) || []), t.username]);
+  }
   const children = [];
-  for (const u of urls) {
-    const j = await api(`${igUser}/media`, { method: 'POST', params: { image_url: u, is_carousel_item: 'true' } });
+  for (const [i, u] of urls.entries()) {
+    const names = tagsBySlide.get(i) || [];
+    const params = { image_url: u, is_carousel_item: 'true' };
+    if (names.length) params.user_tags = JSON.stringify(names.map((username, k) => ({ username, x: +((k + 1) / (names.length + 1)).toFixed(2), y: 0.9 })));
+    let j;
+    try {
+      j = await api(`${igUser}/media`, { method: 'POST', params });
+    } catch (err) {
+      if (!params.user_tags) throw err;
+      console.log(`  ! user tags refused on slide ${i + 1} (${err.message}) — posting it without tags`);
+      delete params.user_tags;
+      j = await api(`${igUser}/media`, { method: 'POST', params });
+    }
     children.push(j.id);
-    console.log(`  child ${children.length}/${urls.length}: ${j.id}`);
+    console.log(`  child ${children.length}/${urls.length}: ${j.id}${names.length && params.user_tags ? ` (tags: ${names.join(', ')})` : ''}`);
   }
   for (const c of children) await waitContainer(c);
   const container = await api(`${igUser}/media`, { method: 'POST', params: { media_type: 'CAROUSEL', children: children.join(','), caption } });
