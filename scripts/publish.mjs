@@ -63,6 +63,7 @@ if (blocked) {
 }
 
 // ── pick ──
+const THURSDAY = new Date(`${today}T12:00:00Z`).getUTCDay() === 4 && !args.slug;
 const files = (await readdir(QUEUE_DIR)).filter((f) => f.endsWith('.json')).sort();
 let def = null;
 let file = null;
@@ -82,9 +83,10 @@ for (const f of files) {
     }
     continue;
   }
-  def = d;
-  file = f;
-  break;
+  if (!def) (def = d), (file = f);
+  // Thursday (Asia/Bangkok) is the fixed weekly slot of Coloprice Top: a ready one jumps the queue.
+  if (THURSDAY && d.format === 'coloprice-top') { def = d; file = f; break; }
+  if (!THURSDAY) break;
 }
 if (!def) {
   if (args.slug) await fail(`no queued carousel with slug "${args.slug}"`);

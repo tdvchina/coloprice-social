@@ -4,14 +4,13 @@
   "operators": {
     "Equinix": {
       "x": "Equinix",
-      "instagram": "lifeatequinix",
+      "instagram": null,
       "website": "equinix.com",
       "evidence": {
-        "x": "https://www.equinix.com/ (footer); verified badge, last post 2026-10-28",
-        "instagram": "https://careers.equinix.com/ (footer); last post 2026-10-27"
+        "x": "https://www.equinix.com/ (footer); verified badge, last post 2026-10-28"
       },
       "checked": "2026-10-29",
-      "notes": "Instagram: @lifeatequinix is Equinix's employer-brand account linked from its careers site. The main @equinix Instagram has 0 posts, no verified badge and no link from equinix.com, so it is not used."
+      "notes": "Instagram: @lifeatequinix is Equinix's employer-brand account linked from its careers site. The main @equinix Instagram has 0 posts, no verified badge and no link from equinix.com, so it is not used. Instagram @lifeatequinix is a careers account — not tagged (Artem, 29.10.2026)."
     },
     "Digital Realty": {
       "x": "digitalrealty",
@@ -161,14 +160,13 @@
     },
     "Vantage Data Centers": {
       "x": "vantagedc",
-      "instagram": "lifeatvantage",
+      "instagram": null,
       "website": "vantage-dc.com",
       "evidence": {
-        "x": "https://vantage-dc.com/ (footer); last post 2026-10-28",
-        "instagram": "https://vantage-dc.com/ (footer); last post 2026-10-22"
+        "x": "https://vantage-dc.com/ (footer); last post 2026-10-28"
       },
       "checked": "2026-10-29",
-      "notes": "Instagram @lifeatvantage is Vantage's employer-brand account (the only Instagram linked from the site). A second link in the site's code, @vantagedcpeople, points to an account that does not exist."
+      "notes": "Instagram @lifeatvantage is Vantage's employer-brand account (the only Instagram linked from the site). A second link in the site's code, @vantagedcpeople, points to an account that does not exist. Instagram @lifeatvantage is a careers account — not tagged (Artem, 29.10.2026)."
     },
     "TierPoint": {
       "x": "tierpoint",
@@ -633,14 +631,13 @@
     },
     "AdaniConneX": {
       "x": null,
-      "instagram": "lifeatadaniconnex",
+      "instagram": null,
       "website": "adaniconnex.com",
       "evidence": {
-        "x": null,
-        "instagram": "https://www.adaniconnex.com/ (footer); last post 2026-10-24"
+        "x": null
       },
       "checked": "2026-10-29",
-      "notes": "Instagram @lifeatadaniconnex is the employer-brand account (the only Instagram on the site). X @AdaniConneX exists but is unverified, has no bio link and is not linked from the site."
+      "notes": "Instagram @lifeatadaniconnex is the employer-brand account (the only Instagram on the site). X @AdaniConneX exists but is unverified, has no bio link and is not linked from the site. Instagram @lifeatadaniconnex is a careers account — not tagged (Artem, 29.10.2026)."
     },
     "Hut 8": {
       "x": "Hut8Corp",
@@ -743,11 +740,11 @@
     },
     "Oracle": {
       "x": "OracleCloud",
-      "instagram": null,
+      "instagram": "oracle",
       "website": "oracle.com",
       "evidence": {
         "x": "https://x.com/OracleCloud (verified badge + bio link to oracle.com/cloud); last post 2026-10-28",
-        "instagram": null
+        "instagram": "https://www.instagram.com/oracle/ (verified badge, active; bio links ora.cl shortener) — approved manually by Artem 29.10.2026"
       },
       "checked": "2026-10-29",
       "notes": "OCI account. Corporate X @oracle (verified, active) is the one linked from the https://www.oracle.com/ footer. Instagram: @oracle is verified and active (last post 2026-10-28), but its bio links only to Oracle's ora.cl shortener, not oracle.com, and oracle.com does not link it, so it is left null. A one-line manual approval would let you add it. https://www.oracle.com/careers/ links @oraclecareers (careers account)."

@@ -15,12 +15,12 @@ The canonical schema for the writer routine, and for anyone editing the queue by
 | `megawatt-watch` | Megawatt Watch | news + `capacityWatch` + `pipeline` | cover with total MW → hbar ranking → one stat per project → pipeline list |
 | `map-of-the-week` | Map of the Week | `pipeline`, facilities | map cover (dot-grid world + MW bubbles) → hbar → regional `map` slides → compare |
 | `ranked` | Ranked | colo index / pipeline / gpu | cover → list top-6 or bar top-8 → stats on #1 and a surprise |
-| `coloprice-top` | Coloprice Top | `datasets.rankings` (operator rankings) + `config/handles.json` | cover with #1's figure → hbar top-8 → list with countries/MW → stat on a surprise (fast riser, a country leader) → closing; tags the operators' official accounts |
+| `coloprice-top` | Coloprice Top (weekly, Thursday) | `datasets.rankings` (operator rankings) + `config/handles.json` | cover with #1's figure → hbar top-8 → list with countries/MW → stat on a surprise (fast riser, a country leader) → closing; tags the operators' official accounts |
 | `deal-sheet` | Deal Sheet | news + `transactions` + `capacityWatch` | cover → list of deals → one stat per deal → pipeline chart |
 | `outage-files` | Outage Files | news + `incidents` | cover → stat timeline points → cause list → closing |
 | `explainer` | Explainer (alternates with Outage Files) | any | cover → 3–5 stats/lists → closing |
 
-Weekly rhythm (Mon–Fri, max 1 post/day): Mon Index · Tue GPU · Wed Megawatt Watch · Thu Coloprice Top (alternate weeks with Map/Ranked) · Fri Deal Sheet or Outage Files/Explainer. Don't repeat the format of the last published post unless the queue would otherwise be empty.
+Weekly rhythm (Mon–Fri, max 1 post/day): Mon Index · Tue GPU · Wed Megawatt Watch · **Thu Coloprice Top — every week, a fixed slot** · Fri Deal Sheet, Outage Files, Explainer, Map of the Week or Ranked (rotate). Don't repeat the format of the last published post unless the queue would otherwise be empty.
 
 ## Top-level fields
 
