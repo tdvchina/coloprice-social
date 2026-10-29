@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-28T09:34:40.277Z",
+ "generated": "2026-10-29T06:04:19.457Z",
  "base": "https://coloprice.com",
- "mode": "local+remote",
+ "mode": "remote",
  "license": "Coloprice data: CC BY 4.0 (own data). Read-only snapshot.",
  "errors": [],
  "datasets": {
@@ -479,7 +479,7 @@
   },
   "gpuHistory": {
    "title": "GPU rental price history",
-   "asOf": "2026-10-21",
+   "asOf": "2026-10-28",
    "url": "https://coloprice.com/api/history/gpu-prices.json",
    "format": [
     "date",
@@ -555,7 +555,7 @@
       3.26
      ],
      [
-      "2026-10-16",
+      "2026-10-26",
       3.49,
       1.3,
       12.29,
@@ -599,7 +599,7 @@
       3.4
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       4.4,
       2.09,
       13.78,
@@ -636,7 +636,7 @@
       null
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       6.25,
       3.69,
       16.11,
@@ -666,7 +666,7 @@
       10.58
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       13.25,
       8,
       27.04,
@@ -703,7 +703,7 @@
       1.59
      ],
      [
-      "2026-10-16",
+      "2026-10-26",
       1.75,
       0.53,
       5.07,
@@ -733,7 +733,7 @@
       1.09
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       1.53,
       0.38,
       3.77,
@@ -770,7 +770,7 @@
       1.91
      ],
      [
-      "2026-10-16",
+      "2026-10-26",
       2.99,
       1.71,
       12,
@@ -800,7 +800,7 @@
       4.25
      ],
      [
-      "2026-10-16",
+      "2026-10-26",
       7,
       5.99,
       8.6,
@@ -830,7 +830,7 @@
       null
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       0.67,
       0.25,
       1.09,
@@ -860,7 +860,7 @@
       0.27
      ],
      [
-      "2026-10-16",
+      "2026-10-26",
       0.42,
       0.13,
       0.74,
@@ -871,7 +871,7 @@
   },
   "coloHistory": {
    "title": "Wholesale colocation price history",
-   "asOf": "2026-10-21",
+   "asOf": "2026-10-28",
    "url": "https://coloprice.com/api/history/colo-index.json",
    "format": [
     "date",
@@ -909,7 +909,7 @@
       196
      ],
      [
-      "2026-10-16",
+      "2026-10-26",
       196
      ]
     ],
@@ -943,7 +943,7 @@
       173
      ],
      [
-      "2026-10-16",
+      "2026-10-26",
       173
      ]
     ],
@@ -973,7 +973,7 @@
       403
      ],
      [
-      "2026-10-16",
+      "2026-10-26",
       403
      ]
     ],
@@ -983,7 +983,7 @@
       215
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       215
      ]
     ],
@@ -993,7 +993,7 @@
       250
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       250
      ]
     ],
@@ -1003,7 +1003,7 @@
       280
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       280
      ]
     ],
@@ -1013,7 +1013,7 @@
       295
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       295
      ]
     ],
@@ -1023,7 +1023,7 @@
       188
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       188
      ]
     ],
@@ -1033,7 +1033,7 @@
       260
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       260
      ]
     ],
@@ -1043,7 +1043,7 @@
       200
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       200
      ]
     ],
@@ -1053,7 +1053,7 @@
       190
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       190
      ]
     ],
@@ -1063,73 +1063,73 @@
       160
      ],
      [
-      "2026-10-21",
+      "2026-10-28",
       160
      ]
     ],
     "london": [
      [
-      "2026-10-21",
+      "2026-10-28",
       213
      ]
     ],
     "amsterdam": [
      [
-      "2026-10-21",
+      "2026-10-28",
       180
      ]
     ],
     "paris": [
      [
-      "2026-10-21",
+      "2026-10-28",
       190
      ]
     ],
     "dallas": [
      [
-      "2026-10-21",
+      "2026-10-28",
       173
      ]
     ],
     "houston": [
      [
-      "2026-10-21",
+      "2026-10-28",
       180
      ]
     ],
     "los-angeles": [
      [
-      "2026-10-21",
+      "2026-10-28",
       213
      ]
     ],
     "phoenix": [
      [
-      "2026-10-21",
+      "2026-10-28",
       195
      ]
     ],
     "atlanta": [
      [
-      "2026-10-21",
+      "2026-10-28",
       193
      ]
     ],
     "silicon-valley": [
      [
-      "2026-10-21",
+      "2026-10-28",
       238
      ]
     ],
     "hillsboro": [
      [
-      "2026-10-21",
+      "2026-10-28",
       205
      ]
     ],
     "new-york": [
      [
-      "2026-10-21",
+      "2026-10-28",
       213
      ]
     ]
@@ -1140,7 +1140,7 @@
    "citeAs": "Coloprice pipeline tracker",
    "url": "https://coloprice.com/data/data-center-pipeline.csv",
    "page": "https://coloprice.com/pipeline/",
-   "asOf": "2026-10-28",
+   "asOf": "2026-10-29",
    "note": "Coloprice — Data Center Construction Pipeline · published capacity only · CC BY 4.0 · cite coloprice.com/pipeline/",
    "rows": [
     {
@@ -1633,7 +1633,7 @@
    "citeAs": "Coloprice M&A tracker",
    "url": "https://coloprice.com/data/transactions.csv",
    "page": "https://coloprice.com/transactions/",
-   "asOf": "2026-10-02",
+   "asOf": "2026-10-29",
    "deals": [
     {
      "target": "Aligned Data Centers",
@@ -1722,7 +1722,7 @@
     {
      "target": "Vantage Data Centers",
      "buyer": "DigitalBridge-led investor consortia",
-     "seller": null,
+     "seller": "",
      "valueUsdB": 9.2,
      "type": "equity-investment",
      "announced": "2024-06",
@@ -1820,7 +1820,7 @@
     {
      "target": "SK Horizon",
      "buyer": "KKR + IMM Investment-Stonebridge consortium",
-     "seller": null,
+     "seller": "",
      "valueUsdB": 2.2,
      "type": "equity-investment",
      "announced": "2026-08",
@@ -1834,7 +1834,7 @@
     {
      "target": "Helix Digital Infrastructure",
      "buyer": "Samsung Electronics and five Samsung affiliates",
-     "seller": null,
+     "seller": "",
      "valueUsdB": 1,
      "type": "equity-investment",
      "announced": "2026-09",
@@ -1866,8 +1866,20 @@
    "citeAs": "Coloprice incident database",
    "url": "https://coloprice.com/data/data-center-incidents.csv",
    "page": "https://coloprice.com/incidents/",
-   "asOf": "2026-10-13",
+   "asOf": "2026-10-22",
    "recent": [
+    {
+     "date": "2026-10-20",
+     "title": "Google Cloud power event takes down europe-west2-b zone in London",
+     "operator": "Google Cloud",
+     "location": "europe-west2-b (London), United Kingdom",
+     "cause": "power",
+     "durationHours": 8,
+     "source": {
+      "label": "The Register — Google Cloud says a power event caused today's outage",
+      "url": "https://www.theregister.com/paas-and-iaas/2026/10/20/google-cloud-says-a-power-event-caused-todays-outage/5304160"
+     }
+    },
     {
      "date": "2026-10-08",
      "title": "Google Cloud Storage write errors in us-central1 last about 12.5 hours",
@@ -1875,7 +1887,6 @@
      "location": "us-central1 (Iowa), United States",
      "cause": "software",
      "durationHours": 12.5,
-     "impact": "From 11:00 UTC to 23:30 UTC on October 8, 2026, Cloud Storage upload and write operations in us-central1 saw elevated latency and error rates, and a smaller share of reads was slow or failing. Google gave a preliminary cause: a traffic sorting optimization meant to ease localized capacity shortfalls exhausted resources on specific backend storage nodes, with a separate database service issue adding metadata errors for part of the window. A full root cause analysis was still pending.",
      "source": {
       "label": "Google Cloud — Service health incident",
       "url": "https://status.cloud.google.com/incidents/mSFVt6PiP557bjRyYsut"
@@ -1888,10 +1899,9 @@
      "location": "Shirakawa, Fukushima, Japan",
      "cause": "other",
      "durationHours": null,
-     "impact": "Unauthorized access began around 03:40 JST on October 7, 2026. IDC Frontier confirmed a third-party ransomware attack, then isolated and halted the East Japan Region 1 data center. Contracts tied to that region cover 495 companies and local governments, and some customers were told data recovery could be difficult. The intrusion method and whether data was stolen had not been disclosed.",
      "source": {
-      "label": "BleepingComputer / ITmedia report on IDCF Cloud ransomware",
-      "url": "https://shattered.io/idc-frontier-idcf-cloud-ransomware-attack-2026"
+      "label": "BleepingComputer: Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/"
      }
     },
     {
@@ -1901,7 +1911,6 @@
      "location": "Multi-region (18 Azure regions, incl. West US, North Europe, Southeast Asia, Japan West, South Africa North)",
      "cause": "software",
      "durationHours": 5.75,
-     "impact": "From 20:30 UTC on September 30 to about 02:15 UTC on October 1, 2026 (roughly 5 h 45 min), Azure ExpressRoute Gateway, VPN Gateway, Firewall, Application Gateway/WAF and Azure VMware Solution customers saw degraded or lost network connectivity. Microsoft's status history said the timing correlated with infrastructure operating system servicing activity, which was paused. No final post-incident review was available at the time of writing.",
      "source": {
       "label": "Microsoft — Azure status history",
       "url": "https://azure.status.microsoft/en-us/status/history/"
@@ -1912,8 +1921,8 @@
      "title": "West Java halts construction of BDx 640 MW CGK4 AI campus eight days after groundbreaking",
      "operator": "BDx Data Centers",
      "location": "Jatiluhur, Purwakarta, West Java, Indonesia",
+     "cause": "",
      "durationHours": null,
-     "impact": "On September 30, 2026, West Java Governor Dedi Mulyadi ordered work stopped at BDx's CGK4 campus, which had broken ground on September 22. The governor said two permits had not been issued — the environmental impact assessment (AMDAL) and the building approval (PBG) — and raised public concerns about water use from the Jatiluhur reservoir, noise and wastewater. CGK4 is planned as a 640 MW, six-building campus with 845 MVA of grid supply from PLN; Building 1 (120 MW) was targeted for early 2027. Reporting did not include a BDx statement, and the length of the stoppage is not known.",
      "source": {
       "label": "TNGlobal — Indonesia's West Java asks Singapore's BDx to halt data center 1 week after groundbreaking",
       "url": "https://technode.global/2026/09/30/indonesias-west-java-asks-singapores-bdx-to-halt-data-center-1-week-after-groundbreaking"
@@ -1926,7 +1935,6 @@
      "location": "Seoul, South Korea",
      "cause": "fire",
      "durationHours": null,
-     "impact": "A fire believed to have started in a transformer in a UPS room was reported at 11:55 and extinguished by 15:13. STT GDC said an electrical component failed while new equipment was being tested in an environment separate from customer systems. 105 people were evacuated; the operator said customer systems and data center operations were not affected.",
      "source": {
       "label": "DatacenterDynamics — Fire at data center in Seoul, South Korea, sees 100 people evacuated",
       "url": "https://www.datacenterdynamics.com/en/news/fire-at-data-center-in-seoul-south-korea-sees-100-people-evacuated/"
@@ -1937,8 +1945,8 @@
      "title": "Subsea cable faults between Australia and Singapore degrade Asia-Pacific capacity; Cloudflare reports congestion",
      "operator": "Vocus (ASC); SUBCO consortium (Indigo West/Central); Cloudflare",
      "location": "Perth–Singapore corridor, Indonesian waters off Anyer, Java",
+     "cause": "",
      "durationHours": null,
-     "impact": "Indigo West and Indigo Central suffered electrical shunt faults near Perth on August 8–9, 2026, and the Australia-Singapore Cable (operated by Vocus) was severed in Indonesian waters off Anyer on September 4. Per Submarine Networks, the faults removed all direct low-latency Perth–Singapore paths (about 100 Tbps), pushing round-trip times from roughly 60 ms to 300–400 ms as traffic rerouted via Guam, Japan or the transpacific. Cloudflare's status page reported multiple subsea outages causing congestion between its Tokyo and Singapore data centers from September 21 at 02:20 UTC and a regional performance degradation in Asia-Pacific from September 23. Repair of ASC was awaiting the cable ship CS Lodbrog, with delays attributed to Indonesian permitting and security approvals.",
      "source": {
       "label": "Submarine Networks — Perth–Singapore subsea outages deep-dive",
       "url": "https://www.submarinenetworks.com/en/nv/insights/a-deep-dive-analysis-of-the-perth%E2%80%93singapore-subsea-outages"
@@ -1949,8 +1957,8 @@
      "title": "Russian strikes hit Kyiv data centers — BeMobile/UCloud and De Novo facilities targeted",
      "operator": "UCloud (BeMobile); De Novo",
      "location": "Kyiv, Ukraine",
+     "cause": "",
      "durationHours": null,
-     "impact": "Russian forces struck at least two commercial data center facilities in Kyiv within a five-day span in mid-September 2026. On September 15, an attack hit the BeMobile facility operated by UCloud; the company did not disclose the extent of physical damage but confirmed some hosted websites, including Ukraine's National Paralympic Committee site, were temporarily knocked offline and expected to be restored within hours. On September 17, a broader wave of missile and drone strikes damaged energy and telecommunications infrastructure across the capital and injured more than 20 people, according to Ukrainian officials. On September 19, Russia's TASS state news agency said strikes had hit De Novo, one of Ukraine's largest commercial data centers — a Tier III-compliant, 360-rack facility that hosts major Ukrainian banks and the country's largest Infrastructure-as-a-Service cloud platform. Russian officials characterized De Novo as supporting Ukrainian military data processing; De Novo describes itself publicly as a sovereign-cloud and AI provider serving mission-critical civilian and commercial systems. Neither company has published a full damage assessment or restoration timeline, and the extent of physical destruction at either site has not been independently verified.",
      "source": {
       "label": "DataCenterDynamics — Russia claims strikes on De Novo data center in Kyiv, Ukraine",
       "url": "https://www.datacenterdynamics.com/en/news/russia-claims-strikes-on-de-novo-data-center-in-kyiv-ukraine/"
@@ -1961,8 +1969,8 @@
      "title": "Salesforce global platform outage disrupts Hyperforce instances during Dreamforce",
      "operator": "Salesforce",
      "location": "Global — Hyperforce instances across multiple regions, including the US, Japan, India, the UK, France and Germany",
+     "cause": "",
      "durationHours": null,
-     "impact": "On September 16, 2026 — the second day of Salesforce's own Dreamforce conference in San Francisco — a global outage hit hundreds of customer instances from roughly 08:30 to 19:20 UTC (about 10.5 hours). Salesforce said requests were stalling while waiting on a response from an internal legacy login service, which consumed available server resources and limited the platform's capacity to process incoming requests; first-party GovCloud environments were largely unaffected. Customers reported severe delays, intermittent errors and inability to access some services, including support-case creation and scheduled job execution. Salesforce rolled out region-by-region fixes, and some customers needed manual session resets or cache clears after the fix before declaring the incident resolved at 19:20 UTC.",
      "source": {
       "label": "The Register — Salesforce staggers back to feet after global outage",
       "url": "https://www.theregister.com/saas/2026/09/16/salesforce-staggers-back-to-feet-after-global-outage/5296800"
@@ -1973,8 +1981,8 @@
      "title": "Microsoft 365 sign-in failures lock users out worldwide",
      "operator": "Microsoft (Microsoft 365 / Entra ID authentication)",
      "location": "Global, with concentrated user reports in the US and UK",
+     "cause": "",
      "durationHours": null,
-     "impact": "Starting around 13:22 UTC on September 16, 2026, Microsoft tracked a spike in Microsoft 365 sign-in failures (incident MO1472904) accompanied by 5xx server errors on its authentication layer. Users with an already-active session could often keep working, but anyone forced through a fresh sign-in, token refresh, MFA prompt, portal session renewal or new-device enrollment could fail to authenticate. Microsoft said it was reviewing service telemetry and user reports to isolate the root cause and was checking whether upstream dependencies contributed; some affected customers saw service return as the review continued, but Microsoft had not published a confirmed root cause or final duration at last report. This is a separate, later incident from the larger Microsoft 365/Exchange Online authentication outage of August 31 – September 3, 2026 (IDs EX1464935/MO1465074).",
      "source": {
       "label": "Cyber Security News — Microsoft 365 hit by new outage as users report widespread 502 and 503 errors",
       "url": "https://cybersecuritynews.com/microsoft-365-hit-by-new-outage/"
@@ -1985,8 +1993,8 @@
      "title": "AWS confirms permanent customer data loss in Bahrain and UAE regions after Iran-linked strikes on facilities",
      "operator": "Amazon Web Services (AWS)",
      "location": "Middle East (Bahrain) region and Middle East (UAE) region, mec1-az2 availability zone",
+     "cause": "",
      "durationHours": null,
-     "impact": "In a September 15, 2026 update to its Health Dashboard, AWS said damage from drone/missile strikes earlier in the year on facilities supporting its Middle East (Bahrain) and Middle East (UAE) regions spanned multiple Availability Zones and \"exceeded what our regional and multi-AZ services are designed to withstand.\" AWS concluded it cannot restore access to resources and data hosted exclusively in the Bahrain region, and reached the same conclusion for the mec1-az2 Availability Zone in the UAE region; work continues on remaining UAE zones (mec1-az1, mec1-az3). The permanent loss affects only customers whose sole data copy sat inside the damaged infrastructure — those with cross-region replication or backups elsewhere could rebuild — but AWS has not publicly quantified the number of affected customers or the volume of data lost. The episode is a rare confirmed case of physical destruction overwhelming cloud multi-AZ redundancy design assumptions.",
      "source": {
       "label": "Help Net Security — AWS Middle East outage: permanent data loss in Bahrain, UAE",
       "url": "https://www.helpnetsecurity.com/2026/09/17/aws-middle-east-outage-permanent-data-loss-bahrain-uae/"
@@ -1997,8 +2005,8 @@
      "title": "xAI Memphis compute center outage cascades into simultaneous ChatGPT, Claude and Grok disruptions",
      "operator": "xAI / OpenAI / Anthropic",
      "location": "Memphis, Tennessee, USA (xAI compute center), plus OpenAI and Anthropic serving infrastructure",
+     "cause": "",
      "durationHours": null,
-     "impact": "Around 7:43am PT on September 3, 2026, three unrelated AI chat services — ChatGPT, Claude and Grok — went down within the same roughly 90-minute window, an anomaly given each is normally on a separate failure path. OpenAI told The Register that \"a routing error\" made ChatGPT and Codex unavailable for some users starting at 7:43am PT. Separately, xAI said an outage at its Memphis, Tennessee compute center that morning took down Grok and also disrupted service for unspecified \"compute partners,\" which xAI/SpaceX identified as including Anthropic; Anthropic's status page confirmed a 3-hour-6-minute partial outage with elevated error rates on Claude.ai, Claude Code, Claude Cowork and the Claude API, restored by 16:16 UTC. Google's Gemini was unaffected throughout, since it runs on separate Google Cloud infrastructure. The episode illustrates how concentrated AI compute supply chains can turn one facility's outage into a multi-vendor incident.",
      "source": {
       "label": "The Register — ChatGPT, Claude, and Grok all had outages at the same time",
       "url": "https://www.theregister.com/ai-and-ml/2026/09/03/chatgpt-claude-and-grok-all-had-outages-at-the-same-time/5294322"
@@ -2009,8 +2017,8 @@
      "title": "Google Cloud: network degradation in us-central1-b takes down 15 products for up to 4h08m",
      "operator": "Google Cloud",
      "location": "us-central1-b (Council Bluffs, Iowa)",
+     "cause": "",
      "durationHours": null,
-     "impact": "On September 1, 2026, Google's own Service Health dashboard logged incident J5ia5t9p3g9Q5Wi7r8Ev: multiple products running in the us-central1-b zone experienced network service degradation. Affected services included Compute Engine, Google Kubernetes Engine, Cloud SQL, BigQuery, Cloud Bigtable, Cloud Spanner, Cloud Run, App Engine, AlloyDB for PostgreSQL, Apigee, Cloud Filestore, Cloud Dataflow, Hybrid Connectivity, Looker and Virtual Private Cloud. Impact duration varied by product, from about 14 minutes for VPC to 4 hours 8 minutes for Cloud Run and App Engine. Google did not publish a root-cause explanation alongside the status update.",
      "source": {
       "label": "Google Cloud Service Health — incident summary",
       "url": "https://status.cloud.google.com/summary"
@@ -2021,8 +2029,8 @@
      "title": "Microsoft 365: authentication-configuration fault disrupts Exchange Online, Teams, SharePoint and Defender XDR for multiple days",
      "operator": "Microsoft",
      "location": "Global (Microsoft 365 cloud services)",
+     "cause": "",
      "durationHours": null,
-     "impact": "Starting around 5:30pm UTC on August 31, 2026, Microsoft opened incident EX1464935 after users reported failed authentication, delayed mail delivery, broken mailbox search and admin-portal problems in Exchange Online. Microsoft's follow-up incident MO1465074 confirmed the disruption spread to Teams, SharePoint Online, OneDrive for Business, Microsoft Graph, Purview, the Microsoft 365 Admin Center, Copilot and Defender XDR because the services share an authentication component. Microsoft identified the root cause as a fault in a core authentication configuration and rolled out a phased remediation. Mailbox connectivity returned to expected thresholds within about 24 hours, but search functionality and full recovery of Exchange Online, Universal Print, OneDrive for Business and SharePoint Online remained impacted as of September 2, roughly 48 hours after the incident began.",
      "source": {
       "label": "Microsoft 365 Status (official) — incident update",
       "url": "https://x.com/MSFT365Status/status/2094455556454920701"
@@ -2033,27 +2041,15 @@
      "title": "Proton: total cooling failure at Frankfurt datacenter takes down Mail, VPN, Drive and Pass for 2h18m",
      "operator": "Proton AG",
      "location": "Frankfurt, Germany (Proton-operated datacenter)",
+     "cause": "",
      "durationHours": null,
-     "impact": "Between 00:09 and 02:27 CEST on August 27, 2026, nearly all Proton services — Mail, VPN, Calendar, Drive, Pass, SimpleLogin, Wallet and the Lumo assistant — became unreachable. Proton engineers identified the cause at 00:38 CEST as what CEO Andy Yen publicly described as an \"unprecedented total cooling failure\" at the company's Frankfurt datacenter, which required manual intervention and a shift of traffic to backup sites rather than automated failover. Recovery began around 01:37 CEST, with full resolution by 02:27 CEST. Yen stated that no user data was exposed, deleted or compromised, since the failure was physical and facility-level rather than a breach or software defect, and Proton's end-to-end encryption was unaffected.",
      "source": {
       "label": "Andy Yen (Proton CEO) — public incident statement",
       "url": "https://x.com/andyyen/status/2092797856880975887"
      }
-    },
-    {
-     "date": "2026-08-20",
-     "title": "Google Cloud us-west1 (Oregon) region: multi-service degradation for about 3h40m",
-     "operator": "Google Cloud",
-     "location": "us-west1 region (The Dalles, Oregon)",
-     "durationHours": null,
-     "impact": "From roughly 08:40 to 12:20 Pacific time on August 20, 2026, customers in Google Cloud's us-west1 region experienced timeouts, degraded service and elevated error rates across more than 20 products, including Compute Engine, GKE, Cloud SQL, BigQuery, Cloud Storage, Pub/Sub, Bigtable, Dataflow, Cloud Run and IAM. Google's Service Health dashboard tracked the incident through mitigation and recovery; services outside us-west1 were not affected. Google had not published a detailed root-cause explanation as of this writing.",
-     "source": {
-      "label": "Google Cloud Service Health — incident report",
-      "url": "https://status.cloud.google.com/incidents/utF3FMFdQfwBzJcGG6vf"
-     }
     }
    ],
-   "total": 140
+   "total": 141
   },
   "capacityWatch": {
    "title": "Coloprice Capacity Watch (public MW statements)",
@@ -2259,6 +2255,5077 @@
       "url": "https://www.manilatimes.net/2026/09/01/tmt-newswire/pr-newswire/dayone-and-tnb-explore-up-to-15-gw-of-on-site-power-generation-to-advance-malaysias-energy-resilience-and-digital-economy/2415804"
      }
     }
+   ],
+   "staleNote": "Kept from the last local export (no public JSON endpoint). Re-export with --local to refresh."
+  },
+  "rankings": {
+   "title": "Coloprice data center operator rankings",
+   "citeAs": "Coloprice operator rankings",
+   "url": "https://coloprice.com/data/operator-rankings.json",
+   "page": "https://coloprice.com/companies/",
+   "license": "CC BY 4.0 — free to use with a visible link to https://coloprice.com",
+   "asOf": "2026-10-29",
+   "method": "Counts of facilities tracked in the Coloprice catalogue per operator (one company = one canonical name; joint ventures counted separately). MW = sum of published capacity only; mwCount = how many of the operator’s sites publish MW.",
+   "totals": {
+    "operators": 2278,
+    "facilities": 6075,
+    "countries": 184
+   },
+   "global": {
+    "byFacilities": [
+     {
+      "rank": 1,
+      "name": "Equinix",
+      "slug": "equinix",
+      "page": "https://coloprice.com/providers/equinix/",
+      "facilities": 267,
+      "countries": 37,
+      "mw": 125,
+      "mwCount": 5
+     },
+     {
+      "rank": 2,
+      "name": "Digital Realty",
+      "slug": "digital-realty",
+      "page": "https://coloprice.com/providers/digital-realty/",
+      "facilities": 231,
+      "countries": 29,
+      "mw": 290,
+      "mwCount": 13
+     },
+     {
+      "rank": 3,
+      "name": "NTT Global Data Centers",
+      "slug": "ntt-global-data-centers",
+      "page": "https://coloprice.com/providers/ntt-global-data-centers/",
+      "facilities": 80,
+      "countries": 17,
+      "mw": 1506,
+      "mwCount": 62
+     },
+     {
+      "rank": 4,
+      "name": "DataBank",
+      "slug": "databank",
+      "page": "https://coloprice.com/providers/databank/",
+      "facilities": 76,
+      "countries": 2,
+      "mw": 1023,
+      "mwCount": 76
+     },
+     {
+      "rank": 5,
+      "name": "EdgeConneX",
+      "slug": "edgeconnex",
+      "page": "https://coloprice.com/providers/edgeconnex/",
+      "facilities": 56,
+      "countries": 16,
+      "mw": 575,
+      "mwCount": 26
+     },
+     {
+      "rank": 6,
+      "name": "STACK Infrastructure",
+      "slug": "stack-infrastructure",
+      "page": "https://coloprice.com/providers/stack-infrastructure/",
+      "facilities": 49,
+      "countries": 11,
+      "mw": 5673,
+      "mwCount": 48
+     },
+     {
+      "rank": 7,
+      "name": "Cologix",
+      "slug": "cologix",
+      "page": "https://coloprice.com/providers/cologix/",
+      "facilities": 49,
+      "countries": 2,
+      "mw": 121,
+      "mwCount": 7
+     },
+     {
+      "rank": 8,
+      "name": "Iron Mountain",
+      "slug": "iron-mountain",
+      "page": "https://coloprice.com/providers/iron-mountain/",
+      "facilities": 48,
+      "countries": 7,
+      "mw": 1000,
+      "mwCount": 44
+     },
+     {
+      "rank": 9,
+      "name": "QTS Data Centers",
+      "slug": "qts-data-centers",
+      "page": "https://coloprice.com/providers/qts-data-centers/",
+      "facilities": 46,
+      "countries": 2,
+      "mw": 2513,
+      "mwCount": 25
+     },
+     {
+      "rank": 10,
+      "name": "CyrusOne",
+      "slug": "cyrusone",
+      "page": "https://coloprice.com/providers/cyrusone/",
+      "facilities": 46,
+      "countries": 9,
+      "mw": 1731,
+      "mwCount": 46
+     },
+     {
+      "rank": 11,
+      "name": "Colt DCS",
+      "slug": "colt-dcs",
+      "page": "https://coloprice.com/providers/colt-dcs/",
+      "facilities": 45,
+      "countries": 13,
+      "mw": 969,
+      "mwCount": 26
+     },
+     {
+      "rank": 12,
+      "name": "Flexential",
+      "slug": "flexential",
+      "page": "https://coloprice.com/providers/flexential/",
+      "facilities": 45,
+      "countries": 1,
+      "mw": 408,
+      "mwCount": 42
+     },
+     {
+      "rank": 13,
+      "name": "ST Telemedia Global Data Centres",
+      "slug": "st-telemedia-global-data-centres",
+      "page": "https://coloprice.com/providers/st-telemedia-global-data-centres/",
+      "facilities": 44,
+      "countries": 5,
+      "mw": 760,
+      "mwCount": 39
+     },
+     {
+      "rank": 14,
+      "name": "Ascenty (Digital Realty)",
+      "slug": "ascenty-digital-realty",
+      "page": "https://coloprice.com/providers/ascenty-digital-realty/",
+      "facilities": 42,
+      "countries": 4,
+      "mw": 618,
+      "mwCount": 36
+     },
+     {
+      "rank": 15,
+      "name": "Vantage Data Centers",
+      "slug": "vantage-data-centers",
+      "page": "https://coloprice.com/providers/vantage-data-centers/",
+      "facilities": 41,
+      "countries": 14,
+      "mw": 5544,
+      "mwCount": 39
+     },
+     {
+      "rank": 16,
+      "name": "TierPoint",
+      "slug": "tierpoint",
+      "page": "https://coloprice.com/providers/tierpoint/",
+      "facilities": 41,
+      "countries": 1,
+      "mw": 0,
+      "mwCount": 0
+     },
+     {
+      "rank": 17,
+      "name": "Aligned Data Centers",
+      "slug": "aligned-data-centers",
+      "page": "https://coloprice.com/providers/aligned-data-centers/",
+      "facilities": 40,
+      "countries": 5,
+      "mw": 2935,
+      "mwCount": 16
+     },
+     {
+      "rank": 18,
+      "name": "China Telecom",
+      "slug": "china-telecom",
+      "page": "https://coloprice.com/providers/china-telecom/",
+      "facilities": 39,
+      "countries": 1,
+      "mw": 0,
+      "mwCount": 0
+     },
+     {
+      "rank": 19,
+      "name": "Csquare",
+      "slug": "csquare",
+      "page": "https://coloprice.com/providers/csquare/",
+      "facilities": 37,
+      "countries": 3,
+      "mw": 1261,
+      "mwCount": 36
+     },
+     {
+      "rank": 20,
+      "name": "Khazna Data Centers",
+      "slug": "khazna-data-centers",
+      "page": "https://coloprice.com/providers/khazna-data-centers/",
+      "facilities": 37,
+      "countries": 3,
+      "mw": 816,
+      "mwCount": 34
+     },
+     {
+      "rank": 21,
+      "name": "H5 Data Centers",
+      "slug": "h5-data-centers",
+      "page": "https://coloprice.com/providers/h5-data-centers/",
+      "facilities": 33,
+      "countries": 1,
+      "mw": 217,
+      "mwCount": 8
+     },
+     {
+      "rank": 22,
+      "name": "Scala Data Centers",
+      "slug": "scala-data-centers",
+      "page": "https://coloprice.com/providers/scala-data-centers/",
+      "facilities": 31,
+      "countries": 4,
+      "mw": 319,
+      "mwCount": 22
+     },
+     {
+      "rank": 23,
+      "name": "Telehouse",
+      "slug": "telehouse",
+      "page": "https://coloprice.com/providers/telehouse/",
+      "facilities": 31,
+      "countries": 11,
+      "mw": 95,
+      "mwCount": 8
+     },
+     {
+      "rank": 24,
+      "name": "NorthC",
+      "slug": "northc",
+      "page": "https://coloprice.com/providers/northc/",
+      "facilities": 29,
+      "countries": 3,
+      "mw": 111,
+      "mwCount": 28
+     },
+     {
+      "rank": 25,
+      "name": "CoreSite",
+      "slug": "coresite",
+      "page": "https://coloprice.com/providers/coresite/",
+      "facilities": 29,
+      "countries": 1,
+      "mw": 0,
+      "mwCount": 0
+     }
+    ],
+    "byMw": [
+     {
+      "rank": 1,
+      "name": "Meta Platforms",
+      "slug": "meta-platforms",
+      "page": "https://coloprice.com/providers/meta-platforms/",
+      "facilities": 3,
+      "countries": 2,
+      "mw": 6000,
+      "mwCount": 2
+     },
+     {
+      "rank": 2,
+      "name": "STACK Infrastructure",
+      "slug": "stack-infrastructure",
+      "page": "https://coloprice.com/providers/stack-infrastructure/",
+      "facilities": 49,
+      "countries": 11,
+      "mw": 5673,
+      "mwCount": 48
+     },
+     {
+      "rank": 3,
+      "name": "Vantage Data Centers",
+      "slug": "vantage-data-centers",
+      "page": "https://coloprice.com/providers/vantage-data-centers/",
+      "facilities": 41,
+      "countries": 14,
+      "mw": 5544,
+      "mwCount": 39
+     },
+     {
+      "rank": 4,
+      "name": "IREN",
+      "slug": "iren",
+      "page": "https://coloprice.com/providers/iren/",
+      "facilities": 9,
+      "countries": 3,
+      "mw": 5460,
+      "mwCount": 8
+     },
+     {
+      "rank": 5,
+      "name": "CDC Data Centres",
+      "slug": "cdc-data-centres",
+      "page": "https://coloprice.com/providers/cdc-data-centres/",
+      "facilities": 19,
+      "countries": 2,
+      "mw": 3308,
+      "mwCount": 13
+     },
+     {
+      "rank": 6,
+      "name": "OpenAI (developer Octans GA LLC)",
+      "slug": "openai-developer-octans-ga-llc",
+      "page": "https://coloprice.com/providers/openai-developer-octans-ga-llc/",
+      "facilities": 1,
+      "countries": 1,
+      "mw": 3210,
+      "mwCount": 1
+     },
+     {
+      "rank": 7,
+      "name": "Crusoe",
+      "slug": "crusoe",
+      "page": "https://coloprice.com/providers/crusoe/",
+      "facilities": 4,
+      "countries": 1,
+      "mw": 3100,
+      "mwCount": 3
+     },
+     {
+      "rank": 8,
+      "name": "Nebius",
+      "slug": "nebius",
+      "page": "https://coloprice.com/providers/nebius/",
+      "facilities": 4,
+      "countries": 2,
+      "mw": 3010,
+      "mwCount": 4
+     },
+     {
+      "rank": 9,
+      "name": "Aligned Data Centers",
+      "slug": "aligned-data-centers",
+      "page": "https://coloprice.com/providers/aligned-data-centers/",
+      "facilities": 40,
+      "countries": 5,
+      "mw": 2935,
+      "mwCount": 16
+     },
+     {
+      "rank": 10,
+      "name": "Google",
+      "slug": "google",
+      "page": "https://coloprice.com/providers/google/",
+      "facilities": 20,
+      "countries": 2,
+      "mw": 2700,
+      "mwCount": 1
+     },
+     {
+      "rank": 11,
+      "name": "QTS Data Centers",
+      "slug": "qts-data-centers",
+      "page": "https://coloprice.com/providers/qts-data-centers/",
+      "facilities": 46,
+      "countries": 2,
+      "mw": 2513,
+      "mwCount": 25
+     },
+     {
+      "rank": 12,
+      "name": "AirTrunk",
+      "slug": "airtrunk",
+      "page": "https://coloprice.com/providers/airtrunk/",
+      "facilities": 13,
+      "countries": 5,
+      "mw": 2480,
+      "mwCount": 11
+     },
+     {
+      "rank": 13,
+      "name": "EdgeCore Digital Infrastructure",
+      "slug": "edgecore-digital-infrastructure",
+      "page": "https://coloprice.com/providers/edgecore-digital-infrastructure/",
+      "facilities": 6,
+      "countries": 1,
+      "mw": 2194,
+      "mwCount": 6
+     },
+     {
+      "rank": 14,
+      "name": "AdaniConneX",
+      "slug": "adaniconnex",
+      "page": "https://coloprice.com/providers/adaniconnex/",
+      "facilities": 5,
+      "countries": 1,
+      "mw": 2033,
+      "mwCount": 5
+     },
+     {
+      "rank": 15,
+      "name": "HyperVault (TCS)",
+      "slug": "hypervault-tcs",
+      "page": "https://coloprice.com/providers/hypervault-tcs/",
+      "facilities": 2,
+      "countries": 1,
+      "mw": 2000,
+      "mwCount": 2
+     },
+     {
+      "rank": 16,
+      "name": "Switch",
+      "slug": "switch",
+      "page": "https://coloprice.com/providers/switch/",
+      "facilities": 8,
+      "countries": 1,
+      "mw": 1852,
+      "mwCount": 7
+     },
+     {
+      "rank": 17,
+      "name": "Brookfield (developer/operator) / NextEra Energy",
+      "slug": "brookfield-developer-operator-nextera-energy",
+      "page": "https://coloprice.com/providers/brookfield-developer-operator-nextera-energy/",
+      "facilities": 1,
+      "countries": 1,
+      "mw": 1800,
+      "mwCount": 1
+     },
+     {
+      "rank": 18,
+      "name": "NEXTDC",
+      "slug": "nextdc",
+      "page": "https://coloprice.com/providers/nextdc/",
+      "facilities": 27,
+      "countries": 3,
+      "mw": 1791,
+      "mwCount": 26
+     },
+     {
+      "rank": 19,
+      "name": "Princeton Digital Group",
+      "slug": "princeton-digital-group",
+      "page": "https://coloprice.com/providers/princeton-digital-group/",
+      "facilities": 22,
+      "countries": 7,
+      "mw": 1784,
+      "mwCount": 15
+     },
+     {
+      "rank": 20,
+      "name": "CyrusOne",
+      "slug": "cyrusone",
+      "page": "https://coloprice.com/providers/cyrusone/",
+      "facilities": 46,
+      "countries": 9,
+      "mw": 1731,
+      "mwCount": 46
+     },
+     {
+      "rank": 21,
+      "name": "Galaxy Digital (tenant: CoreWeave)",
+      "slug": "galaxy-digital-tenant-coreweave",
+      "page": "https://coloprice.com/providers/galaxy-digital-tenant-coreweave/",
+      "facilities": 1,
+      "countries": 1,
+      "mw": 1630,
+      "mwCount": 1
+     },
+     {
+      "rank": 22,
+      "name": "Ada Infrastructure",
+      "slug": "ada-infrastructure",
+      "page": "https://coloprice.com/providers/ada-infrastructure/",
+      "facilities": 9,
+      "countries": 4,
+      "mw": 1561,
+      "mwCount": 9
+     },
+     {
+      "rank": 23,
+      "name": "NTT Global Data Centers",
+      "slug": "ntt-global-data-centers",
+      "page": "https://coloprice.com/providers/ntt-global-data-centers/",
+      "facilities": 80,
+      "countries": 17,
+      "mw": 1506,
+      "mwCount": 62
+     },
+     {
+      "rank": 24,
+      "name": "Zerra DC",
+      "slug": "zerra-dc",
+      "page": "https://coloprice.com/providers/zerra-dc/",
+      "facilities": 1,
+      "countries": 1,
+      "mw": 1440,
+      "mwCount": 1
+     },
+     {
+      "rank": 25,
+      "name": "Compass Datacenters",
+      "slug": "compass-datacenters",
+      "page": "https://coloprice.com/providers/compass-datacenters/",
+      "facilities": 17,
+      "countries": 3,
+      "mw": 1358,
+      "mwCount": 9
+     }
+    ]
+   },
+   "byCountry": {
+    "usa": {
+     "countryName": "United States",
+     "facilities": 1340,
+     "operatorsTotal": 334,
+     "page": "https://coloprice.com/companies/usa/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 78,
+       "mw": 91,
+       "mwCount": 7,
+       "cities": 30
+      },
+      {
+       "rank": 2,
+       "name": "DataBank",
+       "slug": "databank",
+       "page": "https://coloprice.com/providers/databank/",
+       "facilities": 75,
+       "mw": 1020,
+       "mwCount": 75,
+       "cities": 45
+      },
+      {
+       "rank": 3,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 75,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 33
+      },
+      {
+       "rank": 4,
+       "name": "Flexential",
+       "slug": "flexential",
+       "page": "https://coloprice.com/providers/flexential/",
+       "facilities": 45,
+       "mw": 408,
+       "mwCount": 42,
+       "cities": 30
+      },
+      {
+       "rank": 5,
+       "name": "QTS Data Centers",
+       "slug": "qts-data-centers",
+       "page": "https://coloprice.com/providers/qts-data-centers/",
+       "facilities": 44,
+       "mw": 2473,
+       "mwCount": 23,
+       "cities": 36
+      }
+     ]
+    },
+    "india": {
+     "countryName": "India",
+     "facilities": 307,
+     "operatorsTotal": 86,
+     "page": "https://coloprice.com/companies/india/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "ST Telemedia Global Data Centres",
+       "slug": "st-telemedia-global-data-centres",
+       "page": "https://coloprice.com/providers/st-telemedia-global-data-centres/",
+       "facilities": 33,
+       "mw": 585,
+       "mwCount": 31,
+       "cities": 12
+      },
+      {
+       "rank": 2,
+       "name": "Nxtra Data",
+       "slug": "nxtra-data",
+       "page": "https://coloprice.com/providers/nxtra-data/",
+       "facilities": 26,
+       "mw": 234,
+       "mwCount": 19,
+       "cities": 12
+      },
+      {
+       "rank": 3,
+       "name": "NTT Global Data Centers",
+       "slug": "ntt-global-data-centers",
+       "page": "https://coloprice.com/providers/ntt-global-data-centers/",
+       "facilities": 20,
+       "mw": 301,
+       "mwCount": 14,
+       "cities": 8
+      },
+      {
+       "rank": 4,
+       "name": "Sify Technologies",
+       "slug": "sify-technologies",
+       "page": "https://coloprice.com/providers/sify-technologies/",
+       "facilities": 19,
+       "mw": 121,
+       "mwCount": 8,
+       "cities": 11
+      },
+      {
+       "rank": 5,
+       "name": "CtrlS Datacenters",
+       "slug": "ctrls-datacenters",
+       "page": "https://coloprice.com/providers/ctrls-datacenters/",
+       "facilities": 16,
+       "mw": 252,
+       "mwCount": 10,
+       "cities": 11
+      }
+     ]
+    },
+    "germany": {
+     "countryName": "Germany",
+     "facilities": 274,
+     "operatorsTotal": 113,
+     "page": "https://coloprice.com/companies/germany/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 28,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "euNetworks Group",
+       "slug": "eunetworks-group",
+       "page": "https://coloprice.com/providers/eunetworks-group/",
+       "facilities": 17,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 17
+      },
+      {
+       "rank": 3,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 13,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      },
+      {
+       "rank": 4,
+       "name": "NTT Global Data Centers",
+       "slug": "ntt-global-data-centers",
+       "page": "https://coloprice.com/providers/ntt-global-data-centers/",
+       "facilities": 9,
+       "mw": 196,
+       "mwCount": 8,
+       "cities": 5
+      },
+      {
+       "rank": 5,
+       "name": "Colt DCS",
+       "slug": "colt-dcs",
+       "page": "https://coloprice.com/providers/colt-dcs/",
+       "facilities": 9,
+       "mw": 174,
+       "mwCount": 4,
+       "cities": 6
+      }
+     ]
+    },
+    "brazil": {
+     "countryName": "Brazil",
+     "facilities": 245,
+     "operatorsTotal": 126,
+     "page": "https://coloprice.com/companies/brazil/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Ascenty (Digital Realty)",
+       "slug": "ascenty-digital-realty",
+       "page": "https://coloprice.com/providers/ascenty-digital-realty/",
+       "facilities": 30,
+       "mw": 475,
+       "mwCount": 28,
+       "cities": 11
+      },
+      {
+       "rank": 2,
+       "name": "Scala Data Centers",
+       "slug": "scala-data-centers",
+       "page": "https://coloprice.com/providers/scala-data-centers/",
+       "facilities": 20,
+       "mw": 254,
+       "mwCount": 17,
+       "cities": 7
+      },
+      {
+       "rank": 3,
+       "name": "BR.Digital",
+       "slug": "br-digital",
+       "page": "https://coloprice.com/providers/br-digital/",
+       "facilities": 12,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 11
+      },
+      {
+       "rank": 4,
+       "name": "Elea Data Centers",
+       "slug": "elea-data-centers",
+       "page": "https://coloprice.com/providers/elea-data-centers/",
+       "facilities": 10,
+       "mw": 26,
+       "mwCount": 7,
+       "cities": 8
+      },
+      {
+       "rank": 5,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 9,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      }
+     ]
+    },
+    "indonesia": {
+     "countryName": "Indonesia",
+     "facilities": 207,
+     "operatorsTotal": 111,
+     "page": "https://coloprice.com/companies/indonesia/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "neuCentrIX (Telkom Indonesia)",
+       "slug": "neucentrix-telkom-indonesia",
+       "page": "https://coloprice.com/providers/neucentrix-telkom-indonesia/",
+       "facilities": 14,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 13
+      },
+      {
+       "rank": 2,
+       "name": "Asosiasi Penyelenggara Jasa Internet Indonesia",
+       "slug": "asosiasi-penyelenggara-jasa-internet-indonesia",
+       "page": "https://coloprice.com/providers/asosiasi-penyelenggara-jasa-internet-indonesia/",
+       "facilities": 13,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 13
+      },
+      {
+       "rank": 3,
+       "name": "STT GDC Indonesia",
+       "slug": "stt-gdc-indonesia",
+       "page": "https://coloprice.com/providers/stt-gdc-indonesia/",
+       "facilities": 9,
+       "mw": 374,
+       "mwCount": 9,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "DCI Indonesia",
+       "slug": "dci-indonesia",
+       "page": "https://coloprice.com/providers/dci-indonesia/",
+       "facilities": 9,
+       "mw": 105,
+       "mwCount": 6,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "Princeton Digital Group",
+       "slug": "princeton-digital-group",
+       "page": "https://coloprice.com/providers/princeton-digital-group/",
+       "facilities": 8,
+       "mw": 456,
+       "mwCount": 3,
+       "cities": 4
+      }
+     ]
+    },
+    "china": {
+     "countryName": "China",
+     "facilities": 198,
+     "operatorsTotal": 66,
+     "page": "https://coloprice.com/companies/china/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "China Telecom",
+       "slug": "china-telecom",
+       "page": "https://coloprice.com/providers/china-telecom/",
+       "facilities": 39,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 16
+      },
+      {
+       "rank": 2,
+       "name": "GDS Holdings",
+       "slug": "gds-holdings",
+       "page": "https://coloprice.com/providers/gds-holdings/",
+       "facilities": 17,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 6
+      },
+      {
+       "rank": 3,
+       "name": "VNET Group",
+       "slug": "vnet-group",
+       "page": "https://coloprice.com/providers/vnet-group/",
+       "facilities": 13,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 8
+      },
+      {
+       "rank": 4,
+       "name": "Tencent Cloud",
+       "slug": "tencent-cloud",
+       "page": "https://coloprice.com/providers/tencent-cloud/",
+       "facilities": 9,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 6
+      },
+      {
+       "rank": 5,
+       "name": "Chindata Group",
+       "slug": "chindata-group",
+       "page": "https://coloprice.com/providers/chindata-group/",
+       "facilities": 8,
+       "mw": 58,
+       "mwCount": 2,
+       "cities": 6
+      }
+     ]
+    },
+    "uk": {
+     "countryName": "United Kingdom",
+     "facilities": 197,
+     "operatorsTotal": 87,
+     "page": "https://coloprice.com/companies/uk/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Pulsant",
+       "slug": "pulsant",
+       "page": "https://coloprice.com/providers/pulsant/",
+       "facilities": 14,
+       "mw": 22,
+       "mwCount": 14,
+       "cities": 10
+      },
+      {
+       "rank": 2,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 13,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 6
+      },
+      {
+       "rank": 3,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 13,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 4,
+       "name": "iomart",
+       "slug": "iomart",
+       "page": "https://coloprice.com/providers/iomart/",
+       "facilities": 8,
+       "mw": 11,
+       "mwCount": 1,
+       "cities": 7
+      },
+      {
+       "rank": 5,
+       "name": "Stellanor",
+       "slug": "stellanor",
+       "page": "https://coloprice.com/providers/stellanor/",
+       "facilities": 8,
+       "mw": 5,
+       "mwCount": 1,
+       "cities": 5
+      }
+     ]
+    },
+    "france": {
+     "countryName": "France",
+     "facilities": 187,
+     "operatorsTotal": 66,
+     "page": "https://coloprice.com/companies/france/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 18,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 8
+      },
+      {
+       "rank": 2,
+       "name": "Cogent Communications",
+       "slug": "cogent-communications",
+       "page": "https://coloprice.com/providers/cogent-communications/",
+       "facilities": 16,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 16
+      },
+      {
+       "rank": 3,
+       "name": "ETIX Everywhere",
+       "slug": "etix-everywhere",
+       "page": "https://coloprice.com/providers/etix-everywhere/",
+       "facilities": 15,
+       "mw": 17,
+       "mwCount": 13,
+       "cities": 15
+      },
+      {
+       "rank": 4,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 12,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 5,
+       "name": "UltraEdge",
+       "slug": "ultraedge",
+       "page": "https://coloprice.com/providers/ultraedge/",
+       "facilities": 10,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 10
+      }
+     ]
+    },
+    "australia": {
+     "countryName": "Australia",
+     "facilities": 171,
+     "operatorsTotal": 56,
+     "page": "https://coloprice.com/companies/australia/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "NEXTDC",
+       "slug": "nextdc",
+       "page": "https://coloprice.com/providers/nextdc/",
+       "facilities": 25,
+       "mw": 1726,
+       "mwCount": 25,
+       "cities": 12
+      },
+      {
+       "rank": 2,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 18,
+       "mw": 28,
+       "mwCount": 1,
+       "cities": 6
+      },
+      {
+       "rank": 3,
+       "name": "CDC Data Centres",
+       "slug": "cdc-data-centres",
+       "page": "https://coloprice.com/providers/cdc-data-centres/",
+       "facilities": 14,
+       "mw": 3210,
+       "mwCount": 10,
+       "cities": 5
+      },
+      {
+       "rank": 4,
+       "name": "Vocus",
+       "slug": "vocus",
+       "page": "https://coloprice.com/providers/vocus/",
+       "facilities": 9,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 8
+      },
+      {
+       "rank": 5,
+       "name": "DigiCo REIT",
+       "slug": "digico-reit",
+       "page": "https://coloprice.com/providers/digico-reit/",
+       "facilities": 8,
+       "mw": 62,
+       "mwCount": 8,
+       "cities": 4
+      }
+     ]
+    },
+    "canada": {
+     "countryName": "Canada",
+     "facilities": 163,
+     "operatorsTotal": 71,
+     "page": "https://coloprice.com/companies/canada/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Cologix",
+       "slug": "cologix",
+       "page": "https://coloprice.com/providers/cologix/",
+       "facilities": 23,
+       "mw": 65,
+       "mwCount": 3,
+       "cities": 7
+      },
+      {
+       "rank": 2,
+       "name": "eStruxture",
+       "slug": "estruxture",
+       "page": "https://coloprice.com/providers/estruxture/",
+       "facilities": 16,
+       "mw": 127,
+       "mwCount": 12,
+       "cities": 10
+      },
+      {
+       "rank": 3,
+       "name": "Qu Data Centres",
+       "slug": "qu-data-centres",
+       "page": "https://coloprice.com/providers/qu-data-centres/",
+       "facilities": 10,
+       "mw": 27,
+       "mwCount": 7,
+       "cities": 7
+      },
+      {
+       "rank": 4,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 9,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      },
+      {
+       "rank": 5,
+       "name": "Beanfield Metroconnect",
+       "slug": "beanfield-metroconnect",
+       "page": "https://coloprice.com/providers/beanfield-metroconnect/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      }
+     ]
+    },
+    "japan": {
+     "countryName": "Japan",
+     "facilities": 140,
+     "operatorsTotal": 37,
+     "page": "https://coloprice.com/companies/japan/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 17,
+       "mw": 54,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "Internet Initiative Japan (IIJ)",
+       "slug": "internet-initiative-japan-iij",
+       "page": "https://coloprice.com/providers/internet-initiative-japan-iij/",
+       "facilities": 12,
+       "mw": 20,
+       "mwCount": 1,
+       "cities": 5
+      },
+      {
+       "rank": 3,
+       "name": "MC Digital Realty",
+       "slug": "mc-digital-realty",
+       "page": "https://coloprice.com/providers/mc-digital-realty/",
+       "facilities": 10,
+       "mw": 217,
+       "mwCount": 10,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "NTT Communications (NTT DOCOMO BUSINESS) — Nexcenter",
+       "slug": "ntt-communications-ntt-docomo-business-nexcenter",
+       "page": "https://coloprice.com/providers/ntt-communications-ntt-docomo-business-nexcenter/",
+       "facilities": 10,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 5,
+       "name": "Colt DCS",
+       "slug": "colt-dcs",
+       "page": "https://coloprice.com/providers/colt-dcs/",
+       "facilities": 8,
+       "mw": 233,
+       "mwCount": 8,
+       "cities": 3
+      }
+     ]
+    },
+    "netherlands": {
+     "countryName": "Netherlands",
+     "facilities": 132,
+     "operatorsTotal": 60,
+     "page": "https://coloprice.com/companies/netherlands/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "NorthC",
+       "slug": "northc",
+       "page": "https://coloprice.com/providers/northc/",
+       "facilities": 14,
+       "mw": 67,
+       "mwCount": 14,
+       "cities": 9
+      },
+      {
+       "rank": 2,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 12,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 11,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 4,
+       "name": "Eurofiber",
+       "slug": "eurofiber",
+       "page": "https://coloprice.com/providers/eurofiber/",
+       "facilities": 8,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 8
+      },
+      {
+       "rank": 5,
+       "name": "Cellnex Netherlands",
+       "slug": "cellnex-netherlands",
+       "page": "https://coloprice.com/providers/cellnex-netherlands/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      }
+     ]
+    },
+    "italy": {
+     "countryName": "Italy",
+     "facilities": 127,
+     "operatorsTotal": 76,
+     "page": "https://coloprice.com/companies/italy/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "STACK Infrastructure",
+       "slug": "stack-infrastructure",
+       "page": "https://coloprice.com/providers/stack-infrastructure/",
+       "facilities": 11,
+       "mw": 399,
+       "mwCount": 11,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "Retelit",
+       "slug": "retelit",
+       "page": "https://coloprice.com/providers/retelit/",
+       "facilities": 7,
+       "mw": 18,
+       "mwCount": 2,
+       "cities": 5
+      },
+      {
+       "rank": 3,
+       "name": "Colt DCS",
+       "slug": "colt-dcs",
+       "page": "https://coloprice.com/providers/colt-dcs/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 4,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Telecom Italia Sparkle",
+       "slug": "telecom-italia-sparkle",
+       "page": "https://coloprice.com/providers/telecom-italia-sparkle/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      }
+     ]
+    },
+    "spain": {
+     "countryName": "Spain",
+     "facilities": 94,
+     "operatorsTotal": 56,
+     "page": "https://coloprice.com/companies/spain/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Templus",
+       "slug": "templus",
+       "page": "https://coloprice.com/providers/templus/",
+       "facilities": 9,
+       "mw": 40,
+       "mwCount": 8,
+       "cities": 7
+      },
+      {
+       "rank": 2,
+       "name": "Iron Mountain",
+       "slug": "iron-mountain",
+       "page": "https://coloprice.com/providers/iron-mountain/",
+       "facilities": 8,
+       "mw": 151,
+       "mwCount": 8,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 6,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "NextStream",
+       "slug": "nextstream",
+       "page": "https://coloprice.com/providers/nextstream/",
+       "facilities": 4,
+       "mw": 134,
+       "mwCount": 4,
+       "cities": 3
+      }
+     ]
+    },
+    "malaysia": {
+     "countryName": "Malaysia",
+     "facilities": 84,
+     "operatorsTotal": 43,
+     "page": "https://coloprice.com/companies/malaysia/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "AIMS Data Centre",
+       "slug": "aims-data-centre",
+       "page": "https://coloprice.com/providers/aims-data-centre/",
+       "facilities": 7,
+       "mw": 228,
+       "mwCount": 4,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "Open DC",
+       "slug": "open-dc",
+       "page": "https://coloprice.com/providers/open-dc/",
+       "facilities": 5,
+       "mw": 5,
+       "mwCount": 2,
+       "cities": 4
+      },
+      {
+       "rank": 3,
+       "name": "Bridge Data Centres",
+       "slug": "bridge-data-centres",
+       "page": "https://coloprice.com/providers/bridge-data-centres/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 4,
+       "name": "NTT Global Data Centers",
+       "slug": "ntt-global-data-centers",
+       "page": "https://coloprice.com/providers/ntt-global-data-centers/",
+       "facilities": 4,
+       "mw": 14,
+       "mwCount": 2,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      }
+     ]
+    },
+    "poland": {
+     "countryName": "Poland",
+     "facilities": 82,
+     "operatorsTotal": 40,
+     "page": "https://coloprice.com/companies/poland/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Orange Polska",
+       "slug": "orange-polska",
+       "page": "https://coloprice.com/providers/orange-polska/",
+       "facilities": 14,
+       "mw": 8,
+       "mwCount": 1,
+       "cities": 14
+      },
+      {
+       "rank": 2,
+       "name": "Netia",
+       "slug": "netia",
+       "page": "https://coloprice.com/providers/netia/",
+       "facilities": 8,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 6
+      },
+      {
+       "rank": 3,
+       "name": "Atman",
+       "slug": "atman",
+       "page": "https://coloprice.com/providers/atman/",
+       "facilities": 5,
+       "mw": 32,
+       "mwCount": 3,
+       "cities": 3
+      },
+      {
+       "rank": 4,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Beyond.pl",
+       "slug": "beyond-pl",
+       "page": "https://coloprice.com/providers/beyond-pl/",
+       "facilities": 3,
+       "mw": 44,
+       "mwCount": 2,
+       "cities": 1
+      }
+     ]
+    },
+    "thailand": {
+     "countryName": "Thailand",
+     "facilities": 77,
+     "operatorsTotal": 43,
+     "page": "https://coloprice.com/companies/thailand/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "National Telecom Public Company Limited (NT)",
+       "slug": "national-telecom-public-company-limited-nt",
+       "page": "https://coloprice.com/providers/national-telecom-public-company-limited-nt/",
+       "facilities": 9,
+       "mw": 7,
+       "mwCount": 4,
+       "cities": 6
+      },
+      {
+       "rank": 2,
+       "name": "True IDC",
+       "slug": "true-idc",
+       "page": "https://coloprice.com/providers/true-idc/",
+       "facilities": 8,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 3,
+       "name": "NTT Global Data Centers",
+       "slug": "ntt-global-data-centers",
+       "page": "https://coloprice.com/providers/ntt-global-data-centers/",
+       "facilities": 5,
+       "mw": 112,
+       "mwCount": 2,
+       "cities": 3
+      },
+      {
+       "rank": 4,
+       "name": "Arise IDC Company Limited, Thailand",
+       "slug": "arise-idc-company-limited-thailand",
+       "page": "https://coloprice.com/providers/arise-idc-company-limited-thailand/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 5,
+       "name": "CS Loxinfo",
+       "slug": "cs-loxinfo",
+       "page": "https://coloprice.com/providers/cs-loxinfo/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      }
+     ]
+    },
+    "mexico": {
+     "countryName": "Mexico",
+     "facilities": 72,
+     "operatorsTotal": 35,
+     "page": "https://coloprice.com/companies/mexico/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "KIO Networks",
+       "slug": "kio-networks",
+       "page": "https://coloprice.com/providers/kio-networks/",
+       "facilities": 16,
+       "mw": 46,
+       "mwCount": 3,
+       "cities": 10
+      },
+      {
+       "rank": 2,
+       "name": "Ascenty (Digital Realty)",
+       "slug": "ascenty-digital-realty",
+       "page": "https://coloprice.com/providers/ascenty-digital-realty/",
+       "facilities": 5,
+       "mw": 81,
+       "mwCount": 3,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "Scala Data Centers",
+       "slug": "scala-data-centers",
+       "page": "https://coloprice.com/providers/scala-data-centers/",
+       "facilities": 4,
+       "mw": 7,
+       "mwCount": 2,
+       "cities": 3
+      },
+      {
+       "rank": 4,
+       "name": "Aligned Data Centers",
+       "slug": "aligned-data-centers",
+       "page": "https://coloprice.com/providers/aligned-data-centers/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 5,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      }
+     ]
+    },
+    "switzerland": {
+     "countryName": "Switzerland",
+     "facilities": 66,
+     "operatorsTotal": 32,
+     "page": "https://coloprice.com/companies/switzerland/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Swisscom",
+       "slug": "swisscom",
+       "page": "https://coloprice.com/providers/swisscom/",
+       "facilities": 8,
+       "mw": 2,
+       "mwCount": 1,
+       "cities": 7
+      },
+      {
+       "rank": 2,
+       "name": "NorthC",
+       "slug": "northc",
+       "page": "https://coloprice.com/providers/northc/",
+       "facilities": 7,
+       "mw": 24,
+       "mwCount": 6,
+       "cities": 6
+      },
+      {
+       "rank": 3,
+       "name": "STACK Infrastructure",
+       "slug": "stack-infrastructure",
+       "page": "https://coloprice.com/providers/stack-infrastructure/",
+       "facilities": 5,
+       "mw": 118,
+       "mwCount": 5,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 5,
+       "name": "Green Datacenter",
+       "slug": "green-datacenter",
+       "page": "https://coloprice.com/providers/green-datacenter/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      }
+     ]
+    },
+    "south-korea": {
+     "countryName": "South Korea",
+     "facilities": 63,
+     "operatorsTotal": 23,
+     "page": "https://coloprice.com/companies/south-korea/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "KT Cloud",
+       "slug": "kt-cloud",
+       "page": "https://coloprice.com/providers/kt-cloud/",
+       "facilities": 14,
+       "mw": 50,
+       "mwCount": 1,
+       "cities": 8
+      },
+      {
+       "rank": 2,
+       "name": "LG Uplus",
+       "slug": "lg-uplus",
+       "page": "https://coloprice.com/providers/lg-uplus/",
+       "facilities": 6,
+       "mw": 200,
+       "mwCount": 1,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "SK Broadband",
+       "slug": "sk-broadband",
+       "page": "https://coloprice.com/providers/sk-broadband/",
+       "facilities": 5,
+       "mw": 30,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "KINX",
+       "slug": "kinx",
+       "page": "https://coloprice.com/providers/kinx/",
+       "facilities": 5,
+       "mw": 10,
+       "mwCount": 1,
+       "cities": 3
+      },
+      {
+       "rank": 5,
+       "name": "Samsung SDS",
+       "slug": "samsung-sds",
+       "page": "https://coloprice.com/providers/samsung-sds/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      }
+     ]
+    },
+    "singapore": {
+     "countryName": "Singapore",
+     "facilities": 62,
+     "operatorsTotal": 32,
+     "page": "https://coloprice.com/companies/singapore/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Keppel DC REIT",
+       "slug": "keppel-dc-reit",
+       "page": "https://coloprice.com/providers/keppel-dc-reit/",
+       "facilities": 8,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "ST Telemedia Global Data Centres",
+       "slug": "st-telemedia-global-data-centres",
+       "page": "https://coloprice.com/providers/st-telemedia-global-data-centres/",
+       "facilities": 6,
+       "mw": 73,
+       "mwCount": 3,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 6,
+       "mw": 20,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 4,
+       "mw": 100,
+       "mwCount": 2,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Nxera",
+       "slug": "nxera",
+       "page": "https://coloprice.com/providers/nxera/",
+       "facilities": 3,
+       "mw": 58,
+       "mwCount": 1,
+       "cities": 1
+      }
+     ]
+    },
+    "hong-kong": {
+     "countryName": "Hong Kong",
+     "facilities": 57,
+     "operatorsTotal": 37,
+     "page": "https://coloprice.com/companies/hong-kong/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 6,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "SUNeVision (iAdvantage)",
+       "slug": "sunevision-iadvantage",
+       "page": "https://coloprice.com/providers/sunevision-iadvantage/",
+       "facilities": 4,
+       "mw": 20,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Vantage Data Centers",
+       "slug": "vantage-data-centers",
+       "page": "https://coloprice.com/providers/vantage-data-centers/",
+       "facilities": 3,
+       "mw": 32,
+       "mwCount": 3,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "NTT Global Data Centers",
+       "slug": "ntt-global-data-centers",
+       "page": "https://coloprice.com/providers/ntt-global-data-centers/",
+       "facilities": 2,
+       "mw": 30,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Asia Tone",
+       "slug": "asia-tone",
+       "page": "https://coloprice.com/providers/asia-tone/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "uae": {
+     "countryName": "United Arab Emirates",
+     "facilities": 56,
+     "operatorsTotal": 14,
+     "page": "https://coloprice.com/companies/uae/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Khazna Data Centers",
+       "slug": "khazna-data-centers",
+       "page": "https://coloprice.com/providers/khazna-data-centers/",
+       "facilities": 35,
+       "mw": 516,
+       "mwCount": 32,
+       "cities": 6
+      },
+      {
+       "rank": 2,
+       "name": "e& (Etisalat)",
+       "slug": "e-etisalat",
+       "page": "https://coloprice.com/providers/e-etisalat/",
+       "facilities": 3,
+       "mw": 5,
+       "mwCount": 1,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Moro Hub (Digital DEWA)",
+       "slug": "moro-hub-digital-dewa",
+       "page": "https://coloprice.com/providers/moro-hub-digital-dewa/",
+       "facilities": 2,
+       "mw": 200,
+       "mwCount": 2,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Gulf Data Hub",
+       "slug": "gulf-data-hub",
+       "page": "https://coloprice.com/providers/gulf-data-hub/",
+       "facilities": 2,
+       "mw": 53,
+       "mwCount": 2,
+       "cities": 2
+      }
+     ]
+    },
+    "chile": {
+     "countryName": "Chile",
+     "facilities": 54,
+     "operatorsTotal": 26,
+     "page": "https://coloprice.com/companies/chile/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "GTD",
+       "slug": "gtd",
+       "page": "https://coloprice.com/providers/gtd/",
+       "facilities": 8,
+       "mw": 8,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "Scala Data Centers",
+       "slug": "scala-data-centers",
+       "page": "https://coloprice.com/providers/scala-data-centers/",
+       "facilities": 5,
+       "mw": 58,
+       "mwCount": 3,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "Ascenty (Digital Realty)",
+       "slug": "ascenty-digital-realty",
+       "page": "https://coloprice.com/providers/ascenty-digital-realty/",
+       "facilities": 5,
+       "mw": 42,
+       "mwCount": 3,
+       "cities": 3
+      },
+      {
+       "rank": 4,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "SONDA S.A.",
+       "slug": "sonda-s-a",
+       "page": "https://coloprice.com/providers/sonda-s-a/",
+       "facilities": 3,
+       "mw": 12,
+       "mwCount": 1,
+       "cities": 1
+      }
+     ]
+    },
+    "turkey": {
+     "countryName": "Turkey",
+     "facilities": 52,
+     "operatorsTotal": 42,
+     "page": "https://coloprice.com/companies/turkey/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Turkcell",
+       "slug": "turkcell",
+       "page": "https://coloprice.com/providers/turkcell/",
+       "facilities": 4,
+       "mw": 30,
+       "mwCount": 1,
+       "cities": 4
+      },
+      {
+       "rank": 2,
+       "name": "Vodafone Turkey",
+       "slug": "vodafone-turkey",
+       "page": "https://coloprice.com/providers/vodafone-turkey/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 3,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Mars Datacenter",
+       "slug": "mars-datacenter",
+       "page": "https://coloprice.com/providers/mars-datacenter/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "Türk Telekom",
+       "slug": "t-rk-telekom",
+       "page": "https://coloprice.com/providers/t-rk-telekom/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "sweden": {
+     "countryName": "Sweden",
+     "facilities": 51,
+     "operatorsTotal": 23,
+     "page": "https://coloprice.com/companies/sweden/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 6,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "Conapto",
+       "slug": "conapto",
+       "page": "https://coloprice.com/providers/conapto/",
+       "facilities": 4,
+       "mw": 39,
+       "mwCount": 4,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Bahnhof",
+       "slug": "bahnhof",
+       "page": "https://coloprice.com/providers/bahnhof/",
+       "facilities": 4,
+       "mw": 4,
+       "mwCount": 4,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "AB Stokab",
+       "slug": "ab-stokab",
+       "page": "https://coloprice.com/providers/ab-stokab/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "atNorth",
+       "slug": "atnorth",
+       "page": "https://coloprice.com/providers/atnorth/",
+       "facilities": 3,
+       "mw": 342,
+       "mwCount": 3,
+       "cities": 2
+      }
+     ]
+    },
+    "new-zealand": {
+     "countryName": "New Zealand",
+     "facilities": 50,
+     "operatorsTotal": 22,
+     "page": "https://coloprice.com/companies/new-zealand/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Spark",
+       "slug": "spark",
+       "page": "https://coloprice.com/providers/spark/",
+       "facilities": 8,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      },
+      {
+       "rank": 2,
+       "name": "Datacom Group",
+       "slug": "datacom-group",
+       "page": "https://coloprice.com/providers/datacom-group/",
+       "facilities": 7,
+       "mw": 37,
+       "mwCount": 5,
+       "cities": 4
+      },
+      {
+       "rank": 3,
+       "name": "TenPeaks Data Centres",
+       "slug": "tenpeaks-data-centres",
+       "page": "https://coloprice.com/providers/tenpeaks-data-centres/",
+       "facilities": 6,
+       "mw": 55,
+       "mwCount": 3,
+       "cities": 4
+      },
+      {
+       "rank": 4,
+       "name": "CDC Data Centres",
+       "slug": "cdc-data-centres",
+       "page": "https://coloprice.com/providers/cdc-data-centres/",
+       "facilities": 5,
+       "mw": 98,
+       "mwCount": 3,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Chorus New Zealand",
+       "slug": "chorus-new-zealand",
+       "page": "https://coloprice.com/providers/chorus-new-zealand/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      }
+     ]
+    },
+    "austria": {
+     "countryName": "Austria",
+     "facilities": 46,
+     "operatorsTotal": 32,
+     "page": "https://coloprice.com/companies/austria/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "AtlasEdge",
+       "slug": "atlasedge",
+       "page": "https://coloprice.com/providers/atlasedge/",
+       "facilities": 3,
+       "mw": 10,
+       "mwCount": 2,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "A1 Telekom Austria",
+       "slug": "a1-telekom-austria",
+       "page": "https://coloprice.com/providers/a1-telekom-austria/",
+       "facilities": 3,
+       "mw": 4,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "eww",
+       "slug": "eww",
+       "page": "https://coloprice.com/providers/eww/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 5,
+       "name": "conova communications",
+       "slug": "conova-communications",
+       "page": "https://coloprice.com/providers/conova-communications/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      }
+     ]
+    },
+    "philippines": {
+     "countryName": "Philippines",
+     "facilities": 46,
+     "operatorsTotal": 15,
+     "page": "https://coloprice.com/companies/philippines/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "STT GDC Philippines",
+       "slug": "stt-gdc-philippines",
+       "page": "https://coloprice.com/providers/stt-gdc-philippines/",
+       "facilities": 9,
+       "mw": 242,
+       "mwCount": 9,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "ePLDT (VITRO Inc.)",
+       "slug": "epldt-vitro-inc",
+       "page": "https://coloprice.com/providers/epldt-vitro-inc/",
+       "facilities": 7,
+       "mw": 117,
+       "mwCount": 4,
+       "cities": 5
+      },
+      {
+       "rank": 3,
+       "name": "Globe Telecom (GTI Corporation)",
+       "slug": "globe-telecom-gti-corporation",
+       "page": "https://coloprice.com/providers/globe-telecom-gti-corporation/",
+       "facilities": 7,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      },
+      {
+       "rank": 4,
+       "name": "VITRO",
+       "slug": "vitro",
+       "page": "https://coloprice.com/providers/vitro/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      },
+      {
+       "rank": 5,
+       "name": "Converge ICT Solutions Inc.",
+       "slug": "converge-ict-solutions-inc",
+       "page": "https://coloprice.com/providers/converge-ict-solutions-inc/",
+       "facilities": 4,
+       "mw": 12,
+       "mwCount": 1,
+       "cities": 3
+      }
+     ]
+    },
+    "vietnam": {
+     "countryName": "Vietnam",
+     "facilities": 46,
+     "operatorsTotal": 21,
+     "page": "https://coloprice.com/companies/vietnam/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Viettel IDC",
+       "slug": "viettel-idc",
+       "page": "https://coloprice.com/providers/viettel-idc/",
+       "facilities": 10,
+       "mw": 230,
+       "mwCount": 3,
+       "cities": 5
+      },
+      {
+       "rank": 2,
+       "name": "VNPT",
+       "slug": "vnpt",
+       "page": "https://coloprice.com/providers/vnpt/",
+       "facilities": 8,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "CMC Telecom",
+       "slug": "cmc-telecom",
+       "page": "https://coloprice.com/providers/cmc-telecom/",
+       "facilities": 5,
+       "mw": 30,
+       "mwCount": 1,
+       "cities": 3
+      },
+      {
+       "rank": 4,
+       "name": "FPT",
+       "slug": "fpt",
+       "page": "https://coloprice.com/providers/fpt/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 5,
+       "name": "Eco Data Center",
+       "slug": "eco-data-center",
+       "page": "https://coloprice.com/providers/eco-data-center/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "colombia": {
+     "countryName": "Colombia",
+     "facilities": 45,
+     "operatorsTotal": 28,
+     "page": "https://coloprice.com/companies/colombia/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "HostDime",
+       "slug": "hostdime",
+       "page": "https://coloprice.com/providers/hostdime/",
+       "facilities": 3,
+       "mw": 9,
+       "mwCount": 1,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "Aligned Data Centers",
+       "slug": "aligned-data-centers",
+       "page": "https://coloprice.com/providers/aligned-data-centers/",
+       "facilities": 3,
+       "mw": 2,
+       "mwCount": 1,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "InterNexa",
+       "slug": "internexa",
+       "page": "https://coloprice.com/providers/internexa/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 4,
+       "name": "Tecto Data Centers",
+       "slug": "tecto-data-centers",
+       "page": "https://coloprice.com/providers/tecto-data-centers/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Ascenty (Digital Realty)",
+       "slug": "ascenty-digital-realty",
+       "page": "https://coloprice.com/providers/ascenty-digital-realty/",
+       "facilities": 2,
+       "mw": 20,
+       "mwCount": 2,
+       "cities": 1
+      }
+     ]
+    },
+    "denmark": {
+     "countryName": "Denmark",
+     "facilities": 43,
+     "operatorsTotal": 23,
+     "page": "https://coloprice.com/companies/denmark/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "GlobalConnect Group",
+       "slug": "globalconnect-group",
+       "page": "https://coloprice.com/providers/globalconnect-group/",
+       "facilities": 7,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 6
+      },
+      {
+       "rank": 2,
+       "name": "Kolo",
+       "slug": "kolo",
+       "page": "https://coloprice.com/providers/kolo/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 3,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Cibicom A/S",
+       "slug": "cibicom-a-s",
+       "page": "https://coloprice.com/providers/cibicom-a-s/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 5,
+       "name": "Norlys Digital",
+       "slug": "norlys-digital",
+       "page": "https://coloprice.com/providers/norlys-digital/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      }
+     ]
+    },
+    "argentina": {
+     "countryName": "Argentina",
+     "facilities": 42,
+     "operatorsTotal": 20,
+     "page": "https://coloprice.com/companies/argentina/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Cámara Argentina de Internet (CABASE)",
+       "slug": "c-mara-argentina-de-internet-cabase",
+       "page": "https://coloprice.com/providers/c-mara-argentina-de-internet-cabase/",
+       "facilities": 21,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 21
+      },
+      {
+       "rank": 2,
+       "name": "NextStream",
+       "slug": "nextstream",
+       "page": "https://coloprice.com/providers/nextstream/",
+       "facilities": 2,
+       "mw": 3,
+       "mwCount": 2,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Cirion Technologies",
+       "slug": "cirion-technologies",
+       "page": "https://coloprice.com/providers/cirion-technologies/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "EdgeConneX",
+       "slug": "edgeconnex",
+       "page": "https://coloprice.com/providers/edgeconnex/",
+       "facilities": 1,
+       "mw": 4,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "ARLINK",
+       "slug": "arlink",
+       "page": "https://coloprice.com/providers/arlink/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "south-africa": {
+     "countryName": "South Africa",
+     "facilities": 42,
+     "operatorsTotal": 17,
+     "page": "https://coloprice.com/companies/south-africa/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Open Access Data Centres (WIOCC)",
+       "slug": "open-access-data-centres-wiocc",
+       "page": "https://coloprice.com/providers/open-access-data-centres-wiocc/",
+       "facilities": 11,
+       "mw": 48,
+       "mwCount": 11,
+       "cities": 10
+      },
+      {
+       "rank": 2,
+       "name": "Teraco (Digital Realty)",
+       "slug": "teraco-digital-realty",
+       "page": "https://coloprice.com/providers/teraco-digital-realty/",
+       "facilities": 10,
+       "mw": 161,
+       "mwCount": 6,
+       "cities": 6
+      },
+      {
+       "rank": 3,
+       "name": "Africa Data Centres (Liquid Intelligent Technologies)",
+       "slug": "africa-data-centres-liquid-intelligent-technologies",
+       "page": "https://coloprice.com/providers/africa-data-centres-liquid-intelligent-technologies/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 4,
+       "name": "Vantage Data Centers",
+       "slug": "vantage-data-centers",
+       "page": "https://coloprice.com/providers/vantage-data-centers/",
+       "facilities": 2,
+       "mw": 140,
+       "mwCount": 2,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "Business Connexion (BCX)",
+       "slug": "business-connexion-bcx",
+       "page": "https://coloprice.com/providers/business-connexion-bcx/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "peru": {
+     "countryName": "Peru",
+     "facilities": 38,
+     "operatorsTotal": 26,
+     "page": "https://coloprice.com/companies/peru/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "WIN Empresas",
+       "slug": "win-empresas",
+       "page": "https://coloprice.com/providers/win-empresas/",
+       "facilities": 6,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "Cirion Technologies",
+       "slug": "cirion-technologies",
+       "page": "https://coloprice.com/providers/cirion-technologies/",
+       "facilities": 2,
+       "mw": 20,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "NextStream",
+       "slug": "nextstream",
+       "page": "https://coloprice.com/providers/nextstream/",
+       "facilities": 2,
+       "mw": 1,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "América Móvil Perú S.A.C. (Claro Perú)",
+       "slug": "am-rica-m-vil-per-s-a-c-claro-per",
+       "page": "https://coloprice.com/providers/am-rica-m-vil-per-s-a-c-claro-per/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "Banco Central de Reserva del Perú",
+       "slug": "banco-central-de-reserva-del-per",
+       "page": "https://coloprice.com/providers/banco-central-de-reserva-del-per/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "norway": {
+     "countryName": "Norway",
+     "facilities": 35,
+     "operatorsTotal": 19,
+     "page": "https://coloprice.com/companies/norway/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Green Mountain",
+       "slug": "green-mountain",
+       "page": "https://coloprice.com/providers/green-mountain/",
+       "facilities": 5,
+       "mw": 150,
+       "mwCount": 3,
+       "cities": 5
+      },
+      {
+       "rank": 2,
+       "name": "GlobalConnect Group",
+       "slug": "globalconnect-group",
+       "page": "https://coloprice.com/providers/globalconnect-group/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "Skygard",
+       "slug": "skygard",
+       "page": "https://coloprice.com/providers/skygard/",
+       "facilities": 3,
+       "mw": 36,
+       "mwCount": 3,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Vaultica",
+       "slug": "vaultica",
+       "page": "https://coloprice.com/providers/vaultica/",
+       "facilities": 3,
+       "mw": 11,
+       "mwCount": 2,
+       "cities": 3
+      },
+      {
+       "rank": 5,
+       "name": "Blix Solutions",
+       "slug": "blix-solutions",
+       "page": "https://coloprice.com/providers/blix-solutions/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "ireland": {
+     "countryName": "Ireland",
+     "facilities": 34,
+     "operatorsTotal": 13,
+     "page": "https://coloprice.com/companies/ireland/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 9,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 6,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Pure Data Centres Group",
+       "slug": "pure-data-centres-group",
+       "page": "https://coloprice.com/providers/pure-data-centres-group/",
+       "facilities": 3,
+       "mw": 54,
+       "mwCount": 3,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "EdgeConneX",
+       "slug": "edgeconnex",
+       "page": "https://coloprice.com/providers/edgeconnex/",
+       "facilities": 3,
+       "mw": 32,
+       "mwCount": 3,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Echelon Data Centres",
+       "slug": "echelon-data-centres",
+       "page": "https://coloprice.com/providers/echelon-data-centres/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      }
+     ]
+    },
+    "belgium": {
+     "countryName": "Belgium",
+     "facilities": 32,
+     "operatorsTotal": 20,
+     "page": "https://coloprice.com/companies/belgium/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Datacenter United",
+       "slug": "datacenter-united",
+       "page": "https://coloprice.com/providers/datacenter-united/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 2,
+       "name": "DCStar NV",
+       "slug": "dcstar-nv",
+       "page": "https://coloprice.com/providers/dcstar-nv/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "LCL",
+       "slug": "lcl",
+       "page": "https://coloprice.com/providers/lcl/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 5,
+       "name": "Connect4",
+       "slug": "connect4",
+       "page": "https://coloprice.com/providers/connect4/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "ukraine": {
+     "countryName": "Ukraine",
+     "facilities": 32,
+     "operatorsTotal": 28,
+     "page": "https://coloprice.com/companies/ukraine/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Omega Telecom",
+       "slug": "omega-telecom",
+       "page": "https://coloprice.com/providers/omega-telecom/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "Giganet IXN - Ukrainian Backbone Networks",
+       "slug": "giganet-ixn-ukrainian-backbone-networks",
+       "page": "https://coloprice.com/providers/giganet-ixn-ukrainian-backbone-networks/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "SerinIX",
+       "slug": "serinix",
+       "page": "https://coloprice.com/providers/serinix/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Ante Mediam LLC (Datacenter PARKOVY)",
+       "slug": "ante-mediam-llc-datacenter-parkovy",
+       "page": "https://coloprice.com/providers/ante-mediam-llc-datacenter-parkovy/",
+       "facilities": 1,
+       "mw": 4,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "De Novo",
+       "slug": "de-novo",
+       "page": "https://coloprice.com/providers/de-novo/",
+       "facilities": 1,
+       "mw": 2,
+       "mwCount": 1,
+       "cities": 1
+      }
+     ]
+    },
+    "finland": {
+     "countryName": "Finland",
+     "facilities": 31,
+     "operatorsTotal": 17,
+     "page": "https://coloprice.com/companies/finland/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Elisa",
+       "slug": "elisa",
+       "page": "https://coloprice.com/providers/elisa/",
+       "facilities": 6,
+       "mw": 10,
+       "mwCount": 1,
+       "cities": 4
+      },
+      {
+       "rank": 2,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "atNorth",
+       "slug": "atnorth",
+       "page": "https://coloprice.com/providers/atnorth/",
+       "facilities": 3,
+       "mw": 472,
+       "mwCount": 3,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "DNA Oyj",
+       "slug": "dna-oyj",
+       "page": "https://coloprice.com/providers/dna-oyj/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "GleSYS",
+       "slug": "glesys",
+       "page": "https://coloprice.com/providers/glesys/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      }
+     ]
+    },
+    "saudi-arabia": {
+     "countryName": "Saudi Arabia",
+     "facilities": 31,
+     "operatorsTotal": 19,
+     "page": "https://coloprice.com/companies/saudi-arabia/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Mobily (Etihad Etisalat)",
+       "slug": "mobily-etihad-etisalat",
+       "page": "https://coloprice.com/providers/mobily-etihad-etisalat/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "Center3 (stc Group)",
+       "slug": "center3-stc-group",
+       "page": "https://coloprice.com/providers/center3-stc-group/",
+       "facilities": 3,
+       "mw": 44,
+       "mwCount": 2,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "stc / Center3",
+       "slug": "stc-center3",
+       "page": "https://coloprice.com/providers/stc-center3/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Gulf Data Hub",
+       "slug": "gulf-data-hub",
+       "page": "https://coloprice.com/providers/gulf-data-hub/",
+       "facilities": 2,
+       "mw": 20,
+       "mwCount": 2,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "NourNet",
+       "slug": "nournet",
+       "page": "https://coloprice.com/providers/nournet/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 1,
+       "cities": 2
+      }
+     ]
+    },
+    "romania": {
+     "countryName": "Romania",
+     "facilities": 30,
+     "operatorsTotal": 20,
+     "page": "https://coloprice.com/companies/romania/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "NXDATA",
+       "slug": "nxdata",
+       "page": "https://coloprice.com/providers/nxdata/",
+       "facilities": 3,
+       "mw": 5,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "Orange Romania",
+       "slug": "orange-romania",
+       "page": "https://coloprice.com/providers/orange-romania/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "Special Telecommunications Service",
+       "slug": "special-telecommunications-service",
+       "page": "https://coloprice.com/providers/special-telecommunications-service/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 4,
+       "name": "CobraNET SRL",
+       "slug": "cobranet-srl",
+       "page": "https://coloprice.com/providers/cobranet-srl/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "efectRO SRL",
+       "slug": "efectro-srl",
+       "page": "https://coloprice.com/providers/efectro-srl/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "nigeria": {
+     "countryName": "Nigeria",
+     "facilities": 28,
+     "operatorsTotal": 16,
+     "page": "https://coloprice.com/companies/nigeria/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "Rack Centre",
+       "slug": "rack-centre",
+       "page": "https://coloprice.com/providers/rack-centre/",
+       "facilities": 3,
+       "mw": 14,
+       "mwCount": 2,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "MTN Nigeria",
+       "slug": "mtn-nigeria",
+       "page": "https://coloprice.com/providers/mtn-nigeria/",
+       "facilities": 3,
+       "mw": 5,
+       "mwCount": 1,
+       "cities": 3
+      },
+      {
+       "rank": 4,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Galaxy Backbone Limited",
+       "slug": "galaxy-backbone-limited",
+       "page": "https://coloprice.com/providers/galaxy-backbone-limited/",
+       "facilities": 2,
+       "mw": 1,
+       "mwCount": 1,
+       "cities": 2
+      }
+     ]
+    },
+    "czech-republic": {
+     "countryName": "Czech Republic",
+     "facilities": 27,
+     "operatorsTotal": 22,
+     "page": "https://coloprice.com/companies/czech-republic/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "TTC Teleport",
+       "slug": "ttc-teleport",
+       "page": "https://coloprice.com/providers/ttc-teleport/",
+       "facilities": 2,
+       "mw": 6,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "AKESO Holding",
+       "slug": "akeso-holding",
+       "page": "https://coloprice.com/providers/akeso-holding/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "GTS Novera, a.s.",
+       "slug": "gts-novera-a-s",
+       "page": "https://coloprice.com/providers/gts-novera-a-s/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Master Internet",
+       "slug": "master-internet",
+       "page": "https://coloprice.com/providers/master-internet/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "O2 Czech Republic",
+       "slug": "o2-czech-republic",
+       "page": "https://coloprice.com/providers/o2-czech-republic/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "bangladesh": {
+     "countryName": "Bangladesh",
+     "facilities": 26,
+     "operatorsTotal": 23,
+     "page": "https://coloprice.com/companies/bangladesh/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Axentec PLC (Robi Axiata)",
+       "slug": "axentec-plc-robi-axiata",
+       "page": "https://coloprice.com/providers/axentec-plc-robi-axiata/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "Coloasia Limited",
+       "slug": "coloasia-limited",
+       "page": "https://coloprice.com/providers/coloasia-limited/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "Felicity IDC Limited",
+       "slug": "felicity-idc-limited",
+       "page": "https://coloprice.com/providers/felicity-idc-limited/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Aamra Technologies",
+       "slug": "aamra-technologies",
+       "page": "https://coloprice.com/providers/aamra-technologies/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Bangladesh Computer Council (BCC), ICT Division",
+       "slug": "bangladesh-computer-council-bcc-ict-division",
+       "page": "https://coloprice.com/providers/bangladesh-computer-council-bcc-ict-division/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "israel": {
+     "countryName": "Israel",
+     "facilities": 25,
+     "operatorsTotal": 14,
+     "page": "https://coloprice.com/companies/israel/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Bezeq International",
+       "slug": "bezeq-international",
+       "page": "https://coloprice.com/providers/bezeq-international/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "EdgeConneX",
+       "slug": "edgeconnex",
+       "page": "https://coloprice.com/providers/edgeconnex/",
+       "facilities": 3,
+       "mw": 8,
+       "mwCount": 1,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "Bynet Data Centers",
+       "slug": "bynet-data-centers",
+       "page": "https://coloprice.com/providers/bynet-data-centers/",
+       "facilities": 3,
+       "mw": 2,
+       "mwCount": 3,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Cellcom Israel",
+       "slug": "cellcom-israel",
+       "page": "https://coloprice.com/providers/cellcom-israel/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 5,
+       "name": "Bynet Data Communications",
+       "slug": "bynet-data-communications",
+       "page": "https://coloprice.com/providers/bynet-data-communications/",
+       "facilities": 2,
+       "mw": 8,
+       "mwCount": 1,
+       "cities": 2
+      }
+     ]
+    },
+    "pakistan": {
+     "countryName": "Pakistan",
+     "facilities": 24,
+     "operatorsTotal": 14,
+     "page": "https://coloprice.com/companies/pakistan/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Pakistan Telecommunication Company Limited",
+       "slug": "pakistan-telecommunication-company-limited",
+       "page": "https://coloprice.com/providers/pakistan-telecommunication-company-limited/",
+       "facilities": 9,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 2,
+       "name": "Jazz (Pakistan Mobile Communication Limited / VEON)",
+       "slug": "jazz-pakistan-mobile-communication-limited-veon",
+       "page": "https://coloprice.com/providers/jazz-pakistan-mobile-communication-limited-veon/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "Transworld Associates (Pvt.) Ltd.",
+       "slug": "transworld-associates-pvt-ltd",
+       "page": "https://coloprice.com/providers/transworld-associates-pvt-ltd/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Allied Bank",
+       "slug": "allied-bank",
+       "page": "https://coloprice.com/providers/allied-bank/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "HIGHER EDUCATION COMMISSION PAKISTAN",
+       "slug": "higher-education-commission-pakistan",
+       "page": "https://coloprice.com/providers/higher-education-commission-pakistan/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "kazakhstan": {
+     "countryName": "Kazakhstan",
+     "facilities": 23,
+     "operatorsTotal": 16,
+     "page": "https://coloprice.com/companies/kazakhstan/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Transtelecom",
+       "slug": "transtelecom",
+       "page": "https://coloprice.com/providers/transtelecom/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "Freedom Data Centers (Freedom Holding Corp.)",
+       "slug": "freedom-data-centers-freedom-holding-corp",
+       "page": "https://coloprice.com/providers/freedom-data-centers-freedom-holding-corp/",
+       "facilities": 2,
+       "mw": 7,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "Kazakhtelecom",
+       "slug": "kazakhtelecom",
+       "page": "https://coloprice.com/providers/kazakhtelecom/",
+       "facilities": 2,
+       "mw": 4,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Kazteleport (Halyk Group)",
+       "slug": "kazteleport-halyk-group",
+       "page": "https://coloprice.com/providers/kazteleport-halyk-group/",
+       "facilities": 2,
+       "mw": 4,
+       "mwCount": 2,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "Kaspi Cloud",
+       "slug": "kaspi-cloud",
+       "page": "https://coloprice.com/providers/kaspi-cloud/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "morocco": {
+     "countryName": "Morocco",
+     "facilities": 22,
+     "operatorsTotal": 16,
+     "page": "https://coloprice.com/companies/morocco/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Wana Corporate SA (inwi)",
+       "slug": "wana-corporate-sa-inwi",
+       "page": "https://coloprice.com/providers/wana-corporate-sa-inwi/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 2,
+       "name": "Orange Maroc",
+       "slug": "orange-maroc",
+       "page": "https://coloprice.com/providers/orange-maroc/",
+       "facilities": 2,
+       "mw": 2,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "N+ONE Datacenters",
+       "slug": "n-one-datacenters",
+       "page": "https://coloprice.com/providers/n-one-datacenters/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "NPONE SARL",
+       "slug": "npone-sarl",
+       "page": "https://coloprice.com/providers/npone-sarl/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "Atlas Cloud Services",
+       "slug": "atlas-cloud-services",
+       "page": "https://coloprice.com/providers/atlas-cloud-services/",
+       "facilities": 1,
+       "mw": 5,
+       "mwCount": 1,
+       "cities": 1
+      }
+     ]
+    },
+    "taiwan": {
+     "countryName": "Taiwan",
+     "facilities": 22,
+     "operatorsTotal": 14,
+     "page": "https://coloprice.com/companies/taiwan/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Chunghwa Telecom",
+       "slug": "chunghwa-telecom",
+       "page": "https://coloprice.com/providers/chunghwa-telecom/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "Chief Telecom",
+       "slug": "chief-telecom",
+       "page": "https://coloprice.com/providers/chief-telecom/",
+       "facilities": 4,
+       "mw": 20,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "National Center for High-performance Computing",
+       "slug": "national-center-for-high-performance-computing",
+       "page": "https://coloprice.com/providers/national-center-for-high-performance-computing/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Keppel Data Centre Fund II / DDSP",
+       "slug": "keppel-data-centre-fund-ii-ddsp",
+       "page": "https://coloprice.com/providers/keppel-data-centre-fund-ii-ddsp/",
+       "facilities": 1,
+       "mw": 80,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Vantage Data Centers",
+       "slug": "vantage-data-centers",
+       "page": "https://coloprice.com/providers/vantage-data-centers/",
+       "facilities": 1,
+       "mw": 16,
+       "mwCount": 1,
+       "cities": 1
+      }
+     ]
+    },
+    "greece": {
+     "countryName": "Greece",
+     "facilities": 21,
+     "operatorsTotal": 10,
+     "page": "https://coloprice.com/companies/greece/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "Telecom Italia Sparkle",
+       "slug": "telecom-italia-sparkle",
+       "page": "https://coloprice.com/providers/telecom-italia-sparkle/",
+       "facilities": 3,
+       "mw": 8,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "Lancom",
+       "slug": "lancom",
+       "page": "https://coloprice.com/providers/lancom/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Synapsecom",
+       "slug": "synapsecom",
+       "page": "https://coloprice.com/providers/synapsecom/",
+       "facilities": 2,
+       "mw": 1,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "OTE Group / Cosmote",
+       "slug": "ote-group-cosmote",
+       "page": "https://coloprice.com/providers/ote-group-cosmote/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "kenya": {
+     "countryName": "Kenya",
+     "facilities": 21,
+     "operatorsTotal": 12,
+     "page": "https://coloprice.com/companies/kenya/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "icolo",
+       "slug": "icolo",
+       "page": "https://coloprice.com/providers/icolo/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "IXAfrica Data Centres",
+       "slug": "ixafrica-data-centres",
+       "page": "https://coloprice.com/providers/ixafrica-data-centres/",
+       "facilities": 2,
+       "mw": 58,
+       "mwCount": 2,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Safaricom PLC",
+       "slug": "safaricom-plc",
+       "page": "https://coloprice.com/providers/safaricom-plc/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "Telkom Kenya",
+       "slug": "telkom-kenya",
+       "page": "https://coloprice.com/providers/telkom-kenya/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      }
+     ]
+    },
+    "egypt": {
+     "countryName": "Egypt",
+     "facilities": 19,
+     "operatorsTotal": 12,
+     "page": "https://coloprice.com/companies/egypt/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Telecom Egypt",
+       "slug": "telecom-egypt",
+       "page": "https://coloprice.com/providers/telecom-egypt/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "Etisalat Misr (e& Egypt)",
+       "slug": "etisalat-misr-e-egypt",
+       "page": "https://coloprice.com/providers/etisalat-misr-e-egypt/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 3,
+       "name": "Intro Group",
+       "slug": "intro-group",
+       "page": "https://coloprice.com/providers/intro-group/",
+       "facilities": 1,
+       "mw": 80,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Khazna Data Centers / Benya Group",
+       "slug": "khazna-data-centers-benya-group",
+       "page": "https://coloprice.com/providers/khazna-data-centers-benya-group/",
+       "facilities": 1,
+       "mw": 25,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Africa Data Centers (Cassava Technologies) / Vodafone Business",
+       "slug": "africa-data-centers-cassava-technologies-vodafone-business",
+       "page": "https://coloprice.com/providers/africa-data-centers-cassava-technologies-vodafone-business/",
+       "facilities": 1,
+       "mw": 20,
+       "mwCount": 1,
+       "cities": 1
+      }
+     ]
+    },
+    "latvia": {
+     "countryName": "Latvia",
+     "facilities": 19,
+     "operatorsTotal": 11,
+     "page": "https://coloprice.com/companies/latvia/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Tet",
+       "slug": "tet",
+       "page": "https://coloprice.com/providers/tet/",
+       "facilities": 7,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "Delska",
+       "slug": "delska",
+       "page": "https://coloprice.com/providers/delska/",
+       "facilities": 3,
+       "mw": 13,
+       "mwCount": 3,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Baltcom",
+       "slug": "baltcom",
+       "page": "https://coloprice.com/providers/baltcom/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Bite Latvija",
+       "slug": "bite-latvija",
+       "page": "https://coloprice.com/providers/bite-latvija/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "CloudHosting SIA",
+       "slug": "cloudhosting-sia",
+       "page": "https://coloprice.com/providers/cloudhosting-sia/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "bulgaria": {
+     "countryName": "Bulgaria",
+     "facilities": 18,
+     "operatorsTotal": 10,
+     "page": "https://coloprice.com/companies/bulgaria/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Neterra",
+       "slug": "neterra",
+       "page": "https://coloprice.com/providers/neterra/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      },
+      {
+       "rank": 2,
+       "name": "Telepoint",
+       "slug": "telepoint",
+       "page": "https://coloprice.com/providers/telepoint/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "EVOLINK EAD",
+       "slug": "evolink-ead",
+       "page": "https://coloprice.com/providers/evolink-ead/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "AbsCloud",
+       "slug": "abscloud",
+       "page": "https://coloprice.com/providers/abscloud/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "costa-rica": {
+     "countryName": "Costa Rica",
+     "facilities": 18,
+     "operatorsTotal": 16,
+     "page": "https://coloprice.com/companies/costa-rica/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "IFX Networks",
+       "slug": "ifx-networks",
+       "page": "https://coloprice.com/providers/ifx-networks/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "Navégalo",
+       "slug": "nav-galo",
+       "page": "https://coloprice.com/providers/nav-galo/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "ADN Datacenters (IFX Networks)",
+       "slug": "adn-datacenters-ifx-networks",
+       "page": "https://coloprice.com/providers/adn-datacenters-ifx-networks/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Banco Nacional de Costa Rica",
+       "slug": "banco-nacional-de-costa-rica",
+       "page": "https://coloprice.com/providers/banco-nacional-de-costa-rica/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Banco Popular y de Desarrollo Comunal",
+       "slug": "banco-popular-y-de-desarrollo-comunal",
+       "page": "https://coloprice.com/providers/banco-popular-y-de-desarrollo-comunal/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "portugal": {
+     "countryName": "Portugal",
+     "facilities": 18,
+     "operatorsTotal": 15,
+     "page": "https://coloprice.com/companies/portugal/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "AtlasEdge",
+       "slug": "atlasedge",
+       "page": "https://coloprice.com/providers/atlasedge/",
+       "facilities": 2,
+       "mw": 21,
+       "mwCount": 2,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Start Campus (tenant: Nscale)",
+       "slug": "start-campus-tenant-nscale",
+       "page": "https://coloprice.com/providers/start-campus-tenant-nscale/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "MEO (Altice Portugal), formerly Portugal Telecom Data Center S.A.",
+       "slug": "meo-altice-portugal-formerly-portugal-telecom-data-center-s-a",
+       "page": "https://coloprice.com/providers/meo-altice-portugal-formerly-portugal-telecom-data-center-s-a/",
+       "facilities": 1,
+       "mw": 7,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Templus",
+       "slug": "templus",
+       "page": "https://coloprice.com/providers/templus/",
+       "facilities": 1,
+       "mw": 2,
+       "mwCount": 1,
+       "cities": 1
+      }
+     ]
+    },
+    "ecuador": {
+     "countryName": "Ecuador",
+     "facilities": 16,
+     "operatorsTotal": 11,
+     "page": "https://coloprice.com/companies/ecuador/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Claro Ecuador (Conecel S.A. / América Móvil)",
+       "slug": "claro-ecuador-conecel-s-a-am-rica-m-vil",
+       "page": "https://coloprice.com/providers/claro-ecuador-conecel-s-a-am-rica-m-vil/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "Conecel",
+       "slug": "conecel",
+       "page": "https://coloprice.com/providers/conecel/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "Corporación Nacional de Telecomunicaciones (CNT EP)",
+       "slug": "corporaci-n-nacional-de-telecomunicaciones-cnt-ep",
+       "page": "https://coloprice.com/providers/corporaci-n-nacional-de-telecomunicaciones-cnt-ep/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Grupo Bravco S.A. (TEUNO)",
+       "slug": "grupo-bravco-s-a-teuno",
+       "page": "https://coloprice.com/providers/grupo-bravco-s-a-teuno/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "Telconet S.A.",
+       "slug": "telconet-s-a",
+       "page": "https://coloprice.com/providers/telconet-s-a/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      }
+     ]
+    },
+    "lithuania": {
+     "countryName": "Lithuania",
+     "facilities": 16,
+     "operatorsTotal": 10,
+     "page": "https://coloprice.com/companies/lithuania/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Delska",
+       "slug": "delska",
+       "page": "https://coloprice.com/providers/delska/",
+       "facilities": 3,
+       "mw": 6,
+       "mwCount": 3,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "Baltneta",
+       "slug": "baltneta",
+       "page": "https://coloprice.com/providers/baltneta/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Telecentras",
+       "slug": "telecentras",
+       "page": "https://coloprice.com/providers/telecentras/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Telia Company",
+       "slug": "telia-company",
+       "page": "https://coloprice.com/providers/telia-company/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "AB Lietuvos Radijo Ir Televizijos Centras (LRTC)",
+       "slug": "ab-lietuvos-radijo-ir-televizijos-centras-lrtc",
+       "page": "https://coloprice.com/providers/ab-lietuvos-radijo-ir-televizijos-centras-lrtc/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "iraq": {
+     "countryName": "Iraq",
+     "facilities": 15,
+     "operatorsTotal": 11,
+     "page": "https://coloprice.com/companies/iraq/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Asiacell",
+       "slug": "asiacell",
+       "page": "https://coloprice.com/providers/asiacell/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "International Smart Card QiCard",
+       "slug": "international-smart-card-qicard",
+       "page": "https://coloprice.com/providers/international-smart-card-qicard/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "T964",
+       "slug": "t964",
+       "page": "https://coloprice.com/providers/t964/",
+       "facilities": 1,
+       "mw": 12,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Earthlink Telecommunications",
+       "slug": "earthlink-telecommunications",
+       "page": "https://coloprice.com/providers/earthlink-telecommunications/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "GSL Telecom (Golden Sky Links)",
+       "slug": "gsl-telecom-golden-sky-links",
+       "page": "https://coloprice.com/providers/gsl-telecom-golden-sky-links/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "azerbaijan": {
+     "countryName": "Azerbaijan",
+     "facilities": 14,
+     "operatorsTotal": 8,
+     "page": "https://coloprice.com/companies/azerbaijan/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "AzInTelecom",
+       "slug": "azintelecom",
+       "page": "https://coloprice.com/providers/azintelecom/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 2,
+       "name": "Azerconnect LLC (NEQSOL Holding)",
+       "slug": "azerconnect-llc-neqsol-holding",
+       "page": "https://coloprice.com/providers/azerconnect-llc-neqsol-holding/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "PASHA Technology LLC (PASHA Holding)",
+       "slug": "pasha-technology-llc-pasha-holding",
+       "page": "https://coloprice.com/providers/pasha-technology-llc-pasha-holding/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Azerfon",
+       "slug": "azerfon",
+       "page": "https://coloprice.com/providers/azerfon/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Aztelekom",
+       "slug": "aztelekom",
+       "page": "https://coloprice.com/providers/aztelekom/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "jordan": {
+     "countryName": "Jordan",
+     "facilities": 14,
+     "operatorsTotal": 10,
+     "page": "https://coloprice.com/companies/jordan/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "35D (Aqaba Digital Hub)",
+       "slug": "35d-aqaba-digital-hub",
+       "page": "https://coloprice.com/providers/35d-aqaba-digital-hub/",
+       "facilities": 2,
+       "mw": 6,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "Al Mirnaah for Investment and Business Development",
+       "slug": "al-mirnaah-for-investment-and-business-development",
+       "page": "https://coloprice.com/providers/al-mirnaah-for-investment-and-business-development/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Orange Jordan",
+       "slug": "orange-jordan",
+       "page": "https://coloprice.com/providers/orange-jordan/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Umniah (Beyon)",
+       "slug": "umniah-beyon",
+       "page": "https://coloprice.com/providers/umniah-beyon/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Arab Bank",
+       "slug": "arab-bank",
+       "page": "https://coloprice.com/providers/arab-bank/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "panama": {
+     "countryName": "Panama",
+     "facilities": 14,
+     "operatorsTotal": 7,
+     "page": "https://coloprice.com/companies/panama/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Tigo Panamá (Millicom)",
+       "slug": "tigo-panam-millicom",
+       "page": "https://coloprice.com/providers/tigo-panam-millicom/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "UFINET",
+       "slug": "ufinet",
+       "page": "https://coloprice.com/providers/ufinet/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "KIO Networks",
+       "slug": "kio-networks",
+       "page": "https://coloprice.com/providers/kio-networks/",
+       "facilities": 2,
+       "mw": 10,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Cable & Wireless Panamá, S.A. (C&W Business)",
+       "slug": "cable-wireless-panam-s-a-c-w-business",
+       "page": "https://coloprice.com/providers/cable-wireless-panam-s-a-c-w-business/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "Cable Onda, S.A. (Tigo Panamá / Millicom)",
+       "slug": "cable-onda-s-a-tigo-panam-millicom",
+       "page": "https://coloprice.com/providers/cable-onda-s-a-tigo-panam-millicom/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      }
+     ]
+    },
+    "tanzania": {
+     "countryName": "Tanzania",
+     "facilities": 13,
+     "operatorsTotal": 10,
+     "page": "https://coloprice.com/companies/tanzania/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Tanzania Telecommunications Corporation (TTCL Corporation)",
+       "slug": "tanzania-telecommunications-corporation-ttcl-corporation",
+       "page": "https://coloprice.com/providers/tanzania-telecommunications-corporation-ttcl-corporation/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 2,
+       "name": "Raxio Group",
+       "slug": "raxio-group",
+       "page": "https://coloprice.com/providers/raxio-group/",
+       "facilities": 1,
+       "mw": 6,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Wingu Africa",
+       "slug": "wingu-africa",
+       "page": "https://coloprice.com/providers/wingu-africa/",
+       "facilities": 1,
+       "mw": 3,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "DataLabs (T)",
+       "slug": "datalabs-t",
+       "page": "https://coloprice.com/providers/datalabs-t/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "National Internet Data Center (NIDC)",
+       "slug": "national-internet-data-center-nidc",
+       "page": "https://coloprice.com/providers/national-internet-data-center-nidc/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "qatar": {
+     "countryName": "Qatar",
+     "facilities": 12,
+     "operatorsTotal": 4,
+     "page": "https://coloprice.com/companies/qatar/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "MEEZA",
+       "slug": "meeza",
+       "page": "https://coloprice.com/providers/meeza/",
+       "facilities": 7,
+       "mw": 44,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "Quantum Switch",
+       "slug": "quantum-switch",
+       "page": "https://coloprice.com/providers/quantum-switch/",
+       "facilities": 2,
+       "mw": 10,
+       "mwCount": 2,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Ooredoo Qatar",
+       "slug": "ooredoo-qatar",
+       "page": "https://coloprice.com/providers/ooredoo-qatar/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Syntys (Ooredoo Group)",
+       "slug": "syntys-ooredoo-group",
+       "page": "https://coloprice.com/providers/syntys-ooredoo-group/",
+       "facilities": 1,
+       "mw": 5,
+       "mwCount": 1,
+       "cities": 1
+      }
+     ]
+    },
+    "iceland": {
+     "countryName": "Iceland",
+     "facilities": 11,
+     "operatorsTotal": 6,
+     "page": "https://coloprice.com/companies/iceland/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "atNorth",
+       "slug": "atnorth",
+       "page": "https://coloprice.com/providers/atnorth/",
+       "facilities": 3,
+       "mw": 136,
+       "mwCount": 3,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "Internet á Íslandi hf",
+       "slug": "internet-slandi-hf",
+       "page": "https://coloprice.com/providers/internet-slandi-hf/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Advania Ísland ehf.",
+       "slug": "advania-sland-ehf",
+       "page": "https://coloprice.com/providers/advania-sland-ehf/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Verne",
+       "slug": "verne",
+       "page": "https://coloprice.com/providers/verne/",
+       "facilities": 1,
+       "mw": 140,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Borealis Data Center",
+       "slug": "borealis-data-center",
+       "page": "https://coloprice.com/providers/borealis-data-center/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "cyprus": {
+     "countryName": "Cyprus",
+     "facilities": 10,
+     "operatorsTotal": 7,
+     "page": "https://coloprice.com/companies/cyprus/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "PrimeTel",
+       "slug": "primetel",
+       "page": "https://coloprice.com/providers/primetel/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "Cyta",
+       "slug": "cyta",
+       "page": "https://coloprice.com/providers/cyta/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "Cloudlayer8 Limited",
+       "slug": "cloudlayer8-limited",
+       "page": "https://coloprice.com/providers/cloudlayer8-limited/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "IPTP Networks",
+       "slug": "iptp-networks",
+       "page": "https://coloprice.com/providers/iptp-networks/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "MTN Cyprus LTD",
+       "slug": "mtn-cyprus-ltd",
+       "page": "https://coloprice.com/providers/mtn-cyprus-ltd/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "dominican-republic": {
+     "countryName": "Dominican Republic",
+     "facilities": 10,
+     "operatorsTotal": 9,
+     "page": "https://coloprice.com/companies/dominican-republic/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "NAP del Caribe",
+       "slug": "nap-del-caribe",
+       "page": "https://coloprice.com/providers/nap-del-caribe/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "Altice Dominicana",
+       "slug": "altice-dominicana",
+       "page": "https://coloprice.com/providers/altice-dominicana/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Banco Múltiple BHD, S. A.",
+       "slug": "banco-m-ltiple-bhd-s-a",
+       "page": "https://coloprice.com/providers/banco-m-ltiple-bhd-s-a/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Banco Popular Dominicano",
+       "slug": "banco-popular-dominicano",
+       "page": "https://coloprice.com/providers/banco-popular-dominicano/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "CENTRIC MOBILITY (CEMO), S.R.L",
+       "slug": "centric-mobility-cemo-s-r-l",
+       "page": "https://coloprice.com/providers/centric-mobility-cemo-s-r-l/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "guatemala": {
+     "countryName": "Guatemala",
+     "facilities": 10,
+     "operatorsTotal": 7,
+     "page": "https://coloprice.com/companies/guatemala/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Back Office Smart Solution, S.A. (BOSS)",
+       "slug": "back-office-smart-solution-s-a-boss",
+       "page": "https://coloprice.com/providers/back-office-smart-solution-s-a-boss/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "GBM de Guatemala, S.A.",
+       "slug": "gbm-de-guatemala-s-a",
+       "page": "https://coloprice.com/providers/gbm-de-guatemala-s-a/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "KIO Networks",
+       "slug": "kio-networks",
+       "page": "https://coloprice.com/providers/kio-networks/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Emerging Networks Guatemala",
+       "slug": "emerging-networks-guatemala",
+       "page": "https://coloprice.com/providers/emerging-networks-guatemala/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "IFX Networks",
+       "slug": "ifx-networks",
+       "page": "https://coloprice.com/providers/ifx-networks/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "luxembourg": {
+     "countryName": "Luxembourg",
+     "facilities": 10,
+     "operatorsTotal": 5,
+     "page": "https://coloprice.com/companies/luxembourg/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "DEEP (POST Luxembourg Group)",
+       "slug": "deep-post-luxembourg-group",
+       "page": "https://coloprice.com/providers/deep-post-luxembourg-group/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "LuxConnect",
+       "slug": "luxconnect",
+       "page": "https://coloprice.com/providers/luxconnect/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "POST Telecom",
+       "slug": "post-telecom",
+       "page": "https://coloprice.com/providers/post-telecom/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Portus Data Centers",
+       "slug": "portus-data-centers",
+       "page": "https://coloprice.com/providers/portus-data-centers/",
+       "facilities": 1,
+       "mw": 2,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "BCE",
+       "slug": "bce",
+       "page": "https://coloprice.com/providers/bce/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "serbia": {
+     "countryName": "Serbia",
+     "facilities": 10,
+     "operatorsTotal": 10,
+     "page": "https://coloprice.com/companies/serbia/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Akton Communications and Networks",
+       "slug": "akton-communications-and-networks",
+       "page": "https://coloprice.com/providers/akton-communications-and-networks/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "BeotelNet-ISP d.o.o",
+       "slug": "beotelnet-isp-d-o-o",
+       "page": "https://coloprice.com/providers/beotelnet-isp-d-o-o/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "CETIN",
+       "slug": "cetin",
+       "page": "https://coloprice.com/providers/cetin/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "NiNet Company DOO",
+       "slug": "ninet-company-doo",
+       "page": "https://coloprice.com/providers/ninet-company-doo/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Office for IT and eGovernment (Republic of Serbia)",
+       "slug": "office-for-it-and-egovernment-republic-of-serbia",
+       "page": "https://coloprice.com/providers/office-for-it-and-egovernment-republic-of-serbia/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
+    "uzbekistan": {
+     "countryName": "Uzbekistan",
+     "facilities": 10,
+     "operatorsTotal": 7,
+     "page": "https://coloprice.com/companies/uzbekistan/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Uzbektelecom (UzCloud)",
+       "slug": "uzbektelecom-uzcloud",
+       "page": "https://coloprice.com/providers/uzbektelecom-uzcloud/",
+       "facilities": 4,
+       "mw": 5,
+       "mwCount": 4,
+       "cities": 4
+      },
+      {
+       "rank": 2,
+       "name": "DataVolt",
+       "slug": "datavolt",
+       "page": "https://coloprice.com/providers/datavolt/",
+       "facilities": 1,
+       "mw": 12,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "E-Government Project Management Center",
+       "slug": "e-government-project-management-center",
+       "page": "https://coloprice.com/providers/e-government-project-management-center/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "East Telecom",
+       "slug": "east-telecom",
+       "page": "https://coloprice.com/providers/east-telecom/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Unitel LLC (Beeline Uzbekistan)",
+       "slug": "unitel-llc-beeline-uzbekistan",
+       "page": "https://coloprice.com/providers/unitel-llc-beeline-uzbekistan/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    }
+   },
+   "facts": [
+    "Catalogue: 2278 operators, 6075 facilities in 184 countries (as of 2026-10-29)",
+    "Largest by tracked facilities — #1 Equinix: 267 tracked facilities in 37 countries, 125 MW published (5 of 267 sites publish MW)",
+    "Largest by tracked facilities — #2 Digital Realty: 231 tracked facilities in 29 countries, 290 MW published (13 of 231 sites publish MW)",
+    "Largest by tracked facilities — #3 NTT Global Data Centers: 80 tracked facilities in 17 countries, 1,506 MW published (62 of 80 sites publish MW)",
+    "Largest by tracked facilities — #4 DataBank: 76 tracked facilities in 2 countries, 1,023 MW published (76 of 76 sites publish MW)",
+    "Largest by tracked facilities — #5 EdgeConneX: 56 tracked facilities in 16 countries, 575 MW published (26 of 56 sites publish MW)",
+    "Largest by tracked facilities — #6 STACK Infrastructure: 49 tracked facilities in 11 countries, 5,673 MW published (48 of 49 sites publish MW)",
+    "Largest by tracked facilities — #7 Cologix: 49 tracked facilities in 2 countries, 121 MW published (7 of 49 sites publish MW)",
+    "Largest by tracked facilities — #8 Iron Mountain: 48 tracked facilities in 7 countries, 1,000 MW published (44 of 48 sites publish MW)",
+    "Largest by tracked facilities — #9 QTS Data Centers: 46 tracked facilities in 2 countries, 2,513 MW published (25 of 46 sites publish MW)",
+    "Largest by tracked facilities — #10 CyrusOne: 46 tracked facilities in 9 countries, 1,731 MW published (46 of 46 sites publish MW)",
+    "Largest by published MW — #1 Meta Platforms: 3 tracked facilities in 2 countries, 6,000 MW published (2 of 3 sites publish MW)",
+    "Largest by published MW — #2 STACK Infrastructure: 49 tracked facilities in 11 countries, 5,673 MW published (48 of 49 sites publish MW)",
+    "Largest by published MW — #3 Vantage Data Centers: 41 tracked facilities in 14 countries, 5,544 MW published (39 of 41 sites publish MW)",
+    "Largest by published MW — #4 IREN: 9 tracked facilities in 3 countries, 5,460 MW published (8 of 9 sites publish MW)",
+    "Largest by published MW — #5 CDC Data Centres: 19 tracked facilities in 2 countries, 3,308 MW published (13 of 19 sites publish MW)",
+    "Largest by published MW — #6 OpenAI (developer Octans GA LLC): 1 tracked facilities in 1 country, 3,210 MW published (1 of 1 sites publish MW)",
+    "Largest by published MW — #7 Crusoe: 4 tracked facilities in 1 country, 3,100 MW published (3 of 4 sites publish MW)",
+    "Largest by published MW — #8 Nebius: 4 tracked facilities in 2 countries, 3,010 MW published (4 of 4 sites publish MW)",
+    "Largest by published MW — #9 Aligned Data Centers: 40 tracked facilities in 5 countries, 2,935 MW published (16 of 40 sites publish MW)",
+    "Largest by published MW — #10 Google: 20 tracked facilities in 2 countries, 2,700 MW published (1 of 20 sites publish MW)",
+    "United States (1340 facilities, top 5) — #1 Digital Realty: 78 tracked facilities in undefined countries, 91 MW published (7 of 78 sites publish MW)",
+    "United States (1340 facilities, top 5) — #2 DataBank: 75 tracked facilities in undefined countries, 1,020 MW published (75 of 75 sites publish MW)",
+    "United States (1340 facilities, top 5) — #3 Equinix: 75 tracked facilities in undefined countries",
+    "United States (1340 facilities, top 5) — #4 Flexential: 45 tracked facilities in undefined countries, 408 MW published (42 of 45 sites publish MW)",
+    "United States (1340 facilities, top 5) — #5 QTS Data Centers: 44 tracked facilities in undefined countries, 2,473 MW published (23 of 44 sites publish MW)",
+    "India (307 facilities, top 5) — #1 ST Telemedia Global Data Centres: 33 tracked facilities in undefined countries, 585 MW published (31 of 33 sites publish MW)",
+    "India (307 facilities, top 5) — #2 Nxtra Data: 26 tracked facilities in undefined countries, 234 MW published (19 of 26 sites publish MW)",
+    "India (307 facilities, top 5) — #3 NTT Global Data Centers: 20 tracked facilities in undefined countries, 301 MW published (14 of 20 sites publish MW)",
+    "India (307 facilities, top 5) — #4 Sify Technologies: 19 tracked facilities in undefined countries, 121 MW published (8 of 19 sites publish MW)",
+    "India (307 facilities, top 5) — #5 CtrlS Datacenters: 16 tracked facilities in undefined countries, 252 MW published (10 of 16 sites publish MW)",
+    "Germany (274 facilities, top 5) — #1 Digital Realty: 28 tracked facilities in undefined countries",
+    "Germany (274 facilities, top 5) — #2 euNetworks Group: 17 tracked facilities in undefined countries",
+    "Germany (274 facilities, top 5) — #3 Equinix: 13 tracked facilities in undefined countries",
+    "Germany (274 facilities, top 5) — #4 NTT Global Data Centers: 9 tracked facilities in undefined countries, 196 MW published (8 of 9 sites publish MW)",
+    "Germany (274 facilities, top 5) — #5 Colt DCS: 9 tracked facilities in undefined countries, 174 MW published (4 of 9 sites publish MW)",
+    "Brazil (245 facilities, top 5) — #1 Ascenty (Digital Realty): 30 tracked facilities in undefined countries, 475 MW published (28 of 30 sites publish MW)",
+    "Brazil (245 facilities, top 5) — #2 Scala Data Centers: 20 tracked facilities in undefined countries, 254 MW published (17 of 20 sites publish MW)",
+    "Brazil (245 facilities, top 5) — #3 BR.Digital: 12 tracked facilities in undefined countries",
+    "Brazil (245 facilities, top 5) — #4 Elea Data Centers: 10 tracked facilities in undefined countries, 26 MW published (7 of 10 sites publish MW)",
+    "Brazil (245 facilities, top 5) — #5 Equinix: 9 tracked facilities in undefined countries",
+    "Indonesia (207 facilities, top 5) — #1 neuCentrIX (Telkom Indonesia): 14 tracked facilities in undefined countries",
+    "Indonesia (207 facilities, top 5) — #2 Asosiasi Penyelenggara Jasa Internet Indonesia: 13 tracked facilities in undefined countries",
+    "Indonesia (207 facilities, top 5) — #3 STT GDC Indonesia: 9 tracked facilities in undefined countries, 374 MW published (9 of 9 sites publish MW)",
+    "Indonesia (207 facilities, top 5) — #4 DCI Indonesia: 9 tracked facilities in undefined countries, 105 MW published (6 of 9 sites publish MW)",
+    "Indonesia (207 facilities, top 5) — #5 Princeton Digital Group: 8 tracked facilities in undefined countries, 456 MW published (3 of 8 sites publish MW)",
+    "China (198 facilities, top 5) — #1 China Telecom: 39 tracked facilities in undefined countries",
+    "China (198 facilities, top 5) — #2 GDS Holdings: 17 tracked facilities in undefined countries",
+    "China (198 facilities, top 5) — #3 VNET Group: 13 tracked facilities in undefined countries",
+    "China (198 facilities, top 5) — #4 Tencent Cloud: 9 tracked facilities in undefined countries",
+    "China (198 facilities, top 5) — #5 Chindata Group: 8 tracked facilities in undefined countries, 58 MW published (2 of 8 sites publish MW)",
+    "United Kingdom (197 facilities, top 5) — #1 Pulsant: 14 tracked facilities in undefined countries, 22 MW published (14 of 14 sites publish MW)",
+    "United Kingdom (197 facilities, top 5) — #2 Digital Realty: 13 tracked facilities in undefined countries",
+    "United Kingdom (197 facilities, top 5) — #3 Equinix: 13 tracked facilities in undefined countries",
+    "United Kingdom (197 facilities, top 5) — #4 iomart: 8 tracked facilities in undefined countries, 11 MW published (1 of 8 sites publish MW)",
+    "United Kingdom (197 facilities, top 5) — #5 Stellanor: 8 tracked facilities in undefined countries, 5 MW published (1 of 8 sites publish MW)",
+    "France (187 facilities, top 5) — #1 Digital Realty: 18 tracked facilities in undefined countries",
+    "France (187 facilities, top 5) — #2 Cogent Communications: 16 tracked facilities in undefined countries",
+    "France (187 facilities, top 5) — #3 ETIX Everywhere: 15 tracked facilities in undefined countries, 17 MW published (13 of 15 sites publish MW)",
+    "France (187 facilities, top 5) — #4 Equinix: 12 tracked facilities in undefined countries",
+    "France (187 facilities, top 5) — #5 UltraEdge: 10 tracked facilities in undefined countries",
+    "Australia (171 facilities, top 5) — #1 NEXTDC: 25 tracked facilities in undefined countries, 1,726 MW published (25 of 25 sites publish MW)",
+    "Australia (171 facilities, top 5) — #2 Equinix: 18 tracked facilities in undefined countries, 28 MW published (1 of 18 sites publish MW)",
+    "Australia (171 facilities, top 5) — #3 CDC Data Centres: 14 tracked facilities in undefined countries, 3,210 MW published (10 of 14 sites publish MW)",
+    "Australia (171 facilities, top 5) — #4 Vocus: 9 tracked facilities in undefined countries",
+    "Australia (171 facilities, top 5) — #5 DigiCo REIT: 8 tracked facilities in undefined countries, 62 MW published (8 of 8 sites publish MW)",
+    "Canada (163 facilities, top 5) — #1 Cologix: 23 tracked facilities in undefined countries, 65 MW published (3 of 23 sites publish MW)",
+    "Canada (163 facilities, top 5) — #2 eStruxture: 16 tracked facilities in undefined countries, 127 MW published (12 of 16 sites publish MW)",
+    "Canada (163 facilities, top 5) — #3 Qu Data Centres: 10 tracked facilities in undefined countries, 27 MW published (7 of 10 sites publish MW)",
+    "Canada (163 facilities, top 5) — #4 Equinix: 9 tracked facilities in undefined countries",
+    "Canada (163 facilities, top 5) — #5 Beanfield Metroconnect: 5 tracked facilities in undefined countries",
+    "Japan (140 facilities, top 5) — #1 Equinix: 17 tracked facilities in undefined countries, 54 MW published (1 of 17 sites publish MW)",
+    "Japan (140 facilities, top 5) — #2 Internet Initiative Japan (IIJ): 12 tracked facilities in undefined countries, 20 MW published (1 of 12 sites publish MW)",
+    "Japan (140 facilities, top 5) — #3 MC Digital Realty: 10 tracked facilities in undefined countries, 217 MW published (10 of 10 sites publish MW)",
+    "Japan (140 facilities, top 5) — #4 NTT Communications (NTT DOCOMO BUSINESS) — Nexcenter: 10 tracked facilities in undefined countries",
+    "Japan (140 facilities, top 5) — #5 Colt DCS: 8 tracked facilities in undefined countries, 233 MW published (8 of 8 sites publish MW)",
+    "Netherlands (132 facilities, top 5) — #1 NorthC: 14 tracked facilities in undefined countries, 67 MW published (14 of 14 sites publish MW)",
+    "Netherlands (132 facilities, top 5) — #2 Digital Realty: 12 tracked facilities in undefined countries",
+    "Netherlands (132 facilities, top 5) — #3 Equinix: 11 tracked facilities in undefined countries",
+    "Netherlands (132 facilities, top 5) — #4 Eurofiber: 8 tracked facilities in undefined countries",
+    "Netherlands (132 facilities, top 5) — #5 Cellnex Netherlands: 4 tracked facilities in undefined countries",
+    "Italy (127 facilities, top 5) — #1 STACK Infrastructure: 11 tracked facilities in undefined countries, 399 MW published (11 of 11 sites publish MW)",
+    "Italy (127 facilities, top 5) — #2 Retelit: 7 tracked facilities in undefined countries, 18 MW published (2 of 7 sites publish MW)",
+    "Italy (127 facilities, top 5) — #3 Colt DCS: 4 tracked facilities in undefined countries",
+    "Italy (127 facilities, top 5) — #4 Equinix: 4 tracked facilities in undefined countries",
+    "Italy (127 facilities, top 5) — #5 Telecom Italia Sparkle: 4 tracked facilities in undefined countries",
+    "Spain (94 facilities, top 5) — #1 Templus: 9 tracked facilities in undefined countries, 40 MW published (8 of 9 sites publish MW)",
+    "Spain (94 facilities, top 5) — #2 Iron Mountain: 8 tracked facilities in undefined countries, 151 MW published (8 of 8 sites publish MW)",
+    "Spain (94 facilities, top 5) — #3 Equinix: 6 tracked facilities in undefined countries",
+    "Spain (94 facilities, top 5) — #4 Digital Realty: 5 tracked facilities in undefined countries",
+    "Spain (94 facilities, top 5) — #5 NextStream: 4 tracked facilities in undefined countries, 134 MW published (4 of 4 sites publish MW)",
+    "Malaysia (84 facilities, top 5) — #1 AIMS Data Centre: 7 tracked facilities in undefined countries, 228 MW published (4 of 7 sites publish MW)",
+    "Malaysia (84 facilities, top 5) — #2 Open DC: 5 tracked facilities in undefined countries, 5 MW published (2 of 5 sites publish MW)",
+    "Malaysia (84 facilities, top 5) — #3 Bridge Data Centres: 5 tracked facilities in undefined countries",
+    "Malaysia (84 facilities, top 5) — #4 NTT Global Data Centers: 4 tracked facilities in undefined countries, 14 MW published (2 of 4 sites publish MW)",
+    "Malaysia (84 facilities, top 5) — #5 Equinix: 4 tracked facilities in undefined countries",
+    "Poland (82 facilities, top 5) — #1 Orange Polska: 14 tracked facilities in undefined countries, 8 MW published (1 of 14 sites publish MW)",
+    "Poland (82 facilities, top 5) — #2 Netia: 8 tracked facilities in undefined countries",
+    "Poland (82 facilities, top 5) — #3 Atman: 5 tracked facilities in undefined countries, 32 MW published (3 of 5 sites publish MW)",
+    "Poland (82 facilities, top 5) — #4 Equinix: 4 tracked facilities in undefined countries",
+    "Poland (82 facilities, top 5) — #5 Beyond.pl: 3 tracked facilities in undefined countries, 44 MW published (2 of 3 sites publish MW)",
+    "Thailand (77 facilities, top 5) — #1 National Telecom Public Company Limited (NT): 9 tracked facilities in undefined countries, 7 MW published (4 of 9 sites publish MW)",
+    "Thailand (77 facilities, top 5) — #2 True IDC: 8 tracked facilities in undefined countries",
+    "Thailand (77 facilities, top 5) — #3 NTT Global Data Centers: 5 tracked facilities in undefined countries, 112 MW published (2 of 5 sites publish MW)",
+    "Thailand (77 facilities, top 5) — #4 Arise IDC Company Limited, Thailand: 4 tracked facilities in undefined countries",
+    "Thailand (77 facilities, top 5) — #5 CS Loxinfo: 4 tracked facilities in undefined countries",
+    "Mexico (72 facilities, top 5) — #1 KIO Networks: 16 tracked facilities in undefined countries, 46 MW published (3 of 16 sites publish MW)",
+    "Mexico (72 facilities, top 5) — #2 Ascenty (Digital Realty): 5 tracked facilities in undefined countries, 81 MW published (3 of 5 sites publish MW)",
+    "Mexico (72 facilities, top 5) — #3 Scala Data Centers: 4 tracked facilities in undefined countries, 7 MW published (2 of 4 sites publish MW)",
+    "Mexico (72 facilities, top 5) — #4 Aligned Data Centers: 4 tracked facilities in undefined countries",
+    "Mexico (72 facilities, top 5) — #5 Equinix: 4 tracked facilities in undefined countries",
+    "Switzerland (66 facilities, top 5) — #1 Swisscom: 8 tracked facilities in undefined countries, 2 MW published (1 of 8 sites publish MW)",
+    "Switzerland (66 facilities, top 5) — #2 NorthC: 7 tracked facilities in undefined countries, 24 MW published (6 of 7 sites publish MW)",
+    "Switzerland (66 facilities, top 5) — #3 STACK Infrastructure: 5 tracked facilities in undefined countries, 118 MW published (5 of 5 sites publish MW)",
+    "Switzerland (66 facilities, top 5) — #4 Equinix: 5 tracked facilities in undefined countries",
+    "Switzerland (66 facilities, top 5) — #5 Green Datacenter: 5 tracked facilities in undefined countries",
+    "South Korea (63 facilities, top 5) — #1 KT Cloud: 14 tracked facilities in undefined countries, 50 MW published (1 of 14 sites publish MW)",
+    "South Korea (63 facilities, top 5) — #2 LG Uplus: 6 tracked facilities in undefined countries, 200 MW published (1 of 6 sites publish MW)",
+    "South Korea (63 facilities, top 5) — #3 SK Broadband: 5 tracked facilities in undefined countries, 30 MW published (1 of 5 sites publish MW)",
+    "South Korea (63 facilities, top 5) — #4 KINX: 5 tracked facilities in undefined countries, 10 MW published (1 of 5 sites publish MW)",
+    "South Korea (63 facilities, top 5) — #5 Samsung SDS: 5 tracked facilities in undefined countries",
+    "Singapore (62 facilities, top 5) — #1 Keppel DC REIT: 8 tracked facilities in undefined countries",
+    "Singapore (62 facilities, top 5) — #2 ST Telemedia Global Data Centres: 6 tracked facilities in undefined countries, 73 MW published (3 of 6 sites publish MW)",
+    "Singapore (62 facilities, top 5) — #3 Equinix: 6 tracked facilities in undefined countries, 20 MW published (1 of 6 sites publish MW)",
+    "Singapore (62 facilities, top 5) — #4 Digital Realty: 4 tracked facilities in undefined countries, 100 MW published (2 of 4 sites publish MW)",
+    "Singapore (62 facilities, top 5) — #5 Nxera: 3 tracked facilities in undefined countries, 58 MW published (1 of 3 sites publish MW)",
+    "Hong Kong (57 facilities, top 5) — #1 Equinix: 6 tracked facilities in undefined countries",
+    "Hong Kong (57 facilities, top 5) — #2 SUNeVision (iAdvantage): 4 tracked facilities in undefined countries, 20 MW published (1 of 4 sites publish MW)",
+    "Hong Kong (57 facilities, top 5) — #3 Vantage Data Centers: 3 tracked facilities in undefined countries, 32 MW published (3 of 3 sites publish MW)",
+    "Hong Kong (57 facilities, top 5) — #4 NTT Global Data Centers: 2 tracked facilities in undefined countries, 30 MW published (1 of 2 sites publish MW)",
+    "Hong Kong (57 facilities, top 5) — #5 Asia Tone: 2 tracked facilities in undefined countries",
+    "United Arab Emirates (56 facilities, top 5) — #1 Khazna Data Centers: 35 tracked facilities in undefined countries, 516 MW published (32 of 35 sites publish MW)",
+    "United Arab Emirates (56 facilities, top 5) — #2 e& (Etisalat): 3 tracked facilities in undefined countries, 5 MW published (1 of 3 sites publish MW)",
+    "United Arab Emirates (56 facilities, top 5) — #3 Equinix: 3 tracked facilities in undefined countries",
+    "United Arab Emirates (56 facilities, top 5) — #4 Moro Hub (Digital DEWA): 2 tracked facilities in undefined countries, 200 MW published (2 of 2 sites publish MW)",
+    "United Arab Emirates (56 facilities, top 5) — #5 Gulf Data Hub: 2 tracked facilities in undefined countries, 53 MW published (2 of 2 sites publish MW)",
+    "Chile (54 facilities, top 5) — #1 GTD: 8 tracked facilities in undefined countries, 8 MW published (1 of 8 sites publish MW)",
+    "Chile (54 facilities, top 5) — #2 Scala Data Centers: 5 tracked facilities in undefined countries, 58 MW published (3 of 5 sites publish MW)",
+    "Chile (54 facilities, top 5) — #3 Ascenty (Digital Realty): 5 tracked facilities in undefined countries, 42 MW published (3 of 5 sites publish MW)",
+    "Chile (54 facilities, top 5) — #4 Equinix: 4 tracked facilities in undefined countries",
+    "Chile (54 facilities, top 5) — #5 SONDA S.A.: 3 tracked facilities in undefined countries, 12 MW published (1 of 3 sites publish MW)",
+    "Turkey (52 facilities, top 5) — #1 Turkcell: 4 tracked facilities in undefined countries, 30 MW published (1 of 4 sites publish MW)",
+    "Turkey (52 facilities, top 5) — #2 Vodafone Turkey: 4 tracked facilities in undefined countries",
+    "Turkey (52 facilities, top 5) — #3 Equinix: 2 tracked facilities in undefined countries",
+    "Turkey (52 facilities, top 5) — #4 Mars Datacenter: 2 tracked facilities in undefined countries",
+    "Turkey (52 facilities, top 5) — #5 Türk Telekom: 2 tracked facilities in undefined countries",
+    "Sweden (51 facilities, top 5) — #1 Digital Realty: 6 tracked facilities in undefined countries",
+    "Sweden (51 facilities, top 5) — #2 Conapto: 4 tracked facilities in undefined countries, 39 MW published (4 of 4 sites publish MW)",
+    "Sweden (51 facilities, top 5) — #3 Bahnhof: 4 tracked facilities in undefined countries, 4 MW published (4 of 4 sites publish MW)",
+    "Sweden (51 facilities, top 5) — #4 AB Stokab: 4 tracked facilities in undefined countries",
+    "Sweden (51 facilities, top 5) — #5 atNorth: 3 tracked facilities in undefined countries, 342 MW published (3 of 3 sites publish MW)",
+    "New Zealand (50 facilities, top 5) — #1 Spark: 8 tracked facilities in undefined countries",
+    "New Zealand (50 facilities, top 5) — #2 Datacom Group: 7 tracked facilities in undefined countries, 37 MW published (5 of 7 sites publish MW)",
+    "New Zealand (50 facilities, top 5) — #3 TenPeaks Data Centres: 6 tracked facilities in undefined countries, 55 MW published (3 of 6 sites publish MW)",
+    "New Zealand (50 facilities, top 5) — #4 CDC Data Centres: 5 tracked facilities in undefined countries, 98 MW published (3 of 5 sites publish MW)",
+    "New Zealand (50 facilities, top 5) — #5 Chorus New Zealand: 3 tracked facilities in undefined countries",
+    "Austria (46 facilities, top 5) — #1 AtlasEdge: 3 tracked facilities in undefined countries, 10 MW published (2 of 3 sites publish MW)",
+    "Austria (46 facilities, top 5) — #2 A1 Telekom Austria: 3 tracked facilities in undefined countries, 4 MW published (1 of 3 sites publish MW)",
+    "Austria (46 facilities, top 5) — #3 Digital Realty: 3 tracked facilities in undefined countries",
+    "Austria (46 facilities, top 5) — #4 eww: 3 tracked facilities in undefined countries",
+    "Austria (46 facilities, top 5) — #5 conova communications: 2 tracked facilities in undefined countries",
+    "Philippines (46 facilities, top 5) — #1 STT GDC Philippines: 9 tracked facilities in undefined countries, 242 MW published (9 of 9 sites publish MW)",
+    "Philippines (46 facilities, top 5) — #2 ePLDT (VITRO Inc.): 7 tracked facilities in undefined countries, 117 MW published (4 of 7 sites publish MW)",
+    "Philippines (46 facilities, top 5) — #3 Globe Telecom (GTI Corporation): 7 tracked facilities in undefined countries",
+    "Philippines (46 facilities, top 5) — #4 VITRO: 5 tracked facilities in undefined countries",
+    "Philippines (46 facilities, top 5) — #5 Converge ICT Solutions Inc.: 4 tracked facilities in undefined countries, 12 MW published (1 of 4 sites publish MW)",
+    "Vietnam (46 facilities, top 5) — #1 Viettel IDC: 10 tracked facilities in undefined countries, 230 MW published (3 of 10 sites publish MW)",
+    "Vietnam (46 facilities, top 5) — #2 VNPT: 8 tracked facilities in undefined countries",
+    "Vietnam (46 facilities, top 5) — #3 CMC Telecom: 5 tracked facilities in undefined countries, 30 MW published (1 of 5 sites publish MW)",
+    "Vietnam (46 facilities, top 5) — #4 FPT: 5 tracked facilities in undefined countries",
+    "Vietnam (46 facilities, top 5) — #5 Eco Data Center: 2 tracked facilities in undefined countries",
+    "Colombia (45 facilities, top 5) — #1 HostDime: 3 tracked facilities in undefined countries, 9 MW published (1 of 3 sites publish MW)",
+    "Colombia (45 facilities, top 5) — #2 Aligned Data Centers: 3 tracked facilities in undefined countries, 2 MW published (1 of 3 sites publish MW)",
+    "Colombia (45 facilities, top 5) — #3 InterNexa: 3 tracked facilities in undefined countries",
+    "Colombia (45 facilities, top 5) — #4 Tecto Data Centers: 3 tracked facilities in undefined countries",
+    "Colombia (45 facilities, top 5) — #5 Ascenty (Digital Realty): 2 tracked facilities in undefined countries, 20 MW published (2 of 2 sites publish MW)",
+    "Denmark (43 facilities, top 5) — #1 GlobalConnect Group: 7 tracked facilities in undefined countries",
+    "Denmark (43 facilities, top 5) — #2 Kolo: 5 tracked facilities in undefined countries",
+    "Denmark (43 facilities, top 5) — #3 Digital Realty: 4 tracked facilities in undefined countries",
+    "Denmark (43 facilities, top 5) — #4 Cibicom A/S: 3 tracked facilities in undefined countries",
+    "Denmark (43 facilities, top 5) — #5 Norlys Digital: 3 tracked facilities in undefined countries",
+    "Argentina (42 facilities, top 5) — #1 Cámara Argentina de Internet (CABASE): 21 tracked facilities in undefined countries",
+    "Argentina (42 facilities, top 5) — #2 NextStream: 2 tracked facilities in undefined countries, 3 MW published (2 of 2 sites publish MW)",
+    "Argentina (42 facilities, top 5) — #3 Cirion Technologies: 2 tracked facilities in undefined countries",
+    "Argentina (42 facilities, top 5) — #4 EdgeConneX: 1 tracked facilities in undefined countries, 4 MW published (1 of 1 sites publish MW)",
+    "Argentina (42 facilities, top 5) — #5 ARLINK: 1 tracked facilities in undefined countries",
+    "South Africa (42 facilities, top 5) — #1 Open Access Data Centres (WIOCC): 11 tracked facilities in undefined countries, 48 MW published (11 of 11 sites publish MW)",
+    "South Africa (42 facilities, top 5) — #2 Teraco (Digital Realty): 10 tracked facilities in undefined countries, 161 MW published (6 of 10 sites publish MW)",
+    "South Africa (42 facilities, top 5) — #3 Africa Data Centres (Liquid Intelligent Technologies): 4 tracked facilities in undefined countries",
+    "South Africa (42 facilities, top 5) — #4 Vantage Data Centers: 2 tracked facilities in undefined countries, 140 MW published (2 of 2 sites publish MW)",
+    "South Africa (42 facilities, top 5) — #5 Business Connexion (BCX): 2 tracked facilities in undefined countries",
+    "Peru (38 facilities, top 5) — #1 WIN Empresas: 6 tracked facilities in undefined countries",
+    "Peru (38 facilities, top 5) — #2 Cirion Technologies: 2 tracked facilities in undefined countries, 20 MW published (1 of 2 sites publish MW)",
+    "Peru (38 facilities, top 5) — #3 NextStream: 2 tracked facilities in undefined countries, 1 MW published (1 of 2 sites publish MW)",
+    "Peru (38 facilities, top 5) — #4 América Móvil Perú S.A.C. (Claro Perú): 2 tracked facilities in undefined countries",
+    "Peru (38 facilities, top 5) — #5 Banco Central de Reserva del Perú: 2 tracked facilities in undefined countries",
+    "Norway (35 facilities, top 5) — #1 Green Mountain: 5 tracked facilities in undefined countries, 150 MW published (3 of 5 sites publish MW)",
+    "Norway (35 facilities, top 5) — #2 GlobalConnect Group: 4 tracked facilities in undefined countries",
+    "Norway (35 facilities, top 5) — #3 Skygard: 3 tracked facilities in undefined countries, 36 MW published (3 of 3 sites publish MW)",
+    "Norway (35 facilities, top 5) — #4 Vaultica: 3 tracked facilities in undefined countries, 11 MW published (2 of 3 sites publish MW)",
+    "Norway (35 facilities, top 5) — #5 Blix Solutions: 3 tracked facilities in undefined countries",
+    "Ireland (34 facilities, top 5) — #1 Digital Realty: 9 tracked facilities in undefined countries",
+    "Ireland (34 facilities, top 5) — #2 Equinix: 6 tracked facilities in undefined countries",
+    "Ireland (34 facilities, top 5) — #3 Pure Data Centres Group: 3 tracked facilities in undefined countries, 54 MW published (3 of 3 sites publish MW)",
+    "Ireland (34 facilities, top 5) — #4 EdgeConneX: 3 tracked facilities in undefined countries, 32 MW published (3 of 3 sites publish MW)",
+    "Ireland (34 facilities, top 5) — #5 Echelon Data Centres: 3 tracked facilities in undefined countries",
+    "Belgium (32 facilities, top 5) — #1 Datacenter United: 4 tracked facilities in undefined countries",
+    "Belgium (32 facilities, top 5) — #2 DCStar NV: 3 tracked facilities in undefined countries",
+    "Belgium (32 facilities, top 5) — #3 Digital Realty: 3 tracked facilities in undefined countries",
+    "Belgium (32 facilities, top 5) — #4 LCL: 3 tracked facilities in undefined countries",
+    "Belgium (32 facilities, top 5) — #5 Connect4: 2 tracked facilities in undefined countries",
+    "Ukraine (32 facilities, top 5) — #1 Omega Telecom: 3 tracked facilities in undefined countries",
+    "Ukraine (32 facilities, top 5) — #2 Giganet IXN - Ukrainian Backbone Networks: 2 tracked facilities in undefined countries",
+    "Ukraine (32 facilities, top 5) — #3 SerinIX: 2 tracked facilities in undefined countries",
+    "Ukraine (32 facilities, top 5) — #4 Ante Mediam LLC (Datacenter PARKOVY): 1 tracked facilities in undefined countries, 4 MW published (1 of 1 sites publish MW)",
+    "Ukraine (32 facilities, top 5) — #5 De Novo: 1 tracked facilities in undefined countries, 2 MW published (1 of 1 sites publish MW)",
+    "Finland (31 facilities, top 5) — #1 Elisa: 6 tracked facilities in undefined countries, 10 MW published (1 of 6 sites publish MW)",
+    "Finland (31 facilities, top 5) — #2 Equinix: 5 tracked facilities in undefined countries",
+    "Finland (31 facilities, top 5) — #3 atNorth: 3 tracked facilities in undefined countries, 472 MW published (3 of 3 sites publish MW)",
+    "Finland (31 facilities, top 5) — #4 DNA Oyj: 2 tracked facilities in undefined countries",
+    "Finland (31 facilities, top 5) — #5 GleSYS: 2 tracked facilities in undefined countries",
+    "Saudi Arabia (31 facilities, top 5) — #1 Mobily (Etihad Etisalat): 5 tracked facilities in undefined countries",
+    "Saudi Arabia (31 facilities, top 5) — #2 Center3 (stc Group): 3 tracked facilities in undefined countries, 44 MW published (2 of 3 sites publish MW)",
+    "Saudi Arabia (31 facilities, top 5) — #3 stc / Center3: 3 tracked facilities in undefined countries",
+    "Saudi Arabia (31 facilities, top 5) — #4 Gulf Data Hub: 2 tracked facilities in undefined countries, 20 MW published (2 of 2 sites publish MW)",
+    "Saudi Arabia (31 facilities, top 5) — #5 NourNet: 2 tracked facilities in undefined countries",
+    "Romania (30 facilities, top 5) — #1 NXDATA: 3 tracked facilities in undefined countries, 5 MW published (1 of 3 sites publish MW)",
+    "Romania (30 facilities, top 5) — #2 Orange Romania: 3 tracked facilities in undefined countries",
+    "Romania (30 facilities, top 5) — #3 Special Telecommunications Service: 3 tracked facilities in undefined countries",
+    "Romania (30 facilities, top 5) — #4 CobraNET SRL: 2 tracked facilities in undefined countries",
+    "Romania (30 facilities, top 5) — #5 efectRO SRL: 2 tracked facilities in undefined countries",
+    "Nigeria (28 facilities, top 5) — #1 Digital Realty: 5 tracked facilities in undefined countries",
+    "Nigeria (28 facilities, top 5) — #2 Rack Centre: 3 tracked facilities in undefined countries, 14 MW published (2 of 3 sites publish MW)",
+    "Nigeria (28 facilities, top 5) — #3 MTN Nigeria: 3 tracked facilities in undefined countries, 5 MW published (1 of 3 sites publish MW)",
+    "Nigeria (28 facilities, top 5) — #4 Equinix: 3 tracked facilities in undefined countries",
+    "Nigeria (28 facilities, top 5) — #5 Galaxy Backbone Limited: 2 tracked facilities in undefined countries, 1 MW published (1 of 2 sites publish MW)",
+    "Czech Republic (27 facilities, top 5) — #1 TTC Teleport: 2 tracked facilities in undefined countries, 6 MW published (1 of 2 sites publish MW)",
+    "Czech Republic (27 facilities, top 5) — #2 AKESO Holding: 2 tracked facilities in undefined countries",
+    "Czech Republic (27 facilities, top 5) — #3 GTS Novera, a.s.: 2 tracked facilities in undefined countries",
+    "Czech Republic (27 facilities, top 5) — #4 Master Internet: 2 tracked facilities in undefined countries",
+    "Czech Republic (27 facilities, top 5) — #5 O2 Czech Republic: 2 tracked facilities in undefined countries",
+    "Bangladesh (26 facilities, top 5) — #1 Axentec PLC (Robi Axiata): 2 tracked facilities in undefined countries",
+    "Bangladesh (26 facilities, top 5) — #2 Coloasia Limited: 2 tracked facilities in undefined countries",
+    "Bangladesh (26 facilities, top 5) — #3 Felicity IDC Limited: 2 tracked facilities in undefined countries",
+    "Bangladesh (26 facilities, top 5) — #4 Aamra Technologies: 1 tracked facilities in undefined countries",
+    "Bangladesh (26 facilities, top 5) — #5 Bangladesh Computer Council (BCC), ICT Division: 1 tracked facilities in undefined countries",
+    "Israel (25 facilities, top 5) — #1 Bezeq International: 4 tracked facilities in undefined countries",
+    "Israel (25 facilities, top 5) — #2 EdgeConneX: 3 tracked facilities in undefined countries, 8 MW published (1 of 3 sites publish MW)",
+    "Israel (25 facilities, top 5) — #3 Bynet Data Centers: 3 tracked facilities in undefined countries, 2 MW published (3 of 3 sites publish MW)",
+    "Israel (25 facilities, top 5) — #4 Cellcom Israel: 3 tracked facilities in undefined countries",
+    "Israel (25 facilities, top 5) — #5 Bynet Data Communications: 2 tracked facilities in undefined countries, 8 MW published (1 of 2 sites publish MW)",
+    "Pakistan (24 facilities, top 5) — #1 Pakistan Telecommunication Company Limited: 9 tracked facilities in undefined countries",
+    "Pakistan (24 facilities, top 5) — #2 Jazz (Pakistan Mobile Communication Limited / VEON): 2 tracked facilities in undefined countries",
+    "Pakistan (24 facilities, top 5) — #3 Transworld Associates (Pvt.) Ltd.: 2 tracked facilities in undefined countries",
+    "Pakistan (24 facilities, top 5) — #4 Allied Bank: 1 tracked facilities in undefined countries",
+    "Pakistan (24 facilities, top 5) — #5 HIGHER EDUCATION COMMISSION PAKISTAN: 1 tracked facilities in undefined countries",
+    "Kazakhstan (23 facilities, top 5) — #1 Transtelecom: 4 tracked facilities in undefined countries",
+    "Kazakhstan (23 facilities, top 5) — #2 Freedom Data Centers (Freedom Holding Corp.): 2 tracked facilities in undefined countries, 7 MW published (1 of 2 sites publish MW)",
+    "Kazakhstan (23 facilities, top 5) — #3 Kazakhtelecom: 2 tracked facilities in undefined countries, 4 MW published (1 of 2 sites publish MW)",
+    "Kazakhstan (23 facilities, top 5) — #4 Kazteleport (Halyk Group): 2 tracked facilities in undefined countries, 4 MW published (2 of 2 sites publish MW)",
+    "Kazakhstan (23 facilities, top 5) — #5 Kaspi Cloud: 2 tracked facilities in undefined countries",
+    "Morocco (22 facilities, top 5) — #1 Wana Corporate SA (inwi): 4 tracked facilities in undefined countries",
+    "Morocco (22 facilities, top 5) — #2 Orange Maroc: 2 tracked facilities in undefined countries, 2 MW published (1 of 2 sites publish MW)",
+    "Morocco (22 facilities, top 5) — #3 N+ONE Datacenters: 2 tracked facilities in undefined countries",
+    "Morocco (22 facilities, top 5) — #4 NPONE SARL: 2 tracked facilities in undefined countries",
+    "Morocco (22 facilities, top 5) — #5 Atlas Cloud Services: 1 tracked facilities in undefined countries, 5 MW published (1 of 1 sites publish MW)",
+    "Taiwan (22 facilities, top 5) — #1 Chunghwa Telecom: 5 tracked facilities in undefined countries",
+    "Taiwan (22 facilities, top 5) — #2 Chief Telecom: 4 tracked facilities in undefined countries, 20 MW published (1 of 4 sites publish MW)",
+    "Taiwan (22 facilities, top 5) — #3 National Center for High-performance Computing: 2 tracked facilities in undefined countries",
+    "Taiwan (22 facilities, top 5) — #4 Keppel Data Centre Fund II / DDSP: 1 tracked facilities in undefined countries, 80 MW published (1 of 1 sites publish MW)",
+    "Taiwan (22 facilities, top 5) — #5 Vantage Data Centers: 1 tracked facilities in undefined countries, 16 MW published (1 of 1 sites publish MW)",
+    "Greece (21 facilities, top 5) — #1 Digital Realty: 5 tracked facilities in undefined countries",
+    "Greece (21 facilities, top 5) — #2 Telecom Italia Sparkle: 3 tracked facilities in undefined countries, 8 MW published (1 of 3 sites publish MW)",
+    "Greece (21 facilities, top 5) — #3 Lancom: 3 tracked facilities in undefined countries",
+    "Greece (21 facilities, top 5) — #4 Synapsecom: 2 tracked facilities in undefined countries, 1 MW published (1 of 2 sites publish MW)",
+    "Greece (21 facilities, top 5) — #5 OTE Group / Cosmote: 2 tracked facilities in undefined countries",
+    "Kenya (21 facilities, top 5) — #1 Digital Realty: 4 tracked facilities in undefined countries",
+    "Kenya (21 facilities, top 5) — #2 icolo: 4 tracked facilities in undefined countries",
+    "Kenya (21 facilities, top 5) — #3 IXAfrica Data Centres: 2 tracked facilities in undefined countries, 58 MW published (2 of 2 sites publish MW)",
+    "Kenya (21 facilities, top 5) — #4 Safaricom PLC: 2 tracked facilities in undefined countries",
+    "Kenya (21 facilities, top 5) — #5 Telkom Kenya: 2 tracked facilities in undefined countries",
+    "Egypt (19 facilities, top 5) — #1 Telecom Egypt: 5 tracked facilities in undefined countries",
+    "Egypt (19 facilities, top 5) — #2 Etisalat Misr (e& Egypt): 4 tracked facilities in undefined countries",
+    "Egypt (19 facilities, top 5) — #3 Intro Group: 1 tracked facilities in undefined countries, 80 MW published (1 of 1 sites publish MW)",
+    "Egypt (19 facilities, top 5) — #4 Khazna Data Centers / Benya Group: 1 tracked facilities in undefined countries, 25 MW published (1 of 1 sites publish MW)",
+    "Egypt (19 facilities, top 5) — #5 Africa Data Centers (Cassava Technologies) / Vodafone Business: 1 tracked facilities in undefined countries, 20 MW published (1 of 1 sites publish MW)",
+    "Latvia (19 facilities, top 5) — #1 Tet: 7 tracked facilities in undefined countries",
+    "Latvia (19 facilities, top 5) — #2 Delska: 3 tracked facilities in undefined countries, 13 MW published (3 of 3 sites publish MW)",
+    "Latvia (19 facilities, top 5) — #3 Baltcom: 1 tracked facilities in undefined countries",
+    "Latvia (19 facilities, top 5) — #4 Bite Latvija: 1 tracked facilities in undefined countries",
+    "Latvia (19 facilities, top 5) — #5 CloudHosting SIA: 1 tracked facilities in undefined countries",
+    "Bulgaria (18 facilities, top 5) — #1 Neterra: 5 tracked facilities in undefined countries",
+    "Bulgaria (18 facilities, top 5) — #2 Telepoint: 3 tracked facilities in undefined countries",
+    "Bulgaria (18 facilities, top 5) — #3 Equinix: 2 tracked facilities in undefined countries",
+    "Bulgaria (18 facilities, top 5) — #4 EVOLINK EAD: 2 tracked facilities in undefined countries",
+    "Bulgaria (18 facilities, top 5) — #5 AbsCloud: 1 tracked facilities in undefined countries",
+    "Costa Rica (18 facilities, top 5) — #1 IFX Networks: 2 tracked facilities in undefined countries",
+    "Costa Rica (18 facilities, top 5) — #2 Navégalo: 2 tracked facilities in undefined countries",
+    "Costa Rica (18 facilities, top 5) — #3 ADN Datacenters (IFX Networks): 1 tracked facilities in undefined countries",
+    "Costa Rica (18 facilities, top 5) — #4 Banco Nacional de Costa Rica: 1 tracked facilities in undefined countries",
+    "Costa Rica (18 facilities, top 5) — #5 Banco Popular y de Desarrollo Comunal: 1 tracked facilities in undefined countries",
+    "Portugal (18 facilities, top 5) — #1 AtlasEdge: 2 tracked facilities in undefined countries, 21 MW published (2 of 2 sites publish MW)",
+    "Portugal (18 facilities, top 5) — #2 Equinix: 2 tracked facilities in undefined countries",
+    "Portugal (18 facilities, top 5) — #3 Start Campus (tenant: Nscale): 2 tracked facilities in undefined countries",
+    "Portugal (18 facilities, top 5) — #4 MEO (Altice Portugal), formerly Portugal Telecom Data Center S.A.: 1 tracked facilities in undefined countries, 7 MW published (1 of 1 sites publish MW)",
+    "Portugal (18 facilities, top 5) — #5 Templus: 1 tracked facilities in undefined countries, 2 MW published (1 of 1 sites publish MW)",
+    "Ecuador (16 facilities, top 5) — #1 Claro Ecuador (Conecel S.A. / América Móvil): 2 tracked facilities in undefined countries",
+    "Ecuador (16 facilities, top 5) — #2 Conecel: 2 tracked facilities in undefined countries",
+    "Ecuador (16 facilities, top 5) — #3 Corporación Nacional de Telecomunicaciones (CNT EP): 2 tracked facilities in undefined countries",
+    "Ecuador (16 facilities, top 5) — #4 Grupo Bravco S.A. (TEUNO): 2 tracked facilities in undefined countries",
+    "Ecuador (16 facilities, top 5) — #5 Telconet S.A.: 2 tracked facilities in undefined countries",
+    "Lithuania (16 facilities, top 5) — #1 Delska: 3 tracked facilities in undefined countries, 6 MW published (3 of 3 sites publish MW)",
+    "Lithuania (16 facilities, top 5) — #2 Baltneta: 3 tracked facilities in undefined countries",
+    "Lithuania (16 facilities, top 5) — #3 Telecentras: 2 tracked facilities in undefined countries",
+    "Lithuania (16 facilities, top 5) — #4 Telia Company: 2 tracked facilities in undefined countries",
+    "Lithuania (16 facilities, top 5) — #5 AB Lietuvos Radijo Ir Televizijos Centras (LRTC): 1 tracked facilities in undefined countries",
+    "Iraq (15 facilities, top 5) — #1 Asiacell: 4 tracked facilities in undefined countries",
+    "Iraq (15 facilities, top 5) — #2 International Smart Card QiCard: 2 tracked facilities in undefined countries",
+    "Iraq (15 facilities, top 5) — #3 T964: 1 tracked facilities in undefined countries, 12 MW published (1 of 1 sites publish MW)",
+    "Iraq (15 facilities, top 5) — #4 Earthlink Telecommunications: 1 tracked facilities in undefined countries",
+    "Iraq (15 facilities, top 5) — #5 GSL Telecom (Golden Sky Links): 1 tracked facilities in undefined countries",
+    "Azerbaijan (14 facilities, top 5) — #1 AzInTelecom: 5 tracked facilities in undefined countries",
+    "Azerbaijan (14 facilities, top 5) — #2 Azerconnect LLC (NEQSOL Holding): 2 tracked facilities in undefined countries",
+    "Azerbaijan (14 facilities, top 5) — #3 PASHA Technology LLC (PASHA Holding): 2 tracked facilities in undefined countries",
+    "Azerbaijan (14 facilities, top 5) — #4 Azerfon: 1 tracked facilities in undefined countries",
+    "Azerbaijan (14 facilities, top 5) — #5 Aztelekom: 1 tracked facilities in undefined countries",
+    "Jordan (14 facilities, top 5) — #1 35D (Aqaba Digital Hub): 2 tracked facilities in undefined countries, 6 MW published (1 of 2 sites publish MW)",
+    "Jordan (14 facilities, top 5) — #2 Al Mirnaah for Investment and Business Development: 2 tracked facilities in undefined countries",
+    "Jordan (14 facilities, top 5) — #3 Orange Jordan: 2 tracked facilities in undefined countries",
+    "Jordan (14 facilities, top 5) — #4 Umniah (Beyon): 2 tracked facilities in undefined countries",
+    "Jordan (14 facilities, top 5) — #5 Arab Bank: 1 tracked facilities in undefined countries",
+    "Panama (14 facilities, top 5) — #1 Tigo Panamá (Millicom): 3 tracked facilities in undefined countries",
+    "Panama (14 facilities, top 5) — #2 UFINET: 3 tracked facilities in undefined countries",
+    "Panama (14 facilities, top 5) — #3 KIO Networks: 2 tracked facilities in undefined countries, 10 MW published (1 of 2 sites publish MW)",
+    "Panama (14 facilities, top 5) — #4 Cable & Wireless Panamá, S.A. (C&W Business): 2 tracked facilities in undefined countries",
+    "Panama (14 facilities, top 5) — #5 Cable Onda, S.A. (Tigo Panamá / Millicom): 2 tracked facilities in undefined countries",
+    "Tanzania (13 facilities, top 5) — #1 Tanzania Telecommunications Corporation (TTCL Corporation): 4 tracked facilities in undefined countries",
+    "Tanzania (13 facilities, top 5) — #2 Raxio Group: 1 tracked facilities in undefined countries, 6 MW published (1 of 1 sites publish MW)",
+    "Tanzania (13 facilities, top 5) — #3 Wingu Africa: 1 tracked facilities in undefined countries, 3 MW published (1 of 1 sites publish MW)",
+    "Tanzania (13 facilities, top 5) — #4 DataLabs (T): 1 tracked facilities in undefined countries",
+    "Tanzania (13 facilities, top 5) — #5 National Internet Data Center (NIDC): 1 tracked facilities in undefined countries",
+    "Qatar (12 facilities, leaders) — #1 MEEZA: 7 tracked facilities in undefined countries, 44 MW published (1 of 7 sites publish MW)",
+    "Qatar (12 facilities, leaders) — #2 Quantum Switch: 2 tracked facilities in undefined countries, 10 MW published (2 of 2 sites publish MW)",
+    "Qatar (12 facilities, leaders) — #3 Ooredoo Qatar: 2 tracked facilities in undefined countries",
+    "Qatar (12 facilities, leaders) — #4 Syntys (Ooredoo Group): 1 tracked facilities in undefined countries, 5 MW published (1 of 1 sites publish MW)",
+    "Iceland (11 facilities, top 5) — #1 atNorth: 3 tracked facilities in undefined countries, 136 MW published (3 of 3 sites publish MW)",
+    "Iceland (11 facilities, top 5) — #2 Internet á Íslandi hf: 3 tracked facilities in undefined countries",
+    "Iceland (11 facilities, top 5) — #3 Advania Ísland ehf.: 2 tracked facilities in undefined countries",
+    "Iceland (11 facilities, top 5) — #4 Verne: 1 tracked facilities in undefined countries, 140 MW published (1 of 1 sites publish MW)",
+    "Iceland (11 facilities, top 5) — #5 Borealis Data Center: 1 tracked facilities in undefined countries",
+    "Cyprus (10 facilities, top 5) — #1 PrimeTel: 3 tracked facilities in undefined countries",
+    "Cyprus (10 facilities, top 5) — #2 Cyta: 2 tracked facilities in undefined countries",
+    "Cyprus (10 facilities, top 5) — #3 Cloudlayer8 Limited: 1 tracked facilities in undefined countries",
+    "Cyprus (10 facilities, top 5) — #4 IPTP Networks: 1 tracked facilities in undefined countries",
+    "Cyprus (10 facilities, top 5) — #5 MTN Cyprus LTD: 1 tracked facilities in undefined countries",
+    "Dominican Republic (10 facilities, top 5) — #1 NAP del Caribe: 2 tracked facilities in undefined countries",
+    "Dominican Republic (10 facilities, top 5) — #2 Altice Dominicana: 1 tracked facilities in undefined countries",
+    "Dominican Republic (10 facilities, top 5) — #3 Banco Múltiple BHD, S. A.: 1 tracked facilities in undefined countries",
+    "Dominican Republic (10 facilities, top 5) — #4 Banco Popular Dominicano: 1 tracked facilities in undefined countries",
+    "Dominican Republic (10 facilities, top 5) — #5 CENTRIC MOBILITY (CEMO), S.R.L: 1 tracked facilities in undefined countries",
+    "Guatemala (10 facilities, top 5) — #1 Back Office Smart Solution, S.A. (BOSS): 2 tracked facilities in undefined countries",
+    "Guatemala (10 facilities, top 5) — #2 GBM de Guatemala, S.A.: 2 tracked facilities in undefined countries",
+    "Guatemala (10 facilities, top 5) — #3 KIO Networks: 2 tracked facilities in undefined countries",
+    "Guatemala (10 facilities, top 5) — #4 Emerging Networks Guatemala: 1 tracked facilities in undefined countries",
+    "Guatemala (10 facilities, top 5) — #5 IFX Networks: 1 tracked facilities in undefined countries",
+    "Luxembourg (10 facilities, top 5) — #1 DEEP (POST Luxembourg Group): 3 tracked facilities in undefined countries",
+    "Luxembourg (10 facilities, top 5) — #2 LuxConnect: 3 tracked facilities in undefined countries",
+    "Luxembourg (10 facilities, top 5) — #3 POST Telecom: 2 tracked facilities in undefined countries",
+    "Luxembourg (10 facilities, top 5) — #4 Portus Data Centers: 1 tracked facilities in undefined countries, 2 MW published (1 of 1 sites publish MW)",
+    "Luxembourg (10 facilities, top 5) — #5 BCE: 1 tracked facilities in undefined countries",
+    "Serbia (10 facilities, top 5) — #1 Akton Communications and Networks: 1 tracked facilities in undefined countries",
+    "Serbia (10 facilities, top 5) — #2 BeotelNet-ISP d.o.o: 1 tracked facilities in undefined countries",
+    "Serbia (10 facilities, top 5) — #3 CETIN: 1 tracked facilities in undefined countries",
+    "Serbia (10 facilities, top 5) — #4 NiNet Company DOO: 1 tracked facilities in undefined countries",
+    "Serbia (10 facilities, top 5) — #5 Office for IT and eGovernment (Republic of Serbia): 1 tracked facilities in undefined countries",
+    "Uzbekistan (10 facilities, top 5) — #1 Uzbektelecom (UzCloud): 4 tracked facilities in undefined countries, 5 MW published (4 of 4 sites publish MW)",
+    "Uzbekistan (10 facilities, top 5) — #2 DataVolt: 1 tracked facilities in undefined countries, 12 MW published (1 of 1 sites publish MW)",
+    "Uzbekistan (10 facilities, top 5) — #3 E-Government Project Management Center: 1 tracked facilities in undefined countries",
+    "Uzbekistan (10 facilities, top 5) — #4 East Telecom: 1 tracked facilities in undefined countries",
+    "Uzbekistan (10 facilities, top 5) — #5 Unitel LLC (Beeline Uzbekistan): 1 tracked facilities in undefined countries"
    ]
   }
  }

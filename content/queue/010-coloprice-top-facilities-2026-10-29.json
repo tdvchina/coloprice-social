@@ -1,0 +1,172 @@
+{
+  "slug": "coloprice-top-facilities-2026-10-29",
+  "theme": "paper",
+  "format": "coloprice-top",
+  "status": "ready",
+  "created": "2026-10-29",
+  "publishBy": "2026-11-12",
+  "topic": "Coloprice Top: largest operators by tracked facilities",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "rank",
+      "dataset": "Coloprice operator rankings",
+      "url": "https://coloprice.com/data/operator-rankings.json",
+      "asOf": "2026-10-29",
+      "facts": [
+        "Catalogue: 2278 operators, 6075 facilities in 184 countries (as of 2026-10-29)",
+        "Largest by tracked facilities — #1 Equinix: 267 tracked facilities in 37 countries, 125 MW published (5 of 267 sites publish MW)",
+        "Largest by tracked facilities — #2 Digital Realty: 231 tracked facilities in 29 countries, 290 MW published (13 of 231 sites publish MW)",
+        "Largest by tracked facilities — #3 NTT Global Data Centers: 80 tracked facilities in 17 countries, 1,506 MW published (62 of 80 sites publish MW)",
+        "Largest by tracked facilities — #4 DataBank: 76 tracked facilities in 2 countries, 1,023 MW published (76 of 76 sites publish MW)",
+        "Largest by tracked facilities — #5 EdgeConneX: 56 tracked facilities in 16 countries, 575 MW published (26 of 56 sites publish MW)",
+        "Largest by tracked facilities — #6 STACK Infrastructure: 49 tracked facilities in 11 countries, 5,673 MW published (48 of 49 sites publish MW)",
+        "Largest by tracked facilities — #7 Cologix: 49 tracked facilities in 2 countries, 121 MW published (7 of 49 sites publish MW)",
+        "Largest by tracked facilities — #8 Iron Mountain: 48 tracked facilities in 7 countries, 1,000 MW published (44 of 48 sites publish MW)"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Coloprice Top",
+      "headline": "Who runs the most data centres?",
+      "figure": {
+        "value": "267",
+        "label": "Equinix: tracked facilities in 37 countries, #1 of 2,278 operators"
+      },
+      "refs": [
+        "rank"
+      ]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "Top 8 operators by tracked facilities",
+      "unit": "Facilities in the Coloprice catalogue · 29 Oct 2026",
+      "data": [
+        {
+          "label": "Equinix",
+          "value": 267
+        },
+        {
+          "label": "Digital Realty",
+          "value": 231
+        },
+        {
+          "label": "NTT Global Data Centers",
+          "value": 80
+        },
+        {
+          "label": "DataBank",
+          "value": 76
+        },
+        {
+          "label": "EdgeConneX",
+          "value": 56
+        },
+        {
+          "label": "STACK Infrastructure",
+          "value": 49
+        },
+        {
+          "label": "Cologix",
+          "value": 49
+        },
+        {
+          "label": "Iron Mountain",
+          "value": 48
+        }
+      ],
+      "highlight": 0,
+      "caption": "Joint ventures are counted separately.",
+      "refs": [
+        "rank"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Reach and published capacity",
+      "unit": "Countries · MW published",
+      "rows": [
+        {
+          "label": "Equinix",
+          "value": "37 countries",
+          "note": "125 MW (5 of 267 sites)",
+          "highlight": true
+        },
+        {
+          "label": "Digital Realty",
+          "value": "29 countries",
+          "note": "290 MW (13 of 231 sites)"
+        },
+        {
+          "label": "NTT Global Data Centers",
+          "value": "17 countries",
+          "note": "1,506 MW (62 of 80 sites)"
+        },
+        {
+          "label": "EdgeConneX",
+          "value": "16 countries",
+          "note": "575 MW (26 of 56 sites)"
+        },
+        {
+          "label": "Iron Mountain",
+          "value": "7 countries",
+          "note": "1,000 MW (44 of 48 sites)"
+        },
+        {
+          "label": "DataBank",
+          "value": "2 countries",
+          "note": "1,023 MW (76 of 76 sites)"
+        }
+      ],
+      "footnote": "MW = sum of capacity the operator publishes; not all sites do.",
+      "refs": [
+        "rank"
+      ]
+    },
+    {
+      "type": "stat",
+      "label": "A surprise at #6",
+      "value": "5,673",
+      "unit": "MW published",
+      "context": "STACK Infrastructure: 49 tracked facilities in 11 countries; 48 of 49 sites publish MW.",
+      "refs": [
+        "rank"
+      ]
+    },
+    {
+      "type": "stat",
+      "label": "Most transparent in the top 8",
+      "value": "76 of 76",
+      "context": "DataBank: every tracked site publishes MW (1,023 MW in total). Equinix: 5 of 267.",
+      "accent": false,
+      "refs": [
+        "rank"
+      ]
+    },
+    {
+      "type": "closing",
+      "text": "Operators ranked by what the Coloprice catalogue tracks. A count, not an endorsement.",
+      "cta": "Follow for the weekly Coloprice Top."
+    }
+  ],
+  "caption": "267 facilities: Equinix tops the Coloprice catalogue of data centre operators.\n\nDigital Realty follows with 231, then NTT Global Data Centers (80) and DataBank (76). Behind them the field is tight: STACK Infrastructure and Cologix both have 49.\n\nCapacity tells a different story. STACK publishes 5,673 MW, while Equinix publishes 125 MW because only 5 of its 267 sites disclose MW. Largest by tracked facilities, not best and not an endorsement.\n\nData: Coloprice operator rankings, 29 Oct 2026. Sources on the last slide.\nFeatured: @nttdata @databank.ltd\n\nWhich operator would you rank first by capacity, not site count? Full ranking: link in bio.",
+  "hashtags": [
+    "#datacenter",
+    "#colocation",
+    "#AIinfrastructure",
+    "#hyperscale"
+  ],
+  "userTags": [
+    {
+      "username": "nttdata",
+      "slide": 2
+    },
+    {
+      "username": "databank.ltd",
+      "slide": 2
+    }
+  ]
+}

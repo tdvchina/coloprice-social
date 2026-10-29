@@ -1,0 +1,487 @@
+{
+  "generated": "2026-10-29T06:04:16.761Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 1
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 4
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 15
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 3
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 4
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 6
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 3
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 88,
+      "kept": 0
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 1
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 1
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 9
+    }
+  ],
+  "items": [
+    {
+      "id": "3435e1a20908",
+      "title": "Why Hyperscale AI Data Center Build Costs in India Are 30-40% Different From Global Benchmarks?",
+      "url": "https://datacenterpost.com/why-hyperscale-ai-data-center-build-costs-in-india-are-30-40-different-from-global-benchmarks",
+      "date": "2026-10-28T12:00:49.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Real Estate vs. Compute Trade-Off: India offers substantial savings on land, shell construction, and labor, but imported compute hardware like GPUs receives no local discount and incurs additional import duties, logistics, and currency exposure. Cooling and Power Penalties: Hot and humid climate conditions increase mechanical cooling demands and necessitate early liquid cooling adoption, while […] The post Why Hyperscale AI Data Center Build Costs in India Are 30-40% Different From Global Benchmarks? appeared first on Data Center POST .",
+      "figures": [],
+      "score": 11
+    },
+    {
+      "id": "e78c9f67dfdc",
+      "title": "coNEXA to invest AU$250m in recycled water network to supply NextDC’s S4 Sydney",
+      "url": "https://w.media/conexa-to-invest-au250m-in-recycled-water-network-to-supply-nextdcs-s4-sydney",
+      "date": "2026-10-29T02:37:00.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Australian water infrastructure company coNEXA will invest AU$250 million to expand its AquaNet recycled water network in Western Sydney, supplying up to 16 million litres of recycled water a day from its Fairfield recycled water plant to NextDC’s S4 Sydney data centre at Horsley Park. Construction is scheduled to begin in November, with the first […]",
+      "figures": [
+        "$250m",
+        "$250 million",
+        "16 million"
+      ],
+      "score": 9
+    },
+    {
+      "id": "9546067d894a",
+      "title": "Tata Communications to invest $450m into 10,000km of AI-ready fiber to support data center connectivity in India",
+      "url": "https://www.datacenterdynamics.com/en/news/tata-communications-to-invest-450m-into-10000km-of-ai-ready-fiber-to-support-data-center-connectivity-in-india",
+      "date": "2026-10-28T18:33:09.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The route aims to support India's growing data center industry",
+      "figures": [
+        "$450m"
+      ],
+      "score": 9
+    },
+    {
+      "id": "45a6570b1efb",
+      "title": "DayOne’s Johor US$100 million land purchase gets seller’s shareholders nod",
+      "url": "https://w.media/dayones-johor-us100-million-land-purchase-gets-sellers-shareholders-nod",
+      "date": "2026-10-28T11:08:00.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Malaysian property developer Paragon Globe Bhd yesterday received shareholders’ approval for its proposed sale of 65 acres of land in Iskandar Puteri, Johor, to a unit of Singapore-based DayOne Data Centers Ltd for RM398.11 million (US$100 million). In June, w.media reported about the sale which was pending shareholders’ approval then. DayOne is purchasing the two parcels of […]",
+      "figures": [
+        "$100 million",
+        "65 acres",
+        "11 million"
+      ],
+      "score": 9
+    },
+    {
+      "id": "fe979aaacf44",
+      "title": "How Australia’s data centre boom could reshape regional economies",
+      "url": "https://w.media/how-australias-data-centre-boom-could-reshape-regional-economies",
+      "date": "2026-10-29T00:38:22.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Australia’s next generation of data centres may not be built in Sydney, Melbourne, or Brisbane. Instead, many of the industry’s most ambitious projects are expected to emerge in regional locations, where access to power, land, and connectivity is creating new opportunities for large-scale development. Yet while the opportunity is enormous, so too are the challenges. […]",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "9f326328db1c",
+      "title": "KBRA assigns preliminary ratings to up to $525m in US Signal notes, secured against ten data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/kbra-assigns-preliminary-ratings-to-up-to-525m-in-us-signal-notes-secured-against-ten-data-centers",
+      "date": "2026-10-28T18:32:10.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "With a final maturity of November 2056",
+      "figures": [
+        "$525m"
+      ],
+      "score": 7
+    },
+    {
+      "id": "b1fa1bede672",
+      "title": "Blockchain and crypto firm Blockmate Ventures enters neocloud market with purchase of Nvidia B200 cluster",
+      "url": "https://www.datacenterdynamics.com/en/news/blockchain-and-crypto-firm-blockmate-ventures-enters-neocloud-market-with-purchase-of-nvidia-b200-cluster",
+      "date": "2026-10-28T16:20:49.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company has partnered with Scannit for the venture, with the latter to host the hardware in an undisclosed data center",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "dea76e41a0e1",
+      "title": "Genius Group looks to pivot to data centers, partners with FingerMotion and BlueFlare for project in Canada",
+      "url": "https://www.datacenterdynamics.com/en/news/genius-group-looks-to-pivot-to-data-centers-partners-with-fingermotion-and-blueflare-for-project-in-canada",
+      "date": "2026-10-28T16:18:45.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Edtech firm wants some of that sweet GPU cloud revenue",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "3aab07fea7a6",
+      "title": "TPG eyes UK data center firm Ark - report",
+      "url": "https://www.datacenterdynamics.com/en/news/tpg-eyes-uk-data-center-firm-ark-report",
+      "date": "2026-10-28T14:44:49.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "UK operator could be valued at $5 billion",
+      "figures": [
+        "$5 billion"
+      ],
+      "score": 7
+    },
+    {
+      "id": "9a53da853ae9",
+      "title": "Gigawatt-scale off-grid data center campus proposed in Western Australia",
+      "url": "https://www.datacenterdynamics.com/en/news/gigawatt-scale-off-grid-data-center-campus-proposed-in-western-australia",
+      "date": "2026-10-28T13:12:25.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Project pivots from green hydrogen and ammonia to data centers",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "2553a137f112",
+      "title": "No data center moratorium for Malaysia but states with insufficient water can’t host data centers: Minister",
+      "url": "https://w.media/no-data-center-moratorium-for-malaysia-but-states-with-insufficient-water-cant-host-data-centers-minister",
+      "date": "2026-10-29T02:51:56.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Malaysia unveils further new data center restrictions amid new restriction announcements on a daily basis throughout the current Parliamentary sitting. The latest announcement came from Investment, Trade and Industry Minister Datuk Seri Johari Abdul Ghani who said yesterday that states which do not have sufficient water supply will not be allowed to host data centers […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "d4ee531add0e",
+      "title": "Microsoft signs two PPAs with Macquarie-backed Blueleaf Energy in Japan",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-signs-two-ppas-with-macquarie-backed-blueleaf-energy-in-japan",
+      "date": "2026-10-28T13:07:24.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Blueleaf has a portfolio of around 1.2GW of solar projects in the Japanese market",
+      "figures": [
+        "1.2GW"
+      ],
+      "score": 6
+    },
+    {
+      "id": "6a2fad77ea14",
+      "title": "PreussenElektra and NVIDIA assess former nuclear plant sites for AI data centers",
+      "url": "https://w.media/preussenelektra-and-nvidia-assess-former-nuclear-plant-sites-for-ai-data-centers",
+      "date": "2026-10-29T05:42:41.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "PreussenElektra, a German energy company, and NVIDIA are assessing whether former nuclear power plant sites in Germany could be redeveloped as AI data centers. The assessment will examine whether the sites have the power supply, grid connections, industrial infrastructure and available land needed to support large-scale AI operations. According to a press release, PreussenElektra will […]",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "173641c0dea9",
+      "title": "Oracle to integrate Google’s AI chips into its cloud infrastructure",
+      "url": "https://w.media/oracle-to-integrate-googles-ai-chips-into-its-cloud-infrastructure",
+      "date": "2026-10-29T04:10:19.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Oracle will offer Google’s Tensor Processing Units (TPUs) through Oracle Cloud Infrastructure (OCI) starting in 2027. This will be the first time Google’s TPUs are made available through a hyperscale cloud provider outside Google. According to a press release, OCI will provide the data center infrastructure, including power, cooling and networking, required to operate the […]",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "07883f6b2dab",
+      "title": "UK budget: Grid connection incentives for data centers under new “covenant”",
+      "url": "https://www.datacenterdynamics.com/en/news/uk-budget-grid-connection-incentives-for-data-centers-under-new-covenant",
+      "date": "2026-10-28T16:48:21.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Chancellor also discussed aims to help the public benefit from AI upsides",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "2ab4f9402d8d",
+      "title": "Tata Communications to invest nearly US$ 450 million to build AI superhighway in India",
+      "url": "https://w.media/tata-communications-to-invest-nearly-us-450-million-to-build-ai-superhighway-in-india",
+      "date": "2026-10-28T12:41:45.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Tata Communications, a global communications technology player, today announced strategic investments of close to US$ 450 million to build a high-speed, low-latency network fabric connecting India’s key AI data-center corridors. The company will build around 10,000 kilometers of the new long-haul fiber across India, creating one of the country’s largest AI-ready connectivity networks. The first […]",
+      "figures": [
+        "$ 450 million"
+      ],
+      "score": 5
+    },
+    {
+      "id": "0cf306c7c470",
+      "title": "Submer and Aginode to jointly develop AI and DC infrastructure across MEA",
+      "url": "https://w.media/submer-and-aginode-to-jointly-develop-ai-and-dc-infrastructure-across-mea",
+      "date": "2026-10-28T11:23:49.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Submer, a full-stack AI and HPC data center infrastructure provider, has signed a collaboration agreement with Aginode, a global provider of physical connectivity and power distribution for data centers, to jointly develop and deliver integrated AI and data center infrastructure across the Middle East, Africa, and Turkey. Under the agreement, both companies will work with […]",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "ae0cb9610c89",
+      "title": "Where Solid-State Micro-Cooling Fits in Data Centers",
+      "url": "https://www.datacenterknowledge.com/cooling/where-solid-state-micro-cooling-fits-in-data-centers",
+      "date": "2026-10-28T09:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Solid-state micro-cooling could help data centers reduce hotspots in SSDs and other subsystems that liquid cooling and system fans don't fully reach.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "208b878c5d37",
+      "title": "Accelsius: Why Two-Phase Cooling Could Become the Dominant AI Data Centre Architecture by 2030",
+      "url": "https://capacityglobal.com/news/accelsius-why-two-phase-cooling-could-become-the-dominant-ai-data-centre-architecture-by-2030",
+      "date": "2026-10-27T16:13:05.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "At Data Cloud Austin, Accelsius Executive Chairman Josh Claman discusses the benefits of two-phase liquid cooling, NVIDIA's 45°C water cooling benchmark, and why the technology could become the dominant cooling architecture for AI infrastructure by 2030. The post Accelsius: Why Two-Phase Cooling Could Become the Dominant AI Data Centre Architecture by 2030 appeared first on Capacity .",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "9061494ef725",
+      "title": "200 neoclouds may face wipeout amid hesitant AI lending: Musk",
+      "url": "https://w.media/200-neoclouds-may-face-wipeout-amid-hesitant-ai-lending-musk",
+      "date": "2026-10-29T05:11:45.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Over 200 neoclouds might face demise or consolidation because lenders are reluctant to finance businesses that depend wholly on AI demand,” SpaceX CEO Elon Musk warned in an X post recently. “Debt markets have almost entirely shut off access to money for any company that doesn’t have substantial revenue independent of AI data centers,” Musk wrote. He […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "733518f76ce6",
+      "title": "Vertiv shares jump 14 percent as data center earnings beat expectations",
+      "url": "https://www.datacenterdynamics.com/en/news/vertiv-shares-jump-14-percent-as-data-center-earnings-beat-expectations",
+      "date": "2026-10-28T17:18:08.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Reversing a steady decline amid market uncertainty",
+      "figures": [
+        "14 percent"
+      ],
+      "score": 4
+    },
+    {
+      "id": "c60a4c657ceb",
+      "title": "Former New Zealand pulp mill eyed for storage-focused data center",
+      "url": "https://www.datacenterdynamics.com/en/news/former-new-zealand-pulp-mill-eyed-for-storage-focused-data-center",
+      "date": "2026-10-28T16:37:51.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Data Igloo wants to develop a data center in Ruapehu",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "cc429578da37",
+      "title": "Enphase and Infineon deploy 900V GaN switches in solid-state transformers designed for AI data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/enphase-and-infineon-deploy-900v-gan-switches-in-solid-state-transformers-designed-for-ai-data-centers",
+      "date": "2026-10-28T15:05:52.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Claim the deployment is a \"world's first\"",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "f6e51a371957",
+      "title": "Neocloud General Compute raises $100m in Series A funding round",
+      "url": "https://www.datacenterdynamics.com/en/news/neocloud-general-compute-raises-100m-in-series-a-funding-round",
+      "date": "2026-10-28T15:01:25.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Round provides startup with post-money valuation of $800m",
+      "figures": [
+        "$100m",
+        "$800m"
+      ],
+      "score": 4
+    },
+    {
+      "id": "7c6aa6c179df",
+      "title": "HPE's Quantum Computing Bet: A Multi-Vendor Path to the Data Center",
+      "url": "https://www.datacenterfrontier.com/hyperscale/article/55413469/hpes-quantum-computing-bet-a-multi-vendor-path-to-the-data-center",
+      "date": "2026-10-28T14:59:57.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "Through partnerships with QuEra, Quantinuum and other quantum technology developers, HPE is positioning its Cray supercomputing platforms as the foundation for hybrid quantum-classical infrastructure, even as commercial deployment challenges remain.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "8d4e0c97bfe8",
+      "title": "Oracle Cloud to Offer Google TPUs and New AI Chips",
+      "url": "https://www.datacenterknowledge.com/data-center-chips/oracle-cloud-to-offer-google-tpus-and-new-ai-chips",
+      "date": "2026-10-28T14:38:56.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Oracle is broadening OCI’s AI infrastructure with Google TPUs and other chips while deepening its Nvidia partnership to give customers more workload choice.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "7beb608c78c6",
+      "title": "How MaiaEdge is Automating Private Connectivity Beyond Traditional Footprints",
+      "url": "https://datacenterpost.com/how-maiaedge-is-automating-private-connectivity-beyond-traditional-footprints",
+      "date": "2026-10-28T13:00:41.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR MaiaEdge uses SD-Ethernet architecture to provision private Ethernet instantly over fiber, internet, 5G, or satellite without expensive fiber builds or manual configurations. Combining Path Border Controller (PBC) hardware with a cloud-based Path Computation Engine (PCE), the platform delivers automated provisioning and end-to-end network visibility. Serving service providers, data center operators, and AI infrastructure platforms, […] The post How MaiaEdge is Automating Private Connectivity Beyond Traditional Footprints appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "8d3adbfb02fe",
+      "title": "US Signal acquires data center in Hillsboro, Oregon",
+      "url": "https://www.datacenterdynamics.com/en/news/us-signal-acquires-data-center-in-hillsboro-oregon",
+      "date": "2026-10-28T12:56:17.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company takes over facility previously occupied by Oracle",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "e0dc3ebd0e2e",
+      "title": "A taxonomy of American data center opposition: The neighbors",
+      "url": "https://www.datacenterdynamics.com/en/analysis/a-taxonomy-of-american-data-center-opposition-the-neighbors",
+      "date": "2026-10-28T12:50:34.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Data centers have become a key issue in the US mid-term elections",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "36eb3dda48d9",
+      "title": "NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
+      "date": "2026-10-28T15:00:46.000Z",
+      "publisher": "NVIDIA Newsroom",
+      "feed": "nvidia",
+      "kind": "press",
+      "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified […]",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "dfd7b691fef7",
+      "title": "Nxera Singapore signs MoU with Sembcorp for the supply of low carbon power in Singapore",
+      "url": "https://www.datacenterdynamics.com/en/news/nxere-singapore-signs-mou-with-sembcorp-for-the-supply-of-low-carbon-power-in-singapore",
+      "date": "2026-10-28T12:45:12.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Potential power solutions include hydrogen, biomethane, vertical solar, and floating solar",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}
