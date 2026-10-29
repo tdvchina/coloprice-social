@@ -37,6 +37,11 @@ for (const f of (await readdir(QUEUE_DIR)).filter((x) => x.endsWith('.json')).so
   if (state.published?.[d.slug] || d.status !== 'ready' || (d.publishBy && d.publishBy < today)) continue;
   queued.push({ slug: d.slug, label: d.format, theme: d.slides?.[0]?.theme || d.theme || 'dark', layout: d.slides?.[0]?.layout || 'standard' });
 }
+// Same order as publish.mjs: on a Thursday (Asia/Bangkok) a ready Coloprice Top jumps the queue.
+if (new Date(`${today}T12:00:00Z`).getUTCDay() === 4) {
+  const i = queued.findIndex((q) => q.label === 'coloprice-top');
+  if (i > 0) queued.unshift(...queued.splice(i, 1));
+}
 const seq = [...published, ...queued.slice(0, upcoming)];
 const tiles = seq.slice(-9).reverse(); // newest first = top-left
 if (!tiles.length) {

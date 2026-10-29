@@ -58,9 +58,9 @@ Three grounds, one brand. `theme` on the carousel sets every slide; `theme` on a
 |---|---|---|---|
 | `dark` | void #08090a / paper | the key figure and highlighted bars | default, the backbone of the feed |
 | `paper` | #f3f4f1 / void | only a highlighter marker behind the key figure or `**marked**` words (never lime text) | alternate with dark |
-| `lime` | lime / void | the ground itself | the accent tile: at most 1 cover in 5, usually only the cover (`slide.theme`) |
+| `lime` | lime / void | the ground itself | the accent tile, reserved for the **Coloprice Top cover** (weekly, so 1 cover in 5); other formats never use a lime cover |
 
-The profile grid shows the newest post top-left, so the FIRST post published ends up bottom-right. Plan covers in threes: alternate dark and paper and keep lime rare (launch grid: dark/paper checkerboard, lime on the diagonal). Check with `node scripts/grid-preview.mjs` (4:5 tiles; `--ratio=3:4 --guides` shows the crop the app grid uses). Keep the headline and hook figure inside the centre-safe area (the renderer's margins already do, as long as you do not move them).
+The profile grid shows the newest post top-left, so the FIRST post published ends up bottom-right. Plan covers in threes: alternate dark and paper; the weekly Coloprice Top is the lime tile. Because it jumps the queue on Thursdays, it sits between two posts of opposite grounds, so a lime ground never breaks the dark/paper rhythm. Check with `node scripts/grid-preview.mjs` (4:5 tiles; `--ratio=3:4 --guides` shows the crop the app grid uses). Keep the headline and hook figure inside the centre-safe area (the renderer's margins already do, as long as you do not move them).
 
 ## Slide types (all except `closing` need `refs: [...]`)
 

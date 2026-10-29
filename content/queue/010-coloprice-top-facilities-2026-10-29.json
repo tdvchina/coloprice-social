@@ -29,11 +29,26 @@
   "slides": [
     {
       "type": "cover",
+      "layout": "compare",
+      "theme": "lime",
       "kicker": "Coloprice Top",
       "headline": "Who runs the most data centres?",
-      "figure": {
-        "value": "267",
-        "label": "Equinix: tracked facilities in 37 countries, #1 of 2,278 operators"
+      "items": [
+        {
+          "label": "Equinix",
+          "value": "267",
+          "note": "tracked facilities, 37 countries",
+          "highlight": true
+        },
+        {
+          "label": "Digital Realty",
+          "value": "231",
+          "note": "tracked facilities"
+        }
+      ],
+      "verdict": {
+        "value": "2,278",
+        "text": "operators in the Coloprice catalogue"
       },
       "refs": [
         "rank"
