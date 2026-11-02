@@ -62,6 +62,15 @@
       "publishedAt": "2026-10-30T18:34:37.373Z",
       "bangkokDate": "2026-10-31",
       "mentionsDomain": true
+    },
+    "map-of-the-week-pipeline-2026-10": {
+      "id": "17952969963321330",
+      "permalink": "https://www.instagram.com/p/DfQXOoAmKGc/",
+      "format": "map-of-the-week",
+      "topic": "Map of the Week: where 50,635 MW of data centers is under construction (US two-thirds; APAC 11,083 MW; all of Europe 2,757 MW vs Indonesia 2,646 MW)",
+      "publishedAt": "2026-11-02T22:18:56.664Z",
+      "bangkokDate": "2026-11-03",
+      "mentionsDomain": false
     }
   },
   "skipped": {},
