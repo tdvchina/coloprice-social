@@ -1,0 +1,28 @@
+{
+  "slug": "megawatt-watch-apac-2026-11-04",
+  "format": "megawatt-watch",
+  "status": "ready",
+  "created": "2026-11-04",
+  "publishBy": "2026-11-11",
+  "theme": "paper",
+  "topic": "Megawatt Watch APAC: Samsung SDS Gumi 60→120 MW, Perak >100 MW (NDA only), NTT Jakarta 12 MW",
+  "sources": [
+    {"id":"wm-samsung","publisher":"W.Media","title":"Samsung SDS begins construction of 60 MW AI data center in Gumi South Korea","url":"https://w.media/samsung-sds-begins-construction-of-60-mw-ai-data-center-in-gumi-south-korea","date":"2026-11-04","facts":["Samsung SDS has begun construction of an AI data center in Gongdan-dong, Gumi, North Gyeongsang Province","Initial power capacity of 60 MW, with expansion plans to 120 MW in stages","Expected completion: end of 2028"]},
+    {"id":"wm-perak","publisher":"W.Media","title":"Malaysia's Perak state explores proposed 100MW AI data center","url":"https://w.media/malaysias-perak-state-explores-proposed-100mw-ai-data-center","date":"2026-11-04","facts":["PKNPk and Global Vision Lab are exploring an AI data center in Perak with planned capacity exceeding 100MW","Only a non-disclosure agreement and a letter of consent have been signed"]},
+    {"id":"wm-ntt","publisher":"W.Media","title":"NTT Data opens 12MW new Jakarta 2 Annex data center","url":"https://w.media/ntt-data-opens-12mw-new-jakarta-2-annex-data-center","date":"2026-11-04","facts":["NTT Data opened the 12MW Jakarta 2 Annex Data Center (JKT2A), Tier III certified, up to 40 kW per rack","Linked to Jakarta 3 in Bekasi, 45 MW IT load capacity"]}
+  ],
+  "dataHooks": [
+    {"id":"pipeline","dataset":"Coloprice pipeline tracker","url":"https://coloprice.com/data/data-center-pipeline.csv","asOf":"2026-11-04","facts":["Indonesia: 21 projects, 2646 MW under construction, 1448 MW announced","Malaysia: 26 projects, 1402 MW under construction, 1292 MW announced","South Korea: 9 projects, 542 MW under construction, 350 MW announced"]}
+  ],
+  "slides": [
+    {"type":"cover","layout":"poster","kicker":"Megawatt Watch","headline":"Korea's next AI campus: 60 MW, then 120","figure":{"value":"120 MW","label":"Samsung SDS Gumi, planned in stages; 60 MW first"},"refs":["wm-samsung"]},
+    {"type":"chart","kind":"hbar","title":"Asia's MW, as stated","unit":"Headline capacity · MW","data":[{"label":"Samsung SDS · Gumi (plan)","value":120},{"label":"Perak × GVL · Malaysia (>)","value":100},{"label":"Samsung SDS · Gumi (first)","value":60},{"label":"NTT Data · Jakarta (open)","value":12}],"highlight":0,"valueFormat":{"suffix":" MW"},"caption":"As stated. One is open, one is under construction, one has only an NDA.","refs":["wm-samsung","wm-perak","wm-ntt"]},
+    {"type":"stat","label":"Samsung SDS · Gumi, South Korea","value":"60 MW","unit":"Initial capacity, expanding to 120 MW","context":"Construction has begun in North Gyeongsang Province. Expected completion: end of 2028.","refs":["wm-samsung"]},
+    {"type":"stat","label":"Perak × Global Vision Lab · Malaysia","value":">100 MW","unit":"Planned, exploratory","context":"Only an NDA and a letter of consent are signed. Treat the number as intent, not capacity.","accent":false,"refs":["wm-perak"]},
+    {"type":"stat","label":"NTT Data · Jakarta 2 Annex","value":"12 MW","unit":"Open, Tier III","context":"Up to 40 kW per rack. Linked to Jakarta 3 in Bekasi (45 MW IT load).","accent":false,"refs":["wm-ntt"]},
+    {"type":"list","title":"Built vs announced in these markets","unit":"MW · under construction / announced","rows":[{"label":"Indonesia","value":"2,646 / 1,448"},{"label":"Malaysia","value":"1,402 / 1,292"},{"label":"South Korea","value":"542 / 350","highlight":true}],"footnote":"Coloprice pipeline tracker, published capacity only.","refs":["pipeline"]},
+    {"type":"closing","text":"Published capacity, sourced and dated.","cta":"Full pipeline tables: link in bio"}
+  ],
+  "caption": "120 MW: Samsung SDS has started building its Gumi AI campus in South Korea, 60 MW first and 120 MW in stages.\n\nThe same day in Asia: a Perak (Malaysia) project of more than 100MW, backed so far only by an NDA and a letter of consent, and NTT Data's 12MW Jakarta 2 Annex, already open.\n\nThree announcements, three very different stages. Our pipeline shows South Korea at 542 MW under construction and 350 MW announced.\n\nData: Coloprice pipeline tracker, 4 Nov 2026. Sources on the last slide.\n\nWhich of these markets do you expect to fill first? Tell us below. Full tables: link in bio.",
+  "hashtags": ["#datacenter","#AIinfrastructure","#SouthKorea","#Malaysia"]
+}

@@ -1,0 +1,661 @@
+{
+  "generated": "2026-11-04T09:29:06.917Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 0
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 3
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 10
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 3
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 4
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 5
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 4
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 87,
+      "kept": 2
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 0
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 1
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 1
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 10
+    }
+  ],
+  "items": [
+    {
+      "id": "5246a89470d1",
+      "title": "Samsung SDS begins construction of 60 MW AI data center in Gumi South Korea",
+      "url": "https://w.media/samsung-sds-begins-construction-of-60-mw-ai-data-center-in-gumi-south-korea",
+      "date": "2026-11-04T05:19:34.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Samsung SDS, a South Korean global IT services, cloud computing, and logistics provider headquartered has begun construction of an artificial intelligence data center on a site of 14,000 pyeong (46,281 square metres), in Gongdan-dong, Gumi, North Gyeongsang Province. The facility will initially have a power capacity of 60 MW, with expansion plans to 120 MW […]",
+      "figures": [
+        "60 MW",
+        "120 MW"
+      ],
+      "score": 11
+    },
+    {
+      "id": "883f57e2c816",
+      "title": "Fireworks contracts 5MW of Nvidia Blackwell Ultra capacity at Era4 data center in UK",
+      "url": "https://www.datacenterdynamics.com/en/news/fireworks-contracts-5mw-of-nvidia-blackwell-ultra-capacity-at-era4-data-center-in-uk",
+      "date": "2026-11-03T15:58:06.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Will be hosted in Era4's Chesterfield data center",
+      "figures": [
+        "5MW"
+      ],
+      "score": 11
+    },
+    {
+      "id": "b7bb2004a83c",
+      "title": "Why power regulators now decide where AI data centres go",
+      "url": "https://capacityglobal.com/news/why-power-regulators-now-decide-where-ai-data-centres-go",
+      "date": "2026-11-02T12:13:53.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "A paused 1GW campus in Australia, a split approval in Alberta and the UK's new grid covenant point to the same shift: the deciding say over AI data centres is moving from local planners to energy regulators and central government. The post Why power regulators now decide where AI data centres go appeared first on Capacity .",
+      "figures": [
+        "1GW"
+      ],
+      "score": 11
+    },
+    {
+      "id": "63dad073ee70",
+      "title": "Malaysia’s Perak state explores proposed 100MW AI data center",
+      "url": "https://w.media/malaysias-perak-state-explores-proposed-100mw-ai-data-center",
+      "date": "2026-11-04T04:16:01.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Malaysia’s Perak State Development Corporation (PKNPk) and Global Vision Lab Sdn Bhd (GVL) are exploring a proposed artificial intelligence data center (AIDC) development in Perak with planned capacity exceeding 100MW, according to PKNPk press release yesterday. To date, only a non-disclosure agreement and a letter of consent have been signed; as such more specific details like […]",
+      "figures": [
+        "100MW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "da9707a2b4d9",
+      "title": "PDG secures US$ 1.3 billion green loan for Johor data center expansion",
+      "url": "https://w.media/pdg-secures-usd-1-3-billion-green-loan-for-johor-data-center-expansion",
+      "date": "2026-11-04T03:01:57.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Princeton Digital Group (PDG), a leading data center operator in Asia Pacific, today said that it has secured approximately US$ 1.3 billion (~RM 5.1 billion) in green financing for continued development and expansion of its JH1 campus in Johor, Malaysia. The loan contributed to part of the US$ 5 billion in debt financing that the […]",
+      "figures": [
+        "$ 1.3 billion",
+        "5.1 billion",
+        "$ 5 billion"
+      ],
+      "score": 10
+    },
+    {
+      "id": "23004cfdcadf",
+      "title": "NTT Data opens 12MW new Jakarta 2 Annex data center",
+      "url": "https://w.media/ntt-data-opens-12mw-new-jakarta-2-annex-data-center",
+      "date": "2026-11-04T01:36:37.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Japan’s NTT Data Group, a unit of telecommunications giant NTT yesterday opened a 12MW new Jakarta 2 Annex Data Center (JKT2A) in Jakarta, according to Antara News, Indonesian state news agency. “The strength of data centers in Indonesia is the number of users. All data comes from users and connected devices, and Indonesia is the largest […]",
+      "figures": [
+        "12MW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "54eb8397ff6b",
+      "title": "Samsung SDS breaks ground on Gumi AI Data Center in South Korea",
+      "url": "https://www.datacenterdynamics.com/en/news/samsung-sds-breaks-ground-on-gumi-ai-data-center-in-south-korea",
+      "date": "2026-11-03T17:25:59.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Will eventually offer 120MW",
+      "figures": [
+        "120MW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "d683bd2189bf",
+      "title": "From 400kW to 1MW per rack: Schneider Electric’s Steve Carlini on the next phase of AI infrastructure",
+      "url": "https://capacityglobal.com/news/schneider-electric-steve-carlini-interview",
+      "date": "2026-11-03T15:32:10.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Schneider Electric's Steve Carlini tells Capacity why 800V DC power, behind-the-meter energy parks and hotter liquid cooling will define the next generation of AI data centres, and why operators can no longer build in secrecy. The post From 400kW to 1MW per rack: Schneider Electric’s Steve Carlini on the next phase of AI infrastructure appeared first on Capacity .",
+      "figures": [
+        "400kW",
+        "1MW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "c6d956e91376",
+      "title": "California Resources and Bloom Energy eye 1GW of fuel cells across California to power data centers and other offtakers",
+      "url": "https://www.datacenterdynamics.com/en/news/california-resources-and-bloom-energy-eye-1gw-of-fuel-cells-across-california-to-power-data-centers-and-other-offtakers",
+      "date": "2026-11-03T17:28:17.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Intend to couple the systems with carbon capture and storage",
+      "figures": [
+        "1GW"
+      ],
+      "score": 9
+    },
+    {
+      "id": "d6a496f476d8",
+      "title": "LG CNS plans America and Europe expansion with modular data center strategy",
+      "url": "https://w.media/lg-cns-plans-america-and-europe-expansion-with-modular-data-center-strategy",
+      "date": "2026-11-03T09:40:53.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "LG CNS, a South Korean digital transformation company, targets North American and European expansion with modular data center strategy. Its US subsidiary will work with local partners with an initial 30 MW of power capacity, expandable to 220 MW. The company’s prefabricated modular approach involves manufacturing key data center components in advance and assembling them […]",
+      "figures": [
+        "30 MW",
+        "220 MW"
+      ],
+      "score": 9
+    },
+    {
+      "id": "fb5f8e2c9677",
+      "title": "OCP 2026: Cooler Master Scales Liquid Cooling from Cold Plates to 2.5 MW CDUs",
+      "url": "https://www.datacenterfrontier.com/cooling/article/55415936/ocp-2026-cooler-master-scales-liquid-cooling-from-cold-plates-to-25-mw-cdus",
+      "date": "2026-11-02T16:52:34.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "An inside look at Cooler Master's expanding AI cooling portfolio reveals a focus on modular design, serviceability, and the equipment needed to deploy liquid cooling at data center scale.",
+      "figures": [
+        "2.5 MW"
+      ],
+      "score": 9
+    },
+    {
+      "id": "e624e4e38e82",
+      "title": "Drax Group and Brookfield plan £20 billion data center development in North Yorkshire",
+      "url": "https://w.media/drax-group-and-brookfield-plan-20-billion-data-center-development-in-north-yorkshire",
+      "date": "2026-11-04T03:59:33.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Drax Group (Drax), a renewable and flexible generation energy company, has partnered with Brookfield Corporation (Brookfield), an investment management company, and Radiant, a vertically integrated AI infrastructure company, to develop a large scale data center campus at Drax Power Station in North Yorkshire, in a project that could attract over £20 billion (US$ 27 billion) […]",
+      "figures": [
+        "20 billion",
+        "$ 27 billion"
+      ],
+      "score": 8
+    },
+    {
+      "id": "4737d7581901",
+      "title": "TerraVolt acquires site in Idaho to develop 240MW gas powered behind-the-meter data center campus",
+      "url": "https://www.datacenterdynamics.com/en/news/terravolt-acquires-site-in-idaho-to-develop-240mw-gas-powered-behind-the-meter-data-center-campus",
+      "date": "2026-11-03T16:07:37.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Acquires 1,077 acres in Cassia County",
+      "figures": [
+        "240MW",
+        "1,077 acres"
+      ],
+      "score": 8
+    },
+    {
+      "id": "949a4e21d830",
+      "title": "Cloud Revenue Hits $168B as AI Capacity Expands",
+      "url": "https://www.datacenterknowledge.com/cloud/cloud-revenue-hits-168b-as-ai-capacity-expands",
+      "date": "2026-11-03T10:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Cloud infrastructure revenue reached $168 billion in the third quarter as providers brought higher-priced AI capacity online, reinforcing demand for new data centers even as power constraints slow delivery.",
+      "figures": [
+        "$168B",
+        "$168 billion"
+      ],
+      "score": 8
+    },
+    {
+      "id": "8409e12ca7e7",
+      "title": "Speed to Power Is Everything Right Now. Here’s Why the Grid Can’t Keep Up.",
+      "url": "https://datacenterpost.com/speed-to-power-is-everything-right-now-heres-why-the-grid-cant-keep-up",
+      "date": "2026-11-02T06:30:00.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Grid connection timelines do not match AI data center deployment schedules, creating a multi-year gap where facilities are ready in two to three years while utility interconnection can take up to seven years. Data center electricity demand is rapidly climbing, projected by Lawrence Berkeley National Laboratory to increase from 4.4% of U.S. electricity in […] The post Speed to Power Is Everything Right Now. Here’s Why the Grid Can’t Keep Up. appeared first on Data Center POST .",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "a2270c1d9cd0",
+      "title": "Etihad GO Telecom commits US$ 69.8 million to AI data center expansion",
+      "url": "https://w.media/etihad-go-telecom-commits-us-69-8-million-to-ai-data-center-expansion",
+      "date": "2026-11-03T13:14:01.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Etihad GO Telecom Co. (GO), a Saudi Arabian joint-stock telecommunication company, has awarded a SAR 185.9 million (US$ 49.39 million) cloud artificial intelligence (AI) data center project to Total Technical Triangle Company (3T), an IT services, system integration, and consulting company, as part of its strategy to expand into AI and cloud computing services. According […]",
+      "figures": [
+        "$ 69.8 million",
+        "185.9 million",
+        "$ 49.39 million"
+      ],
+      "score": 7
+    },
+    {
+      "id": "38b69700c5df",
+      "title": "Digital Realty deepens Teraco ownership in US$ 688 million deal",
+      "url": "https://w.media/digital-realty-deepens-teraco-ownership-in-us-688-million-deal",
+      "date": "2026-11-03T09:19:52.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Digital Realty, a US-based real estate investment trust (REIT) that owns, operates and develops data centers and other digital infrastructure, acquired a further 16 percent stake in Teraco, an African carrier and cloud-neutral data center provider, after the close of its third quarter. According to its latest quarterly report, Digital Realty acquired the stake from […]",
+      "figures": [
+        "$ 688 million",
+        "16 percent"
+      ],
+      "score": 7
+    },
+    {
+      "id": "a5a6a655d043",
+      "title": "NTT Data opens JKT2A data center in Indonesia",
+      "url": "https://www.datacenterdynamics.com/en/news/ntt-data-opens-jkt2a-data-center-in-indonesia",
+      "date": "2026-11-03T22:17:57.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Facility is designed for AI workloads",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "8deebb947740",
+      "title": "Malaysian firm lands 2 solar plus BESS deals totalling 189MW for data centers",
+      "url": "https://w.media/malaysian-firm-lands-2-solar-plus-bess-deals-totalling-189mw-for-data-centers",
+      "date": "2026-11-03T09:09:05.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Malaysia-based renewable energy firm Northern Solar Holdings Berhad has secured a total of 189 megawatts (MW) for two data center projects in Malaysia, the firm said in two separate exchange filings yesterday. Its wholly-owned subsidiary Northern Solar Assets Sdn. Bhd. had accepted the two letters of award (LOA) to supply the data centers with solar energy under […]",
+      "figures": [
+        "189MW",
+        "189 megawatts"
+      ],
+      "score": 6
+    },
+    {
+      "id": "4501ae90f957",
+      "title": "Oregon State University leads the way in data center innovation with liquid cooling",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/oregon-state-university-leads-the-way-in-data-center-innovation-with-liquid-cooling",
+      "date": "2026-11-04T09:20:57.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "How Oregon State University improved computing performance, reduced cooling demands, and advanced data center sustainability with ZutaCore",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "447d5518a923",
+      "title": "DCF Show: Can AI Unlock Data Centers' Stranded Megawatts?",
+      "url": "https://www.datacenterfrontier.com/energy/podcast/55416357/dcf-show-can-ai-unlock-data-centers-stranded-megawatts",
+      "date": "2026-11-03T19:51:01.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "Hammerhead AI CEO Rahul Kar argues that the next wave of AI inference capacity could come from power already allocated to operating data centers. The challenge is turning unused electrical headroom into productive compute without compromising reliability or existing customer commitments.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "e6930051aed7",
+      "title": "Trump Onsite Power Push Meets AI Data Center Reality",
+      "url": "https://www.datacenterknowledge.com/regulations/trump-onsite-power-push-meets-ai-data-center-reality",
+      "date": "2026-11-03T17:26:06.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Trump’s onsite power push highlights a hard reality: most AI data centers will likely need hybrid energy strategies rather than fully off-grid designs.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "df0b87d4dffb",
+      "title": "OpenAI launches 'Grid Protectors Program' to reduce data center electricity demand when the US grid is under strain",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-launches-grid-protectors-program-to-reduce-data-center-electricity-demand-when-the-us-grid-is-under-strain-openai-has-launched-a-plan-to-reduce-the-impact-of-its-data-centers-on-the-us-grid-the-non-binding-grid-protectors-program-aims-to-re",
+      "date": "2026-11-03T16:27:03.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "As company looks to avoid the anti-data center local pushback",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "3db2e8151f53",
+      "title": "AI’s Expansion Hits the Limits of Local Power",
+      "url": "https://www.datacenterknowledge.com/energy-power-supply/ai-s-expansion-hits-the-limits-of-local-power",
+      "date": "2026-11-03T14:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Power shortages and local opposition are delaying data center projects, making AI expansion harder, costlier, and more dependent on scarce grid access.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "ef15073e7636",
+      "title": "Drax wants to feed Britain's AI habit with £20B datacenter at biomass power station",
+      "url": "https://www.theregister.com/on-prem/2026/11/03/drax-wants-to-feed-britains-ai-habit-with-20b-datacenter-at-biomass-power-station/5307237",
+      "date": "2026-11-03T13:27:33.000Z",
+      "publisher": "The Register (On-Prem)",
+      "feed": "register",
+      "kind": "general",
+      "summary": "But first it needs planning permission, government approval and, rather importantly, a customer",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "c4aa9da7459c",
+      "title": "National Grid takes major step towards powering Teesside AI data centre",
+      "url": "https://datacentrereview.com/2026/11/national-grid-takes-major-step-towards-powering-teesside-ai-data-centre",
+      "date": "2026-11-03T10:43:52.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "The proposed 400kV substation would support a major AI data centre development at Teesworks, and could become the UK's largest.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "0c38642510b6",
+      "title": "Teesworks sells land to National Grid for AI and data center development",
+      "url": "https://w.media/teesworks-sells-land-to-national-grid-for-ai-and-data-center-development",
+      "date": "2026-11-03T08:58:17.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Teesworks, the United Kingdom’s largest industrial zone, has agreed to sell 73.3 acres of land at Dorman Point to National Grid Electricity Transmission for the development of Teesside Node A (Teesside), which is expected to become the UK’s largest substation. The facility will be built by National Grid contractor Balfour Beatty, with its 1,440 MVA […]",
+      "figures": [
+        "73.3 acres"
+      ],
+      "score": 5
+    },
+    {
+      "id": "502291e301cd",
+      "title": "Hyceon: A New Pan-European Force in Data Centre Design and Engineering",
+      "url": "https://datacenterpost.com/hyceon-a-new-pan-european-force-in-data-centre-design-and-engineering",
+      "date": "2026-11-02T20:30:47.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR: One design isn’t enough to deliver data centres across Europe, because local planning, permitting, grid, water and heat rules shape how each project is approved and built. Hyceon’s baseline design draws on Europe’s toughest requirements, in Germany and Ireland. This helps projects avoid redesigns as rules tighten and protects long-term asset value. Hyceon’s local […] The post Hyceon: A New Pan-European Force in Data Centre Design and Engineering appeared first on Data Center POST .",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "2c8801a8473c",
+      "title": "Liquid Cooling Is Changing What Data Centers Need to Measure",
+      "url": "https://www.datacenterknowledge.com/cooling/liquid-cooling-is-changing-what-data-centers-need-to-measure",
+      "date": "2026-11-02T14:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Liquid cooling changes data center operations by making precise, real-time measurement across both liquid and air environments essential.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "2b655817834d",
+      "title": "Who owns the risk in data centre security?",
+      "url": "https://datacentrereview.com/2026/11/who-owns-the-risk-in-data-centre-security",
+      "date": "2026-11-04T08:00:00.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "Axis Communications’ Steven Kenny argues that data centre operators need clear ownership of cybersecurity risk across physical security systems.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "6c3abb535de3",
+      "title": "AMD Q3 2026 Earnings Data Center Growth Drives Record Quarter",
+      "url": "https://www.servethehome.com/amd-q3-2026-earnings-data-center-growth",
+      "date": "2026-11-04T05:24:08.000Z",
+      "publisher": "ServeTheHome",
+      "feed": "sth",
+      "kind": "general",
+      "summary": "AMD Q3 2026 earnings were massive with the data center and embedded segments seeing big uplift with the clear Venice x86 leadership looming The post AMD Q3 2026 Earnings Data Center Growth Drives Record Quarter appeared first on ServeTheHome .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "cbe48fa33fc1",
+      "title": "Marvell Cuts To The Front Of The Datacenter Optics Line With Lumentum Deal",
+      "url": "https://www.nextplatform.com/connect/2026/11/03/marvell-cuts-to-the-front-of-the-datacenter-optics-line-with-lumentum-deal/5307392",
+      "date": "2026-11-03T21:31:01.000Z",
+      "publisher": "The Next Platform",
+      "feed": "nextplatform",
+      "kind": "general",
+      "summary": "",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "ef6cceb76da0",
+      "title": "Mission-Critical Specialization: Tailoring Fuel Systems for Data Centers and Hospitals",
+      "url": "https://datacenterpost.com/mission-critical-specialization-tailoring-fuel-systems-for-data-centers-and-hospitals",
+      "date": "2026-11-03T17:00:34.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Mission-critical facilities require fuel systems designed around the specific operating environment, rather than a standardized approach. Data centers often prioritize scale, system consistency, fuel distribution, and visibility across complex or multi-site operations. Hospitals must account for continuity of care, existing infrastructure constraints, regulatory requirements, and emergency fuel access. ESI tailors fuel systems by combining […] The post Mission-Critical Specialization: Tailoring Fuel Systems for Data Centers and Hospitals appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "15e5086772c4",
+      "title": "Putin gives Russian companies permission to use foreign data centers after Ukraine drone strikes",
+      "url": "https://www.datacenterdynamics.com/en/news/putin-gives-russian-companies-permission-to-use-foreign-data-centers-after-ukraine-drone-strikes",
+      "date": "2026-11-03T16:29:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Russia's data center firms ordered to reserve capacity for government departments",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "eac3d0a57b3d",
+      "title": "Putin signs decree that non-state data centers will have to reserve 10 percent of capacity for government use",
+      "url": "https://www.datacenterdynamics.com/en/news/norilsk-nickel",
+      "date": "2026-11-03T16:06:58.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "As data centers come under attack, the Russian state looks to expand its presence",
+      "figures": [
+        "10 percent"
+      ],
+      "score": 4
+    },
+    {
+      "id": "1603f209aa9d",
+      "title": "How AI Is Reshaping High-Capacity Optical Networks: Insights from Openreach and Ciena",
+      "url": "https://capacityglobal.com/news/how-ai-is-reshaping-high-capacity-optical-networks-insights-from-openreach-and-ciena",
+      "date": "2026-11-03T14:15:00.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "At Capacity Europe 2026, Simon Williams, Head of Optical Products at Openreach, and Joe Marsella, Vice President of International Business Development at Ciena, discuss how AI is accelerating demand for high-capacity connectivity, transforming network architectures, and driving innovation across fibre, optical networking and data centre infrastructure. The post How AI Is Reshaping High-Capacity Optical Networks: Insights from Openreach and Ciena appeared first on Capacity .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "fbc2110285b2",
+      "title": "The Role of Facilities Management in Data Centre Resilience",
+      "url": "https://datacenterpost.com/the-role-of-facilities-management-in-data-centre-resilience",
+      "date": "2026-11-03T13:00:50.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Fixed calendar maintenance is insufficient for modern high-density environments, necessitating condition-based monitoring and predictive strategies to catch early equipment failures. Advanced AI workloads and liquid-to-chip cooling introduce complex primary and secondary cooling loops, split responsibilities between stakeholders, and unique maintenance demands. Addressing the industry skills gap and integrating installation expertise into full lifecycle facilities […] The post The Role of Facilities Management in Data Centre Resilience appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "3cf463afab54",
+      "title": "Data Center Jobs: Engineering, Construction, Commissioning, Sales, Field Service and Facility Tech Jobs Available in Major Data Center Hotspots",
+      "url": "https://www.datacenterfrontier.com/sponsored/article/55416100/data-center-jobs-engineering-construction-commissioning-sales-field-service-and-facility-tech-jobs-available-in-major-data-center-hotspots",
+      "date": "2026-11-03T11:40:00.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "Each month Data Center Frontier, in partnership with Pkaza, posts some of the hottest data center career opportunities in the market. Here’s a look at some of the latest data center jobs posted on the Data Center Frontier jobs board, powered by Pkaza Critical Facilities Recruiting.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "97b9decec6f7",
+      "title": "Qualcomm Has Eyes On The AI Inference Datacenter With HBC And AI250",
+      "url": "https://www.nextplatform.com/ai/2026/11/02/qualcomm-has-eyes-on-the-ai-inference-datacenter-with-hbc-and-ai250/5306954",
+      "date": "2026-11-02T18:02:57.000Z",
+      "publisher": "The Next Platform",
+      "feed": "nextplatform",
+      "kind": "general",
+      "summary": "",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "6428330b2d2e",
+      "title": "10% biodiversity requirement takes effect for nationally significant data centres",
+      "url": "https://datacentrereview.com/2026/11/10-biodiversity-requirement-takes-effect-for-nationally-significant-data-centres",
+      "date": "2026-11-02T12:44:00.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "New rules require developers using England's national consenting regime to demonstrate how they will deliver improvements to biodiversity.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "5829b1ec7997",
+      "title": "Could the next big sustainability gain be hiding in the bin?",
+      "url": "https://datacentrereview.com/2026/11/could-the-next-big-sustainability-gain-be-hiding-in-the-bin",
+      "date": "2026-11-02T08:28:24.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "Data centres have spent years tracking energy efficiency, but the materials they discard may hold another opportunity to cut environmental impact.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "508d1f39c633",
+      "title": "Building Tomorrow’s Digital Infrastructure Workforce Through Education and Industry Collaboration",
+      "url": "https://datacenterpost.com/building-tomorrows-digital-infrastructure-workforce-through-education-and-industry-collaboration",
+      "date": "2026-11-02T07:30:45.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR The Nomad Futurist Foundation and iMiller Public Relations (iMPR) have extended their longstanding collaboration through a new three-year agreement focused on workforce awareness and educational outreach. The partnership coincides with iMPR’s 15th anniversary and aims to introduce more students to career opportunities across the digital infrastructure industry. iMPR will support the Foundation’s educational initiatives […] The post Building Tomorrow’s Digital Infrastructure Workforce Through Education and Industry Collaboration appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "b5b95b7a8e0d",
+      "title": "Nevada ISP owner pleads guilty to embezzling more than $7.8m from Internet buildout project",
+      "url": "https://www.datacenterdynamics.com/en/news/nevada-isp-owner-pleads-guilty-to-embezzling-more-than-78m-from-internet-buildout-project",
+      "date": "2026-11-03T16:16:50.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The money was part of a $27m federally awarded grant",
+      "figures": [
+        "$7.8m",
+        "$27m"
+      ],
+      "score": 3
+    }
+  ]
+}
