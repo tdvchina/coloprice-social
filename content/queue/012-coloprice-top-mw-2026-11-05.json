@@ -1,0 +1,55 @@
+{
+  "slug": "coloprice-top-mw-2026-11-05",
+  "format": "coloprice-top",
+  "status": "ready",
+  "created": "2026-11-05",
+  "publishBy": "2026-11-19",
+  "topic": "Coloprice Top: largest operators by published MW",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "rank",
+      "dataset": "Coloprice operator rankings",
+      "url": "https://coloprice.com/data/operator-rankings.json",
+      "asOf": "2026-11-04",
+      "facts": [
+        "Catalogue: 2295 operators, 6116 facilities in 184 countries (as of 2026-11-04)",
+        "Largest by published MW — #1 Meta Platforms: 3 tracked facilities in 2 countries, 6,000 MW published (2 of 3 sites publish MW)",
+        "Largest by published MW — #2 STACK Infrastructure: 49 tracked facilities in 11 countries, 5,673 MW published (48 of 49 sites publish MW)",
+        "Largest by published MW — #3 Vantage Data Centers: 42 tracked facilities in 14 countries, 5,544 MW published (39 of 42 sites publish MW)",
+        "Largest by published MW — #4 IREN: 9 tracked facilities in 3 countries, 5,460 MW published (8 of 9 sites publish MW)",
+        "Largest by published MW — #5 CDC Data Centres: 19 tracked facilities in 2 countries, 3,308 MW published (13 of 19 sites publish MW)",
+        "Largest by published MW — #6 OpenAI (developer Octans GA LLC): 1 tracked facilities in 1 country, 3,210 MW published (1 of 1 sites publish MW)",
+        "Largest by published MW — #7 Crusoe: 4 tracked facilities in 1 country, 3,100 MW published (3 of 4 sites publish MW)",
+        "Largest by published MW — #8 Nebius: 4 tracked facilities in 2 countries, 3,010 MW published (4 of 4 sites publish MW)",
+        "Largest by published MW — #9 Aligned Data Centers: 40 tracked facilities in 5 countries, 2,935 MW published (16 of 40 sites publish MW)",
+        "Largest by published MW — #10 Google: 20 tracked facilities in 2 countries, 2,700 MW published (1 of 20 sites publish MW)"
+      ]
+    }
+  ],
+  "slides": [
+    {"type":"cover","layout":"standard","theme":"lime","kicker":"Coloprice Top","headline":"Who has published the most megawatts?","figure":{"value":"6,000 MW","label":"Meta Platforms, #1 by published MW"},"refs":["rank"]},
+    {"type":"chart","kind":"hbar","title":"Top 8 operators by published MW","unit":"MW published · Coloprice catalogue · 4 Nov 2026","data":[
+      {"label":"Meta Platforms","value":6000},
+      {"label":"STACK Infrastructure","value":5673},
+      {"label":"Vantage Data Centers","value":5544},
+      {"label":"IREN","value":5460},
+      {"label":"CDC Data Centres","value":3308},
+      {"label":"OpenAI (Octans GA)","value":3210},
+      {"label":"Crusoe","value":3100},
+      {"label":"Nebius","value":3010}],"highlight":0,"caption":"Sum of capacity each operator publishes; not all sites do.","refs":["rank"]},
+    {"type":"list","title":"Footprint behind the megawatts","unit":"Tracked facilities · sites publishing MW","rows":[
+      {"label":"Meta Platforms","value":"3 facilities","note":"2 of 3 sites publish MW","highlight":true},
+      {"label":"STACK Infrastructure","value":"49 facilities","note":"48 of 49 sites publish MW"},
+      {"label":"Vantage Data Centers","value":"42 facilities","note":"39 of 42 sites publish MW"},
+      {"label":"IREN","value":"9 facilities","note":"8 of 9 sites publish MW"},
+      {"label":"Crusoe","value":"4 facilities","note":"3 of 4 sites publish MW"},
+      {"label":"Nebius","value":"4 facilities","note":"4 of 4 sites publish MW"}],"footnote":"Joint ventures are counted separately.","refs":["rank"]},
+    {"type":"stat","label":"One site, one operator","value":"3,210","unit":"MW published","context":"OpenAI (developer Octans GA LLC) ranks #6 with 1 tracked facility in 1 country.","refs":["rank"]},
+    {"type":"stat","label":"A surprise at #10","value":"2,700","unit":"MW published","context":"Google: 20 tracked facilities in 2 countries, but only 1 of 20 sites publishes MW.","accent":false,"refs":["rank"]},
+    {"type":"closing","text":"Operators ranked by capacity they publish in the Coloprice catalogue. A count, not an endorsement.","cta":"Follow for the weekly Coloprice Top."}
+  ],
+  "caption": "6,000 MW: Meta Platforms leads the Coloprice ranking of operators by published capacity.\n\nSTACK Infrastructure (5,673 MW) and Vantage Data Centers (5,544 MW) follow, then IREN with 5,460 MW. Meta gets there with 3 tracked facilities; STACK needs 49.\n\nThe ranking only counts MW that operators publish: Google shows 2,700 MW, but only 1 of its 20 sites discloses capacity. Largest by published MW, not an endorsement.\n\nData: Coloprice operator rankings, 4 Nov 2026. Sources on the last slide.\n\nShould published MW be the yardstick for operators, or only energised capacity? Full ranking: link in bio.",
+  "hashtags": ["#datacenter","#colocation","#AIinfrastructure","#hyperscale"],
+  "userTags": [{"username":"crusoe.ai","slide":2}]
+}

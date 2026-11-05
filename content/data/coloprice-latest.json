@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T09:29:07.774Z",
+ "generated": "2026-11-05T09:39:12.830Z",
  "base": "https://coloprice.com",
  "mode": "remote",
  "license": "Coloprice data: CC BY 4.0 (own data). Read-only snapshot.",
@@ -479,7 +479,7 @@
   },
   "gpuHistory": {
    "title": "GPU rental price history",
-   "asOf": "2026-11-02",
+   "asOf": "2026-11-04",
    "url": "https://coloprice.com/api/history/gpu-prices.json",
    "format": [
     "date",
@@ -692,6 +692,13 @@
       8,
       27.04,
       10.58
+     ],
+     [
+      "2026-11-04",
+      13.25,
+      8,
+      27.04,
+      10.58
      ]
     ],
     "NVIDIA A100 (80GB)": [
@@ -762,6 +769,13 @@
      ],
      [
       "2026-10-28",
+      1.53,
+      0.38,
+      3.77,
+      1.09
+     ],
+     [
+      "2026-11-04",
       1.53,
       0.38,
       3.77,
@@ -927,7 +941,7 @@
   },
   "coloHistory": {
    "title": "Wholesale colocation price history",
-   "asOf": "2026-11-02",
+   "asOf": "2026-11-04",
    "url": "https://coloprice.com/api/history/colo-index.json",
    "format": [
     "date",
@@ -1053,6 +1067,10 @@
      [
       "2026-10-28",
       215
+     ],
+     [
+      "2026-11-04",
+      215
      ]
     ],
     "frankfurt": [
@@ -1062,6 +1080,10 @@
      ],
      [
       "2026-10-28",
+      250
+     ],
+     [
+      "2026-11-04",
       250
      ]
     ],
@@ -1073,6 +1095,10 @@
      [
       "2026-10-28",
       280
+     ],
+     [
+      "2026-11-04",
+      280
      ]
     ],
     "hong-kong": [
@@ -1082,6 +1108,10 @@
      ],
      [
       "2026-10-28",
+      295
+     ],
+     [
+      "2026-11-04",
       295
      ]
     ],
@@ -1093,6 +1123,10 @@
      [
       "2026-10-28",
       188
+     ],
+     [
+      "2026-11-04",
+      188
      ]
     ],
     "queretaro": [
@@ -1102,6 +1136,10 @@
      ],
      [
       "2026-10-28",
+      260
+     ],
+     [
+      "2026-11-04",
       260
      ]
     ],
@@ -1113,6 +1151,10 @@
      [
       "2026-10-28",
       200
+     ],
+     [
+      "2026-11-04",
+      200
      ]
     ],
     "bogota": [
@@ -1122,6 +1164,10 @@
      ],
      [
       "2026-10-28",
+      190
+     ],
+     [
+      "2026-11-04",
       190
      ]
     ],
@@ -1133,11 +1179,19 @@
      [
       "2026-10-28",
       160
+     ],
+     [
+      "2026-11-04",
+      160
      ]
     ],
     "london": [
      [
       "2026-10-28",
+      213
+     ],
+     [
+      "2026-11-04",
       213
      ]
     ],
@@ -1145,11 +1199,19 @@
      [
       "2026-10-28",
       180
+     ],
+     [
+      "2026-11-04",
+      180
      ]
     ],
     "paris": [
      [
       "2026-10-28",
+      190
+     ],
+     [
+      "2026-11-04",
       190
      ]
     ],
@@ -1157,11 +1219,19 @@
      [
       "2026-10-28",
       173
+     ],
+     [
+      "2026-11-04",
+      173
      ]
     ],
     "houston": [
      [
       "2026-10-28",
+      180
+     ],
+     [
+      "2026-11-04",
       180
      ]
     ],
@@ -1169,11 +1239,19 @@
      [
       "2026-10-28",
       213
+     ],
+     [
+      "2026-11-04",
+      213
      ]
     ],
     "phoenix": [
      [
       "2026-10-28",
+      195
+     ],
+     [
+      "2026-11-04",
       195
      ]
     ],
@@ -1181,11 +1259,19 @@
      [
       "2026-10-28",
       193
+     ],
+     [
+      "2026-11-04",
+      193
      ]
     ],
     "silicon-valley": [
      [
       "2026-10-28",
+      238
+     ],
+     [
+      "2026-11-04",
       238
      ]
     ],
@@ -1193,11 +1279,19 @@
      [
       "2026-10-28",
       205
+     ],
+     [
+      "2026-11-04",
+      205
      ]
     ],
     "new-york": [
      [
       "2026-10-28",
+      213
+     ],
+     [
+      "2026-11-04",
       213
      ]
     ]
@@ -1208,7 +1302,7 @@
    "citeAs": "Coloprice pipeline tracker",
    "url": "https://coloprice.com/data/data-center-pipeline.csv",
    "page": "https://coloprice.com/pipeline/",
-   "asOf": "2026-11-04",
+   "asOf": "2026-11-05",
    "note": "Coloprice — Data Center Construction Pipeline · published capacity only · CC BY 4.0 · cite coloprice.com/pipeline/",
    "rows": [
     {
@@ -1701,7 +1795,7 @@
    "citeAs": "Coloprice M&A tracker",
    "url": "https://coloprice.com/data/transactions.csv",
    "page": "https://coloprice.com/transactions/",
-   "asOf": "2026-11-04",
+   "asOf": "2026-11-05",
    "deals": [
     {
      "target": "Aligned Data Centers",
@@ -2332,11 +2426,11 @@
    "url": "https://coloprice.com/data/operator-rankings.json",
    "page": "https://coloprice.com/companies/",
    "license": "CC BY 4.0 — free to use with a visible link to https://coloprice.com",
-   "asOf": "2026-11-03",
+   "asOf": "2026-11-04",
    "method": "Counts of facilities tracked in the Coloprice catalogue per operator (one company = one canonical name; joint ventures counted separately). MW = sum of published capacity only; mwCount = how many of the operator’s sites publish MW.",
    "totals": {
-    "operators": 2293,
-    "facilities": 6114,
+    "operators": 2295,
+    "facilities": 6116,
     "countries": 184
    },
    "global": {
@@ -3136,6 +3230,64 @@
       }
      ]
     },
+    "uk": {
+     "countryName": "United Kingdom",
+     "facilities": 199,
+     "operatorsTotal": 88,
+     "page": "https://coloprice.com/companies/uk/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Pulsant",
+       "slug": "pulsant",
+       "page": "https://coloprice.com/providers/pulsant/",
+       "facilities": 14,
+       "mw": 22,
+       "mwCount": 14,
+       "cities": 10
+      },
+      {
+       "rank": 2,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 13,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 6
+      },
+      {
+       "rank": 3,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 13,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 4,
+       "name": "iomart",
+       "slug": "iomart",
+       "page": "https://coloprice.com/providers/iomart/",
+       "facilities": 8,
+       "mw": 11,
+       "mwCount": 1,
+       "cities": 7
+      },
+      {
+       "rank": 5,
+       "name": "Stellanor",
+       "slug": "stellanor",
+       "page": "https://coloprice.com/providers/stellanor/",
+       "facilities": 8,
+       "mw": 5,
+       "mwCount": 1,
+       "cities": 5
+      }
+     ]
+    },
     "china": {
      "countryName": "China",
      "facilities": 198,
@@ -3191,64 +3343,6 @@
        "mw": 58,
        "mwCount": 2,
        "cities": 6
-      }
-     ]
-    },
-    "uk": {
-     "countryName": "United Kingdom",
-     "facilities": 198,
-     "operatorsTotal": 87,
-     "page": "https://coloprice.com/companies/uk/",
-     "operators": [
-      {
-       "rank": 1,
-       "name": "Pulsant",
-       "slug": "pulsant",
-       "page": "https://coloprice.com/providers/pulsant/",
-       "facilities": 14,
-       "mw": 22,
-       "mwCount": 14,
-       "cities": 10
-      },
-      {
-       "rank": 2,
-       "name": "Digital Realty",
-       "slug": "digital-realty",
-       "page": "https://coloprice.com/providers/digital-realty/",
-       "facilities": 13,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 6
-      },
-      {
-       "rank": 3,
-       "name": "Equinix",
-       "slug": "equinix",
-       "page": "https://coloprice.com/providers/equinix/",
-       "facilities": 13,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 4
-      },
-      {
-       "rank": 4,
-       "name": "iomart",
-       "slug": "iomart",
-       "page": "https://coloprice.com/providers/iomart/",
-       "facilities": 8,
-       "mw": 11,
-       "mwCount": 1,
-       "cities": 7
-      },
-      {
-       "rank": 5,
-       "name": "Stellanor",
-       "slug": "stellanor",
-       "page": "https://coloprice.com/providers/stellanor/",
-       "facilities": 8,
-       "mw": 5,
-       "mwCount": 1,
-       "cities": 5
       }
      ]
     },
@@ -6326,6 +6420,64 @@
       }
      ]
     },
+    "jordan": {
+     "countryName": "Jordan",
+     "facilities": 15,
+     "operatorsTotal": 11,
+     "page": "https://coloprice.com/companies/jordan/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "35D (Aqaba Digital Hub)",
+       "slug": "35d-aqaba-digital-hub",
+       "page": "https://coloprice.com/providers/35d-aqaba-digital-hub/",
+       "facilities": 2,
+       "mw": 6,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "Al Mirnaah for Investment and Business Development",
+       "slug": "al-mirnaah-for-investment-and-business-development",
+       "page": "https://coloprice.com/providers/al-mirnaah-for-investment-and-business-development/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Orange Jordan",
+       "slug": "orange-jordan",
+       "page": "https://coloprice.com/providers/orange-jordan/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Umniah (Beyon)",
+       "slug": "umniah-beyon",
+       "page": "https://coloprice.com/providers/umniah-beyon/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Arab Bank",
+       "slug": "arab-bank",
+       "page": "https://coloprice.com/providers/arab-bank/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
     "uzbekistan": {
      "countryName": "Uzbekistan",
      "facilities": 15,
@@ -6435,64 +6587,6 @@
        "name": "Aztelekom",
        "slug": "aztelekom",
        "page": "https://coloprice.com/providers/aztelekom/",
-       "facilities": 1,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      }
-     ]
-    },
-    "jordan": {
-     "countryName": "Jordan",
-     "facilities": 14,
-     "operatorsTotal": 10,
-     "page": "https://coloprice.com/companies/jordan/",
-     "operators": [
-      {
-       "rank": 1,
-       "name": "35D (Aqaba Digital Hub)",
-       "slug": "35d-aqaba-digital-hub",
-       "page": "https://coloprice.com/providers/35d-aqaba-digital-hub/",
-       "facilities": 2,
-       "mw": 6,
-       "mwCount": 1,
-       "cities": 1
-      },
-      {
-       "rank": 2,
-       "name": "Al Mirnaah for Investment and Business Development",
-       "slug": "al-mirnaah-for-investment-and-business-development",
-       "page": "https://coloprice.com/providers/al-mirnaah-for-investment-and-business-development/",
-       "facilities": 2,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      },
-      {
-       "rank": 3,
-       "name": "Orange Jordan",
-       "slug": "orange-jordan",
-       "page": "https://coloprice.com/providers/orange-jordan/",
-       "facilities": 2,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      },
-      {
-       "rank": 4,
-       "name": "Umniah (Beyon)",
-       "slug": "umniah-beyon",
-       "page": "https://coloprice.com/providers/umniah-beyon/",
-       "facilities": 2,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      },
-      {
-       "rank": 5,
-       "name": "Arab Bank",
-       "slug": "arab-bank",
-       "page": "https://coloprice.com/providers/arab-bank/",
        "facilities": 1,
        "mw": 0,
        "mwCount": 0,
@@ -7014,7 +7108,7 @@
     }
    },
    "facts": [
-    "Catalogue: 2293 operators, 6114 facilities in 184 countries (as of 2026-11-03)",
+    "Catalogue: 2295 operators, 6116 facilities in 184 countries (as of 2026-11-04)",
     "Largest by tracked facilities — #1 Equinix: 269 tracked facilities in 37 countries, 125 MW published (5 of 269 sites publish MW)",
     "Largest by tracked facilities — #2 Digital Realty: 231 tracked facilities in 29 countries, 290 MW published (13 of 231 sites publish MW)",
     "Largest by tracked facilities — #3 NTT Global Data Centers: 80 tracked facilities in 17 countries, 1,506 MW published (62 of 80 sites publish MW)",
@@ -7060,16 +7154,16 @@
     "Indonesia (216 facilities, top 5) — #3 STT GDC Indonesia: 9 tracked facilities in undefined countries, 374 MW published (9 of 9 sites publish MW)",
     "Indonesia (216 facilities, top 5) — #4 DCI Indonesia: 9 tracked facilities in undefined countries, 105 MW published (6 of 9 sites publish MW)",
     "Indonesia (216 facilities, top 5) — #5 Princeton Digital Group: 8 tracked facilities in undefined countries, 456 MW published (3 of 8 sites publish MW)",
+    "United Kingdom (199 facilities, top 5) — #1 Pulsant: 14 tracked facilities in undefined countries, 22 MW published (14 of 14 sites publish MW)",
+    "United Kingdom (199 facilities, top 5) — #2 Digital Realty: 13 tracked facilities in undefined countries",
+    "United Kingdom (199 facilities, top 5) — #3 Equinix: 13 tracked facilities in undefined countries",
+    "United Kingdom (199 facilities, top 5) — #4 iomart: 8 tracked facilities in undefined countries, 11 MW published (1 of 8 sites publish MW)",
+    "United Kingdom (199 facilities, top 5) — #5 Stellanor: 8 tracked facilities in undefined countries, 5 MW published (1 of 8 sites publish MW)",
     "China (198 facilities, top 5) — #1 China Telecom: 39 tracked facilities in undefined countries",
     "China (198 facilities, top 5) — #2 GDS Holdings: 17 tracked facilities in undefined countries",
     "China (198 facilities, top 5) — #3 VNET Group: 13 tracked facilities in undefined countries",
     "China (198 facilities, top 5) — #4 Tencent Cloud: 9 tracked facilities in undefined countries",
     "China (198 facilities, top 5) — #5 Chindata Group: 8 tracked facilities in undefined countries, 58 MW published (2 of 8 sites publish MW)",
-    "United Kingdom (198 facilities, top 5) — #1 Pulsant: 14 tracked facilities in undefined countries, 22 MW published (14 of 14 sites publish MW)",
-    "United Kingdom (198 facilities, top 5) — #2 Digital Realty: 13 tracked facilities in undefined countries",
-    "United Kingdom (198 facilities, top 5) — #3 Equinix: 13 tracked facilities in undefined countries",
-    "United Kingdom (198 facilities, top 5) — #4 iomart: 8 tracked facilities in undefined countries, 11 MW published (1 of 8 sites publish MW)",
-    "United Kingdom (198 facilities, top 5) — #5 Stellanor: 8 tracked facilities in undefined countries, 5 MW published (1 of 8 sites publish MW)",
     "France (187 facilities, top 5) — #1 Digital Realty: 18 tracked facilities in undefined countries",
     "France (187 facilities, top 5) — #2 Cogent Communications: 16 tracked facilities in undefined countries",
     "France (187 facilities, top 5) — #3 ETIX Everywhere: 15 tracked facilities in undefined countries, 17 MW published (13 of 15 sites publish MW)",
@@ -7335,6 +7429,11 @@
     "Iraq (15 facilities, top 5) — #3 T964: 1 tracked facilities in undefined countries, 12 MW published (1 of 1 sites publish MW)",
     "Iraq (15 facilities, top 5) — #4 Earthlink Telecommunications: 1 tracked facilities in undefined countries",
     "Iraq (15 facilities, top 5) — #5 GSL Telecom (Golden Sky Links): 1 tracked facilities in undefined countries",
+    "Jordan (15 facilities, top 5) — #1 35D (Aqaba Digital Hub): 2 tracked facilities in undefined countries, 6 MW published (1 of 2 sites publish MW)",
+    "Jordan (15 facilities, top 5) — #2 Al Mirnaah for Investment and Business Development: 2 tracked facilities in undefined countries",
+    "Jordan (15 facilities, top 5) — #3 Orange Jordan: 2 tracked facilities in undefined countries",
+    "Jordan (15 facilities, top 5) — #4 Umniah (Beyon): 2 tracked facilities in undefined countries",
+    "Jordan (15 facilities, top 5) — #5 Arab Bank: 1 tracked facilities in undefined countries",
     "Uzbekistan (15 facilities, top 5) — #1 Uzbektelecom (UzCloud): 4 tracked facilities in undefined countries, 5 MW published (4 of 4 sites publish MW)",
     "Uzbekistan (15 facilities, top 5) — #2 Equinox: 2 tracked facilities in undefined countries",
     "Uzbekistan (15 facilities, top 5) — #3 DataVolt: 1 tracked facilities in undefined countries, 12 MW published (1 of 1 sites publish MW)",
@@ -7345,11 +7444,6 @@
     "Azerbaijan (14 facilities, top 5) — #3 PASHA Technology LLC (PASHA Holding): 2 tracked facilities in undefined countries",
     "Azerbaijan (14 facilities, top 5) — #4 Azerfon: 1 tracked facilities in undefined countries",
     "Azerbaijan (14 facilities, top 5) — #5 Aztelekom: 1 tracked facilities in undefined countries",
-    "Jordan (14 facilities, top 5) — #1 35D (Aqaba Digital Hub): 2 tracked facilities in undefined countries, 6 MW published (1 of 2 sites publish MW)",
-    "Jordan (14 facilities, top 5) — #2 Al Mirnaah for Investment and Business Development: 2 tracked facilities in undefined countries",
-    "Jordan (14 facilities, top 5) — #3 Orange Jordan: 2 tracked facilities in undefined countries",
-    "Jordan (14 facilities, top 5) — #4 Umniah (Beyon): 2 tracked facilities in undefined countries",
-    "Jordan (14 facilities, top 5) — #5 Arab Bank: 1 tracked facilities in undefined countries",
     "Panama (14 facilities, top 5) — #1 Tigo Panamá (Millicom): 3 tracked facilities in undefined countries",
     "Panama (14 facilities, top 5) — #2 UFINET: 3 tracked facilities in undefined countries",
     "Panama (14 facilities, top 5) — #3 KIO Networks: 2 tracked facilities in undefined countries, 10 MW published (1 of 2 sites publish MW)",

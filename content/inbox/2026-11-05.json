@@ -1,0 +1,382 @@
+{
+  "generated": "2026-11-05T09:39:11.079Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 1
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 5
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 7
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 4
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 5
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 7
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 4
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 87,
+      "kept": 2
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 0
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 2
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 1
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 8
+    }
+  ],
+  "items": [
+    {
+      "id": "ba054773bb4b",
+      "title": "AEP, Google Advance $4 Billion Fuel-Cell Project to Power Cheyenne Data Centers",
+      "url": "https://www.datacenterfrontier.com/energy/article/55413102/aep-google-advance-4-billion-fuel-cell-project-to-power-cheyenne-data-centers",
+      "date": "2026-11-04T18:29:06.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "AEP's planned 702 MW Bloom Energy installation highlights an emerging model for hyperscale power procurement, as Google's Cheyenne expansion brings together fuel cells, natural gas generation, carbon-capture ambitions, and private microgrid infrastructure.",
+      "figures": [
+        "$4 Billion",
+        "702 MW"
+      ],
+      "score": 12
+    },
+    {
+      "id": "f055be551472",
+      "title": "The Cooling Questions AI Tenants Should Ask Before Signing a Colocation Lease",
+      "url": "https://datacenterpost.com/the-cooling-questions-ai-tenants-should-ask-before-signing-a-colocation-lease",
+      "date": "2026-11-04T19:30:44.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Confirm exact liquid cooling specifications, hardware compatibility, and responsibility boundaries before signing a lease, rather than relying on general building claims. Require a written handover package containing verified commissioning and safe testing results before connecting production hardware. Establish clear operating arrangements for routine server replacements, fluid additions, and maintenance checks to prevent ownership disputes. […] The post The Cooling Questions AI Tenants Should Ask Before Signing a Colocation Lease appeared first on Data Center POST .",
+      "figures": [],
+      "score": 11
+    },
+    {
+      "id": "d656c321b6a8",
+      "title": "Google to invest US$15 billion in data centers in Malaysia from 2027-28",
+      "url": "https://w.media/google-to-invest-us15-billion-in-data-centers-in-malaysia-from-2027-28",
+      "date": "2026-11-04T23:05:58.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Tech giant Google will invest US$15 billion in Malaysia from 2027 to 2028 to build data center campuses in the states of Selangor and Negeri Sembilan, in addition to providing clean energy and water security, and upskilling of workers, the unit of Alphabet said yesterday. “This investment aligns with Malaysia’s development priorities, providing the foundational computing capacity to deliver the […]",
+      "figures": [
+        "$15 billion"
+      ],
+      "score": 9
+    },
+    {
+      "id": "b82f906bcf07",
+      "title": "Pure DC secures US$ 780 million growth facility for development in Europe and the Middle East",
+      "url": "https://w.media/pure-dc-secures-us-780-million-growth-facility-for-development-in-europe-and-the-middle-east",
+      "date": "2026-11-05T03:44:50.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Pure Data Centres Group (Pure DC), a hyperscale data center developer and operator, has secured a US$ 780 million financing facility, with an option to increase it by a further US$ 1.1 billion, as it seeks to expand its data center operations across Europe and the Middle East. The Platform Growth Facility brings together three […]",
+      "figures": [
+        "$ 780 million",
+        "$ 1.1 billion"
+      ],
+      "score": 8
+    },
+    {
+      "id": "0b8ef6aa8776",
+      "title": "Goodman and Digital Realty move on NextDC after M3 power delay",
+      "url": "https://w.media/goodman-and-digital-realty-move-on-nextdc-after-m3-power-delay",
+      "date": "2026-11-05T00:28:20.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Australia’s Goodman Group and Digital Realty have moved to build a stake in Australian data centre operator NextDC, seeking to acquire up to 9.9 per cent of the company as power constraints and development challenges reshape the sector. The two companies used a jointly owned investment vehicle, Ackland Investments No.1 Trust, to run an after-market […]",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "db66bc0ea49d",
+      "title": "Modular AI Data Centers Gain Ground as Crusoe Debuts Unit",
+      "url": "https://www.datacenterknowledge.com/modular-data-centers/modular-ai-data-centers-gain-ground-as-crusoe-debuts-unit",
+      "date": "2026-11-04T19:47:30.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Crusoe's 3.5 MW Spark Liquid unit highlights how factory-built, modular data centers are becoming a faster path to AI capacity at scale.",
+      "figures": [
+        "3.5 MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "34b1b8a1b055",
+      "title": "A Scalable Strategy for Power‑Constrained Regions",
+      "url": "https://datacenterpost.com/a-scalable-strategy-for-power-constrained-regions",
+      "date": "2026-11-04T18:30:48.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Increasing electrification and growing demand for advanced computing across the Northeast are creating severe electrical infrastructure limits and long utility interconnection queues. Combining modular facilities with hybrid microgrids, solar generation, and battery storage reduces initial reliance on single large utility interconnections while supporting regional sustainability goals. Adopting scalable modular infrastructure helps retain research, life […] The post A Scalable Strategy for Power‑Constrained Regions appeared first on Data Center POST .",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "085270b7d5f6",
+      "title": "Fibre makers slide 9% as US midterms rattle Tokyo’s AI supply chain",
+      "url": "https://capacityglobal.com/news/fibre-makers-slide-as-us-midterms-rattle-tokyo-ai-supply-chain",
+      "date": "2026-11-04T11:43:49.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Fujikura and Furukawa Electric were caught in a sell-off of Japan's AI infrastructure suppliers as investors priced in a Democratic Congress less friendly to the data centre buildout. The post Fibre makers slide 9% as US midterms rattle Tokyo’s AI supply chain appeared first on Capacity .",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "f0c74283fd2c",
+      "title": "Drax partners with Brookfield on £20bn-plus AI data centre plans",
+      "url": "https://datacentrereview.com/2026/11/drax-partners-with-brookfield-on-20bn-plus-ai-data-centre-plans",
+      "date": "2026-11-04T10:55:27.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "Drax is pushing forward with its plans to develop a data centre campus at its North Yorkshire power station, partnering with Brookfield.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "32a8b8943328",
+      "title": "Datacenter operators must win hearts and minds, not just permits",
+      "url": "https://www.theregister.com/on-prem/2026/11/04/datacenter-operators-must-win-hearts-and-minds-not-just-permits/5306895",
+      "date": "2026-11-04T09:30:00.000Z",
+      "publisher": "The Register (On-Prem)",
+      "feed": "register",
+      "kind": "general",
+      "summary": "Schneider sees no slowdown despite backlash, but says communities deserve answers on power, water, and noise",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "6a231c65e4bb",
+      "title": "Fluor and TeraWulf sign EPC contract for three data center buildings in Kentucky",
+      "url": "https://w.media/fluor-and-terawulf-signs-epc-contract-for-three-data-center-buildings-in-kentucky",
+      "date": "2026-11-05T05:29:28.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Fluor Corporation (Fluor), a civil engineering company, has signed an engineering, procurement and construction (EPC) contract with TeraWulf, an American bitcoin mining company, to build three data center buildings at the Justified Data Campus in Hawesville, Kentucky. According to a press release, Fluor will be responsible for cost overruns up to a specified percentage of […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "84e78826c71a",
+      "title": "atNorth signs deal with Calentix for heat reuse at SWE04 data center in Sollefteå, Sweden",
+      "url": "https://www.datacenterdynamics.com/en/news/atnorth-signs-deal-with-calentix-for-heat-reuse-at-swe04-data-center-in-sollefte%C3%A5-sweden",
+      "date": "2026-11-04T21:30:35.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "First delivery of heat expected in 2029",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "2d8064e54a64",
+      "title": "Where Success Meets Significance: ESI’s Alexander Marcus Joins the Kingdom Impact Summit",
+      "url": "https://datacenterpost.com/where-success-meets-significance-esis-alexander-marcus-joins-the-kingdom-impact-summit",
+      "date": "2026-11-04T19:00:43.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Alexander Marcus, CEO and president of ESI Total Fuel Management, will speak at the free online Kingdom Impact Summit, Nov. 16-20. IBAM, led by founder and president Steve Adams, hosts the summit. It brings together more than 30 leaders from business, ministry, missions, generosity, and sports. Marcus’ Nov. 20 session is “From Success to […] The post Where Success Meets Significance: ESI’s Alexander Marcus Joins the Kingdom Impact Summit appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "3448a85e8bf7",
+      "title": "What Are Solar Satellite Interferences?",
+      "url": "https://datacenterpost.com/what-are-solar-satellite-interferences",
+      "date": "2026-11-04T18:00:22.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Sun outages occur when solar radiation overwhelms satellite signals passing directly in front of the sun, causing temporary broadcast disruptions. Fiber TV users experience outages because national networks broadcast content via satellite before distributing it across local fiber systems. Outages stem strictly from solar positioning, meaning no technical solutions exist to prevent them. Empire […] The post What Are Solar Satellite Interferences? appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "8732ee79d19d",
+      "title": "Heartland Oil plans 7MW Bitcoin mine at Saskatchewan gas plant in Canada",
+      "url": "https://www.datacenterdynamics.com/en/news/heartland-oil-plans-7mw-bitcoin-mine-at-saskatchewan-gas-plant-in-canada",
+      "date": "2026-11-04T17:28:43.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Will use gas from company's oil wells",
+      "figures": [
+        "7MW"
+      ],
+      "score": 4
+    },
+    {
+      "id": "d56186870064",
+      "title": "DCD Studio: Overcoming supply chain challenges, with Gaby Carrasco, DCD",
+      "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-overcoming-supply-chain-challenges-with-gaby-carrascom-dcd",
+      "date": "2026-11-04T17:07:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Seb Moss speaks with DCD's Gabriela Carrasco about energy constraints, geopolitical pressures, supply chain risks, and the technical specialization required to navigate complex global data center hurdles.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "8d901842ee15",
+      "title": "AWS announces AWS Interconnect - last mile preview with Equinix",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/interconnect-last-mile-preview-equinix",
+      "date": "2026-11-04T17:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "AWS Interconnect - last mile is now available in preview with Equinix. You can connect your infrastructure across Equinix's global network of 282 data centers worldwide to AWS in a few clicks. Interconnect - last mile gives you managed, private, and resilient connections to AWS, so you don't have to order cross-connects or configure routers. To set up in the AWS Management Console, choose an AWS Region, a bandwidth speed, a Direct Connect gateway, and your Equinix Fabric One project ID. AWS generates an activation key, which you enter in the Equinix Fabric One portal to complete the setup. You",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "14697e21cfcb",
+      "title": "Local data center moratoria, limits, and restrictions voted in across the US",
+      "url": "https://www.datacenterdynamics.com/en/news/local-data-center-moratoria-limits-and-restrictions-voted-in-across-the-us",
+      "date": "2026-11-04T16:25:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Most anti-data center measures pass, with Ohio leading the charge",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "16905be5e316",
+      "title": "Nvidia tells data center partners to cut China exposure, limits RTX chip sales to mainland",
+      "url": "https://www.datacenterdynamics.com/en/news/nvidia-tells-data-center-partners-to-cut-china-exposure-limits-rtx-chip-sales-to-mainland",
+      "date": "2026-11-04T16:11:51.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "As both the US and China look to decouple",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "58a03b6dc5b8",
+      "title": "NBC exit poll: 56% say AI data centers were a crucial or major factor in Congressional vote decision",
+      "url": "https://www.datacenterdynamics.com/en/news/nbc-exit-poll-56-say-ai-data-centers-were-a-crucial-or-major-factor-in-congressional-vote-decision",
+      "date": "2026-11-04T16:09:58.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "87 percent called it a factor overall, with heavy weighting towards Democrats",
+      "figures": [
+        "87 percent"
+      ],
+      "score": 4
+    },
+    {
+      "id": "998ff01b393f",
+      "title": "OpenAI to rebrand its data centers as compute campuses as part of broader policy and PR push",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-to-rebrand-its-data-centers-as-compute-campuses-as-part-of-broader-policy-and-pr-push",
+      "date": "2026-11-04T14:00:33.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "As US midterms are dominated by anti-data center movement",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "eb3c7da5fb12",
+      "title": "33 data centre curbs pass as US midterms turn the AI buildout into a political liability",
+      "url": "https://capacityglobal.com/news/33-data-centre-curbs-pass-as-us-midterms-turn-the-ai-buildout-into-a-political-liability",
+      "date": "2026-11-04T11:03:38.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Local bans, a governor's race won on a construction pause and an exit poll putting data centres among voters' top concerns. The post 33 data centre curbs pass as US midterms turn the AI buildout into a political liability appeared first on Capacity .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "2952c7fdad15",
+      "title": "Russia desperate to stay online as data centers move underground and abroad",
+      "url": "https://w.media/russia-desperate-to-stay-online-as-data-centers-move-underground-and-abroad",
+      "date": "2026-11-04T11:03:15.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Russia is looking for innovative solutions to keep its digital infrastructure functioning amidst the ongoing war with Ukraine in wake of attacks targeting data centers. Rostelecom, a Russian telecommunication company, and Norilsk Nickel, a Russian nickel and palladium mining company, have reportedly started negotiations to build and operate data center facilities underground in order to […]",
+      "figures": [],
+      "score": 4
+    }
+  ]
+}
