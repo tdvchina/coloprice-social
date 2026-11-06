@@ -1,0 +1,436 @@
+{
+  "generated": "2026-11-06T09:32:01.786Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 2
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 5
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 11
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 4
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 6
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 9
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 5
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 88,
+      "kept": 1
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 2
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 2
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 1
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 6
+    }
+  ],
+  "items": [
+    {
+      "id": "5e1a9764991d",
+      "title": "Thai AI data center secures US$ 590 million loan to fund construction",
+      "url": "https://w.media/thai-ai-data-center-secures-us-590-million-loan-to-fund-construction",
+      "date": "2026-11-06T05:28:56.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Hong Kong-listed hyperscale data center developer and operator Zhi Sheng Group Holdings Limited today announced that a member of its target acquisition group, Haoyang Data Centre 1 (Thailand) Limited (“HYDC1”), has secured a seven-year US$590 million loan from a Thai bank to fund the construction of its hyperscale AI data center in Thailand’s Eastern Economic Corridor. HYDC1 […]",
+      "figures": [
+        "$ 590 million",
+        "$590 million"
+      ],
+      "score": 10
+    },
+    {
+      "id": "22651fee2657",
+      "title": "AWS Interconnect - last mile announces new metro in Northern Virginia, USA",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/interconnect-last-mile-northern-virginia",
+      "date": "2026-11-05T21:30:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Today, AWS announced a new AWS Interconnect - last mile metro in Northern Virginia, USA. Northern Virginia joins New York as the second metro where you can connect your data center, branch office, or colocation facility to AWS. AWS Interconnect - last mile gives you managed, private, resilient connections to AWS, so you don't have to order cross-connects or configure routers. Every connection is provisioned by default across two physically diverse locations with four redundant links, providing maximum resilience out of the box and backed by a 99.99% availability SLA up to the Direct Connect po",
+      "figures": [],
+      "score": 10
+    },
+    {
+      "id": "abe18c644498",
+      "title": "Malaysia’s data centre ceiling: can it absorb Google’s $15bn?",
+      "url": "https://capacityglobal.com/news/malaysias-data-centre-ceiling",
+      "date": "2026-11-05T12:33:36.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Google's latest pledge arrives as Malaysia tightens approvals on power and water and its main hub, Johor, runs out of space. The post Malaysia’s data centre ceiling: can it absorb Google’s $15bn? appeared first on Capacity .",
+      "figures": [
+        "$15bn"
+      ],
+      "score": 10
+    },
+    {
+      "id": "a9e3c1d84238",
+      "title": "Sunway Construction clinches US$ 657 million data center jobs in Selangor and Johor",
+      "url": "https://w.media/sunway-construction-clinches-us-657-million-data-center-jobs-in-selangor-and-johor",
+      "date": "2026-11-06T03:10:24.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Malaysian construction giant Sunway Construction Group Bhd has secured a RM1.74 billion (US$430 million) contract from an unnamed international hyperscaler to build a data center in Bandar Serendah, Selangor, the firm announced in an exchange filing yesterday. The scope covers structural construction, supporting infrastructure and mechanical, electrical and plumbing works, with construction scheduled to begin in Q4 […]",
+      "figures": [
+        "$ 657 million",
+        "74 billion",
+        "$430 million"
+      ],
+      "score": 9
+    },
+    {
+      "id": "56e226ae8d39",
+      "title": "Why latency is making colocation a strategic decision",
+      "url": "https://datacentrereview.com/2026/11/why-latency-is-making-colocation-a-strategic-decision",
+      "date": "2026-11-06T08:00:00.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "Waypoint Trading Solutions' Jeff Mezger explores why colocation providers must look beyond power and space to meet the demands of financial markets.",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "515eded39e7c",
+      "title": "The Cost Of Kicking Your Cloud Renewal Down The Road",
+      "url": "https://datacenterpost.com/the-cost-of-kicking-your-cloud-renewal-down-the-road",
+      "date": "2026-11-05T14:00:46.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Organization leaders face steep cloud licensing increases following Broadcom’s acquisition of VMware. Accepting price hikes or delaying decisions leaves companies without control over their budgets or cloud platforms. Small to mid-sized organizations with modest workloads can execute a platform migration in months rather than years with proper planning. # # # Cloud licensing costs […] The post The Cost Of Kicking Your Cloud Renewal Down The Road appeared first on Data Center POST .",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "c4e2034c914a",
+      "title": "UK renewable firm Downing expands into data center market with 500MW pipeline",
+      "url": "https://www.datacenterdynamics.com/en/news/uk-renewable-firm-downing-expands-into-data-center-market-with-500mw-pipeline",
+      "date": "2026-11-05T12:00:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Projects located in central Sweden and southern Finland",
+      "figures": [
+        "500MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "cf210e8d9a26",
+      "title": "Pure DC secures $780m to fund data centre expansion across Europe, Middle East",
+      "url": "https://datacentrereview.com/2026/11/pure-dc-secures-780m-to-fund-data-centre-expansion-across-europe-middle-east",
+      "date": "2026-11-05T10:50:00.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "The financing facility could expand to $1.9 billion, supporting Pure DC's strategy of acquiring sites with secured electricity capacity.",
+      "figures": [
+        "$780m",
+        "$1.9 billion"
+      ],
+      "score": 8
+    },
+    {
+      "id": "d3e15dc9223a",
+      "title": "Google to serve as credit backstop for TeraWulf data center in Kentucky",
+      "url": "https://www.datacenterdynamics.com/en/news/google-to-serve-as-credit-backstop-for-terawulf-data-center-in-kentucky",
+      "date": "2026-11-05T17:30:45.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Data center is contracted to Anthropic under $19bn deal",
+      "figures": [
+        "$19bn"
+      ],
+      "score": 7
+    },
+    {
+      "id": "cc2edc384159",
+      "title": "Five Questions to Ask Before Onboarding an AI Tool",
+      "url": "https://datacenterpost.com/five-questions-to-ask-before-onboarding-an-ai-tool",
+      "date": "2026-11-05T13:00:50.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Enterprise AI procurement should move beyond headline model capabilities to evaluate how the underlying architecture aligns with specific operational workloads. Security teams need to trace prompt and document data paths, inspect subcontractor access, and evaluate on-premises or private cloud placement to ensure regulatory compliance. Organizations must confirm how vendors manage model updates, pricing adjustments, […] The post Five Questions to Ask Before Onboarding an AI Tool appeared first on Data Center POST .",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "63afb806f189",
+      "title": "Lambda to develop four-building data center campus in Lowndes County, Alabama",
+      "url": "https://www.datacenterdynamics.com/en/news/lambda-to-develop-four-building-data-center-campus-in-lowndes-county-alabama",
+      "date": "2026-11-05T12:46:33.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company says it will invest $33.1bn in the state",
+      "figures": [
+        "$33.1bn"
+      ],
+      "score": 7
+    },
+    {
+      "id": "9483c28765a3",
+      "title": "Brazil earmarks US$ 68 million in leftover 5G auction funds for sovereign AI data center",
+      "url": "https://w.media/brazil-earmarks-us-68-million-in-leftover-5g-auction-funds-for-sovereign-ai-data-center",
+      "date": "2026-11-05T11:56:43.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "The board of directors of the National Telecommunications Agency (Anatel) in Brazil has endorsed two proposals previously approved by the Group for Monitoring the Implementation of Solutions to Interference Problems in the 3.5 GHz Band (Gaispi), to allocate funds left over from a 5G auction for the development of a data center and another project. […]",
+      "figures": [
+        "$ 68 million"
+      ],
+      "score": 7
+    },
+    {
+      "id": "e681a202c3ac",
+      "title": "Key STT GDC India shareholders bring in advisors for stake sale: Report",
+      "url": "https://w.media/key-stt-gdc-india-shareholders-bring-in-advisors-for-stake-sale-report",
+      "date": "2026-11-05T09:45:56.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "KKR, a US investment firm, Singtel, a Singaporean telecommunications and technology firm, and Tata Communications, an Indian telecommunications firm, are reportedly initiating plans to sell their stakes in STT Global Data Centres India Private Ltd (STT GDC India), of which the trio are key shareholders, in a bid to rebalance their capital and unlock value. […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "d34d50c2c556",
+      "title": "Caterpillar seeking to expand production of large reciprocating engines and turbines to meet huge data center demand",
+      "url": "https://www.datacenterdynamics.com/en/news/caterpillar-seeking-to-expand-production-of-large-reciprocating-engines-and-turbines-to-meet-huge-data-center-demand",
+      "date": "2026-11-05T13:00:43.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Reported a huge increase in sales within its power and energy division",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "ae9e843de26b",
+      "title": "DCD Studio: Accelerating AI infrastructure deployment, with Dan Golding, ASG",
+      "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-accelerating-ai-infrastructure-deployment-with-dan-golding-asg",
+      "date": "2026-11-05T12:27:54.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "James Raddings speaks with Dan Golding of ASG about vetting legitimate data center projects, AI-driven fiber demand, supply chain hurdles, power versus location dynamics, and community engagement.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "05f2870615ef",
+      "title": "Renewable Innovations joins US DOE lab project on fuel cell power for AI data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/renewable-innovations-joins-us-doe-lab-project-on-fuel-cell-power-for-ai-data-centers",
+      "date": "2026-11-05T12:14:41.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Will include a field demonstration at the Sky Data Centers site in Santa Rosa, California",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "1a257ade5f65",
+      "title": "ABB teams up with Korean shipbuilder Hanwha on power and control systems for offshore data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/abb-teams-up-with-korean-shipbuilder-hanwha-on-power-and-control-systems-for-offshore-data-centers",
+      "date": "2026-11-05T12:02:09.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Firms set sail with non-binding MoU",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "9c1262f126eb",
+      "title": "AI Data Centers Are Fueling a Nuclear Comeback",
+      "url": "https://www.datacenterknowledge.com/energy-power-supply/ai-data-centers-are-fueling-a-nuclear-comeback",
+      "date": "2026-11-05T10:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "AI data center demand is reviving nuclear energy, but whether SMRs, plant restarts, and fusion can deliver enough power quickly remains uncertain.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "f46e5a6b9e53",
+      "title": "atNorth partners with Calentix to develop data center heat recovery project in Sweden",
+      "url": "https://w.media/atnorth-partners-with-calentix-to-develop-data-center-heat-recovery-project-in-sweden",
+      "date": "2026-11-06T03:50:59.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "atNorth, a Nordic data center company, and Calentix, a Swedish energy infrastructure company, have signed a Project Development Agreement to develop a heat recovery project at its SWE04 data center in Sollefteå, Sweden, with the aim of supplying surplus heat to the nearby Långsele district heating network. Under the agreement, Calentix will lead the project’s […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "3a50f2bc33e5",
+      "title": "Bank of England queries speculative data center loans tied to projects without tenants",
+      "url": "https://www.datacenterdynamics.com/en/news/bank-of-england-queries-speculative-data-center-loans-tied-to-projects-without-tenants",
+      "date": "2026-11-05T17:02:02.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Tries to understand the scale of risk in the sector",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "eb37155ef5bf",
+      "title": "DCF Poll: Does the Data Center Industry Need a Political Reset?",
+      "url": "https://www.datacenterfrontier.com/press-releases/article/55416959/dcf-poll-does-the-data-center-industry-need-a-political-reset",
+      "date": "2026-11-05T16:35:45.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "After Democrats' sweeping midterm victories, the AI infrastructure buildout faces a changing political landscape. What should the industry do next?",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "af9fea605be2",
+      "title": "Microsoft declined option for expanded compute contract in Texas with Nscale",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-declined-option-for-expanded-compute-contract-in-texas-with-nscale",
+      "date": "2026-11-05T15:29:27.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company was offered capacity at Nscale-owned site adjacent to its up-and-running Ionic Digital data center",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "736e6320226f",
+      "title": "365 Data Centers Joins Surfrider Foundation Beach Cleanup",
+      "url": "https://datacenterpost.com/365-data-centers-joins-surfrider-foundation-beach-cleanup",
+      "date": "2026-11-05T14:30:38.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR 365 Data Centers team members joined a Surfrider Foundation beach cleanup in New Jersey and logged the types and amounts of trash they found. That data helps identify pollution trends and supports efforts to cut single-use plastics. The same measure-first approach applies to infrastructure sustainability. # # # Recently, 365 Data Centers team members […] The post 365 Data Centers Joins Surfrider Foundation Beach Cleanup appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "c45db751d5c6",
+      "title": "OpenAI promises to drop NDAs and increase community transparency, following anti-data center wave",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-promises-to-drop-ndas-and-increase-community-transparency-following-anti-data-center-wave",
+      "date": "2026-11-05T13:03:45.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Publishes Compute Campus Policy and National Community Compact",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "d02dcd61cd70",
+      "title": "More than half of US hyperscale data center projects face 'regulatory friction' after 2026 midterm elections - report",
+      "url": "https://www.datacenterdynamics.com/en/news/more-than-half-of-us-hyperscale-data-center-projects-face-regulatory-friction-after-2026-midterm-elections-report",
+      "date": "2026-11-05T12:47:05.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "National moratorium remains a low-probability scenario, analyst report says",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "7eab5dddcfa7",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents",
+      "date": "2026-11-05T20:00:41.000Z",
+      "publisher": "NVIDIA Newsroom",
+      "feed": "nvidia",
+      "kind": "press",
+      "summary": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those […]",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "3df4d68063a5",
+      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign",
+      "date": "2026-11-05T16:00:00.000Z",
+      "publisher": "NVIDIA Newsroom",
+      "feed": "nvidia",
+      "kind": "press",
+      "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack. […]",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}

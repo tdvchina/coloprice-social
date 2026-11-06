@@ -1,0 +1,116 @@
+{
+  "slug": "deal-sheet-thai-pure-dc-2026-11-06",
+  "theme": "dark",
+  "format": "deal-sheet",
+  "status": "ready",
+  "created": "2026-11-06",
+  "publishBy": "2026-11-13",
+  "topic": "Deal Sheet: два финансирования за сутки — Pure DC $780M и тайский кампус $590M",
+  "sources": [
+    {
+      "id": "wm-thai",
+      "publisher": "W.Media",
+      "title": "Thai AI data center secures US$ 590 million loan to fund construction",
+      "url": "https://w.media/thai-ai-data-center-secures-us-590-million-loan-to-fund-construction",
+      "date": "2026-11-06",
+      "facts": [
+        "Haoyang Data Centre 1 (Thailand) Limited (HYDC1), a member of the target acquisition group of Hong Kong-listed Zhi Sheng Group Holdings, secured a seven-year US$590 million loan from a Thai bank",
+        "Funds construction of a hyperscale AI data center in Thailand's Eastern Economic Corridor",
+        "In July 2026 HYDC1 signed a 10-year colocation agreement with a leading internet company worth about US$1.6 billion excluding electricity charges",
+        "The contract is roughly one-third of expected total rental revenue at full completion",
+        "Phased delivery in 2027; capacity in MW not stated"
+      ]
+    },
+    {
+      "id": "dcr-pure",
+      "publisher": "Data Centre Review",
+      "title": "Pure DC secures $780m to fund data centre expansion across Europe, Middle East",
+      "url": "https://datacentrereview.com/2026/11/pure-dc-secures-780m-to-fund-data-centre-expansion-across-europe-middle-east",
+      "date": "2026-11-05",
+      "facts": [
+        "Pure DC secured a $780 million Platform Growth Facility with an option to raise borrowing by a further $1.1 billion, for a potential total of about $1.9 billion",
+        "New lenders: Citigroup Global Markets, First Abu Dhabi Bank, Infranity; existing lenders: ABN AMRO, Allianz Global Investors, SMBC",
+        "Supports the wider pipeline (site acquisitions, new projects) rather than a single campus, across Europe and the Middle East",
+        "Pure DC prioritises locations where sufficient electricity capacity can be secured",
+        "Pure DC says it has arranged more than $6.2 billion in financing over the past 12 months",
+        "Seinäjoki, Finland: phase one 110MW of IT capacity, fully leased"
+      ]
+    }
+  ],
+  "dataHooks": [
+    {
+      "id": "pipeline",
+      "dataset": "Coloprice pipeline tracker",
+      "url": "https://coloprice.com/data/data-center-pipeline.csv",
+      "asOf": "2026-11-06",
+      "facts": [
+        "MW under construction (published capacity only): Finland 850; Thailand 715; United Arab Emirates 430",
+        "MW announced: Thailand 1326",
+        "Projects tracked: Thailand 27"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "compare",
+      "kicker": "Deal Sheet",
+      "headline": "Two data center deals in two days",
+      "items": [
+        { "label": "Pure DC · Europe/ME", "value": "$780M", "note": "up to $1.9B with option", "highlight": true },
+        { "label": "HYDC1 · Thailand", "value": "$590M", "note": "seven-year bank loan" }
+      ],
+      "refs": ["dcr-pure", "wm-thai"]
+    },
+    {
+      "type": "list",
+      "title": "The deal sheet",
+      "unit": "USD · newest first",
+      "rows": [
+        { "label": "HYDC1 · Thailand EEC", "value": "$590M", "note": "6 Nov · seven-year, Thai bank" },
+        { "label": "Pure DC · platform facility", "value": "$780M", "note": "5 Nov · option to ~$1.9B", "highlight": true }
+      ],
+      "footnote": "Amounts as reported; no MW disclosed for the Thai site.",
+      "refs": ["wm-thai", "dcr-pure"]
+    },
+    {
+      "type": "stat",
+      "label": "Pure DC · option",
+      "value": "$1.1B",
+      "unit": "extra borrowing on top of the $780M",
+      "context": "A corporate-level facility, not tied to one campus. Three new lenders joined three existing ones. Pure DC targets sites where electricity capacity can be secured.",
+      "refs": ["dcr-pure"]
+    },
+    {
+      "type": "stat",
+      "label": "HYDC1 · anchor contract",
+      "value": "$1.6B",
+      "unit": "10-year colocation deal, ex-electricity",
+      "context": "Signed July 2026 with a leading internet company. Reported as roughly one-third of expected rental revenue at full build-out. Delivery is phased in 2027.",
+      "accent": false,
+      "refs": ["wm-thai"]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "Pipeline context: MW under construction",
+      "unit": "MW · published capacity only",
+      "data": [
+        { "label": "Finland", "value": 850 },
+        { "label": "Thailand", "value": 715 },
+        { "label": "UAE", "value": 430 }
+      ],
+      "highlight": "Thailand",
+      "valueFormat": { "suffix": " MW" },
+      "caption": "Thailand also lists 1326 MW announced across 27 tracked projects.",
+      "refs": ["pipeline"]
+    },
+    {
+      "type": "closing",
+      "text": "Two financings, one theme: capacity with power attached. Full tables and sources at coloprice.com.",
+      "cta": "Follow @coloprice"
+    }
+  ],
+  "caption": "$780M and $590M: two data center financings in two days.\n\nPure DC (Oaktree-backed) secured a $780 million platform facility with an option to reach about $1.9 billion, backed by new and existing lenders and aimed at sites with secured power across Europe and the Middle East.\n\nIn Thailand, HYDC1 raised a seven-year $590 million bank loan for a hyperscale AI campus in the Eastern Economic Corridor, with a roughly $1.6 billion 10-year colocation contract already signed. Thailand has 715 MW under construction in our pipeline tracker.\n\nData: Coloprice pipeline tracker, 6 Nov 2026. Sources: W.Media, Data Centre Review.\n\nIs power access now the main thing lenders price? Tell us in the comments. Full sources: link in bio.",
+  "hashtags": ["#datacenter", "#colocation", "#AIinfrastructure", "#Thailand"]
+}

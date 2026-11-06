@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T09:39:12.830Z",
+ "generated": "2026-11-06T09:32:03.636Z",
  "base": "https://coloprice.com",
  "mode": "remote",
  "license": "Coloprice data: CC BY 4.0 (own data). Read-only snapshot.",
@@ -1302,15 +1302,15 @@
    "citeAs": "Coloprice pipeline tracker",
    "url": "https://coloprice.com/data/data-center-pipeline.csv",
    "page": "https://coloprice.com/pipeline/",
-   "asOf": "2026-11-05",
+   "asOf": "2026-11-06",
    "note": "Coloprice — Data Center Construction Pipeline · published capacity only · CC BY 4.0 · cite coloprice.com/pipeline/",
    "rows": [
     {
      "level": "total",
      "name": "World",
-     "projects": 587,
+     "projects": 590,
      "underConstructionMw": 50705,
-     "announcedMw": 34515
+     "announcedMw": 34560
     },
     {
      "level": "country",
@@ -1371,9 +1371,9 @@
     {
      "level": "country",
      "name": "Japan",
-     "projects": 19,
+     "projects": 21,
      "underConstructionMw": 1433,
-     "announcedMw": 32
+     "announcedMw": 62
     },
     {
      "level": "country",
@@ -1531,6 +1531,13 @@
     },
     {
      "level": "country",
+     "name": "New Zealand",
+     "projects": 2,
+     "underConstructionMw": 0,
+     "announcedMw": 55
+    },
+    {
+     "level": "country",
      "name": "Chile",
      "projects": 4,
      "underConstructionMw": 53,
@@ -1549,13 +1556,6 @@
      "projects": 1,
      "underConstructionMw": 0,
      "announcedMw": 44
-    },
-    {
-     "level": "country",
-     "name": "New Zealand",
-     "projects": 1,
-     "underConstructionMw": 0,
-     "announcedMw": 40
     },
     {
      "level": "country",
@@ -1795,7 +1795,7 @@
    "citeAs": "Coloprice M&A tracker",
    "url": "https://coloprice.com/data/transactions.csv",
    "page": "https://coloprice.com/transactions/",
-   "asOf": "2026-11-05",
+   "asOf": "2026-11-06",
    "deals": [
     {
      "target": "Aligned Data Centers",
@@ -2426,11 +2426,11 @@
    "url": "https://coloprice.com/data/operator-rankings.json",
    "page": "https://coloprice.com/companies/",
    "license": "CC BY 4.0 — free to use with a visible link to https://coloprice.com",
-   "asOf": "2026-11-04",
+   "asOf": "2026-11-05",
    "method": "Counts of facilities tracked in the Coloprice catalogue per operator (one company = one canonical name; joint ventures counted separately). MW = sum of published capacity only; mwCount = how many of the operator’s sites publish MW.",
    "totals": {
     "operators": 2295,
-    "facilities": 6116,
+    "facilities": 6119,
     "countries": 184
    },
    "global": {
@@ -2667,6 +2667,16 @@
      },
      {
       "rank": 24,
+      "name": "NEXTDC",
+      "slug": "nextdc",
+      "page": "https://coloprice.com/providers/nextdc/",
+      "facilities": 30,
+      "countries": 5,
+      "mw": 1836,
+      "mwCount": 28
+     },
+     {
+      "rank": 25,
       "name": "NorthC",
       "slug": "northc",
       "page": "https://coloprice.com/providers/northc/",
@@ -2674,16 +2684,6 @@
       "countries": 3,
       "mw": 111,
       "mwCount": 28
-     },
-     {
-      "rank": 25,
-      "name": "CoreSite",
-      "slug": "coresite",
-      "page": "https://coloprice.com/providers/coresite/",
-      "facilities": 29,
-      "countries": 1,
-      "mw": 0,
-      "mwCount": 0
      }
     ],
     "byMw": [
@@ -2849,6 +2849,16 @@
      },
      {
       "rank": 17,
+      "name": "NEXTDC",
+      "slug": "nextdc",
+      "page": "https://coloprice.com/providers/nextdc/",
+      "facilities": 30,
+      "countries": 5,
+      "mw": 1836,
+      "mwCount": 28
+     },
+     {
+      "rank": 18,
       "name": "Brookfield (developer/operator) / NextEra Energy",
       "slug": "brookfield-developer-operator-nextera-energy",
       "page": "https://coloprice.com/providers/brookfield-developer-operator-nextera-energy/",
@@ -2856,16 +2866,6 @@
       "countries": 1,
       "mw": 1800,
       "mwCount": 1
-     },
-     {
-      "rank": 18,
-      "name": "NEXTDC",
-      "slug": "nextdc",
-      "page": "https://coloprice.com/providers/nextdc/",
-      "facilities": 27,
-      "countries": 3,
-      "mw": 1791,
-      "mwCount": 26
      },
      {
       "rank": 19,
@@ -3522,8 +3522,8 @@
     },
     "japan": {
      "countryName": "Japan",
-     "facilities": 143,
-     "operatorsTotal": 37,
+     "facilities": 145,
+     "operatorsTotal": 38,
      "page": "https://coloprice.com/companies/japan/",
      "operators": [
       {
@@ -4390,6 +4390,64 @@
       }
      ]
     },
+    "new-zealand": {
+     "countryName": "New Zealand",
+     "facilities": 51,
+     "operatorsTotal": 23,
+     "page": "https://coloprice.com/companies/new-zealand/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Spark",
+       "slug": "spark",
+       "page": "https://coloprice.com/providers/spark/",
+       "facilities": 8,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      },
+      {
+       "rank": 2,
+       "name": "Datacom Group",
+       "slug": "datacom-group",
+       "page": "https://coloprice.com/providers/datacom-group/",
+       "facilities": 7,
+       "mw": 37,
+       "mwCount": 5,
+       "cities": 4
+      },
+      {
+       "rank": 3,
+       "name": "TenPeaks Data Centres",
+       "slug": "tenpeaks-data-centres",
+       "page": "https://coloprice.com/providers/tenpeaks-data-centres/",
+       "facilities": 6,
+       "mw": 55,
+       "mwCount": 3,
+       "cities": 4
+      },
+      {
+       "rank": 4,
+       "name": "CDC Data Centres",
+       "slug": "cdc-data-centres",
+       "page": "https://coloprice.com/providers/cdc-data-centres/",
+       "facilities": 5,
+       "mw": 98,
+       "mwCount": 3,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Chorus New Zealand",
+       "slug": "chorus-new-zealand",
+       "page": "https://coloprice.com/providers/chorus-new-zealand/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      }
+     ]
+    },
     "sweden": {
      "countryName": "Sweden",
      "facilities": 51,
@@ -4445,64 +4503,6 @@
        "mw": 342,
        "mwCount": 3,
        "cities": 2
-      }
-     ]
-    },
-    "new-zealand": {
-     "countryName": "New Zealand",
-     "facilities": 50,
-     "operatorsTotal": 22,
-     "page": "https://coloprice.com/companies/new-zealand/",
-     "operators": [
-      {
-       "rank": 1,
-       "name": "Spark",
-       "slug": "spark",
-       "page": "https://coloprice.com/providers/spark/",
-       "facilities": 8,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 5
-      },
-      {
-       "rank": 2,
-       "name": "Datacom Group",
-       "slug": "datacom-group",
-       "page": "https://coloprice.com/providers/datacom-group/",
-       "facilities": 7,
-       "mw": 37,
-       "mwCount": 5,
-       "cities": 4
-      },
-      {
-       "rank": 3,
-       "name": "TenPeaks Data Centres",
-       "slug": "tenpeaks-data-centres",
-       "page": "https://coloprice.com/providers/tenpeaks-data-centres/",
-       "facilities": 6,
-       "mw": 55,
-       "mwCount": 3,
-       "cities": 4
-      },
-      {
-       "rank": 4,
-       "name": "CDC Data Centres",
-       "slug": "cdc-data-centres",
-       "page": "https://coloprice.com/providers/cdc-data-centres/",
-       "facilities": 5,
-       "mw": 98,
-       "mwCount": 3,
-       "cities": 1
-      },
-      {
-       "rank": 5,
-       "name": "Chorus New Zealand",
-       "slug": "chorus-new-zealand",
-       "page": "https://coloprice.com/providers/chorus-new-zealand/",
-       "facilities": 3,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 3
       }
      ]
     },
@@ -7108,7 +7108,7 @@
     }
    },
    "facts": [
-    "Catalogue: 2295 operators, 6116 facilities in 184 countries (as of 2026-11-04)",
+    "Catalogue: 2295 operators, 6119 facilities in 184 countries (as of 2026-11-05)",
     "Largest by tracked facilities — #1 Equinix: 269 tracked facilities in 37 countries, 125 MW published (5 of 269 sites publish MW)",
     "Largest by tracked facilities — #2 Digital Realty: 231 tracked facilities in 29 countries, 290 MW published (13 of 231 sites publish MW)",
     "Largest by tracked facilities — #3 NTT Global Data Centers: 80 tracked facilities in 17 countries, 1,506 MW published (62 of 80 sites publish MW)",
@@ -7179,11 +7179,11 @@
     "Canada (163 facilities, top 5) — #3 Qu Data Centres: 10 tracked facilities in undefined countries, 27 MW published (7 of 10 sites publish MW)",
     "Canada (163 facilities, top 5) — #4 Equinix: 9 tracked facilities in undefined countries",
     "Canada (163 facilities, top 5) — #5 Beanfield Metroconnect: 5 tracked facilities in undefined countries",
-    "Japan (143 facilities, top 5) — #1 Equinix: 17 tracked facilities in undefined countries, 54 MW published (1 of 17 sites publish MW)",
-    "Japan (143 facilities, top 5) — #2 Internet Initiative Japan (IIJ): 12 tracked facilities in undefined countries, 20 MW published (1 of 12 sites publish MW)",
-    "Japan (143 facilities, top 5) — #3 MC Digital Realty: 10 tracked facilities in undefined countries, 217 MW published (10 of 10 sites publish MW)",
-    "Japan (143 facilities, top 5) — #4 NTT Communications (NTT DOCOMO BUSINESS) — Nexcenter: 10 tracked facilities in undefined countries",
-    "Japan (143 facilities, top 5) — #5 Colt DCS: 8 tracked facilities in undefined countries, 233 MW published (8 of 8 sites publish MW)",
+    "Japan (145 facilities, top 5) — #1 Equinix: 17 tracked facilities in undefined countries, 54 MW published (1 of 17 sites publish MW)",
+    "Japan (145 facilities, top 5) — #2 Internet Initiative Japan (IIJ): 12 tracked facilities in undefined countries, 20 MW published (1 of 12 sites publish MW)",
+    "Japan (145 facilities, top 5) — #3 MC Digital Realty: 10 tracked facilities in undefined countries, 217 MW published (10 of 10 sites publish MW)",
+    "Japan (145 facilities, top 5) — #4 NTT Communications (NTT DOCOMO BUSINESS) — Nexcenter: 10 tracked facilities in undefined countries",
+    "Japan (145 facilities, top 5) — #5 Colt DCS: 8 tracked facilities in undefined countries, 233 MW published (8 of 8 sites publish MW)",
     "Netherlands (133 facilities, top 5) — #1 NorthC: 14 tracked facilities in undefined countries, 67 MW published (14 of 14 sites publish MW)",
     "Netherlands (133 facilities, top 5) — #2 Digital Realty: 12 tracked facilities in undefined countries",
     "Netherlands (133 facilities, top 5) — #3 Equinix: 11 tracked facilities in undefined countries",
@@ -7254,16 +7254,16 @@
     "Turkey (54 facilities, top 5) — #3 Türk Telekom: 3 tracked facilities in undefined countries",
     "Turkey (54 facilities, top 5) — #4 Equinix: 2 tracked facilities in undefined countries",
     "Turkey (54 facilities, top 5) — #5 Mars Datacenter: 2 tracked facilities in undefined countries",
+    "New Zealand (51 facilities, top 5) — #1 Spark: 8 tracked facilities in undefined countries",
+    "New Zealand (51 facilities, top 5) — #2 Datacom Group: 7 tracked facilities in undefined countries, 37 MW published (5 of 7 sites publish MW)",
+    "New Zealand (51 facilities, top 5) — #3 TenPeaks Data Centres: 6 tracked facilities in undefined countries, 55 MW published (3 of 6 sites publish MW)",
+    "New Zealand (51 facilities, top 5) — #4 CDC Data Centres: 5 tracked facilities in undefined countries, 98 MW published (3 of 5 sites publish MW)",
+    "New Zealand (51 facilities, top 5) — #5 Chorus New Zealand: 3 tracked facilities in undefined countries",
     "Sweden (51 facilities, top 5) — #1 Digital Realty: 6 tracked facilities in undefined countries",
     "Sweden (51 facilities, top 5) — #2 Conapto: 4 tracked facilities in undefined countries, 39 MW published (4 of 4 sites publish MW)",
     "Sweden (51 facilities, top 5) — #3 Bahnhof: 4 tracked facilities in undefined countries, 4 MW published (4 of 4 sites publish MW)",
     "Sweden (51 facilities, top 5) — #4 AB Stokab: 4 tracked facilities in undefined countries",
     "Sweden (51 facilities, top 5) — #5 atNorth: 3 tracked facilities in undefined countries, 342 MW published (3 of 3 sites publish MW)",
-    "New Zealand (50 facilities, top 5) — #1 Spark: 8 tracked facilities in undefined countries",
-    "New Zealand (50 facilities, top 5) — #2 Datacom Group: 7 tracked facilities in undefined countries, 37 MW published (5 of 7 sites publish MW)",
-    "New Zealand (50 facilities, top 5) — #3 TenPeaks Data Centres: 6 tracked facilities in undefined countries, 55 MW published (3 of 6 sites publish MW)",
-    "New Zealand (50 facilities, top 5) — #4 CDC Data Centres: 5 tracked facilities in undefined countries, 98 MW published (3 of 5 sites publish MW)",
-    "New Zealand (50 facilities, top 5) — #5 Chorus New Zealand: 3 tracked facilities in undefined countries",
     "Vietnam (47 facilities, top 5) — #1 Viettel IDC: 11 tracked facilities in undefined countries, 230 MW published (3 of 11 sites publish MW)",
     "Vietnam (47 facilities, top 5) — #2 VNPT: 8 tracked facilities in undefined countries",
     "Vietnam (47 facilities, top 5) — #3 CMC Telecom: 5 tracked facilities in undefined countries, 30 MW published (1 of 5 sites publish MW)",
