@@ -1,0 +1,114 @@
+{
+  "slug": "index-weekly-move-2026-11-09",
+  "format": "index-weekly-move",
+  "status": "ready",
+  "created": "2026-11-09",
+  "publishBy": "2026-11-23",
+  "theme": "paper",
+  "topic": "Index Weekly Move: Singapore $403/kW vs São Paulo $160, global metro ladder, Chicago +14.7% YoY",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "colo-global",
+      "dataset": "Coloprice Colocation Index",
+      "url": "https://coloprice.com/data/colocation-price-index.json",
+      "asOf": "2026-10-01",
+      "facts": [
+        "Wholesale, USD per kW per month: Singapore $403; Hong Kong $295; Tokyo $280; Querétaro $260; Frankfurt $250; Silicon Valley $238; Chicago $215; London $213; Los Angeles $213; New York Tri-State $213",
+        "Wholesale, USD per kW per month: São Paulo $160; Dallas–Fort Worth $173; Northern Virginia (Ashburn) $173; Amsterdam $180; Houston $180",
+        "Chicago: wholesale $215/kW/month, +14.7% YoY (underlying source: CBRE, Global Data Center Trends 2026)",
+        "Tokyo, Sydney, Querétaro, Santiago, Bogotá, São Paulo: +0% YoY; Dallas–Fort Worth +0% YoY; North America (avg) +6.5% YoY",
+        "Underlying source for most metros: CBRE, Global Data Center Trends 2026 (17 June 2026); North America metros: CBRE, North America Data Center Trends H1 2026"
+      ]
+    },
+    {
+      "id": "colo-nova",
+      "dataset": "Coloprice price history",
+      "url": "https://coloprice.com/history/",
+      "asOf": "2026-11-04",
+      "facts": [
+        "Northern Virginia (Ashburn) wholesale, USD per kW per month: 2025-12 215; 2026-09 173; 2026-10 173; 2026-11 173",
+        "Northern Virginia (Ashburn): $173, CBRE H1 2026, 10MW+ blocks; most other metros are 250–500 kW asking rates"
+      ]
+    }
+  ],
+  "derived": [
+    { "value": "2.5x", "how": "403 / 160 = 2.52, rounded to 2.5x" },
+    { "value": "243", "how": "403 - 160 = 243" },
+    { "value": "42", "how": "215 - 173 = 42" }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "standard",
+      "kicker": "Coloprice Index",
+      "headline": "The priciest kW of colo on the index",
+      "figure": { "value": "$403", "label": "Singapore, per kW per month, wholesale" },
+      "refs": ["colo-global"]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "The priciest metros, wholesale",
+      "unit": "USD per kW per month · Coloprice Index",
+      "data": [
+        { "label": "Singapore", "value": 403 },
+        { "label": "Hong Kong", "value": 295 },
+        { "label": "Tokyo", "value": 280 },
+        { "label": "Querétaro", "value": 260 },
+        { "label": "Frankfurt", "value": 250 },
+        { "label": "Silicon Valley", "value": 238 },
+        { "label": "Chicago", "value": 215 },
+        { "label": "London", "value": 213 }
+      ],
+      "highlight": 0,
+      "valueFormat": { "prefix": "$", "decimals": 0 },
+      "refs": ["colo-global"]
+    },
+    {
+      "type": "compare",
+      "title": "Highest vs lowest on the index",
+      "unit": "Wholesale · USD per kW per month",
+      "items": [
+        { "label": "Singapore", "value": "$403", "note": "per kW per month", "highlight": true },
+        { "label": "São Paulo", "value": "$160", "note": "per kW per month" }
+      ],
+      "verdict": { "value": "2.5x", "text": "the same kW costs $243 more in Singapore" },
+      "refs": ["colo-global"]
+    },
+    {
+      "type": "stat",
+      "label": "Fastest YoY mover · Chicago",
+      "value": "+14.7%",
+      "unit": "year on year, wholesale $215 per kW per month",
+      "context": "Tokyo, Sydney, Querétaro, Santiago, Bogotá and São Paulo are all at +0% YoY.",
+      "refs": ["colo-global"]
+    },
+    {
+      "type": "stat",
+      "label": "Reading the series · Northern Virginia",
+      "value": "$173",
+      "unit": "per kW per month, down from $215 in Dec 2025",
+      "context": "The $42 step coincides with the source: CBRE H1 2026, 10MW+ blocks. Most other metros are 250–500 kW asking rates.",
+      "accent": false,
+      "refs": ["colo-nova"]
+    },
+    {
+      "type": "list",
+      "title": "The cheapest kW on the index",
+      "unit": "Wholesale · USD per kW per month",
+      "rows": [
+        { "label": "São Paulo", "value": "$160", "highlight": true },
+        { "label": "Dallas–Fort Worth", "value": "$173" },
+        { "label": "Northern Virginia", "value": "$173" },
+        { "label": "Amsterdam", "value": "$180" },
+        { "label": "Houston", "value": "$180" }
+      ],
+      "footnote": "Mixed bases: 10MW+ blocks vs 250–500 kW asking rates.",
+      "refs": ["colo-global", "colo-nova"]
+    },
+    { "type": "closing", "text": "Independent, sourced numbers on the price of data centres and AI compute.", "cta": "Full index and history at coloprice.com" }
+  ],
+  "caption": "$403 per kW per month: Singapore is the priciest wholesale colo market on the Coloprice Index.\n\nSão Paulo sits at $160, so the same kW costs 2.5x more in Singapore. Chicago is the fastest riser at +14.7% YoY, while Tokyo, Sydney and São Paulo are flat. Northern Virginia reads $173 on a 10MW+ block basis; most other metros are 250–500 kW asking rates.\n\nData: Coloprice Colocation Index, Oct 2026 (CBRE underlying). Sources on the last slide.\n\nWhich metro surprises you most on this ladder? Tell us below. Full table: link in bio.",
+  "hashtags": ["#datacenter", "#colocation", "#Singapore", "#AIinfrastructure"]
+}
