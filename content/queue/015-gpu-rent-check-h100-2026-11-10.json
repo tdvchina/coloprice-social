@@ -1,0 +1,134 @@
+{
+  "slug": "gpu-rent-check-h100-2026-11-10",
+  "theme": "dark",
+  "format": "gpu-rent-check",
+  "status": "ready",
+  "created": "2026-11-10",
+  "publishBy": "2026-11-24",
+  "topic": "GPU Rent Check: H100 median up to $3.90/hr, 1-year contract discounts",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "gpu",
+      "dataset": "Coloprice GPU index",
+      "url": "https://coloprice.com/data/gpu-price-index.json",
+      "asOf": "2026-11-06",
+      "facts": [
+        "NVIDIA GB200 (per GPU, NVL72): on-demand median $13.25/GPU-hr, 1-year contract $10.58",
+        "NVIDIA B200 (180GB): on-demand median $6.9/GPU-hr",
+        "AMD MI355X (288GB): on-demand median $7/GPU-hr, 1-year contract $4.25",
+        "NVIDIA H200 (141GB): on-demand median $4.8/GPU-hr, 1-year contract $3.4",
+        "NVIDIA H100 (80GB): on-demand median $3.9/GPU-hr, low $1.3, high $12.29, 1-year contract $3.26",
+        "AMD MI300X (192GB): on-demand median $2.99/GPU-hr, 1-year contract $1.91",
+        "NVIDIA A100 (80GB): on-demand median $1.75/GPU-hr, 1-year contract $1.59",
+        "NVIDIA L40S (48GB): on-demand median $1.53/GPU-hr, 1-year contract $1.09",
+        "10 models tracked"
+      ]
+    },
+    {
+      "id": "gpu-hist",
+      "dataset": "Coloprice GPU price history",
+      "url": "https://coloprice.com/api/history/gpu-prices.json",
+      "asOf": "2026-11-09",
+      "facts": [
+        "H100 (80GB) on-demand median by date: 2023-06 8; 2024-01 4.7; 2024-07 3.2; 2025-01 2.6; 2025-06 2.15; 2025-10 1.95; 2026-03 3.1; 2026-08 3.3; 2026-09 3.29; 2026-10-26 3.49; 2026-11-06 3.9 (USD per GPU-hour)",
+        "H200 (141GB) median: 4.4 on 2026-10-28, 4.8 on 2026-11-06",
+        "B200 (180GB) median: 6.25 on 2026-10-28, 6.9 on 2026-11-09"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "poster",
+      "kicker": "GPU Rent Check",
+      "headline": "The H100 hour just got dearer",
+      "figure": { "value": "$3.90", "label": "per GPU-hour: median on-demand price of one NVIDIA H100 80GB" },
+      "refs": ["gpu"]
+    },
+    {
+      "type": "chart",
+      "kind": "line",
+      "title": "From $8 to $1.95, now up to $3.90",
+      "unit": "H100 on-demand median · USD per GPU-hour",
+      "data": [
+        { "label": "Jun 23", "value": 8 },
+        { "label": "Jan 24", "value": 4.7 },
+        { "label": "Jul 24", "value": 3.2 },
+        { "label": "Jan 25", "value": 2.6 },
+        { "label": "Jun 25", "value": 2.15 },
+        { "label": "Oct 25", "value": 1.95 },
+        { "label": "Mar 26", "value": 3.1 },
+        { "label": "Aug 26", "value": 3.3 },
+        { "label": "Sep 26", "value": 3.29 },
+        { "label": "Oct 26", "value": 3.49 },
+        { "label": "Nov 26", "value": 3.9 }
+      ],
+      "valueFormat": { "prefix": "$", "decimals": 2, "tickDecimals": 0 },
+      "caption": "Up $0.41 since the late-October reading.",
+      "refs": ["gpu-hist"]
+    },
+    {
+      "type": "chart",
+      "kind": "bar",
+      "title": "One GPU-hour, eight chips",
+      "unit": "On-demand median · USD per GPU-hour",
+      "data": [
+        { "label": "GB200", "value": 13.25 },
+        { "label": "MI355X", "value": 7 },
+        { "label": "B200", "value": 6.9 },
+        { "label": "H200", "value": 4.8 },
+        { "label": "H100", "value": 3.9 },
+        { "label": "MI300X", "value": 2.99 },
+        { "label": "A100", "value": 1.75 },
+        { "label": "L40S", "value": 1.53 }
+      ],
+      "highlight": "H100",
+      "valueFormat": { "prefix": "$", "decimals": 2, "tickDecimals": 0 },
+      "refs": ["gpu"]
+    },
+    {
+      "type": "list",
+      "title": "What a 1-year contract saves",
+      "unit": "On-demand median vs 1-year contract · USD per GPU-hour",
+      "rows": [
+        { "label": "MI355X", "value": "$4.25", "note": "vs $7 on-demand: −39%" },
+        { "label": "MI300X", "value": "$1.91", "note": "vs $2.99 on-demand: −36%" },
+        { "label": "L40S", "value": "$1.09", "note": "vs $1.53 on-demand: −29%" },
+        { "label": "H100", "value": "$3.26", "note": "vs $3.9 on-demand: −16%", "highlight": true },
+        { "label": "H200", "value": "$3.4", "note": "vs $4.8 on-demand: −29%" }
+      ],
+      "footnote": "Discount = 1 − contract ÷ on-demand median.",
+      "refs": ["gpu"]
+    },
+    {
+      "type": "stat",
+      "label": "H100 spread, low to high",
+      "value": "$1.30–$12.29",
+      "context": "The median is $3.9, but listed H100 prices run almost tenfold from cheapest to dearest. Averages hide the spread.",
+      "refs": ["gpu"]
+    },
+    {
+      "type": "stat",
+      "label": "B200 median since late October",
+      "value": "$6.9",
+      "unit": "/GPU-hr",
+      "delta": { "value": "+$0.65", "dir": "up" },
+      "context": "From $6.25 on 28 Oct. H200 moved the same way: $4.4 to $4.8.",
+      "accent": false,
+      "refs": ["gpu-hist"]
+    },
+    { "type": "closing", "text": "Independent GPU rental prices, tracked weekly.", "cta": "Full index: link in bio" }
+  ],
+  "caption": "$3.90 per GPU-hour: the median on-demand price of an NVIDIA H100 80GB in our index.\n\nThat is up from $3.49 in late October. H200 ($4.80) and B200 ($6.90) also edged higher, while A100 ($1.75) and MI300X ($2.99) held flat.\n\nA 1-year contract on the H100 is $3.26, about 16% under on-demand. On AMD's MI355X the gap is 39%.\n\nData: Coloprice GPU index, 6 Nov 2026. Sources on the last slide.\n\nAre you seeing the same upward drift in your rental quotes, or is it a mix effect? Tell us below. Full index: link in bio.",
+  "hashtags": ["#GPU", "#AIinfrastructure", "#datacenter"],
+  "derived": [
+    { "value": "0.41", "how": "3.90 - 3.49 = 0.41" },
+    { "value": "0.65", "how": "6.90 - 6.25 = 0.65" },
+    { "value": "39%", "how": "1 - 4.25/7 = 0.393" },
+    { "value": "36%", "how": "1 - 1.91/2.99 = 0.361" },
+    { "value": "29%", "how": "L40S: 1 - 1.09/1.53 = 0.288; H200: 1 - 3.4/4.8 = 0.292" },
+    { "value": "16%", "how": "1 - 3.26/3.9 = 0.164" },
+    { "value": "1.30–$12.29", "how": "low and high from H100 index facts" }
+  ]
+}

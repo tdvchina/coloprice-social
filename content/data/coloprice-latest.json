@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:56:43.052Z",
+ "generated": "2026-11-10T10:02:24.339Z",
  "base": "https://coloprice.com",
  "mode": "remote",
  "license": "Coloprice data: CC BY 4.0 (own data). Read-only snapshot.",
@@ -479,7 +479,7 @@
   },
   "gpuHistory": {
    "title": "GPU rental price history",
-   "asOf": "2026-11-06",
+   "asOf": "2026-11-09",
    "url": "https://coloprice.com/api/history/gpu-prices.json",
    "format": [
     "date",
@@ -657,7 +657,7 @@
       null
      ],
      [
-      "2026-11-02",
+      "2026-11-09",
       6.9,
       3.69,
       16.11,
@@ -738,7 +738,7 @@
       1.59
      ],
      [
-      "2026-11-02",
+      "2026-11-09",
       1.75,
       0.53,
       5.07,
@@ -819,7 +819,7 @@
       1.91
      ],
      [
-      "2026-11-02",
+      "2026-11-09",
       2.99,
       1.71,
       12,
@@ -856,7 +856,7 @@
       4.25
      ],
      [
-      "2026-11-02",
+      "2026-11-09",
       7,
       5.99,
       8.6,
@@ -893,7 +893,7 @@
       null
      ],
      [
-      "2026-11-02",
+      "2026-11-09",
       0.72,
       0.25,
       1.09,
@@ -930,7 +930,7 @@
       0.27
      ],
      [
-      "2026-11-02",
+      "2026-11-09",
       0.42,
       0.13,
       0.74,
@@ -941,7 +941,7 @@
   },
   "coloHistory": {
    "title": "Wholesale colocation price history",
-   "asOf": "2026-11-04",
+   "asOf": "2026-11-09",
    "url": "https://coloprice.com/api/history/colo-index.json",
    "format": [
     "date",
@@ -983,7 +983,7 @@
       196
      ],
      [
-      "2026-11-02",
+      "2026-11-09",
       196
      ]
     ],
@@ -1021,7 +1021,7 @@
       173
      ],
      [
-      "2026-11-02",
+      "2026-11-09",
       173
      ]
     ],
@@ -1055,7 +1055,7 @@
       403
      ],
      [
-      "2026-11-02",
+      "2026-11-09",
       403
      ]
     ],
@@ -1302,15 +1302,15 @@
    "citeAs": "Coloprice pipeline tracker",
    "url": "https://coloprice.com/data/data-center-pipeline.csv",
    "page": "https://coloprice.com/pipeline/",
-   "asOf": "2026-11-09",
+   "asOf": "2026-11-10",
    "note": "Coloprice — Data Center Construction Pipeline · published capacity only · CC BY 4.0 · cite coloprice.com/pipeline/",
    "rows": [
     {
      "level": "total",
      "name": "World",
-     "projects": 597,
+     "projects": 599,
      "underConstructionMw": 50795,
-     "announcedMw": 36205
+     "announcedMw": 36610
     },
     {
      "level": "country",
@@ -1405,6 +1405,13 @@
     },
     {
      "level": "country",
+     "name": "Saudi Arabia",
+     "projects": 4,
+     "underConstructionMw": 59,
+     "announcedMw": 618
+    },
+    {
+     "level": "country",
      "name": "United Arab Emirates",
      "projects": 9,
      "underConstructionMw": 430,
@@ -1451,13 +1458,6 @@
      "projects": 2,
      "underConstructionMw": 72,
      "announcedMw": 250
-    },
-    {
-     "level": "country",
-     "name": "Saudi Arabia",
-     "projects": 3,
-     "underConstructionMw": 59,
-     "announcedMw": 258
     },
     {
      "level": "country",
@@ -1549,6 +1549,13 @@
      "projects": 1,
      "underConstructionMw": 48,
      "announcedMw": 0
+    },
+    {
+     "level": "country",
+     "name": "Oman",
+     "projects": 1,
+     "underConstructionMw": 0,
+     "announcedMw": 45
     },
     {
      "level": "country",
@@ -1795,7 +1802,7 @@
    "citeAs": "Coloprice M&A tracker",
    "url": "https://coloprice.com/data/transactions.csv",
    "page": "https://coloprice.com/transactions/",
-   "asOf": "2026-11-09",
+   "asOf": "2026-11-10",
    "deals": [
     {
      "target": "Aligned Data Centers",
@@ -2426,11 +2433,11 @@
    "url": "https://coloprice.com/data/operator-rankings.json",
    "page": "https://coloprice.com/companies/",
    "license": "CC BY 4.0 — free to use with a visible link to https://coloprice.com",
-   "asOf": "2026-11-08",
+   "asOf": "2026-11-09",
    "method": "Counts of facilities tracked in the Coloprice catalogue per operator (one company = one canonical name; joint ventures counted separately). MW = sum of published capacity only; mwCount = how many of the operator’s sites publish MW.",
    "totals": {
-    "operators": 2297,
-    "facilities": 6128,
+    "operators": 2299,
+    "facilities": 6132,
     "countries": 184
    },
    "global": {
@@ -3406,8 +3413,8 @@
     },
     "australia": {
      "countryName": "Australia",
-     "facilities": 171,
-     "operatorsTotal": 56,
+     "facilities": 173,
+     "operatorsTotal": 57,
      "page": "https://coloprice.com/companies/australia/",
      "operators": [
       {
@@ -5086,6 +5093,64 @@
       }
      ]
     },
+    "saudi-arabia": {
+     "countryName": "Saudi Arabia",
+     "facilities": 33,
+     "operatorsTotal": 20,
+     "page": "https://coloprice.com/companies/saudi-arabia/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Mobily (Etihad Etisalat)",
+       "slug": "mobily-etihad-etisalat",
+       "page": "https://coloprice.com/providers/mobily-etihad-etisalat/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "Center3 (stc Group)",
+       "slug": "center3-stc-group",
+       "page": "https://coloprice.com/providers/center3-stc-group/",
+       "facilities": 4,
+       "mw": 44,
+       "mwCount": 2,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "stc / Center3",
+       "slug": "stc-center3",
+       "page": "https://coloprice.com/providers/stc-center3/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Gulf Data Hub",
+       "slug": "gulf-data-hub",
+       "page": "https://coloprice.com/providers/gulf-data-hub/",
+       "facilities": 2,
+       "mw": 20,
+       "mwCount": 2,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "NourNet",
+       "slug": "nournet",
+       "page": "https://coloprice.com/providers/nournet/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 1,
+       "cities": 2
+      }
+     ]
+    },
     "belgium": {
      "countryName": "Belgium",
      "facilities": 32,
@@ -5141,64 +5206,6 @@
        "mw": 0,
        "mwCount": 0,
        "cities": 1
-      }
-     ]
-    },
-    "saudi-arabia": {
-     "countryName": "Saudi Arabia",
-     "facilities": 32,
-     "operatorsTotal": 19,
-     "page": "https://coloprice.com/companies/saudi-arabia/",
-     "operators": [
-      {
-       "rank": 1,
-       "name": "Mobily (Etihad Etisalat)",
-       "slug": "mobily-etihad-etisalat",
-       "page": "https://coloprice.com/providers/mobily-etihad-etisalat/",
-       "facilities": 5,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 3
-      },
-      {
-       "rank": 2,
-       "name": "Center3 (stc Group)",
-       "slug": "center3-stc-group",
-       "page": "https://coloprice.com/providers/center3-stc-group/",
-       "facilities": 4,
-       "mw": 44,
-       "mwCount": 2,
-       "cities": 3
-      },
-      {
-       "rank": 3,
-       "name": "stc / Center3",
-       "slug": "stc-center3",
-       "page": "https://coloprice.com/providers/stc-center3/",
-       "facilities": 3,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      },
-      {
-       "rank": 4,
-       "name": "Gulf Data Hub",
-       "slug": "gulf-data-hub",
-       "page": "https://coloprice.com/providers/gulf-data-hub/",
-       "facilities": 2,
-       "mw": 20,
-       "mwCount": 2,
-       "cities": 2
-      },
-      {
-       "rank": 5,
-       "name": "NourNet",
-       "slug": "nournet",
-       "page": "https://coloprice.com/providers/nournet/",
-       "facilities": 2,
-       "mw": 0,
-       "mwCount": 1,
-       "cities": 2
       }
      ]
     },
@@ -7048,6 +7055,64 @@
       }
      ]
     },
+    "oman": {
+     "countryName": "Oman",
+     "facilities": 10,
+     "operatorsTotal": 6,
+     "page": "https://coloprice.com/companies/oman/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Ooredoo Oman",
+       "slug": "ooredoo-oman",
+       "page": "https://coloprice.com/providers/ooredoo-oman/",
+       "facilities": 3,
+       "mw": 13,
+       "mwCount": 2,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "Oman Data Park (Otech)",
+       "slug": "oman-data-park-otech",
+       "page": "https://coloprice.com/providers/oman-data-park-otech/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Khazaen Data Center",
+       "slug": "khazaen-data-center",
+       "page": "https://coloprice.com/providers/khazaen-data-center/",
+       "facilities": 1,
+       "mw": 45,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Duqm Data Centre SAOC (D2C)",
+       "slug": "duqm-data-centre-saoc-d2c",
+       "page": "https://coloprice.com/providers/duqm-data-centre-saoc-d2c/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
     "serbia": {
      "countryName": "Serbia",
      "facilities": 10,
@@ -7108,7 +7173,7 @@
     }
    },
    "facts": [
-    "Catalogue: 2297 operators, 6128 facilities in 184 countries (as of 2026-11-08)",
+    "Catalogue: 2299 operators, 6132 facilities in 184 countries (as of 2026-11-09)",
     "Largest by tracked facilities — #1 Equinix: 269 tracked facilities in 37 countries, 125 MW published (5 of 269 sites publish MW)",
     "Largest by tracked facilities — #2 Digital Realty: 231 tracked facilities in 29 countries, 290 MW published (13 of 231 sites publish MW)",
     "Largest by tracked facilities — #3 NTT Global Data Centers: 80 tracked facilities in 17 countries, 1,506 MW published (62 of 80 sites publish MW)",
@@ -7169,11 +7234,11 @@
     "France (187 facilities, top 5) — #3 ETIX Everywhere: 15 tracked facilities in undefined countries, 17 MW published (13 of 15 sites publish MW)",
     "France (187 facilities, top 5) — #4 Equinix: 12 tracked facilities in undefined countries",
     "France (187 facilities, top 5) — #5 UltraEdge: 10 tracked facilities in undefined countries",
-    "Australia (171 facilities, top 5) — #1 NEXTDC: 25 tracked facilities in undefined countries, 1,726 MW published (25 of 25 sites publish MW)",
-    "Australia (171 facilities, top 5) — #2 Equinix: 18 tracked facilities in undefined countries, 28 MW published (1 of 18 sites publish MW)",
-    "Australia (171 facilities, top 5) — #3 CDC Data Centres: 14 tracked facilities in undefined countries, 3,210 MW published (10 of 14 sites publish MW)",
-    "Australia (171 facilities, top 5) — #4 Vocus: 9 tracked facilities in undefined countries",
-    "Australia (171 facilities, top 5) — #5 DigiCo REIT: 8 tracked facilities in undefined countries, 62 MW published (8 of 8 sites publish MW)",
+    "Australia (173 facilities, top 5) — #1 NEXTDC: 25 tracked facilities in undefined countries, 1,726 MW published (25 of 25 sites publish MW)",
+    "Australia (173 facilities, top 5) — #2 Equinix: 18 tracked facilities in undefined countries, 28 MW published (1 of 18 sites publish MW)",
+    "Australia (173 facilities, top 5) — #3 CDC Data Centres: 14 tracked facilities in undefined countries, 3,210 MW published (10 of 14 sites publish MW)",
+    "Australia (173 facilities, top 5) — #4 Vocus: 9 tracked facilities in undefined countries",
+    "Australia (173 facilities, top 5) — #5 DigiCo REIT: 8 tracked facilities in undefined countries, 62 MW published (8 of 8 sites publish MW)",
     "Canada (163 facilities, top 5) — #1 Cologix: 23 tracked facilities in undefined countries, 65 MW published (3 of 23 sites publish MW)",
     "Canada (163 facilities, top 5) — #2 eStruxture: 16 tracked facilities in undefined countries, 127 MW published (12 of 16 sites publish MW)",
     "Canada (163 facilities, top 5) — #3 Qu Data Centres: 10 tracked facilities in undefined countries, 27 MW published (7 of 10 sites publish MW)",
@@ -7314,16 +7379,16 @@
     "Ireland (34 facilities, top 5) — #3 Pure Data Centres Group: 3 tracked facilities in undefined countries, 54 MW published (3 of 3 sites publish MW)",
     "Ireland (34 facilities, top 5) — #4 EdgeConneX: 3 tracked facilities in undefined countries, 32 MW published (3 of 3 sites publish MW)",
     "Ireland (34 facilities, top 5) — #5 Echelon Data Centres: 3 tracked facilities in undefined countries",
+    "Saudi Arabia (33 facilities, top 5) — #1 Mobily (Etihad Etisalat): 5 tracked facilities in undefined countries",
+    "Saudi Arabia (33 facilities, top 5) — #2 Center3 (stc Group): 4 tracked facilities in undefined countries, 44 MW published (2 of 4 sites publish MW)",
+    "Saudi Arabia (33 facilities, top 5) — #3 stc / Center3: 3 tracked facilities in undefined countries",
+    "Saudi Arabia (33 facilities, top 5) — #4 Gulf Data Hub: 2 tracked facilities in undefined countries, 20 MW published (2 of 2 sites publish MW)",
+    "Saudi Arabia (33 facilities, top 5) — #5 NourNet: 2 tracked facilities in undefined countries",
     "Belgium (32 facilities, top 5) — #1 Datacenter United: 4 tracked facilities in undefined countries",
     "Belgium (32 facilities, top 5) — #2 DCStar NV: 3 tracked facilities in undefined countries",
     "Belgium (32 facilities, top 5) — #3 Digital Realty: 3 tracked facilities in undefined countries",
     "Belgium (32 facilities, top 5) — #4 LCL: 3 tracked facilities in undefined countries",
     "Belgium (32 facilities, top 5) — #5 Connect4: 2 tracked facilities in undefined countries",
-    "Saudi Arabia (32 facilities, top 5) — #1 Mobily (Etihad Etisalat): 5 tracked facilities in undefined countries",
-    "Saudi Arabia (32 facilities, top 5) — #2 Center3 (stc Group): 4 tracked facilities in undefined countries, 44 MW published (2 of 4 sites publish MW)",
-    "Saudi Arabia (32 facilities, top 5) — #3 stc / Center3: 3 tracked facilities in undefined countries",
-    "Saudi Arabia (32 facilities, top 5) — #4 Gulf Data Hub: 2 tracked facilities in undefined countries, 20 MW published (2 of 2 sites publish MW)",
-    "Saudi Arabia (32 facilities, top 5) — #5 NourNet: 2 tracked facilities in undefined countries",
     "Ukraine (32 facilities, top 5) — #1 Omega Telecom: 3 tracked facilities in undefined countries",
     "Ukraine (32 facilities, top 5) — #2 Giganet IXN - Ukrainian Backbone Networks: 2 tracked facilities in undefined countries",
     "Ukraine (32 facilities, top 5) — #3 SerinIX: 2 tracked facilities in undefined countries",
@@ -7483,6 +7548,11 @@
     "Luxembourg (10 facilities, top 5) — #3 POST Telecom: 2 tracked facilities in undefined countries",
     "Luxembourg (10 facilities, top 5) — #4 Portus Data Centers: 1 tracked facilities in undefined countries, 2 MW published (1 of 1 sites publish MW)",
     "Luxembourg (10 facilities, top 5) — #5 BCE: 1 tracked facilities in undefined countries",
+    "Oman (10 facilities, top 5) — #1 Ooredoo Oman: 3 tracked facilities in undefined countries, 13 MW published (2 of 3 sites publish MW)",
+    "Oman (10 facilities, top 5) — #2 Equinix: 2 tracked facilities in undefined countries",
+    "Oman (10 facilities, top 5) — #3 Oman Data Park (Otech): 2 tracked facilities in undefined countries",
+    "Oman (10 facilities, top 5) — #4 Khazaen Data Center: 1 tracked facilities in undefined countries, 45 MW published (1 of 1 sites publish MW)",
+    "Oman (10 facilities, top 5) — #5 Duqm Data Centre SAOC (D2C): 1 tracked facilities in undefined countries",
     "Serbia (10 facilities, top 5) — #1 Akton Communications and Networks: 1 tracked facilities in undefined countries",
     "Serbia (10 facilities, top 5) — #2 BeotelNet-ISP d.o.o: 1 tracked facilities in undefined countries",
     "Serbia (10 facilities, top 5) — #3 CETIN: 1 tracked facilities in undefined countries",

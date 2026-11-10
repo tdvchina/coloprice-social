@@ -1,0 +1,406 @@
+{
+  "generated": "2026-11-10T10:02:22.946Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 1
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 1
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 10
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 1
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 1
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 3
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 1
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 87,
+      "kept": 1
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 4
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 0
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 8
+    }
+  ],
+  "items": [
+    {
+      "id": "c6e9e2589446",
+      "title": "Customized Egress for Hybrid Cloud: Built Around Your Business",
+      "url": "https://datacenterpost.com/customized-egress-for-hybrid-cloud-built-around-your-business",
+      "date": "2026-11-09T18:00:08.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL:DR Customized egress solutions address unpredictable cloud data transfer fees by aligning outbound traffic, IP requirements, and hosting capacity with application needs. MOD Mission Critical combines IP Transit, IPv4 procurement, managed colocation, and carrier multi-homing to deliver wholesale pricing on a unified bill. The MOD PaaSPort platform simplifies global sourcing for colocation and connectivity, allowing […] The post Customized Egress for Hybrid Cloud: Built Around Your Business appeared first on Data Center POST .",
+      "figures": [],
+      "score": 10
+    },
+    {
+      "id": "d996fe15277b",
+      "title": "EPG tops out US$120 milllion factory for modular data centers",
+      "url": "https://w.media/epg-tops-out-us120-milllion-factory-for-modular-data-centers",
+      "date": "2026-11-10T07:40:36.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Asia-based prefabricated modular data center infrastructure provider EPG Modular Data Center last Friday topped out its US$120 million Malaysia FIZ (Free Industrial Zone) Factory in Senai Airport City (SAC), Johor. The facility is among the largest single-site data center module manufacturing bases in the modular data center (MDC) sector by production capacity, the firm says in a press […]",
+      "figures": [
+        "$120 ",
+        "$120 million"
+      ],
+      "score": 9
+    },
+    {
+      "id": "886bf80af64d",
+      "title": "Former US DOE staffers launch modular data center firm Mavria",
+      "url": "https://www.datacenterdynamics.com/en/news/former-us-doe-staffers-launch-modular-data-center-firm-mavria",
+      "date": "2026-11-09T16:56:57.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Raises $130m to scale factory-built data center platform",
+      "figures": [
+        "$130m"
+      ],
+      "score": 8
+    },
+    {
+      "id": "407620c703c0",
+      "title": "Riot Platforms signs 910MW agreement with unnamed frontier AI lab",
+      "url": "https://www.datacenterdynamics.com/en/news/riot-platforms-signs-910mw-agreement-with-unnamed-frontier-ai-lab",
+      "date": "2026-11-09T15:07:20.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Capacity will be provided at Riot's Corsicana, Texas, data center",
+      "figures": [
+        "910MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "e7b49f100104",
+      "title": "Decentralized AI Compute: How to Get More Out of Every GPU Hour",
+      "url": "https://datacenterpost.com/decentralized-ai-compute-how-to-get-more-out-of-every-gpu-hour",
+      "date": "2026-11-09T13:00:27.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Global data center electricity use is projected to grow 26% in 2026 to 565 terawatt-hours, driven by AI servers that encounter memory supply and power grid limits. AI inference servers average roughly 20% utilization, leaving four-fifths of paid hardware capacity and floor space idle while continuing to draw power. Decentralized compute networks pool idle […] The post Decentralized AI Compute: How to Get More Out of Every GPU Hour appeared first on Data Center POST .",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "17bf34a07a71",
+      "title": "Crusoe exits Wyoming after Google buys data center site",
+      "url": "https://w.media/crusoe-exits-wyoming-after-google-buys-data-center-site",
+      "date": "2026-11-09T12:47:39.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Crusoe, an artificial intelligence infrastructure and cloud computing company, has announced the sale of its site in southeast Wyoming to Google, which last week said that it would invest US$ 17 billion in the Cowboy State. According to a press release, Crusoe has completed pre-development work on the project, including data center site selection, governmental […]",
+      "figures": [
+        "$ 17 billion"
+      ],
+      "score": 7
+    },
+    {
+      "id": "45fffd612f8e",
+      "title": "ING looking to offload US$ 500 million in data center debt",
+      "url": "https://w.media/ing-looking-to-offload-us-500-million-in-data-center-debt",
+      "date": "2026-11-09T10:08:48.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Dutch bank ING is reportedly looking to sell off roughly US$ 500 million of data center loans amid fears that the Democratic Party will stall US data center projects after sweeping the midterm elections last week. As reported by Bloomberg, which spoke with people familiar with the matter, ING is taking offers for dozens of […]",
+      "figures": [
+        "$ 500 million"
+      ],
+      "score": 7
+    },
+    {
+      "id": "34e3e0ae0b1d",
+      "title": "SK Telecom, Rebellions, and NVIDIA join forces to advance Korea’s sovereign AI",
+      "url": "https://w.media/sk-telecom-rebellions-and-nvidia-join-forces-to-advance-koreas-sovereign-ai",
+      "date": "2026-11-10T08:31:23.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "South Korean telecommunications firm SK Telecom, AI chip startup Rebellions, and NVIDIA have announced a collaboration that aims to advance South Korea’s AI infrastructure by bringing together data centers, processors, and an open infrastructure platform. As outlined by NVIDIA in a press release, Rebellions will use NVLink Fusion to connect its Rebel R200 neural processing […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "79bef93fa3db",
+      "title": "Land & Expand: Texas’ AI Boom Meets a New Political Reality",
+      "url": "https://www.datacenterfrontier.com/site-selection/article/55416646/land-expand-texas-ai-boom-meets-a-new-political-reality",
+      "date": "2026-11-09T17:38:11.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "Texas is still drawing multibillion-dollar data center commitments, but a historic election, tougher grid reviews, changing local rules, and new questions about financing are reshaping the terms of AI infrastructure development.",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "cb349ff15644",
+      "title": "AirTrunk named as operator behind data center project in Melbourne, Australia",
+      "url": "https://www.datacenterdynamics.com/en/news/airtrunk-named-as-operator-behind-data-center-project-in-melbourne-australia",
+      "date": "2026-11-09T16:01:34.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Also behind project to develop Kurri Kurri smelter into data center",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "c7e27de2a9aa",
+      "title": "Power is the new blueprint for the AI data center",
+      "url": "https://w.media/power-is-the-new-blueprint-for-the-ai-data-center",
+      "date": "2026-11-10T03:51:42.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Data centers used to exist solely for enterprise applications and the cloud. Today, they are increasingly used to produce tokens, the unit in which AI output is generated and billed. And the numbers suggest a “token factory” era is already here. According to Huawei’s He Bo, Vice President of Huawei Digital Power, daily token usage […]",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "88bd5a82b6e0",
+      "title": "Norway halts grid connection applications for new data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/norway-halts-grid-connection-applications-for-new-data-centers",
+      "date": "2026-11-09T17:48:46.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Seeks to limit rapid buildout while regulation catches up",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "c8de90095781",
+      "title": "The Telecom Industry Is Sitting on a Financing Asset It Doesn’t Know How to Monetize",
+      "url": "https://datacenterpost.com/the-telecom-industry-is-sitting-on-a-financing-asset-it-doesnt-know-how-to-monetize",
+      "date": "2026-11-09T14:00:00.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR The telecommunications industry generates massive volumes of operational and commercial transaction data that remain underutilized for financing connectivity services. By using verifiable transaction records and debtor creditworthiness, receivable financing can rely on actual payment obligations rather than a supplier’s balance sheet constraints. Connecting transaction validation, legal enforceability, continuous monitoring, and automated payment controls creates […] The post The Telecom Industry Is Sitting on a Financing Asset It Doesn’t Know How to Monetize appeared first on Data Cente",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "74d5f0113190",
+      "title": "Why Norway wants a say over who builds data centres",
+      "url": "https://capacityglobal.com/news/why-norway-wants-a-say-over-who-builds-data-centres",
+      "date": "2026-11-09T12:53:54.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Norway has paused new grid reservations for data centres and plans a licensing scheme to decide which facilities can be built and operated in the country. The post Why Norway wants a say over who builds data centres appeared first on Capacity .",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "dc5a34df3e3d",
+      "title": "DCD News: Midterms special",
+      "url": "https://www.datacenterdynamics.com/en/videos/dcd-news-october-review",
+      "date": "2026-11-10T09:28:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "DCD's Seb Moss, Emma Strutton & Georgia Butler discuss key digital infrastructure themes, from the impact of US midterm elections on data centers to evolving data center technologies",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "eecadeb1f53d",
+      "title": "Microsoft reportedly reconsidering AI computing expansion deal with Nscale",
+      "url": "https://w.media/microsoft-reportedly-reconsidering-ai-computing-expansion-deal-with-nscale",
+      "date": "2026-11-10T06:44:39.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Microsoft has reportedly decided not to exercise an option to more than double its existing agreement with UK-based AI cloud provider Nscale for computing capacity at data centers located in Texas and West Virginia. The potential extension, which was first reported by the Financial Times, would have been worth tens of billions of dollars to […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "6b3152ebf3dc",
+      "title": "Datacenter Systems Spending To Go Through The Roof In 2027",
+      "url": "https://www.nextplatform.com/compute/2026/11/10/datacenter-systems-spending-to-go-through-the-roof-in-2027/5308636",
+      "date": "2026-11-10T00:28:14.000Z",
+      "publisher": "The Next Platform",
+      "feed": "nextplatform",
+      "kind": "general",
+      "summary": "",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "592c350ff20a",
+      "title": "Mastering compliance",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/mastering-compliance",
+      "date": "2026-11-09T16:55:23.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Reporting strategies for data center sustainability",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "3392714633d2",
+      "title": "New Jersey Senate passes bill banning data center-related NDAs",
+      "url": "https://www.datacenterdynamics.com/en/news/new-jersey-senate-passes-bill-banning-data-center-related-ndas",
+      "date": "2026-11-09T16:32:45.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Bill now goes to NJ Assembly",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "5884221b9e5b",
+      "title": "AI’s next infrastructure constraint",
+      "url": "https://www.datacenterdynamics.com/en/opinions/ais-next-infrastructure-constraint",
+      "date": "2026-11-09T15:45:15.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Data center expansions have long been represented in gigawatts, but measurements of terabits-second and microseconds are now entering the constraint conversation",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "dda61d2a67aa",
+      "title": "Protesters storm Microsoft data center construction site in Amsterdam",
+      "url": "https://w.media/protesters-storm-microsoft-data-center-construction-site-in-amsterdam",
+      "date": "2026-11-09T10:40:19.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Protesters from the protest group Geef Tegengas (English translation: Push Back), broke into a construction site for a new Microsoft data center in Amsterdam on November 6. Protesters were seen climbing a crane, setting off flares and clashing with police which resulted in 150 to 200 demonstrators being arrested. The protest was part of a […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "454226c2dc1c",
+      "title": "Building AI Kill Switches in Data Centers",
+      "url": "https://www.datacenterknowledge.com/ai-data-centers/building-ai-kill-switches-in-data-centers",
+      "date": "2026-11-09T10:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Data center-level AI “kill switches” are more feasible than agent-level ones, but they need early detection and global regulatory alignment to work.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "19c640dd7cd0",
+      "title": "Akamai predicts revenue to exceed $7bn in 2028, driven by cloud infrastructure services growth",
+      "url": "https://www.datacenterdynamics.com/en/news/akamai-predicts-revenue-to-exceed-7bn-in-2028-driven-by-cloud-infrastructure-services-growth",
+      "date": "2026-11-09T16:12:16.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company posted $1.122bn for Q3 2026",
+      "figures": [
+        "$7bn",
+        "$1.122bn"
+      ],
+      "score": 3
+    },
+    {
+      "id": "853708275136",
+      "title": "Nvidia looks to tap Brightspeed central offices for inference network - report",
+      "url": "https://www.datacenterdynamics.com/en/news/nvidia-looks-to-tap-brightspeed-central-offices-for-inference-network-report",
+      "date": "2026-11-09T13:42:13.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "GPU company eyes legacy copper facilities for potential AI use",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "9abeb493ae68",
+      "title": "Amazon EKS Auto Mode and Karpenter now support Dynamic Resource Allocation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-karpenter-dra",
+      "date": "2026-11-09T06:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Dynamic Resource Allocation (DRA) for NVIDIA GPUs and Elastic Fabric Adapter (EFA) network devices when using Amazon EKS Auto Mode and Karpenter. You can now define the device attributes your Kubernetes workloads need with DRA, share GPU devices across Pods, and allocate topology-aligned GPU and EFA devices while Amazon EKS Auto Mode and Karpenter dynamically scale Amazon EC2 instances based on workload demand. With DRA, you define ResourceClaim or ResourceClaimTemplate objects that describe what GPU or EFA devices can be allocated to",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}
