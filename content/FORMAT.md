@@ -22,6 +22,22 @@ The canonical schema for the writer routine, and for anyone editing the queue by
 
 Weekly rhythm (Mon–Fri, max 1 post/day): Mon Index · Tue GPU · Wed Megawatt Watch · **Thu Coloprice Top — every week, a fixed slot** · Fri Deal Sheet, Outage Files, Explainer, Map of the Week or Ranked (rotate). Don't repeat the format of the last published post unless the queue would otherwise be empty.
 
+**Photos in every post (from 13 Nov 2026).** Every carousel carries 1–2 real photos from the media library, so the feed shows the infrastructure behind the numbers, not only charts. Which photo per format:
+
+| Format | Photo to use (in this order of preference) | Where |
+|---|---|---|
+| Megawatt Watch, Deal Sheet | the named campus / facility → its operator → the market's grid or land (same country) | slide 2 (photo of the lead project), or a photo cover when the photo is the story |
+| Map of the Week | the market that leads the map (facility → city → country grid) | before the regional map slides |
+| Outage Files | the affected facility or operator; else the failed component class (substation, cooling, generator) in that country | slide 2 |
+| Coloprice Top | a facility of the #1 operator (operator match) | right after the ranking slide |
+| Index Weekly Move | the biggest mover's market: a facility in that metro → that country's grid | after the stat on the biggest mover |
+| GPU Rent Check, Ranked | the campus or operator named on the slides; else the market of the #1 entry | after the main chart |
+| Explainer | the infrastructure being explained (substation for power, cooling plant for PUE, land for site selection) | next to the slide it illustrates |
+
+- **Photo covers in the grid rhythm:** besides the weekly lime Coloprice Top, plan covers in threes as dark → paper → **photo**: one non-Top post in three opens with a `photo` cover, when the photo shows the story's subject (named campus, operator, market). The photo cover follows the same "not the same layout twice in a row" rule.
+- **Real match only:** the photo must show what the slide names. A market-level photo (that country's transmission line, substation or land) is fine for a market story; a random data hall from another country is not. Never generic server aisles, never decorative stock.
+- **No fit in the library?** Do not force one. Set top-level `"photoGap": "<the photo that is missing, e.g. 'Johor data center campus, Malaysia'>"` and add the same line to `assets/library/wanted.md`; the next library harvest fills these gaps first. The validator accepts a carousel without photos only with `photoGap`.
+
 ## Top-level fields
 
 ```jsonc
@@ -33,6 +49,7 @@ Weekly rhythm (Mon–Fri, max 1 post/day): Mon Index · Tue GPU · Wed Megawatt 
   "created": "2026-10-28",                 // Asia/Bangkok date
   "publishBy": "2026-11-04",               // news goes stale: the publisher skips the post after this date
   "topic": "internal one-liner (used in Telegram)",
+  "photoGap": "only when the library has no fitting photo: what photo is missing", // optional
   "sources": [ /* news sources, see below */ ],
   "dataHooks": [ /* Coloprice data, see below */ ],
   "slides": [ /* 3–10 slides: cover first, closing last */ ],
@@ -60,7 +77,7 @@ Three grounds, one brand. `theme` on the carousel sets every slide; `theme` on a
 | `paper` | #f3f4f1 / void | only a highlighter marker behind the key figure or `**marked**` words (never lime text) | alternate with dark |
 | `lime` | lime / void | the ground itself | the accent tile, reserved for the **Coloprice Top cover** (weekly, so 1 cover in 5); other formats never use a lime cover |
 
-The profile grid shows the newest post top-left, so the FIRST post published ends up bottom-right. Plan covers in threes: alternate dark and paper; the weekly Coloprice Top is the lime tile. Because it jumps the queue on Thursdays, it sits between two posts of opposite grounds, so a lime ground never breaks the dark/paper rhythm. Check with `node scripts/grid-preview.mjs` (4:5 tiles; `--ratio=3:4 --guides` shows the crop the app grid uses). Keep the headline and hook figure inside the centre-safe area (the renderer's margins already do, as long as you do not move them).
+The profile grid shows the newest post top-left, so the FIRST post published ends up bottom-right. Plan covers in threes: dark → paper → photo (a library photo cover, see "Photos in every post"); the weekly Coloprice Top is the lime tile. Because it jumps the queue on Thursdays, it sits between two posts of opposite grounds, so a lime ground never breaks the dark/paper rhythm. Check with `node scripts/grid-preview.mjs` (4:5 tiles; `--ratio=3:4 --guides` shows the crop the app grid uses). Keep the headline and hook figure inside the centre-safe area (the renderer's margins already do, as long as you do not move them).
 
 ## Slide types (all except `closing` need `refs: [...]`)
 
@@ -79,7 +96,7 @@ The profile grid shows the newest post top-left, so the FIRST post published end
 Real, licensed photos from the media library (`assets/library/catalog.json`, see its README): identifiable data centers, substations, transmission lines, plants, land.
 - `{ "type": "photo", "image": "<library id>", "headline": "…", "caption": "…", "focus": "top|center|bottom" }` — photo fills the slide, text on a dark scrim at the bottom (headline ≤ 3 lines, caption ≤ 3 lines). A cover can use `"layout": "photo"` with `image`, `kicker`, `headline`, optional `figure`.
 - Only ids with `uses.social: true` (public domain, CC0, CC BY); the validator refuses the rest. The footer prints the photo's attribution automatically.
-- At most 2 photo slides per carousel, and a photo must show what the slide talks about (the named facility, that market's grid, that plant). No decorative photos, no generic server aisles.
+- **Required: 1–2 photo slides (or a photo cover) per carousel** created from 13 Nov 2026 — see "Photos in every post" above for which photo each format uses. Max 2. A photo must show what the slide talks about (the named facility, that market's grid, that plant). No decorative photos, no generic server aisles. Without a fitting photo, `photoGap` + a line in `assets/library/wanted.md` (the validator enforces this).
 - A photo slide without figures needs no `refs`; any number in its headline/caption must be in the facts, as everywhere.
 - Pick with `node scripts/library.mjs find --operator="Equinix" --social` or `node scripts/library.mjs sheet --subject=transmission --country=usa --social` and look at `out/library-sheet.jpg`.
 

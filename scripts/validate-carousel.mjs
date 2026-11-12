@@ -47,6 +47,7 @@ export const FORMATS = {
   'outage-files': { label: 'Outage Files', needsNews: true },
   explainer: { label: 'Explainer' },
 };
+const PHOTO_RULE_FROM = '2026-11-13'; // carousels created on/after this date must carry a photo
 const SLIDE_TYPES = ['cover', 'stat', 'list', 'chart', 'compare', 'map', 'quote', 'photo', 'closing'];
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const BANNED_TAGS = ['#explore', '#reels', '#tech', '#fyp', '#viral', '#instagood', '#follow', '#like4like', '#explorepage'];
@@ -327,6 +328,15 @@ export function validateCarousel(def, { file, state = {}, env = process.env, fit
       }
     });
   }
+  // ── photos (content plan from 2026-11-13): every carousel carries 1–2 library photos ──
+  const photoSlides = slides.filter((s) => s.type === 'photo' || (s.type === 'cover' && s.layout === 'photo'));
+  if (photoSlides.length > 2) E(`photos: at most 2 photo slides/covers per carousel, got ${photoSlides.length}`);
+  if (DATE.test(def.created || '') && def.created >= PHOTO_RULE_FROM && !photoSlides.length) {
+    if (typeof def.photoGap === 'string' && def.photoGap.trim().length >= 10) W(`no photo: ${def.photoGap.trim()} — add it to assets/library/wanted.md`);
+    else E('photos: every carousel needs 1–2 library photos (a "photo" slide or a "photo" cover). If the library truly has nothing that shows the subject, set "photoGap": "<the photo that is missing>" and add that line to assets/library/wanted.md');
+  }
+  if (def.photoGap != null && photoSlides.length) W('photoGap is set but the carousel has photos — remove photoGap');
+
   return { errors, warnings };
 }
 

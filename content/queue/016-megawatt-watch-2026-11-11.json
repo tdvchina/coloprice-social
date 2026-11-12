@@ -7,26 +7,202 @@
   "theme": "paper",
   "topic": "Megawatt Watch: Quanah TX 756 MW, Malaysia 5 GW+ target, Kazakhstan 480 MW, Munich +20 MW",
   "sources": [
-    {"id":"dcd-quanah","publisher":"DCD","title":"Application filed for $8bn data center project in Quanah, Texas","url":"https://www.datacenterdynamics.com/en/news/application-filed-for-8bn-data-center-project-in-quanah-texas","date":"2026-11-10","facts":["Headline: Application filed for $8bn data center project in Quanah, Texas","Standfirst: Integra looks to build 756MW project near Childress"]},
-    {"id":"wm-malaysia","publisher":"W.Media","title":"SoftBank, Grab and PETROS to invest US$1.85 billion to build AI infrastructure in Malaysia","url":"https://w.media/softbank-grab-and-petros-to-invest-us1-85-billion-to-build-ai-infrastructure-in-malaysia","date":"2026-11-10","facts":["SoftBank, Grab and PETROS: total initial seed capital of US$1.85 billion","Long-term target of five gigawatts (5 GW) or more of AI compute capacity across Sarawak and Peninsular Malaysia","Sarawak project initial investment of US$1 billion","Investment deployed in stages as projects hit development and customer contract milestones"]},
-    {"id":"dcd-kazakh","publisher":"DCD","title":"Boosteroid, Gaw Capital, and Firebird AI plan 480MW data center in Kazakhstan","url":"https://www.datacenterdynamics.com/en/news/boosteroid-gaw-capital-and-firebird-ai-plan-480mw-data-center-in-kazakhstan","date":"2026-11-10","facts":["Headline: Boosteroid, Gaw Capital, and Firebird AI plan 480MW data center in Kazakhstan","Standfirst: Would be part of phase two of “Data Center Valley” project in nation, targets 1GW by 2029"]},
-    {"id":"dcd-munich","publisher":"DCD","title":"Germany's Deutsche Telekom to expand Munich AI data center by 20MW","url":"https://www.datacenterdynamics.com/en/news/germanys-deutsche-telekom-to-expand-munich-ai-data-center-by-20mw","date":"2026-11-10","facts":["Headline: Germany's Deutsche Telekom to expand Munich AI data center by 20MW","Standfirst: Company adding B300 capacity after launching original cluster in February"]}
+    {
+      "id": "dcd-quanah",
+      "publisher": "DCD",
+      "title": "Application filed for $8bn data center project in Quanah, Texas",
+      "url": "https://www.datacenterdynamics.com/en/news/application-filed-for-8bn-data-center-project-in-quanah-texas",
+      "date": "2026-11-10",
+      "facts": [
+        "Headline: Application filed for $8bn data center project in Quanah, Texas",
+        "Standfirst: Integra looks to build 756MW project near Childress"
+      ]
+    },
+    {
+      "id": "wm-malaysia",
+      "publisher": "W.Media",
+      "title": "SoftBank, Grab and PETROS to invest US$1.85 billion to build AI infrastructure in Malaysia",
+      "url": "https://w.media/softbank-grab-and-petros-to-invest-us1-85-billion-to-build-ai-infrastructure-in-malaysia",
+      "date": "2026-11-10",
+      "facts": [
+        "SoftBank, Grab and PETROS: total initial seed capital of US$1.85 billion",
+        "Long-term target of five gigawatts (5 GW) or more of AI compute capacity across Sarawak and Peninsular Malaysia",
+        "Sarawak project initial investment of US$1 billion",
+        "Investment deployed in stages as projects hit development and customer contract milestones"
+      ]
+    },
+    {
+      "id": "dcd-kazakh",
+      "publisher": "DCD",
+      "title": "Boosteroid, Gaw Capital, and Firebird AI plan 480MW data center in Kazakhstan",
+      "url": "https://www.datacenterdynamics.com/en/news/boosteroid-gaw-capital-and-firebird-ai-plan-480mw-data-center-in-kazakhstan",
+      "date": "2026-11-10",
+      "facts": [
+        "Headline: Boosteroid, Gaw Capital, and Firebird AI plan 480MW data center in Kazakhstan",
+        "Standfirst: Would be part of phase two of “Data Center Valley” project in nation, targets 1GW by 2029"
+      ]
+    },
+    {
+      "id": "dcd-munich",
+      "publisher": "DCD",
+      "title": "Germany's Deutsche Telekom to expand Munich AI data center by 20MW",
+      "url": "https://www.datacenterdynamics.com/en/news/germanys-deutsche-telekom-to-expand-munich-ai-data-center-by-20mw",
+      "date": "2026-11-10",
+      "facts": [
+        "Headline: Germany's Deutsche Telekom to expand Munich AI data center by 20MW",
+        "Standfirst: Company adding B300 capacity after launching original cluster in February"
+      ]
+    }
   ],
   "dataHooks": [
-    {"id":"pipeline","dataset":"Coloprice pipeline tracker","url":"https://coloprice.com/data/data-center-pipeline.csv","asOf":"2026-11-11","facts":["United States: 180 projects, 33387 MW under construction, 15548 MW announced","Malaysia: 31 projects, 1492 MW under construction, 1642 MW announced","Germany: 20 projects, 367 MW under construction, 276 MW announced","Kazakhstan: 7 projects, 157 MW under construction, 0 MW announced"]}
+    {
+      "id": "pipeline",
+      "dataset": "Coloprice pipeline tracker",
+      "url": "https://coloprice.com/data/data-center-pipeline.csv",
+      "asOf": "2026-11-11",
+      "facts": [
+        "United States: 180 projects, 33387 MW under construction, 15548 MW announced",
+        "Malaysia: 31 projects, 1492 MW under construction, 1642 MW announced",
+        "Germany: 20 projects, 367 MW under construction, 276 MW announced",
+        "Kazakhstan: 7 projects, 157 MW under construction, 0 MW announced"
+      ]
+    }
   ],
   "derived": [
-    {"value":"5000","how":"5 GW x 1,000 = 5,000 MW, chart value for the Malaysia long-term target"}
+    {
+      "value": "5000",
+      "how": "5 GW x 1,000 = 5,000 MW, chart value for the Malaysia long-term target"
+    }
   ],
   "slides": [
-    {"type":"cover","layout":"standard","kicker":"Megawatt Watch","headline":"Texas files 756 MW. Malaysia aims at 5 GW","figure":{"value":"756 MW","label":"Integra, near Childress, Texas: application filed, $8bn project"},"refs":["dcd-quanah","wm-malaysia"]},
-    {"type":"chart","kind":"hbar","title":"Four announcements, MW as stated","unit":"Headline capacity · MW","data":[{"label":"Malaysia · long-term target (5 GW+)","value":5000},{"label":"Quanah, Texas · filed","value":756},{"label":"Kazakhstan · planned","value":480},{"label":"Munich · expansion","value":20}],"highlight":1,"valueFormat":{"suffix":" MW"},"caption":"Targets, filings and plans, not capacity in operation.","refs":["wm-malaysia","dcd-quanah","dcd-kazakh","dcd-munich"]},
-    {"type":"stat","label":"Integra · Quanah / Childress, Texas","value":"756 MW","unit":"Application filed","context":"An $8bn project near Childress. Per the DCD headline and standfirst; an application is not a permit.","refs":["dcd-quanah","wm-malaysia"]},
-    {"type":"stat","label":"SoftBank · Grab · PETROS · Malaysia","value":"5 GW+","unit":"Long-term target, Sarawak and Peninsular","context":"Initial seed capital of US$1.85 billion, deployed in stages as projects hit milestones. Sarawak starts with US$1 billion.","accent":false,"refs":["wm-malaysia"]},
-    {"type":"stat","label":"Boosteroid · Gaw Capital · Firebird AI","value":"480 MW","unit":"Planned, Kazakhstan","context":"Part of phase two of the “Data Center Valley” project, which targets 1GW by 2029 (DCD standfirst).","accent":false,"refs":["dcd-kazakh"]},
-    {"type":"list","title":"Pipeline in these markets","unit":"MW · under construction / announced","rows":[{"label":"United States","value":"33,387 / 15,548"},{"label":"Malaysia","value":"1,492 / 1,642","highlight":true},{"label":"Germany","value":"367 / 276"},{"label":"Kazakhstan","value":"157 / 0"}],"footnote":"Coloprice pipeline tracker, published capacity only.","refs":["pipeline"]},
-    {"type":"closing","text":"Published capacity, sourced and dated.","cta":"Full pipeline tables: link in bio"}
+    {
+      "type": "cover",
+      "layout": "standard",
+      "kicker": "Megawatt Watch",
+      "headline": "Texas files 756 MW. Malaysia aims at 5 GW",
+      "figure": {
+        "value": "756 MW",
+        "label": "Integra, near Childress, Texas: application filed, $8bn project"
+      },
+      "refs": [
+        "dcd-quanah",
+        "wm-malaysia"
+      ]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "Four announcements, MW as stated",
+      "unit": "Headline capacity · MW",
+      "data": [
+        {
+          "label": "Malaysia · long-term target (5 GW+)",
+          "value": 5000
+        },
+        {
+          "label": "Quanah, Texas · filed",
+          "value": 756
+        },
+        {
+          "label": "Kazakhstan · planned",
+          "value": 480
+        },
+        {
+          "label": "Munich · expansion",
+          "value": 20
+        }
+      ],
+      "highlight": 1,
+      "valueFormat": {
+        "suffix": " MW"
+      },
+      "caption": "Targets, filings and plans, not capacity in operation.",
+      "refs": [
+        "wm-malaysia",
+        "dcd-quanah",
+        "dcd-kazakh",
+        "dcd-munich"
+      ]
+    },
+    {
+      "type": "stat",
+      "label": "Integra · Quanah / Childress, Texas",
+      "value": "756 MW",
+      "unit": "Application filed",
+      "context": "An $8bn project near Childress. Per the DCD headline and standfirst; an application is not a permit.",
+      "refs": [
+        "dcd-quanah",
+        "wm-malaysia"
+      ]
+    },
+    {
+      "type": "photo",
+      "image": "tx-power-lines-snyder-scurry-county-texas",
+      "headline": "West Texas: open land and high-voltage lines",
+      "caption": "Transmission towers near Snyder, Scurry County. The region's grid, not the Quanah site.",
+      "focus": "center"
+    },
+    {
+      "type": "stat",
+      "label": "SoftBank · Grab · PETROS · Malaysia",
+      "value": "5 GW+",
+      "unit": "Long-term target, Sarawak and Peninsular",
+      "context": "Initial seed capital of US$1.85 billion, deployed in stages as projects hit milestones. Sarawak starts with US$1 billion.",
+      "accent": false,
+      "refs": [
+        "wm-malaysia"
+      ]
+    },
+    {
+      "type": "stat",
+      "label": "Boosteroid · Gaw Capital · Firebird AI",
+      "value": "480 MW",
+      "unit": "Planned, Kazakhstan",
+      "context": "Part of phase two of the “Data Center Valley” project, which targets 1GW by 2029 (DCD standfirst).",
+      "accent": false,
+      "refs": [
+        "dcd-kazakh"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Pipeline in these markets",
+      "unit": "MW · under construction / announced",
+      "rows": [
+        {
+          "label": "United States",
+          "value": "33,387 / 15,548"
+        },
+        {
+          "label": "Malaysia",
+          "value": "1,492 / 1,642",
+          "highlight": true
+        },
+        {
+          "label": "Germany",
+          "value": "367 / 276"
+        },
+        {
+          "label": "Kazakhstan",
+          "value": "157 / 0"
+        }
+      ],
+      "footnote": "Coloprice pipeline tracker, published capacity only.",
+      "refs": [
+        "pipeline"
+      ]
+    },
+    {
+      "type": "closing",
+      "text": "Published capacity, sourced and dated.",
+      "cta": "Full pipeline tables: link in bio"
+    }
   ],
   "caption": "756 MW: Integra has filed an application for an $8bn data center project near Childress, Texas.\n\nAlso on 10 Nov: SoftBank, Grab and PETROS set a long-term target of 5 GW or more in Malaysia, starting with US$1.85 billion in seed capital. A 480MW plan in Kazakhstan was announced, and Deutsche Telekom will add 20MW to its Munich AI site.\n\nFilings, targets and plans are not capacity. Our pipeline shows Malaysia at 1492 MW under construction and 1642 MW announced.\n\nData: Coloprice pipeline tracker, 11 Nov 2026. Sources on the last slide.\n\nWhich of these do you expect to energise first? Tell us below. Full tables: link in bio.",
-  "hashtags": ["#datacenter","#AIinfrastructure","#Malaysia","#Texas"]
+  "hashtags": [
+    "#datacenter",
+    "#AIinfrastructure",
+    "#Malaysia",
+    "#Texas"
+  ]
 }
