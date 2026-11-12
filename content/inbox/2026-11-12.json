@@ -1,0 +1,383 @@
+{
+  "generated": "2026-11-12T09:57:24.171Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 2
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 3
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 8
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 3
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 4
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 6
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 1
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 86,
+      "kept": 2
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 1
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 0
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 1
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 8
+    }
+  ],
+  "items": [
+    {
+      "id": "39bec61e7ac6",
+      "title": "Australia sets 30MW threshold for new data centre grid standards",
+      "url": "https://w.media/australia-sets-30mw-threshold-for-new-data-centre-grid-standards",
+      "date": "2026-11-11T23:58:57.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Australia’s energy market rule maker has introduced new technical standards for large inverter-based loads connecting to the National Electricity Market (NEM), including data centres, in a move intended to reduce the risk of large-scale disconnections during power system disturbances. The Australian Energy Market Commission (AEMC) published its final determination and rule on 12 November, establishing […]",
+      "figures": [
+        "30MW"
+      ],
+      "score": 11
+    },
+    {
+      "id": "17de57df6c68",
+      "title": "Google’s Utah Deal Puts Geothermal Power on the Data Center Map",
+      "url": "https://www.datacenterfrontier.com/energy/article/55418235/googles-utah-deal-puts-geothermal-power-on-the-data-center-map",
+      "date": "2026-11-11T19:47:54.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "Google has contracted for 396 MW of geothermal power in Utah and could buy roughly 600 MW more for a proposed campus. From Indonesia’s Kamojang field to an operating data center in Iceland, developers are testing where geothermal can support new computing capacity and how to deliver it.",
+      "figures": [
+        "396 MW",
+        "600 MW"
+      ],
+      "score": 11
+    },
+    {
+      "id": "62682dfb2123",
+      "title": "Kraft Group could build 900MW data center campus in Sutton, Massachusetts, investing $16 billion",
+      "url": "https://www.datacenterdynamics.com/en/news/kraft-group-could-build-900mw-data-center-campus-in-sutton-massachusetts-investing-16-billion",
+      "date": "2026-11-11T14:34:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Property would scale from an initial two buildings to ten by 2033",
+      "figures": [
+        "900MW",
+        "$16 billion"
+      ],
+      "score": 11
+    },
+    {
+      "id": "dd34ca3a46a1",
+      "title": "AirTrunk targets 610MW of new renewable generation in NSW",
+      "url": "https://w.media/airtrunk-targets-610mw-of-new-renewable-generation-in-nsw",
+      "date": "2026-11-11T23:00:23.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "AirTrunk and European Energy Australia have signed an exclusivity agreement to progress more than 600MW of renewable generation and over 800MWh of battery storage in New South Wales, as the data centre operator looks to support its growing electricity requirements, including its proposed Kurri Kurri campus. The proposed Hunter region developments comprise a 260MW solar […]",
+      "figures": [
+        "610MW",
+        "600MW",
+        "260MW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "7b024a016a29",
+      "title": "SoftBank books $3.7bn US data centre loss as it signs $1.85bn Malaysia deal",
+      "url": "https://capacityglobal.com/news/softbank-books-data-centre-loss",
+      "date": "2026-11-11T12:30:02.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "SoftBank Group has recorded a $3.7 billion loss on power equipment it bought in advance for US AI data centres. The post SoftBank books $3.7bn US data centre loss as it signs $1.85bn Malaysia deal appeared first on Capacity .",
+      "figures": [
+        "$3.7bn",
+        "$1.85bn",
+        "$3.7 billion"
+      ],
+      "score": 10
+    },
+    {
+      "id": "7c096464002c",
+      "title": "Energy storage firm Torus launches prefabricated modular data center product, raises $500m",
+      "url": "https://www.datacenterdynamics.com/en/news/energy-storage-firm-torus-launches-prefabricated-modular-data-center-product-raises-500m",
+      "date": "2026-11-12T07:54:57.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Funding to support scaling of Torus Foundry product",
+      "figures": [
+        "$500m"
+      ],
+      "score": 8
+    },
+    {
+      "id": "6204b8fd4b98",
+      "title": "Consortium to develop 400MW hyperscale AI data center in Oman",
+      "url": "https://www.datacenterdynamics.com/en/news/consortium-to-develop-400mw-hyperscale-ai-data-center-in-oman",
+      "date": "2026-11-11T17:13:28.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "US cloud computing firm Crusoe has indicated interest as a potential off-taker for the project’s data center capacity",
+      "figures": [
+        "400MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "3d8f87e9e84c",
+      "title": "Australia considers mandatory registration and new operating controls for data centres",
+      "url": "https://w.media/australia-considers-mandatory-registration-and-new-operating-controls-for-data-centres",
+      "date": "2026-11-12T00:06:29.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Australia’s energy market regulator is considering mandatory registration and new operational requirements for large data centres and other major electricity users, as it seeks to improve visibility of their power consumption and manage the impact of rapid changes in demand on the national grid. The Australian Energy Market Commission (AEMC) published a consultation paper on […]",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "26c0213345b2",
+      "title": "Data Center Interconnections in 2027 and Beyond: Build for Capacity, Design for Change",
+      "url": "https://datacenterpost.com/data-center-interconnections-in-2027-and-beyond-build-for-capacity-design-for-change",
+      "date": "2026-11-11T13:00:36.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Despite TL;DR announcements such as a $6 billion manufacturing deal, growing supplier backlogs and extending lead times require operators to secure capacity early while maintaining flexible component specifications. Network redundancy requires verifying physical route independence from outside plant through entrance facilities, as separate carrier contracts often share vulnerable single points of failure like shared […] The post Data Center Interconnections in 2027 and Beyond: Build for Capacity, Design for Change appeared first on Data Center POST .",
+      "figures": [
+        "$6 billion"
+      ],
+      "score": 7
+    },
+    {
+      "id": "cca81ecc49ce",
+      "title": "Deutsche Telekom to double AI computing capacity at Munich facility",
+      "url": "https://w.media/deutsche-telekom-to-double-ai-computing-capacity-at-munich-facility",
+      "date": "2026-11-12T04:03:38.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Deutsche Telekom, a German telecom company, will invest €250 million (US$ 277 million) in expanding its Industrial AI Cloud in Munich, adding NVIDIA Blackwell Ultra B300 graphics processing units (GPUs) to its existing infrastructure. The facility provides access to computing resources under European data protection, security and data-control requirements. According to a Deutsche Telekom press […]",
+      "figures": [
+        "250 million",
+        "$ 277 million"
+      ],
+      "score": 6
+    },
+    {
+      "id": "74d73eeb8c08",
+      "title": "Data centre boom to require thousands of Australian tradespeople – Oxford Economics",
+      "url": "https://w.media/data-centre-boom-to-require-thousands-of-australian-tradespeople-oxford-economics",
+      "date": "2026-11-11T23:26:54.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Australia’s data centre construction pipeline could require an average of 5,200 full-time equivalent electricians, 4,200 plumbers and pipe fitters, and 2,600 mechanical and HVAC technicians each year between 2026 and 2030, adding to competition for skilled workers across an already stretched infrastructure sector. The report warns that competition for specialised labour could push up wages […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "c5ebaa3afb6c",
+      "title": "SPECIAL FEATURE | Greenfield versus Brownfield: How data centers projects are evolving around the constraints",
+      "url": "https://w.media/special-feature-greenfield-versus-brownfield-how-data-centers-projects-are-evolving-around-the-constraints",
+      "date": "2026-11-11T15:00:47.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Data centers have evolved from single halls to campuses that span hundreds of acres. But as land and power become binding constraints, developers have been forced to rethink greenfield projects and consider adapting brownfields into something fit for purpose. Brendyn Lotz investigates how the binding constraints have forced developers to adapt their thinking around data […]",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "aa6fc54406ff",
+      "title": "Q&A | Liquid cooling is changing how we design, and deploy the entire rack: Matt McGuff, Jabil",
+      "url": "https://w.media/qa-liquid-cooling-is-changing-how-we-design-and-deploy-the-entire-rack-matt-mcguff-jabil",
+      "date": "2026-11-11T11:45:52.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "The excitement surrounding liquid cooling continues to grow with the burgeoning demand for AI infrastructure across the world. With rack densities increasing and AI factories being planned across all major markets, we caught up with Matt McGuff, Senior Director of Technology Strategy and System Architecture, Intelligent Infrastructure division, Jabil, to take a deep dive into […]",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "fc5c040b9ec5",
+      "title": "The Rural Shift in Data Center Development",
+      "url": "https://www.datacenterknowledge.com/data-center-site-selection/the-rural-shift-in-data-center-development",
+      "date": "2026-11-11T10:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "As pressure on power, land, and permitting intensifies, more data centers are moving to rural areas, making remote sites a growing part of future development.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "c5926f4bb794",
+      "title": "Proposal for AI data center at former paper mill in Maine resurfaces",
+      "url": "https://www.datacenterdynamics.com/en/news/proposal-for-ai-data-center-at-former-paper-mill-in-maine-resurfaces",
+      "date": "2026-11-11T14:30:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "JGT2 Redevelopment wants to develop the former site of the Androscoggin paper mill",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "1f70171f151c",
+      "title": "10-year data center moratorium approved in Ottawa, Kansas",
+      "url": "https://www.datacenterdynamics.com/en/news/10-year-data-center-moratorium-approved-in-ottawa-kansas",
+      "date": "2026-11-11T13:35:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "... but the hyperscale project that sparked protests had already been canned",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "bde7534c323b",
+      "title": "Quantinuum upgrades quantum computer at Riken, partners with SoftBank for AI data center deployments",
+      "url": "https://www.datacenterdynamics.com/en/news/quantinuum-upgrades-quantum-computer-at-riken-partners-with-softbank-for-ai-data-center-deployments",
+      "date": "2026-11-11T12:36:10.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Quantum firm upgrades Reimei system to H2 version",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "1a32cb1638e5",
+      "title": "CoreWeave CEO addresses \"volatility in the capital markets\" as company posts $3.66bn in revenue",
+      "url": "https://www.datacenterdynamics.com/en/news/coreweave-ceo-addresses-volatility-in-the-capital-markets-as-company-posts-366bn-in-revenue",
+      "date": "2026-11-12T08:16:38.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Spending continues to rise, but company assuages some concerns",
+      "figures": [
+        "$3.66bn"
+      ],
+      "score": 3
+    },
+    {
+      "id": "41b97a342388",
+      "title": "This is the Meta MetaRoCE Network Adapter",
+      "url": "https://www.servethehome.com/this-is-the-meta-metaroce-network-adapter",
+      "date": "2026-11-12T04:51:39.000Z",
+      "publisher": "ServeTheHome",
+      "feed": "sth",
+      "kind": "general",
+      "summary": "At OCP Summit 2026, Meta showed off its MetaRoCE adapter designed to scale to million-GPU training clusters The post This is the Meta MetaRoCE Network Adapter appeared first on ServeTheHome .",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "ff56d6937441",
+      "title": "CoreWeave Is Accelerating To Escape Velocity Thanks To GPU Shortages",
+      "url": "https://www.nextplatform.com/cloud/2026/11/12/coreweave-is-accelerating-to-escape-velocity-thanks-to-gpu-shortages/5309222",
+      "date": "2026-11-12T00:50:59.000Z",
+      "publisher": "The Next Platform",
+      "feed": "nextplatform",
+      "kind": "general",
+      "summary": "",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "f3cf1418c926",
+      "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart",
+      "date": "2026-11-11T23:36:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "DeepReinforce AI's Ornith-1.0-9B and Ornith-1.0-35B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models are part of the Ornith 1.0 family of open-source, self-scaffolding agentic coding models released under the MIT license, achieving state-of-the-art performance among open-source models of comparable size on coding benchmarks such as Terminal-Bench 2.1, SWE-Bench, NL2Repo, and OpenClaw. These models address different agentic coding challenges with specialized capabilities: Ornith-1.0-9B is a lightwei",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "83b98e83345c",
+      "title": "Google-backed Tapestry completes deployment of HyperQ AI platform for PJM's Cycle 1 interconnection review",
+      "url": "https://www.datacenterdynamics.com/en/news/google-backed-tapestry-completes-deployment-of-hyperq-ai-platform-for-pjms-cycle-1-interconnection-review",
+      "date": "2026-11-11T16:21:44.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Claims AI platform completed the process 60x faster than would take manually",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}

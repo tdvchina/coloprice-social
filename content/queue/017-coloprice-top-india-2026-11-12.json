@@ -1,0 +1,50 @@
+{
+  "slug": "coloprice-top-india-2026-11-12",
+  "theme": "dark",
+  "format": "coloprice-top",
+  "status": "ready",
+  "created": "2026-11-12",
+  "publishBy": "2026-11-26",
+  "topic": "Coloprice Top: India's largest data centre operators by tracked facilities",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "rank",
+      "dataset": "Coloprice operator rankings",
+      "url": "https://coloprice.com/data/operator-rankings.json",
+      "asOf": "2026-11-11",
+      "facts": [
+        "India: 310 tracked facilities, 86 operators (as of 2026-11-11)",
+        "India top 5 by tracked facilities — #1 ST Telemedia Global Data Centres: 33 tracked facilities, 585 MW published (31 of 33 sites publish MW), 12 cities",
+        "India top 5 by tracked facilities — #2 Nxtra Data: 26 tracked facilities, 234 MW published (19 of 26 sites publish MW), 12 cities",
+        "India top 5 by tracked facilities — #3 NTT Global Data Centers: 20 tracked facilities, 301 MW published (14 of 20 sites publish MW), 8 cities",
+        "India top 5 by tracked facilities — #4 Sify Technologies: 19 tracked facilities, 121 MW published (8 of 19 sites publish MW), 11 cities",
+        "India top 5 by tracked facilities — #5 CtrlS Datacenters: 16 tracked facilities, 252 MW published (10 of 16 sites publish MW), 11 cities"
+      ]
+    }
+  ],
+  "slides": [
+    {"type":"cover","layout":"compare","theme":"lime","kicker":"Coloprice Top","headline":"Who runs India's data centres?","items":[
+      {"label":"ST Telemedia GDC","value":"33","note":"tracked facilities, 12 cities","highlight":true},
+      {"label":"Nxtra Data","value":"26","note":"tracked facilities, 12 cities"}],
+      "verdict":{"value":"310","text":"tracked facilities, 86 operators in India"},"refs":["rank"]},
+    {"type":"chart","kind":"hbar","title":"India: top 5 operators by tracked facilities","unit":"Facilities in the Coloprice catalogue · 11 Nov 2026","data":[
+      {"label":"ST Telemedia GDC","value":33},
+      {"label":"Nxtra Data","value":26},
+      {"label":"NTT Global Data Centers","value":20},
+      {"label":"Sify Technologies","value":19},
+      {"label":"CtrlS Datacenters","value":16}],"highlight":0,"caption":"Joint ventures are counted separately.","refs":["rank"]},
+    {"type":"list","title":"Published MW behind the sites","unit":"MW published · sites publishing MW","rows":[
+      {"label":"ST Telemedia GDC","value":"585 MW","note":"31 of 33 sites","highlight":true},
+      {"label":"NTT Global Data Centers","value":"301 MW","note":"14 of 20 sites"},
+      {"label":"CtrlS Datacenters","value":"252 MW","note":"10 of 16 sites"},
+      {"label":"Nxtra Data","value":"234 MW","note":"19 of 26 sites"},
+      {"label":"Sify Technologies","value":"121 MW","note":"8 of 19 sites"}],"footnote":"MW = sum of capacity the operator publishes; not all sites do.","refs":["rank"]},
+    {"type":"stat","label":"Footprint in India","value":"585","unit":"MW published","context":"ST Telemedia Global Data Centres: 33 tracked facilities across 12 cities; 31 of 33 sites publish MW.","refs":["rank"]},
+    {"type":"stat","label":"A surprise at #5","value":"252","unit":"MW published","context":"CtrlS Datacenters has 16 tracked facilities but publishes more MW than Nxtra Data (234 MW, 26 facilities) and Sify (121 MW, 19 facilities).","accent":false,"refs":["rank"]},
+    {"type":"closing","text":"Operators ranked by tracked facilities in the Coloprice catalogue. A count, not an endorsement.","cta":"Follow for the weekly Coloprice Top."}
+  ],
+  "caption": "33 facilities: ST Telemedia Global Data Centres leads India in the Coloprice ranking of operators by tracked facilities.\n\nNxtra Data follows with 26, then NTT Global Data Centers with 20, Sify Technologies with 19 and CtrlS Datacenters with 16. India has 310 tracked facilities across 86 operators.\n\nFacility count is not capacity: CtrlS publishes 252 MW from 16 sites, more than Nxtra Data (234 MW from 26). Largest by tracked facilities, not an endorsement.\n\nData: Coloprice operator rankings, 11 Nov 2026. Sources on the last slide.\nFeatured: @nttdata\n\nIs facility count or published MW the better yardstick for India's colocation market? Full ranking: link in bio.",
+  "hashtags": ["#datacenter","#colocation","#India","#AIinfrastructure"],
+  "userTags": [{"username":"nttdata","slide":2}]
+}
