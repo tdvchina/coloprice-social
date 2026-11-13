@@ -1,0 +1,385 @@
+{
+  "generated": "2026-11-13T09:44:35.317Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 2
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 5
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 9
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 3
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 5
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 3
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 3
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 87,
+      "kept": 1
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 1
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 0
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 1
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 7
+    }
+  ],
+  "items": [
+    {
+      "id": "3bb37195848f",
+      "title": "Rowan Digital Infrastructure secures US$ 1.5 billion in additional financing",
+      "url": "https://w.media/rowan-digital-infrastructure-secures-us-1-5-billion-in-additional-financing",
+      "date": "2026-11-13T06:41:47.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Rowan Digital Infrastructure, a privately held data center developer and operator, has secured more than US$ 1.5 billion in additional financing capacity to support early-stage development across the company’s 5.5 GW US data center pipeline. The funds were secured through an expanded US$ 600 million term loan, a US$ 590 million revolving credit facility and […]",
+      "figures": [
+        "$ 1.5 billion",
+        "5.5 GW",
+        "$ 600 million",
+        "$ 590 million"
+      ],
+      "score": 12
+    },
+    {
+      "id": "f16efb985a76",
+      "title": "CDC files to develop 1.4GW data center campus in Kemps Creek, Australia",
+      "url": "https://www.datacenterdynamics.com/en/news/cdc-files-to-develop-14gw-data-center-campus-in-kemps-creek-australia",
+      "date": "2026-11-12T16:55:33.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company refiles plans at latest Sydney development",
+      "figures": [
+        "1.4GW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "c16135024458",
+      "title": "Syntys breaks ground on new 20 MW data center in Qatar",
+      "url": "https://w.media/syntys-breaks-ground-on-new-20-mw-data-center-in-qatar",
+      "date": "2026-11-13T09:43:04.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Middle Eastern digital infrastructure provider Syntys has broken ground on a new 20 MW data center development in Qatar. The facility is being developed on an existing Syntys campus, where power, fiber and an operations team are already established. In a press release, Synths said that this facility features purpose-built capacity for hyperscale, cloud, AI […]",
+      "figures": [
+        "20 MW"
+      ],
+      "score": 9
+    },
+    {
+      "id": "3f55e0e1a9ec",
+      "title": "Nebius signs $12bn in deals for Q3, all deals reportedly cover its capex",
+      "url": "https://www.datacenterdynamics.com/en/news/nebius-signs-12bn-in-deals-for-q3-all-deals-reportedly-cover-its-capex",
+      "date": "2026-11-12T16:45:54.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company also notes delays to Microsoft data center project",
+      "figures": [
+        "$12bn"
+      ],
+      "score": 8
+    },
+    {
+      "id": "b177a372a693",
+      "title": "Texas holds 56% of the US data centre capacity facing a governor’s pause",
+      "url": "https://capacityglobal.com/news/texas-holds-56-of-the-us-data-centre-capacity-facing-a-governors-pause",
+      "date": "2026-11-12T12:32:24.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Cleanview counts 158.6GW of planned US data centre capacity in states whose governors back a pause. The post Texas holds 56% of the US data centre capacity facing a governor’s pause appeared first on Capacity .",
+      "figures": [
+        "158.6GW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "64b5a272b522",
+      "title": "Malaysia raises by 10 times penalty for data center phantom power demand: Report",
+      "url": "https://w.media/malaysia-raises-by-10-times-penalty-for-data-center-phantom-power-demand-report",
+      "date": "2026-11-12T10:23:10.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Malaysia has hiked the connected load charge (CLC) from RM8.50 to RM89.64 per kilowatt, a dramatic 10.55 times or 955 per cent higher to deter phantom or speculative power demand by data centers, local reports said yesterday quoting Investment, Trade and Industry Minister Datuk Seri Johari Abdul Ghani. Phantom demand is power capacity reserved by […]",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "4058949258d2",
+      "title": "ITW Asia 2026: 8 sessions to watch in Singapore",
+      "url": "https://capacityglobal.com/news/itw-asia-2026-8-sessions-to-watch-in-singapore",
+      "date": "2026-11-12T20:38:46.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Power, capital and resilience dominate the agenda as more than 1,700 connectivity and data centre leaders head to Singapore for ITW Asia and Datacloud Asia, 1-3 December 2026. The post ITW Asia 2026: 8 sessions to watch in Singapore appeared first on Capacity .",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "36df203f4932",
+      "title": "SpaceX developing custom Nvidia Vera Rubin rack dubbed Kessel for its orbital data centers – report",
+      "url": "https://www.datacenterdynamics.com/en/news/spacex-developing-custom-nvidia-vera-rubin-rack-dubbed-kessel-for-its-orbital-data-centers-report",
+      "date": "2026-11-12T16:24:12.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Research firms says while underlying configuration will remain the same, AI company is switching up the PCB",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "02298e92c198",
+      "title": "OpenAI faces civil racketeering charges over $30bn data center planned in Effingham County, Georgia",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-faces-civil-racketeering-charges-over-30bn-data-center-planned-in-effingham-county-georgia",
+      "date": "2026-11-12T15:47:27.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Residents unhappy about being kept in the dark",
+      "figures": [
+        "$30bn"
+      ],
+      "score": 7
+    },
+    {
+      "id": "5ff51e734e78",
+      "title": "US to restrict Chinese remote access to AI chips from Southeast Asian data centers: Report",
+      "url": "https://w.media/us-to-restrict-chinese-remote-access-to-ai-chips-from-southeast-asian-data-centers-report",
+      "date": "2026-11-12T12:33:16.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Data centers in Southeast Asia including Malaysia, Singapore, Thailand and Indonesia are among seven countries that will soon be restricted by the US from allowing Chinese AI firms to remotely access their advanced AI chips, The Information reports today quoting people familiar with the process. The other three countries are Brazil, Norway and South Africa. The […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "95655665d229",
+      "title": "Sabey signs 43.5MW PPA in Texas",
+      "url": "https://www.datacenterdynamics.com/en/news/sabey-signs-435mw-ppa-in-texas",
+      "date": "2026-11-12T17:20:39.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company to offtake from CIP’s Greasewood solar farm",
+      "figures": [
+        "43.5MW"
+      ],
+      "score": 5
+    },
+    {
+      "id": "58ff0c9370fc",
+      "title": "Advancing thermal management for the AI era",
+      "url": "https://www.datacenterdynamics.com/en/magazines/advancing-thermal-management-for-the-ai-era",
+      "date": "2026-11-12T16:25:14.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Taking a direct approach to liquid cooling in high-density data centers",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "98b7cf9cd412",
+      "title": "New Approaches to Data Center Power Procurement",
+      "url": "https://www.datacenterknowledge.com/energy-power-supply/new-approaches-to-data-center-power-procurement",
+      "date": "2026-11-12T15:34:59.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "As grid limits tighten, data centers may need to diversify power strategies to secure reliable capacity, control costs, and support faster growth.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "e21d95f0a895",
+      "title": "UK Government offers £180m for AI data centre – but there’s a catch",
+      "url": "https://datacentrereview.com/2026/11/uk-government-offers-180m-for-ai-data-centre-but-theres-a-catch",
+      "date": "2026-11-12T13:02:37.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "The UK Government has opened a funding competition worth up to £180 million to establish a data centre for its next national AI supercomputer.",
+      "figures": [
+        "180 million"
+      ],
+      "score": 5
+    },
+    {
+      "id": "c4af93cc6401",
+      "title": "Why supply chain resilience could decide the future of sustainable AI",
+      "url": "https://datacentrereview.com/2026/11/why-supply-chain-resilience-could-decide-the-future-of-sustainable-ai",
+      "date": "2026-11-13T08:00:00.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "Blue Yonder’s Saskia van Gendt explains why supply chain resilience must be built into procurement if greener data centres are to proliferate.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "ee4ff4492174",
+      "title": "Huang Resigns: Nvidia's AI Infrastructure Roadmap in Question",
+      "url": "https://www.datacenterknowledge.com/data-center-chips/huang-resigns-nvidia-s-ai-infrastructure-roadmap-in-question",
+      "date": "2026-11-12T21:25:45.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "The departure of Jensen Huang without a clear long-term successor could mean turmoil at the data center economy bellwether, analysts say.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "f13f7200a779",
+      "title": "Forest County Potawatomi Community seeks to expand Milwaukee data center",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-pledges-to-cover-power-costs-for-data-center-buildout",
+      "date": "2026-11-12T17:10:30.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Challenges Milwaukee's data center moratorium",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "50b16a0de99d",
+      "title": "Telenor Sverige launches US$ 83.6 million mandatory offer for Bahnhof",
+      "url": "https://w.media/telenor-sverige-launches-us-83-6-million-mandatory-offer-for-bahnhof",
+      "date": "2026-11-12T15:07:23.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Telenor Sverige AB, a Swedish telecommunications provider, has completed the acquisition of a controlling stake in Swedish telecommunications operator Bahnhof AB and made an unconditional, mandatory offer of SEK 62 (US$ 6.21) per share to the remaining shareholders, for a total consideration of SEK 834 million (US$ 83.58 million). Telenor said in a press release […]",
+      "figures": [
+        "$ 83.6 million",
+        "$ 6.21",
+        "834 million",
+        "$ 83.58 million"
+      ],
+      "score": 4
+    },
+    {
+      "id": "5d539b31564d",
+      "title": "Jensen Huang Resigns as NVIDIA CEO, Sending Shockwaves Through AI Data Center Industry",
+      "url": "https://www.datacenterfrontier.com/machine-learning/news/55418409/jensen-huang-resigns-as-nvidia-ceo-sending-shockwaves-through-ai-data-center-industry",
+      "date": "2026-11-12T14:24:51.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "NVIDIA names CFO Colette Kress interim CEO as its co-founder exits amid a widening corporate and national security controversy, raising new questions about leadership and execution across the global AI infrastructure buildout.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "8ab217795970",
+      "title": "Telia to acquire Nordic MVNO Telavox for $381m",
+      "url": "https://www.datacenterdynamics.com/en/news/telia-to-acquire-nordic-mvno-telavox-for-381m",
+      "date": "2026-11-12T12:25:41.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Deal expected to close in Q1 2027",
+      "figures": [
+        "$381m"
+      ],
+      "score": 4
+    },
+    {
+      "id": "d2092a94fffe",
+      "title": "UK chip startup Fractile valued at $7bn following $720m Series C funding round",
+      "url": "https://www.datacenterdynamics.com/en/news/uk-chip-startup-fractile-valued-at-7bn-following-720m-series-c-funding-round",
+      "date": "2026-11-12T12:17:54.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The UK government’s Sovereign AI venture fund and the British Business Bank both participated in the round",
+      "figures": [
+        "$7bn",
+        "$720m"
+      ],
+      "score": 4
+    },
+    {
+      "id": "561237136e83",
+      "title": "Nvidia cofounder Jensen Huang steps down as CEO",
+      "url": "https://w.media/nvidia-cofounder-jensen-huang-steps-down-as-ceo",
+      "date": "2026-11-12T14:35:17.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "The Board of Directors of GPU maker and AI giant Nvidia met today to discuss the fate of President, Chief Executive Officer, and board member Jensen Huang. Following that meeting it has been announced that Huang has resigned from his positions, effective immediately In his place, current Nvidia Executive Vice President and Chief Financial Officer […]",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}

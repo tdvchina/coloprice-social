@@ -8,3 +8,4 @@ Format: `YYYY-MM-DD · <slug> · <missing photo>`
 2026-11-12 · coloprice-top-india-2026-11-12 · Nxtra Data, NTT, Sify or CtrlS data centre building in India
 2026-11-12 · megawatt-watch-2026-11-11 · data centre campus or grid in Johor / Sarawak, Malaysia
 2026-11-12 · megawatt-watch-2026-11-11 · data centre or substation in Kazakhstan
+2026-11-13 · deal-sheet-rowan-financing-2026-11-13 · Rowan Digital Infrastructure campus (US)

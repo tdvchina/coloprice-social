@@ -1,0 +1,115 @@
+{
+  "slug": "deal-sheet-rowan-financing-2026-11-13",
+  "theme": "dark",
+  "format": "deal-sheet",
+  "status": "ready",
+  "created": "2026-11-13",
+  "publishBy": "2026-11-20",
+  "topic": "Deal Sheet: Rowan Digital Infrastructure — $1.5B нового финансирования под пайплайн 5.5 GW",
+  "photoGap": "Rowan Digital Infrastructure campus (US)",
+  "sources": [
+    {
+      "id": "wm-rowan",
+      "publisher": "W.Media",
+      "title": "Rowan Digital Infrastructure secures US$ 1.5 billion in additional financing",
+      "url": "https://w.media/rowan-digital-infrastructure-secures-us-1-5-billion-in-additional-financing",
+      "date": "2026-11-13",
+      "facts": [
+        "Rowan Digital Infrastructure secured over US$1.5 billion in additional financing",
+        "Term loan expanded by US$600 million, raising the Apterra facility from US$300 million to US$900 million",
+        "New revolving credit facility of US$590 million",
+        "New letter of credit facility of US$355 million",
+        "The revolver can grow to US$2 billion and the letter of credit facility to US$1 billion, subject to conditions",
+        "Term loan expansion led by Apterra Infrastructure Capital; revolver and letter of credit led by Citibank, with Mizuho, MUFG, Goldman Sachs Bank USA, Societe Generale, SMBC and Huntington",
+        "Purpose: early-stage development (land acquisition, power procurement, long-lead equipment orders), liquidity, and collateral such as utility interconnection deposits",
+        "5.5 GW US data center pipeline; more than 1.2 GW already contracted to technology companies",
+        "More than US$8 billion raised from over 40 lenders in the past 18 months",
+        "Original Apterra facility set up in September 2025"
+      ]
+    }
+  ],
+  "dataHooks": [
+    {
+      "id": "pipeline",
+      "dataset": "Coloprice pipeline tracker",
+      "url": "https://coloprice.com/data/data-center-pipeline.csv",
+      "asOf": "2026-11-13",
+      "facts": [
+        "World: 606 projects, 51832 MW under construction, 37205 MW announced (published capacity only)",
+        "United States: 183 projects, 34287 MW under construction, 15943 MW announced"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "poster",
+      "kicker": "Deal Sheet",
+      "headline": "Rowan lines up fresh debt before it builds",
+      "figure": { "value": "$1.5B", "label": "new financing · 5.5 GW US pipeline" },
+      "refs": ["wm-rowan"]
+    },
+    {
+      "type": "chart",
+      "kind": "bar",
+      "title": "What the new money is made of",
+      "unit": "USD millions · as reported",
+      "data": [
+        { "label": "Term loan", "value": 600 },
+        { "label": "Revolver", "value": 590 },
+        { "label": "LC facility", "value": 355 }
+      ],
+      "highlight": "Term loan",
+      "valueFormat": { "prefix": "$", "suffix": "M" },
+      "caption": "Sums to about $1.5B; the term loan is an expansion of an existing facility.",
+      "refs": ["wm-rowan"]
+    },
+    {
+      "type": "stat",
+      "label": "Apterra term loan",
+      "value": "$900M",
+      "unit": "up from $300M set up in Sept 2025",
+      "context": "The $600M expansion was led by Apterra Infrastructure Capital. Citibank leads the new revolver and letter of credit lines, with six other banks.",
+      "refs": ["wm-rowan"]
+    },
+    {
+      "type": "stat",
+      "label": "What it funds",
+      "value": "Pre-build",
+      "unit": "land, power procurement, long-lead equipment",
+      "context": "The letter of credit line covers collateral such as utility interconnection deposits. Revolver can grow to $2B and the LC line to $1B, subject to conditions.",
+      "accent": false,
+      "refs": ["wm-rowan"]
+    },
+    {
+      "type": "stat",
+      "label": "Rowan pipeline",
+      "value": "5.5 GW",
+      "unit": "US pipeline · 1.2 GW+ contracted",
+      "context": "More than 1.2 GW is already contracted to technology companies. Rowan reports over $8B raised from over 40 lenders in the past 18 months.",
+      "accent": false,
+      "refs": ["wm-rowan"]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "US pipeline context",
+      "unit": "MW · published capacity only",
+      "data": [
+        { "label": "US under construction", "value": 34287 },
+        { "label": "US announced", "value": 15943 }
+      ],
+      "highlight": "US under construction",
+      "valueFormat": { "suffix": " MW" },
+      "caption": "183 US projects tracked; world total is 51832 MW under construction.",
+      "refs": ["pipeline"]
+    },
+    {
+      "type": "closing",
+      "text": "Debt is arriving before the buildings: land, power and equipment are now financed first.",
+      "cta": "Follow @coloprice"
+    }
+  ],
+  "caption": "$1.5B: Rowan Digital Infrastructure's new financing, raised before most of its capacity is built.\n\nA $600 million term loan expansion takes the Apterra facility from $300 million to $900 million. A new $590 million revolver and a $355 million letter of credit line were led by Citibank. Funds go to land, power procurement, long-lead equipment and interconnection deposits.\n\nRowan reports a 5.5 GW US pipeline, with more than 1.2 GW contracted. Our tracker lists 34287 MW under construction across 183 US projects.\n\nData: Coloprice pipeline tracker, 13 Nov 2026. Sources: W.Media.\n\nIs pre-construction debt the new normal for AI campuses? Tell us in the comments. Sources: link in bio.",
+  "hashtags": ["#datacenter", "#AIinfrastructure", "#hyperscale", "#USA"]
+}
