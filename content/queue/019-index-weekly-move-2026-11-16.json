@@ -1,0 +1,118 @@
+{
+  "slug": "index-weekly-move-2026-11-16",
+  "format": "index-weekly-move",
+  "status": "ready",
+  "created": "2026-11-16",
+  "publishBy": "2026-11-30",
+  "theme": "dark",
+  "topic": "Index Weekly Move: US metro colo ladder, Silicon Valley $238 vs Dallas $173, Chicago +14.7% YoY",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "colo-us",
+      "dataset": "Coloprice Colocation Index",
+      "url": "https://coloprice.com/data/colocation-price-index.json",
+      "asOf": "2026-10-01",
+      "facts": [
+        "Wholesale, USD per kW per month: Silicon Valley $238; Chicago $215; Los Angeles (Southern California) $213; New York Tri-State $213; Hillsboro (Portland) $205; Phoenix $195; Atlanta $193; Houston $180; Dallas–Fort Worth $173; Northern Virginia (Ashburn) $173",
+        "Chicago: wholesale $215/kW/month, +14.7% YoY (underlying source: CBRE, Global Data Center Trends 2026)",
+        "North America (avg): wholesale $196/kW/month, +6.5% YoY (underlying source: CBRE, North America Data Center Trends H2 2025)",
+        "Northern Virginia (Ashburn): wholesale $173/kW/month, +1.5% YoY (CBRE, North America Data Center Trends H1 2026, 10MW+ blocks)",
+        "Most US metros are 250–500 kW asking rates (CBRE, North America Data Center Trends H1 2026, 27 Aug 2026)"
+      ]
+    },
+    {
+      "id": "colo-hist",
+      "dataset": "Coloprice price history",
+      "url": "https://coloprice.com/history/",
+      "asOf": "2026-11-09",
+      "facts": [
+        "North America (avg) wholesale, USD per kW per month: 2023-12 148; 2024-06 163; 2024-12 174; 2025-06 184; 2025-12 196; 2026-11 196"
+      ]
+    }
+  ],
+  "derived": [
+    { "value": "65", "how": "238 - 173 = 65" },
+    { "value": "1.4x", "how": "238 / 173 = 1.38, rounded to 1.4x" },
+    { "value": "+32%", "how": "196 / 148 = 1.324, i.e. +32% from Dec 2023 to Dec 2025" }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "photo",
+      "image": "dc-ashburn-data-center-alley-aerial",
+      "kicker": "Coloprice Index",
+      "headline": "What a US kW of colo costs, metro by metro",
+      "figure": { "value": "$173", "label": "Northern Virginia, per kW per month, wholesale" },
+      "refs": ["colo-us"]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "US wholesale colo, by metro",
+      "unit": "USD per kW per month · Coloprice Index",
+      "data": [
+        { "label": "Silicon Valley", "value": 238 },
+        { "label": "Chicago", "value": 215 },
+        { "label": "Los Angeles", "value": 213 },
+        { "label": "New York Tri-State", "value": 213 },
+        { "label": "Hillsboro", "value": 205 },
+        { "label": "Phoenix", "value": 195 },
+        { "label": "Atlanta", "value": 193 },
+        { "label": "Dallas–Fort Worth", "value": 173 }
+      ],
+      "highlight": 0,
+      "valueFormat": { "prefix": "$", "decimals": 0 },
+      "caption": "Northern Virginia also reads $173 (10MW+ blocks).",
+      "refs": ["colo-us"]
+    },
+    {
+      "type": "compare",
+      "title": "Dearest vs cheapest US metro",
+      "unit": "Wholesale · USD per kW per month",
+      "items": [
+        { "label": "Silicon Valley", "value": "$238", "note": "per kW per month", "highlight": true },
+        { "label": "Dallas–Fort Worth", "value": "$173", "note": "per kW per month" }
+      ],
+      "verdict": { "value": "1.4x", "text": "$65 more per kW in Silicon Valley" },
+      "refs": ["colo-us"]
+    },
+    {
+      "type": "stat",
+      "label": "Fastest YoY mover · Chicago",
+      "value": "+14.7%",
+      "unit": "year on year, wholesale $215 per kW per month",
+      "context": "North America on average: +6.5% YoY at $196. Northern Virginia: +1.5% YoY.",
+      "refs": ["colo-us"]
+    },
+    {
+      "type": "chart",
+      "kind": "line",
+      "title": "North America average, wholesale",
+      "unit": "USD per kW per month · Coloprice Index",
+      "data": [
+        { "label": "Dec 2023", "value": 148 },
+        { "label": "Jun 2024", "value": 163 },
+        { "label": "Dec 2024", "value": 174 },
+        { "label": "Jun 2025", "value": 184 },
+        { "label": "Dec 2025", "value": 196 },
+        { "label": "Nov 2026", "value": 196 }
+      ],
+      "valueFormat": { "prefix": "$", "decimals": 0 },
+      "caption": "+32% from Dec 2023 to Dec 2025, flat since.",
+      "refs": ["colo-hist"]
+    },
+    {
+      "type": "stat",
+      "label": "Reading the ladder",
+      "value": "10MW+",
+      "unit": "blocks in Northern Virginia vs 250–500 kW elsewhere",
+      "context": "Northern Virginia's $173 is a 10MW+ block rate; most other US metros are 250–500 kW asking rates. Compare with care.",
+      "accent": false,
+      "refs": ["colo-us"]
+    },
+    { "type": "closing", "text": "Independent, sourced numbers on the price of data centres and AI compute.", "cta": "Full index and history at coloprice.com" }
+  ],
+  "caption": "$173 per kW per month: wholesale colo in Northern Virginia, the cheapest end of the US ladder on the Coloprice Index.\n\nSilicon Valley sits at $238, so a kW costs 1.4x more there than in Dallas–Fort Worth at $173. Chicago is the fastest riser at +14.7% YoY. The North America average is $196, up 32% from Dec 2023 to Dec 2025 and flat since. Note the mixed bases: 10MW+ blocks in Northern Virginia, 250–500 kW asking rates elsewhere.\n\nData: Coloprice Colocation Index, Oct 2026 (CBRE underlying). Sources on the last slide.\n\nWhich US metro would you expect to move next? Tell us below. Full table: link in bio.",
+  "hashtags": ["#datacenter", "#colocation", "#AIinfrastructure", "#NorthernVirginia"]
+}

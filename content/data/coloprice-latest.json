@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T09:44:37.367Z",
+ "generated": "2026-11-16T09:55:30.063Z",
  "base": "https://coloprice.com",
  "mode": "remote",
  "license": "Coloprice data: CC BY 4.0 (own data). Read-only snapshot.",
@@ -1302,36 +1302,36 @@
    "citeAs": "Coloprice pipeline tracker",
    "url": "https://coloprice.com/data/data-center-pipeline.csv",
    "page": "https://coloprice.com/pipeline/",
-   "asOf": "2026-11-13",
+   "asOf": "2026-11-16",
    "note": "Coloprice — Data Center Construction Pipeline · published capacity only · CC BY 4.0 · cite coloprice.com/pipeline/",
    "rows": [
     {
      "level": "total",
      "name": "World",
-     "projects": 606,
-     "underConstructionMw": 51832,
-     "announcedMw": 37205
+     "projects": 611,
+     "underConstructionMw": 51872,
+     "announcedMw": 41205
     },
     {
      "level": "country",
      "name": "United States",
-     "projects": 183,
+     "projects": 184,
      "underConstructionMw": 34287,
-     "announcedMw": 15943
+     "announcedMw": 17943
     },
     {
      "level": "country",
      "name": "India",
-     "projects": 55,
-     "underConstructionMw": 2604,
-     "announcedMw": 4771
+     "projects": 57,
+     "underConstructionMw": 2644,
+     "announcedMw": 6371
     },
     {
      "level": "country",
      "name": "Australia",
-     "projects": 22,
+     "projects": 23,
      "underConstructionMw": 1010,
-     "announcedMw": 6247
+     "announcedMw": 6447
     },
     {
      "level": "country",
@@ -1356,6 +1356,13 @@
     },
     {
      "level": "country",
+     "name": "Japan",
+     "projects": 24,
+     "underConstructionMw": 1483,
+     "announcedMw": 462
+    },
+    {
+     "level": "country",
      "name": "United Kingdom",
      "projects": 13,
      "underConstructionMw": 599,
@@ -1367,13 +1374,6 @@
      "projects": 9,
      "underConstructionMw": 1327,
      "announcedMw": 420
-    },
-    {
-     "level": "country",
-     "name": "Japan",
-     "projects": 23,
-     "underConstructionMw": 1483,
-     "announcedMw": 262
     },
     {
      "level": "country",
@@ -1802,7 +1802,7 @@
    "citeAs": "Coloprice M&A tracker",
    "url": "https://coloprice.com/data/transactions.csv",
    "page": "https://coloprice.com/transactions/",
-   "asOf": "2026-11-13",
+   "asOf": "2026-11-16",
    "deals": [
     {
      "target": "Aligned Data Centers",
@@ -2433,11 +2433,11 @@
    "url": "https://coloprice.com/data/operator-rankings.json",
    "page": "https://coloprice.com/companies/",
    "license": "CC BY 4.0 — free to use with a visible link to https://coloprice.com",
-   "asOf": "2026-11-12",
+   "asOf": "2026-11-15",
    "method": "Counts of facilities tracked in the Coloprice catalogue per operator (one company = one canonical name; joint ventures counted separately). MW = sum of published capacity only; mwCount = how many of the operator’s sites publish MW.",
    "totals": {
-    "operators": 2302,
-    "facilities": 6149,
+    "operators": 2305,
+    "facilities": 6155,
     "countries": 184
    },
    "global": {
@@ -2846,6 +2846,16 @@
      },
      {
       "rank": 16,
+      "name": "MARA",
+      "slug": "mara",
+      "page": "https://coloprice.com/providers/mara/",
+      "facilities": 1,
+      "countries": 1,
+      "mw": 2000,
+      "mwCount": 1
+     },
+     {
+      "rank": 17,
       "name": "Switch",
       "slug": "switch",
       "page": "https://coloprice.com/providers/switch/",
@@ -2855,7 +2865,7 @@
       "mwCount": 7
      },
      {
-      "rank": 17,
+      "rank": 18,
       "name": "NEXTDC",
       "slug": "nextdc",
       "page": "https://coloprice.com/providers/nextdc/",
@@ -2865,7 +2875,7 @@
       "mwCount": 28
      },
      {
-      "rank": 18,
+      "rank": 19,
       "name": "Brookfield (developer/operator) / NextEra Energy",
       "slug": "brookfield-developer-operator-nextera-energy",
       "page": "https://coloprice.com/providers/brookfield-developer-operator-nextera-energy/",
@@ -2875,7 +2885,7 @@
       "mwCount": 1
      },
      {
-      "rank": 19,
+      "rank": 20,
       "name": "Princeton Digital Group",
       "slug": "princeton-digital-group",
       "page": "https://coloprice.com/providers/princeton-digital-group/",
@@ -2885,7 +2895,7 @@
       "mwCount": 15
      },
      {
-      "rank": 20,
+      "rank": 21,
       "name": "NTT Global Data Centers",
       "slug": "ntt-global-data-centers",
       "page": "https://coloprice.com/providers/ntt-global-data-centers/",
@@ -2895,7 +2905,7 @@
       "mwCount": 64
      },
      {
-      "rank": 21,
+      "rank": 22,
       "name": "CyrusOne",
       "slug": "cyrusone",
       "page": "https://coloprice.com/providers/cyrusone/",
@@ -2905,7 +2915,7 @@
       "mwCount": 46
      },
      {
-      "rank": 22,
+      "rank": 23,
       "name": "Galaxy Digital (tenant: CoreWeave)",
       "slug": "galaxy-digital-tenant-coreweave",
       "page": "https://coloprice.com/providers/galaxy-digital-tenant-coreweave/",
@@ -2915,7 +2925,17 @@
       "mwCount": 1
      },
      {
-      "rank": 23,
+      "rank": 24,
+      "name": "Fortune Hospitality & Infra",
+      "slug": "fortune-hospitality-infra",
+      "page": "https://coloprice.com/providers/fortune-hospitality-infra/",
+      "facilities": 1,
+      "countries": 1,
+      "mw": 1600,
+      "mwCount": 1
+     },
+     {
+      "rank": 25,
       "name": "Ada Infrastructure",
       "slug": "ada-infrastructure",
       "page": "https://coloprice.com/providers/ada-infrastructure/",
@@ -2923,34 +2943,14 @@
       "countries": 4,
       "mw": 1561,
       "mwCount": 9
-     },
-     {
-      "rank": 24,
-      "name": "Zerra DC",
-      "slug": "zerra-dc",
-      "page": "https://coloprice.com/providers/zerra-dc/",
-      "facilities": 1,
-      "countries": 1,
-      "mw": 1440,
-      "mwCount": 1
-     },
-     {
-      "rank": 25,
-      "name": "Compass Datacenters",
-      "slug": "compass-datacenters",
-      "page": "https://coloprice.com/providers/compass-datacenters/",
-      "facilities": 17,
-      "countries": 3,
-      "mw": 1358,
-      "mwCount": 9
      }
     ]
    },
    "byCountry": {
     "usa": {
      "countryName": "United States",
-     "facilities": 1349,
-     "operatorsTotal": 338,
+     "facilities": 1350,
+     "operatorsTotal": 339,
      "page": "https://coloprice.com/companies/usa/",
      "operators": [
       {
@@ -3007,8 +3007,8 @@
     },
     "india": {
      "countryName": "India",
-     "facilities": 310,
-     "operatorsTotal": 86,
+     "facilities": 312,
+     "operatorsTotal": 88,
      "page": "https://coloprice.com/companies/india/",
      "operators": [
       {
@@ -3413,7 +3413,7 @@
     },
     "australia": {
      "countryName": "Australia",
-     "facilities": 173,
+     "facilities": 174,
      "operatorsTotal": 57,
      "page": "https://coloprice.com/companies/australia/",
      "operators": [
@@ -3459,13 +3459,13 @@
       },
       {
        "rank": 5,
-       "name": "DigiCo REIT",
-       "slug": "digico-reit",
-       "page": "https://coloprice.com/providers/digico-reit/",
+       "name": "Macquarie Data Centres",
+       "slug": "macquarie-data-centres",
+       "page": "https://coloprice.com/providers/macquarie-data-centres/",
        "facilities": 8,
-       "mw": 62,
-       "mwCount": 8,
-       "cities": 4
+       "mw": 267,
+       "mwCount": 5,
+       "cities": 3
       }
      ]
     },
@@ -3529,7 +3529,7 @@
     },
     "japan": {
      "countryName": "Japan",
-     "facilities": 149,
+     "facilities": 150,
      "operatorsTotal": 38,
      "page": "https://coloprice.com/companies/japan/",
      "operators": [
@@ -5615,6 +5615,64 @@
       }
      ]
     },
+    "kazakhstan": {
+     "countryName": "Kazakhstan",
+     "facilities": 24,
+     "operatorsTotal": 16,
+     "page": "https://coloprice.com/companies/kazakhstan/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Transtelecom",
+       "slug": "transtelecom",
+       "page": "https://coloprice.com/providers/transtelecom/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      },
+      {
+       "rank": 2,
+       "name": "Kazakhtelecom",
+       "slug": "kazakhtelecom",
+       "page": "https://coloprice.com/providers/kazakhtelecom/",
+       "facilities": 3,
+       "mw": 4,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 3,
+       "name": "Freedom Data Centers (Freedom Holding Corp.)",
+       "slug": "freedom-data-centers-freedom-holding-corp",
+       "page": "https://coloprice.com/providers/freedom-data-centers-freedom-holding-corp/",
+       "facilities": 2,
+       "mw": 7,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 4,
+       "name": "Kazteleport (Halyk Group)",
+       "slug": "kazteleport-halyk-group",
+       "page": "https://coloprice.com/providers/kazteleport-halyk-group/",
+       "facilities": 2,
+       "mw": 4,
+       "mwCount": 2,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "Kaspi Cloud",
+       "slug": "kaspi-cloud",
+       "page": "https://coloprice.com/providers/kaspi-cloud/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
     "pakistan": {
      "countryName": "Pakistan",
      "facilities": 24,
@@ -5667,64 +5725,6 @@
        "slug": "higher-education-commission-pakistan",
        "page": "https://coloprice.com/providers/higher-education-commission-pakistan/",
        "facilities": 1,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      }
-     ]
-    },
-    "kazakhstan": {
-     "countryName": "Kazakhstan",
-     "facilities": 23,
-     "operatorsTotal": 16,
-     "page": "https://coloprice.com/companies/kazakhstan/",
-     "operators": [
-      {
-       "rank": 1,
-       "name": "Transtelecom",
-       "slug": "transtelecom",
-       "page": "https://coloprice.com/providers/transtelecom/",
-       "facilities": 4,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 2
-      },
-      {
-       "rank": 2,
-       "name": "Freedom Data Centers (Freedom Holding Corp.)",
-       "slug": "freedom-data-centers-freedom-holding-corp",
-       "page": "https://coloprice.com/providers/freedom-data-centers-freedom-holding-corp/",
-       "facilities": 2,
-       "mw": 7,
-       "mwCount": 1,
-       "cities": 2
-      },
-      {
-       "rank": 3,
-       "name": "Kazakhtelecom",
-       "slug": "kazakhtelecom",
-       "page": "https://coloprice.com/providers/kazakhtelecom/",
-       "facilities": 2,
-       "mw": 4,
-       "mwCount": 1,
-       "cities": 2
-      },
-      {
-       "rank": 4,
-       "name": "Kazteleport (Halyk Group)",
-       "slug": "kazteleport-halyk-group",
-       "page": "https://coloprice.com/providers/kazteleport-halyk-group/",
-       "facilities": 2,
-       "mw": 4,
-       "mwCount": 2,
-       "cities": 2
-      },
-      {
-       "rank": 5,
-       "name": "Kaspi Cloud",
-       "slug": "kaspi-cloud",
-       "page": "https://coloprice.com/providers/kaspi-cloud/",
-       "facilities": 2,
        "mw": 0,
        "mwCount": 0,
        "cities": 1
@@ -7173,7 +7173,7 @@
     }
    },
    "facts": [
-    "Catalogue: 2302 operators, 6149 facilities in 184 countries (as of 2026-11-12)",
+    "Catalogue: 2305 operators, 6155 facilities in 184 countries (as of 2026-11-15)",
     "Largest by tracked facilities — #1 Equinix: 269 tracked facilities in 37 countries, 125 MW published (5 of 269 sites publish MW)",
     "Largest by tracked facilities — #2 Digital Realty: 231 tracked facilities in 29 countries, 290 MW published (13 of 231 sites publish MW)",
     "Largest by tracked facilities — #3 NTT Global Data Centers: 82 tracked facilities in 17 countries, 1,756 MW published (64 of 82 sites publish MW)",
@@ -7194,16 +7194,16 @@
     "Largest by published MW — #8 Nebius: 4 tracked facilities in 2 countries, 3,010 MW published (4 of 4 sites publish MW)",
     "Largest by published MW — #9 Aligned Data Centers: 40 tracked facilities in 5 countries, 2,935 MW published (16 of 40 sites publish MW)",
     "Largest by published MW — #10 AirTrunk: 20 tracked facilities in 6 countries, 2,815 MW published (18 of 20 sites publish MW)",
-    "United States (1349 facilities, top 5) — #1 Digital Realty: 78 tracked facilities in undefined countries, 91 MW published (7 of 78 sites publish MW)",
-    "United States (1349 facilities, top 5) — #2 Equinix: 76 tracked facilities in undefined countries",
-    "United States (1349 facilities, top 5) — #3 DataBank: 75 tracked facilities in undefined countries, 1,020 MW published (75 of 75 sites publish MW)",
-    "United States (1349 facilities, top 5) — #4 Flexential: 45 tracked facilities in undefined countries, 408 MW published (42 of 45 sites publish MW)",
-    "United States (1349 facilities, top 5) — #5 QTS Data Centers: 44 tracked facilities in undefined countries, 2,473 MW published (23 of 44 sites publish MW)",
-    "India (310 facilities, top 5) — #1 ST Telemedia Global Data Centres: 33 tracked facilities in undefined countries, 585 MW published (31 of 33 sites publish MW)",
-    "India (310 facilities, top 5) — #2 Nxtra Data: 26 tracked facilities in undefined countries, 234 MW published (19 of 26 sites publish MW)",
-    "India (310 facilities, top 5) — #3 NTT Global Data Centers: 20 tracked facilities in undefined countries, 301 MW published (14 of 20 sites publish MW)",
-    "India (310 facilities, top 5) — #4 Sify Technologies: 19 tracked facilities in undefined countries, 121 MW published (8 of 19 sites publish MW)",
-    "India (310 facilities, top 5) — #5 CtrlS Datacenters: 16 tracked facilities in undefined countries, 252 MW published (10 of 16 sites publish MW)",
+    "United States (1350 facilities, top 5) — #1 Digital Realty: 78 tracked facilities in undefined countries, 91 MW published (7 of 78 sites publish MW)",
+    "United States (1350 facilities, top 5) — #2 Equinix: 76 tracked facilities in undefined countries",
+    "United States (1350 facilities, top 5) — #3 DataBank: 75 tracked facilities in undefined countries, 1,020 MW published (75 of 75 sites publish MW)",
+    "United States (1350 facilities, top 5) — #4 Flexential: 45 tracked facilities in undefined countries, 408 MW published (42 of 45 sites publish MW)",
+    "United States (1350 facilities, top 5) — #5 QTS Data Centers: 44 tracked facilities in undefined countries, 2,473 MW published (23 of 44 sites publish MW)",
+    "India (312 facilities, top 5) — #1 ST Telemedia Global Data Centres: 33 tracked facilities in undefined countries, 585 MW published (31 of 33 sites publish MW)",
+    "India (312 facilities, top 5) — #2 Nxtra Data: 26 tracked facilities in undefined countries, 234 MW published (19 of 26 sites publish MW)",
+    "India (312 facilities, top 5) — #3 NTT Global Data Centers: 20 tracked facilities in undefined countries, 301 MW published (14 of 20 sites publish MW)",
+    "India (312 facilities, top 5) — #4 Sify Technologies: 19 tracked facilities in undefined countries, 121 MW published (8 of 19 sites publish MW)",
+    "India (312 facilities, top 5) — #5 CtrlS Datacenters: 16 tracked facilities in undefined countries, 252 MW published (10 of 16 sites publish MW)",
     "Germany (274 facilities, top 5) — #1 Digital Realty: 28 tracked facilities in undefined countries",
     "Germany (274 facilities, top 5) — #2 euNetworks Group: 17 tracked facilities in undefined countries",
     "Germany (274 facilities, top 5) — #3 Equinix: 13 tracked facilities in undefined countries",
@@ -7234,21 +7234,21 @@
     "France (187 facilities, top 5) — #3 ETIX Everywhere: 15 tracked facilities in undefined countries, 17 MW published (13 of 15 sites publish MW)",
     "France (187 facilities, top 5) — #4 Equinix: 12 tracked facilities in undefined countries",
     "France (187 facilities, top 5) — #5 UltraEdge: 10 tracked facilities in undefined countries",
-    "Australia (173 facilities, top 5) — #1 NEXTDC: 25 tracked facilities in undefined countries, 1,726 MW published (25 of 25 sites publish MW)",
-    "Australia (173 facilities, top 5) — #2 Equinix: 18 tracked facilities in undefined countries, 28 MW published (1 of 18 sites publish MW)",
-    "Australia (173 facilities, top 5) — #3 CDC Data Centres: 14 tracked facilities in undefined countries, 3,210 MW published (10 of 14 sites publish MW)",
-    "Australia (173 facilities, top 5) — #4 Vocus: 9 tracked facilities in undefined countries",
-    "Australia (173 facilities, top 5) — #5 DigiCo REIT: 8 tracked facilities in undefined countries, 62 MW published (8 of 8 sites publish MW)",
+    "Australia (174 facilities, top 5) — #1 NEXTDC: 25 tracked facilities in undefined countries, 1,726 MW published (25 of 25 sites publish MW)",
+    "Australia (174 facilities, top 5) — #2 Equinix: 18 tracked facilities in undefined countries, 28 MW published (1 of 18 sites publish MW)",
+    "Australia (174 facilities, top 5) — #3 CDC Data Centres: 14 tracked facilities in undefined countries, 3,210 MW published (10 of 14 sites publish MW)",
+    "Australia (174 facilities, top 5) — #4 Vocus: 9 tracked facilities in undefined countries",
+    "Australia (174 facilities, top 5) — #5 Macquarie Data Centres: 8 tracked facilities in undefined countries, 267 MW published (5 of 8 sites publish MW)",
     "Canada (163 facilities, top 5) — #1 Cologix: 23 tracked facilities in undefined countries, 65 MW published (3 of 23 sites publish MW)",
     "Canada (163 facilities, top 5) — #2 eStruxture: 16 tracked facilities in undefined countries, 127 MW published (12 of 16 sites publish MW)",
     "Canada (163 facilities, top 5) — #3 Qu Data Centres: 10 tracked facilities in undefined countries, 27 MW published (7 of 10 sites publish MW)",
     "Canada (163 facilities, top 5) — #4 Equinix: 9 tracked facilities in undefined countries",
     "Canada (163 facilities, top 5) — #5 Beanfield Metroconnect: 5 tracked facilities in undefined countries",
-    "Japan (149 facilities, top 5) — #1 Equinix: 17 tracked facilities in undefined countries, 54 MW published (1 of 17 sites publish MW)",
-    "Japan (149 facilities, top 5) — #2 Internet Initiative Japan (IIJ): 12 tracked facilities in undefined countries, 20 MW published (1 of 12 sites publish MW)",
-    "Japan (149 facilities, top 5) — #3 MC Digital Realty: 10 tracked facilities in undefined countries, 217 MW published (10 of 10 sites publish MW)",
-    "Japan (149 facilities, top 5) — #4 NTT Communications (NTT DOCOMO BUSINESS) — Nexcenter: 10 tracked facilities in undefined countries",
-    "Japan (149 facilities, top 5) — #5 Colt DCS: 8 tracked facilities in undefined countries, 233 MW published (8 of 8 sites publish MW)",
+    "Japan (150 facilities, top 5) — #1 Equinix: 17 tracked facilities in undefined countries, 54 MW published (1 of 17 sites publish MW)",
+    "Japan (150 facilities, top 5) — #2 Internet Initiative Japan (IIJ): 12 tracked facilities in undefined countries, 20 MW published (1 of 12 sites publish MW)",
+    "Japan (150 facilities, top 5) — #3 MC Digital Realty: 10 tracked facilities in undefined countries, 217 MW published (10 of 10 sites publish MW)",
+    "Japan (150 facilities, top 5) — #4 NTT Communications (NTT DOCOMO BUSINESS) — Nexcenter: 10 tracked facilities in undefined countries",
+    "Japan (150 facilities, top 5) — #5 Colt DCS: 8 tracked facilities in undefined countries, 233 MW published (8 of 8 sites publish MW)",
     "Netherlands (133 facilities, top 5) — #1 NorthC: 14 tracked facilities in undefined countries, 67 MW published (14 of 14 sites publish MW)",
     "Netherlands (133 facilities, top 5) — #2 Digital Realty: 12 tracked facilities in undefined countries",
     "Netherlands (133 facilities, top 5) — #3 Equinix: 11 tracked facilities in undefined countries",
@@ -7424,16 +7424,16 @@
     "Israel (25 facilities, top 5) — #3 Bynet Data Centers: 3 tracked facilities in undefined countries, 2 MW published (3 of 3 sites publish MW)",
     "Israel (25 facilities, top 5) — #4 Cellcom Israel: 3 tracked facilities in undefined countries",
     "Israel (25 facilities, top 5) — #5 Bynet Data Communications: 2 tracked facilities in undefined countries, 8 MW published (1 of 2 sites publish MW)",
+    "Kazakhstan (24 facilities, top 5) — #1 Transtelecom: 4 tracked facilities in undefined countries",
+    "Kazakhstan (24 facilities, top 5) — #2 Kazakhtelecom: 3 tracked facilities in undefined countries, 4 MW published (1 of 3 sites publish MW)",
+    "Kazakhstan (24 facilities, top 5) — #3 Freedom Data Centers (Freedom Holding Corp.): 2 tracked facilities in undefined countries, 7 MW published (1 of 2 sites publish MW)",
+    "Kazakhstan (24 facilities, top 5) — #4 Kazteleport (Halyk Group): 2 tracked facilities in undefined countries, 4 MW published (2 of 2 sites publish MW)",
+    "Kazakhstan (24 facilities, top 5) — #5 Kaspi Cloud: 2 tracked facilities in undefined countries",
     "Pakistan (24 facilities, top 5) — #1 Pakistan Telecommunication Company Limited: 9 tracked facilities in undefined countries",
     "Pakistan (24 facilities, top 5) — #2 Jazz (Pakistan Mobile Communication Limited / VEON): 2 tracked facilities in undefined countries",
     "Pakistan (24 facilities, top 5) — #3 Transworld Associates (Pvt.) Ltd.: 2 tracked facilities in undefined countries",
     "Pakistan (24 facilities, top 5) — #4 Allied Bank: 1 tracked facilities in undefined countries",
     "Pakistan (24 facilities, top 5) — #5 HIGHER EDUCATION COMMISSION PAKISTAN: 1 tracked facilities in undefined countries",
-    "Kazakhstan (23 facilities, top 5) — #1 Transtelecom: 4 tracked facilities in undefined countries",
-    "Kazakhstan (23 facilities, top 5) — #2 Freedom Data Centers (Freedom Holding Corp.): 2 tracked facilities in undefined countries, 7 MW published (1 of 2 sites publish MW)",
-    "Kazakhstan (23 facilities, top 5) — #3 Kazakhtelecom: 2 tracked facilities in undefined countries, 4 MW published (1 of 2 sites publish MW)",
-    "Kazakhstan (23 facilities, top 5) — #4 Kazteleport (Halyk Group): 2 tracked facilities in undefined countries, 4 MW published (2 of 2 sites publish MW)",
-    "Kazakhstan (23 facilities, top 5) — #5 Kaspi Cloud: 2 tracked facilities in undefined countries",
     "Morocco (23 facilities, top 5) — #1 Wana Corporate SA (inwi): 4 tracked facilities in undefined countries",
     "Morocco (23 facilities, top 5) — #2 Orange Maroc: 2 tracked facilities in undefined countries, 2 MW published (1 of 2 sites publish MW)",
     "Morocco (23 facilities, top 5) — #3 N+ONE Datacenters: 2 tracked facilities in undefined countries",

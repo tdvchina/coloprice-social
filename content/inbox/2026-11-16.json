@@ -1,0 +1,389 @@
+{
+  "generated": "2026-11-16T09:55:29.309Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 0
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 1
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 12
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 1
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 1
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 0
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 1
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 87,
+      "kept": 1
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 0
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 0
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 6
+    }
+  ],
+  "items": [
+    {
+      "id": "e7120f9dc9ba",
+      "title": "Syntys breaks ground on 20MW data center in Qatar",
+      "url": "https://www.datacenterdynamics.com/en/news/syntys-breaks-ground-on-20mw-data-center-in-qatar",
+      "date": "2026-11-13T14:47:01.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Facility to support high-density GPU workloads",
+      "figures": [
+        "20MW"
+      ],
+      "score": 11
+    },
+    {
+      "id": "36244fe08ec2",
+      "title": "AirTrunk signs MoU for 1.8GW of data center capacity in Andhra Pradesh, India",
+      "url": "https://www.datacenterdynamics.com/en/news/airtrunk-signs-mou-for-18gw-of-data-center-capacity-in-andhra-pradesh-india",
+      "date": "2026-11-14T11:00:55.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company targets two projects outside Vizag",
+      "figures": [
+        "1.8GW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "35956024d143",
+      "title": "Malaysia mulls laws to monitor data center chips movement: Minister",
+      "url": "https://w.media/malaysia-mulls-laws-to-monitor-data-center-chips-movement-minister",
+      "date": "2026-11-16T01:58:50.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Malaysia is considering a new law that would compel data centers to reveal to the government their facilities’ operators and locations, as well as the details of their graphics processing units (GPUs) imports, Reuters reported last week citing Trade and Industry Minister Johari Abdul Ghani. This followed the fallout from Nvidia CEO’s Jensen Huang’s alleged ties with a […]",
+      "figures": [],
+      "score": 9
+    },
+    {
+      "id": "7b0a6a8c74f0",
+      "title": "CleanMax to invest US$ 5.32 billion in power for 2 GW Andhra Pradesh compute factory",
+      "url": "https://w.media/cleanmax-to-invest-us-5-32-billion-in-power-for-2-gw-andhra-pradesh-compute-factory",
+      "date": "2026-11-16T09:49:11.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Clean Max Enviro Energy Solutions Ltd, a pure-play commercial and industrial renewable energy solutions provider, has signed a memorandum of understanding with the Andhra Pradesh Economic Development Board, and the Government of Andhra Pradesh, where it will invest Rs 50,000 crore (US$ 5.32 billion) to develop power solutions for a 2 GW green compute factory […]",
+      "figures": [
+        "$ 5.32 billion",
+        "2 GW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "af537dfa82f1",
+      "title": "AWS breaks ground on $7bn data center in Indiana",
+      "url": "https://www.datacenterdynamics.com/en/news/aws-breaks-ground-on-7bn-data-center-in-indiana",
+      "date": "2026-11-16T08:20:26.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Also purchases land in Chantilly, Virginia, for data center",
+      "figures": [
+        "$7bn"
+      ],
+      "score": 7
+    },
+    {
+      "id": "40ae5f7fd6eb",
+      "title": "63% of Asia’s data centres face water stress: Singapore revises financing criteria",
+      "url": "https://capacityglobal.com/news/63-of-asias-data-centres-face-water-stress-singapore-revises-financing-criteria",
+      "date": "2026-11-13T16:16:35.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Singapore’s updated sustainable finance taxonomy changes how electricity and water efficiency are assessed for data centres outside the city-state, with implications for projects seeking green and transition financing. The post 63% of Asia’s data centres face water stress: Singapore revises financing criteria appeared first on Capacity .",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "6e5b477d7079",
+      "title": "AWS Chile Region goes live, backed by US$ 4 billion investment",
+      "url": "https://w.media/aws-chile-region-goes-live-backed-by-us-4-billion-investment",
+      "date": "2026-11-13T12:44:22.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Amazon Web Services (AWS), the cloud platform provider, has opened the AWS South America (Chile) Region, backed by a planned investment of more than US$ 4 billion in the country. The company said the investment will contribute to Chile’s GDP and create jobs in telecommunications, construction, electricity generation, and data center operations. According to a […]",
+      "figures": [
+        "$ 4 billion"
+      ],
+      "score": 7
+    },
+    {
+      "id": "0313dd6a9daf",
+      "title": "Thailand draws on AWS to expand data centers after rules tightening",
+      "url": "https://w.media/thailand-draws-on-aws-to-expand-data-centers-after-rules-tightening",
+      "date": "2026-11-16T04:43:41.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "The Anutin government last Thursday discussed with Amazon Web Services (AWS) to expand its data centers in Thailand, according to local publication Banmuang. The Thai government also outlined plans for a data center one-stop service, faster investment approvals, clean energy procurement and workforce development. This came following Thailand’s tightening of data center rules to chart a sustainable […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "fa9af418ed35",
+      "title": "NTT Docomo to pilot data center heat-reuse for on-shore shrimp farm in Japan",
+      "url": "https://www.datacenterdynamics.com/en/news/ntt-docomo-to-pilot-data-center-heat-reuse-for-on-shore-shrimp-farm-in-japan",
+      "date": "2026-11-14T05:00:42.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Part of Tokyo city initiative to find uses for data center heat",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "b393b8b6dc26",
+      "title": "A power-first approach to data centre strategy",
+      "url": "https://datacentrereview.com/2026/11/a-power-first-approach-to-data-centre-strategy",
+      "date": "2026-11-16T08:00:00.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "With grid queues growing and AI demand accelerating, Colt DCS' David Knox argues that reliable power must shape site selection from the outset.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "719347a224ab",
+      "title": "Integrated data center infrastructure",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/integrated-data-center-infrastructure",
+      "date": "2026-11-13T17:23:09.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "A unified lifecycle framework for cooling, critical power, power generation and building management systems",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "87c1fbbb27f5",
+      "title": "Samsung in talks to acquire data center cooling company Modine Manufacturing - report",
+      "url": "https://www.datacenterdynamics.com/en/news/samsung-in-talks-to-acquire-data-center-cooling-company-modine-manufacturing-report",
+      "date": "2026-11-13T16:23:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company has already acquired FläktGroup",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "936ca1db8ac3",
+      "title": "How TI’s ADC34DSO75 Catches the Nanosecond Power Glitches Behind AI Data Center Downtime",
+      "url": "https://www.datacenterfrontier.com/sponsored/article/55418593/how-tis-adc34dso75-catches-the-nanosecond-power-glitches-behind-ai-data-center-downtime",
+      "date": "2026-11-13T14:12:52.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "Most data center telemetry systems today operate at millisecond-level intervals or slower, which is six orders of magnitude longer than the transient events that now occur at the processor power rails and the tools meant to observe them.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "1c902720827a",
+      "title": "Nebius answers the AI financing question with customer prepayments",
+      "url": "https://w.media/nebius-answers-the-ai-financing-question-with-customer-prepayments",
+      "date": "2026-11-13T10:48:49.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Nebius Group, an artificial intelligence infrastructure and neocloud company headquartered in Amsterdam, reports that prepayments on its Q3 agreements covered more than 100 percent of the associated capital expenditure, including data center construction and networking, up from 50 to 60 percent in Q2 2026. In its results for Q3 2026, the company also revised its […]",
+      "figures": [
+        "100 percent",
+        "60 percent"
+      ],
+      "score": 5
+    },
+    {
+      "id": "812c659a5e47",
+      "title": "Developer Westend Real Assets buys two data centers in Hamburg",
+      "url": "https://www.datacenterdynamics.com/en/news/developer-westend-real-assets-buys-two-data-centers-in-hamburg",
+      "date": "2026-11-14T14:00:47.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The facilities were acquired from private equity firm Deutsche Beteiligungs",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "508f44d34246",
+      "title": "European Union offers to build data center for Moldova",
+      "url": "https://www.datacenterdynamics.com/en/news/european-union-offers-to-build-data-center-for-moldova",
+      "date": "2026-11-14T10:00:44.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The facility would help to protect the personal data of Moldovan citizens from cyberattacks",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "27f43cfea518",
+      "title": "Humain raises $667m for AI buildout in Saudi Arabia",
+      "url": "https://www.datacenterdynamics.com/en/news/humain-raises-667m-for-ai-buildout-in-saudi-arabia",
+      "date": "2026-11-14T07:00:48.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Funding secured alongside the National Infrastructure Fund",
+      "figures": [
+        "$667m"
+      ],
+      "score": 4
+    },
+    {
+      "id": "7c04cbf30a71",
+      "title": "Cerebras Readies CS-5 Systems For 2027 Launch As It Bags Another Hyperscaler",
+      "url": "https://www.nextplatform.com/compute/2026/11/14/cerebras-readies-cs-5-systems-for-2027-launch-as-it-bags-another-hyperscaler/5309932",
+      "date": "2026-11-14T00:40:35.000Z",
+      "publisher": "The Next Platform",
+      "feed": "nextplatform",
+      "kind": "general",
+      "summary": "",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "91e7c3ad548e",
+      "title": "ASIC ambition",
+      "url": "https://www.datacenterdynamics.com/en/analysis/asic-custom-silicon-amazon-arm-meta",
+      "date": "2026-11-13T17:00:43.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Startups and hyperscalers alike are making the case for custom silicon",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "3df1b24a5dd8",
+      "title": "PowerBridge breaks ground on gigawatt-scale powered land campus in Texas",
+      "url": "https://www.datacenterdynamics.com/en/news/powerbridge-breaks-ground-on-gigawatt-scale-powered-land-campus-in-texas",
+      "date": "2026-11-13T15:01:57.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "First 300MW due live in 2027, ready for others to build on",
+      "figures": [
+        "300MW"
+      ],
+      "score": 4
+    },
+    {
+      "id": "1048f764b364",
+      "title": "Cerebras secures Microsoft as a customer",
+      "url": "https://www.datacenterdynamics.com/en/news/cerebras-secures-microsoft-as-a-customer",
+      "date": "2026-11-13T12:37:09.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Wafer-scale chip and AI cloud company now has three hyperscalers in its books",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "59a152d9a065",
+      "title": "Labor Shortages Threaten Data Center Schedules",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/labor-shortages-threaten-data-center-schedules",
+      "date": "2026-11-13T10:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Labor shortages and rising costs are making data center schedules more fragile, especially in Southern markets where specialized crews are already stretched.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "606650fdfee2",
+      "title": "VodafoneThree plans a subsea cable linking Scotland, Shetland, and Norway",
+      "url": "https://w.media/vodafonethree-plans-a-subsea-cable-linking-scotland-shetland-and-norway",
+      "date": "2026-11-16T07:30:40.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "VodafoneThree, a UK mobile network operator, is exploring plans for a new subsea cable connecting mainland Scotland, Shetland and Norway, in a project that could generate up to £8.2 billion (US$ 10.8 billion) in economic value over ten years. A feasibility study is expected to begin in summer 2027 which will assess potential routes, landing […]",
+      "figures": [
+        "8.2 billion",
+        "$ 10.8 billion"
+      ],
+      "score": 3
+    }
+  ]
+}
