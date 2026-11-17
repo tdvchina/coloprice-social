@@ -1,0 +1,567 @@
+{
+  "generated": "2026-11-17T10:51:31.788Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 2
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 2
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 11
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 2
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 4
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 1
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 3
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 0,
+      "kept": 0
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 5
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 1
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 1
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 8
+    }
+  ],
+  "items": [
+    {
+      "id": "1cd77d805bf2",
+      "title": "Core Scientific files for 285MW data center outside Dallas, Texas",
+      "url": "https://www.datacenterdynamics.com/en/news/core-scientific-files-for-285mw-data-center-outside-dallas-texas",
+      "date": "2026-11-16T14:37:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company set to lease around half of site to AMD",
+      "figures": [
+        "285MW"
+      ],
+      "score": 11
+    },
+    {
+      "id": "93ca2681221b",
+      "title": "SAR 2.5bn Infra-HUMAIN AI deal: Why build for 1GW when funding 25MW?",
+      "url": "https://capacityglobal.com/news/sar-2-5bn-infra-humain-ai-deal-why-build-for-1gw-when-funding-25mw",
+      "date": "2026-11-16T16:56:15.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Saudi Arabia is financing 25MW of AI computing capacity while planning power infrastructure to support 40 times that amount, laying the groundwork for future data centre expansion. The post SAR 2.5bn Infra-HUMAIN AI deal: Why build for 1GW when funding 25MW? appeared first on Capacity .",
+      "figures": [
+        "1GW",
+        "25MW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "81cbafc815ad",
+      "title": "Blackstone to acquire 75 percent stake in US$ 5 billion AWS data center portfolio",
+      "url": "https://w.media/blackstone-to-acquire-75-percent-stake-in-us-5-billion-aws-data-center-portfolio",
+      "date": "2026-11-17T05:19:29.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Blackstone Digital Infrastructure Trust Inc. (BXDC) has agreed to acquire a 75 percent majority stake in two joint ventures with Amazon Web Services (AWS) in a transaction valued at approximately US$ 5 billion. The transaction carries an initial capitalization rate of 7.0 percent and marks BXDC’s first investment since its initial public offering (IPO). According […]",
+      "figures": [
+        "75 percent",
+        "$ 5 billion",
+        "7.0 percent"
+      ],
+      "score": 8
+    },
+    {
+      "id": "8c8f7b89a439",
+      "title": "AirTrunk planning 1.8 GW of data center capacity in Andhra Pradesh",
+      "url": "https://w.media/airtrunk-planning-1-8-gw-of-data-center-capacity-in-andhra-pradesh",
+      "date": "2026-11-16T12:41:07.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "AirTrunk, an Australian hyperscale data center company backed by Blackstone, has signed a memorandum of understanding with the Government of Andhra Pradesh for two proposed data centers totaling 1.8 GW of capacity in the state. As outlined in a press release, both facilities will be located in Anakapalli district, with a larger 1.4 GW campus […]",
+      "figures": [
+        "1.8 GW",
+        "1.4 GW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "59639c12a3bc",
+      "title": "AgentCore runtime instances are now available in six more AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-aws-regions",
+      "date": "2026-11-16T07:30:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon Bedrock AgentCore runtime instances are now available in six additional AWS Regions: US West (N. California), Canada (Central), Europe (London), Europe (Paris), Europe (Stockholm), and Asia Pacific (Seoul). Runtime instances run your agents on Amazon EC2 instances while AgentCore handles provisioning, patching, scaling, and lifecycle management. By expanding to these AWS Regions, more teams can use runtime instance capabilities such as GPU-accelerated, memory-optimized, or compute-optimized instance types, and long-running agent sessions of up to 14 days. You can run your agents closer ",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "aafc20d9f2a0",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "url": "https://blogs.nvidia.com/blog/lambda-photonics",
+      "date": "2026-11-16T16:00:51.000Z",
+      "publisher": "NVIDIA Newsroom",
+      "feed": "nvidia",
+      "kind": "press",
+      "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering […]",
+      "figures": [
+        "10,000 GPUs"
+      ],
+      "score": 7
+    },
+    {
+      "id": "f04545ce32dd",
+      "title": "A $4.8bn chip trail and a spy probe: What Huang’s fall means for AI infrastructure",
+      "url": "https://capacityglobal.com/news/what-huangs-fall-means-for-ai-infra",
+      "date": "2026-11-16T12:46:36.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Jensen Huang's resignation removes the most influential figure in the AI build-out just as data centres face a political backlash at home. The post A $4.8bn chip trail and a spy probe: What Huang’s fall means for AI infrastructure appeared first on Capacity .",
+      "figures": [
+        "$4.8bn"
+      ],
+      "score": 7
+    },
+    {
+      "id": "04a77bf4bcd0",
+      "title": "GreenSquare commits to water stewardship standard for Sydney data centre",
+      "url": "https://w.media/greensquare-commits-to-water-stewardship-standard-for-sydney-data-centre",
+      "date": "2026-11-17T00:40:38.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Australian data centre operator GreenSquare has committed to implementing the Alliance for Water Stewardship (AWS) Standard, an international framework for responsible water management, at its SYD1 facility in western Sydney. The company announced the commitment on 17 November, saying it would work through the verification programme operated by Water Stewardship Asia Pacific (WSAP), which represents […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "4e9bcb68f612",
+      "title": "Goodman residential plan progresses alongside Macquarie Park data centre",
+      "url": "https://w.media/goodman-residential-plan-progresses-alongside-macquarie-park-data-centre",
+      "date": "2026-11-16T23:56:22.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Australian-based global data centre developer Goodman’s plans for an indicative 2,150 apartments in Macquarie Park in Sydney New South Wales have been declared State Significant Development, advancing a major residential proposal close to the company’s approved Project Apollo data centre. The residential development, proposed for 3–5 Talavera Road, comprises five towers ranging from 45 to […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "895a4a6a2b51",
+      "title": "US moves to stop chip diversion through Southeast Asia and Brazil",
+      "url": "https://w.media/us-moves-to-stop-chip-diversion-through-southeast-asia-and-brazil",
+      "date": "2026-11-16T15:21:02.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "The US Department of Commerce’s Bureau of Industry and Security (BIS) has announced that a license will be required to export advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand, and Brazil under an interim final rule (IFR) that also places controls on data centers serving Chinese companies. In a summary of the IFR, the Department of […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "1d666aea442f",
+      "title": "Why Immersion Cooling Still Hasn't Gone Mainstream",
+      "url": "https://www.datacenterknowledge.com/cooling/why-immersion-cooling-still-hasn-t-gone-mainstream",
+      "date": "2026-11-17T10:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Immersion cooling offers clear efficiency benefits, but high upfront costs and the need to rethink data center design and operations still limit adoption.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "949db1af374a",
+      "title": "Uniper bets on old power station sites to meet data centre demand",
+      "url": "https://datacentrereview.com/2026/11/uniper-bets-on-old-power-station-sites-to-meet-data-centre-demand",
+      "date": "2026-11-17T08:00:00.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "The energy company is looking to use former power station sites and their electrical infrastructure to support new data centres across Europe.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "55f70ff5ecd0",
+      "title": "Schneider Electric's AI Factory Strategy Moves Beyond the Modular Data Hall",
+      "url": "https://www.datacenterfrontier.com/design/article/55414793/schneider-electrics-ai-factory-strategy-moves-beyond-the-modular-data-hall",
+      "date": "2026-11-16T16:22:09.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "With a new reference design supporting 227-kW AI racks, factory-integrated power systems, and digital-twin initiatives, Schneider Electric is advancing an increasingly comprehensive approach to AI infrastructure deployment. The question now is how effectively that integration translates into lower costs, faster delivery, and reliable operation at scale.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "5317af619eb8",
+      "title": "Data Center World Middle East",
+      "url": "https://www.datacenterknowledge.com/events/data-center-world-middle-east",
+      "date": "2026-11-17T12:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "00b16be36504",
+      "title": "In The Spotlight… Making every watt count with Airsys’ Arc90",
+      "url": "https://datacentrereview.com/2026/11/in-the-spotlight-making-every-watt-count-with-airsys-arc90",
+      "date": "2026-11-17T10:06:17.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "Airsys’ Jake Roberts explains how Arc90’s modular cooling approach could help data centres meet growing AI demands.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "768790f14f19",
+      "title": "Nokia led consortium plans multi-national AI infrastructure network in Northern Europe",
+      "url": "https://w.media/nokia-led-consortium-plans-multi-national-ai-infrastructure-network-in-northern-europe",
+      "date": "2026-11-17T04:18:22.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Nokia, a Finnish telecommunications and network infrastructure company, Nscale, a cloud computing and AI infrastructure provider, Skeleton Technologies (Skeleton), an Estonian energy technology company, Telia, a Swedish telecommunications operator and Verda, an AI infrastructure and cloud services provider, have formed a consortium named AI Gigafactory Northern (AIGF Northern), to develop a network of AI computing […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "2453547dcede",
+      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
+      "date": "2026-11-16T20:00:37.000Z",
+      "publisher": "NVIDIA Newsroom",
+      "feed": "nvidia",
+      "kind": "press",
+      "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "a4eecc632a50",
+      "title": "Firmus looks to raise $3bn in private equity and secure prepayments - report",
+      "url": "https://www.datacenterdynamics.com/en/news/firmus-looks-to-raise-3bn-in-private-equity-and-secure-prepayments-report",
+      "date": "2026-11-16T17:36:44.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Following unsuccessful IPO launch",
+      "figures": [
+        "$3bn"
+      ],
+      "score": 4
+    },
+    {
+      "id": "cb9235581360",
+      "title": "AI cloud startup Luminal secures $25m in Series A funding",
+      "url": "https://www.datacenterdynamics.com/en/news/ai-cloud-startup-luminal-secures-25m-in-series-a-funding",
+      "date": "2026-11-16T17:36:07.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company offers search compiler and inference cloud services",
+      "figures": [
+        "$25m"
+      ],
+      "score": 4
+    },
+    {
+      "id": "fb61f9802b0e",
+      "title": "OpenAI signs on for 457MW AI capacity with TensorWave",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-signs-on-for-457mw-ai-capacity-with-tensorwave",
+      "date": "2026-11-16T17:21:19.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Will cover multiple sites over six years",
+      "figures": [
+        "457MW"
+      ],
+      "score": 4
+    },
+    {
+      "id": "92ab2445e2e6",
+      "title": "Blackstone Digital Infrastructure Trust acquires majority stake in AWS joint venture for $5bn",
+      "url": "https://www.datacenterdynamics.com/en/news/blackstone-digital-infrastructure-trust-acquires-majority-stake-in-aws-joint-venture-for-5bn",
+      "date": "2026-11-16T17:07:37.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The publicly traded REIT’s inaugural deal covers 13 newly constructed powered shells",
+      "figures": [
+        "$5bn"
+      ],
+      "score": 4
+    },
+    {
+      "id": "4f2bb63293c8",
+      "title": "Data centers and water: Why local impact matters more than global figures",
+      "url": "https://w.media/data-centers-and-water-why-local-impact-matters-more-than-global-figures",
+      "date": "2026-11-16T16:42:32.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Data centers may account for just 0.01 percent of global water use and 0.03 percent in the UK, but the real challenge lies beyond the headline figures. It is how water is managed, accessed and shared at a local level. That was a key message from w.media’s inaugural Data Center Meet-up in Manchester last week. […]",
+      "figures": [
+        "0.01 percent",
+        "0.03 percent"
+      ],
+      "score": 4
+    },
+    {
+      "id": "6f916eab7b0f",
+      "title": "NVIDIA Expands Vera CPU Platform to Accelerate Scientific Discovery",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery",
+      "date": "2026-11-16T16:00:00.000Z",
+      "publisher": "NVIDIA Newsroom",
+      "feed": "nvidia",
+      "kind": "press",
+      "summary": "NVIDIA today announced the NVIDIA Vera CPU rack-scale platform for high-performance computing — combining NVIDIA’s first fully custom data center CPU with the gold standard for HPC networking to drive extreme efficiency and throughput for state-of-the-art scientific modeling, simulation and agentic science.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "4886370c1c6a",
+      "title": "Arbitrating data center disputes in Southeast Asia",
+      "url": "https://www.datacenterdynamics.com/en/opinions/arbitrating-data-center-disputes-in-southeast-asia",
+      "date": "2026-11-16T15:30:41.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Technology, obsolescence, and the neocloud challenge",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "656e8d5f79db",
+      "title": "Microsoft looks to develop data center in Rockford, Illinois",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-looks-to-develop-data-center-in-rockford-illinois",
+      "date": "2026-11-16T15:20:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company already has a presence in nearby Cherry Valley",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "a957ff57d34b",
+      "title": "Prologis sues Ohio's Trenton city after residents vote against data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/prologis-sues-ohios-trenton-city-after-residents-vote-against-data-centers",
+      "date": "2026-11-16T14:19:14.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "City sued by company to keep project alive, as opponents threaten to sue to kill it",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "f797d9cc6d70",
+      "title": "Healthcare LANs: Building Reliability into Every Connection",
+      "url": "https://datacenterpost.com/healthcare-lans-building-reliability-into-every-connection",
+      "date": "2026-11-16T13:00:14.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR U.S. healthcare LANs require strict compliance with ANSI/TIA-1179-B and local electrical codes, while incorporating shielded Category 6A cabling to withstand high device density and electromagnetic interference. Cable shielding reduces crosstalk but does not isolate patients electrically, requiring galvanic separation through fiber optic links or medical network isolators under IEC 60601-1 standards. \\Deploying ISO 22196:2011 […] The post Healthcare LANs: Building Reliability into Every Connection appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "1091147a1256",
+      "title": "Datacenters' share of UK planning applications nearly triples in three years",
+      "url": "https://www.theregister.com/on-prem/2026/11/16/datacenters-share-of-uk-planning-applications-nearly-triples-in-three-years/5310029",
+      "date": "2026-11-16T12:01:00.000Z",
+      "publisher": "The Register (On-Prem)",
+      "feed": "register",
+      "kind": "general",
+      "summary": "Councils waving through majority of proposals as government turns on the AI-friendly planning taps",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "817c4534133c",
+      "title": "Why Greenpeace Interrupted Jensen Huang’s Keynote",
+      "url": "https://www.datacenterknowledge.com/sustainability/why-greenpeace-interrupted-jensen-huang-s-keynote",
+      "date": "2026-11-16T10:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Greenpeace used Huang’s Berlin keynote to spotlight Nvidia’s role in supply-chain emissions and data center growth – and to signal more protests ahead.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "bfb8053c9ef1",
+      "title": "NVIDIA and Lambda Disclose First Production Co-Packaged Optics Cluster… It is FINALLY real",
+      "url": "https://www.servethehome.com/nvidia-and-lambda-disclose-first-production-co-packaged-optics-cluster-it-is-finally-real",
+      "date": "2026-11-16T21:24:47.000Z",
+      "publisher": "ServeTheHome",
+      "feed": "sth",
+      "kind": "general",
+      "summary": "Lambda is the first to disclose it has co-packaged optics deployed in a production cluster with over 10,000 GPUs The post NVIDIA and Lambda Disclose First Production Co-Packaged Optics Cluster… It is FINALLY real appeared first on ServeTheHome .",
+      "figures": [
+        "10,000 GPUs"
+      ],
+      "score": 3
+    },
+    {
+      "id": "03d26c5b0f8c",
+      "title": "The VMware Decision: Why Infrastructure Optionality Matters More Than Cost",
+      "url": "https://www.datacenterknowledge.com/data-center-infrastructure-management/the-vmware-decision-why-infrastructure-optionality-matters-more-than-cost",
+      "date": "2026-11-16T21:11:12.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Don't judge VMware by price alone; choose infrastructure that preserves flexibility, portability, and future options as workloads and economics change.",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "74bb1a9507c5",
+      "title": "SK Hynix to partner with South Korean gov’t on chip testing facility",
+      "url": "https://www.datacenterdynamics.com/en/news/sk-hynix-to-partner-with-south-korean-govt-on-chip-testing-facility",
+      "date": "2026-11-16T18:02:26.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Part of company’s plans to invest $1.05bn in the country over next five years",
+      "figures": [
+        "$1.05bn"
+      ],
+      "score": 3
+    },
+    {
+      "id": "59f9c5d9cb78",
+      "title": "Nvidia unveils Rubin HPC GPU for agentic AI-powered science and engineering workloads",
+      "url": "https://www.datacenterdynamics.com/en/news/nvidia-unveils-rubin-hpc-gpu-for-agentic-ai-powered-science-and-engineering-workloads",
+      "date": "2026-11-16T17:26:26.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "New GPU features more than 50,000 CUDA cores",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "2e02c8870cbd",
+      "title": "From telco to towerco: Array’s pivot to digital infrastructure",
+      "url": "https://www.datacenterdynamics.com/en/analysis/array-digital-infrastructure-towerco-telco-anthony-carlson-us-big-three",
+      "date": "2026-11-16T17:00:44.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Passive infrastructure assets have given the former carrier a new lease of life",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "f96db6736bc3",
+      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "url": "https://blogs.nvidia.com/blog/20-years-cuda",
+      "date": "2026-11-16T16:00:11.000Z",
+      "publisher": "NVIDIA Newsroom",
+      "feed": "nvidia",
+      "kind": "press",
+      "summary": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an occasion to reflect across computing eras, from the people who wrote the very first CUDA programs to the AI developers […]",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "6cab091c059a",
+      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "url": "https://blogs.nvidia.com/blog/rubin-hpc",
+      "date": "2026-11-16T16:00:01.000Z",
+      "publisher": "NVIDIA Newsroom",
+      "feed": "nvidia",
+      "kind": "press",
+      "summary": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next […]",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "f156923d7fc9",
+      "title": "Amazon SageMaker AI now supports KV cache-aware routing for real-time inference endpoints",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-kv-cache-routing",
+      "date": "2026-11-16T08:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon SageMaker AI now supports KV cache-aware routing for real-time inference endpoints, enabling you to reduce time to first token for LLM workloads with long or repeated prompts. Serving engines such as vLLM store the computed key-value (KV) cache for repeated prompt starts such as shared system prompts, documents, and conversation history, to skip repeated work. Across several instances, a request that lands where the cache is missing recomputes it. Under high load, instances also evict cached blocks to free GPU memory, including shared prompts and earlier conversation turns. KV cache-awa",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}

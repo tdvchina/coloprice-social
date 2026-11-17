@@ -1,0 +1,135 @@
+{
+  "slug": "gpu-rent-check-b200-2026-11-17",
+  "theme": "paper",
+  "format": "gpu-rent-check",
+  "status": "ready",
+  "created": "2026-11-17",
+  "publishBy": "2026-12-01",
+  "topic": "GPU Rent Check: B200 median $7.40/hr, +18% since late October",
+  "photoGap": "GPU cluster / AI data hall of a named GPU cloud (Lambda, CoreWeave, Nebius) or a B200 server rack",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "gpu",
+      "dataset": "Coloprice GPU index",
+      "url": "https://coloprice.com/data/gpu-price-index.json",
+      "asOf": "2026-11-16",
+      "facts": [
+        "NVIDIA GB200 (per GPU, NVL72): on-demand median $13.25/GPU-hr",
+        "NVIDIA B200 (180GB): on-demand median $7.4/GPU-hr, low $3.69, high $16.11",
+        "AMD MI355X (288GB): on-demand median $7/GPU-hr",
+        "NVIDIA H200 (141GB): on-demand median $4.8/GPU-hr",
+        "NVIDIA H100 (80GB): on-demand median $3.9/GPU-hr",
+        "AMD MI300X (192GB): on-demand median $2.99/GPU-hr",
+        "NVIDIA A100 (80GB): on-demand median $1.75/GPU-hr",
+        "NVIDIA L40S (48GB): on-demand median $1.53/GPU-hr"
+      ]
+    },
+    {
+      "id": "gpu-hist",
+      "dataset": "Coloprice GPU price history",
+      "url": "https://coloprice.com/api/history/gpu-prices.json",
+      "asOf": "2026-11-16",
+      "facts": [
+        "B200 (180GB) on-demand median by date: 2025-06 8.9; 2025-12 6.9; 2026-08 6.5; 2026-09 6.25; 2026-10-28 6.25; 2026-11-16 7.4 (USD per GPU-hour)",
+        "H100 (80GB) median: 3.49 on 2026-10-26, 3.9 on 2026-11-16",
+        "H200 (141GB) median: 4.4 on 2026-10-28, 4.8 on 2026-11-16",
+        "RTX 5090 (32GB) median: 0.67 on 2026-10-28, 0.72 on 2026-11-16",
+        "A100 (80GB) median: 1.75 on 2026-10-26 and 2026-11-16",
+        "MI300X (192GB) median: 2.99 on 2026-10-26 and 2026-11-16"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "compare",
+      "kicker": "GPU Rent Check",
+      "headline": "A B200 hour now costs 18% more",
+      "items": [
+        { "label": "28 Oct", "value": "$6.25", "note": "B200 median, per GPU-hr" },
+        { "label": "16 Nov", "value": "$7.40", "note": "B200 median, per GPU-hr", "highlight": true }
+      ],
+      "verdict": { "value": "+18%", "text": "on-demand median in under three weeks" },
+      "refs": ["gpu", "gpu-hist"]
+    },
+    {
+      "type": "chart",
+      "kind": "line",
+      "title": "B200: from $8.90 to a jump",
+      "unit": "B200 on-demand median · USD per GPU-hour",
+      "data": [
+        { "label": "Jun 25", "value": 8.9 },
+        { "label": "Dec 25", "value": 6.9 },
+        { "label": "Aug 26", "value": 6.5 },
+        { "label": "Sep 26", "value": 6.25 },
+        { "label": "Oct 26", "value": 6.25 },
+        { "label": "Nov 26", "value": 7.4 }
+      ],
+      "valueFormat": { "prefix": "$", "decimals": 2, "tickDecimals": 0 },
+      "caption": "Up $1.15 since the 28 Oct reading.",
+      "refs": ["gpu-hist"]
+    },
+    {
+      "type": "chart",
+      "kind": "bar",
+      "title": "One GPU-hour, eight chips",
+      "unit": "On-demand median · USD per GPU-hour",
+      "data": [
+        { "label": "GB200", "value": 13.25 },
+        { "label": "B200", "value": 7.4 },
+        { "label": "MI355X", "value": 7 },
+        { "label": "H200", "value": 4.8 },
+        { "label": "H100", "value": 3.9 },
+        { "label": "MI300X", "value": 2.99 },
+        { "label": "A100", "value": 1.75 },
+        { "label": "L40S", "value": 1.53 }
+      ],
+      "highlight": "B200",
+      "valueFormat": { "prefix": "$", "decimals": 2, "tickDecimals": 0 },
+      "refs": ["gpu"]
+    },
+    {
+      "type": "list",
+      "title": "Who moved since late October",
+      "unit": "On-demand median · USD per GPU-hr",
+      "rows": [
+        { "label": "B200", "value": "$7.40", "note": "from $6.25: +$1.15", "highlight": true },
+        { "label": "H100", "value": "$3.90", "note": "from $3.49: +$0.41" },
+        { "label": "H200", "value": "$4.80", "note": "from $4.40: +$0.40" },
+        { "label": "RTX 5090", "value": "$0.72", "note": "from $0.67: +$0.05" },
+        { "label": "A100", "value": "$1.75", "note": "unchanged" },
+        { "label": "MI300X", "value": "$2.99", "note": "unchanged" }
+      ],
+      "footnote": "Readings of 26–28 Oct vs 16 Nov.",
+      "refs": ["gpu-hist"]
+    },
+    {
+      "type": "stat",
+      "label": "B200 spread, low to high",
+      "value": "$3.69–$16.11",
+      "context": "The median is $7.40, but listed B200 prices run more than four-fold. Averages hide the spread.",
+      "refs": ["gpu"]
+    },
+    {
+      "type": "stat",
+      "label": "B200 median vs H100 median",
+      "value": "1.9×",
+      "context": "$7.40 against $3.90 per GPU-hour: the price of stepping up a generation.",
+      "accent": false,
+      "refs": ["gpu"]
+    },
+    { "type": "closing", "text": "Independent GPU rental prices, tracked weekly.", "cta": "Full index: link in bio" }
+  ],
+  "caption": "$7.40 per GPU-hour: the median on-demand price of an NVIDIA B200 in our index, up 18% from $6.25 on 28 Oct.\n\nH100 ($3.90) and H200 ($4.80) also edged higher over the same weeks, while A100 ($1.75) and MI300X ($2.99) held flat.\n\nThe B200 range is wide: $3.69 at the low end, $16.11 at the high end. Against the H100, the median B200 hour costs about 1.9 times as much.\n\nData: Coloprice GPU index, 16 Nov 2026. Sources on the last slide.\n\nIs the Blackwell rental market tightening where you buy, or is this a mix effect? Tell us below. Full index: link in bio.",
+  "hashtags": ["#GPU", "#AIinfrastructure", "#datacenter"],
+  "derived": [
+    { "value": "1.15", "how": "7.40 - 6.25 = 1.15" },
+    { "value": "18%", "how": "1.15 / 6.25 = 0.184" },
+    { "value": "0.41", "how": "3.90 - 3.49 = 0.41" },
+    { "value": "0.40", "how": "4.80 - 4.40 = 0.40" },
+    { "value": "0.05", "how": "0.72 - 0.67 = 0.05" },
+    { "value": "1.9", "how": "7.40 / 3.90 = 1.897" },
+    { "value": "3.69–$16.11", "how": "low and high from B200 index facts" }
+  ]
+}

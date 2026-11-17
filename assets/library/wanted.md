@@ -9,3 +9,4 @@ Format: `YYYY-MM-DD · <slug> · <missing photo>`
 2026-11-12 · megawatt-watch-2026-11-11 · data centre campus or grid in Johor / Sarawak, Malaysia
 2026-11-12 · megawatt-watch-2026-11-11 · data centre or substation in Kazakhstan
 2026-11-13 · deal-sheet-rowan-financing-2026-11-13 · Rowan Digital Infrastructure campus (US)
+2026-11-17 · gpu-rent-check-b200-2026-11-17 · GPU cluster / AI data hall of a named GPU cloud (Lambda, CoreWeave, Nebius) or a B200 server rack

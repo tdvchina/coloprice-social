@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T09:55:30.063Z",
+ "generated": "2026-11-17T10:51:32.810Z",
  "base": "https://coloprice.com",
  "mode": "remote",
  "license": "Coloprice data: CC BY 4.0 (own data). Read-only snapshot.",
@@ -381,7 +381,7 @@
    "citeAs": "Coloprice GPU Rental Price Index",
    "url": "https://coloprice.com/data/gpu-price-index.json",
    "page": "https://coloprice.com/gpu/",
-   "asOf": "2026-11-06",
+   "asOf": "2026-11-16",
    "gpus": [
     {
      "model": "NVIDIA GB200 (per GPU, NVL72)",
@@ -394,7 +394,7 @@
     {
      "model": "NVIDIA B200 (180GB)",
      "vramGb": 180,
-     "median": 6.9,
+     "median": 7.4,
      "min": 3.69,
      "max": 16.11,
      "contract1y": null
@@ -466,7 +466,7 @@
    ],
    "facts": [
     "NVIDIA GB200 (per GPU, NVL72): on-demand median $13.25/GPU-hr, low $8, high $27.04, 1-year contract $10.58",
-    "NVIDIA B200 (180GB): on-demand median $6.9/GPU-hr, low $3.69, high $16.11, 1-year contract n/a",
+    "NVIDIA B200 (180GB): on-demand median $7.4/GPU-hr, low $3.69, high $16.11, 1-year contract n/a",
     "AMD MI355X (288GB): on-demand median $7/GPU-hr, low $5.99, high $8.6, 1-year contract $4.25",
     "NVIDIA H200 (141GB): on-demand median $4.8/GPU-hr, low $2.09, high $13.78, 1-year contract $3.4",
     "NVIDIA H100 (80GB): on-demand median $3.9/GPU-hr, low $1.3, high $12.29, 1-year contract $3.26",
@@ -479,7 +479,7 @@
   },
   "gpuHistory": {
    "title": "GPU rental price history",
-   "asOf": "2026-11-09",
+   "asOf": "2026-11-16",
    "url": "https://coloprice.com/api/history/gpu-prices.json",
    "format": [
     "date",
@@ -562,7 +562,7 @@
       3.26
      ],
      [
-      "2026-11-06",
+      "2026-11-16",
       3.9,
       1.3,
       12.29,
@@ -613,7 +613,7 @@
       3.4
      ],
      [
-      "2026-11-06",
+      "2026-11-16",
       4.8,
       2.09,
       13.78,
@@ -657,8 +657,8 @@
       null
      ],
      [
-      "2026-11-09",
-      6.9,
+      "2026-11-16",
+      7.4,
       3.69,
       16.11,
       null
@@ -694,7 +694,7 @@
       10.58
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       13.25,
       8,
       27.04,
@@ -738,7 +738,7 @@
       1.59
      ],
      [
-      "2026-11-09",
+      "2026-11-16",
       1.75,
       0.53,
       5.07,
@@ -775,7 +775,7 @@
       1.09
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       1.53,
       0.38,
       3.77,
@@ -819,7 +819,7 @@
       1.91
      ],
      [
-      "2026-11-09",
+      "2026-11-16",
       2.99,
       1.71,
       12,
@@ -856,7 +856,7 @@
       4.25
      ],
      [
-      "2026-11-09",
+      "2026-11-16",
       7,
       5.99,
       8.6,
@@ -893,7 +893,7 @@
       null
      ],
      [
-      "2026-11-09",
+      "2026-11-16",
       0.72,
       0.25,
       1.09,
@@ -930,7 +930,7 @@
       0.27
      ],
      [
-      "2026-11-09",
+      "2026-11-16",
       0.42,
       0.13,
       0.74,
@@ -941,7 +941,7 @@
   },
   "coloHistory": {
    "title": "Wholesale colocation price history",
-   "asOf": "2026-11-09",
+   "asOf": "2026-11-16",
    "url": "https://coloprice.com/api/history/colo-index.json",
    "format": [
     "date",
@@ -983,7 +983,7 @@
       196
      ],
      [
-      "2026-11-09",
+      "2026-11-16",
       196
      ]
     ],
@@ -1021,7 +1021,7 @@
       173
      ],
      [
-      "2026-11-09",
+      "2026-11-16",
       173
      ]
     ],
@@ -1055,7 +1055,7 @@
       403
      ],
      [
-      "2026-11-09",
+      "2026-11-16",
       403
      ]
     ],
@@ -1069,7 +1069,7 @@
       215
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       215
      ]
     ],
@@ -1083,7 +1083,7 @@
       250
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       250
      ]
     ],
@@ -1097,7 +1097,7 @@
       280
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       280
      ]
     ],
@@ -1111,7 +1111,7 @@
       295
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       295
      ]
     ],
@@ -1125,7 +1125,7 @@
       188
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       188
      ]
     ],
@@ -1139,7 +1139,7 @@
       260
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       260
      ]
     ],
@@ -1153,7 +1153,7 @@
       200
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       200
      ]
     ],
@@ -1167,7 +1167,7 @@
       190
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       190
      ]
     ],
@@ -1181,7 +1181,7 @@
       160
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       160
      ]
     ],
@@ -1191,7 +1191,7 @@
       213
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       213
      ]
     ],
@@ -1201,7 +1201,7 @@
       180
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       180
      ]
     ],
@@ -1211,7 +1211,7 @@
       190
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       190
      ]
     ],
@@ -1221,7 +1221,7 @@
       173
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       173
      ]
     ],
@@ -1231,7 +1231,7 @@
       180
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       180
      ]
     ],
@@ -1241,7 +1241,7 @@
       213
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       213
      ]
     ],
@@ -1251,7 +1251,7 @@
       195
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       195
      ]
     ],
@@ -1261,7 +1261,7 @@
       193
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       193
      ]
     ],
@@ -1271,7 +1271,7 @@
       238
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       238
      ]
     ],
@@ -1281,7 +1281,7 @@
       205
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       205
      ]
     ],
@@ -1291,7 +1291,7 @@
       213
      ],
      [
-      "2026-11-04",
+      "2026-11-16",
       213
      ]
     ]
@@ -1302,7 +1302,7 @@
    "citeAs": "Coloprice pipeline tracker",
    "url": "https://coloprice.com/data/data-center-pipeline.csv",
    "page": "https://coloprice.com/pipeline/",
-   "asOf": "2026-11-16",
+   "asOf": "2026-11-17",
    "note": "Coloprice — Data Center Construction Pipeline · published capacity only · CC BY 4.0 · cite coloprice.com/pipeline/",
    "rows": [
     {
@@ -1802,7 +1802,7 @@
    "citeAs": "Coloprice M&A tracker",
    "url": "https://coloprice.com/data/transactions.csv",
    "page": "https://coloprice.com/transactions/",
-   "asOf": "2026-11-16",
+   "asOf": "2026-11-17",
    "deals": [
     {
      "target": "Aligned Data Centers",
@@ -2433,11 +2433,11 @@
    "url": "https://coloprice.com/data/operator-rankings.json",
    "page": "https://coloprice.com/companies/",
    "license": "CC BY 4.0 — free to use with a visible link to https://coloprice.com",
-   "asOf": "2026-11-15",
+   "asOf": "2026-11-16",
    "method": "Counts of facilities tracked in the Coloprice catalogue per operator (one company = one canonical name; joint ventures counted separately). MW = sum of published capacity only; mwCount = how many of the operator’s sites publish MW.",
    "totals": {
-    "operators": 2305,
-    "facilities": 6155,
+    "operators": 2306,
+    "facilities": 6157,
     "countries": 184
    },
    "global": {
@@ -4513,6 +4513,64 @@
       }
      ]
     },
+    "austria": {
+     "countryName": "Austria",
+     "facilities": 48,
+     "operatorsTotal": 33,
+     "page": "https://coloprice.com/companies/austria/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "AtlasEdge",
+       "slug": "atlasedge",
+       "page": "https://coloprice.com/providers/atlasedge/",
+       "facilities": 3,
+       "mw": 10,
+       "mwCount": 2,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "A1 Telekom Austria",
+       "slug": "a1-telekom-austria",
+       "page": "https://coloprice.com/providers/a1-telekom-austria/",
+       "facilities": 3,
+       "mw": 4,
+       "mwCount": 1,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "Digital Realty",
+       "slug": "digital-realty",
+       "page": "https://coloprice.com/providers/digital-realty/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "eww",
+       "slug": "eww",
+       "page": "https://coloprice.com/providers/eww/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 3
+      },
+      {
+       "rank": 5,
+       "name": "BIK Breitbandinitiative Kärnten",
+       "slug": "bik-breitbandinitiative-k-rnten",
+       "page": "https://coloprice.com/providers/bik-breitbandinitiative-k-rnten/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      }
+     ]
+    },
     "vietnam": {
      "countryName": "Vietnam",
      "facilities": 47,
@@ -4568,64 +4626,6 @@
        "mw": 0,
        "mwCount": 0,
        "cities": 1
-      }
-     ]
-    },
-    "austria": {
-     "countryName": "Austria",
-     "facilities": 46,
-     "operatorsTotal": 32,
-     "page": "https://coloprice.com/companies/austria/",
-     "operators": [
-      {
-       "rank": 1,
-       "name": "AtlasEdge",
-       "slug": "atlasedge",
-       "page": "https://coloprice.com/providers/atlasedge/",
-       "facilities": 3,
-       "mw": 10,
-       "mwCount": 2,
-       "cities": 1
-      },
-      {
-       "rank": 2,
-       "name": "A1 Telekom Austria",
-       "slug": "a1-telekom-austria",
-       "page": "https://coloprice.com/providers/a1-telekom-austria/",
-       "facilities": 3,
-       "mw": 4,
-       "mwCount": 1,
-       "cities": 1
-      },
-      {
-       "rank": 3,
-       "name": "Digital Realty",
-       "slug": "digital-realty",
-       "page": "https://coloprice.com/providers/digital-realty/",
-       "facilities": 3,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      },
-      {
-       "rank": 4,
-       "name": "eww",
-       "slug": "eww",
-       "page": "https://coloprice.com/providers/eww/",
-       "facilities": 3,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 3
-      },
-      {
-       "rank": 5,
-       "name": "conova communications",
-       "slug": "conova-communications",
-       "page": "https://coloprice.com/providers/conova-communications/",
-       "facilities": 2,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 2
       }
      ]
     },
@@ -7173,7 +7173,7 @@
     }
    },
    "facts": [
-    "Catalogue: 2305 operators, 6155 facilities in 184 countries (as of 2026-11-15)",
+    "Catalogue: 2306 operators, 6157 facilities in 184 countries (as of 2026-11-16)",
     "Largest by tracked facilities — #1 Equinix: 269 tracked facilities in 37 countries, 125 MW published (5 of 269 sites publish MW)",
     "Largest by tracked facilities — #2 Digital Realty: 231 tracked facilities in 29 countries, 290 MW published (13 of 231 sites publish MW)",
     "Largest by tracked facilities — #3 NTT Global Data Centers: 82 tracked facilities in 17 countries, 1,756 MW published (64 of 82 sites publish MW)",
@@ -7329,16 +7329,16 @@
     "Sweden (51 facilities, top 5) — #3 Bahnhof: 4 tracked facilities in undefined countries, 4 MW published (4 of 4 sites publish MW)",
     "Sweden (51 facilities, top 5) — #4 AB Stokab: 4 tracked facilities in undefined countries",
     "Sweden (51 facilities, top 5) — #5 atNorth: 3 tracked facilities in undefined countries, 342 MW published (3 of 3 sites publish MW)",
+    "Austria (48 facilities, top 5) — #1 AtlasEdge: 3 tracked facilities in undefined countries, 10 MW published (2 of 3 sites publish MW)",
+    "Austria (48 facilities, top 5) — #2 A1 Telekom Austria: 3 tracked facilities in undefined countries, 4 MW published (1 of 3 sites publish MW)",
+    "Austria (48 facilities, top 5) — #3 Digital Realty: 3 tracked facilities in undefined countries",
+    "Austria (48 facilities, top 5) — #4 eww: 3 tracked facilities in undefined countries",
+    "Austria (48 facilities, top 5) — #5 BIK Breitbandinitiative Kärnten: 2 tracked facilities in undefined countries",
     "Vietnam (47 facilities, top 5) — #1 Viettel IDC: 11 tracked facilities in undefined countries, 230 MW published (3 of 11 sites publish MW)",
     "Vietnam (47 facilities, top 5) — #2 VNPT: 8 tracked facilities in undefined countries",
     "Vietnam (47 facilities, top 5) — #3 CMC Telecom: 5 tracked facilities in undefined countries, 30 MW published (1 of 5 sites publish MW)",
     "Vietnam (47 facilities, top 5) — #4 FPT: 5 tracked facilities in undefined countries",
     "Vietnam (47 facilities, top 5) — #5 Eco Data Center: 2 tracked facilities in undefined countries",
-    "Austria (46 facilities, top 5) — #1 AtlasEdge: 3 tracked facilities in undefined countries, 10 MW published (2 of 3 sites publish MW)",
-    "Austria (46 facilities, top 5) — #2 A1 Telekom Austria: 3 tracked facilities in undefined countries, 4 MW published (1 of 3 sites publish MW)",
-    "Austria (46 facilities, top 5) — #3 Digital Realty: 3 tracked facilities in undefined countries",
-    "Austria (46 facilities, top 5) — #4 eww: 3 tracked facilities in undefined countries",
-    "Austria (46 facilities, top 5) — #5 conova communications: 2 tracked facilities in undefined countries",
     "Philippines (46 facilities, top 5) — #1 STT GDC Philippines: 9 tracked facilities in undefined countries, 242 MW published (9 of 9 sites publish MW)",
     "Philippines (46 facilities, top 5) — #2 ePLDT (VITRO Inc.): 7 tracked facilities in undefined countries, 117 MW published (4 of 7 sites publish MW)",
     "Philippines (46 facilities, top 5) — #3 Globe Telecom (GTI Corporation): 7 tracked facilities in undefined countries",
