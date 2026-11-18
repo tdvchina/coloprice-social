@@ -1,0 +1,435 @@
+{
+  "generated": "2026-11-18T10:21:47.660Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 2
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 2
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 12
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 3
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 5
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 4
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 4
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 86,
+      "kept": 0
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 8
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 2
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 2
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 6
+    }
+  ],
+  "items": [
+    {
+      "id": "4faa980a3027",
+      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "date": "2026-11-17T21:20:00.000Z",
+      "publisher": "NVIDIA Newsroom",
+      "feed": "nvidia",
+      "kind": "press",
+      "summary": "Revenue of $115.8 billion, up 103% from a year ago Data Center revenue of $107.6 billion, up 110% from a year ago Vera Rubin NVL72, the most versatile and advanced computing platform ever ...",
+      "figures": [
+        "$115.8 billion",
+        "$107.6 billion"
+      ],
+      "score": 10
+    },
+    {
+      "id": "3b4e8e4ba6ce",
+      "title": "Macquarie Data Centres eyes 200MW campus in Sydney, Australia",
+      "url": "https://www.datacenterdynamics.com/en/news/macquarie-data-centres-eyes-200mw-campus-in-sydney-australia",
+      "date": "2026-11-17T16:50:07.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Firm looks to continue build-out in Macquarie Park",
+      "figures": [
+        "200MW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "f4b9ae4d6217",
+      "title": "Amazon to invest $7bn into Indian renewable projects by 2030",
+      "url": "https://www.datacenterdynamics.com/en/news/amazon-to-invest-7bn-into-indian-renewable-projects-by-2030",
+      "date": "2026-11-17T16:50:37.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Signs four PPAs in India with a combined capacity of 934MW",
+      "figures": [
+        "$7bn",
+        "934MW"
+      ],
+      "score": 9
+    },
+    {
+      "id": "3ea6190e87fe",
+      "title": "Advancing Data Center Infrastructure: Building for Hardware That Hasn’t Shipped Yet",
+      "url": "https://datacenterpost.com/advancing-data-center-infrastructure-building-for-hardware-that-hasnt-shipped-yet",
+      "date": "2026-11-18T00:22:41.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR The Construction vs. Hardware Mismatch: Conventional data center builds take 24 to 36 months, creating a critical timing conflict with fast-moving GPU cycles that alter power, cooling, and facility requirements. Parallel Deployment Timelines: Building complete modules in a factory concurrently with site civil work compresses overall delivery to under seven months, or just weeks […] The post Advancing Data Center Infrastructure: Building for Hardware That Hasn’t Shipped Yet appeared first on Data Center POST .",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "92bf8223fcb5",
+      "title": "Meeting AI’s Energy Demands Calls for a New Infrastructure Strategy",
+      "url": "https://datacenterpost.com/meeting-ais-energy-demands-calls-for-a-new-infrastructure-strategy",
+      "date": "2026-11-17T18:00:24.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Power availability alone will not solve the data center industry’s energy challenges. Grid capacity, transmission infrastructure and interconnection timelines must be addressed alongside new generation. AI is changing how utilities must plan for electricity demand. Rapid fluctuations in computing workloads require new approaches to load management, grid stability and coordination between operators. Community engagement […] The post Meeting AI’s Energy Demands Calls for a New Infrastructure Strategy appeared first on Data Center POST .",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "981b1ab1d9fe",
+      "title": "150MW data center project planned in Haifa, Israel",
+      "url": "https://www.datacenterdynamics.com/en/news/150mw-data-center-project-planned-in-haifa-israel",
+      "date": "2026-11-17T17:21:56.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Local renewable and real estate firms partner on project",
+      "figures": [
+        "150MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "79bdbb81950c",
+      "title": "Patmos plans 50MW data center outside Birmingham, Alabama",
+      "url": "https://www.datacenterdynamics.com/en/news/patmos-plans-50mw-data-center-outside-birmingham-alabama",
+      "date": "2026-11-17T17:08:56.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company looks to convert former Walmart building",
+      "figures": [
+        "50MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "f37d9ab4dd8b",
+      "title": "100MW data center planned in Sussex, UK",
+      "url": "https://www.datacenterdynamics.com/en/news/100mw-data-center-planned-in-sussex-uk",
+      "date": "2026-11-17T16:22:31.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "As Pace DC plans project in Bedfordshire",
+      "figures": [
+        "100MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "8d2d42327955",
+      "title": "CBRE: Milan set to overtake Dublin as fifth-largest data center market in Europe by 2028",
+      "url": "https://www.datacenterdynamics.com/en/news/cbre-milan-set-to-overtake-dublin-as-fifth-largest-data-center-market-in-europe-by-2028",
+      "date": "2026-11-17T15:21:18.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Milan could see 255MW of new capacity",
+      "figures": [
+        "255MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "e57e7f5abeab",
+      "title": "Northern Europe Energy targets data center in Riihimäki, Finland",
+      "url": "https://www.datacenterdynamics.com/en/news/northern-europe-energy-targets-data-center-in-riihim%C3%A4ki-finland",
+      "date": "2026-11-17T15:01:02.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Ixian plans 50MW project in Lapinlahti, SR-Kiinteistöt eyes development in Kauhava",
+      "figures": [
+        "50MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "7e1c55c625ff",
+      "title": "REIT move? Blackstone joint venture buys AWS campuses to lease back to the cloud giant",
+      "url": "https://www.theregister.com/on-prem/2026/11/17/reit-move-blackstone-joint-venture-buys-aws-campuses-to-lease-back-to-the-cloud-giant/5310355",
+      "date": "2026-11-17T12:31:00.000Z",
+      "publisher": "The Register (On-Prem)",
+      "feed": "register",
+      "kind": "general",
+      "summary": "Amazon shunts some real estate off its books, a move Omdia analyst says may be about economics, as AI buildout weighs on hyperscaler finances",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "986de833c6f1",
+      "title": "MOD Simplifies Infrastructure Sourcing with PaaSport™",
+      "url": "https://datacenterpost.com/mod-simplifies-infrastructure-sourcing-with-paasport",
+      "date": "2026-11-17T17:00:37.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Global reach: Access infrastructure options from 50 providers across more than 80 countries. Easier quoting: Improved location mapping and multi-service quote requests let users explore options and request pricing without an account. One relationship: MOD manages sourcing and procurement across its provider network. Finding infrastructure in a new market involves more than identifying a […] The post MOD Simplifies Infrastructure Sourcing with PaaSport™ appeared first on Data Center POST .",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "215ed4b16782",
+      "title": "MHI and SAKURA internet to form strategic alliance to build Japan’s sovereign AI infrastructure",
+      "url": "https://w.media/mhi-and-sakura-internet-to-form-strategic-alliance-to-build-japans-sovereign-ai-infrastructure",
+      "date": "2026-11-18T04:25:10.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Japanese engineering and manufacturing major Mitsubishi Heavy Industries, Ltd. (MHI), and digital infrastructure provider SAKURA internet Inc. have announced the signing of a Memorandum of Understanding (MoU) to form a strategic alliance to explore collaboration to strengthen Japan’s domestic digital infrastructure for sovereign AI and cloud. The initiative includes developing AI modular data centers. The […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "637f366b26e9",
+      "title": "Hyperscale market shifts",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/hyperscale-market-shifts-afl-new",
+      "date": "2026-11-18T09:56:34.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Neoclouds, power, and fiber infrastructure",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "42a61cd1238d",
+      "title": "Beyond Announced Megawatts: Metlen's Lillian Kasa on Delivering AI Infrastructure",
+      "url": "https://www.datacenterfrontier.com/energy/podcast/55419608/beyond-announced-megawatts-metlens-lillian-kasa-on-delivering-ai-infrastructure",
+      "date": "2026-11-17T18:48:23.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "Metlen's Lillian Kasa joins the DCF Show to explain why the next phase of AI infrastructure development demands more than speed to power. Drawing on lessons from offshore energy exploration, she makes the case for staged investment, disciplined risk management, and a sharper distinction between announced capacity and projects that can actually be delivered.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "fc9b59ba8c7a",
+      "title": "Intersect signs 1.5GW transformer supply deal with Heron Power",
+      "url": "https://www.datacenterdynamics.com/en/news/intersect-signs-15gw-transformer-supply-deal-with-heron-power",
+      "date": "2026-11-17T15:26:51.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Deliveries expected to commence in 2028",
+      "figures": [
+        "1.5GW"
+      ],
+      "score": 5
+    },
+    {
+      "id": "a398f79735ea",
+      "title": "Public Pushback Complicates Data Center Buildouts",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/public-pushback-complicates-data-center-buildouts",
+      "date": "2026-11-18T10:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Developers face closer scrutiny of utility costs, water use, and local benefits as community concerns complicate approvals and investment decisions.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "fcbd3e3ce1cc",
+      "title": "Data centres can no longer treat ransomware as just an IT problem",
+      "url": "https://datacentrereview.com/2026/11/data-centres-can-no-longer-treat-ransomware-as-just-an-it-problem",
+      "date": "2026-11-18T08:00:00.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "Lorri Janssen-Anessi, VP of Global Risk Operations at BlueVoyant, explains why modern cyber threats demand a broader resilience strategy.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "e65aea8e9b4d",
+      "title": "NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+      "date": "2026-11-17T22:18:00.000Z",
+      "publisher": "NVIDIA Newsroom",
+      "feed": "nvidia",
+      "kind": "press",
+      "summary": "News Summary: New agreements with Kinsus and Samsung Electro-Mechanics support additional substrate capacity and expanded production capabilities at existing factories. NVIDIA's work with ...",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "086880e48b88",
+      "title": "Millicom to acquire Entel Peru for $1.7bn",
+      "url": "https://www.datacenterdynamics.com/en/news/millicom-agrees-to-buy-entel-peru-for-1714-million",
+      "date": "2026-11-17T16:19:20.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The acquisition will enable Millicom to enter the Peruvian market and expand its presence to 13 countries",
+      "figures": [
+        "$1.7bn"
+      ],
+      "score": 4
+    },
+    {
+      "id": "50ee1819b941",
+      "title": "The Cooling Supplement",
+      "url": "https://www.datacenterdynamics.com/en/magazines/the-cooling-supplement-2026-4",
+      "date": "2026-11-17T15:53:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Hot topics for cold data centers",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "ee3eebd038f2",
+      "title": "TensorWave signs 457 MW deal to support OpenAI’s AMD buildout",
+      "url": "https://w.media/tensorwave-signs-457-mw-deal-to-support-openais-amd-buildout",
+      "date": "2026-11-17T11:00:29.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "TensorWave, an artificial intelligence cloud provider backed by AMD Ventures, has signed a six-year agreement with OpenAI to provide 457 MW of IT capacity in support of the AI platform developer’s infrastructure agreement with AMD. TensorWave is the first neocloud publicly announced as an infrastructure provider supporting the agreement. In a press release, TensorWave said […]",
+      "figures": [
+        "457 MW"
+      ],
+      "score": 4
+    },
+    {
+      "id": "e0d719fd25c3",
+      "title": "Nvidia declares first results after Huang’s exit: Revenue doubles YoY driven by AI demand",
+      "url": "https://w.media/nvidia-declares-first-results-after-huangs-exit-revenue-doubles-yoy-driven-by-ai-demand",
+      "date": "2026-11-18T04:05:07.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Nvidia announced its third quarter (Q3) revenue, its first results announcement after founder Jensen Huang’s exit in wake of concerns surrounding an indiscretion with an alleged Chinese spy. It reported revenue of US$ 115.8 billion, an increase by 103 percent year over year (YoY) and 20 percent from the previous quarter, driven by continued demand […]",
+      "figures": [
+        "$ 115.8 billion",
+        "103 percent",
+        "20 percent"
+      ],
+      "score": 3
+    },
+    {
+      "id": "4135b4bc83c1",
+      "title": "Optimum skips $102.5m debt payment as company continues debt negotiations",
+      "url": "https://www.datacenterdynamics.com/en/news/optimum-skips-1025m-debt-payment-as-company-continues-debt-negotiations",
+      "date": "2026-11-17T17:25:40.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "As company confirms it's working to reduce $22bn debt",
+      "figures": [
+        "$102.5m",
+        "$22bn"
+      ],
+      "score": 3
+    },
+    {
+      "id": "d75ec2b7e110",
+      "title": "NVIDIA Announces Rubin HPC: Science-Focused Server GPU to Arrive in 2028",
+      "url": "https://www.servethehome.com/nvidia-announces-rubin-hpc-science-focused-server-gpu-to-arrive-in-2028",
+      "date": "2026-11-17T15:45:19.000Z",
+      "publisher": "ServeTheHome",
+      "feed": "sth",
+      "kind": "general",
+      "summary": "Marking their return to the HPC market, at SC26 NVIDIA has announced the Rubin HPC chip. The science and engineering-focused GPU will have over 50,000 CUDA cores and will be released in 2028 The post NVIDIA Announces Rubin HPC: Science-Focused Server GPU to Arrive in 2028 appeared first on ServeTheHome .",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "dec08682255b",
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26",
+      "date": "2026-11-17T14:00:10.000Z",
+      "publisher": "NVIDIA Newsroom",
+      "feed": "nvidia",
+      "kind": "press",
+      "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance […]",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}

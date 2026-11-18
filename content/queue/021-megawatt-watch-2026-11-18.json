@@ -1,0 +1,106 @@
+{
+  "slug": "megawatt-watch-2026-11-18",
+  "format": "megawatt-watch",
+  "status": "ready",
+  "created": "2026-11-18",
+  "publishBy": "2026-11-25",
+  "theme": "dark",
+  "topic": "Megawatt Watch: Amazon 934MW of PPAs in India vs India's data centre pipeline",
+  "photoGap": "India solar or wind farm, or Indian data centre campus / substation",
+  "sources": [
+    {
+      "id": "dcd-amazon-india",
+      "publisher": "DCD",
+      "title": "Amazon to invest $7bn into Indian renewable projects by 2030",
+      "url": "https://www.datacenterdynamics.com/en/news/amazon-to-invest-7bn-into-indian-renewable-projects-by-2030",
+      "date": "2026-11-17",
+      "facts": [
+        "Headline: Amazon to invest $7bn into Indian renewable projects by 2030",
+        "Standfirst: Signs four PPAs in India with a combined capacity of 934MW"
+      ]
+    }
+  ],
+  "dataHooks": [
+    {
+      "id": "pipe-india",
+      "dataset": "Coloprice pipeline tracker",
+      "url": "https://coloprice.com/pipeline/",
+      "asOf": "2026-11-18",
+      "facts": [
+        "India: 59 projects, 2,644 MW under construction, 8,171 MW announced",
+        "United States: 185 projects, 34,587 MW under construction, 17,943 MW announced",
+        "Australia: 23 projects, 1,010 MW under construction, 6,447 MW announced",
+        "Indonesia: 21 projects, 2,634 MW under construction, 1,543 MW announced",
+        "Malaysia: 32 projects, 1,492 MW under construction, 1,642 MW announced",
+        "Thailand: 27 projects, 715 MW under construction, 1,326 MW announced",
+        "United Kingdom: 13 projects, 599 MW under construction, 1,169 MW announced",
+        "World: 615 projects, 52,172 MW under construction, 43,575 MW announced"
+      ]
+    }
+  ],
+  "derived": [
+    { "value": "10,815", "how": "2,644 + 8,171 = 10,815 MW under construction plus announced in India" }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "poster",
+      "kicker": "Megawatt Watch",
+      "headline": "Amazon is buying power in India",
+      "figure": { "value": "934MW", "label": "four PPAs signed in India, as reported by DCD" },
+      "refs": ["dcd-amazon-india"]
+    },
+    {
+      "type": "stat",
+      "label": "Amazon · India renewables by 2030",
+      "value": "$7bn",
+      "context": "Headline as published by DCD. Four power purchase agreements, combined capacity of 934MW.",
+      "refs": ["dcd-amazon-india"]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "Announced data centre MW, top markets",
+      "unit": "MW announced · Coloprice pipeline tracker",
+      "data": [
+        { "label": "United States", "value": 17943 },
+        { "label": "India", "value": 8171 },
+        { "label": "Australia", "value": 6447 },
+        { "label": "Malaysia", "value": 1642 },
+        { "label": "Indonesia", "value": 1543 },
+        { "label": "Thailand", "value": 1326 },
+        { "label": "United Kingdom", "value": 1169 }
+      ],
+      "highlight": "India",
+      "valueFormat": { "decimals": 0 },
+      "refs": ["pipe-india"]
+    },
+    {
+      "type": "list",
+      "title": "India's data centre pipeline",
+      "unit": "Coloprice pipeline tracker",
+      "rows": [
+        { "label": "Projects tracked", "value": "59" },
+        { "label": "Under construction", "value": "2,644 MW" },
+        { "label": "Announced", "value": "8,171 MW", "highlight": true },
+        { "label": "Combined", "value": "10,815 MW", "note": "under construction + announced" }
+      ],
+      "refs": ["pipe-india"]
+    },
+    {
+      "type": "stat",
+      "label": "India · announced vs under construction",
+      "value": "8,171 MW",
+      "accent": false,
+      "context": "Announced capacity in India is far above the 2,644 MW under construction. Power supply is one of the gates between the two.",
+      "refs": ["pipe-india"]
+    },
+    {
+      "type": "closing",
+      "text": "Power first, then the halls.",
+      "cta": "Full pipeline on coloprice.com/pipeline"
+    }
+  ],
+  "caption": "934MW of power purchase agreements: Amazon's four new PPAs in India, per DCD.\n\nThe headline: Amazon to invest $7bn into Indian renewable projects by 2030.\n\nOn the data centre side, our tracker lists 59 projects in India: 2,644 MW under construction and 8,171 MW announced, the second-largest announced pipeline after the United States at 17,943 MW.\n\nPPA capacity is not data centre capacity, but it shows where power is being lined up ahead of the halls.\n\nSources: DCD, 17 Nov 2026 (headline and standfirst). Data: Coloprice pipeline tracker, 18 Nov 2026.\n\nHow much of India's announced capacity will find firm power by 2030? Tell us below. Full table: link in bio.",
+  "hashtags": ["#datacenter", "#AIinfrastructure", "#India", "#hyperscale"]
+}
