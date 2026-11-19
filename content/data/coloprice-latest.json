@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T10:21:49.527Z",
+ "generated": "2026-11-19T10:30:10.313Z",
  "base": "https://coloprice.com",
  "mode": "remote",
  "license": "Coloprice data: CC BY 4.0 (own data). Read-only snapshot.",
@@ -1302,15 +1302,15 @@
    "citeAs": "Coloprice pipeline tracker",
    "url": "https://coloprice.com/data/data-center-pipeline.csv",
    "page": "https://coloprice.com/pipeline/",
-   "asOf": "2026-11-18",
+   "asOf": "2026-11-19",
    "note": "Coloprice — Data Center Construction Pipeline · published capacity only · CC BY 4.0 · cite coloprice.com/pipeline/",
    "rows": [
     {
      "level": "total",
      "name": "World",
-     "projects": 615,
+     "projects": 616,
      "underConstructionMw": 52172,
-     "announcedMw": 43575
+     "announcedMw": 43695
     },
     {
      "level": "country",
@@ -1349,17 +1349,17 @@
     },
     {
      "level": "country",
+     "name": "Japan",
+     "projects": 25,
+     "underConstructionMw": 1483,
+     "announcedMw": 582
+    },
+    {
+     "level": "country",
      "name": "Thailand",
      "projects": 27,
      "underConstructionMw": 715,
      "announcedMw": 1326
-    },
-    {
-     "level": "country",
-     "name": "Japan",
-     "projects": 24,
-     "underConstructionMw": 1483,
-     "announcedMw": 462
     },
     {
      "level": "country",
@@ -1802,7 +1802,7 @@
    "citeAs": "Coloprice M&A tracker",
    "url": "https://coloprice.com/data/transactions.csv",
    "page": "https://coloprice.com/transactions/",
-   "asOf": "2026-11-18",
+   "asOf": "2026-11-19",
    "deals": [
     {
      "target": "Aligned Data Centers",
@@ -2433,11 +2433,11 @@
    "url": "https://coloprice.com/data/operator-rankings.json",
    "page": "https://coloprice.com/companies/",
    "license": "CC BY 4.0 — free to use with a visible link to https://coloprice.com",
-   "asOf": "2026-11-17",
+   "asOf": "2026-11-18",
    "method": "Counts of facilities tracked in the Coloprice catalogue per operator (one company = one canonical name; joint ventures counted separately). MW = sum of published capacity only; mwCount = how many of the operator’s sites publish MW.",
    "totals": {
-    "operators": 2307,
-    "facilities": 6161,
+    "operators": 2308,
+    "facilities": 6162,
     "countries": 184
    },
    "global": {
@@ -3529,8 +3529,8 @@
     },
     "japan": {
      "countryName": "Japan",
-     "facilities": 150,
-     "operatorsTotal": 38,
+     "facilities": 151,
+     "operatorsTotal": 39,
      "page": "https://coloprice.com/companies/japan/",
      "operators": [
       {
@@ -7173,7 +7173,7 @@
     }
    },
    "facts": [
-    "Catalogue: 2307 operators, 6161 facilities in 184 countries (as of 2026-11-17)",
+    "Catalogue: 2308 operators, 6162 facilities in 184 countries (as of 2026-11-18)",
     "Largest by tracked facilities — #1 Equinix: 269 tracked facilities in 37 countries, 125 MW published (5 of 269 sites publish MW)",
     "Largest by tracked facilities — #2 Digital Realty: 231 tracked facilities in 29 countries, 290 MW published (13 of 231 sites publish MW)",
     "Largest by tracked facilities — #3 NTT Global Data Centers: 82 tracked facilities in 17 countries, 1,756 MW published (64 of 82 sites publish MW)",
@@ -7244,11 +7244,11 @@
     "Canada (163 facilities, top 5) — #3 Qu Data Centres: 10 tracked facilities in undefined countries, 27 MW published (7 of 10 sites publish MW)",
     "Canada (163 facilities, top 5) — #4 Equinix: 9 tracked facilities in undefined countries",
     "Canada (163 facilities, top 5) — #5 Beanfield Metroconnect: 5 tracked facilities in undefined countries",
-    "Japan (150 facilities, top 5) — #1 Equinix: 17 tracked facilities in undefined countries, 54 MW published (1 of 17 sites publish MW)",
-    "Japan (150 facilities, top 5) — #2 Internet Initiative Japan (IIJ): 12 tracked facilities in undefined countries, 20 MW published (1 of 12 sites publish MW)",
-    "Japan (150 facilities, top 5) — #3 MC Digital Realty: 10 tracked facilities in undefined countries, 217 MW published (10 of 10 sites publish MW)",
-    "Japan (150 facilities, top 5) — #4 NTT Communications (NTT DOCOMO BUSINESS) — Nexcenter: 10 tracked facilities in undefined countries",
-    "Japan (150 facilities, top 5) — #5 Colt DCS: 8 tracked facilities in undefined countries, 233 MW published (8 of 8 sites publish MW)",
+    "Japan (151 facilities, top 5) — #1 Equinix: 17 tracked facilities in undefined countries, 54 MW published (1 of 17 sites publish MW)",
+    "Japan (151 facilities, top 5) — #2 Internet Initiative Japan (IIJ): 12 tracked facilities in undefined countries, 20 MW published (1 of 12 sites publish MW)",
+    "Japan (151 facilities, top 5) — #3 MC Digital Realty: 10 tracked facilities in undefined countries, 217 MW published (10 of 10 sites publish MW)",
+    "Japan (151 facilities, top 5) — #4 NTT Communications (NTT DOCOMO BUSINESS) — Nexcenter: 10 tracked facilities in undefined countries",
+    "Japan (151 facilities, top 5) — #5 Colt DCS: 8 tracked facilities in undefined countries, 233 MW published (8 of 8 sites publish MW)",
     "Netherlands (133 facilities, top 5) — #1 NorthC: 14 tracked facilities in undefined countries, 67 MW published (14 of 14 sites publish MW)",
     "Netherlands (133 facilities, top 5) — #2 Digital Realty: 12 tracked facilities in undefined countries",
     "Netherlands (133 facilities, top 5) — #3 Equinix: 11 tracked facilities in undefined countries",

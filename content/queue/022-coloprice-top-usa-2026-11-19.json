@@ -1,0 +1,48 @@
+{
+  "slug": "coloprice-top-usa-2026-11-19",
+  "theme": "dark",
+  "format": "coloprice-top",
+  "status": "ready",
+  "created": "2026-11-19",
+  "publishBy": "2026-12-03",
+  "topic": "Coloprice Top: US data centre operators by tracked facilities",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "rank",
+      "dataset": "Coloprice operator rankings",
+      "url": "https://coloprice.com/data/operator-rankings.json",
+      "asOf": "2026-11-18",
+      "facts": [
+        "United States: 1351 tracked facilities, 339 operators (as of 2026-11-18)",
+        "United States top 5 by tracked facilities — #1 Digital Realty: 78 tracked facilities, 91 MW published (7 of 78 sites publish MW), 30 cities",
+        "United States top 5 by tracked facilities — #2 Equinix: 76 tracked facilities, 34 cities, no MW published",
+        "United States top 5 by tracked facilities — #3 DataBank: 75 tracked facilities, 1,020 MW published (75 of 75 sites publish MW), 45 cities",
+        "United States top 5 by tracked facilities — #4 Flexential: 45 tracked facilities, 408 MW published (42 of 45 sites publish MW), 30 cities",
+        "United States top 5 by tracked facilities — #5 QTS Data Centers: 44 tracked facilities, 2,473 MW published (23 of 44 sites publish MW), 36 cities"
+      ]
+    }
+  ],
+  "slides": [
+    {"type":"cover","layout":"split","split":"rows","tones":["dark","lime"],"kicker":"Coloprice Top","headline":"Who runs US data centres?","figure":{"value":"78","label":"tracked facilities: Digital Realty, #1 in the US"},"refs":["rank"]},
+    {"type":"chart","kind":"hbar","title":"US: top 5 operators by tracked facilities","unit":"Facilities in the Coloprice catalogue · 18 Nov 2026","data":[
+      {"label":"Digital Realty","value":78},
+      {"label":"Equinix","value":76},
+      {"label":"DataBank","value":75},
+      {"label":"Flexential","value":45},
+      {"label":"QTS Data Centers","value":44}],"highlight":0,"caption":"Three operators within 3 facilities of each other.","refs":["rank"]},
+    {"type":"photo","image":"dc-databank-dfw1-dallas","headline":"DataBank DFW1, Dallas","caption":"DataBank is #3 in the US with 75 tracked facilities across 45 cities.","focus":"center","refs":["rank"]},
+    {"type":"list","title":"Published MW behind the sites","unit":"MW published · sites publishing MW","rows":[
+      {"label":"QTS Data Centers","value":"2,473 MW","note":"23 of 44 sites","highlight":true},
+      {"label":"DataBank","value":"1,020 MW","note":"75 of 75 sites"},
+      {"label":"Flexential","value":"408 MW","note":"42 of 45 sites"},
+      {"label":"Digital Realty","value":"91 MW","note":"7 of 78 sites"},
+      {"label":"Equinix","value":"no MW","note":"published"}],"footnote":"MW = sum of capacity the operator publishes; not all sites do.","refs":["rank"]},
+    {"type":"stat","label":"A surprise at #5","value":"2,473","unit":"MW published","context":"QTS Data Centers has 44 tracked facilities, fewer than Digital Realty (78), but 23 of its sites publish 2,473 MW.","refs":["rank"]},
+    {"type":"stat","label":"Reach: DataBank","value":"45","unit":"cities","context":"DataBank's 75 tracked facilities span 45 cities, the widest city spread of the US top 5.","accent":false,"refs":["rank"]},
+    {"type":"closing","text":"Operators ranked by tracked facilities in the Coloprice catalogue. A count, not an endorsement.","cta":"Follow for the weekly Coloprice Top."}
+  ],
+  "caption": "78 facilities: Digital Realty leads the US in the Coloprice ranking of operators by tracked facilities.\n\nEquinix follows with 76, then DataBank with 75, Flexential with 45 and QTS Data Centers with 44. The US has 1351 tracked facilities across 339 operators.\n\nFacility count is not capacity: QTS publishes 2,473 MW from 23 of its sites, while Digital Realty publishes 91 MW (7 of 78 sites). Largest by tracked facilities, not an endorsement.\n\nData: Coloprice operator rankings, 18 Nov 2026. Sources on the last slide.\nFeatured: @databank.ltd @qts_data_centers\n\nIs facility count or published MW the better yardstick for the US colocation market? Full ranking: link in bio.",
+  "hashtags": ["#datacenter","#colocation","#USA","#AIinfrastructure"],
+  "userTags": [{"username":"databank.ltd","slide":2},{"username":"qts_data_centers","slide":2}]
+}

@@ -1,0 +1,513 @@
+{
+  "generated": "2026-11-19T10:30:09.113Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 6
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 3
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 10
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 4
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 7
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 6
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 3
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 86,
+      "kept": 0
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 8
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 2
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 2
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 9
+    }
+  ],
+  "items": [
+    {
+      "id": "51e4f2cd192b",
+      "title": "$8.2bn by 2034: Where does Dataspace fit in Australia’s data centre ambitions?",
+      "url": "https://capacityglobal.com/news/dataspace-data-centres-australia",
+      "date": "2026-11-18T16:06:07.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Backed by Next Capital, the new operator plans to unlock existing capacity through the combined 14.5MW IT capacity of its five data centres. The post $8.2bn by 2034: Where does Dataspace fit in Australia’s data centre ambitions? appeared first on Capacity .",
+      "figures": [
+        "$8.2bn",
+        "14.5MW"
+      ],
+      "score": 13
+    },
+    {
+      "id": "07eac982d871",
+      "title": "PDG secures additional $210m for its TY1 Tokyo Campus",
+      "url": "https://www.datacenterdynamics.com/en/news/pdg-secures-additional-210m-for-its-ty1-tokyo-campus",
+      "date": "2026-11-19T10:23:22.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The green financing will support development of the 96MW campus",
+      "figures": [
+        "$210m",
+        "96MW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "62a8e970de90",
+      "title": "PDG expands Tokyo TY1 green financing to US$ 327 million",
+      "url": "https://w.media/pdg-expands-tokyo-ty1-green-financing-to-us-327-million",
+      "date": "2026-11-19T07:37:54.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Princeton Digital Group (PDG), a data center operator in the Asia-Pacific region, has announced a JPY 33 billion (US$ 210 million) increase in green financing for its flagship TY1 campus in Saitama, Greater Tokyo, Japan, taking total green financing for the facility to JPY 51.5 billion (US$ 327 million). Four banks, namely BNP Paribas, ING, […]",
+      "figures": [
+        "$ 327 million",
+        "33 billion",
+        "$ 210 million",
+        "51.5 billion"
+      ],
+      "score": 10
+    },
+    {
+      "id": "b72ac2916dd2",
+      "title": "Argentum AI and Kyndryl ink $630m AI infrastructure deal",
+      "url": "https://www.datacenterdynamics.com/en/news/argentum-ai-and-kyndryl-ink-630m-ai-infrastructure-deal",
+      "date": "2026-11-18T16:00:36.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Will deploy B300s at Kyndryl's data center in Boulder, Colorado",
+      "figures": [
+        "$630m"
+      ],
+      "score": 10
+    },
+    {
+      "id": "6445bb1bee86",
+      "title": "Google signs 50 MW geothermal power deal with Quaise Energy in Oregon",
+      "url": "https://w.media/google-signs-50-mw-geothermal-power-deal-with-quaise-energy-in-oregon",
+      "date": "2026-11-19T06:48:32.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Google has signed a power purchase agreement (PPA) with Quaise Energy, a private, venture backed, clean energy, and deep tech company, to buy 50 MW of superhot geothermal power from Project Obsidian, a geothermal development in Central Oregon. The electricity is expected to begin supplying Google’s data center operations in The Dalles and surrounding communities […]",
+      "figures": [
+        "50 MW"
+      ],
+      "score": 9
+    },
+    {
+      "id": "2d5438c1e415",
+      "title": "DCF Video: CoolIT's 3 MW CDU Brings Smart Monitoring and Fanless Cooling to AI Infrastructure",
+      "url": "https://www.datacenterfrontier.com/cooling/video/55419829/dcf-video-coolits-3-mw-cdu-brings-smart-monitoring-and-fanless-cooling-to-ai-infrastructure",
+      "date": "2026-11-18T15:46:56.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "At OCP 2026, CoolIT Systems Marketing Director Charles Robison walks Data Center Frontier through the CHx 3000 CDU, Ecolab's integrated coolant monitoring technology, and a new generation of cold plates designed to eliminate server fans.",
+      "figures": [
+        "3 MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "d9e91d0716f5",
+      "title": "DC Blox files for third building at Atlanta West data center campus",
+      "url": "https://www.datacenterdynamics.com/en/news/dc-blox-files-for-third-building-at-atlanta-west-data-center-campus",
+      "date": "2026-11-18T15:13:45.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company set to complete 80MW building in 2029",
+      "figures": [
+        "80MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "3e440c442b5b",
+      "title": "Cameron County commissioners reject SpaceX tax break request for $24bn Texas data center",
+      "url": "https://www.datacenterdynamics.com/en/news/cameron-county-commissioners-reject-spacex-tax-break-request-for-24bn-texas-data-center",
+      "date": "2026-11-18T15:25:07.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Commissioners voted against holding another meeting",
+      "figures": [
+        "$24bn"
+      ],
+      "score": 7
+    },
+    {
+      "id": "1ef85d1a3a16",
+      "title": "ByteDance’s Malaysian data center plans stall on two fronts",
+      "url": "https://w.media/bytedances-malaysian-data-center-plans-stall-on-two-fronts",
+      "date": "2026-11-18T13:43:41.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "TikTok owner ByteDance has hit two snags in Malaysia, with financing for a data center it plans to use delayed and a loan to fund the purchase of Nvidia chips frozen. Looking at the data center project, Bloomberg reports that a presentation scheduled for earlier this month, in which data center developer and operator Epoch […]",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "d8b4be7ab45c",
+      "title": "Singapore's Racks Central to be acquired in reverse merger",
+      "url": "https://www.datacenterdynamics.com/en/news/singapores-racks-central-to-be-acquired-in-reverse-merger",
+      "date": "2026-11-19T10:22:04.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Colo firm merging with Heptamax International Limited",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "a403ae436636",
+      "title": "Singapore DC REITs take a hit, but analysts remain optimistic",
+      "url": "https://w.media/singapore-dc-reits-take-a-hit-but-analysts-remain-optimistic",
+      "date": "2026-11-19T05:40:07.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Singapore listed data center Real Estate Investment Trusts (REITs) plunged on November 17, just a day after the United States announced new export restrictions on advanced artificial intelligence (AI) chips and computing infrastructure, raising concerns about the impact on operators serving customers across Southeast Asia. However, analysts say that the panic may be unwarranted. According […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "00decfb12c02",
+      "title": "AWS Lambda adds support for GPU instances on Lambda Managed Instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-gpu-managed-instances",
+      "date": "2026-11-18T18:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "AWS Lambda now supports GPU-accelerated Event Functions on Lambda Managed Instances using EC2 G-series instances . You can now run GPU-accelerated workloads including AI inference, media processing, 3D rendering, scientific computing, and financial simulations on Lambda without managing GPU drivers, frameworks, or scaling. Lambda runs multiple invocations concurrently in each execution environment and scales responsively based on GPU utilization, CPU utilization, and concurrency to keep your GPUs busy and reduce costs. GPU-accelerated functions integrate with the same 200+ AWS event sources as",
+      "figures": [
+        "$0.20 "
+      ],
+      "score": 6
+    },
+    {
+      "id": "076960b5973a",
+      "title": "Amazon EKS Hybrid Nodes reduces price for large hosts",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-hybrid-nodes-pricing-change",
+      "date": "2026-11-18T17:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) Hybrid Nodes now has lower pricing for large nodes, capping the billed vCPU per node at 32 vCPU, so you are no longer charged for vCPUs above that per node threshold. Amazon EKS Hybrid Nodes lets you use your existing on-premises and edge infrastructure as nodes in Amazon EKS clusters. You can now use your largest servers, including those with GPUs, with Amazon EKS Hybrid Nodes at lower cost. With this change, the Amazon EKS Hybrid Nodes cost of a large server no longer grows with its vCPU count. At the first pricing tier, a 64 vCPU node now costs",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "a2ec4241cb41",
+      "title": "Mumbai CDC 2026: Celebrating Mumbai’s vibrant data center market",
+      "url": "https://w.media/mumbai-cdc-2026-celebrating-mumbais-vibrant-data-center-market",
+      "date": "2026-11-18T12:09:29.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "On November 27, w.media is coming back to India’s Maximum City with the sixth edition of Mumbai Cloud & Datacenter Convention (CDC) and South Asia Awards. This year, Mumbai CDC will bring together over 2000 industry experts and thought leaders, including C-level executives, digital infrastructure professionals including architects, engineers and consultants (AECs), key buyers, decision […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "9adb1a3d151f",
+      "title": "Amazon ElastiCache now supports distributed KV caching for self-hosted LLM inference",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/announcing-distributed-kv-caching-for-self-hosted-llms-with-amazon-elasticache",
+      "date": "2026-11-18T08:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon ElastiCache for Valkey now offers fully managed distributed KV caching, a new capability that reduces self-hosted large language model (LLM) inference costs by up to 40% and time to first token (TTFT) by up to 80%. Customers who self-host LLMs pay for redundant GPU work because small, isolated caches on each server can't hold or share the growing context AI agents and chat applications resend. Distributed KV caching extends GPU-local caches with a shared tier so any server can reuse KV state for days across sessions, routing shifts, and server failures. GPUs can fetch cached KV state in",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "c37b8f83e0ee",
+      "title": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for disaggregated and multi-node inference",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-nvidia-dynamo",
+      "date": "2026-11-17T08:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo. You can now serve models that are too large for a single instance, and keep token generation fast when prompts are long. You don't have to build or operate distributed serving infrastructure yourself. HyperPod manages Dynamo for you through the Inference Operator add-on. As models grow, two problems limit inference. A large model can need more GPU memory than one instance has. Long prompts also slow token generation, because the prefill and decode stages compete for the same GPUs. Until now, customers had to build and run their ow",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "273befb01121",
+      "title": "AI Workloads Hit by Power-Quality Issues at Data Centers",
+      "url": "https://www.datacenterknowledge.com/energy-power-supply/ai-workloads-hit-by-power-quality-issues-at-data-centers",
+      "date": "2026-11-19T10:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Power quality, not just grid access, is limiting AI growth at US data centers, exposing weaknesses in internal infrastructure and monitoring.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "fe19dbeb2c5d",
+      "title": "Trump unveils US$ 100 million in Philippine defense AI deals during ASEAN visit",
+      "url": "https://w.media/trump-unveils-us-100-million-in-philippine-defense-ai-deals-during-asean-visit",
+      "date": "2026-11-19T09:44:19.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "During a two-day State Visit to the Philippines, US President Donald Trump met with President Ferdinand R. Marcos Jr. and attended the Association of Southeast Asian Nations (ASEAN) Summit where the US leader announced over US$ 17 billion in commercial and strategic investments. Among the announcements were two defense deals related to artificial intelligence (AI), […]",
+      "figures": [
+        "$ 100 million",
+        "$ 17 billion"
+      ],
+      "score": 5
+    },
+    {
+      "id": "8cc89177d34f",
+      "title": "Hydronics at AI scale: Connecting power, water and cooling infrastructure",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/hydronics-at-ai-scale-connecting-power-water-and-cooling-infrastructure",
+      "date": "2026-11-19T09:22:56.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "How AI is changing the scale and the stakes of data center infrastructure",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "200d64ca0076",
+      "title": "Q&A | Rack Centre CEO Lars Johannisson on making talent part of the African data center build",
+      "url": "https://w.media/qa-rack-centre-ceo-lars-johannisson-on-making-talent-part-of-the-african-data-center-build",
+      "date": "2026-11-18T14:00:24.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Land, power, and capital are the points that dominate most conversations about data centers but in Africa, another point needs to be added to those talks – talent. While investors, governments, and developers scramble to build out digital infrastructure at scale, the engineers and technicians that will keep those facilities operational are often an afterthought […]",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "900521d42cbd",
+      "title": "Sustainability in Fuel Management: Emissions Cuts Without Risking Uptime",
+      "url": "https://datacenterpost.com/sustainability-in-fuel-management-emissions-cuts-without-risking-uptime",
+      "date": "2026-11-18T14:00:13.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Mission-critical facilities must balance emissions reduction with the reliability of their standby power systems. Alternative fuels, including hydrotreated vegetable oil (HVO/R99), can reduce lifecycle greenhouse gas emissions, but their suitability depends on fuel compatibility and operational requirements. Effective fuel quality management and consumption monitoring can help reduce waste, improve efficiency, and support environmental objectives. […] The post Sustainability in Fuel Management: Emissions Cuts Without Risking Uptime appeared first on Data Center POST .",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "b60c4ebc8afe",
+      "title": "Woolpert acquires B-Global Tech to expand global data center practice",
+      "url": "https://w.media/woolpert-acquires-b-global-tech-to-expand-global-data-center-practice",
+      "date": "2026-11-18T10:45:37.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Woolpert, a global architecture, engineering, and geospatial consulting firm, has acquired B-Global Tech, a Barcelona-based architecture and engineering firm that specializes in the design and delivery of digital infrastructure projects in Europe, Africa, the Middle East, and Asia-Pacific. Through the acquisition, Woolpert will strengthen its ability to support data centers and other mission-critical facilities across […]",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "f095f4d97a2d",
+      "title": "The Infrastructure of the AI Era",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/the-infrastructure-of-the-ai-era",
+      "date": "2026-11-19T08:46:30.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "How governments, energy companies, investors and operators can work together to build Europe’s AI infrastructure sustainably and for the benefit of communities",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "9752f6fdc744",
+      "title": "Anthropic IPO priced at US$ 83 per share, valuation increases to US$ 1.5 trillion",
+      "url": "https://w.media/anthropic-ipo-priced-at-us-83-per-share-valuation-increases-to-us-1-5-trillion",
+      "date": "2026-11-19T04:08:54.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Anthropic priced its initial public offering (IPO) at US$ 83 per share on Wednesday, above its marketed range of US$ 70 to US$ 78. The offering is set to raise US$ 81.3 billion, making it the largest stock market debut on record. The deal comes amid continued investor interest in artificial intelligence stocks, despite concerns […]",
+      "figures": [
+        "$ 83 ",
+        "$ 1.5 ",
+        "$ 70 ",
+        "$ 78. ",
+        "$ 81.3 billion"
+      ],
+      "score": 4
+    },
+    {
+      "id": "db6893aef62c",
+      "title": "AWS announces ExtendDB 1.0",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-extenddb-1-0",
+      "date": "2026-11-18T20:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Today, Amazon Web Services (AWS) announced version 1.0 of ExtendDB, the first release of the open source Amazon DynamoDB-compatible adapter for production use. ExtendDB is fully compatible with the DynamoDB API and runs on a database backend that you choose, so developers and infrastructure teams can run DynamoDB workloads in on-premises data centers, in private or public clouds, and at the edge without rewriting application code. ExtendDB 1.0 supports four storage backends, PostgreSQL, SQLite, Cassandra, and MongoDB. For local development and continuous integration (CI), the extenddb-dev cont",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "93356461fdd8",
+      "title": "Rethinking High-Voltage Commissioning for AI Data Centers",
+      "url": "https://www.datacenterknowledge.com/energy-power-supply/rethinking-high-voltage-commissioning-for-ai-data-centers",
+      "date": "2026-11-18T19:33:26.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "AI data centers are driving more direct high-voltage connections, making specialist HV commissioning essential for safe, reliable, and on-schedule delivery.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "eb89e6085844",
+      "title": "The 4th Annual Aloha Fishing Tournament: How 1547 Is Investing in Hawai’i’s Technology Workforce",
+      "url": "https://datacenterpost.com/the-4th-annual-aloha-fishing-tournament-how-1547-is-investing-in-hawaiis-technology-workforce",
+      "date": "2026-11-18T19:05:18.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Annual Industry Gathering with Purpose: During the annual Pacific Telecommunications Council (PTC) conference, 1547 Critical Systems Realty will host its 4th Annual Aloha Fishing Tournament: Fishing for Futures on January 16, 2027, in Honolulu. 100% Net Proceeds to Local Charities: All tournament net proceeds go directly toward expanding educational opportunities and building Hawaiʻi’s technology […] The post The 4th Annual Aloha Fishing Tournament: How 1547 Is Investing in Hawai’i’s Technology Workforce appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "fa6d99308640",
+      "title": "Navigating CEQA: what data center developers need to know before investing in California",
+      "url": "https://www.datacenterdynamics.com/en/opinions/navigating-ceqa-what-data-center-developers-need-to-know-before-investing-in-california",
+      "date": "2026-11-18T16:24:59.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "For data center developers, CEQA deserves particular attention",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "2a0fbe574361",
+      "title": "Cleanview: US data center construction slows in Q3 2026 following record-breaking Q2",
+      "url": "https://www.datacenterdynamics.com/en/news/cleanview-us-data-center-construction-slows-in-q3-2026-following-record-breaking-q2",
+      "date": "2026-11-18T15:40:23.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "But analysis from October implies Q4 will be another record quarter",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "7c21bcb9ac3d",
+      "title": "CoolIT & Ecolab launch 3MW CDU",
+      "url": "https://www.datacenterdynamics.com/en/news/coolit-ecolab-launch-3mw-cdu",
+      "date": "2026-11-18T15:12:28.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "New unit includes Ecolab's water monitoring tech",
+      "figures": [
+        "3MW"
+      ],
+      "score": 4
+    },
+    {
+      "id": "8f5958944487",
+      "title": "Nvidia AI Surge Comes with $118 Billion in Guarantees",
+      "url": "https://www.datacenterknowledge.com/data-center-chips/nvidia-ai-surge-comes-with-118-billion-in-guarantees",
+      "date": "2026-11-18T19:45:36.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "The chipmaker is committing $390 billion to suppliers while helping customers finance powered facilities for AI deployments.",
+      "figures": [
+        "$118 Billion",
+        "$390 billion"
+      ],
+      "score": 3
+    },
+    {
+      "id": "0bde53b83f49",
+      "title": "Amazon SageMaker HyperPod now supports higher pod density on EKS-orchestrated clusters",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-higher-pod-density",
+      "date": "2026-11-18T01:45:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon SageMaker HyperPod now supports higher pod density per node on EKS-orchestrated clusters, allowing you to get more out of every instance. This leaves more room for your applications alongside system DaemonSets for monitoring, logging, and security, and helps increase GPU, CPU and memory utilization on nodes, allowing you to run the same work using fewer instances. As you schedule more pods, the Amazon VPC CNI automatically adds network capacity to the node. Autoscaling with Karpenter also supports the higher pod capacity, so new nodes take on more pods as your cluster scales out. Here a",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}
