@@ -1,0 +1,127 @@
+{
+  "slug": "deal-sheet-nvidia-neocloud-2026-11-20",
+  "format": "deal-sheet",
+  "status": "ready",
+  "created": "2026-11-20",
+  "publishBy": "2026-11-27",
+  "theme": "paper",
+  "topic": "Deal Sheet: Nvidia trims neocloud commitments to $32bn, GPU rents rising",
+  "photoGap": "Hut 8 River Bend / Texas AI campus, or OpenAI Abilene-type AI campus in the US",
+  "sources": [
+    {
+      "id": "capacity-nvidia",
+      "publisher": "Capacity Media",
+      "title": "Nvidia trims neocloud commitments to $32bn: What tighter vendor support means for data centre landlords",
+      "url": "https://capacityglobal.com/news/nvidia-trims-neocloud-commitments",
+      "date": "2026-11-19",
+      "facts": [
+        "Nvidia's neocloud commitments fell to $32bn at end-October, from $36bn three months earlier",
+        "Credit support totals $118bn, of which $105bn supports OpenAI's PORTS-Pike campus in Ohio",
+        "Revenue was $115.8bn for the three months to 25 October, up 103% year on year",
+        "Data centre revenue was $107.6bn, up 110%",
+        "Guidance for the current quarter is $130bn, plus or minus 3%",
+        "None of the $32bn falls due before fiscal 2028",
+        "Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR signed compute financing platform agreements with Nvidia in August; Nvidia can back up to a quarter of any deal",
+        "Interim CEO and CFO Colette Kress: Nvidia is rigorously evaluating future investments, commitments and credit support"
+      ]
+    }
+  ],
+  "dataHooks": [
+    {
+      "id": "gpu-hist",
+      "dataset": "Coloprice GPU index",
+      "url": "https://coloprice.com/gpu/",
+      "asOf": "2026-11-16",
+      "facts": [
+        "H100 on-demand median $/GPU-hr: Oct 2025 1.95; Mar 2026 3.1; Aug 2026 3.3; Sep 2026 3.29; Oct 2026 3.49; 16 Nov 2026 3.9",
+        "NVIDIA H100 (80GB): on-demand median $3.9/GPU-hr, low $1.3, high $12.29, 1-year contract $3.26",
+        "NVIDIA B200 (180GB): on-demand median $7.4/GPU-hr, low $3.69, high $16.11"
+      ]
+    }
+  ],
+  "derived": [
+    { "value": "1/4", "how": "a quarter = 1/4" },
+    { "value": "$13bn", "how": "118 - 105 = 13: credit support not tied to the Ohio campus" },
+    { "value": "-11%", "how": "(32 - 36) / 36 = -11.1%, rounded" },
+    { "value": "$4bn", "how": "36 - 32 = 4" }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "compare",
+      "kicker": "Deal Sheet",
+      "headline": "Nvidia pulls back on neocloud backing",
+      "items": [
+        { "label": "3 months earlier", "value": "$36bn", "note": "neocloud commitments" },
+        { "label": "End-Oct", "value": "$32bn", "note": "neocloud commitments", "highlight": true }
+      ],
+      "verdict": { "value": "-11%", "text": "in one quarter" },
+      "refs": ["capacity-nvidia"]
+    },
+    {
+      "type": "stat",
+      "label": "Nvidia credit support in total",
+      "value": "$118bn",
+      "context": "Of which $105bn supports OpenAI's PORTS-Pike campus in Ohio. The rest: $13bn.",
+      "refs": ["capacity-nvidia"]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "Where the credit support sits",
+      "unit": "Nvidia credit support · USD bn",
+      "data": [
+        { "label": "OpenAI PORTS-Pike, Ohio", "value": 105 },
+        { "label": "All other", "value": 13 }
+      ],
+      "highlight": 0,
+      "valueFormat": { "prefix": "$", "suffix": "bn", "decimals": 0, "tickDecimals": 0 },
+      "caption": "Total $118bn. Other = 118 - 105.",
+      "refs": ["capacity-nvidia"]
+    },
+    {
+      "type": "list",
+      "title": "Nvidia is still growing fast",
+      "unit": "Quarter to 25 October",
+      "rows": [
+        { "label": "Revenue", "value": "$115.8bn", "note": "+103% year on year", "highlight": true },
+        { "label": "Data centre revenue", "value": "$107.6bn", "note": "+110%" },
+        { "label": "Guidance, next quarter", "value": "$130bn", "note": "plus or minus 3%" }
+      ],
+      "refs": ["capacity-nvidia"]
+    },
+    {
+      "type": "stat",
+      "label": "Financing platforms signed in August",
+      "value": "1/4",
+      "unit": "max backed",
+      "context": "Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR. Nvidia can back up to a quarter of any deal. None of the $32bn falls due before fiscal 2028.",
+      "accent": false,
+      "refs": ["capacity-nvidia"]
+    },
+    {
+      "type": "chart",
+      "kind": "line",
+      "title": "Meanwhile, H100 rents keep rising",
+      "unit": "H100 on-demand median · USD per GPU-hour",
+      "data": [
+        { "label": "Oct 25", "value": 1.95 },
+        { "label": "Mar 26", "value": 3.1 },
+        { "label": "Aug 26", "value": 3.3 },
+        { "label": "Sep 26", "value": 3.29 },
+        { "label": "Oct 26", "value": 3.49 },
+        { "label": "Nov 26", "value": 3.9 }
+      ],
+      "valueFormat": { "prefix": "$", "decimals": 2, "tickDecimals": 1 },
+      "caption": "Index reading of 16 Nov 2026.",
+      "refs": ["gpu-hist"]
+    },
+    {
+      "type": "closing",
+      "text": "Vendor support is a number to watch for every data centre with a neocloud tenant.",
+      "cta": "Follow for the price tag of the internet"
+    }
+  ],
+  "caption": "Nvidia's neocloud commitments fell to $32bn at end-October, from $36bn three months earlier.\n\nCredit support totals $118bn, and $105bn of that backs OpenAI's PORTS-Pike campus in Ohio. Interim CEO Colette Kress says Nvidia is rigorously evaluating future commitments. Revenue for the quarter was $115.8bn, up 103%.\n\nOn the rental side, our index puts the H100 on-demand median at $3.9 per GPU-hr, up from $3.49 in October.\n\nData: Coloprice GPU index, 16 Nov 2026. Source: Capacity Media, 19 Nov 2026. Sources on the last slide.\n\nWill tighter vendor support change how landlords underwrite neocloud tenants? Tell us below. Full tables via link in bio.",
+  "hashtags": ["#datacenter", "#AIinfrastructure", "#GPU", "#Nvidia"]
+}

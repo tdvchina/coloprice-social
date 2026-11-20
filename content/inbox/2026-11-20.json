@@ -1,0 +1,505 @@
+{
+  "generated": "2026-11-20T10:10:49.605Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 10
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 4
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 13
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 3
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 6
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 10
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 10,
+      "kept": 2
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 86,
+      "kept": 0
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 3
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 1
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 1
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 8
+    }
+  ],
+  "items": [
+    {
+      "id": "85e3cba312ea",
+      "title": "How GPUs Are Changing the Colocation vs. Private Data Center Debate",
+      "url": "https://www.datacenterknowledge.com/colocation/how-gpus-are-changing-the-colocation-vs-private-data-center-debate",
+      "date": "2026-11-20T10:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "GPUs are shifting the colo vs. private data center decision toward power, speed, utilization, and sustainability – not just location, scale, and cost.",
+      "figures": [],
+      "score": 11
+    },
+    {
+      "id": "2397035c9ae4",
+      "title": "Japan’s $33.4bn data centre market: Can modular builds beat the power bottleneck?",
+      "url": "https://capacityglobal.com/news/mitsubishi-sakura-internet-modular-data-centres",
+      "date": "2026-11-19T15:27:29.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Mitsubishi Heavy Industries and SAKURA internet are betting on modular infrastructure to accelerate AI deployment in Japan. The post Japan’s $33.4bn data centre market: Can modular builds beat the power bottleneck? appeared first on Capacity .",
+      "figures": [
+        "$33.4bn"
+      ],
+      "score": 10
+    },
+    {
+      "id": "9b1fef353952",
+      "title": "Second-generation AWS Outposts racks now supported in the AWS European Sovereign Cloud (Germany) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-outposts-thf-european-sovereign",
+      "date": "2026-11-19T08:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Second-generation AWS Outposts racks are now supported in the AWS European Sovereign Cloud (Germany) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid experience. Organizations of every size, from startups to enterprises to public sector agencies, can now order Outposts racks connected to this newly supported Region to optimize for latency and data residency needs. This regional expansion provides additional flexibility in the number of AWS Regions that customers' Outposts c",
+      "figures": [],
+      "score": 10
+    },
+    {
+      "id": "ec28790b90bb",
+      "title": "From Investment to Operations, BISNOW DICE Events Examine What It Takes to Deliver",
+      "url": "https://datacenterpost.com/from-investment-to-operations-bisnow-dice-events-examine-what-it-takes-to-deliver",
+      "date": "2026-11-19T13:00:05.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Power readiness is becoming as important as market demand. Grid constraints and interconnection delays are influencing which data center projects can advance. Investors are placing greater emphasis on execution risk. Site readiness, customer commitments, and delivery timelines are increasingly important to financing decisions. Modular construction and adaptable designs can help accelerate deployment. Developers must […] The post From Investment to Operations, BISNOW DICE Events Examine What It Takes to Deliver appeared first on Data Center POST .",
+      "figures": [],
+      "score": 9
+    },
+    {
+      "id": "68eb53eff2a6",
+      "title": "Deutsche Telekom’s T.Capital invests €100 million in Mistral AI",
+      "url": "https://w.media/deutsche-telekoms-t-capital-invests-e100-million-in-mistral-ai",
+      "date": "2026-11-20T02:04:03.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "T.Capital, Deutsche Telekom’s investment arm, has invested €100 million (US$ 110 million) in French AI company Mistral’s Series D funding round. The collaboration builds on Deutsche Telekom’s investments in AI infrastructure in Germany and Mistral’s expansion in the country, including the opening of a Munich hub. According to a press release, the investment is part […]",
+      "figures": [
+        "100 million",
+        "$ 110 million"
+      ],
+      "score": 8
+    },
+    {
+      "id": "013de6e3a52c",
+      "title": "NEXTDC upgrades FY27 guidance as Scroggie takes responsibility for M3 delay",
+      "url": "https://w.media/nextdc-upgrades-fy27-guidance-as-scroggie-takes-responsibility-for-m3-delay",
+      "date": "2026-11-20T00:32:13.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "NEXTDC has raised its FY27 revenue and earnings guidance after reporting stronger sales growth outside its delayed M3 Melbourne development, while CEO Craig Scroggie has acknowledged the company’s responsibility for the project’s power and community engagement problems. The data centre operator on 20 November upgraded its FY27 net revenue guidance to AU$485 million-AU$500m, from AU$475m-AU$500m, […]",
+      "figures": [
+        "$485 million",
+        "$500m",
+        "$475m"
+      ],
+      "score": 8
+    },
+    {
+      "id": "011ef32b5a50",
+      "title": "CloudFest Americas Panel Explores the Data Center Story Beyond AI and Megawatts",
+      "url": "https://datacenterpost.com/cloudfest-americas-panel-explores-the-data-center-story-beyond-ai-and-megawatts",
+      "date": "2026-11-19T21:15:47.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TLDR: Connecting data centers to education, healthcare research, communications, and business services makes their purpose more tangible than capacity or investment figures alone. Community questions about power, water, and development impacts require clear, substantive answers, not just promises of economic benefits. Explaining the differences between traditional hosting, enterprise infrastructure, interconnection facilities, and AI campuses can […] The post CloudFest Americas Panel Explores the Data Center Story Beyond AI and Megawatts appeared first on Data Center POST .",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "b439309efe40",
+      "title": "From GPU to SLA backstops: The next step in neocloud finance",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/from-gpu-to-sla-backstops-the-next-step-in-neocloud-finance",
+      "date": "2026-11-19T16:12:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Closing the operational risk gap in AI infrastructure financing",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "043054eda224",
+      "title": "Teraco wheels wind energy to its data centers ahead of Sediba solar energization",
+      "url": "https://w.media/teraco-wheels-wind-energy-to-its-data-centers-ahead-of-sediba-solar-energization",
+      "date": "2026-11-19T13:02:50.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Digital Realty company Teraco, an African interconnection and colocation data center provider, has announced that its renewable energy program, which combines its own solar power with contracted wind power, is on track to ensure that new sustainable generation and grid investment meet the growing demand for capacity at its data centers. The company announced in […]",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "f474a77a616a",
+      "title": "AWS Deadline Cloud now supports Amazon EC2 G7 instances in service-managed fleets",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/deadline-cloud-supports-ec2-g7",
+      "date": "2026-11-18T08:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "AWS Deadline Cloud now supports Amazon EC2 G7 instances in service-managed fleets. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads for visual effects, animation, product design, simulation, and gaming. G7 instances give customers more options to scale GPU capacity quickly. You can add G7 instances to your service-managed fleets in sizes from g7.2xlarge to g7.48xlarge, with On-Demand or Spot pricing on Linux or Windows workers. This lets you scale GPU rendering capacity to match your production schedule without managing your own render farm infrastruct",
+      "figures": [
+        "4500 GPU"
+      ],
+      "score": 8
+    },
+    {
+      "id": "2af610f4f8db",
+      "title": "Dataspace launches as Australian data centre operator following Fujitsu acquisition",
+      "url": "https://w.media/dataspace-launches-as-australian-data-centre-operator-following-fujitsu-acquisition",
+      "date": "2026-11-20T04:43:52.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Australian private equity firm Next Capital has launched Dataspace, an independent data centre operator formed from five facilities acquired from Fujitsu, with plans to expand capacity at its existing sites in response to customer demand. Dataspace operates data centres in Greystanes and Homebush in Sydney, Noble Park in Melbourne, Eight Mile Plains in Brisbane and […]",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "56b25537cdea",
+      "title": "AI’s Next Challenge is Turning Enterprise Ambition into Infrastructure Reality",
+      "url": "https://datacenterpost.com/ais-next-challenge-is-turning-enterprise-ambition-into-infrastructure-reality",
+      "date": "2026-11-19T13:00:58.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Enterprise AI is entering a new phase of adoption. Organizations must demonstrate measurable business value while addressing infrastructure requirements, governance, and implementation costs. AI-ready data centers are essential to supporting advanced workloads. High-performance computing, GPU infrastructure, and scalable cloud architectures must balance computing performance with energy efficiency. AI offers opportunities to improve energy and […] The post AI’s Next Challenge is Turning Enterprise Ambition into Infrastructure Reality appeared first on Data Center POST .",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "a23941154744",
+      "title": "Nvidia trims neocloud commitments to $32bn: What tighter vendor support means for data centre landlords",
+      "url": "https://capacityglobal.com/news/nvidia-trims-neocloud-commitments",
+      "date": "2026-11-19T12:10:22.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Nvidia has just posted a record quarter, but its interim chief executive Colette Kress says it will be disciplined and selective in supporting the neoclouds that fill many new data centres. The post Nvidia trims neocloud commitments to $32bn: What tighter vendor support means for data centre landlords appeared first on Capacity .",
+      "figures": [
+        "$32bn"
+      ],
+      "score": 7
+    },
+    {
+      "id": "fa8be9c1d4a7",
+      "title": "Alibaba Cloud opens sixth data center in Malaysia",
+      "url": "https://w.media/alibaba-cloud-opens-sixth-data-center-in-malaysia",
+      "date": "2026-11-20T07:44:24.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Alibaba Cloud, the cloud computing and artificial intelligence (AI) subsidiary of Alibaba Group, has added a third data center to its Johor public cloud region, growing the company’s data center footprint in Malaysia to six facilities. The company announced the addition to the Johor region at its Qwen Conference Malaysia 2026. The third data center […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "5eb28ff5e8d2",
+      "title": "PDG and Stockland file to develop Sydney data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/pdg-and-stockland-file-to-develop-sydney-data-centers",
+      "date": "2026-11-19T17:00:42.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "PDG expands into Aus, Stock targets Wetherill Park and looks to expand Kemps Creek project",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "a208507c05c3",
+      "title": "Oak Ridge's AI Factory Moment: Lux, Nuclear Power, and the Next Data Center Frontier",
+      "url": "https://www.datacenterfrontier.com/frontier-computing/article/55415363/oak-ridges-ai-factory-moment-lux-nuclear-power-and-the-next-data-center-frontier",
+      "date": "2026-11-19T19:30:25.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "Oak Ridge's new Lux AI supercomputer puts advanced computing at the center of a rapidly expanding nuclear energy ecosystem, as billions in reactor, fuel manufacturing, and infrastructure projects position the Tennessee region to influence the next generation of data centers.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "f3f3ff906e07",
+      "title": "Data centre emissions on course to rise 70% by 2030, IEA warns",
+      "url": "https://datacentrereview.com/2026/11/data-centre-emissions-on-course-to-rise-70-by-2030-iea-warns",
+      "date": "2026-11-19T14:33:02.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "The IEA warns that growing reliance on fossil fuels to power data centres will drive emissions ever higher.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "f5bdf8ef35ff",
+      "title": "Non-profit claims 60% of Anthropic’s mapped US data center power demand is tied to natural gas",
+      "url": "https://www.datacenterdynamics.com/en/news/non-profit-claims-60-of-anthropics-mapped-us-data-center-power-demand-is-tied-to-natural-gas",
+      "date": "2026-11-19T14:30:59.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Anthropic says it is working to broaden its energy mix with renewable energy sources",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "3068bcc7353e",
+      "title": "ESI Total Fuel Management Named 2026 NVTC Tech100 Honoree",
+      "url": "https://datacenterpost.com/esi-total-fuel-management-named-2026-nvtc-tech100-honoree",
+      "date": "2026-11-19T13:00:39.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR ESI Total Fuel Management has been named a 2026 Tech100 Tech Company Honoree by the Northern Virginia Technology Council (NVTC). The annual NVTC Tech100 Awards recognize innovation, leadership and contributions to the National Capital Region’s technology community. ESI supports backup-power readiness for data centers and other mission-critical facilities through fuel lifecycle management. Honorees will […] The post ESI Total Fuel Management Named 2026 NVTC Tech100 Honoree appeared first on Data Center POST .",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "7edea2c8915b",
+      "title": "Amazon SageMaker AI now detects rising response times, idle GPUs, and missed optimizations on your generative AI inference endpoints",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-monitors-endpoints",
+      "date": "2026-11-19T08:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon SageMaker AI now monitors the response time and GPU use of generative AI inference endpoints by default and notifies customers when responses slow down, GPUs sit mostly idle, or a configuration falls behind. Customers run GenAI Inference Recommendations to test configurations designed to restore response time or lower cost on their recent traffic, and they see measured results before anything changes in production. The best configuration for generative AI inference endpoints changes after deployment, as traffic shifts and new serving techniques become available. An endpoint whose latenc",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "ee9b61609412",
+      "title": "DCD Survey: Airflow management",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/dcd-survey-airflow-management",
+      "date": "2026-11-20T09:34:55.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Examining advanced airflow management and contaminant control in AI data centers",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "fca21f677bfd",
+      "title": "Cirion Technologies launches Datrix data center brand to expand in Latin America",
+      "url": "https://w.media/cirion-technologies-launches-datrix-data-center-brand-to-expand-in-latin-america",
+      "date": "2026-11-20T04:51:49.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Cirion Technologies has launched Datrix, a new brand for its Data Center business, as it seeks to expand its presence in Latin America amid growing demand for digital infrastructure. The company will operate as a carrier-neutral data center platform, allowing customers to connect with a range of network and technology providers. The model is intended […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "f234dc4abf3d",
+      "title": "Crypto firm Avax One drops modular data center initiatives",
+      "url": "https://www.datacenterdynamics.com/en/news/crypto-firm-avax-one-drops-modular-data-center-initiatives",
+      "date": "2026-11-19T17:16:13.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company looks to focus instead on crypto",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "c7d3646393af",
+      "title": "Everpure revenues surge 51% as AI demand drives more hyperscaler wins",
+      "url": "https://www.datacenterdynamics.com/en/news/everpure-revenues-surge-51-as-ai-demand-drives-more-hyperscaler-wins",
+      "date": "2026-11-19T17:06:32.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Full-year forecast elevated yet again after stellar Q3",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "dec4afd4e74e",
+      "title": "Trans Americas Fiber secures $205 million in financing",
+      "url": "https://www.datacenterdynamics.com/en/news/trans-americas-fiber-secures-205-million-in-financing",
+      "date": "2026-11-19T16:45:36.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Subsea cable firm secures funds from Beach Point",
+      "figures": [
+        "$205 million"
+      ],
+      "score": 4
+    },
+    {
+      "id": "c821cb8f0b24",
+      "title": "CTS Group opens modular data center factory in Portugal",
+      "url": "https://www.datacenterdynamics.com/en/news/cts-group-opens-modular-data-center-factory-in-portugal",
+      "date": "2026-11-19T16:30:46.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Is firm's third manufacturing facility",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "aec48229c86f",
+      "title": "QTS data center site in Georgia partially evacuated after shooting threat letter",
+      "url": "https://www.datacenterdynamics.com/en/news/qts-data-center-site-in-georgia-partially-evacuated-after-shooting-threat-letter",
+      "date": "2026-11-19T16:25:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Follows bomb hoax at site last summer",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "94f6c331c888",
+      "title": "Data center powered by Huawei Ascend chips launches in China",
+      "url": "https://www.datacenterdynamics.com/en/news/data-center-powered-by-huawei-ascend-chips-launches-in-china",
+      "date": "2026-11-19T16:07:30.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Data center project is a collaboration between Huawei, China Telecom, and Tianyima",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "c9e42cb28b6f",
+      "title": "UK IT firm Iomart eyes sell-off of data center business",
+      "url": "https://www.datacenterdynamics.com/en/news/uk-it-firm-iomart-eyes-sell-off-of-data-center-business",
+      "date": "2026-11-19T15:14:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company looks to offload a dozen UK facilities",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "091ee84cd442",
+      "title": "Building Credibility in the Age of AI: Why Strategic Public Relations Efforts Matter More Than Ever",
+      "url": "https://datacenterpost.com/building-credibility-in-the-age-of-ai-why-strategic-public-relations-efforts-matter-more-than-ever",
+      "date": "2026-11-19T13:00:26.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR: Marketing builds visibility, but public relations builds credibility, and AI is making that difference matter more. A new Notified study of 26,670 press releases found that AI platforms cite content that is well structured, fact-rich and linked to authoritative sources. Because AI increasingly shapes how stakeholders understand a brand, companies need an integrated strategy […] The post Building Credibility in the Age of AI: Why Strategic Public Relations Efforts Matter More Than Ever appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "d2ecbb13d8a9",
+      "title": "AWS Site-to-Site VPN now supports post-quantum key exchanges",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/site-to-site-vpn-post-quantum",
+      "date": "2026-11-19T08:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "AWS Site-to-Site VPN now supports post-quantum key exchanges to help improve the security posture of your VPN tunnels. This feature supports your migration to post-quantum cryptography based on NIST guidelines. AWS Site-to-Site VPN is a fully managed service that creates an encrypted connection between your data center or branch office and your AWS resources using IPsec tunnels. With AWS Site-to-Site VPN, you can now configure post-quantum key exchange methods in your VPN tunnel options using the CreateVpnConnection and ModifyVpnTunnelOptions APIs. There is no additional charge for using post-",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "3320ecae4625",
+      "title": "Nebraska ISP Vistabeam to merge with Mountain West Technologies",
+      "url": "https://www.datacenterdynamics.com/en/news/nebraska-isp-vistabeam-to-merge-with-mountain-west-technologies",
+      "date": "2026-11-19T17:06:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "As company plots $125m broadband investment in Colorado, Nebraska, and Wyoming",
+      "figures": [
+        "$125m"
+      ],
+      "score": 3
+    },
+    {
+      "id": "b0bb014aff47",
+      "title": "Amazon EC2 launches performance status checks and new utilization metrics for EC2 Detailed Monitoring",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-performance-status-checks",
+      "date": "2026-11-19T08:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Customers can now use Amazon EC2 performance status checks and new utilization metrics for EC2 Detailed Monitoring to observe and act on the performance of their EC2 workloads without setup within the instance, complementing their in-guest tooling. Customers running performance-sensitive EC2 workloads can use these signals to monitor their CPU and GPU resources, tune capacity needs, and troubleshoot application issues. EC2 performance status checks identify nonterminal hardware conditions that impact performance on accelerated computing instances. These checks also recommend an action, such as",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}
