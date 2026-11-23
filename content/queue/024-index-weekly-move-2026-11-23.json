@@ -1,0 +1,117 @@
+{
+  "slug": "index-weekly-move-2026-11-23",
+  "format": "index-weekly-move",
+  "status": "ready",
+  "created": "2026-11-23",
+  "publishBy": "2026-12-07",
+  "topic": "Index Weekly Move: global colo ladder, Singapore $403 vs São Paulo $160, Tokyo flat at $280",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "colo-global",
+      "dataset": "Coloprice Colocation Index",
+      "url": "https://coloprice.com/data/colocation-price-index.json",
+      "asOf": "2026-10-01",
+      "facts": [
+        "Wholesale, USD per kW per month: Singapore $403; Hong Kong $295; Tokyo $280; Querétaro $260; Frankfurt $250; London $213; Amsterdam $180; São Paulo $160",
+        "Tokyo: wholesale $280/kW/month, +0% YoY (underlying source: CBRE, Global Data Center Trends 2026, 17 June 2026)",
+        "Singapore: wholesale $403/kW/month (underlying source: CBRE, Global Data Center Trends 2026)",
+        "São Paulo: wholesale $160/kW/month, +0% YoY (underlying source: CBRE, Global Data Center Trends 2026, 17 June 2026)",
+        "London, Amsterdam and Paris are Q1 2026, 250–500 kW (CBRE, Global Data Center Trends 2026, Fig. 5)"
+      ]
+    },
+    {
+      "id": "colo-hist",
+      "dataset": "Coloprice price history",
+      "url": "https://coloprice.com/history/",
+      "asOf": "2026-11-16",
+      "facts": [
+        "Singapore wholesale, USD per kW per month: 2024-06 340; 2024-12 366; 2025-06 385; 2025-12 403; 2026-11 403"
+      ]
+    }
+  ],
+  "derived": [
+    { "value": "2.5x", "how": "403 / 160 = 2.52, rounded to 2.5x" },
+    { "value": "$243", "how": "403 - 160 = 243" },
+    { "value": "+19%", "how": "403 / 340 = 1.185, i.e. +19% from Jun 2024 to Dec 2025" }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "photo",
+      "image": "dc-at-tokyo-toyosu-dusk",
+      "focus": "center",
+      "kicker": "Coloprice Index",
+      "headline": "What a kW of colo costs, city by city",
+      "figure": { "value": "$280", "label": "Tokyo, per kW per month, wholesale" },
+      "refs": ["colo-global"]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "Wholesale colo, selected global metros",
+      "unit": "USD per kW per month · Coloprice Index",
+      "data": [
+        { "label": "Singapore", "value": 403 },
+        { "label": "Hong Kong", "value": 295 },
+        { "label": "Tokyo", "value": 280 },
+        { "label": "Querétaro", "value": 260 },
+        { "label": "Frankfurt", "value": 250 },
+        { "label": "London", "value": 213 },
+        { "label": "Amsterdam", "value": 180 },
+        { "label": "São Paulo", "value": 160 }
+      ],
+      "highlight": 0,
+      "valueFormat": { "prefix": "$", "decimals": 0 },
+      "caption": "London and Amsterdam: Q1 2026, 250–500 kW.",
+      "refs": ["colo-global"]
+    },
+    {
+      "type": "compare",
+      "title": "Dearest vs cheapest on the ladder",
+      "unit": "Wholesale · USD per kW per month",
+      "items": [
+        { "label": "Singapore", "value": "$403", "note": "per kW per month", "highlight": true },
+        { "label": "São Paulo", "value": "$160", "note": "per kW per month" }
+      ],
+      "verdict": { "value": "2.5x", "text": "$243 more per kW in Singapore" },
+      "refs": ["colo-global"]
+    },
+    {
+      "type": "chart",
+      "kind": "line",
+      "title": "Singapore wholesale colo",
+      "unit": "USD per kW per month · Coloprice Index",
+      "data": [
+        { "label": "Jun 2024", "value": 340 },
+        { "label": "Dec 2024", "value": 366 },
+        { "label": "Jun 2025", "value": 385 },
+        { "label": "Dec 2025", "value": 403 },
+        { "label": "Nov 2026", "value": 403 }
+      ],
+      "valueFormat": { "prefix": "$", "decimals": 0 },
+      "caption": "+19% from Jun 2024 to Dec 2025, flat since.",
+      "refs": ["colo-hist"]
+    },
+    {
+      "type": "photo",
+      "image": "dc-at-tokyo-toyosu",
+      "focus": "center",
+      "headline": "Tokyo: $280, unchanged on the year",
+      "caption": "AT TOKYO Chuo Center, Toyosu. Wholesale $280 per kW per month, +0% YoY.",
+      "refs": ["colo-global"]
+    },
+    {
+      "type": "stat",
+      "label": "Reading the ladder",
+      "value": "+0%",
+      "unit": "YoY in Tokyo and São Paulo",
+      "context": "Both read flat on the year. Wholesale rates are CBRE figures; London and Amsterdam are 250–500 kW asking rates.",
+      "accent": false,
+      "refs": ["colo-global"]
+    },
+    { "type": "closing", "text": "Independent, sourced numbers on the price of data centres and AI compute.", "cta": "Full index and history at coloprice.com" }
+  ],
+  "caption": "$403 per kW per month: wholesale colo in Singapore, the top of the global ladder on the Coloprice Index.\n\nSão Paulo sits at $160, so a kW costs 2.5x more in Singapore. Hong Kong reads $295 and Tokyo $280, flat on the year at +0% YoY. Singapore rose from $340 in Jun 2024 to $403 in Dec 2025 and has not moved since. Note that London and Amsterdam are Q1 2026, 250–500 kW asking rates.\n\nData: Coloprice Colocation Index, Oct 2026 (CBRE underlying). Sources on the last slide.\n\nWhich market breaks the flat line first? Tell us below. Full table: link in bio.",
+  "hashtags": ["#datacenter", "#colocation", "#AIinfrastructure", "#Singapore"]
+}

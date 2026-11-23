@@ -1,0 +1,435 @@
+{
+  "generated": "2026-11-23T10:56:05.433Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 0
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 1
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 14
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 1
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 2
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 0
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 20,
+      "kept": 1
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 86,
+      "kept": 0
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 0
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 0
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 8
+    }
+  ],
+  "items": [
+    {
+      "id": "0460549a2498",
+      "title": "Melbourne leads APAC data centre absorption as power constraints push expansion regionally",
+      "url": "https://w.media/melbourne-leads-apac-data-centre-absorption-as-power-constraints-push-expansion-regionally",
+      "date": "2026-11-22T21:46:34.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Melbourne recorded 1.55GW of data centre absorption so far in 2026, overtaking Johor to top Asia Pacific, but rising costs, power constraints and community concerns are expected to reshape Australia’s development pipeline. Melbourne has overtaken Johor to lead Asia Pacific for data centre absorption, with 1,546MW so far in 2026, as hyperscalers commit to major […]",
+      "figures": [
+        "1.55GW",
+        "1,546MW"
+      ],
+      "score": 14
+    },
+    {
+      "id": "0643ff925730",
+      "title": "CyrusOne and KEP top out 48MW data center in Osaka, Japan",
+      "url": "https://www.datacenterdynamics.com/en/news/cyrusone-and-kep-top-out-48mw-data-center-in-osaka-japan",
+      "date": "2026-11-20T17:03:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "First facility under the pair's Japanese joint venture",
+      "figures": [
+        "48MW"
+      ],
+      "score": 11
+    },
+    {
+      "id": "a8765cf79cc1",
+      "title": "CtrlS signs MoU with Bihar Government for 150-MW AI-ready data center",
+      "url": "https://w.media/ctrls-signs-mou-with-bihar-government-for-150-mw-ai-ready-data-center",
+      "date": "2026-11-20T12:32:34.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "CtrlS Datacenters Ltd., a key player in South Asia’s data center landscape, has signed a Memorandum of Understanding (MoU) with the government of the Indian state of Bihar to invest Rs 10,000 crore (~US$ 1 billion) to set up a 150 MW hyperscale AI factory in the state. The move comes just a month after […]",
+      "figures": [
+        "$ 1 billion",
+        "150 MW"
+      ],
+      "score": 11
+    },
+    {
+      "id": "363fea0a8e38",
+      "title": "Apollo and Goldman Sachs announce pricing of US$ 44 billion SpaceX GPU financing",
+      "url": "https://w.media/apollo-and-goldman-sachs-announce-pricing-of-us-44-billion-spacex-gpu-financing",
+      "date": "2026-11-23T08:58:50.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Apollo, a global alternative asset manager, and Goldman Sachs, an American multinational investment bank and financial services company, have priced US$ 44 billion in senior and subordinated notes to finance the purchase of graphics processing units (GPUs) and related equipment for SpaceX, in what the companies described as the largest GPU financing to date. According […]",
+      "figures": [
+        "$ 44 billion"
+      ],
+      "score": 10
+    },
+    {
+      "id": "da73cfc2b4c3",
+      "title": "IREN details 900MW Wagga campus, but Transgrid capacity not yet secured",
+      "url": "https://w.media/iren-details-900mw-wagga-campus-but-transgrid-capacity-not-yet-secured",
+      "date": "2026-11-22T22:26:46.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Australian AI infrastructure company IREN has detailed plans for a proposed 900MW data centre campus near Wagga Wagga in regional New South Wales, including a new high-voltage connection to Transgrid’s local substation, although the availability and allocation of transmission capacity for the project remain subject to the connection process. The company’s Redbank Data Centre proposal […]",
+      "figures": [
+        "900MW"
+      ],
+      "score": 9
+    },
+    {
+      "id": "932f5832b702",
+      "title": "Melbourne Overtakes Sydney in Australia’s Data Center Pipeline",
+      "url": "https://www.datacenterknowledge.com/data-center-site-selection/melbourne-overtakes-sydney-in-australia-s-data-center-pipeline",
+      "date": "2026-11-20T18:22:22.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Melbourne now leads Australia’s data center pipeline, but power connections will determine how much capacity actually comes online.",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "3a29d6dc5737",
+      "title": "AMD set to lease planned 5C data center in Pennsylvania",
+      "url": "https://www.datacenterdynamics.com/en/news/amd-set-to-lease-planned-5c-data-center-in-pennsylvania",
+      "date": "2026-11-20T15:19:41.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "5C looking to buy site in Mount Carmel from FIT Energy",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "0b2ac81f10f3",
+      "title": "Securing the turbine is only half the battle: the emissions monitoring path to data center power",
+      "url": "https://www.datacenterdynamics.com/en/opinions/securing-the-turbine-is-only-half-the-battle-the-emissions-monitoring-path-to-data-center-power",
+      "date": "2026-11-21T11:00:28.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Demonstrating compliance is what turns it into power",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "adede340049f",
+      "title": "Apollo, Ardian, Macquarie, and Rai line up to acquire Retelit data centers - report",
+      "url": "https://www.datacenterdynamics.com/en/news/apollo-ardian-macquarie-and-rai-line-up-to-acquire-retelit-data-centers-report",
+      "date": "2026-11-20T17:01:43.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Telco looks to offload data center biz as it acquires subsea cable company Sparkle",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "1a5726f42730",
+      "title": "Why ‘temporary’ power could outlast the UK’s grid delays",
+      "url": "https://capacityglobal.com/news/why-temporary-power-could-outlast-the-uks-grid-delays",
+      "date": "2026-11-20T13:59:07.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "The UK’s Data Centre Covenant could accelerate strategically important projects, but success will hinge on a credible long-term energy strategy. The post Why ‘temporary’ power could outlast the UK’s grid delays appeared first on Capacity .",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "6bcb68c07863",
+      "title": "Vertiv launches medium-voltage UPS for AI data center sector",
+      "url": "https://www.datacenterdynamics.com/en/news/vertiv-launches-medium-voltage-ups-for-ai-data-center-sector",
+      "date": "2026-11-23T10:40:44.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Claims can deliver up to 98.5 percent peak operating efficiency",
+      "figures": [
+        "98.5 percent"
+      ],
+      "score": 4
+    },
+    {
+      "id": "b26ee973186a",
+      "title": "How small workarounds become a reliability risk across AI data centres",
+      "url": "https://datacentrereview.com/2026/11/how-small-workarounds-become-a-reliability-risk-across-ai-data-centres",
+      "date": "2026-11-23T10:23:55.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "Small operational workarounds can undermine data centre reliability. Bart Holsters explains how operators can keep standards consistent.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "d620da4b8a12",
+      "title": "Trump: We won't let US companies build data centers outside the states (unless we tax them)",
+      "url": "https://www.datacenterdynamics.com/en/news/trump-we-wont-let-us-companies-build-data-centers-outside-the-states-unless-we-tax-them",
+      "date": "2026-11-23T10:17:17.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "President says he wants to keep data centers local, doesn't detail how restrictions would work",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "8d23717c6bda",
+      "title": "Emerging Alternatives to UPS in Data Centers",
+      "url": "https://www.datacenterknowledge.com/uptime/emerging-alternatives-to-ups-in-data-centers",
+      "date": "2026-11-23T10:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "Data centers are exploring BESS, rack batteries, buffer modules, and microgrids as UPS alternatives, with hybrid backup designs often the most practical path.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "35cb4fb80f70",
+      "title": "No data centers at Pax Silica hub says Philippine president",
+      "url": "https://w.media/no-data-centers-at-pax-silica-hub-says-philippine-president",
+      "date": "2026-11-23T09:40:34.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Philippine President Ferdinand R. Marcos Jr. has said that there will be no data centers located at development sites associated with the Pax Silica initiative, which aims to reduce reliance on Chinese supply chains for rare earth materials, semiconductors, and other AI infrastructure components. As reported by the state-run Philippine News Agency, President Marcos Jr. […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "aa8b91ce2a52",
+      "title": "Trump threatens new taxes on US tech companies building data centers overseas",
+      "url": "https://w.media/trump-threatens-new-taxes-on-us-tech-companies-building-data-centers-overseas",
+      "date": "2026-11-23T02:47:26.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "President Donald Trump has threatened to penalize US technology companies that build data centers overseas, saying they must keep their investments in the United States or face a “tremendous tax” during a White House press conference on November 20. Trump declared that companies could still build facilities abroad but would face additional taxes and he […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "8c7a697c6c0c",
+      "title": "Why the next phase of the data center buildout runs on light",
+      "url": "https://www.datacenterdynamics.com/en/opinions/why-the-next-phase-of-the-data-center-buildout-runs-on-light",
+      "date": "2026-11-22T15:00:32.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Copper is running out of reach",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "4b775d1b4a02",
+      "title": "The Data Center Backlash Has a Playbook",
+      "url": "https://www.datacenterfrontier.com/machine-learning/podcast/55420631/the-data-center-backlash-has-a-playbook",
+      "date": "2026-11-20T17:31:31.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "At DCF Trends Summit 2026, Milldam Public Relations' Adam Waitkunas and LocalQ Labs founder Julia Chuang examined how organized opposition, electoral politics, and community distrust are changing the calculus of data center development—and why earning public trust must begin long before permitting.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "0107ac67709a",
+      "title": "UK competition body probes hyperscaler security and cloud lock-in",
+      "url": "https://www.datacenterdynamics.com/en/news/uk-competition-body-probes-hyperscaler-security-and-cloud-lock-in",
+      "date": "2026-11-20T17:09:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "CMA continues digital sovereignty investigation with consultation into IAM and Kubernetes",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "c06c280841b8",
+      "title": "Microsoft files for 316.7-acre data center campus in Mecklenburg County, Virginia",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-files-for-3167-acre-data-center-campus-in-mecklenburg-county-virginia",
+      "date": "2026-11-20T17:06:21.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Aims to build five data center buildings on site",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "0a1b58d87d8d",
+      "title": "Lambda deploys Nvidia Photonics switches at QScale data center",
+      "url": "https://www.datacenterdynamics.com/en/news/lambda-deploys-nvidia-photonics-switches-at-qscale-data-center",
+      "date": "2026-11-20T16:00:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Deployment in Quebec, Canada, now sports co-packaged optics switches",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "faabf4f0a47e",
+      "title": "Regulation ready",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/regulation-ready",
+      "date": "2026-11-20T15:48:59.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "How early design and development decisions shape data center approval and delivery",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "a6c69209e1cd",
+      "title": "SpaceX expresses interest in building data centers in Bulgaria",
+      "url": "https://www.datacenterdynamics.com/en/news/spacex-expresses-interest-in-building-data-centers-in-bulgaria",
+      "date": "2026-11-20T15:47:03.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Bulgaria could also host several new Starlink ground stations, said the country’s economy ministry",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "7d32e089186e",
+      "title": "Egypt’s Forbes International Tower to house a data center",
+      "url": "https://www.datacenterdynamics.com/en/news/egypts-forbes-international-tower-to-house-a-data-center",
+      "date": "2026-11-20T15:17:40.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "US government contractor Aedan Looking Glass ALG will lead technology and infrastructure delivery",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "65294a601c49",
+      "title": "SPECIAL FEATURE | Fate of traditional and AI data centers: Intertwined, aligned or separate by design?",
+      "url": "https://w.media/special-feature-fate-of-traditional-and-ai-data-centers-intertwined-aligned-or-separate-by-design",
+      "date": "2026-11-20T13:16:18.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Artificial Intelligence is leading data center providers to offer an increasingly diverse portfolio of digital infrastructure facilities catering to the varying needs of different clients. This “different strokes for different folks” approach has led to the emergence of blended infrastructure. In this piece, we examine the myriad facets of this exciting trend. What is […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "32fd165d0280",
+      "title": "Tokenomics: Putting a price on intelligence",
+      "url": "https://www.datacenterdynamics.com/en/analysis/tokenomics-putting-a-price-on-intelligence",
+      "date": "2026-11-20T17:00:34.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Inside the on-demand consumption model",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "5c4a5cd4f0e6",
+      "title": "All eyes on Anthropic as AI jitters rattle global markets",
+      "url": "https://w.media/all-eyes-on-anthropic-as-ai-jitters-rattle-global-markets",
+      "date": "2026-11-20T13:12:50.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Artificial intelligence firm Anthropic PBC began trading on the Nasdaq on Thursday after pricing its initial public offering at US$ 83 a share. Its shares opened under the ANT ticker symbol at US$ 111.50 and soared to a high of US$ 115.10 a share. At the close of trading, the price sat at US$ 97.17. […]",
+      "figures": [
+        "$ 83 ",
+        "$ 111.50 ",
+        "$ 115.10 ",
+        "$ 97.17"
+      ],
+      "score": 3
+    }
+  ]
+}

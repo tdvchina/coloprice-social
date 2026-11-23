@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T10:10:50.676Z",
+ "generated": "2026-11-23T10:56:06.724Z",
  "base": "https://coloprice.com",
  "mode": "remote",
  "license": "Coloprice data: CC BY 4.0 (own data). Read-only snapshot.",
@@ -1302,29 +1302,29 @@
    "citeAs": "Coloprice pipeline tracker",
    "url": "https://coloprice.com/data/data-center-pipeline.csv",
    "page": "https://coloprice.com/pipeline/",
-   "asOf": "2026-11-20",
+   "asOf": "2026-11-23",
    "note": "Coloprice — Data Center Construction Pipeline · published capacity only · CC BY 4.0 · cite coloprice.com/pipeline/",
    "rows": [
     {
      "level": "total",
      "name": "World",
-     "projects": 619,
-     "underConstructionMw": 52192,
-     "announcedMw": 49695
+     "projects": 621,
+     "underConstructionMw": 52250,
+     "announcedMw": 50125
     },
     {
      "level": "country",
      "name": "United States",
-     "projects": 185,
+     "projects": 186,
      "underConstructionMw": 34587,
      "announcedMw": 17943
     },
     {
      "level": "country",
      "name": "India",
-     "projects": 59,
-     "underConstructionMw": 2644,
-     "announcedMw": 8171
+     "projects": 60,
+     "underConstructionMw": 2622,
+     "announcedMw": 8621
     },
     {
      "level": "country",
@@ -1399,8 +1399,8 @@
     {
      "level": "country",
      "name": "South Korea",
-     "projects": 10,
-     "underConstructionMw": 542,
+     "projects": 11,
+     "underConstructionMw": 622,
      "announcedMw": 350
     },
     {
@@ -1468,13 +1468,6 @@
     },
     {
      "level": "country",
-     "name": "Singapore",
-     "projects": 5,
-     "underConstructionMw": 90,
-     "announcedMw": 120
-    },
-    {
-     "level": "country",
      "name": "Philippines",
      "projects": 7,
      "underConstructionMw": 102,
@@ -1486,6 +1479,13 @@
      "projects": 3,
      "underConstructionMw": 44,
      "announcedMw": 153
+    },
+    {
+     "level": "country",
+     "name": "Singapore",
+     "projects": 4,
+     "underConstructionMw": 90,
+     "announcedMw": 100
     },
     {
      "level": "country",
@@ -1802,7 +1802,7 @@
    "citeAs": "Coloprice M&A tracker",
    "url": "https://coloprice.com/data/transactions.csv",
    "page": "https://coloprice.com/transactions/",
-   "asOf": "2026-11-20",
+   "asOf": "2026-11-23",
    "deals": [
     {
      "target": "Aligned Data Centers",
@@ -2447,11 +2447,11 @@
    "url": "https://coloprice.com/data/operator-rankings.json",
    "page": "https://coloprice.com/companies/",
    "license": "CC BY 4.0 — free to use with a visible link to https://coloprice.com",
-   "asOf": "2026-11-19",
+   "asOf": "2026-11-22",
    "method": "Counts of facilities tracked in the Coloprice catalogue per operator (one company = one canonical name; joint ventures counted separately). MW = sum of published capacity only; mwCount = how many of the operator’s sites publish MW.",
    "totals": {
-    "operators": 2311,
-    "facilities": 6166,
+    "operators": 2314,
+    "facilities": 6171,
     "countries": 184
    },
    "global": {
@@ -2963,7 +2963,7 @@
    "byCountry": {
     "usa": {
      "countryName": "United States",
-     "facilities": 1351,
+     "facilities": 1352,
      "operatorsTotal": 339,
      "page": "https://coloprice.com/companies/usa/",
      "operators": [
@@ -3021,8 +3021,8 @@
     },
     "india": {
      "countryName": "India",
-     "facilities": 314,
-     "operatorsTotal": 88,
+     "facilities": 316,
+     "operatorsTotal": 89,
      "page": "https://coloprice.com/companies/india/",
      "operators": [
       {
@@ -3070,10 +3070,10 @@
        "name": "CtrlS Datacenters",
        "slug": "ctrls-datacenters",
        "page": "https://coloprice.com/providers/ctrls-datacenters/",
-       "facilities": 16,
-       "mw": 252,
-       "mwCount": 10,
-       "cities": 11
+       "facilities": 17,
+       "mw": 402,
+       "mwCount": 11,
+       "cities": 12
       }
      ]
     },
@@ -4005,6 +4005,64 @@
       }
      ]
     },
+    "south-korea": {
+     "countryName": "South Korea",
+     "facilities": 66,
+     "operatorsTotal": 24,
+     "page": "https://coloprice.com/companies/south-korea/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "KT Cloud",
+       "slug": "kt-cloud",
+       "page": "https://coloprice.com/providers/kt-cloud/",
+       "facilities": 15,
+       "mw": 100,
+       "mwCount": 2,
+       "cities": 9
+      },
+      {
+       "rank": 2,
+       "name": "LG Uplus",
+       "slug": "lg-uplus",
+       "page": "https://coloprice.com/providers/lg-uplus/",
+       "facilities": 6,
+       "mw": 200,
+       "mwCount": 1,
+       "cities": 3
+      },
+      {
+       "rank": 3,
+       "name": "Samsung SDS",
+       "slug": "samsung-sds",
+       "page": "https://coloprice.com/providers/samsung-sds/",
+       "facilities": 6,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      },
+      {
+       "rank": 4,
+       "name": "SK Broadband",
+       "slug": "sk-broadband",
+       "page": "https://coloprice.com/providers/sk-broadband/",
+       "facilities": 5,
+       "mw": 30,
+       "mwCount": 1,
+       "cities": 2
+      },
+      {
+       "rank": 5,
+       "name": "KINX",
+       "slug": "kinx",
+       "page": "https://coloprice.com/providers/kinx/",
+       "facilities": 5,
+       "mw": 10,
+       "mwCount": 1,
+       "cities": 3
+      }
+     ]
+    },
     "switzerland": {
      "countryName": "Switzerland",
      "facilities": 66,
@@ -4060,64 +4118,6 @@
        "mw": 0,
        "mwCount": 0,
        "cities": 5
-      }
-     ]
-    },
-    "south-korea": {
-     "countryName": "South Korea",
-     "facilities": 65,
-     "operatorsTotal": 23,
-     "page": "https://coloprice.com/companies/south-korea/",
-     "operators": [
-      {
-       "rank": 1,
-       "name": "KT Cloud",
-       "slug": "kt-cloud",
-       "page": "https://coloprice.com/providers/kt-cloud/",
-       "facilities": 15,
-       "mw": 100,
-       "mwCount": 2,
-       "cities": 9
-      },
-      {
-       "rank": 2,
-       "name": "LG Uplus",
-       "slug": "lg-uplus",
-       "page": "https://coloprice.com/providers/lg-uplus/",
-       "facilities": 6,
-       "mw": 200,
-       "mwCount": 1,
-       "cities": 3
-      },
-      {
-       "rank": 3,
-       "name": "Samsung SDS",
-       "slug": "samsung-sds",
-       "page": "https://coloprice.com/providers/samsung-sds/",
-       "facilities": 6,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 5
-      },
-      {
-       "rank": 4,
-       "name": "SK Broadband",
-       "slug": "sk-broadband",
-       "page": "https://coloprice.com/providers/sk-broadband/",
-       "facilities": 5,
-       "mw": 30,
-       "mwCount": 1,
-       "cities": 2
-      },
-      {
-       "rank": 5,
-       "name": "KINX",
-       "slug": "kinx",
-       "page": "https://coloprice.com/providers/kinx/",
-       "facilities": 5,
-       "mw": 10,
-       "mwCount": 1,
-       "cities": 3
       }
      ]
     },
@@ -6895,6 +6895,64 @@
       }
      ]
     },
+    "serbia": {
+     "countryName": "Serbia",
+     "facilities": 11,
+     "operatorsTotal": 11,
+     "page": "https://coloprice.com/companies/serbia/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Absolut Solutions",
+       "slug": "absolut-solutions",
+       "page": "https://coloprice.com/providers/absolut-solutions/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 2,
+       "name": "Akton Communications and Networks",
+       "slug": "akton-communications-and-networks",
+       "page": "https://coloprice.com/providers/akton-communications-and-networks/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 3,
+       "name": "BeotelNet-ISP d.o.o",
+       "slug": "beotelnet-isp-d-o-o",
+       "page": "https://coloprice.com/providers/beotelnet-isp-d-o-o/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "CETIN",
+       "slug": "cetin",
+       "page": "https://coloprice.com/providers/cetin/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "NiNet Company DOO",
+       "slug": "ninet-company-doo",
+       "page": "https://coloprice.com/providers/ninet-company-doo/",
+       "facilities": 1,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      }
+     ]
+    },
     "cyprus": {
      "countryName": "Cyprus",
      "facilities": 10,
@@ -7126,68 +7184,10 @@
        "cities": 1
       }
      ]
-    },
-    "serbia": {
-     "countryName": "Serbia",
-     "facilities": 10,
-     "operatorsTotal": 10,
-     "page": "https://coloprice.com/companies/serbia/",
-     "operators": [
-      {
-       "rank": 1,
-       "name": "Akton Communications and Networks",
-       "slug": "akton-communications-and-networks",
-       "page": "https://coloprice.com/providers/akton-communications-and-networks/",
-       "facilities": 1,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      },
-      {
-       "rank": 2,
-       "name": "BeotelNet-ISP d.o.o",
-       "slug": "beotelnet-isp-d-o-o",
-       "page": "https://coloprice.com/providers/beotelnet-isp-d-o-o/",
-       "facilities": 1,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      },
-      {
-       "rank": 3,
-       "name": "CETIN",
-       "slug": "cetin",
-       "page": "https://coloprice.com/providers/cetin/",
-       "facilities": 1,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      },
-      {
-       "rank": 4,
-       "name": "NiNet Company DOO",
-       "slug": "ninet-company-doo",
-       "page": "https://coloprice.com/providers/ninet-company-doo/",
-       "facilities": 1,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      },
-      {
-       "rank": 5,
-       "name": "Office for IT and eGovernment (Republic of Serbia)",
-       "slug": "office-for-it-and-egovernment-republic-of-serbia",
-       "page": "https://coloprice.com/providers/office-for-it-and-egovernment-republic-of-serbia/",
-       "facilities": 1,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      }
-     ]
     }
    },
    "facts": [
-    "Catalogue: 2311 operators, 6166 facilities in 184 countries (as of 2026-11-19)",
+    "Catalogue: 2314 operators, 6171 facilities in 184 countries (as of 2026-11-22)",
     "Largest by tracked facilities — #1 Equinix: 269 tracked facilities in 37 countries, 125 MW published (5 of 269 sites publish MW)",
     "Largest by tracked facilities — #2 Digital Realty: 231 tracked facilities in 29 countries, 290 MW published (13 of 231 sites publish MW)",
     "Largest by tracked facilities — #3 NTT Global Data Centers: 82 tracked facilities in 17 countries, 1,756 MW published (64 of 82 sites publish MW)",
@@ -7208,16 +7208,16 @@
     "Largest by published MW — #8 OpenAI (developer Octans GA LLC): 1 tracked facilities in 1 country, 3,210 MW published (1 of 1 sites publish MW)",
     "Largest by published MW — #9 Crusoe: 4 tracked facilities in 1 country, 3,100 MW published (3 of 4 sites publish MW)",
     "Largest by published MW — #10 Nebius: 4 tracked facilities in 2 countries, 3,010 MW published (4 of 4 sites publish MW)",
-    "United States (1351 facilities, top 5) — #1 Digital Realty: 78 tracked facilities in undefined countries, 91 MW published (7 of 78 sites publish MW)",
-    "United States (1351 facilities, top 5) — #2 Equinix: 76 tracked facilities in undefined countries",
-    "United States (1351 facilities, top 5) — #3 DataBank: 75 tracked facilities in undefined countries, 1,020 MW published (75 of 75 sites publish MW)",
-    "United States (1351 facilities, top 5) — #4 Flexential: 45 tracked facilities in undefined countries, 408 MW published (42 of 45 sites publish MW)",
-    "United States (1351 facilities, top 5) — #5 QTS Data Centers: 44 tracked facilities in undefined countries, 2,473 MW published (23 of 44 sites publish MW)",
-    "India (314 facilities, top 5) — #1 ST Telemedia Global Data Centres: 33 tracked facilities in undefined countries, 585 MW published (31 of 33 sites publish MW)",
-    "India (314 facilities, top 5) — #2 Nxtra Data: 26 tracked facilities in undefined countries, 234 MW published (19 of 26 sites publish MW)",
-    "India (314 facilities, top 5) — #3 NTT Global Data Centers: 20 tracked facilities in undefined countries, 301 MW published (14 of 20 sites publish MW)",
-    "India (314 facilities, top 5) — #4 Sify Technologies: 19 tracked facilities in undefined countries, 121 MW published (8 of 19 sites publish MW)",
-    "India (314 facilities, top 5) — #5 CtrlS Datacenters: 16 tracked facilities in undefined countries, 252 MW published (10 of 16 sites publish MW)",
+    "United States (1352 facilities, top 5) — #1 Digital Realty: 78 tracked facilities in undefined countries, 91 MW published (7 of 78 sites publish MW)",
+    "United States (1352 facilities, top 5) — #2 Equinix: 76 tracked facilities in undefined countries",
+    "United States (1352 facilities, top 5) — #3 DataBank: 75 tracked facilities in undefined countries, 1,020 MW published (75 of 75 sites publish MW)",
+    "United States (1352 facilities, top 5) — #4 Flexential: 45 tracked facilities in undefined countries, 408 MW published (42 of 45 sites publish MW)",
+    "United States (1352 facilities, top 5) — #5 QTS Data Centers: 44 tracked facilities in undefined countries, 2,473 MW published (23 of 44 sites publish MW)",
+    "India (316 facilities, top 5) — #1 ST Telemedia Global Data Centres: 33 tracked facilities in undefined countries, 585 MW published (31 of 33 sites publish MW)",
+    "India (316 facilities, top 5) — #2 Nxtra Data: 26 tracked facilities in undefined countries, 234 MW published (19 of 26 sites publish MW)",
+    "India (316 facilities, top 5) — #3 NTT Global Data Centers: 20 tracked facilities in undefined countries, 301 MW published (14 of 20 sites publish MW)",
+    "India (316 facilities, top 5) — #4 Sify Technologies: 19 tracked facilities in undefined countries, 121 MW published (8 of 19 sites publish MW)",
+    "India (316 facilities, top 5) — #5 CtrlS Datacenters: 17 tracked facilities in undefined countries, 402 MW published (11 of 17 sites publish MW)",
     "Germany (274 facilities, top 5) — #1 Digital Realty: 28 tracked facilities in undefined countries",
     "Germany (274 facilities, top 5) — #2 euNetworks Group: 17 tracked facilities in undefined countries",
     "Germany (274 facilities, top 5) — #3 Equinix: 13 tracked facilities in undefined countries",
@@ -7298,16 +7298,16 @@
     "Mexico (72 facilities, top 5) — #3 Scala Data Centers: 4 tracked facilities in undefined countries, 7 MW published (2 of 4 sites publish MW)",
     "Mexico (72 facilities, top 5) — #4 Aligned Data Centers: 4 tracked facilities in undefined countries",
     "Mexico (72 facilities, top 5) — #5 Equinix: 4 tracked facilities in undefined countries",
+    "South Korea (66 facilities, top 5) — #1 KT Cloud: 15 tracked facilities in undefined countries, 100 MW published (2 of 15 sites publish MW)",
+    "South Korea (66 facilities, top 5) — #2 LG Uplus: 6 tracked facilities in undefined countries, 200 MW published (1 of 6 sites publish MW)",
+    "South Korea (66 facilities, top 5) — #3 Samsung SDS: 6 tracked facilities in undefined countries",
+    "South Korea (66 facilities, top 5) — #4 SK Broadband: 5 tracked facilities in undefined countries, 30 MW published (1 of 5 sites publish MW)",
+    "South Korea (66 facilities, top 5) — #5 KINX: 5 tracked facilities in undefined countries, 10 MW published (1 of 5 sites publish MW)",
     "Switzerland (66 facilities, top 5) — #1 Swisscom: 8 tracked facilities in undefined countries, 2 MW published (1 of 8 sites publish MW)",
     "Switzerland (66 facilities, top 5) — #2 NorthC: 7 tracked facilities in undefined countries, 24 MW published (6 of 7 sites publish MW)",
     "Switzerland (66 facilities, top 5) — #3 STACK Infrastructure: 5 tracked facilities in undefined countries, 118 MW published (5 of 5 sites publish MW)",
     "Switzerland (66 facilities, top 5) — #4 Equinix: 5 tracked facilities in undefined countries",
     "Switzerland (66 facilities, top 5) — #5 Green Datacenter: 5 tracked facilities in undefined countries",
-    "South Korea (65 facilities, top 5) — #1 KT Cloud: 15 tracked facilities in undefined countries, 100 MW published (2 of 15 sites publish MW)",
-    "South Korea (65 facilities, top 5) — #2 LG Uplus: 6 tracked facilities in undefined countries, 200 MW published (1 of 6 sites publish MW)",
-    "South Korea (65 facilities, top 5) — #3 Samsung SDS: 6 tracked facilities in undefined countries",
-    "South Korea (65 facilities, top 5) — #4 SK Broadband: 5 tracked facilities in undefined countries, 30 MW published (1 of 5 sites publish MW)",
-    "South Korea (65 facilities, top 5) — #5 KINX: 5 tracked facilities in undefined countries, 10 MW published (1 of 5 sites publish MW)",
     "Singapore (62 facilities, top 5) — #1 Keppel DC REIT: 8 tracked facilities in undefined countries",
     "Singapore (62 facilities, top 5) — #2 ST Telemedia Global Data Centres: 6 tracked facilities in undefined countries, 73 MW published (3 of 6 sites publish MW)",
     "Singapore (62 facilities, top 5) — #3 Equinix: 6 tracked facilities in undefined countries, 20 MW published (1 of 6 sites publish MW)",
@@ -7547,6 +7547,11 @@
     "Oman (11 facilities, top 5) — #3 Oman Data Park (Otech): 2 tracked facilities in undefined countries",
     "Oman (11 facilities, top 5) — #4 Khazaen Data Center: 1 tracked facilities in undefined countries, 45 MW published (1 of 1 sites publish MW)",
     "Oman (11 facilities, top 5) — #5 Duqm Data Centre SAOC (D2C): 1 tracked facilities in undefined countries",
+    "Serbia (11 facilities, top 5) — #1 Absolut Solutions: 1 tracked facilities in undefined countries",
+    "Serbia (11 facilities, top 5) — #2 Akton Communications and Networks: 1 tracked facilities in undefined countries",
+    "Serbia (11 facilities, top 5) — #3 BeotelNet-ISP d.o.o: 1 tracked facilities in undefined countries",
+    "Serbia (11 facilities, top 5) — #4 CETIN: 1 tracked facilities in undefined countries",
+    "Serbia (11 facilities, top 5) — #5 NiNet Company DOO: 1 tracked facilities in undefined countries",
     "Cyprus (10 facilities, top 5) — #1 PrimeTel: 3 tracked facilities in undefined countries",
     "Cyprus (10 facilities, top 5) — #2 Cyta: 2 tracked facilities in undefined countries",
     "Cyprus (10 facilities, top 5) — #3 Cloudlayer8 Limited: 1 tracked facilities in undefined countries",
@@ -7566,12 +7571,7 @@
     "Luxembourg (10 facilities, top 5) — #2 LuxConnect: 3 tracked facilities in undefined countries",
     "Luxembourg (10 facilities, top 5) — #3 POST Telecom: 2 tracked facilities in undefined countries",
     "Luxembourg (10 facilities, top 5) — #4 Portus Data Centers: 1 tracked facilities in undefined countries, 2 MW published (1 of 1 sites publish MW)",
-    "Luxembourg (10 facilities, top 5) — #5 BCE: 1 tracked facilities in undefined countries",
-    "Serbia (10 facilities, top 5) — #1 Akton Communications and Networks: 1 tracked facilities in undefined countries",
-    "Serbia (10 facilities, top 5) — #2 BeotelNet-ISP d.o.o: 1 tracked facilities in undefined countries",
-    "Serbia (10 facilities, top 5) — #3 CETIN: 1 tracked facilities in undefined countries",
-    "Serbia (10 facilities, top 5) — #4 NiNet Company DOO: 1 tracked facilities in undefined countries",
-    "Serbia (10 facilities, top 5) — #5 Office for IT and eGovernment (Republic of Serbia): 1 tracked facilities in undefined countries"
+    "Luxembourg (10 facilities, top 5) — #5 BCE: 1 tracked facilities in undefined countries"
    ]
   }
  }
