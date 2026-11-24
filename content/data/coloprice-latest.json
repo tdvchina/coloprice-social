@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T10:56:06.724Z",
+ "generated": "2026-11-24T12:39:09.844Z",
  "base": "https://coloprice.com",
  "mode": "remote",
  "license": "Coloprice data: CC BY 4.0 (own data). Read-only snapshot.",
@@ -1302,13 +1302,13 @@
    "citeAs": "Coloprice pipeline tracker",
    "url": "https://coloprice.com/data/data-center-pipeline.csv",
    "page": "https://coloprice.com/pipeline/",
-   "asOf": "2026-11-23",
+   "asOf": "2026-11-24",
    "note": "Coloprice — Data Center Construction Pipeline · published capacity only · CC BY 4.0 · cite coloprice.com/pipeline/",
    "rows": [
     {
      "level": "total",
      "name": "World",
-     "projects": 621,
+     "projects": 622,
      "underConstructionMw": 52250,
      "announcedMw": 50125
     },
@@ -1329,7 +1329,7 @@
     {
      "level": "country",
      "name": "Australia",
-     "projects": 23,
+     "projects": 24,
      "underConstructionMw": 1010,
      "announcedMw": 6447
     },
@@ -1802,7 +1802,7 @@
    "citeAs": "Coloprice M&A tracker",
    "url": "https://coloprice.com/data/transactions.csv",
    "page": "https://coloprice.com/transactions/",
-   "asOf": "2026-11-23",
+   "asOf": "2026-11-24",
    "deals": [
     {
      "target": "Aligned Data Centers",
@@ -2447,11 +2447,11 @@
    "url": "https://coloprice.com/data/operator-rankings.json",
    "page": "https://coloprice.com/companies/",
    "license": "CC BY 4.0 — free to use with a visible link to https://coloprice.com",
-   "asOf": "2026-11-22",
+   "asOf": "2026-11-23",
    "method": "Counts of facilities tracked in the Coloprice catalogue per operator (one company = one canonical name; joint ventures counted separately). MW = sum of published capacity only; mwCount = how many of the operator’s sites publish MW.",
    "totals": {
-    "operators": 2314,
-    "facilities": 6171,
+    "operators": 2315,
+    "facilities": 6172,
     "countries": 184
    },
    "global": {
@@ -3427,8 +3427,8 @@
     },
     "australia": {
      "countryName": "Australia",
-     "facilities": 174,
-     "operatorsTotal": 57,
+     "facilities": 175,
+     "operatorsTotal": 58,
      "page": "https://coloprice.com/companies/australia/",
      "operators": [
       {
@@ -7187,7 +7187,7 @@
     }
    },
    "facts": [
-    "Catalogue: 2314 operators, 6171 facilities in 184 countries (as of 2026-11-22)",
+    "Catalogue: 2315 operators, 6172 facilities in 184 countries (as of 2026-11-23)",
     "Largest by tracked facilities — #1 Equinix: 269 tracked facilities in 37 countries, 125 MW published (5 of 269 sites publish MW)",
     "Largest by tracked facilities — #2 Digital Realty: 231 tracked facilities in 29 countries, 290 MW published (13 of 231 sites publish MW)",
     "Largest by tracked facilities — #3 NTT Global Data Centers: 82 tracked facilities in 17 countries, 1,756 MW published (64 of 82 sites publish MW)",
@@ -7248,11 +7248,11 @@
     "France (187 facilities, top 5) — #3 ETIX Everywhere: 15 tracked facilities in undefined countries, 17 MW published (13 of 15 sites publish MW)",
     "France (187 facilities, top 5) — #4 Equinix: 12 tracked facilities in undefined countries",
     "France (187 facilities, top 5) — #5 UltraEdge: 10 tracked facilities in undefined countries",
-    "Australia (174 facilities, top 5) — #1 NEXTDC: 25 tracked facilities in undefined countries, 1,726 MW published (25 of 25 sites publish MW)",
-    "Australia (174 facilities, top 5) — #2 Equinix: 18 tracked facilities in undefined countries, 28 MW published (1 of 18 sites publish MW)",
-    "Australia (174 facilities, top 5) — #3 CDC Data Centres: 14 tracked facilities in undefined countries, 3,210 MW published (10 of 14 sites publish MW)",
-    "Australia (174 facilities, top 5) — #4 Vocus: 9 tracked facilities in undefined countries",
-    "Australia (174 facilities, top 5) — #5 Macquarie Data Centres: 8 tracked facilities in undefined countries, 267 MW published (5 of 8 sites publish MW)",
+    "Australia (175 facilities, top 5) — #1 NEXTDC: 25 tracked facilities in undefined countries, 1,726 MW published (25 of 25 sites publish MW)",
+    "Australia (175 facilities, top 5) — #2 Equinix: 18 tracked facilities in undefined countries, 28 MW published (1 of 18 sites publish MW)",
+    "Australia (175 facilities, top 5) — #3 CDC Data Centres: 14 tracked facilities in undefined countries, 3,210 MW published (10 of 14 sites publish MW)",
+    "Australia (175 facilities, top 5) — #4 Vocus: 9 tracked facilities in undefined countries",
+    "Australia (175 facilities, top 5) — #5 Macquarie Data Centres: 8 tracked facilities in undefined countries, 267 MW published (5 of 8 sites publish MW)",
     "Canada (163 facilities, top 5) — #1 Cologix: 23 tracked facilities in undefined countries, 65 MW published (3 of 23 sites publish MW)",
     "Canada (163 facilities, top 5) — #2 eStruxture: 16 tracked facilities in undefined countries, 127 MW published (12 of 16 sites publish MW)",
     "Canada (163 facilities, top 5) — #3 Qu Data Centres: 10 tracked facilities in undefined countries, 27 MW published (7 of 10 sites publish MW)",

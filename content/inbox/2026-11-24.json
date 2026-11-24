@@ -1,0 +1,457 @@
+{
+  "generated": "2026-11-24T12:39:08.986Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 3
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 2
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 10
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 1
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 2
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 3
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 20,
+      "kept": 2
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 86,
+      "kept": 0
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 0
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 0
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 8
+    }
+  ],
+  "items": [
+    {
+      "id": "61260f25564d",
+      "title": "CtrlS moves forward with 150MW data center project in Bihar, India",
+      "url": "https://www.datacenterdynamics.com/en/news/ctrls-moves-forward-with-150mw-data-center-project-in-bihar-india",
+      "date": "2026-11-23T15:49:53.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company signs MoU for $1 billion project",
+      "figures": [
+        "150MW",
+        "$1 billion"
+      ],
+      "score": 13
+    },
+    {
+      "id": "e726b1ed0e76",
+      "title": "NTT signs MoU with B.Grimm for 400MW data center project in Thailand",
+      "url": "https://www.datacenterdynamics.com/en/news/ntt-signs-mou-with-bgrimm-for-400mw-data-center-project-in-thailand",
+      "date": "2026-11-24T11:58:28.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "As Aether Holdings targets data center at factory site in Khon Kaen",
+      "figures": [
+        "400MW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "bc781083e036",
+      "title": "YTL denies reports of its Johor data centers being involved illicit GPU transfers to China",
+      "url": "https://w.media/ytl-denies-johor-data-centers-were-involved-in-nvidia-gpu-transfers-to-china",
+      "date": "2026-11-24T04:43:11.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "YTL Data Centers, the digital infrastructure arm of YTL Power International Berhad, a Malaysia based international multi-utility and infrastructure investment holding company, has denied reports linking its Johor data center operations to the transfer of Nvidia graphics processing units (GPUs) to Chinese customers, describing the allegations as unfounded. In a press release, the company said […]",
+      "figures": [],
+      "score": 10
+    },
+    {
+      "id": "24ec330f00b0",
+      "title": "Lambruk outlines staged 350MW grid-demand data centre proposal in NSW",
+      "url": "https://w.media/lambruk-outlines-staged-350mw-grid-demand-data-centre-proposal-in-nsw",
+      "date": "2026-11-24T07:11:21.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Australian developer Lambruk Mulwala Futures has proposed a data centre campus with maximum grid demand of 350MW in Mulwala, southern New South Wales, with construction planned in three stages and a separate 27-hectare industrial precinct. The project is at an early planning stage, with the developer yet to secure a major development partner and electricity […]",
+      "figures": [
+        "350MW"
+      ],
+      "score": 9
+    },
+    {
+      "id": "0afbc25dfb69",
+      "title": "Vietnam moves to put data centers on manufacturing electricity rates",
+      "url": "https://w.media/vietnam-moves-to-put-data-centers-on-manufacturing-electricity-rates",
+      "date": "2026-11-23T14:09:53.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Vietnam’s Ministry of Industry and Trade (MOIT) has proposed applying the retail electricity price for manufacturing to data centers, rather than classifying them by purpose of use as is currently the case under the existing guidelines. The ministry said in a press release that it is seeking comment on draft amendments to Circular 60/2025/TT-BCT, which […]",
+      "figures": [],
+      "score": 9
+    },
+    {
+      "id": "b907eb0a6e8f",
+      "title": "From gigawatt campuses to 10–50MW blocks: Where data centre capital goes next",
+      "url": "https://capacityglobal.com/news/where-data-centre-capital-goes-next",
+      "date": "2026-11-24T10:07:42.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Data centre projects that are already permitted and under construction have become more valuable in the US market, according to Andrej Danis, partner and managing director at AlixPartners. The post From gigawatt campuses to 10–50MW blocks: Where data centre capital goes next appeared first on Capacity .",
+      "figures": [
+        "50MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "2bbef3085556",
+      "title": "LTN Compute to deploy additional NVIDIA B300 GPUs at its Chennai campus",
+      "url": "https://w.media/ltn-compute-to-deploy-additional-nvidia-b300-gpus-at-its-chennai-campus",
+      "date": "2026-11-24T06:44:50.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "L&T Group company, Vyoma.AI, through its AI infrastructure subsidiary LTN Compute, has secured a multi-year engagement with an inference infrastructure provider to deploy additional NVIDIA B300 GPUs at its Chennai Data Center. The infrastructure will power the inference infrastructure provider’s AI-native platform, enabling it to train, fine-tune and deploy specialised AI models for high-performance inference at […]",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "b7188cddd2e8",
+      "title": "LTN Compute to deploy 10,000-GPU cluster at Chennai Data Center",
+      "url": "https://www.datacenterdynamics.com/en/news/ltn-compute-to-deploy-10000-gpu-cluster-at-chennai-data-center",
+      "date": "2026-11-24T12:30:34.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Cluster deployed for unnamed inference infrastructure provider",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "4527c04c3166",
+      "title": "DatacenterHawk: Global data center supply grows two-thirds, but vacancy shrinks",
+      "url": "https://www.datacenterdynamics.com/en/news/datacenterhawk-global-data-center-supply-grows-two-thirds-but-vacancy-shrinks",
+      "date": "2026-11-24T12:02:29.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Demand absorbs new capacity as quickly as it’s built",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "6f4a61cf1d56",
+      "title": "Saturn Cloud and MaiaEdge Expand Enterprise Access to Private AI Infrastructure",
+      "url": "https://datacenterpost.com/saturn-cloud-and-maiaedge-expand-enterprise-access-to-private-ai-infrastructure",
+      "date": "2026-11-23T19:00:38.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Saturn Cloud and MaiaEdge have partnered to expand enterprise access to neocloud GPU capacity through private, encrypted connectivity without requiring new dedicated circuits for each deployment. The partnership combines Saturn Cloud’s NVIDIA powered inference platform with MaiaEdge’s automated private Ethernet connectivity and post-quantum key establishment to help protect sensitive enterprise data. The joint architecture […] The post Saturn Cloud and MaiaEdge Expand Enterprise Access to Private AI Infrastructure appeared first on Data Center POST .",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "df217db1bc80",
+      "title": "Apollo and Goldman Sachs lead $44bn SpaceX GPU financing deal",
+      "url": "https://www.datacenterdynamics.com/en/news/apollo-and-goldman-sachs-lead-44bn-spacex-gpu-financing-deal",
+      "date": "2026-11-23T17:14:29.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Funds will be used to purchase Nvidia Vera Rubin chips",
+      "figures": [
+        "$44bn"
+      ],
+      "score": 7
+    },
+    {
+      "id": "09e3a8badf0a",
+      "title": "Cogent sells three data centers to I Squared Capital's Saragon",
+      "url": "https://www.datacenterdynamics.com/en/news/cogent-sells-three-data-centers-to-i-squared-capitals-saragon",
+      "date": "2026-11-23T17:09:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Fiber firm sells facilities in Omaha, Tacoma, and Cheyenne for $35 million",
+      "figures": [
+        "$35 million"
+      ],
+      "score": 7
+    },
+    {
+      "id": "e034cbcda52a",
+      "title": "AgentCore runtime instances are now generally available in the AWS GovCloud (US-West) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-runtime-instances-govcloud",
+      "date": "2026-11-23T17:21:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon Bedrock AgentCore runtime instances are now available in the AWS GovCloud (US-West) Region. Runtime instances run your agents on Amazon EC2 instances in your own account, while AgentCore handles provisioning, patching, scaling, and lifecycle management. With runtime instances, teams in AWS GovCloud (US) can choose GPU-accelerated, memory-optimized, or compute-optimized instance types for their agents and run agent sessions of up to 14 days. Agent instances, storage volumes, and session data stay in the AWS GovCloud (US-West) Region, which helps public sector organizations and their part",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "43083c7aed86",
+      "title": "South African president says old power stations could become new data centers",
+      "url": "https://w.media/south-african-president-says-old-power-stations-could-become-new-data-centers",
+      "date": "2026-11-24T12:06:26.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Last week, South African President Cyril Ramaphosa, alongside nine ministers and a delegation of 300 people visited San Jose, California, in a bid to position South Africa as a prime destination for the development and adoption of artificial intelligence (AI). During the visit, the South African delegation met with scientists, engineers, entrepreneurs, and business leaders […]",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "7e0f04b34658",
+      "title": "Beyond Bandwidth, INCOMPAS 2026 Explores the Forces Reshaping Digital Infrastructure",
+      "url": "https://datacenterpost.com/beyond-bandwidth-incompas-2026-explores-the-forces-reshaping-digital-infrastructure",
+      "date": "2026-11-23T19:32:35.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR AI is changing the geography of digital infrastructure. Distributed computing, rural connectivity, and growing bandwidth requirements are creating new opportunities for network operators and infrastructure investors. Capital investment is increasingly tied to network scalability. Fiber expansion, edge infrastructure, and data centers are becoming more interconnected in investment and acquisition strategies. Permitting and energy policy […] The post Beyond Bandwidth, INCOMPAS 2026 Explores the Forces Reshaping Digital Infrastructure appeared first on Data Center POST .",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "a2b52578b1bb",
+      "title": "Study Ties 403 US Data Centers to 25.7M Metric Tons of CO2",
+      "url": "https://www.datacenterknowledge.com/sustainability/study-ties-403-us-data-centers-to-25-7m-metric-tons-of-co2",
+      "date": "2026-11-23T10:00:00.000Z",
+      "publisher": "Data Center Knowledge",
+      "feed": "dck",
+      "kind": "trade",
+      "summary": "A Harvard-led study found that 403 US hyperscale data centers were tied to 25.7 million metric tons of CO2, with emissions largely driven by regional power grids.",
+      "figures": [
+        "25.7 million"
+      ],
+      "score": 5
+    },
+    {
+      "id": "43c405a0e7df",
+      "title": "Proper Voltage launches sodium-ion battery cabinet for data center UPS systems",
+      "url": "https://www.datacenterdynamics.com/en/news/proper-voltage-launches-sodium-ion-battery-cabinet-for-data-center-ups-systems",
+      "date": "2026-11-24T12:30:34.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Partners with Unigrid on the battery system",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "36fa995a6b92",
+      "title": "74% of digital infrastructure leaders see community opposition as a strategic risk: Insights from the Community & Data Centres Forum report",
+      "url": "https://capacityglobal.com/news/74-of-digital-infrastructure-leaders-see-community-opposition-as-a-strategic-risk-insights-from-the-community-data-centres-forum-report",
+      "date": "2026-11-24T11:39:13.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "On 14 October, senior leaders from the digital infrastructure world came together to discuss a pressing issue: community opposition to data centres. The post 74% of digital infrastructure leaders see community opposition as a strategic risk: Insights from the Community & Data Centres Forum report appeared first on Capacity .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "e7fd271b7c87",
+      "title": "KIO Data Centers starts building second data hall at Panama facility",
+      "url": "https://w.media/kio-data-centers-starts-building-second-data-hall-at-panama-facility",
+      "date": "2026-11-24T09:09:20.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "KIO Data Centers, a data center operator and digital infrastructure provider in Latin America, has announced that it has started construction of a second data hall at its data center in Panama, which it says will triple the company’s IT capacity in the country. The company said in a press release that the new hall […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "d5a71c56fc00",
+      "title": "Community integration is a design challenge, not a planning exercise",
+      "url": "https://datacentrereview.com/2026/11/community-integration-is-a-design-challenge-not-a-planning-exercise",
+      "date": "2026-11-24T08:00:00.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "Could better architecture change how people see data centres? HKS's Muhammad Khan explores the case for starting with local voices, not site plans.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "8cd8b7195718",
+      "title": "Can space data centers really work?",
+      "url": "https://w.media/can-space-data-centers-really-work",
+      "date": "2026-11-24T04:13:16.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "There is a growing clamor to put data centers into space. Depending on who is talking, the vision ranges from a handful of test satellites to a million data centers launched within a year. On the face of it, the idea seems far-fetched, even incongruous. Yet a growing list of firms, both Eastern and Western, […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "b5f8b56e45f3",
+      "title": "Spain approves new energy and digital sovereignty rules for data centers",
+      "url": "https://w.media/spain-approves-new-energy-and-digital-sovereignty-rules-for-data-centers",
+      "date": "2026-11-24T03:30:08.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "The Spanish Government has approved a Royal Decree regulating data centers, following a proposal by the multiple ministries. Approved by the Council of Ministers, the new rules establish energy, environmental sustainability and digital sovereignty requirements, including renewable energy targets and measures to prevent additional costs for electricity consumers. According to a press release, data centers […]",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "d59dd1286ec1",
+      "title": "Segra Announces Fully Managed Business Wi-Fi Powered by Wi-Fi 7",
+      "url": "https://datacenterpost.com/segra-announces-fully-managed-business-wi-fi-powered-by-wi-fi-7",
+      "date": "2026-11-23T17:30:17.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Segra has launched a fully managed Business Wi-Fi solution featuring Wi-Fi 7-capable access points and dedicated WAN connectivity. Wi-Fi 7 technology supports growing enterprise connectivity demands with high-speed, low-latency performance designed for high-density environments and bandwidth-intensive applications. End-to-end network management reduces the burden on internal IT teams by combining wireless design, deployment, monitoring and […] The post Segra Announces Fully Managed Business Wi-Fi Powered by Wi-Fi 7 appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "01e397c1a30d",
+      "title": "The coming wave: Is compute at sea ready to sink or swim?",
+      "url": "https://www.datacenterdynamics.com/en/analysis/underwater-data-centers-floating-compute-at-sea-us-china",
+      "date": "2026-11-23T17:00:41.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Exploring the world of underwater and floating data centers",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "66e3dd9102fc",
+      "title": "It’s the Roaring 2020’s for the HPC-AI Data Center Industry, But It Comes with Costs",
+      "url": "https://www.datacenterfrontier.com/frontier-computing/article/55420619/its-the-roaring-2020s-for-the-hpc-ai-data-center-industry-but-it-comes-with-costs",
+      "date": "2026-11-23T16:24:16.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "Industry analyst firm Hyperion Research reports from SC26 on historic growth in the HPC-AI data center industry -- but it's growth that has its costs.",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "4056853f4545",
+      "title": "Spain approves decree on data centers to curb electricity costs",
+      "url": "https://www.datacenterdynamics.com/en/news/spain-approves-decree-on-data-centers-to-curb-electricity-costs",
+      "date": "2026-11-23T16:00:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The approval comes after several months of debate between the government and companies in the sector",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "e5021b0c8152",
+      "title": "Sponsored: Bitera completes SOC 2 Type II Audit, strengthening governance to international standards",
+      "url": "https://www.datacenterdynamics.com/en/product-news/bitera-completes-soc-2-type-ii-audit-strengthening-governance-to-international-standards",
+      "date": "2026-11-24T08:00:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The carrier-neutral data center in Jakarta’s Kuningan district has also maintained 100 percent power availability since opening in 2024",
+      "figures": [
+        "100 percent"
+      ],
+      "score": 3
+    },
+    {
+      "id": "8edf455cb89b",
+      "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions",
+      "date": "2026-11-23T20:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The first two extensions cover observability and user management. Earlier, every observability or user management change for HyperPod Slurm clusters meant editing lifecycle scripts and then replacing or rerunning nodes. Now, HyperPod manages these features for you, and you keep lifecycle scripts and custom AMIs for your organization's own software. For each extension, you declare a configuration. HyperPod ",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "2020984c3882",
+      "title": "Announcing metal size for Amazon EC2 G7 instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-metal-size",
+      "date": "2026-11-23T16:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Today, AWS announces the general availability of the metal size for Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to 4.6x AI inference performance and up to 2.1x graphics performance compared to G6. Customers can use the metal size of G7 instances to run physical AI simulations, deploy AI agent sandboxes, and accelerate graphics workloads that need direct access to bare metal infrastructure. G7 metal instances enable customers to run specialized workloads that require a custom virtualization sta",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "gpu-rent-check-2026-11-24",
+  "theme": "paper",
+  "format": "gpu-rent-check",
+  "status": "ready",
+  "created": "2026-11-24",
+  "publishBy": "2026-12-08",
+  "topic": "GPU Rent Check: 1-year contract vs on-demand, with LTN Compute B300 cluster in Chennai",
+  "photoGap": "LTN Compute / Vyoma.AI Chennai data center campus, India (or Chennai / Tamil Nadu substation)",
+  "sources": [
+    {
+      "id": "dcd",
+      "publisher": "DCD",
+      "title": "LTN Compute to deploy 10,000-GPU cluster at Chennai Data Center",
+      "url": "https://www.datacenterdynamics.com/en/news/ltn-compute-to-deploy-10000-gpu-cluster-at-chennai-data-center",
+      "date": "2026-11-24",
+      "facts": [
+        "Headline: LTN Compute to deploy 10,000-GPU cluster at Chennai Data Center",
+        "Standfirst: Cluster deployed for unnamed inference infrastructure provider"
+      ]
+    },
+    {
+      "id": "wmedia",
+      "publisher": "W.Media",
+      "title": "LTN Compute to deploy additional NVIDIA B300 GPUs at its Chennai campus",
+      "url": "https://w.media/ltn-compute-to-deploy-additional-nvidia-b300-gpus-at-its-chennai-campus",
+      "date": "2026-11-24",
+      "facts": [
+        "LTN Compute, the AI infrastructure subsidiary of Vyoma.AI (an L&T Group company), secured a multi-year engagement with an inference infrastructure provider to deploy additional NVIDIA B300 GPUs at its Chennai Data Center",
+        "Upcoming 52 MW AI-ready green data center in Chennai; operational 30 MW facility",
+        "Number of GPUs added is not stated in the W.Media article"
+      ]
+    }
+  ],
+  "dataHooks": [
+    {
+      "id": "gpu",
+      "dataset": "Coloprice GPU index",
+      "url": "https://coloprice.com/data/gpu-price-index.json",
+      "asOf": "2026-11-16",
+      "facts": [
+        "NVIDIA GB200 (per GPU, NVL72): on-demand median $13.25/GPU-hr, 1-year contract $10.58",
+        "NVIDIA B200 (180GB): on-demand median $7.4/GPU-hr, 1-year contract n/a",
+        "AMD MI355X (288GB): on-demand median $7/GPU-hr, 1-year contract $4.25",
+        "NVIDIA H200 (141GB): on-demand median $4.8/GPU-hr, 1-year contract $3.4",
+        "NVIDIA H100 (80GB): on-demand median $3.9/GPU-hr, 1-year contract $3.26",
+        "AMD MI300X (192GB): on-demand median $2.99/GPU-hr, 1-year contract $1.91",
+        "NVIDIA A100 (80GB): on-demand median $1.75/GPU-hr, 1-year contract $1.59",
+        "NVIDIA L40S (48GB): on-demand median $1.53/GPU-hr, 1-year contract $1.09"
+      ]
+    },
+    {
+      "id": "pipe",
+      "dataset": "Coloprice pipeline tracker",
+      "url": "https://coloprice.com/data/data-center-pipeline.csv",
+      "asOf": "2026-11-24",
+      "facts": [
+        "India: 60 projects, 2622 MW under construction, 8621 MW announced (published capacity only)"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "poster",
+      "kicker": "GPU Rent Check",
+      "headline": "What a 1-year GPU contract takes off",
+      "figure": { "value": "-16%", "label": "H100: 1-year contract vs on-demand median" },
+      "refs": ["gpu"]
+    },
+    {
+      "type": "stat",
+      "label": "In the news · Chennai, India",
+      "value": "10,000",
+      "unit": "GPUs",
+      "context": "DCD headline: LTN Compute to deploy a 10,000-GPU cluster at its Chennai data center. NVIDIA B300, multi-year engagement, client unnamed.",
+      "refs": ["dcd", "wmedia"]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "1-year contract vs on-demand",
+      "unit": "Discount to on-demand median · %",
+      "data": [
+        { "label": "MI355X", "value": 39 },
+        { "label": "MI300X", "value": 36 },
+        { "label": "H200", "value": 29 },
+        { "label": "L40S", "value": 29 },
+        { "label": "GB200", "value": 20 },
+        { "label": "H100", "value": 16 },
+        { "label": "A100", "value": 9 }
+      ],
+      "highlight": "MI355X",
+      "valueFormat": { "suffix": "%", "decimals": 0 },
+      "caption": "Median 1-year contract price against median on-demand price.",
+      "refs": ["gpu"]
+    },
+    {
+      "type": "list",
+      "title": "On-demand vs 1-year contract",
+      "unit": "USD per GPU-hr",
+      "rows": [
+        { "label": "GB200", "value": "$10.58", "note": "on-demand $13.25" },
+        { "label": "MI355X", "value": "$4.25", "note": "on-demand $7.00", "highlight": true },
+        { "label": "H200", "value": "$3.40", "note": "on-demand $4.80" },
+        { "label": "H100", "value": "$3.26", "note": "on-demand $3.90" },
+        { "label": "MI300X", "value": "$1.91", "note": "on-demand $2.99" },
+        { "label": "A100", "value": "$1.59", "note": "on-demand $1.75" }
+      ],
+      "footnote": "B200 has no 1-year price in the index yet.",
+      "refs": ["gpu"]
+    },
+    {
+      "type": "stat",
+      "label": "India: data center pipeline",
+      "value": "2,622 MW",
+      "context": "under construction across 60 tracked projects, plus 8,621 MW announced. Chennai adds a 52 MW facility on top of 30 MW already operating.",
+      "refs": ["pipe", "wmedia"]
+    },
+    { "type": "closing", "text": "Independent GPU rental prices, tracked weekly.", "cta": "Full index: link in bio" }
+  ],
+  "caption": "-16%: the H100 1-year contract median ($3.26) against its on-demand median ($3.90) per GPU-hour.\n\nThe gap is wider elsewhere: MI355X $4.25 vs $7.00, MI300X $1.91 vs $2.99. It is narrow on A100: $1.59 vs $1.75.\n\nThe context: LTN Compute is deploying NVIDIA B300 GPUs at its Chennai data center under a multi-year engagement; DCD's headline puts the cluster at 10,000 GPUs. India has 2,622 MW under construction in our pipeline.\n\nData: Coloprice GPU index, 16 Nov 2026; Coloprice pipeline tracker, 24 Nov 2026. Sources on the last slide.\n\nFor inference workloads, is a multi-year commitment now the default where you buy? Tell us below. Full index: link in bio.",
+  "hashtags": ["#GPU", "#AIinfrastructure", "#datacenter", "#India"],
+  "derived": [
+    { "value": "16", "how": "1 - 3.26/3.9 = 0.164" },
+    { "value": "39", "how": "1 - 4.25/7 = 0.393" },
+    { "value": "36", "how": "1 - 1.91/2.99 = 0.361" },
+    { "value": "29", "how": "H200: 1 - 3.4/4.8 = 0.292; L40S: 1 - 1.09/1.53 = 0.288" },
+    { "value": "20", "how": "1 - 10.58/13.25 = 0.202" },
+    { "value": "9", "how": "1 - 1.59/1.75 = 0.091" },
+    { "value": "7.00", "how": "7 written with two decimals" },
+    { "value": "3.26", "how": "as in index facts" }
+  ]
+}

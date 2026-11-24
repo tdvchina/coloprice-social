@@ -12,3 +12,4 @@ Format: `YYYY-MM-DD · <slug> · <missing photo>`
 2026-11-17 · gpu-rent-check-b200-2026-11-17 · GPU cluster / AI data hall of a named GPU cloud (Lambda, CoreWeave, Nebius) or a B200 server rack
 2026-11-18 · megawatt-watch-2026-11-18 · India solar or wind farm, or Indian data centre campus / substation
 2026-11-20 · deal-sheet-nvidia-neocloud-2026-11-20 · Hut 8 River Bend / Texas AI campus, or OpenAI Abilene-type AI campus in the US
+2026-11-24 gpu-rent-check-2026-11-24: LTN Compute / Vyoma.AI Chennai data center campus, India (or Chennai / Tamil Nadu substation)
