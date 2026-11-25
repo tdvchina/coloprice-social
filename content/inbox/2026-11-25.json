@@ -1,0 +1,454 @@
+{
+  "generated": "2026-11-25T11:28:26.573Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 7
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 2
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 14
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 2
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 2
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 6
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 20,
+      "kept": 3
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 86,
+      "kept": 0
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 0
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 0
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 7
+    }
+  ],
+  "items": [
+    {
+      "id": "dc7652f4249a",
+      "title": "Applied Digital signs US$ 5.4 Billion hyperscaler lease",
+      "url": "https://w.media/applied-digital-signs-us-5-4-billion-hyperscaler-lease",
+      "date": "2026-11-25T05:53:41.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Applied Digital, a U.S. based AI data center infrastructure company, announced that it has entered into a new 18 year lease agreement with a tier-one investment-grade hyperscaler for 150 MW of critical IT capacity. The lease provides for approximately US$ 5.4 billion in base-term contracted revenue, or approximately US$ 12.7 billion if all renewal options […]",
+      "figures": [
+        "$ 5.4 Billion",
+        "150 MW",
+        "$ 5.4 billion",
+        "$ 12.7 billion"
+      ],
+      "score": 14
+    },
+    {
+      "id": "ab6d22467b9d",
+      "title": "B.Grimm Power and NTT Global Data Center sign MoU for a multi billion dollar data center project in Thailand",
+      "url": "https://w.media/b-grimm-power-and-ntt-global-data-center-sign-mou-for-a-multi-billion-dollar-data-center-project-in-thailand",
+      "date": "2026-11-25T04:53:41.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "B.Grimm Power, a Thai multinational energy company, has signed a memorandum of understanding (MoU) with NTT Global Data Center to explore a 400 MW data center development in Thailand, with a proposed investment value at THB 113 billion (US$ $3.33 billion). The agreement was signed during the Thailand–Japan Investment and Business Dialogue 2026 in Tokyo, […]",
+      "figures": [
+        "400 MW",
+        "113 billion",
+        "$3.33 billion"
+      ],
+      "score": 14
+    },
+    {
+      "id": "2f55607c34d2",
+      "title": "Applied Digital signs $5.4bn 18-year lease with unnamed hyperscaler",
+      "url": "https://www.datacenterdynamics.com/en/news/applied-digital-signs-54bn-18-year-lease-with-unnamed-hyperscaler",
+      "date": "2026-11-24T14:53:30.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Will provide hyperscaler with 150MW of capacity",
+      "figures": [
+        "$5.4bn",
+        "150MW"
+      ],
+      "score": 14
+    },
+    {
+      "id": "1b663386bf60",
+      "title": "350MW data center campus proposed in New South Wales, Australia",
+      "url": "https://www.datacenterdynamics.com/en/news/350mw-data-center-campus-proposed-in-new-south-wales-australia",
+      "date": "2026-11-25T11:20:02.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Project planned near Mulwala substation and solar farm",
+      "figures": [
+        "350MW"
+      ],
+      "score": 11
+    },
+    {
+      "id": "da251d9eaad1",
+      "title": "Taiwanese AI infrastructure firm Nocera takes $22m stake in Canadian AI data center developer BitRock",
+      "url": "https://www.datacenterdynamics.com/en/news/taiwanese-ai-infrastructure-firm-nocera-takes-22m-stake-in-canadian-ai-data-center-developer-bitrock",
+      "date": "2026-11-24T13:53:02.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Transaction will fund 10MW self-powered data center campus",
+      "figures": [
+        "$22m",
+        "10MW"
+      ],
+      "score": 11
+    },
+    {
+      "id": "b9ec4a379004",
+      "title": "Digital Realty buys vacant office outside Chicago, plans 156MW data center campus",
+      "url": "https://www.datacenterdynamics.com/en/news/digital-realty-buys-vacant-office-outside-chicago-plans-156mw-data-center-campus",
+      "date": "2026-11-25T11:15:18.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company also buys horse racetrack in Cook County",
+      "figures": [
+        "156MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "220a3cafe31f",
+      "title": "Google plans 1.2GW data center near Châteauroux, France - report",
+      "url": "https://www.datacenterdynamics.com/en/news/google-planning-12gw-data-center-near-ch%C3%A2teauroux-france-report",
+      "date": "2026-11-25T08:46:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company applies for connection request for second data center in area",
+      "figures": [
+        "1.2GW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "daa50d4799cb",
+      "title": "The Real Economics of AI Infrastructure: Power, Cooling and the Price of Growth",
+      "url": "https://www.datacenterfrontier.com/machine-learning/article/55417877/the-real-economics-of-ai-infrastructure-power-cooling-and-the-price-of-growth",
+      "date": "2026-11-24T21:44:05.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "From nuclear uprates and private microgrids to grid-responsive computing and water disclosure, recent industry developments put the World Economic Forum’s AI infrastructure playbook to the test, revealing how sustainability, resilience and investment risk are becoming inseparable.",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "8f501f137505",
+      "title": "ABB to acquire cooling fan company Ziehl-Abegg for $2.65bn",
+      "url": "https://www.datacenterdynamics.com/en/news/ziehl-abegg-is-a-growing-technology-leader-with-a-compelling-portfolio-and-a-significant-presence-in-some-of-the-worlds-most-dynamic-markets-at-the-heart-of-our-success-are-our-employees-whose-expertise-dedication-and-innovative-spirit-have-made-us",
+      "date": "2026-11-24T16:20:34.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Fan business serves data centers and other HVAC markets",
+      "figures": [
+        "$2.65bn"
+      ],
+      "score": 8
+    },
+    {
+      "id": "a11e135a1af4",
+      "title": "NewYork GreenCloud submits application to build 14.4MW biomass powered data center in Ione, California",
+      "url": "https://www.datacenterdynamics.com/en/news/newyork-greencloud-submits-application-to-build-144mw-biomass-powered-data-center-in-ione-california",
+      "date": "2026-11-24T13:20:40.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company acquired the biomass site in January",
+      "figures": [
+        "14.4MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "7e8026c635df",
+      "title": "Massed Compute deploys GPUs at American Tower data center in Raleigh, North Carolina",
+      "url": "https://www.datacenterdynamics.com/en/news/massed-compute-deploys-gpus-at-american-tower-data-center-in-raleigh-north-carolina",
+      "date": "2026-11-24T15:49:26.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Scale of deployment not shared",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "bee57ee171c9",
+      "title": "CloudFest Americas Explores NeoCloud’s Role in AI Infrastructure Growth",
+      "url": "https://datacenterpost.com/cloudfest-americas-explores-neoclouds-role-in-ai-infrastructure-growth",
+      "date": "2026-11-24T13:30:19.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TLDR: Structure Research projects rapid NeoCloud growth, with AI demand creating opportunities across compute, colocation, and managed services. Inference and location-sensitive workloads offer entry points beyond large-scale AI training. Established providers can build on customer relationships, operating experience, and specialized partnerships to pursue these opportunities. ### At CloudFest Americas on November 11, 2026, “The NeoCloud […] The post CloudFest Americas Explores NeoCloud’s Role in AI Infrastructure Growth appeared first on Data Center POST .",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "12f989c78f6d",
+      "title": "How grid constraints are changing where Europe builds data centres",
+      "url": "https://datacentrereview.com/2026/11/how-grid-constraints-are-changing-where-europe-builds-data-centres",
+      "date": "2026-11-25T08:00:00.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "For Cummins’ Emmet Taggart, the US offers Europe a useful lesson: plan for delayed grid connections without sacrificing long-term resilience.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "c76a85babccc",
+      "title": "TSMC considers US$ 22.6 billion semiconductor facility in Brazos County Texas",
+      "url": "https://w.media/tsmc-considers-us-22-6-billion-semiconductor-facility-in-brazos-county-texas",
+      "date": "2026-11-25T07:20:32.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) has filed an application under Texas’ Jobs, Energy, Technology and Innovation (JETI) program as it evaluates a Brazos County site for a proposed semiconductor manufacturing campus. The proposed site is in Precinct 1, within the City of College Station’s extraterritorial jurisdiction and College Station ISD boundaries. According to a press […]",
+      "figures": [
+        "$ 22.6 billion"
+      ],
+      "score": 5
+    },
+    {
+      "id": "b8d272cc0d05",
+      "title": "Blackstone's Link Logistics eyes data center outside Minneapolis, Minnesota",
+      "url": "https://www.datacenterdynamics.com/en/news/blackstones-link-logistics-eyes-data-center-outside-minneapolis-minnesota",
+      "date": "2026-11-25T10:23:40.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Logistics real estate firm moves further into data centers",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "d0658fa41d84",
+      "title": "The Data Center AI Console Needs an Escalation Memory",
+      "url": "https://datacenterpost.com/the-data-center-ai-console-needs-an-escalation-memory",
+      "date": "2026-11-24T21:00:15.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR While AI can summarize alerts and assemble shift handovers in seconds, facilities risk operational vulnerabilities if they record only the final actions taken while losing the underlying engineering rationale for why alternative explanations were ruled out. Shift records should include a concise, structured supplement capturing four core components: the initial hypothesis, the decisive difference […] The post The Data Center AI Console Needs an Escalation Memory appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "c99a6a1a9596",
+      "title": "Vantage drops plans for Trident data center after Colorado's Aurora City passes moratorium",
+      "url": "https://www.datacenterdynamics.com/en/news/vantage-drops-plans-for-trident-data-center-after-colorados-aurora-city-passes-moratorium",
+      "date": "2026-11-24T16:57:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Would have been the largest data center in Colorado",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "044fa2be32aa",
+      "title": "Quantum hardware startup Planckian awarded €10m EIC funding under accelerator program",
+      "url": "https://www.datacenterdynamics.com/en/news/quantum-hardware-startup-planckian-awarded-10m-eic-funding-under-accelerator-program",
+      "date": "2026-11-24T13:10:34.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Italian firm developing quantum processors that utilize shared control lines",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "f5be5674138b",
+      "title": "Beyond the Next Big Thing: CloudFest Americas Panel Examines Latin America’s Digital Market",
+      "url": "https://datacenterpost.com/beyond-the-next-big-thing-cloudfest-americas-panel-examines-latin-americas-digital-market",
+      "date": "2026-11-24T13:00:37.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TLDR: Latin America’s financial, political, and cultural differences require country-specific strategies rather than a single regional approach. Access to capital, varying tax environments, and currency risk influence how providers enter markets and build sustainable businesses. Local relationships, tailored messaging, and greater visibility for regional success stories can help providers establish credibility and support growth. ### […] The post Beyond the Next Big Thing: CloudFest Americas Panel Examines Latin America’s Digital Market appeared first on Data Center POST .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "eef8abd8d727",
+      "title": "Singapore's StarHub to acquire rival M1",
+      "url": "https://www.datacenterdynamics.com/en/news/singapores-starhub-to-acquire-rival-m1",
+      "date": "2026-11-25T11:21:30.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Keppel will retain a 23 percent stake of the combined entity",
+      "figures": [
+        "23 percent"
+      ],
+      "score": 3
+    },
+    {
+      "id": "60a0c93da38b",
+      "title": "American Tower confirms $525m Dish settlement",
+      "url": "https://www.datacenterdynamics.com/en/news/american-tower-confirms-525m-dish-settlement",
+      "date": "2026-11-24T15:51:58.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Dish has to make the payment by end of this year",
+      "figures": [
+        "$525m"
+      ],
+      "score": 3
+    },
+    {
+      "id": "2539a1687527",
+      "title": "Jordan joins the Medusa map with US$ 12.2 million EU grant",
+      "url": "https://w.media/jordan-joins-the-medusa-map-with-us-12-2-million-eu-grant",
+      "date": "2026-11-24T15:08:25.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "The European Union will provide a € 11.1 million (US$ 12.2 million) grant to support the terrestrial extension of the Medusa Submarine Cable System’s landing point in Port Said, Egypt, through to Jordan. At the same time, the European Investment Bank (EIB) will provide a loan of up to € 60 million (US$ 65.8 million) […]",
+      "figures": [
+        "$ 12.2 million",
+        "11.1 million",
+        "60 million",
+        "$ 65.8 million"
+      ],
+      "score": 3
+    },
+    {
+      "id": "a5edbd48fbc1",
+      "title": "Google launches $10m Energy Impact Fund in Oregon",
+      "url": "https://www.datacenterdynamics.com/en/news/google-launches-10m-energy-impact-fund-in-oregon",
+      "date": "2026-11-24T12:50:38.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Will support energy efficiency improvements for residential households and schools in The Dalles",
+      "figures": [
+        "$10m"
+      ],
+      "score": 3
+    },
+    {
+      "id": "8ca73d32389b",
+      "title": "Amazon SageMaker HyperPod now detects and recovers hung training jobs on Slurm clusters",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-slurm-hung-jobs",
+      "date": "2026-11-23T17:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon SageMaker HyperPod now supports hung job detection for Slurm-orchestrated clusters, which finds training jobs that have stopped making progress and returns them to the job queue. SageMaker HyperPod helps you provision resilient clusters for training and deploying AI/ML models. Previously, a job that hung on an NCCL timeout, a stalled data pipeline, or a deadlock kept its GPUs while Slurm reported it as running, until you noticed that the job is not making progress. Now, if a training run hangs, HyperPod detects it within minutes from the job's output and GPU activity, or from log patter",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "d941ca3decdd",
+      "title": "Amazon SageMaker HyperPod now detects Kubernetes issues affecting training",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-k8s-monitoring-agent",
+      "date": "2026-11-23T17:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon SageMaker HyperPod now detects Kubernetes issues that disrupt training, such as crash-looping device plugins or missing DaemonSets, on clusters orchestrated by Amazon EKS. SageMaker HyperPod is purpose-built infrastructure for AI/ML model development, with built-in fault tolerance and automated cluster recovery. Previously, when a device plugin crash-looped or a taint evicted a job's pods, the job's error rarely named the pod or node, so engineers pieced the cause together from kubectl output and per-rank logs. Now, the new HyperPod Kubernetes Resource Monitoring Agent watches nodes, cr",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "36d57b00ca45",
+      "title": "Amazon SageMaker HyperPod deep health check now validates training correctness",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-training-validation",
+      "date": "2026-11-23T17:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon SageMaker HyperPod clusters orchestrated by Amazon EKS now support MultiNodeTrainingValidation, a deep health check that validates nodes train correctly before your jobs run. SageMaker HyperPod is purpose-built infrastructure for AI/ML model development, with built-in fault tolerance and automated cluster recovery. Previously, a GPU with a subtle fault could pass hardware stress and connectivity tests and still compute wrong results, and the first sign was often NaN or infinite loss in a production training run. Now, The new MultiNodeTraining Validation check trains a fixed Megatron-LM ",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "2cf50e1e504f",
+      "title": "AWS Parallel Computing Service now supports Split Cost Allocation Data",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/pcs-supports-split-cost-data",
+      "date": "2026-11-23T08:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Starting today, customers can receive granular cost visibility for AWS Parallel Computing Service (AWS PCS) in the AWS Cost and Usage Reports (CUR), enabling you to analyze, optimize, and chargeback costs for your Slurm jobs. With AWS Split Cost Allocation Data for AWS PCS, customers can now allocate costs to individual teams and projects based on how jobs request and consume shared EC2 CPU, GPU, and memory resources. AWS PCS is a managed service that makes it easier for you to run and scale your high performance computing (HPC) workloads and build scientific and engineering models on AWS usin",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}

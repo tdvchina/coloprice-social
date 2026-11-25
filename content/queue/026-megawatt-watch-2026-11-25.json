@@ -1,0 +1,137 @@
+{
+  "slug": "megawatt-watch-2026-11-25",
+  "format": "megawatt-watch",
+  "status": "ready",
+  "created": "2026-11-25",
+  "publishBy": "2026-12-02",
+  "theme": "dark",
+  "topic": "Megawatt Watch: 2,256 MW of announcements in 48h, Applied Digital 150MW lease and NTT/B.Grimm 400MW Thailand MoU",
+  "photoGap": "Thailand data center campus (Bangkok / Chonburi / Rayong) or Thai transmission substation",
+  "sources": [
+    {
+      "id": "wm-applied",
+      "publisher": "W.Media",
+      "title": "Applied Digital signs US$ 5.4 Billion hyperscaler lease",
+      "url": "https://w.media/applied-digital-signs-us-5-4-billion-hyperscaler-lease",
+      "date": "2026-11-25",
+      "facts": [
+        "Applied Digital signed an 18 year lease with a tier-one investment-grade hyperscaler for 150 MW of critical IT capacity",
+        "Approximately US$ 5.4 billion in base-term contracted revenue, or approximately US$ 12.7 billion if all renewal options are exercised",
+        "Delivery starts in the first half of calendar 2028, subject to milestones, utility arrangements and regulatory approvals"
+      ]
+    },
+    {
+      "id": "wm-grimm",
+      "publisher": "W.Media",
+      "title": "B.Grimm Power and NTT Global Data Center sign MoU for a multi billion dollar data center project in Thailand",
+      "url": "https://w.media/b-grimm-power-and-ntt-global-data-center-sign-mou-for-a-multi-billion-dollar-data-center-project-in-thailand",
+      "date": "2026-11-25",
+      "facts": [
+        "MoU to explore a 400 MW data center development in Thailand",
+        "Proposed investment value THB 113 billion (US$3.33 billion)",
+        "Signed in Tokyo; no final investment decision or construction timeline stated"
+      ]
+    },
+    {
+      "id": "dcd-google",
+      "publisher": "DCD",
+      "title": "Google plans 1.2GW data center near Châteauroux, France - report",
+      "url": "https://www.datacenterdynamics.com/en/news/google-planning-12gw-data-center-near-ch%C3%A2teauroux-france-report",
+      "date": "2026-11-25",
+      "facts": ["Headline: Google plans 1.2GW data center near Châteauroux, France - report"]
+    },
+    {
+      "id": "dcd-nsw",
+      "publisher": "DCD",
+      "title": "350MW data center campus proposed in New South Wales, Australia",
+      "url": "https://www.datacenterdynamics.com/en/news/350mw-data-center-campus-proposed-in-new-south-wales-australia",
+      "date": "2026-11-25",
+      "facts": ["Headline: 350MW data center campus proposed in New South Wales, Australia"]
+    },
+    {
+      "id": "dcd-dlr",
+      "publisher": "DCD",
+      "title": "Digital Realty buys vacant office outside Chicago, plans 156MW data center campus",
+      "url": "https://www.datacenterdynamics.com/en/news/digital-realty-buys-vacant-office-outside-chicago-plans-156mw-data-center-campus",
+      "date": "2026-11-25",
+      "facts": ["Headline: Digital Realty buys vacant office outside Chicago, plans 156MW data center campus"]
+    }
+  ],
+  "dataHooks": [
+    {
+      "id": "pipe-th",
+      "dataset": "Coloprice pipeline tracker",
+      "url": "https://coloprice.com/pipeline/",
+      "asOf": "2026-11-25",
+      "facts": [
+        "Thailand: 27 projects, 715 MW under construction, 1,326 MW announced",
+        "World: 623 projects, 53,006 MW under construction, 50,125 MW announced"
+      ]
+    }
+  ],
+  "derived": [
+    { "value": "2,256", "how": "1,200 + 400 + 350 + 156 + 150 = 2,256 MW (1.2GW = 1,200 MW)" },
+    { "value": "1,200", "how": "1.2GW = 1,200 MW" }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Megawatt Watch",
+      "headline": "Five MW headlines in one news cycle",
+      "figure": { "value": "2,256MW", "label": "combined, as headlined: a lease, an MoU, plans and a report" },
+      "refs": ["wm-applied", "wm-grimm", "dcd-google", "dcd-nsw", "dcd-dlr"]
+    },
+    {
+      "type": "chart",
+      "kind": "hbar",
+      "title": "MW in this week's headlines",
+      "unit": "MW as headlined · status differs per item",
+      "data": [
+        { "label": "Google, France (report)", "value": 1200 },
+        { "label": "NTT / B.Grimm, Thailand (MoU)", "value": 400 },
+        { "label": "NSW, Australia (proposed)", "value": 350 },
+        { "label": "Digital Realty, Chicago (plans)", "value": 156 },
+        { "label": "Applied Digital (signed lease)", "value": 150 }
+      ],
+      "highlight": "Applied Digital (signed lease)",
+      "valueFormat": { "decimals": 0, "suffix": " MW" },
+      "caption": "Only one of the five is a signed contract.",
+      "refs": ["dcd-google", "wm-grimm", "dcd-nsw", "dcd-dlr", "wm-applied"]
+    },
+    {
+      "type": "stat",
+      "label": "Applied Digital · 150 MW lease, 18 years",
+      "value": "$5.4bn",
+      "unit": "base-term revenue",
+      "context": "Tier-one investment-grade hyperscaler, unnamed. About $12.7 billion if all renewals are exercised. Delivery from the first half of 2028, subject to approvals.",
+      "refs": ["wm-applied"]
+    },
+    {
+      "type": "stat",
+      "label": "NTT GDC + B.Grimm Power · Thailand · MoU",
+      "value": "400MW",
+      "unit": "to explore",
+      "context": "Proposed investment THB 113 billion (US$3.33 billion). Signed in Tokyo. No final investment decision or timeline stated.",
+      "refs": ["wm-grimm"]
+    },
+    {
+      "type": "list",
+      "title": "Thailand in the Coloprice pipeline",
+      "unit": "Coloprice pipeline tracker",
+      "rows": [
+        { "label": "Projects tracked", "value": "27" },
+        { "label": "Under construction", "value": "715 MW" },
+        { "label": "Announced", "value": "1,326 MW", "highlight": true }
+      ],
+      "footnote": "Published capacity only. The MoU is not counted as a project here.",
+      "refs": ["pipe-th"]
+    },
+    {
+      "type": "closing",
+      "text": "MoU, plan or signed lease: the status matters as much as the MW.",
+      "cta": "Full pipeline data: link in bio"
+    }
+  ],
+  "caption": "2,256 MW across five headlines in one news cycle, but only one is a signed contract.\n\nApplied Digital signed an 18-year, 150 MW lease with an unnamed hyperscaler: about $5.4 billion base term. NTT Global Data Center and B.Grimm Power signed an MoU to explore 400 MW in Thailand (THB 113 billion, US$3.33 billion). Google in France (1.2GW, report), New South Wales (350MW, proposed) and Digital Realty near Chicago (156MW, plans) are earlier-stage.\n\nThailand's tracked pipeline today: 715 MW under construction, 1,326 MW announced.\n\nData: Coloprice pipeline tracker, 25 Nov 2026. Sources on the last slide.\n\nHow do you weigh an MoU against a signed lease when you size demand? Link in bio.",
+  "hashtags": ["#datacenter", "#AIinfrastructure", "#hyperscale", "#Thailand"]
+}
