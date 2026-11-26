@@ -1,0 +1,52 @@
+{
+  "slug": "coloprice-top-germany-2026-11-26",
+  "theme": "dark",
+  "format": "coloprice-top",
+  "status": "ready",
+  "created": "2026-11-26",
+  "publishBy": "2026-12-10",
+  "topic": "Coloprice Top: Germany's largest data centre operators by tracked facilities",
+  "sources": [],
+  "dataHooks": [
+    {
+      "id": "rank",
+      "dataset": "Coloprice operator rankings",
+      "url": "https://coloprice.com/data/operator-rankings.json",
+      "asOf": "2026-11-25",
+      "facts": [
+        "Germany: 274 tracked facilities, 113 operators (as of 2026-11-25)",
+        "Germany top 5 by tracked facilities — #1 Digital Realty: 28 tracked facilities, 3 cities, no MW published",
+        "Germany top 5 by tracked facilities — #2 euNetworks Group: 17 tracked facilities, 17 cities, no MW published",
+        "Germany top 5 by tracked facilities — #3 Equinix: 13 tracked facilities, 5 cities, no MW published",
+        "Germany top 5 by tracked facilities — #4 NTT Global Data Centers: 9 tracked facilities, 5 cities, 196 MW published (8 of 9 sites publish MW)",
+        "Germany top 5 by tracked facilities — #5 Colt DCS: 9 tracked facilities, 6 cities, 174 MW published (4 of 9 sites publish MW)"
+      ]
+    }
+  ],
+  "slides": [
+    {"type":"cover","layout":"standard","theme":"lime","kicker":"Coloprice Top","headline":"Who runs German data centres?","figure":{"value":"28","label":"tracked facilities: Digital Realty, #1 in Germany"},"refs":["rank"]},
+    {"type":"chart","kind":"hbar","title":"Germany: top 5 operators by tracked facilities","unit":"Facilities in the Coloprice catalogue · 25 Nov 2026","data":[
+      {"label":"Digital Realty","value":28},
+      {"label":"euNetworks Group","value":17},
+      {"label":"Equinix","value":13},
+      {"label":"NTT Global Data Centers","value":9},
+      {"label":"Colt DCS","value":9}],"highlight":0,"caption":"The leader has 11 more sites than #2.","refs":["rank"]},
+    {"type":"photo","image":"sub-garenfeld-380kv-switchyard-germany","headline":"Germany's grid: Garenfeld switchyard, Hagen","caption":"Market-level photo: the transmission network these facilities draw on.","focus":"center"},
+    {"type":"list","title":"Reach and published MW","unit":"Cities · MW published","rows":[
+      {"label":"Digital Realty","value":"3 cities","note":"no MW published","highlight":true},
+      {"label":"euNetworks Group","value":"17 cities","note":"no MW published"},
+      {"label":"Equinix","value":"5 cities","note":"no MW published"},
+      {"label":"NTT Global Data Centers","value":"196 MW","note":"8 of 9 sites"},
+      {"label":"Colt DCS","value":"174 MW","note":"4 of 9 sites"}],"footnote":"MW = sum of capacity the operator publishes; not all sites do.","refs":["rank"]},
+    {"type":"stat","label":"A surprise at #2","value":"17","unit":"cities","context":"euNetworks Group has 17 tracked facilities in 17 cities. Digital Realty has 28 in 3.","refs":["rank"]},
+    {"type":"stat","label":"Only two of the top 5 publish MW","value":"370","unit":"MW published","context":"NTT Global Data Centers (196 MW) and Colt DCS (174 MW) publish capacity; the top three do not.","accent":false,"refs":["rank"]},
+    {"type":"closing","text":"Operators ranked by tracked facilities in the Coloprice catalogue. A count, not an endorsement.","cta":"Follow for the weekly Coloprice Top."}
+  ],
+  "caption": "28 facilities: Digital Realty leads Germany in the Coloprice ranking of operators by tracked facilities.\n\neuNetworks Group follows with 17, then Equinix with 13, and NTT Global Data Centers and Colt DCS with 9 each. Germany has 274 tracked facilities across 113 operators.\n\nFootprints differ: euNetworks Group spans 17 cities, Digital Realty 3. Only NTT (196 MW, 8 of 9 sites) and Colt (174 MW, 4 of 9 sites) publish capacity. Largest by tracked facilities, not an endorsement.\n\nData: Coloprice operator rankings, 25 Nov 2026. Sources on the last slide.\nFeatured: @nttdata @coltdatacentres\n\nIs a wide city footprint or a dense hub the stronger model for German colocation? Full ranking: link in bio.",
+  "hashtags": ["#datacenter","#colocation","#Germany","#AIinfrastructure"],
+  "userTags": [{"username":"nttdata","slide":2},{"username":"coltdatacentres","slide":2}],
+  "derived": [
+    {"value":"11","how":"28 - 17 = 11"},
+    {"value":"370","how":"196 + 174 = 370"}
+  ]
+}

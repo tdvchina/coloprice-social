@@ -1,0 +1,440 @@
+{
+  "generated": "2026-11-26T11:06:10.056Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 7
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 4
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 14
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 3
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 1
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 8
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 20,
+      "kept": 2
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 86,
+      "kept": 0
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 0
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 0
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 7
+    }
+  ],
+  "items": [
+    {
+      "id": "32c23c15ea6c",
+      "title": "ESDS details US$1.26bn Sharon AI deal as 8,208-GPU cluster nears handover",
+      "url": "https://w.media/esds-details-us1-26bn-sharon-ai-deal-as-8208-gpu-cluster-nears-handover",
+      "date": "2026-11-26T03:26:15.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Indian cloud services provider ESDS Software Solution expects to generate monthly customer receipts of about US$30 million from a Sydney AI factory equipped with 8,208 Nvidia B300 GPUs, under a five-year capacity agreement with Australian neocloud operator Sharon AI. ESDS values its commitment under the agreement at approximately US$1.26 billion, while Sharon AI lists the […]",
+      "figures": [
+        "$1.26bn",
+        "$30 million",
+        "$1.26 billion"
+      ],
+      "score": 12
+    },
+    {
+      "id": "baf7a0f0b5d9",
+      "title": "XTX Markets launches 22.5 MW data center in Finland amid grid permitting delays",
+      "url": "https://w.media/xtx-markets-launches-22-5-mw-data-center-in-finland-amid-grid-permitting-delays",
+      "date": "2026-11-26T07:53:27.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "XTX Markets, an algorithmic trading firm, has opened its first data center at a 193 hectare site in Kajaani, Finland. The facility has 15,000 square meters of floor space and 22.5 MW of IT power capacity and a second facility is scheduled to become operational in 2027. XTX Markets uses deep learning models to analyze […]",
+      "figures": [
+        "22.5 MW"
+      ],
+      "score": 9
+    },
+    {
+      "id": "687113d4f79f",
+      "title": "Ohio regulators approve up to 800MW gas plant set to power EdgeConneX data center in Pickaway County",
+      "url": "https://www.datacenterdynamics.com/en/news/ohio-regulators-approve-up-to-800mw-gas-plant-set-to-power-edgeconnex-data-center-in-pickaway-county",
+      "date": "2026-11-25T16:20:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Project approved despite local opposition",
+      "figures": [
+        "800MW"
+      ],
+      "score": 9
+    },
+    {
+      "id": "bb0e335564f2",
+      "title": "Nexent Capital launches $1 billion AI and energy infrastructure fund",
+      "url": "https://www.datacenterdynamics.com/en/news/nexent-capital-launches-1-billion-ai-and-energy-infrastructure-fund",
+      "date": "2026-11-25T14:20:36.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Fund targeting AI infrastructure and energy projects across North America and India",
+      "figures": [
+        "$1 billion"
+      ],
+      "score": 9
+    },
+    {
+      "id": "a5e277b40435",
+      "title": "Trio of Japanese real estate developers invest in 15MW Hokkaido data center development",
+      "url": "https://www.datacenterdynamics.com/en/news/trio-of-japanese-real-estate-developers-invest-in-15mw-hokkaido-data-center-development",
+      "date": "2026-11-25T16:53:02.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Daibiru, Sankei Building, and Osaka Gas Urban Development take a dip into data centers",
+      "figures": [
+        "15MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "70f09ffe9276",
+      "title": "Inference Is Not Training: What AI Inference Demand Means for Colocation Design",
+      "url": "https://datacenterpost.com/inference-is-not-training-what-ai-inference-demand-means-for-colocation-design",
+      "date": "2026-11-25T15:30:22.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR AI inference is rapidly matching model training as a major driver of high-density colocation demand, running continuously in production rather than in concentrated runs. Unlike training workloads with synchronized power spikes, inference draw follows daily interactive user traffic and leaves roughly 21% power headroom, allowing operators to pack more servers into existing capacity. Because […] The post Inference Is Not Training: What AI Inference Demand Means for Colocation Design appeared first on Data Center POST .",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "5358c3802743",
+      "title": "Applied Digital completes 75 MW commissioning at Polaris Forge 2",
+      "url": "https://w.media/applied-digital-completes-75-mw-commissioning-at-polaris-forge-2",
+      "date": "2026-11-25T14:02:08.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Applied Digital, an artificial intelligence data center infrastructure company, has announced the completion of base-build commissioning for the first 75 MW of an initial 150 MW data center building at Polaris Forge 2 in Harwood, North Dakota. In a press release the company said it has also completed the integrated fit-out of the first 25 […]",
+      "figures": [
+        "75 MW",
+        "150 MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "ccd22cd917ae",
+      "title": "In AI Data Centers, the Megawatt Number Is No Longer Enough",
+      "url": "https://datacenterpost.com/in-ai-data-centers-the-megawatt-number-is-no-longer-enough",
+      "date": "2026-11-25T13:00:31.000Z",
+      "publisher": "Data Center POST",
+      "feed": "dcpost",
+      "kind": "trade",
+      "summary": "TL;DR Large AI training clusters synchronize tens of thousands of accelerators, creating massive swings of tens of megawatts within seconds rather than drawing a steady load. These rapid oscillations can match power system resonance frequencies, prompting grid operators and regulators like NERC to mandate dynamic load data, ramp rate limits, and computational load standards. Managing […] The post In AI Data Centers, the Megawatt Number Is No Longer Enough appeared first on Data Center POST .",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "b30428e47e80",
+      "title": "Nocera to invest US$ 22 Million in a BitRock AI data center",
+      "url": "https://w.media/nocera-to-invest-us-22-million-in-a-bitrock-ai-data-center",
+      "date": "2026-11-26T03:42:54.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Nocera Inc (Nocera), a construction engineering company, has signed a binding letter of intent (LOI) to invest US$ 22 million in Calgary-based BitRock Ltd., an AI data center developer. The proposed investment would give Nocera 44 percent stake in BitRock, based on a post investment valuation of US$ 50 million, along with the right to […]",
+      "figures": [
+        "$ 22 Million",
+        "$ 22 million",
+        "44 percent",
+        "$ 50 million"
+      ],
+      "score": 7
+    },
+    {
+      "id": "09197cb18a82",
+      "title": "Meridian takes 11.27% stake in Datagrid as second NZ generator backs AI campus",
+      "url": "https://w.media/meridian-takes-11-27-stake-in-datagrid-as-second-nz-generator-backs-ai-campus",
+      "date": "2026-11-26T00:17:44.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "New Zealand electricity generator Meridian Energy has acquired an 11.27% stake in Datagrid Holding Group NZ, becoming the second major renewable energy generator to invest in the company developing a large-scale AI data centre in Southland. Meridian has invested US$30 million in Datagrid, following a similar-sized investment by Mercury in July, which secured the latter […]",
+      "figures": [
+        "$30 million"
+      ],
+      "score": 7
+    },
+    {
+      "id": "82803f78695d",
+      "title": "Cryptominer Sato Technologies secures neocloud Datum as customer for Canadian data center",
+      "url": "https://www.datacenterdynamics.com/en/news/cryptominer-sato-technologies-secures-neocloud-datum-as-customer-for-canadian-data-center",
+      "date": "2026-11-25T12:12:22.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company looking to pivot towards AI cloud and colocation",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "cefe702573b8",
+      "title": "Bharti Airtel to develop three data centers in Assam, India",
+      "url": "https://www.datacenterdynamics.com/en/news/bharti-airtel-to-develop-three-data-centers-in-assam-india",
+      "date": "2026-11-26T10:52:42.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company targets developments in Guwahati, Jorhat, and Silchar",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "5fca44971db6",
+      "title": "Mumbai CDC 2026: Building confidence and goodwill in the data center industry",
+      "url": "https://w.media/mumbai-cdc-2026-building-confidence-and-goodwill-in-the-data-center-industry",
+      "date": "2026-11-26T09:33:38.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "This Friday, November 27, we are hosting the sixth edition of Mumbai Cloud & Datacenter Convention (CDC) and South Asia Awards. This year, Mumbai CDC will bring together over 2000 industry experts and thought leaders. We will also feature over 100 speakers, including C-level executives, digital infrastructure professionals, including architects, engineers, and consultants (AECs), key […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "94bec414d6bf",
+      "title": "DeepCtrls and UEM Edgenta sign agreement to develop Physical AI applications in Malaysia",
+      "url": "https://w.media/deepctrls-and-uem-edgenta-sign-agreement-to-develop-physical-ai-applications-in-malaysia",
+      "date": "2026-11-26T05:07:02.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "DeepCtrls, an industrial Physical AI company, and Malaysian infrastructure services company UEM Edgenta, signed a strategic cooperation agreement in Nanjing, China, to explore Physical AI applications in Malaysia’s infrastructure and industrial sectors. According to a press release, the partnership will focus on intelligent energy management and optimisation across large-scale assets, including data centers, airports, industrial […]",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "0ae5e2cdd3a9",
+      "title": "Panthalassa, floating data centers, and the power of the ocean",
+      "url": "https://www.datacenterdynamics.com/en/analysis/panthalassa-floating-data-centers-and-the-power-of-the-ocean",
+      "date": "2026-11-25T17:00:42.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Peter Thiel-backed startup has big plans to put compute at sea",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "7fe86c135ec1",
+      "title": "5 Things You Didn't Know About BAAJA and Data Centers",
+      "url": "https://www.datacenterfrontier.com/energy/article/55421530/5-things-you-didnt-know-about-baaja-and-data-centers",
+      "date": "2026-11-25T15:44:56.000Z",
+      "publisher": "Data Center Frontier",
+      "feed": "dcf",
+      "kind": "trade",
+      "summary": "The Senate-passed Bipartisan American Affordability and Jobs Act goes well beyond accelerating energy infrastructure development. Buried within the legislation are provisions that could redefine data center economics, utility negotiations, behind-the-meter power strategies and the industry's relationship with American communities.",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "4544ed9592ee",
+      "title": "Promera acquires Irish electrical contractor B&G to expand data center offering",
+      "url": "https://www.datacenterdynamics.com/en/news/promera-acquires-irish-electrical-contractor-bg-to-expand-data-center-offering",
+      "date": "2026-11-25T14:10:39.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "B&G provides critical power infrastructure services for the data center market",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "37a9824f6569",
+      "title": "South African gov't floats converting old power stations into data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/south-african-govt-floats-converting-old-power-stations-into-data-centers",
+      "date": "2026-11-25T14:01:01.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "President Cyril Ramaphosa suggested the move during a recent visit to San Jose, California",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "2e2425847825",
+      "title": "US Army offers more land to private AI data centers, across nine sites - must include power generation",
+      "url": "https://www.datacenterdynamics.com/en/news/us-army-offers-more-land-to-private-ai-data-centers-across-nine-sites-must-include-power-generation",
+      "date": "2026-11-25T13:31:39.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Land next to ammo dumps now available for data center development",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "a7e2ccaf1370",
+      "title": "Three to five layers of buffer: Why data centres run colder than they need to",
+      "url": "https://capacityglobal.com/news/three-to-five-layers-of-buffer-why-data-centres-run-colder-than-they-need-to",
+      "date": "2026-11-25T13:03:34.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "Schneider Electric's Tuan Hoang says safety margins stacked across the value chain are limiting free cooling, as the company doubles liquid cooling capacity in Italy The post Three to five layers of buffer: Why data centres run colder than they need to appeared first on Capacity .",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "7bd757555e72",
+      "title": "Stratum Holdings and Ocean Power Technologies partner on offshore data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/stratum-holdings-and-ocean-power-technologies-partner-on-offshore-data-centers",
+      "date": "2026-11-25T12:50:38.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Companies are exploring viability of data centers powered by renewable wave, wind, and solar energy",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "780f9d498cc1",
+      "title": "Man charged over explosion at electrical substation serving Apple data center in Mesa, Arizona",
+      "url": "https://www.datacenterdynamics.com/en/news/man-charged-over-explosion-at-electrical-substation-serving-apple-data-center-in-mesa-arizona",
+      "date": "2026-11-25T12:30:42.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Incident caused $148,000 worth of damage",
+      "figures": [
+        "$148,000 "
+      ],
+      "score": 5
+    },
+    {
+      "id": "78bfeda1c748",
+      "title": "Man dies after suffering burns in fire at Bitcoin mining data center in Georgia",
+      "url": "https://www.datacenterdynamics.com/en/news/man-dies-after-suffering-burns-in-fire-at-bitcoin-mining-data-center-in-georgia",
+      "date": "2026-11-26T10:45:02.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Another person remains in a critical condition following the blaze",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "171d0d942090",
+      "title": "How the UAE is commercialising sovereign AI",
+      "url": "https://capacityglobal.com/news/how-the-uae-is-commercialising-sovereign-ai",
+      "date": "2026-11-25T16:05:04.000Z",
+      "publisher": "Capacity Media",
+      "feed": "capacity",
+      "kind": "general",
+      "summary": "With AI adoption reaching 72% of UAE businesses, Du and Etisalat aim to monetise their investments in data centres, cloud and connectivity through sovereign AI services. The post How the UAE is commercialising sovereign AI appeared first on Capacity .",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "2fee860cc8ea",
+      "title": "Three data center projects planned around Phoenix, Arizona",
+      "url": "https://www.datacenterdynamics.com/en/news/three-data-center-projects-planned-around-phoenix-arizona",
+      "date": "2026-11-25T13:27:54.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Projects planned in Buckeye, Eloy, and Casa Grande",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "187615be1a37",
+      "title": "US Air Force plans 30,000-GPU HPC and AI supercomputer",
+      "url": "https://www.datacenterdynamics.com/en/news/us-air-force-plans-30000-gpu-hpc-and-ai-supercomputer",
+      "date": "2026-11-26T10:42:59.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Will be dedicated to \"complex tensor operations, physical AI, large model training, and dense scientific simulation\"",
+      "figures": [],
+      "score": 3
+    },
+    {
+      "id": "d0192eac1471",
+      "title": "Amazon SageMaker HyperPod now supports NCCL profiling for training jobs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-nccl-profiler",
+      "date": "2026-11-23T17:00:00.000Z",
+      "publisher": "AWS What's New",
+      "feed": "aws",
+      "kind": "general",
+      "summary": "Amazon SageMaker HyperPod now supports NVIDIA Collective Communications Library (NCCL) profiling with the HyperPod NCCL Profiler, giving you visibility into communication performance across the nodes and GPUs in a distributed training job. SageMaker HyperPod helps you scale generative AI model development across hundreds or thousands of AI accelerators. Previously, one throttled GPU or degraded link could slow the whole job without an error, and finding it meant stopping the job to run NCCL tests. Now, the HyperPod NCCL profiler loads as a plugin in your training job and sends per-rank bandwid",
+      "figures": [],
+      "score": 3
+    }
+  ]
+}
