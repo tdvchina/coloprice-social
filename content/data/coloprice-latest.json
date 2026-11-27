@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T11:06:11.479Z",
+ "generated": "2026-11-27T11:00:27.406Z",
  "base": "https://coloprice.com",
  "mode": "remote",
  "license": "Coloprice data: CC BY 4.0 (own data). Read-only snapshot.",
@@ -1302,14 +1302,14 @@
    "citeAs": "Coloprice pipeline tracker",
    "url": "https://coloprice.com/data/data-center-pipeline.csv",
    "page": "https://coloprice.com/pipeline/",
-   "asOf": "2026-11-26",
+   "asOf": "2026-11-27",
    "note": "Coloprice — Data Center Construction Pipeline · published capacity only · CC BY 4.0 · cite coloprice.com/pipeline/",
    "rows": [
     {
      "level": "total",
      "name": "World",
-     "projects": 623,
-     "underConstructionMw": 53006,
+     "projects": 624,
+     "underConstructionMw": 53306,
      "announcedMw": 50125
     },
     {
@@ -1433,6 +1433,13 @@
     },
     {
      "level": "country",
+     "name": "Philippines",
+     "projects": 8,
+     "underConstructionMw": 402,
+     "announcedMw": 100
+    },
+    {
+     "level": "country",
      "name": "Norway",
      "projects": 4,
      "underConstructionMw": 272,
@@ -1465,13 +1472,6 @@
      "projects": 7,
      "underConstructionMw": 207,
      "announcedMw": 8
-    },
-    {
-     "level": "country",
-     "name": "Philippines",
-     "projects": 7,
-     "underConstructionMw": 102,
-     "announcedMw": 100
     },
     {
      "level": "country",
@@ -1802,7 +1802,7 @@
    "citeAs": "Coloprice M&A tracker",
    "url": "https://coloprice.com/data/transactions.csv",
    "page": "https://coloprice.com/transactions/",
-   "asOf": "2026-11-26",
+   "asOf": "2026-11-27",
    "deals": [
     {
      "target": "Aligned Data Centers",
@@ -2447,11 +2447,11 @@
    "url": "https://coloprice.com/data/operator-rankings.json",
    "page": "https://coloprice.com/companies/",
    "license": "CC BY 4.0 — free to use with a visible link to https://coloprice.com",
-   "asOf": "2026-11-25",
+   "asOf": "2026-11-26",
    "method": "Counts of facilities tracked in the Coloprice catalogue per operator (one company = one canonical name; joint ventures counted separately). MW = sum of published capacity only; mwCount = how many of the operator’s sites publish MW.",
    "totals": {
-    "operators": 2318,
-    "facilities": 6176,
+    "operators": 2320,
+    "facilities": 6178,
     "countries": 184
    },
    "global": {
@@ -4295,6 +4295,64 @@
       }
      ]
     },
+    "turkey": {
+     "countryName": "Turkey",
+     "facilities": 55,
+     "operatorsTotal": 44,
+     "page": "https://coloprice.com/companies/turkey/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "Turkcell",
+       "slug": "turkcell",
+       "page": "https://coloprice.com/providers/turkcell/",
+       "facilities": 4,
+       "mw": 30,
+       "mwCount": 1,
+       "cities": 4
+      },
+      {
+       "rank": 2,
+       "name": "Vodafone Turkey",
+       "slug": "vodafone-turkey",
+       "page": "https://coloprice.com/providers/vodafone-turkey/",
+       "facilities": 4,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 4
+      },
+      {
+       "rank": 3,
+       "name": "Türk Telekom",
+       "slug": "t-rk-telekom",
+       "page": "https://coloprice.com/providers/t-rk-telekom/",
+       "facilities": 3,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 4,
+       "name": "Equinix",
+       "slug": "equinix",
+       "page": "https://coloprice.com/providers/equinix/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 1
+      },
+      {
+       "rank": 5,
+       "name": "Mars Datacenter",
+       "slug": "mars-datacenter",
+       "page": "https://coloprice.com/providers/mars-datacenter/",
+       "facilities": 2,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 2
+      }
+     ]
+    },
     "chile": {
      "countryName": "Chile",
      "facilities": 54,
@@ -4350,64 +4408,6 @@
        "mw": 12,
        "mwCount": 1,
        "cities": 1
-      }
-     ]
-    },
-    "turkey": {
-     "countryName": "Turkey",
-     "facilities": 54,
-     "operatorsTotal": 43,
-     "page": "https://coloprice.com/companies/turkey/",
-     "operators": [
-      {
-       "rank": 1,
-       "name": "Turkcell",
-       "slug": "turkcell",
-       "page": "https://coloprice.com/providers/turkcell/",
-       "facilities": 4,
-       "mw": 30,
-       "mwCount": 1,
-       "cities": 4
-      },
-      {
-       "rank": 2,
-       "name": "Vodafone Turkey",
-       "slug": "vodafone-turkey",
-       "page": "https://coloprice.com/providers/vodafone-turkey/",
-       "facilities": 4,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 4
-      },
-      {
-       "rank": 3,
-       "name": "Türk Telekom",
-       "slug": "t-rk-telekom",
-       "page": "https://coloprice.com/providers/t-rk-telekom/",
-       "facilities": 3,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      },
-      {
-       "rank": 4,
-       "name": "Equinix",
-       "slug": "equinix",
-       "page": "https://coloprice.com/providers/equinix/",
-       "facilities": 2,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 1
-      },
-      {
-       "rank": 5,
-       "name": "Mars Datacenter",
-       "slug": "mars-datacenter",
-       "page": "https://coloprice.com/providers/mars-datacenter/",
-       "facilities": 2,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 2
       }
      ]
     },
@@ -4585,6 +4585,64 @@
       }
      ]
     },
+    "philippines": {
+     "countryName": "Philippines",
+     "facilities": 47,
+     "operatorsTotal": 16,
+     "page": "https://coloprice.com/companies/philippines/",
+     "operators": [
+      {
+       "rank": 1,
+       "name": "STT GDC Philippines",
+       "slug": "stt-gdc-philippines",
+       "page": "https://coloprice.com/providers/stt-gdc-philippines/",
+       "facilities": 9,
+       "mw": 242,
+       "mwCount": 9,
+       "cities": 3
+      },
+      {
+       "rank": 2,
+       "name": "ePLDT (VITRO Inc.)",
+       "slug": "epldt-vitro-inc",
+       "page": "https://coloprice.com/providers/epldt-vitro-inc/",
+       "facilities": 7,
+       "mw": 117,
+       "mwCount": 4,
+       "cities": 5
+      },
+      {
+       "rank": 3,
+       "name": "Globe Telecom (GTI Corporation)",
+       "slug": "globe-telecom-gti-corporation",
+       "page": "https://coloprice.com/providers/globe-telecom-gti-corporation/",
+       "facilities": 7,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      },
+      {
+       "rank": 4,
+       "name": "VITRO",
+       "slug": "vitro",
+       "page": "https://coloprice.com/providers/vitro/",
+       "facilities": 5,
+       "mw": 0,
+       "mwCount": 0,
+       "cities": 5
+      },
+      {
+       "rank": 5,
+       "name": "Converge ICT Solutions Inc.",
+       "slug": "converge-ict-solutions-inc",
+       "page": "https://coloprice.com/providers/converge-ict-solutions-inc/",
+       "facilities": 4,
+       "mw": 12,
+       "mwCount": 1,
+       "cities": 3
+      }
+     ]
+    },
     "vietnam": {
      "countryName": "Vietnam",
      "facilities": 47,
@@ -4640,64 +4698,6 @@
        "mw": 0,
        "mwCount": 0,
        "cities": 1
-      }
-     ]
-    },
-    "philippines": {
-     "countryName": "Philippines",
-     "facilities": 46,
-     "operatorsTotal": 15,
-     "page": "https://coloprice.com/companies/philippines/",
-     "operators": [
-      {
-       "rank": 1,
-       "name": "STT GDC Philippines",
-       "slug": "stt-gdc-philippines",
-       "page": "https://coloprice.com/providers/stt-gdc-philippines/",
-       "facilities": 9,
-       "mw": 242,
-       "mwCount": 9,
-       "cities": 3
-      },
-      {
-       "rank": 2,
-       "name": "ePLDT (VITRO Inc.)",
-       "slug": "epldt-vitro-inc",
-       "page": "https://coloprice.com/providers/epldt-vitro-inc/",
-       "facilities": 7,
-       "mw": 117,
-       "mwCount": 4,
-       "cities": 5
-      },
-      {
-       "rank": 3,
-       "name": "Globe Telecom (GTI Corporation)",
-       "slug": "globe-telecom-gti-corporation",
-       "page": "https://coloprice.com/providers/globe-telecom-gti-corporation/",
-       "facilities": 7,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 5
-      },
-      {
-       "rank": 4,
-       "name": "VITRO",
-       "slug": "vitro",
-       "page": "https://coloprice.com/providers/vitro/",
-       "facilities": 5,
-       "mw": 0,
-       "mwCount": 0,
-       "cities": 5
-      },
-      {
-       "rank": 5,
-       "name": "Converge ICT Solutions Inc.",
-       "slug": "converge-ict-solutions-inc",
-       "page": "https://coloprice.com/providers/converge-ict-solutions-inc/",
-       "facilities": 4,
-       "mw": 12,
-       "mwCount": 1,
-       "cities": 3
       }
      ]
     },
@@ -7187,7 +7187,7 @@
     }
    },
    "facts": [
-    "Catalogue: 2318 operators, 6176 facilities in 184 countries (as of 2026-11-25)",
+    "Catalogue: 2320 operators, 6178 facilities in 184 countries (as of 2026-11-26)",
     "Largest by tracked facilities — #1 Equinix: 269 tracked facilities in 37 countries, 125 MW published (5 of 269 sites publish MW)",
     "Largest by tracked facilities — #2 Digital Realty: 231 tracked facilities in 29 countries, 290 MW published (13 of 231 sites publish MW)",
     "Largest by tracked facilities — #3 NTT Global Data Centers: 82 tracked facilities in 17 countries, 1,756 MW published (64 of 82 sites publish MW)",
@@ -7323,16 +7323,16 @@
     "United Arab Emirates (57 facilities, top 5) — #3 e& (Etisalat): 3 tracked facilities in undefined countries, 5 MW published (1 of 3 sites publish MW)",
     "United Arab Emirates (57 facilities, top 5) — #4 Moro Hub (Digital DEWA): 2 tracked facilities in undefined countries, 200 MW published (2 of 2 sites publish MW)",
     "United Arab Emirates (57 facilities, top 5) — #5 Gulf Data Hub: 2 tracked facilities in undefined countries, 53 MW published (2 of 2 sites publish MW)",
+    "Turkey (55 facilities, top 5) — #1 Turkcell: 4 tracked facilities in undefined countries, 30 MW published (1 of 4 sites publish MW)",
+    "Turkey (55 facilities, top 5) — #2 Vodafone Turkey: 4 tracked facilities in undefined countries",
+    "Turkey (55 facilities, top 5) — #3 Türk Telekom: 3 tracked facilities in undefined countries",
+    "Turkey (55 facilities, top 5) — #4 Equinix: 2 tracked facilities in undefined countries",
+    "Turkey (55 facilities, top 5) — #5 Mars Datacenter: 2 tracked facilities in undefined countries",
     "Chile (54 facilities, top 5) — #1 GTD: 8 tracked facilities in undefined countries, 8 MW published (1 of 8 sites publish MW)",
     "Chile (54 facilities, top 5) — #2 Scala Data Centers: 5 tracked facilities in undefined countries, 58 MW published (3 of 5 sites publish MW)",
     "Chile (54 facilities, top 5) — #3 Ascenty (Digital Realty): 5 tracked facilities in undefined countries, 42 MW published (3 of 5 sites publish MW)",
     "Chile (54 facilities, top 5) — #4 Equinix: 4 tracked facilities in undefined countries",
     "Chile (54 facilities, top 5) — #5 SONDA S.A.: 3 tracked facilities in undefined countries, 12 MW published (1 of 3 sites publish MW)",
-    "Turkey (54 facilities, top 5) — #1 Turkcell: 4 tracked facilities in undefined countries, 30 MW published (1 of 4 sites publish MW)",
-    "Turkey (54 facilities, top 5) — #2 Vodafone Turkey: 4 tracked facilities in undefined countries",
-    "Turkey (54 facilities, top 5) — #3 Türk Telekom: 3 tracked facilities in undefined countries",
-    "Turkey (54 facilities, top 5) — #4 Equinix: 2 tracked facilities in undefined countries",
-    "Turkey (54 facilities, top 5) — #5 Mars Datacenter: 2 tracked facilities in undefined countries",
     "New Zealand (51 facilities, top 5) — #1 Spark: 8 tracked facilities in undefined countries",
     "New Zealand (51 facilities, top 5) — #2 Datacom Group: 7 tracked facilities in undefined countries, 37 MW published (5 of 7 sites publish MW)",
     "New Zealand (51 facilities, top 5) — #3 TenPeaks Data Centres: 6 tracked facilities in undefined countries, 55 MW published (3 of 6 sites publish MW)",
@@ -7348,16 +7348,16 @@
     "Austria (48 facilities, top 5) — #3 Digital Realty: 3 tracked facilities in undefined countries",
     "Austria (48 facilities, top 5) — #4 eww: 3 tracked facilities in undefined countries",
     "Austria (48 facilities, top 5) — #5 BIK Breitbandinitiative Kärnten: 2 tracked facilities in undefined countries",
+    "Philippines (47 facilities, top 5) — #1 STT GDC Philippines: 9 tracked facilities in undefined countries, 242 MW published (9 of 9 sites publish MW)",
+    "Philippines (47 facilities, top 5) — #2 ePLDT (VITRO Inc.): 7 tracked facilities in undefined countries, 117 MW published (4 of 7 sites publish MW)",
+    "Philippines (47 facilities, top 5) — #3 Globe Telecom (GTI Corporation): 7 tracked facilities in undefined countries",
+    "Philippines (47 facilities, top 5) — #4 VITRO: 5 tracked facilities in undefined countries",
+    "Philippines (47 facilities, top 5) — #5 Converge ICT Solutions Inc.: 4 tracked facilities in undefined countries, 12 MW published (1 of 4 sites publish MW)",
     "Vietnam (47 facilities, top 5) — #1 Viettel IDC: 11 tracked facilities in undefined countries, 230 MW published (3 of 11 sites publish MW)",
     "Vietnam (47 facilities, top 5) — #2 VNPT: 8 tracked facilities in undefined countries",
     "Vietnam (47 facilities, top 5) — #3 CMC Telecom: 5 tracked facilities in undefined countries, 30 MW published (1 of 5 sites publish MW)",
     "Vietnam (47 facilities, top 5) — #4 FPT: 5 tracked facilities in undefined countries",
     "Vietnam (47 facilities, top 5) — #5 Eco Data Center: 2 tracked facilities in undefined countries",
-    "Philippines (46 facilities, top 5) — #1 STT GDC Philippines: 9 tracked facilities in undefined countries, 242 MW published (9 of 9 sites publish MW)",
-    "Philippines (46 facilities, top 5) — #2 ePLDT (VITRO Inc.): 7 tracked facilities in undefined countries, 117 MW published (4 of 7 sites publish MW)",
-    "Philippines (46 facilities, top 5) — #3 Globe Telecom (GTI Corporation): 7 tracked facilities in undefined countries",
-    "Philippines (46 facilities, top 5) — #4 VITRO: 5 tracked facilities in undefined countries",
-    "Philippines (46 facilities, top 5) — #5 Converge ICT Solutions Inc.: 4 tracked facilities in undefined countries, 12 MW published (1 of 4 sites publish MW)",
     "Colombia (45 facilities, top 5) — #1 HostDime: 3 tracked facilities in undefined countries, 9 MW published (1 of 3 sites publish MW)",
     "Colombia (45 facilities, top 5) — #2 Aligned Data Centers: 3 tracked facilities in undefined countries, 2 MW published (1 of 3 sites publish MW)",
     "Colombia (45 facilities, top 5) — #3 InterNexa: 3 tracked facilities in undefined countries",

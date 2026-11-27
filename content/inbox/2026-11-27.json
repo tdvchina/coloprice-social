@@ -1,0 +1,407 @@
+{
+  "generated": "2026-11-27T11:00:26.501Z",
+  "windowHours": 72,
+  "feeds": [
+    {
+      "id": "aws",
+      "ok": true,
+      "items": 100,
+      "kept": 0
+    },
+    {
+      "id": "capacity",
+      "ok": true,
+      "items": 10,
+      "kept": 3
+    },
+    {
+      "id": "dcd",
+      "ok": true,
+      "items": 20,
+      "kept": 16
+    },
+    {
+      "id": "dcf",
+      "ok": true,
+      "items": 25,
+      "kept": 2
+    },
+    {
+      "id": "dck",
+      "ok": true,
+      "items": 50,
+      "kept": 0
+    },
+    {
+      "id": "dcpost",
+      "ok": true,
+      "items": 100,
+      "kept": 5
+    },
+    {
+      "id": "dcr",
+      "ok": true,
+      "items": 20,
+      "kept": 2
+    },
+    {
+      "id": "equinix",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "nextplatform",
+      "ok": true,
+      "items": 86,
+      "kept": 0
+    },
+    {
+      "id": "nvidia",
+      "ok": true,
+      "items": 20,
+      "kept": 0
+    },
+    {
+      "id": "register",
+      "ok": true,
+      "items": 50,
+      "kept": 0
+    },
+    {
+      "id": "sth",
+      "ok": true,
+      "items": 6,
+      "kept": 0
+    },
+    {
+      "id": "uptime",
+      "ok": true,
+      "items": 10,
+      "kept": 0
+    },
+    {
+      "id": "wmedia",
+      "ok": true,
+      "items": 10,
+      "kept": 9
+    }
+  ],
+  "items": [
+    {
+      "id": "b0214d0857b6",
+      "title": "KT Cloud signs 60MW lease at data center in Ansan, South Korea",
+      "url": "https://www.datacenterdynamics.com/en/news/kt-cloud-signs-60mw-lease-at-data-center-in-ansan-south-korea",
+      "date": "2026-11-26T15:00:41.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Data center being developed by Keppel Ltd",
+      "figures": [
+        "60MW"
+      ],
+      "score": 13
+    },
+    {
+      "id": "0b50681958bc",
+      "title": "Etix launches 23MW data center in Bangkok, Thailand",
+      "url": "https://www.datacenterdynamics.com/en/news/etix-launches-23mw-data-center-in-bangkok-thailand",
+      "date": "2026-11-26T12:51:43.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company's second facility in the Thai capital",
+      "figures": [
+        "23MW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "fd141ea3b4a1",
+      "title": "India's state-owned natural gas company seeks investment partner for data center project",
+      "url": "https://www.datacenterdynamics.com/en/news/indias-state-owned-natural-gas-company-seeks-investment-partner-for-data-center-project",
+      "date": "2026-11-26T12:45:09.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Company aims to develop 5MW+ facility at compressor station in Faridabad, Haryana",
+      "figures": [
+        "5MW"
+      ],
+      "score": 10
+    },
+    {
+      "id": "ade3ffb53066",
+      "title": "Chaince Digital launches AI data center unit, targets projects up to 100MW",
+      "url": "https://www.datacenterdynamics.com/en/news/chaince-digital-launches-ai-data-center-unit-targets-projects-up-to-100mw",
+      "date": "2026-11-27T10:05:54.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Chaince Compute partners with Bit Lake in Texas",
+      "figures": [
+        "100MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "ab27dc8dcb6d",
+      "title": "Why data centre CFOs need to price in grid delays",
+      "url": "https://datacentrereview.com/2026/11/why-data-centre-cfos-need-to-price-in-grid-delays",
+      "date": "2026-11-27T08:00:00.000Z",
+      "publisher": "Data Centre Review",
+      "feed": "dcr",
+      "kind": "trade",
+      "summary": "Grid delays can leave data centre capital tied up before revenue starts. Salute's Clarence Philipneri sets out what finance leaders should consider.",
+      "figures": [],
+      "score": 8
+    },
+    {
+      "id": "e416e1541568",
+      "title": "500MW data center project planned outside San Diego, California",
+      "url": "https://www.datacenterdynamics.com/en/news/500mw-data-center-project-planned-outside-san-diego-california",
+      "date": "2026-11-26T17:03:28.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Spanish renewable firm Ignis behind project",
+      "figures": [
+        "500MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "c71b3487c7c1",
+      "title": "Pennsylvania police arrest suspects over threats to Olyphant council after controversial data center vote",
+      "url": "https://www.datacenterdynamics.com/en/news/pennsylvania-police-arrest-suspects-over-threats-to-olyphant-council-after-controversial-data-center-vote",
+      "date": "2026-11-26T14:49:01.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Threats tied to a up to 1GW project in Lackawanna County",
+      "figures": [
+        "1GW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "2c3623085b2c",
+      "title": "Japanese property firms back renewable data center in Hokkaido",
+      "url": "https://w.media/japanese-property-firms-back-renewable-data-center-in-hokkaido",
+      "date": "2026-11-26T13:46:30.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Three Japanese real estate firms, Daibiru Corporation, Sankei Building Co., Ltd, and Osaka Gas Urban Development Co., Ltd, have announced their intention to invest in Ishikari Renewable Energy Data Center No.1, a 15 MW facility located in Ishikari City, Hokkaido. According to announcements made by the trio, the companies will make an investment into Ishikari […]",
+      "figures": [
+        "15 MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "0d8fb5cc58da",
+      "title": "Tecto announces TREC1, its first data center in Recife, Brazil",
+      "url": "https://www.datacenterdynamics.com/en/news/tecto-announces-trec1-its-first-data-center-in-recife-and-connects-pernambuco-to-its-operations-in-fortaleza",
+      "date": "2026-11-26T12:47:36.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The facility will have an initial capacity of 1MW, scalable up to 6MW",
+      "figures": [
+        "1MW",
+        "6MW"
+      ],
+      "score": 8
+    },
+    {
+      "id": "f60709206550",
+      "title": "Nexent Capital unveils US$ 1 billion quantum-ready AI infrastructure fund",
+      "url": "https://w.media/nexent-capital-unveils-us-1-billion-quantum-ready-ai-infrastructure-fund",
+      "date": "2026-11-27T09:00:29.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Nexent Capital IFSC Private Limited, an Indian financial services firm, has announced the launch of the Nexent Capital ADGM Fund I, a closed-end fund targeting US$ 1 billion in capital commitments, expandable up to US$ 1.6 billion, for quantum-ready artificial intelligence infrastructure and advanced energy investment. As explained in a press release, the fund is […]",
+      "figures": [
+        "$ 1 billion",
+        "$ 1.6 billion"
+      ],
+      "score": 7
+    },
+    {
+      "id": "d9e0f79e004c",
+      "title": "Prologis sells industrial facility to Fluidstack for data center in Pennsylvania",
+      "url": "https://www.datacenterdynamics.com/en/news/prologis-sells-industrial-facility-to-fluidstack-for-data-center-in-pennsylvania",
+      "date": "2026-11-26T14:30:36.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Property sold for $162.9m",
+      "figures": [
+        "$162.9m"
+      ],
+      "score": 7
+    },
+    {
+      "id": "98d939439edd",
+      "title": "Indian gas giant GAIL seeks partner for data center joint venture",
+      "url": "https://w.media/indian-gas-giant-gail-seeks-partner-for-data-center-joint-venture",
+      "date": "2026-11-26T11:35:29.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "GAIL, the Indian state-owned natural gas company, is reportedly set to enter the data center industry by way of an equal joint venture with a strategic partner it is yet to select, leveraging its national fiber network and land banks to build facilities throughout India. As reported by the Economic Times, GAIL will establish a […]",
+      "figures": [],
+      "score": 7
+    },
+    {
+      "id": "f658d9c4579a",
+      "title": "IQM to deliver Radiance R3 quantum computer to QAI data center in South Korea",
+      "url": "https://www.datacenterdynamics.com/en/news/iqm-to-deliver-radiance-r3-quantum-computer-to-qai-data-center-in-south-korea",
+      "date": "2026-11-26T12:41:51.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "System to be delivered by end of 2027",
+      "figures": [],
+      "score": 6
+    },
+    {
+      "id": "033a908a2955",
+      "title": "Sponsored: How Akashi Data Center is preparing for the AI era",
+      "url": "https://www.datacenterdynamics.com/en/product-news/how-akashi-data-center-is-preparing-for-the-ai-era",
+      "date": "2026-11-27T08:00:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The strategy centers on direct liquid cooling, Astana’s harsh climate, and a modular 100MW data center campus",
+      "figures": [
+        "100MW"
+      ],
+      "score": 5
+    },
+    {
+      "id": "e212fa1d4053",
+      "title": "Nvidia backs startup developing chiller-free data center cooling system",
+      "url": "https://www.datacenterdynamics.com/en/news/nvidia-backs-startup-developing-chiller-free-data-center-cooling-system",
+      "date": "2026-11-26T17:07:51.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Y Combinator venture Madrone secures $500k seed funding",
+      "figures": [
+        "$500k"
+      ],
+      "score": 5
+    },
+    {
+      "id": "281ed43bdeee",
+      "title": "Modern data center cooling",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/modern-data-center-cooling",
+      "date": "2026-11-26T16:20:41.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Everything you need to know about liquid cooling",
+      "figures": [],
+      "score": 5
+    },
+    {
+      "id": "f77cfbcccbc6",
+      "title": "Ramon.Space raises $124m Series B after claiming “Earth-grade” computing in space",
+      "url": "https://www.datacenterdynamics.com/en/news/ramonspace-raises-124m-series-b-after-claiming-earth-grade-computing-in-space",
+      "date": "2026-11-27T10:19:12.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Compute integrator to scale the creation of the processing foundation to accelerate the space economy",
+      "figures": [
+        "$124m"
+      ],
+      "score": 4
+    },
+    {
+      "id": "4ee00ba6f2fd",
+      "title": "Google to fund Ohio Grid upgrades to expand transmission capacity",
+      "url": "https://w.media/google-to-fund-ohio-grid-upgrades-to-expand-transmission-capacity",
+      "date": "2026-11-27T04:57:24.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "Google and Ohio Power Company, a unit of American Electric Power, have requested Ohio regulators to approve a US$ 10.8 million transmission upgrade in Columbus, Ohio, with Google covering the full additional cost. The project would reduce electricity losses during transmission and slightly lower transmission costs for other customers. According to a press release, the […]",
+      "figures": [
+        "$ 10.8 million"
+      ],
+      "score": 4
+    },
+    {
+      "id": "064bfd7b11c7",
+      "title": "FCC authorizes SpaceX to deploy 1 million orbital data centers",
+      "url": "https://w.media/fcc-authorizes-spacex-to-deploy-1-million-orbital-data-centers",
+      "date": "2026-11-27T03:30:52.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "SpaceX has received U.S. regulatory approval from the Federal Communications Commission (FCC) to deploy 1 million computing modules in orbit, allowing the company to pursue a large scale network of space based data centers designed to process data for use on Earth. According to a press release, the authorization covers a proposed constellation called Starmind, […]",
+      "figures": [
+        "1 million"
+      ],
+      "score": 4
+    },
+    {
+      "id": "6fb1c98ce057",
+      "title": "UK Government seeks a senior official to lead AI data center infrastructure and investment",
+      "url": "https://w.media/uk-government-seeks-a-senior-official-to-lead-ai-data-center-infrastructure-and-investment",
+      "date": "2026-11-27T01:20:40.000Z",
+      "publisher": "W.Media",
+      "feed": "wmedia",
+      "kind": "trade",
+      "summary": "The UK government is seeking a Private Secretary to the Minister for AI, to oversee data center infrastructure and investment as part of its national artificial intelligence strategy. The job carries an annual salary of £48,913 (US$ 64,144), with an additional employer pension contribution of £14,170 (US$ 18,581). According to a civil service job post, […]",
+      "figures": [
+        "$ 64,144",
+        "$ 18,581"
+      ],
+      "score": 4
+    },
+    {
+      "id": "b9bda423c383",
+      "title": "University of Augsburg breaks ground on data center at Augsburg Innovation Park, Germany",
+      "url": "https://www.datacenterdynamics.com/en/news/university-of-augsburg-breaks-ground-on-new-data-center-at-augsburg-innovation-park-germany",
+      "date": "2026-11-26T14:50:00.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Scheduled for completion in 2029",
+      "figures": [],
+      "score": 4
+    },
+    {
+      "id": "42a3ac2edcf0",
+      "title": "RBC Signals secures $10m investment from national security-focused private investor",
+      "url": "https://www.datacenterdynamics.com/en/news/rbc-signals-secures-10m-investment-from-national-security-focused-private-investor",
+      "date": "2026-11-26T15:00:41.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "Funds will be used to grow RBC’s government services and bring new products to market",
+      "figures": [
+        "$10m"
+      ],
+      "score": 3
+    },
+    {
+      "id": "3d2aae45a601",
+      "title": "Compass could pause $380m ABS transaction due to investor rout after outage - report",
+      "url": "https://www.datacenterdynamics.com/en/news/compass-could-pause-380m-abs-transaction-due-to-investor-rout-after-outage-report",
+      "date": "2026-11-26T12:38:57.000Z",
+      "publisher": "DCD",
+      "feed": "dcd",
+      "kind": "trade",
+      "summary": "The developer could push the transaction to 2027",
+      "figures": [
+        "$380m"
+      ],
+      "score": 3
+    }
+  ]
+}
